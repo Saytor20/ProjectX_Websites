@@ -1,6 +1,12 @@
 import type { Metadata } from 'next'
+import React from 'react'
 import { Inter, Playfair_Display } from 'next/font/google'
 import './globals.css'
+import './theme'
+import { ThemeProvider } from '@/theme/ThemeProvider';
+import '@/theme/variables.css';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -87,8 +93,12 @@ export default function RootLayout({
         <meta name="theme-color" content="#0F0F0F" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       </head>
-      <body className="luxury-serif">
-        {children}
+      <body className="luxury-serif bg-[var(--color-background)] text-[var(--color-on-surface)]">
+        <ThemeProvider>
+          <Header fixed transparent />
+          {children}
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   )

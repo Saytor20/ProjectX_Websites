@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
-import { ThemeProvider } from '@mui/material/styles';
-import CssBaseline from '@mui/material/CssBaseline';
-import { theme } from './theme';
+import { ThemeProvider } from '@/theme/ThemeProvider';
+import '@/theme/variables.css';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -28,9 +27,8 @@ export default function RootLayout({
         <meta name="theme-color" content="#FF6B35" />
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
       </head>
-      <body>
-        <ThemeProvider theme={theme}>
-          <CssBaseline />
+      <body className="bg-[var(--color-background)] text-[var(--color-on-surface)]">
+        <ThemeProvider>
           {children}
         </ThemeProvider>
       </body>

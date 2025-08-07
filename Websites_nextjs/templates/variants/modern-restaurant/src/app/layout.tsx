@@ -1,12 +1,13 @@
 import type { Metadata } from 'next';
-import { ThemeProvider } from '@mui/material/styles';
-import CssBaseline from '@mui/material/CssBaseline';
-import { theme } from './theme';
 import './globals.css';
+import { ThemeProvider } from '@/theme/ThemeProvider';
+import '@/theme/variables.css';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'NEON KITCHEN - Future Dining Experience',
-  description: 'Step into the future of dining. Cutting-edge cuisine meets cyberpunk aesthetics in an unforgettable culinary adventure.',
+  title: 'Modern Restaurant - Contemporary Dining Experience',
+  description: 'Experience contemporary dining with warm, vibrant flavors and modern culinary techniques in a welcoming atmosphere.',
 };
 
 export default function RootLayout({
@@ -21,17 +22,14 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" 
           rel="stylesheet" 
         />
-        <link 
-          href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" 
-          rel="stylesheet" 
-        />
-        <meta name="theme-color" content="#FF6B35" />
+        <meta name="theme-color" content="#dc2626" />
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
       </head>
-      <body>
-        <ThemeProvider theme={theme}>
-          <CssBaseline />
+      <body className="bg-[var(--color-background)] text-[var(--color-on-surface)]">
+        <ThemeProvider>
+          <Header fixed transparent />
           {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

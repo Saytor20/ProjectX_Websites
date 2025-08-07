@@ -18,4 +18,24 @@ export interface RestaurantData {
   aboutImage?: string;
   menu: MenuItem[];
   gallery?: string[];
+  logo?: string;
+  brand?: { 
+    primary: string; 
+    surface: string; 
+    onPrimary: string; 
+    onSurface: string; 
+    accent?: string;
+  };
+  social?: { 
+    facebook?: string; 
+    instagram?: string; 
+    twitter?: string; 
+    tiktok?: string;
+  };
+  hours?: Array<{ 
+    day: string; 
+    open: string; 
+    close: string; 
+  }>;
+  locationUrl?: string;
 }

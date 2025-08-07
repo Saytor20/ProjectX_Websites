@@ -1,0 +1,43 @@
+/* Default warm theme variables */
+:root {
+  /* Colors */
+  --color-primary: #ea580c; /* orange-600 */
+  --color-primary-hover: #dc2626; /* red-600 */
+  --color-secondary: #f97316; /* orange-500 */
+  --color-surface: #ffffff;
+  --color-surface-elevated: #f8fafc;
+  --color-on-primary: #ffffff;
+  --color-on-secondary: #ffffff;
+  --color-on-surface: #0f172a; /* slate-900 */
+  --color-accent: #f59e0b; /* amber-500 */
+  --color-background: #fff7ed; /* orange-50 */
+  --color-border: #fed7aa; /* orange-200 */
+
+  /* Layout */
+  --container-max: 80rem; /* 1280px */
+  --gutter-x: 1rem;
+  --section-y: 4rem;
+  --header-height: 5rem;
+  --border-radius: 0.75rem;
+
+  /* Typography */
+  --font-body: Inter, system-ui, sans-serif;
+  --font-heading: Inter, system-ui, sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 4rem;
+}
+

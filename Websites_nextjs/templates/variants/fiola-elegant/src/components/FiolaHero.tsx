@@ -6,7 +6,7 @@ const FiolaHero = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-warm-white via-cream to-soft-gray/20 overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[var(--color-background)] via-[var(--color-surface)] to-[var(--color-surface-elevated)] overflow-hidden">
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${restaurantData.heroImage})` }}
@@ -14,12 +14,12 @@ const FiolaHero = () => {
         <div className="absolute inset-0 bg-black/40"></div>
       </div>
       
-      <div className="container mx-auto px-4 lg:px-8 text-center relative z-10">
+      <div className="max-w-[var(--container-max)] mx-auto px-[var(--gutter-x)] text-center relative z-10">
         <div className="max-w-4xl mx-auto">
           {/* Established Date */}
           <div className="flex justify-center mb-8">
-            <div className="bg-wine-red/10 backdrop-blur-sm rounded-full px-6 py-2">
-              <p className="text-wine-red font-medium tracking-widest uppercase text-sm">
+            <div className="bg-[var(--color-primary)]/10 backdrop-blur-sm rounded-full px-6 py-2">
+              <p className="text-[var(--color-primary)] font-medium tracking-widest uppercase text-sm">
                 Established Restaurant
               </p>
             </div>
@@ -28,7 +28,7 @@ const FiolaHero = () => {
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-light text-white mb-6 leading-tight">
             Welcome to 
-            <span className="block italic font-serif text-amber-400">
+            <span className="block italic font-[var(--font-heading)] text-[var(--color-accent)]">
               {restaurantData.name}
             </span>
             <span className="block font-semibold text-3xl md:text-4xl lg:text-5xl mt-4">

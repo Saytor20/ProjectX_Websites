@@ -1,12 +1,10 @@
 'use client';
 import { useEffect } from 'react';
-import FiolaHeader from '../components/FiolaHeader';
 import FiolaHero from '../components/FiolaHero';
 import About from '@/components/About';
 import Menu from '@/components/Menu';
 import Gallery from '@/components/Gallery';
 import Contact from '@/components/Contact';
-import Footer from '@/components/Footer';
 
 export default function Home() {
   useEffect(() => {
@@ -20,14 +18,12 @@ export default function Home() {
   }, []);
 
   return (
-    <main>
-      <FiolaHeader />
+    <main className="min-h-screen">
       <FiolaHero />
       <About />
-      <Menu />
+      <Menu variant="clean-list" />
       <Gallery />
       <Contact />
-      <Footer />
     </main>
   );
 }

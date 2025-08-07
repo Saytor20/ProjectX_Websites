@@ -21,15 +21,13 @@ export default function Home() {
   }, []);
 
   return (
-    <main>
-      <BBQHeader />
+    <main className="min-h-screen">
       <BBQHero />
       <BBQGrid />
       <About />
-      <Menu />
+      <Menu variant="pictures" />
       <Gallery />
       <Contact />
-      <BBQFooter />
     </main>
   );
 }

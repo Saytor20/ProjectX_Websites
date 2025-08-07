@@ -1,11 +1,12 @@
 import type { Metadata } from 'next';
-import { ThemeProvider } from '@mui/material/styles';
-import CssBaseline from '@mui/material/CssBaseline';
-import { theme } from './theme';
 import './globals.css';
+import { ThemeProvider } from '@/theme/ThemeProvider';
+import '@/theme/variables.css';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Classic Dining - Traditional Fine Cuisine',
+  title: 'Fiola Elegant - Fine Dining Experience',
   description: 'Experience timeless elegance with our traditional fine dining cuisine, crafted with classical techniques and premium ingredients.',
 };
 
@@ -22,10 +23,11 @@ export default function RootLayout({
           rel="stylesheet" 
         />
       </head>
-      <body>
-        <ThemeProvider theme={theme}>
-          <CssBaseline />
+      <body className="bg-[var(--color-background)] text-[var(--color-on-surface)]">
+        <ThemeProvider>
+          <Header fixed transparent />
           {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

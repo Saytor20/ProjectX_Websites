@@ -105,7 +105,21 @@ class WebsiteBuilder {
             heroImage: restaurant_info.photo_url || restaurant_info.cover_photo || 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
             aboutImage: restaurant_info.about_image || restaurant_info.photo_url || 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
             menu: transformedMenu,
-            gallery: gallery
+            gallery: gallery,
+            logo: restaurant_info.logo_url || undefined,
+            brand: restaurant_info.brand || undefined,
+            social: {
+                facebook: contact_info.facebook || restaurant_info.facebook || undefined,
+                instagram: contact_info.instagram || restaurant_info.instagram || undefined,
+                twitter: contact_info.twitter || restaurant_info.twitter || undefined,
+                tiktok: contact_info.tiktok || restaurant_info.tiktok || undefined,
+            },
+            hours: restaurant_info.hours || contact_info.hours || undefined,
+            locationUrl: restaurant_info.maps_url || restaurant_info.location_url || (
+                restaurant_info.coordinates && restaurant_info.coordinates.latitude && restaurant_info.coordinates.longitude
+                    ? `https://maps.google.com/?q=${restaurant_info.coordinates.latitude},${restaurant_info.coordinates.longitude}`
+                    : undefined
+            ),
         };
     }
 
