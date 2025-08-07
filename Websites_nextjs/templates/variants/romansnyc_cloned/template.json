@@ -1,0 +1,13 @@
+{
+  "name": "Romans NYC Cloned",
+  "description": "Authentic Brooklyn neighborhood Italian restaurant template cloned from Romans NYC. Features ingredient-driven design, farm-to-table aesthetic, warm community feel, and sustainable restaurant presentation. Perfect for neighborhood Italian restaurants.",
+  "category": "Neighborhood Italian",
+  "style": "Community Farm-to-Table", 
+  "colors": {
+    "primary": "#2B1810",
+    "secondary": "#F8F6F0",
+    "accent": "#E8D5B7",
+    "background": "#FFFFFF"
+  },
+  "recommended_for": ["neighborhood_italian", "farm_to_table", "brooklyn_style", "community_restaurant"]
+}

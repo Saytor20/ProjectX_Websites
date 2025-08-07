@@ -1,0 +1,236 @@
+{
+  "restaurant_info": {
+    "id": "142757",
+    "name": "Khaliat Khalid",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2577945,
+      "longitude": 42.5942155
+    },
+    "rating": 4.6,
+    "review_count": 162,
+    "type_of_food": "Desserts,Arabic,Coffee",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/142757"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Semolina Croissant",
+        "item_ar": "Semolina Croissant",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Luxurious croissants made with semolina dough, filled with soft cream cheese, topped with warm caramel and roasted nuts\"",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/72977a62421241e28fdfe1718345f536.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 73891166
+      },
+      {
+        "item_en": "Khaliat Cinnabon",
+        "item_ar": "Khaliat Cinnabon",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Honeycomb filled with rich cream cheese, covered in soft cinnamon and cinnamon roll sauce",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/141564/PRODUCT/62215825/68fc28fb-2f7f-47ba-aa2f-6856268bd38d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62215825
+      },
+      {
+        "item_en": "Khaliat Karmpl Caramel",
+        "item_ar": "Khaliat Karmpl Caramel",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Honeycomb filled with cream cheese with a layer of caramel sauce and a layer of caramelized nuts",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/141564/PRODUCT/62215826/c51d2095-3e26-47c5-a5c3-0807b599d46d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62215826
+      },
+      {
+        "item_en": "Khaliat Cheesy Classic - Condensed Milk",
+        "item_ar": "Khaliat Cheesy Classic - Condensed Milk",
+        "price": 33,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62215821
+      }
+    ],
+    "Main Dishes": [
+      {
+        "item_en": "Khaliat Cinnabon",
+        "item_ar": "Khaliat Cinnabon",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Honeycomb filled with rich cream cheese, covered in soft cinnamon and cinnamon roll sauce",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/141564/PRODUCT/62215825/68fc28fb-2f7f-47ba-aa2f-6856268bd38d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62215825
+      },
+      {
+        "item_en": "Khaliat Karmpl Caramel",
+        "item_ar": "Khaliat Karmpl Caramel",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Honeycomb filled with cream cheese with a layer of caramel sauce and a layer of caramelized nuts",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/141564/PRODUCT/62215826/c51d2095-3e26-47c5-a5c3-0807b599d46d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62215826
+      },
+      {
+        "item_en": "Khaliat Cheese Cake",
+        "item_ar": "Khaliat Cheese Cake",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Innovative honeycomb filled with cream cheese balls, covered with golden crispy biscuit layer, topped with blueberry sauce and strawberry sauce",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/142756/PRODUCT/62215827/490df390-c2d4-4c90-9a35-8db29b571b42.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62215827
+      },
+      {
+        "item_en": "Khaliat Nutella Zatar",
+        "item_ar": "Khaliat Nutella Zatar",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Innovative honeycomb filled with cream cheese balls covered in aromatic thyme flavor mixed with rich nutella sweetness",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/141564/PRODUCT/62215828/a6999858-4765-4ae9-a27c-0755a18dcc79.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62215828
+      },
+      {
+        "item_en": "Khaliat Kanafa",
+        "item_ar": "Khaliat Kanafa",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Cream cheese filled honeycomb balls covered with toasted kunafa and a mix of pistachio sauce and nutella",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/cd5096589758a33699bb0487c0443877.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62215831
+      },
+      {
+        "item_en": "Khaliat Signature Benz",
+        "item_ar": "Khaliat Signature Benz",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Honeycomb filled with rich cream cheese with a layer of special caramelized benz sauce",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/141564/PRODUCT/62215832/e4d9afcd-8619-4bbe-8f12-920ca9bfb0d6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62215832
+      },
+      {
+        "item_en": "Khaliat Cheesy Classic - Sugar Syrup",
+        "item_ar": "Khaliat Cheesy Classic - Sugar Syrup",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Classic honeycomb filled with rich cream cheese, with syrup, dates molasses, or condensed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/226d5592302f4d5b82b5622524deda82.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62215819
+      },
+      {
+        "item_en": "Khaliat Cheesy Classic - Dates Syrup",
+        "item_ar": "Khaliat Cheesy Classic - Dates Syrup",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Classic honeycomb filled with rich cream cheese, with syrup, dates molasses, or condensed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/226d5592302f4d5b82b5622524deda82.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62215820
+      },
+      {
+        "item_en": "Khaliat Cheesy Classic - Condensed Milk",
+        "item_ar": "Khaliat Cheesy Classic - Condensed Milk",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Classic honeycomb filled with rich cream cheese, with syrup, dates molasses, or condensed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/226d5592302f4d5b82b5622524deda82.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62215821
+      },
+      {
+        "item_en": "Khaliat Bar Classic - Sugar Syrup",
+        "item_ar": "Khaliat Bar Classic - Sugar Syrup",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Classic honeycomb made with premium whole wheat flour, filled with rich cream cheese, with syrup, dates molasses, or condensed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/3c76af4ac78df08774bfeafe9da3ddc5.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62215822
+      },
+      {
+        "item_en": "Khaliat Bar Classic - Dates Syrup",
+        "item_ar": "Khaliat Bar Classic - Dates Syrup",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Classic honeycomb made with premium whole wheat flour, filled with rich cream cheese, with syrup, dates molasses, or condensed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/3c76af4ac78df08774bfeafe9da3ddc5.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62215823
+      },
+      {
+        "item_en": "Khaliat Bar Classic - Condensed Milk",
+        "item_ar": "Khaliat Bar Classic - Condensed Milk",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Classic honeycomb made with premium whole wheat flour, filled with rich cream cheese, with syrup, dates molasses, or condensed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/3c76af4ac78df08774bfeafe9da3ddc5.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62215824
+      }
+    ],
+    "Side Dishes": [
+      {
+        "item_en": "Muthalithat Alkhalia",
+        "item_ar": "Muthalithat Alkhalia",
+        "price": 26,
+        "currency": "SAR",
+        "description": "A mix of honeycomb flavors filled with cream cheese, sesame, black seed, cinnamon rolls, vanilla, saudi coffee, chocolate, thyme, cheesecake",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/146679/PRODUCT/62215834/16d05168-8fc1-485d-bc45-f4a278c573ff.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62215834
+      },
+      {
+        "item_en": "Kika",
+        "item_ar": "Kika",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Sponge cake topped with caramel sauce mixed with coconut",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/142852/PRODUCT/62215842/1463ad9e-6447-4ef1-8e0a-619ea17565bf.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62215842
+      },
+      {
+        "item_en": "Semolina Croissant",
+        "item_ar": "Semolina Croissant",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Luxurious croissants made with semolina dough, filled with soft cream cheese, topped with warm caramel and roasted nuts\"",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/72977a62421241e28fdfe1718345f536.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 73891166
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.037Z",
+  "source": "Hungerstation"
+}

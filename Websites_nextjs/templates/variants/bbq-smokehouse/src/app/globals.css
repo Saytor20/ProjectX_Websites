@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FDF5E6;
+  --foreground: #2D2D2D;
+  --bbq-pink: 320deg 70% 50%;
+  --bbq-pink-light: 320deg 60% 75%;
+  --bbq-dark: 15deg 20% 15%;
+  --bbq-cream: 45deg 50% 95%;
+  --bbq-orange: 25deg 85% 55%;
+  --bbq-brown: 30deg 25% 40%;
+}
+
+@layer utilities {
+  .bbq-pink {
+    color: hsl(var(--bbq-pink));
+  }
+  .bbq-dark {
+    color: hsl(var(--bbq-dark));
+  }
+  .bbq-cream {
+    color: hsl(var(--bbq-cream));
+  }
+  .bg-bbq-pink {
+    background-color: hsl(var(--bbq-pink));
+  }
+  .bg-bbq-dark {
+    background-color: hsl(var(--bbq-dark));
+  }
+  .bg-bbq-cream {
+    background-color: hsl(var(--bbq-cream));
+  }
+  .bg-bbq-orange {
+    background-color: hsl(var(--bbq-orange));
+  }
+  .bg-bbq-brown {
+    background-color: hsl(var(--bbq-brown));
+  }
+  .border-bbq-pink {
+    border-color: hsl(var(--bbq-pink));
+  }
+  .border-bbq-brown {
+    border-color: hsl(var(--bbq-brown));
+  }
+  .hover-scale:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

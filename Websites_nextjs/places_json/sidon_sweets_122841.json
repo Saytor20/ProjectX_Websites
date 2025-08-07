@@ -1,0 +1,507 @@
+{
+  "restaurant_info": {
+    "id": "122841",
+    "name": "Sidon Sweets",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2331369,
+      "longitude": 42.504137
+    },
+    "rating": 4.7,
+    "review_count": 75,
+    "type_of_food": "Desserts",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/122841"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Blueberry Cake",
+        "item_ar": "Blueberry Cake",
+        "price": 122,
+        "currency": "SAR",
+        "description": "For lovers of blueberries between the fluffy cake layers and the excellence cream",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44846430?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44846430
+      },
+      {
+        "item_en": "Petit Four",
+        "item_ar": "Petit Four",
+        "price": 97,
+        "currency": "SAR",
+        "description": "Taste the difference with us in luxurious and beautiful ingredients",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44846414?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44846414
+      },
+      {
+        "item_en": "Mango Cake",
+        "item_ar": "Mango Cake",
+        "price": 122,
+        "currency": "SAR",
+        "description": "Layer of fresh mango and excellence cream, rich in mango taste",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44846428?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44846428
+      },
+      {
+        "item_en": "Mixed Baklawa",
+        "item_ar": "Mixed Baklawa",
+        "price": 85,
+        "currency": "SAR",
+        "description": "Fluffy baklawa with pistachios and arabic ghee",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44846416?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44846416
+      }
+    ],
+    "For Happy Occasions": [
+      {
+        "item_en": "Delightful Cake",
+        "item_ar": "Delightful Cake",
+        "price": 92,
+        "currency": "SAR",
+        "description": "A cake for every tender and delicate moment suitable for gifting and celebrating your loved ones adding joy and happiness to your moment",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/2fd24fbd90ed5c1d7db2485d5cb000df?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75121284
+      }
+    ],
+    "Graduation Cakes": [
+      {
+        "item_en": "Graduation Theme Cake",
+        "item_ar": "Graduation Theme Cake",
+        "price": 92,
+        "currency": "SAR",
+        "description": "Graduation theme cake filled with delicious and tasty cream in our own special way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/d38d36714f7968f60d8334f5c261453f?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70994880
+      }
+    ],
+    "Your Summer Cold": [
+      {
+        "item_en": "Mango Cake",
+        "item_ar": "Mango Cake",
+        "price": 122,
+        "currency": "SAR",
+        "description": "Layer of fresh mango and excellence cream, rich in mango taste",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44846428?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44846428
+      },
+      {
+        "item_en": "Jacaranda Magic Cake",
+        "item_ar": "Jacaranda Magic Cake",
+        "price": 85,
+        "currency": "SAR",
+        "description": "Jacaranda magic cake is rich with vanilla cream and raspberry flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/ffe50999993700ff8c2785d98fc2c7c4?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71703911
+      }
+    ],
+    "Sidon's Distinctive Products": [
+      {
+        "item_en": "Macron Box",
+        "item_ar": "Macron Box",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Macron box with today's patriotic theme",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/55591443?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 55591443
+      },
+      {
+        "item_en": "Cupcake Box",
+        "item_ar": "Cupcake Box",
+        "price": 45,
+        "currency": "SAR",
+        "description": "Cupcake box with national theme",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/55626413?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 55626413
+      },
+      {
+        "item_en": "Luxurious Chocolate Cake",
+        "item_ar": "Luxurious Chocolate Cake",
+        "price": 85,
+        "currency": "SAR",
+        "description": "Delicious excellence cream covers layers of cake and luxurious chocolate",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/62410125?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62410125
+      },
+      {
+        "item_en": "Oreo Dessert",
+        "item_ar": "Oreo Dessert",
+        "price": 58,
+        "currency": "SAR",
+        "description": "Taste the difference with us in beautiful premium ingredients and belgian chocolate",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/62459967?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62459967
+      },
+      {
+        "item_en": "Crunchy Dessert",
+        "item_ar": "Crunchy Dessert",
+        "price": 55,
+        "currency": "SAR",
+        "description": "Crunchy dessert in sidon's special style",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/62910801?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62910801
+      },
+      {
+        "item_en": "Coffee Dessert",
+        "item_ar": "Coffee Dessert",
+        "price": 80,
+        "currency": "SAR",
+        "description": "Coffee dessert is a distinctive dessert with special flavors prepared with a lot of love in our own way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/62910802?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62910802
+      }
+    ],
+    "Chocolate": [
+      {
+        "item_en": "Chocolate - Kilo",
+        "item_ar": "Chocolate - Kilo",
+        "price": 203,
+        "currency": "SAR",
+        "description": "Luxury belgian chocolate with various fillings",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1101344?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 49397519
+      },
+      {
+        "item_en": "Chocolate - Half A Kilo",
+        "item_ar": "Chocolate - Half A Kilo",
+        "price": 102,
+        "currency": "SAR",
+        "description": "Luxury belgian chocolate with various fillings",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1101344?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 49397520
+      },
+      {
+        "item_en": "Chocolate - A Quarter Of A Kilo",
+        "item_ar": "Chocolate - A Quarter Of A Kilo",
+        "price": 52,
+        "currency": "SAR",
+        "description": "Luxury belgian chocolate with various fillings",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1101344?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 49401112
+      },
+      {
+        "item_en": "Golden Chocolate Plate",
+        "item_ar": "Golden Chocolate Plate",
+        "price": 142,
+        "currency": "SAR",
+        "description": "Luxury belgian chocolate with various fillings",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d53ca93edd268921f53f812cd06f38a8.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44846436
+      },
+      {
+        "item_en": "Silver Chocolate Plate",
+        "item_ar": "Silver Chocolate Plate",
+        "price": 142,
+        "currency": "SAR",
+        "description": "Luxury belgian chocolate with various fillings",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/861282686112b9066425a1d598c1d245.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44846437
+      }
+    ],
+    "Chocolate Serving Plates": [
+      {
+        "item_en": "Small Size Plate Of Chocolate For Newborn Boys",
+        "item_ar": "Small Size Plate Of Chocolate For Newborn Boys",
+        "price": 142,
+        "currency": "SAR",
+        "description": "Luxury belgian chocolate with various fillings",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/1db6c26845f998e65422b455de8672e0.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44846438
+      },
+      {
+        "item_en": "Small Size Plate  Of Chocolate For Newborn Girls",
+        "item_ar": "Small Size Plate  Of Chocolate For Newborn Girls",
+        "price": 142,
+        "currency": "SAR",
+        "description": "Luxury belgian chocolate with various fillings",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/a91a0da4994feeec79e07d8699d56af6.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44846439
+      }
+    ],
+    "Khafayef Sidon": [
+      {
+        "item_en": "Croissant Box",
+        "item_ar": "Croissant Box",
+        "price": 90,
+        "currency": "SAR",
+        "description": "Rich and buttery baked croissant with multiple fillings of chicken sumac labneh cucumber luncheon chicken lettuce, and cheddar cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/49808990?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 49808990
+      },
+      {
+        "item_en": "Fatayir Miniy Birjar",
+        "item_ar": "Fatayir Miniy Birjar",
+        "price": 65,
+        "currency": "SAR",
+        "description": "Mini burger pie with multiple fillings of chicken sumac labneh cucumber luncheon chicken lettuce and cheddar cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/49888678?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 49888678
+      }
+    ],
+    "Dessert Box": [
+      {
+        "item_en": "Petit Four",
+        "item_ar": "Petit Four",
+        "price": 97,
+        "currency": "SAR",
+        "description": "Taste the difference with us in luxurious and beautiful ingredients",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44846414?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44846414
+      },
+      {
+        "item_en": "Choco Four",
+        "item_ar": "Choco Four",
+        "price": 85,
+        "currency": "SAR",
+        "description": "Crisp and delicious chocolate biscuits filled with various flavors and covered with luxurious belgian chocolate.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44846415?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44846415
+      },
+      {
+        "item_en": "Mixed Baklawa",
+        "item_ar": "Mixed Baklawa",
+        "price": 85,
+        "currency": "SAR",
+        "description": "Fluffy baklawa with pistachios and arabic ghee",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44846416?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44846416
+      },
+      {
+        "item_en": "Mixed Finger Baklawa",
+        "item_ar": "Mixed Finger Baklawa",
+        "price": 85,
+        "currency": "SAR",
+        "description": "Fluffy baklawa with cashews and arabic ghee, topped with various flavors",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44846417?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44846417
+      },
+      {
+        "item_en": "Mini Ma'amoul",
+        "item_ar": "Mini Ma'amoul",
+        "price": 100,
+        "currency": "SAR",
+        "description": "Small pieces of date ma'amoul with arabic ghee, one of the finest types of dates",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44846418?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44846418
+      },
+      {
+        "item_en": "Medium Salty Crackers",
+        "item_ar": "Medium Salty Crackers",
+        "price": 60,
+        "currency": "SAR",
+        "description": "Selection of high-quality salty crackers in the style of the past",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44846419?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44846419
+      },
+      {
+        "item_en": "Truffles And Lotus Balls",
+        "item_ar": "Truffles And Lotus Balls",
+        "price": 72,
+        "currency": "SAR",
+        "description": "Taste the difference with us in beautiful premium ingredients and belgian chocolate",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44846420?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44846420
+      },
+      {
+        "item_en": "Assorted Maamoul Box",
+        "item_ar": "Assorted Maamoul Box",
+        "price": 93,
+        "currency": "SAR",
+        "description": "Assorted maamoul box with the best and finest ingredients",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/69095115?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69095115
+      }
+    ],
+    "Cake": [
+      {
+        "item_en": "Salted Caramel Cake",
+        "item_ar": "Salted Caramel Cake",
+        "price": 85,
+        "currency": "SAR",
+        "description": "Delicious excellence cream covers layers of cake and luxurious salted caramel",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44846426?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44846426
+      },
+      {
+        "item_en": "Blueberry Cake",
+        "item_ar": "Blueberry Cake",
+        "price": 122,
+        "currency": "SAR",
+        "description": "For lovers of blueberries between the fluffy cake layers and the excellence cream",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44846430?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44846430
+      },
+      {
+        "item_en": "Chocolate English Cake",
+        "item_ar": "Chocolate English Cake",
+        "price": 42,
+        "currency": "SAR",
+        "description": "For lovers of soft sponge with delicious nutella cream",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44846432?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44846432
+      },
+      {
+        "item_en": "Pistachio English Cake",
+        "item_ar": "Pistachio English Cake",
+        "price": 42,
+        "currency": "SAR",
+        "description": "For lovers of soft sponge with delicious pistachio cream",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44846433?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44846433
+      },
+      {
+        "item_en": "Blue Velvet Cake",
+        "item_ar": "Blue Velvet Cake",
+        "price": 85,
+        "currency": "SAR",
+        "description": "Delicious excellence cream covers layers of luxurious blue velvet cake",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/64956953?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64956953
+      }
+    ],
+    "Bakeries": [
+      {
+        "item_en": "Large Pastry Plate",
+        "item_ar": "Large Pastry Plate",
+        "price": 90,
+        "currency": "SAR",
+        "description": "Variety  of pie dough dishes with various fillings",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44846412?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44846412
+      },
+      {
+        "item_en": "Pie Cup Box",
+        "item_ar": "Pie Cup Box",
+        "price": 80,
+        "currency": "SAR",
+        "description": "Milk pie dough and various fillings",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44846410?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44846410
+      }
+    ],
+    "Serving Dish": [
+      {
+        "item_en": "Baklawa",
+        "item_ar": "Baklawa",
+        "price": 142,
+        "currency": "SAR",
+        "description": "Fluffy baklawa  with pistachios, cashews and arabic ghee, topped with various flavors",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/192e2689de78bfd6a467dbaa69f508c4.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44846421
+      },
+      {
+        "item_en": "Ma'amoul Tray",
+        "item_ar": "Ma'amoul Tray",
+        "price": 130,
+        "currency": "SAR",
+        "description": "Small pieces of date ma'amoul  with arabic ghee, prepared from the finest types of dates",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44846422?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44846422
+      },
+      {
+        "item_en": "Petit Four",
+        "item_ar": "Petit Four",
+        "price": 117,
+        "currency": "SAR",
+        "description": "Taste the difference with us in beautiful premium ingredients",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44846423?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44846423
+      },
+      {
+        "item_en": "Large Salty Crackers",
+        "item_ar": "Large Salty Crackers",
+        "price": 93,
+        "currency": "SAR",
+        "description": "Selection of high-quality salty crackers in the style of the past",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/b69dde69fd4848108bb1c88684dffd60.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44846425
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.035Z",
+  "source": "Hungerstation"
+}

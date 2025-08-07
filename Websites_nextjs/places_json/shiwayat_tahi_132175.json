@@ -1,0 +1,275 @@
+{
+  "restaurant_info": {
+    "id": "132175",
+    "name": "Shiwayat Tahi",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2583578,
+      "longitude": 42.6348363
+    },
+    "rating": 4.3,
+    "review_count": 400,
+    "type_of_food": "Arabic,Saudi",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/132175"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Grilled Chicken With Abu Bint Rice - Half A Chicken",
+        "item_ar": "Grilled Chicken With Abu Bint Rice - Half A Chicken",
+        "price": 28.5,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54756995
+      },
+      {
+        "item_en": "Cola",
+        "item_ar": "Cola",
+        "price": 4,
+        "currency": "SAR",
+        "description": "The soft drink with a unique and refreshing flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/54757013?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54757013
+      },
+      {
+        "item_en": "Chef's Sauce",
+        "item_ar": "Chef's Sauce",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Sauce prepared with delicious spices and a rich flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/54757009?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54757009
+      },
+      {
+        "item_en": "Cucumber Yogurt",
+        "item_ar": "Cucumber Yogurt",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Cucumber salad with yogurt",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/54757010?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54757010
+      }
+    ],
+    "Salads": [
+      {
+        "item_en": "Chef's Sauce",
+        "item_ar": "Chef's Sauce",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Sauce prepared with delicious spices and a rich flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/54757009?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54757009
+      },
+      {
+        "item_en": "Cucumber Yogurt",
+        "item_ar": "Cucumber Yogurt",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Cucumber salad with yogurt",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/54757010?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54757010
+      },
+      {
+        "item_en": "Tahini",
+        "item_ar": "Tahini",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Fresh tahini salad",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/132111/PRODUCT/54757012/26db09ce-4b72-4f1f-97e1-64f62f9cafe7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54757012
+      },
+      {
+        "item_en": "Maabouj Sauce 1",
+        "item_ar": "Maabouj Sauce 1",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Red pepper + sesame paste",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/55222918?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 55222918
+      },
+      {
+        "item_en": "Chef Spices",
+        "item_ar": "Chef Spices",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Basbas adani_ carrie mahran",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/56121022?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56121022
+      }
+    ],
+    "Main Dishes": [
+      {
+        "item_en": "Plain Grill - Half A Chicken",
+        "item_ar": "Plain Grill - Half A Chicken",
+        "price": 20.5,
+        "currency": "SAR",
+        "description": "Grilled chicken with chef's marinade without rice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1137460?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54756997
+      },
+      {
+        "item_en": "Plain Madbi - Half A Chicken",
+        "item_ar": "Plain Madbi - Half A Chicken",
+        "price": 20.5,
+        "currency": "SAR",
+        "description": "Grilled chicken on the stone with chef's marinade without rice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1137463?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54757003
+      },
+      {
+        "item_en": "Grilled Chicken With Abu Bint Rice - Half A Chicken",
+        "item_ar": "Grilled Chicken With Abu Bint Rice - Half A Chicken",
+        "price": 28.5,
+        "currency": "SAR",
+        "description": "Grilled chicken with chef's marinade and abu bint rice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/2bb17787464416144d8a749884156d1c.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54756995
+      },
+      {
+        "item_en": "Madbi Chicken With Abu Bint Rice - Half A Chicken",
+        "item_ar": "Madbi Chicken With Abu Bint Rice - Half A Chicken",
+        "price": 28.5,
+        "currency": "SAR",
+        "description": "Grilled chicken on the stone with chef's marinade and abu bint rice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/e8e402b62b21b518144a4d123858a030.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54757001
+      },
+      {
+        "item_en": "Plain Grill - Whole Chicken",
+        "item_ar": "Plain Grill - Whole Chicken",
+        "price": 41,
+        "currency": "SAR",
+        "description": "Grilled chicken with chef's marinade without rice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1137460?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54756996
+      },
+      {
+        "item_en": "Plain Madbi - Whole Chicken",
+        "item_ar": "Plain Madbi - Whole Chicken",
+        "price": 41,
+        "currency": "SAR",
+        "description": "Grilled chicken on the stone with chef's marinade without rice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1137463?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54757002
+      },
+      {
+        "item_en": "Grilled Chicken With Abu Bint Rice - Whole Chicken",
+        "item_ar": "Grilled Chicken With Abu Bint Rice - Whole Chicken",
+        "price": 57,
+        "currency": "SAR",
+        "description": "Grilled chicken with chef's marinade and abu bint rice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/2bb17787464416144d8a749884156d1c.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54756994
+      },
+      {
+        "item_en": "Madbi Chicken With Abu Bint Rice - Whole Chicken",
+        "item_ar": "Madbi Chicken With Abu Bint Rice - Whole Chicken",
+        "price": 57,
+        "currency": "SAR",
+        "description": "Grilled chicken on the stone with chef's marinade and abu bint rice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/e8e402b62b21b518144a4d123858a030.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54757000
+      }
+    ],
+    "Rice": [
+      {
+        "item_en": "Abu Bint Rice",
+        "item_ar": "Abu Bint Rice",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Abu bint white rice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d6756dadd854643827d3ca84dfd3cecf.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54757006
+      }
+    ],
+    "Beverages": [
+      {
+        "item_en": "Cola",
+        "item_ar": "Cola",
+        "price": 4,
+        "currency": "SAR",
+        "description": "The soft drink with a unique and refreshing flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/54757013?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54757013
+      },
+      {
+        "item_en": "Water",
+        "item_ar": "Water",
+        "price": 1.5,
+        "currency": "SAR",
+        "description": "Pure and refreshing fresh drinking water",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/9f8322b15e021598f900fac34f896019.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54757014
+      },
+      {
+        "item_en": "Alqariyah Laban",
+        "item_ar": "Alqariyah Laban",
+        "price": 4,
+        "currency": "SAR",
+        "description": "A refreshing and beneficial fresh laban drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/736b524f94f75946424e57d08e6bbcb3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54757016
+      }
+    ],
+    "Desserts": [
+      {
+        "item_en": "Cream Oven",
+        "item_ar": "Cream Oven",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Oven-baked caramel crème caramel",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/132175/PRODUCT/54757017/9cc5199f-5a51-4185-8469-12a76068cf13.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54757017
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.029Z",
+  "source": "Hungerstation"
+}

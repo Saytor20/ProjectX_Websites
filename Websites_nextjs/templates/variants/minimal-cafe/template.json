@@ -1,0 +1,34 @@
+{
+  "id": "minimal-cafe",
+  "name": "Cool Minimal Cafe",
+  "description": "Sophisticated minimal design with cool aesthetics, perfect for modern cafes, artisan coffee shops, and upscale tea houses",
+  "version": "2.0.0",
+  "framework": "nextjs",
+  "language": "typescript",
+  "styling": "tailwind+mui",
+  "recommended_for": ["cafe", "bakery", "coffee-shop", "tea-house", "artisan-cafe", "specialty-coffee"],
+  "features": [
+    "responsive-design",
+    "typescript",
+    "minimal-design",
+    "sophisticated-aesthetics",
+    "cool-color-palette",
+    "modern-typography",
+    "subtle-animations",
+    "glass-morphism",
+    "menu-display",
+    "elegant-gallery",
+    "contact-form",
+    "bilingual-support"
+  ],
+  "structure": {
+    "template_type": "variant",
+    "uses_shared": true,
+    "custom_files": [
+      "src/app/layout.tsx",
+      "src/app/page.tsx", 
+      "src/app/globals.css",
+      "src/app/theme.ts"
+    ]
+  }
+}

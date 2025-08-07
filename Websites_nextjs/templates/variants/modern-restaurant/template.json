@@ -1,0 +1,44 @@
+{
+  "id": "modern-restaurant",
+  "name": "Cyberpunk Modern Restaurant",
+  "description": "Futuristic restaurant website with cyberpunk aesthetics, neon colors, and cutting-edge design perfect for modern establishments",
+  "version": "2.0.0",
+  "framework": "nextjs",
+  "language": "typescript",
+  "styling": "tailwind+mui",
+  "recommended_for": ["modern-restaurant", "fusion-cuisine", "tech-dining", "upscale-casual", "contemporary"],
+  "features": [
+    "responsive-design",
+    "typescript",
+    "cyberpunk-ui",
+    "neon-effects",
+    "animated-backgrounds",
+    "glitch-effects",
+    "loading-animations",
+    "hero-sections",
+    "menu-display",
+    "gallery",
+    "contact-form",
+    "about-section",
+    "dark-theme",
+    "gradient-accents",
+    "bilingual-support"
+  ],
+  "color_scheme": {
+    "primary": "#FF6B35",
+    "secondary": "#4ECDC4", 
+    "accent": "#6C5CE7",
+    "background": "#0A0A0B",
+    "surface": "#1A1A1D"
+  },
+  "structure": {
+    "template_type": "variant",
+    "uses_shared": true,
+    "custom_files": [
+      "src/app/layout.tsx",
+      "src/app/page.tsx", 
+      "src/app/globals.css",
+      "src/app/theme.ts"
+    ]
+  }
+} 

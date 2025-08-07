@@ -1,0 +1,192 @@
+{
+  "restaurant_info": {
+    "id": "154737",
+    "name": "UTURN",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.18756638923239,
+      "longitude": 42.66287910674561
+    },
+    "rating": 0,
+    "review_count": 0,
+    "type_of_food": "Desserts,Beverages,Coffee",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/154737"
+  },
+  "menu_categories": {
+    "Beverages": [
+      {
+        "item_en": "Water",
+        "item_ar": "Water",
+        "price": 2,
+        "currency": "SAR",
+        "description": "Pure and refreshing fresh drinking water",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/4db3a5b219ed7d1c9fd690eec1ac40c2.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74632547
+      },
+      {
+        "item_en": "Coffee Day - Small",
+        "item_ar": "Coffee Day - Small",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Coffee from the finest ethiopian coffee beans",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/05e82fecbaf96a137ebbc699c7899d23.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74632541
+      },
+      {
+        "item_en": "Cold Brew - Small",
+        "item_ar": "Cold Brew - Small",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Cold brewed coffee from the finest ethiopian coffee beans",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/cf4cae81d82609a27ae13f49f86e5a4e.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74632543
+      },
+      {
+        "item_en": "Karkidih - Small",
+        "item_ar": "Karkidih - Small",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Hibiscus drink with ice cubes",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/d8363238b85c7fc6a464681a62ddb53f.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74632545
+      },
+      {
+        "item_en": "Coffee Day - Large",
+        "item_ar": "Coffee Day - Large",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Coffee from the finest ethiopian coffee beans",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/05e82fecbaf96a137ebbc699c7899d23.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74632542
+      },
+      {
+        "item_en": "Cold Brew - Large",
+        "item_ar": "Cold Brew - Large",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Cold brewed coffee from the finest ethiopian coffee beans",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/cf4cae81d82609a27ae13f49f86e5a4e.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74632544
+      },
+      {
+        "item_en": "Karkidih - Large",
+        "item_ar": "Karkidih - Large",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Hibiscus drink with ice cubes",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/d8363238b85c7fc6a464681a62ddb53f.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74632546
+      }
+    ],
+    "Boxes": [
+      {
+        "item_en": "Coffee Box",
+        "item_ar": "Coffee Box",
+        "price": 60,
+        "currency": "SAR",
+        "description": "Coffee box made with the finest ethiopian coffee",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/5fc17b1edc8c4ca15b3092badda03f0c.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74632548
+      },
+      {
+        "item_en": "Hibiscus Box",
+        "item_ar": "Hibiscus Box",
+        "price": 75,
+        "currency": "SAR",
+        "description": "Cold hibiscus box",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/5fc17b1edc8c4ca15b3092badda03f0c.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74632549
+      }
+    ],
+    "Desserts": [
+      {
+        "item_en": "Signature Uturn",
+        "item_ar": "Signature Uturn",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Signature danish dessert with caramel",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/2348c133ef8f3c9edd9faefd63192a80.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74632550
+      },
+      {
+        "item_en": "Chocolate Waffle",
+        "item_ar": "Chocolate Waffle",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Waffles with chocolate sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/905c1e199069bd9e3f5ea4587988497f.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74632551
+      },
+      {
+        "item_en": "Salted Brownies",
+        "item_ar": "Salted Brownies",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Chocolate brownie pieces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/1bbddbdec42707cee5f161fb12f22abb.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74632552
+      },
+      {
+        "item_en": "Chocopin",
+        "item_ar": "Chocopin",
+        "price": 17,
+        "currency": "SAR",
+        "description": "Uturn's signature chocolate dessert",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/44e1059186df6c0db0b829c643ba25c4.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74632553
+      },
+      {
+        "item_en": "Pizza",
+        "item_ar": "Pizza",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Airplane style neapolitan pizza",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/7c8ecaa8ad7769d64ce5136f9dd21248.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74632554
+      },
+      {
+        "item_en": "Pizza Ranch",
+        "item_ar": "Pizza Ranch",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Airplane style neapolitan pizza with ranch",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/7c8ecaa8ad7769d64ce5136f9dd21248.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74632555
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.030Z",
+  "source": "Hungerstation"
+}

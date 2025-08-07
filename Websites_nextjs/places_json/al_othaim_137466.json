@@ -1,0 +1,34 @@
+{
+  "restaurant_info": {
+    "id": "137466",
+    "name": "Al Othaim",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2409588,
+      "longitude": 42.5758921
+    },
+    "rating": 4.2,
+    "review_count": 4967,
+    "type_of_food": "Supermarkets",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/137466"
+  },
+  "menu_categories": {
+    "Quickmarketmenugroup": [
+      {
+        "item_en": "Menu Item",
+        "item_ar": "Menu Item",
+        "price": 1,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66152135
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.037Z",
+  "source": "Hungerstation"
+}

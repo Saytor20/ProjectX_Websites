@@ -1,0 +1,582 @@
+{
+  "restaurant_info": {
+    "id": "77695",
+    "name": "Pinzatta - Better than Pizza",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2692892,
+      "longitude": 42.6571635
+    },
+    "rating": 4.3,
+    "review_count": 53,
+    "type_of_food": "Sandwich,Fast Food,Italian,Healthy,Pizza",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/77695"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Pinzatta Party Set",
+        "item_ar": "Pinzatta Party Set",
+        "price": 152.31,
+        "currency": "SAR",
+        "description": "Choice of 2 pizzas 2 sandwiches and 4 drinks 330 ml with a limited time offer",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/84b7e31b6e36906d05e8d503eadd101c.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 55355666
+      },
+      {
+        "item_en": "Hs Exclusive Combo Offer",
+        "item_ar": "Hs Exclusive Combo Offer",
+        "price": 60,
+        "currency": "SAR",
+        "description": "Enjoy a filling meal with 1 pizza 1 drink and 1 potato wedges at a discounted price",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/5e24b5af8d9a8f64796a532effd57214.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47037794
+      },
+      {
+        "item_en": "Pinzatta Set Of 3",
+        "item_ar": "Pinzatta Set Of 3",
+        "price": 73.75,
+        "currency": "SAR",
+        "description": "Choose any 3 authentic pinzatta bread sandwiches",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/66ae5b366a013e3b14514a37faa30edc.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51592917
+      },
+      {
+        "item_en": "La Margarita",
+        "item_ar": "La Margarita",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Original tomato sauce with mozzarella cheese and fresh basil",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/904cb0404f44aed1e82c6e1360ca8fd3.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 23836362
+      }
+    ],
+    "Pinzatta Combo": [
+      {
+        "item_en": "Hs Exclusive Combo Offer",
+        "item_ar": "Hs Exclusive Combo Offer",
+        "price": 60,
+        "currency": "SAR",
+        "description": "Enjoy a filling meal with 1 pizza 1 drink and 1 potato wedges at a discounted price",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/5e24b5af8d9a8f64796a532effd57214.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47037794
+      }
+    ],
+    "Pinzatta Party Set": [
+      {
+        "item_en": "Pinzatta Party Set",
+        "item_ar": "Pinzatta Party Set",
+        "price": 152.31,
+        "currency": "SAR",
+        "description": "Choice of 2 pizzas 2 sandwiches and 4 drinks 330 ml with a limited time offer",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/84b7e31b6e36906d05e8d503eadd101c.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 55355666
+      }
+    ],
+    "Sandwich Set Of 3": [
+      {
+        "item_en": "Pinzatta Set Of 3",
+        "item_ar": "Pinzatta Set Of 3",
+        "price": 73.75,
+        "currency": "SAR",
+        "description": "Choose any 3 authentic pinzatta bread sandwiches",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/66ae5b366a013e3b14514a37faa30edc.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51592917
+      }
+    ],
+    "Sandwich Set Of 5": [
+      {
+        "item_en": "Pinzatta Set Of 5",
+        "item_ar": "Pinzatta Set Of 5",
+        "price": 118.7,
+        "currency": "SAR",
+        "description": "Choose any 5 authentic pinzatta bread sandwiches",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/416b140518098cf8d34862329f5f9fa8.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51592918
+      }
+    ],
+    "Pizza": [
+      {
+        "item_en": "La Margarita",
+        "item_ar": "La Margarita",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Original tomato sauce with mozzarella cheese and fresh basil",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/904cb0404f44aed1e82c6e1360ca8fd3.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 23836362
+      },
+      {
+        "item_en": "Better Than Veggies",
+        "item_ar": "Better Than Veggies",
+        "price": 45,
+        "currency": "SAR",
+        "description": "Original tomato sauce topped with mozzarella cheese mixed with pesto sauce, grilled vegetables and caramelized onions topped with parmesan cheese and fresh basil leaves",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/f7638ea5a0ebefec8a1af31ba8f29ca8.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 23836363
+      },
+      {
+        "item_en": "Pepperoni Please",
+        "item_ar": "Pepperoni Please",
+        "price": 45,
+        "currency": "SAR",
+        "description": "Original tomato sauce with delicious pepperoni pieces and mozzarella cheese topped with fresh basil leaves",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/8f3d5018b7cfd906ad89a7dc57dfd88f.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 23836364
+      },
+      {
+        "item_en": "Chicken Alfredo Dream",
+        "item_ar": "Chicken Alfredo Dream",
+        "price": 49,
+        "currency": "SAR",
+        "description": "Alfredo sauce mozzerella cheese parmesan cheese fresh rocca grilled sliced chicken portobello mushrooms",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/de91476297d5758e543e1c59c545ea8b.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 23836365
+      },
+      {
+        "item_en": "Rocca Chicken",
+        "item_ar": "Rocca Chicken",
+        "price": 49,
+        "currency": "SAR",
+        "description": "Grilled chicken slices with pesto sauce added to parmesan and mozzarella cheese topped with tomatoes and fresh rocca",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/91ae886435cddf805a54c8034b3e12d8.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 23836366
+      },
+      {
+        "item_en": "Burrata Pesto",
+        "item_ar": "Burrata Pesto",
+        "price": 59,
+        "currency": "SAR",
+        "description": "Original tomato sauce covered with fresh burrata and mozzarella cheese mixed with pesto sauce with basil leaves",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/cc808fe7233944c8dfeed388c02b73cd.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 23836367
+      },
+      {
+        "item_en": "More Than A Burrata",
+        "item_ar": "More Than A Burrata",
+        "price": 59,
+        "currency": "SAR",
+        "description": "Tomato sauce topped with burrata and mozzarella cheese with basil leaves and fresh cherry tomatoes",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/eadeb3abba2a606a5050343a60135f7f.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 23836368
+      },
+      {
+        "item_en": "Roasted Mushroom",
+        "item_ar": "Roasted Mushroom",
+        "price": 45,
+        "currency": "SAR",
+        "description": "Original tomato sauce topped with mozzarella cheese roasted mushrooms pesto sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/35ce0ddef798eb964b5f185f1b3c12e4.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 26010694
+      },
+      {
+        "item_en": "Chicken Parmigiana New",
+        "item_ar": "Chicken Parmigiana New",
+        "price": 45,
+        "currency": "SAR",
+        "description": "Original tomato sauce topped with italian parmesan chicken tenders",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/0e0c682a01a4000b7a9122d00a24a38e.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 30205991
+      },
+      {
+        "item_en": "Pesto Chicken",
+        "item_ar": "Pesto Chicken",
+        "price": 45,
+        "currency": "SAR",
+        "description": "Original tomato sauce with our homemade pesto chicken and mozzarella cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/41fc94d10e1b723871d459749851f5eb.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48653943
+      },
+      {
+        "item_en": "Smoked Beef",
+        "item_ar": "Smoked Beef",
+        "price": 45,
+        "currency": "SAR",
+        "description": "Original tomato sauce with delicious smoked meat pieces and mozzarella cheese carmelized onions topped with basil leaves",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/4c497f1c2371d47d498dc47ce5a07fe3.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 60140638
+      }
+    ],
+    "Sandwiches": [
+      {
+        "item_en": "Pesto Chicken Sandwich",
+        "item_ar": "Pesto Chicken Sandwich",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Authentic pinzatta bread with pesto chicken sundried tomatoes rocca leaves mozzarella with mustard drops",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/4bb2ec58c31f74002a3c2d75ee6593f0.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 39673257
+      },
+      {
+        "item_en": "La Veggie Sandwich",
+        "item_ar": "La Veggie Sandwich",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Authentic pinzatta bread with roasted veggies roasted mushroom cheese rocca leaves mozzarella with pesto sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/c215152ddd29667d1466d90cbf9aa21c.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 39673258
+      },
+      {
+        "item_en": "La Burrata Sandwich",
+        "item_ar": "La Burrata Sandwich",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Authentic pinzatta bread with burrata sundried tomatoes rocca leaves mozzarella with pesto sauce and mustard drops",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/6c56e79868d646c206cee77d23a9e4c0.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 39673259
+      },
+      {
+        "item_en": "Philly Steak Sandwich",
+        "item_ar": "Philly Steak Sandwich",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Authentic pinzatta bread with philly steak white slice cheese roasted mushrooms mozzarella with ranch sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/466befccd81540245dcd84ce49daed94.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 39673260
+      },
+      {
+        "item_en": "Beef Pastrami",
+        "item_ar": "Beef Pastrami",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Authentic pinzatta bread with pastrami slices cheese pickles mozarella with mustard sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/74ae1737ecaf72135130b7897d97d031.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 43310867
+      },
+      {
+        "item_en": "Garlic Mayo Chicken Sandwich",
+        "item_ar": "Garlic Mayo Chicken Sandwich",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Authentic pinzatta bread with garlic chicken aioli rocca leaves mozzarella cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/18c7026842595be37c4933bd16b13445.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 60140640
+      },
+      {
+        "item_en": "Alfredo Chicken Sandwich",
+        "item_ar": "Alfredo Chicken Sandwich",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Authentic pinzatta bread with alfredo chicken mushrooms mozzarella cheese white cheese with alfredo sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/b0661372e44faee3181c174e87901d28.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 60140642
+      }
+    ],
+    "Appetizers": [
+      {
+        "item_en": "Burrata Salad",
+        "item_ar": "Burrata Salad",
+        "price": 35,
+        "currency": "SAR",
+        "description": "Rocca leaves with burrata cheese and pesto sauce with cherry tomatoes and balsamic vinaigrette",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/0116b0187ac78aa2748aeb9ebbbc4403.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 23836370
+      },
+      {
+        "item_en": "Italian Chicken Tenders (New)",
+        "item_ar": "Italian Chicken Tenders (New)",
+        "price": 22,
+        "currency": "SAR",
+        "description": "6 pieces of delicious italian parmesan chicken tenders",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/9301362858c9159d4c93b905c088e00b.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 30205992
+      },
+      {
+        "item_en": "Italian Garlic Cheese Bread",
+        "item_ar": "Italian Garlic Cheese Bread",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Authentic pinzatta bread with garlic butter and cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/d1643a6bf21705d6789a26d92b5d8caa.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57854985
+      },
+      {
+        "item_en": "Potato Wedges",
+        "item_ar": "Potato Wedges",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Golden slices of potato infused with herbs",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/08481db9d060b3197eed82b5c95cabd8.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 23836371
+      }
+    ],
+    "Dip Sauce": [
+      {
+        "item_en": "Dynamite Sauce",
+        "item_ar": "Dynamite Sauce",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Dynamite sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/fb287ba1623c6b3a22cba7679bc0556d.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75243848
+      }
+    ],
+    "Desserts": [
+      {
+        "item_en": "Chocolate Daydream",
+        "item_ar": "Chocolate Daydream",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Crispy pinzatta dough covered with smooth chocolate and crunchy pistachios",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/aef86b5894e457f4c4f843b27e7ef62d.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 23836372
+      },
+      {
+        "item_en": "Chocolate Cloud",
+        "item_ar": "Chocolate Cloud",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Crispy pinzatta dough covered with smooth chocolate",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/927a88594f0ab74ef35cd21072b4d370.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 23836373
+      },
+      {
+        "item_en": "Molten Chocolate Cake",
+        "item_ar": "Molten Chocolate Cake",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Double molten rich chocolate cake",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/5ca35ea4f2c24e72855061e89a96be87.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 60140664
+      }
+    ],
+    "Drinks": [
+      {
+        "item_en": "7 Up 360ml",
+        "item_ar": "7 Up 360ml",
+        "price": 5,
+        "currency": "SAR",
+        "description": "7 up can",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/eafc1240e1257257f5ec2e9a396d63c1.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61755976
+      },
+      {
+        "item_en": "7up Zero 360ml",
+        "item_ar": "7up Zero 360ml",
+        "price": 5,
+        "currency": "SAR",
+        "description": "7up zero",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/5c0ca724d1e176f1d79ca280e9851d0f.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61755977
+      },
+      {
+        "item_en": "Diet Pepsi",
+        "item_ar": "Diet Pepsi",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Diet pepsi",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/da55809449d58bf16aed24f130078301.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61755978
+      },
+      {
+        "item_en": "Mirinda Orange 360ml",
+        "item_ar": "Mirinda Orange 360ml",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Mirinda orange",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/e086f21b9c2dd75bf811a4d90c2b3ff6.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61755980
+      },
+      {
+        "item_en": "Pepsi Can",
+        "item_ar": "Pepsi Can",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Pepsi can",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/77c79b14e32d9670dec1e954c67e4088.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61755983
+      },
+      {
+        "item_en": "Mirinda Citrus 360ml",
+        "item_ar": "Mirinda Citrus 360ml",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Mirinda citrus",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/bd7e71c4a3fa2be4766c8a5ae5ead2e5.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61755985
+      },
+      {
+        "item_en": "Aquafina 500 Ml",
+        "item_ar": "Aquafina 500 Ml",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Aquafina 500 ml",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/31e42383a76277e143bb4b34d1aff844.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61755988
+      },
+      {
+        "item_en": "7 Up 1 Ltr",
+        "item_ar": "7 Up 1 Ltr",
+        "price": 8,
+        "currency": "SAR",
+        "description": "7 up 1 ltr",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/ef4a413993eb6e3e05e90bcf70027384.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61755991
+      },
+      {
+        "item_en": "Diet Pepsi 1 Ltr",
+        "item_ar": "Diet Pepsi 1 Ltr",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Diet pepsi",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/73d46271c69d55d4ad8867d7e4e58bf9.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61755996
+      },
+      {
+        "item_en": "Mirinda Orange 1 Ltr",
+        "item_ar": "Mirinda Orange 1 Ltr",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Mirinda orange",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/e6e930d31d20f4d3788f74f1b9e668fb.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61756000
+      },
+      {
+        "item_en": "Pepsi 1 Ltr",
+        "item_ar": "Pepsi 1 Ltr",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Pepsi 1 ltr",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/cea2070f1f4cd363bc8aa574f5b6a39d.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61756004
+      },
+      {
+        "item_en": "Mirinda Citrus 1 Ltr",
+        "item_ar": "Mirinda Citrus 1 Ltr",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Mirinda citrus",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/40a1bf08ea277356f52d25f31ab22490.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61756007
+      },
+      {
+        "item_en": "7 Up 2 25 Ltr",
+        "item_ar": "7 Up 2 25 Ltr",
+        "price": 12,
+        "currency": "SAR",
+        "description": "7 up 2 25 ltr",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/22bdc48c55bdbae31777e04f81bff068.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61756011
+      },
+      {
+        "item_en": "Pepsi 2 25 Ltr",
+        "item_ar": "Pepsi 2 25 Ltr",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Pepsi 2 25 ltr",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/4cd36d0dda11a13873d9311c2b65d040.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61756020
+      },
+      {
+        "item_en": "Mirinda Citrus 2 25 Ltr",
+        "item_ar": "Mirinda Citrus 2 25 Ltr",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Mirinda citrus 2 25 ltr",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Pin/67d1df3ac8f32f8c008004aad057ec21.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61756022
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.033Z",
+  "source": "Hungerstation"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "dhamaka-street-food",
+  "name": "Dhamaka Street Food",
+  "description": "Sophisticated cultural design inspired by Dhamaka NYC with minimalist aesthetics, asymmetrical layouts, and storytelling focus perfect for authentic cuisine",
+  "version": "2.0.0",
+  "framework": "nextjs",
+  "language": "typescript",
+  "styling": "tailwind+mui",
+  "recommended_for": ["street-food", "cultural-cuisine", "authentic-dining", "regional-specialties"],
+  "features": [
+    "responsive-design",
+    "typescript",
+    "asymmetrical-grid",
+    "minimalist-ui",
+    "storytelling-focus",
+    "clean-typography",
+    "high-contrast",
+    "press-integration",
+    "hero-sections",
+    "menu-display",
+    "gallery",
+    "contact-form",
+    "about-section",
+    "light-theme",
+    "cultural-authenticity",
+    "bilingual-support"
+  ],
+  "color_scheme": {
+    "primary": "#1A1A1A",
+    "secondary": "#4A4A4A", 
+    "accent": "#D4A574",
+    "background": "#FFFFFF",
+    "surface": "#F9F9F9"
+  },
+  "structure": {
+    "template_type": "variant",
+    "uses_shared": true,
+    "custom_files": [
+      "src/app/layout.tsx",
+      "src/app/page.tsx", 
+      "src/app/globals.css",
+      "src/app/theme.ts"
+    ]
+  }
+} 

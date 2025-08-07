@@ -1,0 +1,25 @@
+{
+  "name": "Romans NYC Authentic",
+  "description": "Brooklyn neighborhood Italian restaurant template inspired by Romans NYC. Features warm, rustic design, farm-to-table aesthetics, community-focused atmosphere, and artisanal touches perfect for neighborhood establishments.",
+  "category": "Neighborhood Italian",
+  "style": "Rustic Community",
+  "colors": {
+    "primary": "#8B4513",
+    "secondary": "#DEB887",
+    "accent": "#FFFFFF",
+    "background": "#FEFEFE"
+  },
+  "features": [
+    "Warm rustic design",
+    "Farm-to-table emphasis",
+    "Community atmosphere",
+    "Artisanal typography",
+    "Brooklyn neighborhood vibe",
+    "Ingredient-driven focus",
+    "Sustainable messaging"
+  ],
+  "target": "Neighborhood restaurants, Italian eateries, farm-to-table establishments, community dining",
+  "demo_url": "",
+  "created_at": "2025-08-06",
+  "version": "1.0.0"
+}

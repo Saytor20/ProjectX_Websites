@@ -1,0 +1,194 @@
+{
+  "restaurant_info": {
+    "id": "110453",
+    "name": "Shawarma Shyf Aljabal",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2124286,
+      "longitude": 42.5361115
+    },
+    "rating": 4.1,
+    "review_count": 143,
+    "type_of_food": "Shawarma",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/110453"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Arabic Shawarma Mix",
+        "item_ar": "Arabic Shawarma Mix",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Arabic shawarma with our special recipe",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/fed745c0da63ffc69b7c9e30e00dccc8.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32837614
+      },
+      {
+        "item_en": "Shawarma Bites",
+        "item_ar": "Shawarma Bites",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Potato bread stuffed with shawarma",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32837613
+      },
+      {
+        "item_en": "Pepsi",
+        "item_ar": "Pepsi",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Refreshing soft drink pepsi",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/226842b0624068e5aceff8175d058fb6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32837616
+      },
+      {
+        "item_en": "Shawarma Sandwich - Small",
+        "item_ar": "Shawarma Sandwich - Small",
+        "price": 8,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32837611
+      }
+    ],
+    "Shawarma": [
+      {
+        "item_en": "Shawarma Bites",
+        "item_ar": "Shawarma Bites",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Potato bread stuffed with shawarma",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32837613
+      },
+      {
+        "item_en": "Arabic Shawarma Mix",
+        "item_ar": "Arabic Shawarma Mix",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Arabic shawarma with our special recipe",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/fed745c0da63ffc69b7c9e30e00dccc8.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32837614
+      },
+      {
+        "item_en": "Shawarma Sandwich - Small",
+        "item_ar": "Shawarma Sandwich - Small",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Saj bread stuffed with chicken shawarma and sauces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/e4ab0575bd7520bbae7cd0235f29bd43.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32837611
+      },
+      {
+        "item_en": "Shawarma Sandwich - Large",
+        "item_ar": "Shawarma Sandwich - Large",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Saj bread stuffed with chicken shawarma and sauces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/e4ab0575bd7520bbae7cd0235f29bd43.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32837612
+      },
+      {
+        "item_en": "Classic Arabic Shawarma - Small",
+        "item_ar": "Classic Arabic Shawarma - Small",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Sliced ​​saj bread stuffed with shawarma slices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/22642ec4e79bc2f113ac244b946963db.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32837609
+      },
+      {
+        "item_en": "Classic Arabic Shawarma - Large",
+        "item_ar": "Classic Arabic Shawarma - Large",
+        "price": 27,
+        "currency": "SAR",
+        "description": "Sliced ​​saj bread stuffed with shawarma slices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/22642ec4e79bc2f113ac244b946963db.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32837610
+      }
+    ],
+    "Side Dishes": [
+      {
+        "item_en": "Potato Plate",
+        "item_ar": "Potato Plate",
+        "price": 7,
+        "currency": "SAR",
+        "description": "A plate of crisp potato sticks",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/68f4139a6290e64ba6983a75f4eea367.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32837615
+      }
+    ],
+    "Beverages": [
+      {
+        "item_en": "Pepsi",
+        "item_ar": "Pepsi",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Refreshing soft drink pepsi",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/226842b0624068e5aceff8175d058fb6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32837616
+      },
+      {
+        "item_en": "Dew",
+        "item_ar": "Dew",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Refreshing soft drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/782c7ce10d4d327a7790f95bb8c55f33.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32837617
+      },
+      {
+        "item_en": "Citrus",
+        "item_ar": "Citrus",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Refreshing soft lemon drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/95dad853a749ee747ee4bae707a257c9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32837618
+      },
+      {
+        "item_en": "Water",
+        "item_ar": "Water",
+        "price": 2.5,
+        "currency": "SAR",
+        "description": "Natural, refreshing, and healthy water.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1046633?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32837619
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.034Z",
+  "source": "Hungerstation"
+}

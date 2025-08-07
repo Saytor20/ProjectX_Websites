@@ -1,0 +1,407 @@
+{
+  "restaurant_info": {
+    "id": "83339",
+    "name": "Shawarma Zone",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.23863705818601,
+      "longitude": 42.68177310978698
+    },
+    "rating": 3.7,
+    "review_count": 10,
+    "type_of_food": "Shawarma",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/83339"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Classic  Gathering",
+        "item_ar": "Classic  Gathering",
+        "price": 80,
+        "currency": "SAR",
+        "description": "A sandwich stuffed with pieces of marinated chicken",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-15139172?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 15139172
+      },
+      {
+        "item_en": "Mix Gathering",
+        "item_ar": "Mix Gathering",
+        "price": 80,
+        "currency": "SAR",
+        "description": "A special selection of shawarma pieces and crispy chicken pies with potatoes and special sauces.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-15139170?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 15139170
+      },
+      {
+        "item_en": "Arabzone Meal",
+        "item_ar": "Arabzone Meal",
+        "price": 28,
+        "currency": "SAR",
+        "description": "Arabic shawarma with bread, added with special spices and garlic, served with french fries and pickles",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-15139168?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 15139168
+      },
+      {
+        "item_en": "Iraqi Chicken Kebab",
+        "item_ar": "Iraqi Chicken Kebab",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Minced and spiced chicken grilled in the traditional way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/feaac85c5f4b2167cdb49a047653349f?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 26504878
+      }
+    ],
+    "Sandwiches": [
+      {
+        "item_en": "Zone Pie  - Sandwich",
+        "item_ar": "Zone Pie  - Sandwich",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Delicious pie dough stuffed with shawarma served with sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-641203?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 15139160
+      },
+      {
+        "item_en": "Zone Pie  - Meal",
+        "item_ar": "Zone Pie  - Meal",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Delicious pie dough stuffed with shawarma served with sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-641203?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 15139161
+      },
+      {
+        "item_en": "Brioche - Sandwich",
+        "item_ar": "Brioche - Sandwich",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Tender pieces of marinated chicken roasted and stuffed into brioche bread",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-641204?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 15139162
+      },
+      {
+        "item_en": "Brioche - Meal",
+        "item_ar": "Brioche - Meal",
+        "price": 32,
+        "currency": "SAR",
+        "description": "Tender pieces of marinated chicken roasted and stuffed into brioche bread",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-641204?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 15139163
+      },
+      {
+        "item_en": "Original Shawarma  - Original Shawarma",
+        "item_ar": "Original Shawarma  - Original Shawarma",
+        "price": 6.5,
+        "currency": "SAR",
+        "description": "Original shawarma",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-15139164?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 15139164
+      },
+      {
+        "item_en": "Classic - Classic",
+        "item_ar": "Classic - Classic",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Crispy fried spicy chicken sandwich",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-15139165?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 15139165
+      },
+      {
+        "item_en": "Kids Zone",
+        "item_ar": "Kids Zone",
+        "price": 21,
+        "currency": "SAR",
+        "description": "The kid 's meal consists of burger, potatoes and juice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-15139166?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 15139166
+      },
+      {
+        "item_en": "Lite Korsan",
+        "item_ar": "Lite Korsan",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Arabic shawarma with bread, added special spices and garlic",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-15139167?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 15139167
+      },
+      {
+        "item_en": "Arabzone Meal",
+        "item_ar": "Arabzone Meal",
+        "price": 28,
+        "currency": "SAR",
+        "description": "Arabic shawarma with bread, added with special spices and garlic, served with french fries and pickles",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-15139168?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 15139168
+      },
+      {
+        "item_en": "Big Zone",
+        "item_ar": "Big Zone",
+        "price": 13,
+        "currency": "SAR",
+        "description": "A sandwich prepared with chicken pieces and sauce.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-15139169?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 15139169
+      },
+      {
+        "item_en": "Original Shawarma  - With Cheese Sauce",
+        "item_ar": "Original Shawarma  - With Cheese Sauce",
+        "price": 7.5,
+        "currency": "SAR",
+        "description": "Sandwich stuffed with spiced shawarma pieces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-875268?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 26270917
+      },
+      {
+        "item_en": "Classic - With Turkish Sauce",
+        "item_ar": "Classic - With Turkish Sauce",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Crispy fried spicy chicken sandwich",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-875270?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 26270920
+      },
+      {
+        "item_en": "Classic - With Turkish Sauce",
+        "item_ar": "Classic - With Turkish Sauce",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Crispy fried spicy chicken sandwich",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-875270?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 26270921
+      },
+      {
+        "item_en": "Meat Burger Pie",
+        "item_ar": "Meat Burger Pie",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Delicious pie dough stuffed with beef burger",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/ce603355fceefbed22e271d95f6f6274?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 26504876
+      },
+      {
+        "item_en": "Iraqi Chicken Kebab",
+        "item_ar": "Iraqi Chicken Kebab",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Minced and spiced chicken grilled in the traditional way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/feaac85c5f4b2167cdb49a047653349f?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 26504878
+      },
+      {
+        "item_en": "Chicken Burger Pie Meal",
+        "item_ar": "Chicken Burger Pie Meal",
+        "price": 27,
+        "currency": "SAR",
+        "description": "Pie with chicken burger, french fries, drink",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/83339/PRODUCT/26504879/f7ba0da9-3034-4278-b96c-1a4edb35ca55.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 26504879
+      },
+      {
+        "item_en": "Meat Burger Pie Meal",
+        "item_ar": "Meat Burger Pie Meal",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Delicious pie dough stuffed with beef burger served with french fries and a drink",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/83339/PRODUCT/26504880/68145c25-49a0-46d2-92a7-0d775100088a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 26504880
+      },
+      {
+        "item_en": "Chicken Burger Pie",
+        "item_ar": "Chicken Burger Pie",
+        "price": 18,
+        "currency": "SAR",
+        "description": "A patty with carefully cooked chicken burger inside",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/6587b04156c8251ce0cc128f17e820ad?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 26504881
+      },
+      {
+        "item_en": "Iraqi Chicken Kebab Meal",
+        "item_ar": "Iraqi Chicken Kebab Meal",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Minced and spiced chicken grilled in the traditional way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7d52e8dcd3deae4f18a0baf475b53451?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 26504882
+      },
+      {
+        "item_en": "Saj Chicken Kebab Meal",
+        "item_ar": "Saj Chicken Kebab Meal",
+        "price": 29,
+        "currency": "SAR",
+        "description": "A skewer of minced chicken stuffed in bread",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/83339/PRODUCT/26974881/679a2d15-de44-4c72-aa4e-c4a6b7fc4086.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 26974881
+      },
+      {
+        "item_en": "Zone  Pie Shawarma Meal",
+        "item_ar": "Zone  Pie Shawarma Meal",
+        "price": 32,
+        "currency": "SAR",
+        "description": "Delicious pie dough stuffed with shawarma served with sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/a829263ad88219796cf3ac06416c7f57?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 26974882
+      }
+    ],
+    "Boxes": [
+      {
+        "item_en": "Mix Gathering",
+        "item_ar": "Mix Gathering",
+        "price": 80,
+        "currency": "SAR",
+        "description": "A special selection of shawarma pieces and crispy chicken pies with potatoes and special sauces.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-15139170?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 15139170
+      },
+      {
+        "item_en": "Brioche Gathering",
+        "item_ar": "Brioche Gathering",
+        "price": 85,
+        "currency": "SAR",
+        "description": "Tender pieces of marinated chicken roasted and stuffed into brioche bread",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-15139171?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 15139171
+      },
+      {
+        "item_en": "Classic  Gathering",
+        "item_ar": "Classic  Gathering",
+        "price": 80,
+        "currency": "SAR",
+        "description": "A sandwich stuffed with pieces of marinated chicken",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-15139172?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 15139172
+      }
+    ],
+    "Side Dishes": [
+      {
+        "item_en": "Fries",
+        "item_ar": "Fries",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Crispy french fries",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Talal/e1b741e656e816b4eab3e930c4c7aef1.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 15139173
+      },
+      {
+        "item_en": "Shaker",
+        "item_ar": "Shaker",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Delicious side dish with chicken.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-15139174?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 15139174
+      },
+      {
+        "item_en": "Keto Shaker",
+        "item_ar": "Keto Shaker",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Healthy chicken pieces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-15139175?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 15139175
+      }
+    ],
+    "Drinks": [
+      {
+        "item_en": "Drink",
+        "item_ar": "Drink",
+        "price": 5,
+        "currency": "SAR",
+        "description": "The soft drink with a unique and refreshing flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/15139176?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 15139176
+      }
+    ],
+    "Burger": [
+      {
+        "item_en": "Chicken Burger Pie - Chicken Burger Pie",
+        "item_ar": "Chicken Burger Pie - Chicken Burger Pie",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Bread with delicious chicken burger inside",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/52849d3b5615e952bf190e53f998ea62?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 26286494
+      },
+      {
+        "item_en": "Chicken Burger Pie - With Cheese Sauce",
+        "item_ar": "Chicken Burger Pie - With Cheese Sauce",
+        "price": 20.5,
+        "currency": "SAR",
+        "description": "Bread with delicious chicken burger inside",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/83339/PRODUCT/26286495/a6a42fc9-649e-4dee-bf8b-1d35c87cd9e5.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 26286495
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.033Z",
+  "source": "Hungerstation"
+}

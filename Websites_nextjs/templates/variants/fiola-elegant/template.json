@@ -1,0 +1,38 @@
+{
+  "id": "fiola-elegant",
+  "name": "Fiola Elegant",
+  "description": "Michelin-star inspired elegant restaurant template with sophisticated wine-red aesthetics and modern UI components",
+  "version": "1.0.0",
+  "framework": "nextjs",
+  "language": "typescript",
+  "styling": "tailwind",
+  "recommended_for": ["michelin-star", "fine-dining", "upscale", "wine-bar", "sophisticated"],
+  "features": [
+    "responsive-design",
+    "typescript",
+    "michelin-star-badge",
+    "wine-red-theme",
+    "dialog-menus",
+    "social-integration",
+    "elegant-typography",
+    "sophisticated-ui",
+    "mobile-sheet-navigation",
+    "menu-display",
+    "reservation-form",
+    "contact-form",
+    "about-section",
+    "bilingual-support"
+  ],
+  "structure": {
+    "template_type": "variant",
+    "uses_shared": true,
+    "custom_files": [
+      "src/app/layout.tsx",
+      "src/app/page.tsx", 
+      "src/app/globals.css",
+      "src/app/theme.ts",
+      "src/components/FiolaHero.tsx",
+      "src/components/FiolaHeader.tsx"
+    ]
+  }
+}

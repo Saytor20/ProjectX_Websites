@@ -1,0 +1,473 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FEFEFE;
+  --foreground: #2C1810;
+  --primary: #8B4513;
+  --secondary: #DEB887;
+  --accent: #FFFFFF;
+  --rustic-brown: #8B4513;
+  --rustic-cream: #DEB887;
+  --rustic-orange: #D2691E;
+  --rustic-green: #228B22;
+  --rustic-warm: #F5DEB3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', 'Playfair Display', serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Rustic background effects */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: 
+    radial-gradient(circle at 25% 25%, rgba(210, 105, 30, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 75% 75%, rgba(139, 69, 19, 0.02) 0%, transparent 50%),
+    radial-gradient(circle at 50% 50%, rgba(245, 222, 179, 0.04) 0%, transparent 50%);
+  animation: rusticFloat 45s ease-in-out infinite;
+  pointer-events: none;
+  z-index: -1;
+}
+
+@keyframes rusticFloat {
+  0%, 100% { 
+    transform: translate(0, 0) rotate(0deg); 
+  }
+  25% { 
+    transform: translate(8px, -4px) rotate(30deg); 
+  }
+  50% { 
+    transform: translate(-4px, 8px) rotate(60deg); 
+  }
+  75% { 
+    transform: translate(6px, -6px) rotate(90deg); 
+  }
+}
+
+/* Rustic texture overlay */
+.rustic-texture {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23D2691E' fill-opacity='0.02'%3E%3Cpath d='M30 30c11.046 0 20-8.954 20-20S41.046 0 30 0 10 8.954 10 20s8.954 20 20 20zm0-5c8.284 0 15-6.716 15-15S38.284 10 30 10s-15 6.716-15 15 6.716 15 15 15z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  width: 100%;
+  height: 100%;
+  animation: rusticTextureShift 150s linear infinite;
+}
+
+@keyframes rusticTextureShift {
+  0% { transform: translateX(0) translateY(0); }
+  100% { transform: translateX(-60px) translateY(-60px); }
+}
+
+/* Ingredient floating elements */
+.ingredient-elements {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.ingredient {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  animation: ingredientFloat 20s infinite ease-in-out;
+}
+
+.ingredient-tomato {
+  background: radial-gradient(circle, rgba(255, 99, 71, 0.3) 0%, transparent 70%);
+  top: 15%;
+  left: 15%;
+  animation-delay: 0s;
+  animation-duration: 22s;
+}
+
+.ingredient-herb {
+  background: radial-gradient(circle, rgba(34, 139, 34, 0.3) 0%, transparent 70%);
+  top: 70%;
+  left: 75%;
+  animation-delay: 7s;
+  animation-duration: 25s;
+}
+
+.ingredient-grain {
+  background: radial-gradient(circle, rgba(222, 184, 135, 0.4) 0%, transparent 70%);
+  top: 45%;
+  left: 85%;
+  animation-delay: 14s;
+  animation-duration: 18s;
+}
+
+@keyframes ingredientFloat {
+  0%, 100% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: 0.4;
+  }
+  25% {
+    transform: translateY(-15px) translateX(8px) scale(1.1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(-8px) translateX(-5px) scale(0.9);
+    opacity: 0.5;
+  }
+  75% {
+    transform: translateY(-20px) translateX(10px) scale(1.05);
+    opacity: 0.7;
+  }
+}
+
+/* Neighborhood badge entrance */
+.neighborhood-badge-entrance {
+  opacity: 0;
+  animation: neighborhoodBadgeSlide 1.5s ease-out 0.3s forwards;
+}
+
+@keyframes neighborhoodBadgeSlide {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Rustic title animations */
+.rustic-title-animation {
+  opacity: 0;
+  animation: rusticTitleEntrance 1.8s ease-out 0.6s forwards;
+}
+
+@keyframes rusticTitleEntrance {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+    letter-spacing: 0.3em;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    letter-spacing: normal;
+  }
+}
+
+/* Rustic fade-in delays */
+.rustic-fade-in-delay-1 {
+  opacity: 0;
+  animation: rusticFadeIn 1.2s ease-out 1.2s forwards;
+}
+
+.rustic-fade-in-delay-2 {
+  opacity: 0;
+  animation: rusticFadeIn 1.2s ease-out 1.8s forwards;
+}
+
+.rustic-fade-in-delay-3 {
+  opacity: 0;
+  animation: rusticFadeIn 1.2s ease-out 2.4s forwards;
+}
+
+@keyframes rusticFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Rustic image entrance */
+.rustic-image-entrance {
+  opacity: 0;
+  animation: rusticImageSlide 1.5s ease-out 1s forwards;
+}
+
+@keyframes rusticImageSlide {
+  0% {
+    opacity: 0;
+    transform: translateX(40px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+/* Rustic value animations */
+.rustic-value {
+  opacity: 0;
+  transform: translateY(15px);
+  animation: rusticValueEntrance 0.8s ease-out forwards;
+}
+
+.rustic-value:nth-child(1) { animation-delay: 2.6s; }
+.rustic-value:nth-child(2) { animation-delay: 2.8s; }
+.rustic-value:nth-child(3) { animation-delay: 3s; }
+
+@keyframes rusticValueEntrance {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Rustic buttons */
+.rustic-button-primary {
+  position: relative;
+  overflow: hidden;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 6px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 600;
+}
+
+.rustic-button-primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: left 0.6s;
+}
+
+.rustic-button-primary:hover::before {
+  left: 100%;
+}
+
+.rustic-button-secondary {
+  position: relative;
+  overflow: hidden;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 6px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 600;
+}
+
+.rustic-button-secondary:hover span {
+  color: white;
+  z-index: 10;
+}
+
+/* Rustic scroll indicator */
+.rustic-scroll-indicator {
+  opacity: 0;
+  animation: rusticScrollIndicator 1s ease-out 3.2s forwards;
+}
+
+@keyframes rusticScrollIndicator {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Community navigation items */
+.community-nav-item {
+  position: relative;
+}
+
+.community-nav-item::after {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  background: linear-gradient(45deg, transparent, rgba(210, 105, 30, 0.05), transparent);
+  border-radius: 8px;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.community-nav-item:hover::after {
+  opacity: 1;
+}
+
+/* Community join button */
+.community-join-btn {
+  position: relative;
+  overflow: hidden;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  box-shadow: 0 2px 10px rgba(139, 69, 19, 0.2);
+}
+
+.community-join-btn:hover {
+  box-shadow: 0 4px 15px rgba(139, 69, 19, 0.3);
+  transform: translateY(-1px);
+}
+
+/* Sustainability badge */
+.sustainability-badge {
+  opacity: 0;
+  animation: sustainabilitySlide 0.5s ease-out 0.3s forwards;
+}
+
+@keyframes sustainabilitySlide {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Custom scrollbar with rustic styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(245, 222, 179, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #8B4513, #D2691E);
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #A0522D, #FF7F50);
+}
+
+/* Text selection */
+::selection {
+  background: rgba(210, 105, 30, 0.2);
+  color: var(--foreground);
+}
+
+::-moz-selection {
+  background: rgba(210, 105, 30, 0.2);
+  color: var(--foreground);
+}
+
+/* Rustic hover effects */
+.rustic-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.rustic-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(139, 69, 19, 0.15);
+}
+
+/* Typography enhancements */
+.rustic-serif {
+  font-family: 'Playfair Display', 'Georgia', serif;
+}
+
+.rustic-sans {
+  font-family: 'Inter', 'Helvetica Neue', sans-serif;
+}
+
+/* Farm-to-table specific styles */
+.farm-badge {
+  background: linear-gradient(135deg, #228B22, #32CD32);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.ingredient-highlight {
+  background: linear-gradient(135deg, rgba(255, 99, 71, 0.1), rgba(34, 139, 34, 0.1));
+  border: 1px solid rgba(210, 105, 30, 0.3);
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #8B4513;
+  font-weight: 500;
+}
+
+/* Community warmth effects */
+.warm-glow {
+  box-shadow: 0 0 20px rgba(210, 105, 30, 0.1);
+}
+
+.community-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(245, 222, 179, 0.1));
+  border: 1px solid rgba(210, 105, 30, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.community-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(139, 69, 19, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .rustic-title-animation {
+    font-size: 2.5rem;
+  }
+  
+  .rustic-texture {
+    animation: rusticTextureShift 200s linear infinite;
+  }
+  
+  body::before {
+    background: 
+      radial-gradient(circle at 30% 30%, rgba(210, 105, 30, 0.02) 0%, transparent 50%),
+      radial-gradient(circle at 70% 70%, rgba(139, 69, 19, 0.02) 0%, transparent 50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,730 @@
+{
+  "restaurant_info": {
+    "id": "155090",
+    "name": "Durar Al-Mashawi",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2756881,
+      "longitude": 42.5919315
+    },
+    "rating": 0,
+    "review_count": 0,
+    "type_of_food": "Sandwich,Fast Food,Grill,Shawarma,Meat",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/155090"
+  },
+  "menu_categories": {
+    "Breakfast": [
+      {
+        "item_en": "Falafel 3 Pieces",
+        "item_ar": "Falafel 3 Pieces",
+        "price": 2,
+        "currency": "SAR",
+        "description": "Falafel balls fried until golden and crispy on the outside, and tender and delicious on the inside.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/71c91a4c4629205a03b69a4e39c02859.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207103
+      },
+      {
+        "item_en": "Shami Mixed Sandwich",
+        "item_ar": "Shami Mixed Sandwich",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Bread stuffed with a mixture of falafel, vegetables, and special sauces, with a distinctive levantine flavor.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d16237182edba6678ff16a652383922b.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207104
+      },
+      {
+        "item_en": "Saba Mixed Sandwich",
+        "item_ar": "Saba Mixed Sandwich",
+        "price": 8,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/05849495e42533a063908826bcc5ef09.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207106
+      },
+      {
+        "item_en": "Mixed Fried Egg Sandwich",
+        "item_ar": "Mixed Fried Egg Sandwich",
+        "price": 7,
+        "currency": "SAR",
+        "description": "A sandwich filled with fried eggs and special ingredients.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/f6118ddcfc2b5f5d647ef321caf3b38b.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207108
+      },
+      {
+        "item_en": "Mixed Boiled Egg Sandwich",
+        "item_ar": "Mixed Boiled Egg Sandwich",
+        "price": 7,
+        "currency": "SAR",
+        "description": "A light sandwich containing sliced ​​boiled eggs with special ingredients.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/e3aef3a503b4e6c9a6df77f56f8459e4.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207109
+      },
+      {
+        "item_en": "Mixed Cream Cheese Sandwich",
+        "item_ar": "Mixed Cream Cheese Sandwich",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Fresh bread filled with creamy, flavorful melted cheese.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/b541e0f0136e10b401a1f20e18d3cba2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207111
+      },
+      {
+        "item_en": "Mixed Cream Cheddar Cheese Sandwich",
+        "item_ar": "Mixed Cream Cheddar Cheese Sandwich",
+        "price": 7,
+        "currency": "SAR",
+        "description": "A blend of cream cheese and distinctive cheddar flavor, wrapped in soft bread for a quick and delicious meal.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/e3624faba8aefd5f9869b3d2629ef455.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207112
+      },
+      {
+        "item_en": "Double Mixed Falafel Plate",
+        "item_ar": "Double Mixed Falafel Plate",
+        "price": 26,
+        "currency": "SAR",
+        "description": "A plate of falafel balls fried until golden and crispy on the outside, and soft and delicious on the inside, served with a variety of side dishes.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d978a83b8c574d97e7c60dc0e88e4849.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207114
+      },
+      {
+        "item_en": "Arabic Falafel Plate",
+        "item_ar": "Arabic Falafel Plate",
+        "price": 16,
+        "currency": "SAR",
+        "description": "A plate of falafel balls fried until golden and crispy on the outside, and soft and delicious on the inside.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/666b4067daba75a01bbf16b4ae853bb9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207115
+      },
+      {
+        "item_en": "Fries Plate - Small",
+        "item_ar": "Fries Plate - Small",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Sliced ​​potatoes fried until golden and crispy",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/5cbb0482fcf08316c41122824ff2c059.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207099
+      },
+      {
+        "item_en": "Mixed Falafel And Hummus Plate - Small",
+        "item_ar": "Mixed Falafel And Hummus Plate - Small",
+        "price": 12,
+        "currency": "SAR",
+        "description": "A plate of falafel balls fried until golden and crispy on the outside, and soft and delicious on the inside, served with hummus.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/7e155b0f104460a01dfeaa490ded8894.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207094
+      },
+      {
+        "item_en": "Fries Plate - Large",
+        "item_ar": "Fries Plate - Large",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Sliced ​​potatoes fried until golden and crispy",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/5cbb0482fcf08316c41122824ff2c059.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207101
+      },
+      {
+        "item_en": "Mixed Falafel And Hummus Plate - Large",
+        "item_ar": "Mixed Falafel And Hummus Plate - Large",
+        "price": 19,
+        "currency": "SAR",
+        "description": "A plate of falafel balls fried until golden and crispy on the outside, and soft and delicious on the inside, served with hummus.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/7e155b0f104460a01dfeaa490ded8894.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207097
+      }
+    ],
+    "Appetizers": [
+      {
+        "item_en": "Muhammara",
+        "item_ar": "Muhammara",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Roasted crushed red peppers with garlic, oil, salt, and lemon.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/6437377906b85decf2eeb99050fea9e5.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207119
+      },
+      {
+        "item_en": "Hummus Plate",
+        "item_ar": "Hummus Plate",
+        "price": 10,
+        "currency": "SAR",
+        "description": "A mixture of mashed hummus, olive oil, lemon juice, spices, and tahini.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/99c26231e3ff4c56e5ab30f5a81ea287.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207121
+      },
+      {
+        "item_en": "Mtabbal Plate",
+        "item_ar": "Mtabbal Plate",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Finely chopped roasted eggplant, olive oil, lemon juice, various spices, and tahini.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/87ff063a427965564376625ae41b2720.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207122
+      },
+      {
+        "item_en": "Tabbouleh Plate",
+        "item_ar": "Tabbouleh Plate",
+        "price": 8,
+        "currency": "SAR",
+        "description": "A salad containing parsley, mint, tomatoes, onions, and bulgur with lemon juice and olive oil.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/83c73e76fb77d257d087af6b374ec1ae.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207124
+      },
+      {
+        "item_en": "Fattoush Plate",
+        "item_ar": "Fattoush Plate",
+        "price": 9,
+        "currency": "SAR",
+        "description": "A salad containing parsley, cucumbers, tomatoes, onions, and toasted bread with a delicious lemon and olive oil dressing.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/f1c0d475f1cd7482d08ed1c0294d9a5a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207125
+      },
+      {
+        "item_en": "Baba Ghanouj",
+        "item_ar": "Baba Ghanouj",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Grilled eggplant with fresh vegetables.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/4493880e8bcc85e1810359b075a6ac30.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207127
+      },
+      {
+        "item_en": "Grape Leaves",
+        "item_ar": "Grape Leaves",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Grape leaves stuffed with a mixture of rice and vegetables.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/ea65898ccf02bdfb9c88874992743bd3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207128
+      },
+      {
+        "item_en": "Mixed Plate - Small",
+        "item_ar": "Mixed Plate - Small",
+        "price": 10,
+        "currency": "SAR",
+        "description": "A variety of delicious appetizers to suit all tastes.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/1726131caf2424113e0b1035c967bca4.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207117
+      },
+      {
+        "item_en": "Mixed Plate - Large",
+        "item_ar": "Mixed Plate - Large",
+        "price": 19,
+        "currency": "SAR",
+        "description": "A variety of delicious appetizers to suit all tastes.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/1726131caf2424113e0b1035c967bca4.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207118
+      }
+    ],
+    "Chicken Shawarma": [
+      {
+        "item_en": "Shawarma - Small",
+        "item_ar": "Shawarma - Small",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Soft bread stuffed with marinated and grilled chicken shawarma slices, with delicious pickles and sauces that add a rich and distinctive flavor.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/48eaae180948e1d1c5dcea75761f6d23.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207039
+      },
+      {
+        "item_en": "Shawarma - Medium",
+        "item_ar": "Shawarma - Medium",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Soft bread stuffed with marinated and grilled chicken shawarma slices, with delicious pickles and sauces that add a rich and distinctive flavor.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/48eaae180948e1d1c5dcea75761f6d23.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207041
+      },
+      {
+        "item_en": "Shawarma - Large",
+        "item_ar": "Shawarma - Large",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Soft bread stuffed with marinated and grilled chicken shawarma slices, with delicious pickles and sauces that add a rich and distinctive flavor.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/48eaae180948e1d1c5dcea75761f6d23.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207043
+      },
+      {
+        "item_en": "Arabic Chicken Shawarma - Regular",
+        "item_ar": "Arabic Chicken Shawarma - Regular",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Soft bread stuffed with chicken shawarma slices with pickles and sauces, cut into small pieces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/01de552b68b806f40ca090b5c3eaf6d8.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207047
+      },
+      {
+        "item_en": "Arabic Shami Chicken - Regular",
+        "item_ar": "Arabic Shami Chicken - Regular",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Soft bread stuffed with chicken shawarma slices with pickles and sauces, cut into small pieces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/e83a18f79b6850fabf03db6b890cf544.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207051
+      },
+      {
+        "item_en": "Shawarma - Double",
+        "item_ar": "Shawarma - Double",
+        "price": 36,
+        "currency": "SAR",
+        "description": "Soft bread stuffed with marinated and grilled chicken shawarma slices, with delicious pickles and sauces that add a rich and distinctive flavor.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/48eaae180948e1d1c5dcea75761f6d23.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207045
+      },
+      {
+        "item_en": "Chicken Shawarma Plate - 250g",
+        "item_ar": "Chicken Shawarma Plate - 250g",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Chicken shawarma slices marinated with special spices, grilled until golden and delicious, served with special sauces to add a rich and delicious flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/fb0c90436f787790e3c87d83ba3886a4.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207059
+      },
+      {
+        "item_en": "Arabic Shami Chicken - Double",
+        "item_ar": "Arabic Shami Chicken - Double",
+        "price": 45,
+        "currency": "SAR",
+        "description": "Soft bread stuffed with chicken shawarma slices with pickles and sauces, cut into small pieces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/e83a18f79b6850fabf03db6b890cf544.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207053
+      },
+      {
+        "item_en": "Chicken Shawarma Plate - 500g",
+        "item_ar": "Chicken Shawarma Plate - 500g",
+        "price": 58,
+        "currency": "SAR",
+        "description": "Chicken shawarma slices marinated with special spices, grilled until golden and delicious, served with special sauces to add a rich and delicious flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/fb0c90436f787790e3c87d83ba3886a4.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207058
+      },
+      {
+        "item_en": "Chicken Shawarma Plate - 1 Kg",
+        "item_ar": "Chicken Shawarma Plate - 1 Kg",
+        "price": 117,
+        "currency": "SAR",
+        "description": "Chicken shawarma slices marinated with special spices, grilled until golden and delicious, served with special sauces to add a rich and delicious flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/fb0c90436f787790e3c87d83ba3886a4.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207055
+      },
+      {
+        "item_en": "Arabic Chicken Shawarma - Family",
+        "item_ar": "Arabic Chicken Shawarma - Family",
+        "price": 143,
+        "currency": "SAR",
+        "description": "Soft bread stuffed with chicken shawarma slices with pickles and sauces, cut into small pieces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/01de552b68b806f40ca090b5c3eaf6d8.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207049
+      }
+    ],
+    "Meat Shawarma": [
+      {
+        "item_en": "Arabic Mix",
+        "item_ar": "Arabic Mix",
+        "price": 52,
+        "currency": "SAR",
+        "description": "Pieces of bread stuffed with lamb shawarma and chicken shawarma marinated with special spices, grilled until golden brown.",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207068
+      },
+      {
+        "item_en": "Farrt 250g",
+        "item_ar": "Farrt 250g",
+        "price": 45,
+        "currency": "SAR",
+        "description": "Slices of meat shawarma marinated with special spices, grilled until golden brown and served with special sauces for a rich and delicious flavor.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/c9e532f8fb6dcb40d187a33f48473190.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207069
+      },
+      {
+        "item_en": "Mix Farrt Mix 250g",
+        "item_ar": "Mix Farrt Mix 250g",
+        "price": 52,
+        "currency": "SAR",
+        "description": "Grilled chicken with a delicious spice marinade, served with vegetables and special sauces.",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207070
+      },
+      {
+        "item_en": "Shawarma - Medium",
+        "item_ar": "Shawarma - Medium",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Soft bread stuffed with marinated and grilled shawarma meat slices, with delicious pickles and sauces that add a rich and distinctive flavor.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/05849495e42533a063908826bcc5ef09.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207061
+      },
+      {
+        "item_en": "Shawarma - Large",
+        "item_ar": "Shawarma - Large",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Soft bread stuffed with marinated and grilled shawarma meat slices, with delicious pickles and sauces that add a rich and distinctive flavor.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/05849495e42533a063908826bcc5ef09.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207063
+      },
+      {
+        "item_en": "Arabic Meat - Regular",
+        "item_ar": "Arabic Meat - Regular",
+        "price": 32,
+        "currency": "SAR",
+        "description": "Soft bread stuffed with slices of shawarma meat with pickles and sauces, cut into small pieces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/487241c9b755d8bec187677e75c28160.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207065
+      },
+      {
+        "item_en": "Arabic Meat - Double",
+        "item_ar": "Arabic Meat - Double",
+        "price": 52,
+        "currency": "SAR",
+        "description": "Soft bread stuffed with slices of shawarma meat with pickles and sauces, cut into small pieces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/487241c9b755d8bec187677e75c28160.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207066
+      }
+    ],
+    "Grilled": [
+      {
+        "item_en": "Shish Sandwich",
+        "item_ar": "Shish Sandwich",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Fresh bread stuffed with lamb kebab, grilled with a delicious spice marinade, served with vegetables and special sauces.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/665413df1ba4c8a7fa88d5649537b94c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207083
+      },
+      {
+        "item_en": "Meat Kebab Sandwich",
+        "item_ar": "Meat Kebab Sandwich",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Bread stuffed with meat kebab grilled with special spices, served with special sauces.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/e1711f530d38f7364e20e47a75fcc587.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207084
+      },
+      {
+        "item_en": "Chicken Kebab Sandwich",
+        "item_ar": "Chicken Kebab Sandwich",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Bread stuffed with chicken kebab grilled with special spices, served with special sauces.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/f3a55a55f920b8c1c10a39ef9760461f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207086
+      },
+      {
+        "item_en": "Chicken Kebab For One Person",
+        "item_ar": "Chicken Kebab For One Person",
+        "price": 35,
+        "currency": "SAR",
+        "description": "Minced chicken marinated in spices, shaped on skewers and grilled over charcoal, giving it a smoky flavor and tender meat full of flavor.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/dc1199a2b71bdd32611b75959c7a2ff9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207087
+      },
+      {
+        "item_en": "Meat Kebab For One Person",
+        "item_ar": "Meat Kebab For One Person",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Minced meat marinated in spices, shaped on skewers and grilled over charcoal, giving it a smoky flavor and tender meat full of flavor.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/fb153812504b9448627f87378dad34b8.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207089
+      },
+      {
+        "item_en": "Arais For One Person",
+        "item_ar": "Arais For One Person",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Bread stuffed with seasoned meat and special spices, grilled over charcoal until golden and crispy on the outside and tender on the inside.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/fa30f7e1cd8339627012929fda852a1f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207091
+      },
+      {
+        "item_en": "Grilled Kibbeh",
+        "item_ar": "Grilled Kibbeh",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Kibbeh grilled over charcoal with a delicious filling.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/01e4146cd6cac00951604dc848f05549.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207092
+      },
+      {
+        "item_en": "Chicken Grilled - 6 Skewers",
+        "item_ar": "Chicken Grilled - 6 Skewers",
+        "price": 71,
+        "currency": "SAR",
+        "description": "Charcoal grilled chicken pieces with a special blend of spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/e2c63680bca6914bf86cf51dcb21df51.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207075
+      },
+      {
+        "item_en": "Meat Grilled - 6 Skewers",
+        "item_ar": "Meat Grilled - 6 Skewers",
+        "price": 78,
+        "currency": "SAR",
+        "description": "Grilled meat pieces on charcoal with a special blend of spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/2e1ec246ab879e9b1613ad86252d4656.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207078
+      },
+      {
+        "item_en": "Mixed Grilled - 6 Skewers",
+        "item_ar": "Mixed Grilled - 6 Skewers",
+        "price": 78,
+        "currency": "SAR",
+        "description": "Mixed grill with grilled vegetables featuring smoky flavors and various spices that add a delicious taste",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/7a6593a4688fa98c6e0b5e2b57464f57.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207081
+      },
+      {
+        "item_en": "Chicken Grilled - 12 Skewers",
+        "item_ar": "Chicken Grilled - 12 Skewers",
+        "price": 143,
+        "currency": "SAR",
+        "description": "Charcoal grilled chicken pieces with a special blend of spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/e2c63680bca6914bf86cf51dcb21df51.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207072
+      },
+      {
+        "item_en": "Mixed Grilled - 12 Skewers",
+        "item_ar": "Mixed Grilled - 12 Skewers",
+        "price": 156,
+        "currency": "SAR",
+        "description": "Mixed grill with grilled vegetables featuring smoky flavors and various spices that add a delicious taste",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/7a6593a4688fa98c6e0b5e2b57464f57.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207080
+      },
+      {
+        "item_en": "Meat Grilled - 12 Skewers",
+        "item_ar": "Meat Grilled - 12 Skewers",
+        "price": 182,
+        "currency": "SAR",
+        "description": "Grilled meat pieces on charcoal with a special blend of spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/2e1ec246ab879e9b1613ad86252d4656.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207076
+      }
+    ],
+    "Fresh Juice": [
+      {
+        "item_en": "Orange Juice",
+        "item_ar": "Orange Juice",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Refreshing orange juice served cold with a delicious citrus flavor.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/1292294e55657ef8b8481153ddec2f28.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207131
+      },
+      {
+        "item_en": "Mixture Juice - Small",
+        "item_ar": "Mixture Juice - Small",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Refreshing fruit juice served chilled with a delicious flavor.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/2f77449718887eb0347b34ad12f89726.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207129
+      },
+      {
+        "item_en": "Mixture Juice - Large",
+        "item_ar": "Mixture Juice - Large",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Refreshing fruit juice served chilled with a delicious flavor.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/2f77449718887eb0347b34ad12f89726.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207130
+      }
+    ],
+    "Cold Beverages": [
+      {
+        "item_en": "Pepsi",
+        "item_ar": "Pepsi",
+        "price": 4,
+        "currency": "SAR",
+        "description": "The soft drink with a unique and refreshing flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/4e140b1b1d41a106988934d009ba54a3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207132
+      },
+      {
+        "item_en": "7 Up",
+        "item_ar": "7 Up",
+        "price": 4,
+        "currency": "SAR",
+        "description": "7up diet can drink with delicious lemon flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/8f69f144d01234d2f95379fb54dfef7b.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207133
+      },
+      {
+        "item_en": "Water",
+        "item_ar": "Water",
+        "price": 1,
+        "currency": "SAR",
+        "description": "Fresh, pure, and refreshing drinking water",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/9f8322b15e021598f900fac34f896019.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207134
+      }
+    ],
+    "Hot Beverages": [
+      {
+        "item_en": "Plain Tea",
+        "item_ar": "Plain Tea",
+        "price": 2,
+        "currency": "SAR",
+        "description": "Refreshing red tea served hot",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/7b8a5e8672f97d785dd150d55d121d77.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207135
+      },
+      {
+        "item_en": "Tea With Milk",
+        "item_ar": "Tea With Milk",
+        "price": 3,
+        "currency": "SAR",
+        "description": "A warm blend of milk and tea, giving it a distinctive taste",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/514c282dc191221c177fcd7339e12244.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207136
+      },
+      {
+        "item_en": "Plain Coffee",
+        "item_ar": "Plain Coffee",
+        "price": 3,
+        "currency": "SAR",
+        "description": "A warm coffee prepared in a distinctive way, served with a rich flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/332cb7fae8976f72d1d84faac6cd7166.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207137
+      },
+      {
+        "item_en": "Coffee With Milk",
+        "item_ar": "Coffee With Milk",
+        "price": 3,
+        "currency": "SAR",
+        "description": "A warm drink that combines the rich flavor of coffee with the smoothness of milk, served with a balanced and pleasant taste",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/9c135dd631d36d85a7e498b15f6859fb.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75207138
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.041Z",
+  "source": "Hungerstation"
+}

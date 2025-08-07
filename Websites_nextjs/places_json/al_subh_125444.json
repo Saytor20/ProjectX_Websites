@@ -1,0 +1,352 @@
+{
+  "restaurant_info": {
+    "id": "125444",
+    "name": "Al Subh",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.1984471,
+      "longitude": 42.5278733
+    },
+    "rating": 4.4,
+    "review_count": 127,
+    "type_of_food": "Arabic",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/125444"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Chicken Sandwich",
+        "item_ar": "Chicken Sandwich",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Samoli bread stuffed with chicken",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/b729fc7385f8d322434a56e4f3ae33ba.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47009622
+      },
+      {
+        "item_en": "Fried Egg Sandwich",
+        "item_ar": "Fried Egg Sandwich",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Samoli bread stuffed with fried eggs",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/125444/PRODUCT/47009617/711e1c1a-0c89-4bc8-a633-32fc91948659.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47009617
+      },
+      {
+        "item_en": "Rabie",
+        "item_ar": "Rabie",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Orange drink free of preservatives and artificial colours",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/65baa0e9d00f10b395b3b5911bbc19d2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47009643
+      },
+      {
+        "item_en": "Falafel",
+        "item_ar": "Falafel",
+        "price": 9,
+        "currency": "SAR",
+        "description": "bread stuffed with falafel with egg , salat  , frise",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/47009614?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47009614
+      }
+    ],
+    "Sandwiches": [
+      {
+        "item_en": "Boiled Egg Sandwich",
+        "item_ar": "Boiled Egg Sandwich",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Samoli bread stuffed with boiled eggs",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/125444/PRODUCT/47009612/e50b83cb-00e5-46bf-a878-7cee100af248.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47009612
+      },
+      {
+        "item_en": "Falafel",
+        "item_ar": "Falafel",
+        "price": 9,
+        "currency": "SAR",
+        "description": "bread stuffed with falafel with egg , salat  , frise",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/47009614?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47009614
+      },
+      {
+        "item_en": "Fried Egg Sandwich",
+        "item_ar": "Fried Egg Sandwich",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Samoli bread stuffed with fried eggs",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/125444/PRODUCT/47009617/711e1c1a-0c89-4bc8-a633-32fc91948659.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47009617
+      },
+      {
+        "item_en": "Shakshouka Sandwich",
+        "item_ar": "Shakshouka Sandwich",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Samoli bread stuffed with eggs and tomatoes",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d27ca9fbbe3624a2557ce63ed88a536f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47009619
+      },
+      {
+        "item_en": "Chicken Sandwich",
+        "item_ar": "Chicken Sandwich",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Samoli bread stuffed with chicken",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/b729fc7385f8d322434a56e4f3ae33ba.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47009622
+      },
+      {
+        "item_en": "Tuna Sandwich",
+        "item_ar": "Tuna Sandwich",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Samoli bread stuffed with tuna",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/125444/PRODUCT/47009624/8af401ff-b957-4e6d-92e2-5361ca2c38eb.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47009624
+      },
+      {
+        "item_en": "Cheese And Jam Sandwich",
+        "item_ar": "Cheese And Jam Sandwich",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Samoli bread stuffed with cheese and jam",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/125444/PRODUCT/47009628/dc94e8e5-bd36-4d27-a08d-c7ace565f330.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47009628
+      },
+      {
+        "item_en": "Two Cheese Sandwich",
+        "item_ar": "Two Cheese Sandwich",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Samoli bread stuffed with cheddar cheese and melted cheese",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/125444/PRODUCT/47009631/4ca9d9c6-6ec6-478e-9113-045be98e1f55.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47009631
+      },
+      {
+        "item_en": "Hamburger",
+        "item_ar": "Hamburger",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Fried chicken burger",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/55552420?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 55552420
+      },
+      {
+        "item_en": "Burger Meal",
+        "item_ar": "Burger Meal",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Fried burger meal",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/55553892?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 55553892
+      },
+      {
+        "item_en": "Morning Liver",
+        "item_ar": "Morning Liver",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Fresh liver sandwich",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/491aaefa5fd0d24f3942fd0634ae9eb3?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 55555621
+      },
+      {
+        "item_en": "Crispy Sandwich",
+        "item_ar": "Crispy Sandwich",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Crispy chicken pieces with shami bread",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/4db268ae0b2040c0502d8fa7b0181272?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 55557996
+      }
+    ],
+    "Side  Dishes": [
+      {
+        "item_en": "French Fries",
+        "item_ar": "French Fries",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Crispy potato fingers",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-2891277?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47009633
+      }
+    ],
+    "Hot Beverages": [
+      {
+        "item_en": "Tea",
+        "item_ar": "Tea",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Hot red tea rich in flavor.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/fb6e8ab688d6dce92aba73a6cb40237e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47009636
+      },
+      {
+        "item_en": "Karak",
+        "item_ar": "Karak",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Hot tea with milk, saffron and cardamom",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/46daff14caed619269b1b5128f8b060b.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47009640
+      },
+      {
+        "item_en": "Nescafe",
+        "item_ar": "Nescafe",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Instant black coffee",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/9b965df52aa1c856c5d7714e9d5d1169.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47009641
+      }
+    ],
+    "Cold Beverages": [
+      {
+        "item_en": "Rabie",
+        "item_ar": "Rabie",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Orange drink free of preservatives and artificial colours",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/65baa0e9d00f10b395b3b5911bbc19d2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47009643
+      },
+      {
+        "item_en": "Pepsi",
+        "item_ar": "Pepsi",
+        "price": 3,
+        "currency": "SAR",
+        "description": "A can of soft drink with a unique and refreshing flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/226842b0624068e5aceff8175d058fb6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47009644
+      },
+      {
+        "item_en": "Dew",
+        "item_ar": "Dew",
+        "price": 3,
+        "currency": "SAR",
+        "description": "A can of soft drink with a unique and refreshing flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/6720dd4cb6178c189e2ec1163410e4fb.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47009646
+      },
+      {
+        "item_en": "Citrus Fruits",
+        "item_ar": "Citrus Fruits",
+        "price": 3,
+        "currency": "SAR",
+        "description": "A can of soft drink with a unique and refreshing flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/95dad853a749ee747ee4bae707a257c9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47009647
+      },
+      {
+        "item_en": "Miranda",
+        "item_ar": "Miranda",
+        "price": 3,
+        "currency": "SAR",
+        "description": "A can of soft drink with a unique and refreshing flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/9b84acb8738ebc7e10c9042ce82a0bde.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47009649
+      },
+      {
+        "item_en": "7up",
+        "item_ar": "7up",
+        "price": 3,
+        "currency": "SAR",
+        "description": "A can of soft drink with a unique and refreshing flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/98e6842d717d090bb83cde7fc789a64e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47009650
+      },
+      {
+        "item_en": "Water",
+        "item_ar": "Water",
+        "price": 1,
+        "currency": "SAR",
+        "description": "Pure and refreshing fresh drinking water",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1046633?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47009652
+      },
+      {
+        "item_en": "Fresh Orange Juice",
+        "item_ar": "Fresh Orange Juice",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Natural orange juice squeezed",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/58476173?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 58476173
+      }
+    ],
+    "Meal For 2": [
+      {
+        "item_en": "Save Meal",
+        "item_ar": "Save Meal",
+        "price": 45,
+        "currency": "SAR",
+        "description": "Falafel, egg, shakshouka, chicken sandwich and 2 teas",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/09088ca5bd114bfafe1bcd9dd62cf23f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69501248
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.035Z",
+  "source": "Hungerstation"
+}

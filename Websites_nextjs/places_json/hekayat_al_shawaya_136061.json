@@ -1,0 +1,288 @@
+{
+  "restaurant_info": {
+    "id": "136061",
+    "name": "Hekayat Al Shawaya",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.23195557822814,
+      "longitude": 42.74803608650817
+    },
+    "rating": 4.4,
+    "review_count": 28,
+    "type_of_food": "Arabic,Saudi",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/136061"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Half A Chicken Grilled Hekayat",
+        "item_ar": "Half A Chicken Grilled Hekayat",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Half of grilled chicken with hekayat special marinade",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/56083498?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56083498
+      },
+      {
+        "item_en": "Half A Madbi Chicken",
+        "item_ar": "Half A Madbi Chicken",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Half a chicken grilled on a hot stone",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/56083500?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56083500
+      },
+      {
+        "item_en": "Half A Chicken Grilled Classic",
+        "item_ar": "Half A Chicken Grilled Classic",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Half of grilled chicken with classic's special marinade",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/56083499?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56083499
+      },
+      {
+        "item_en": "Mousagah",
+        "item_ar": "Mousagah",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Fried eggplant pieces with special keshnah",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/56083504?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56083504
+      }
+    ],
+    "Main Dishes": [
+      {
+        "item_en": "Half A Chicken Grilled Hekayat",
+        "item_ar": "Half A Chicken Grilled Hekayat",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Half of grilled chicken with hekayat special marinade",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/56083498?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56083498
+      },
+      {
+        "item_en": "Half A Chicken Grilled Classic",
+        "item_ar": "Half A Chicken Grilled Classic",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Half of grilled chicken with classic's special marinade",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/56083499?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56083499
+      },
+      {
+        "item_en": "Half A Madbi Chicken",
+        "item_ar": "Half A Madbi Chicken",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Half a chicken grilled on a hot stone",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/56083500?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56083500
+      }
+    ],
+    "Salads": [
+      {
+        "item_en": "Yogurt Salad",
+        "item_ar": "Yogurt Salad",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Yogurt salad with cucumber",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/56083506?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56083506
+      },
+      {
+        "item_en": "Spicy Salad",
+        "item_ar": "Spicy Salad",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Chopped tomatoes with hot pepper, garlic and parsley",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/56083507?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56083507
+      },
+      {
+        "item_en": "Sumatra Salad",
+        "item_ar": "Sumatra Salad",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Chopped pepper with garlic, tomatoes and parsley",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/56083508?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56083508
+      },
+      {
+        "item_en": "Tahinah Salad",
+        "item_ar": "Tahinah Salad",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Tahinah with garlic and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/56083509?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56083509
+      }
+    ],
+    "Side Dishes": [
+      {
+        "item_en": "Mousagah",
+        "item_ar": "Mousagah",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Fried eggplant pieces with special keshnah",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/56083504?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56083504
+      },
+      {
+        "item_en": "Jreesh",
+        "item_ar": "Jreesh",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Crushed wheat with broth and yoghurt.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/56083505?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56083505
+      }
+    ],
+    "Rice": [
+      {
+        "item_en": "Bukhari Rice",
+        "item_ar": "Bukhari Rice",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Rice with bukhari's special mix for one person",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/56083501?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56083501
+      },
+      {
+        "item_en": "Pishawari Rice",
+        "item_ar": "Pishawari Rice",
+        "price": 9,
+        "currency": "SAR",
+        "description": "White pishawari rice with the special mix for one person",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/56083502?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56083502
+      },
+      {
+        "item_en": "Mixed Rice",
+        "item_ar": "Mixed Rice",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Bukhari and pishawari rice mix rice for one person",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/56083503?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56083503
+      }
+    ],
+    "Beverages": [
+      {
+        "item_en": "Pepsi",
+        "item_ar": "Pepsi",
+        "price": 3.5,
+        "currency": "SAR",
+        "description": "A soft drink with a unique and refreshing flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/56083511?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56083511
+      },
+      {
+        "item_en": "7 Up",
+        "item_ar": "7 Up",
+        "price": 3.5,
+        "currency": "SAR",
+        "description": "7 up drink with a delicious lemon flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/56083512?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56083512
+      },
+      {
+        "item_en": "Miranda Orange",
+        "item_ar": "Miranda Orange",
+        "price": 3.5,
+        "currency": "SAR",
+        "description": "A soft drink with a unique and refreshing flavour with orange flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/56083513?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56083513
+      },
+      {
+        "item_en": "Miranda Citrus",
+        "item_ar": "Miranda Citrus",
+        "price": 3.5,
+        "currency": "SAR",
+        "description": "A soft drink with a unique and refreshing flavour with citrus flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/56083514?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56083514
+      },
+      {
+        "item_en": "Laban",
+        "item_ar": "Laban",
+        "price": 3,
+        "currency": "SAR",
+        "description": "A refreshing and beneficial fresh laban drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/56083515?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56083515
+      },
+      {
+        "item_en": "Water",
+        "item_ar": "Water",
+        "price": 1,
+        "currency": "SAR",
+        "description": "Mineral water",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/9f8322b15e021598f900fac34f896019.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56083516
+      }
+    ],
+    "Desserts": [
+      {
+        "item_en": "Cream",
+        "item_ar": "Cream",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Delicious cream caramel sweet",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/56083510?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56083510
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.029Z",
+  "source": "Hungerstation"
+}

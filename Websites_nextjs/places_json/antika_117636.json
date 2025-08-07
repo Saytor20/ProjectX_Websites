@@ -1,0 +1,262 @@
+{
+  "restaurant_info": {
+    "id": "117636",
+    "name": "Antika",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.24077187765291,
+      "longitude": 42.56047374921644
+    },
+    "rating": 4.2,
+    "review_count": 387,
+    "type_of_food": "Sandwich,Fast Food,Arabic,Breakfast",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/117636"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Chicken Sandwich",
+        "item_ar": "Chicken Sandwich",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Chicken muqalqal sandwich",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/317a7aa884f1f3bd7f602b631014073b.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 39760910
+      },
+      {
+        "item_en": "Eggs With Cheese",
+        "item_ar": "Eggs With Cheese",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Eggs with cheese sandwich",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/da0cdddf0ec9f628190fac9b43363f85.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48543875
+      },
+      {
+        "item_en": "Halloumi",
+        "item_ar": "Halloumi",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Sandwich halloumi",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/582cd1a9d4c79e9d24b23dc580a57f41.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52114046
+      },
+      {
+        "item_en": "Spicy Tuna Sandwich",
+        "item_ar": "Spicy Tuna Sandwich",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Sandwich with our special spicy tuna and avocado mixture",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/40de9cc658b19ac0cdf415489d0736ce.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 39760912
+      }
+    ],
+    "Menu": [
+      {
+        "item_en": "Chicken Sandwich",
+        "item_ar": "Chicken Sandwich",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Chicken muqalqal sandwich",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/317a7aa884f1f3bd7f602b631014073b.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 39760910
+      },
+      {
+        "item_en": "Egg Sandwich With Turkey",
+        "item_ar": "Egg Sandwich With Turkey",
+        "price": 17,
+        "currency": "SAR",
+        "description": "Fried egg sandwich with turkish chicken",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/6a551d8f8b7b990a60a9d8adc0f7e518.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 39760915
+      },
+      {
+        "item_en": "Spicy Tuna Sandwich",
+        "item_ar": "Spicy Tuna Sandwich",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Sandwich with our special spicy tuna and avocado mixture",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/40de9cc658b19ac0cdf415489d0736ce.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 39760912
+      },
+      {
+        "item_en": "Tuna Classic",
+        "item_ar": "Tuna Classic",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Sandwich with our special classic tuna and avocado mixture",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/40de9cc658b19ac0cdf415489d0736ce.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48543870
+      },
+      {
+        "item_en": "Eggs With Cheese",
+        "item_ar": "Eggs With Cheese",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Eggs with cheese sandwich",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/da0cdddf0ec9f628190fac9b43363f85.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48543875
+      },
+      {
+        "item_en": "Plain Egg Sandwich",
+        "item_ar": "Plain Egg Sandwich",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Eggs sandwich regular",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/3b383051c2afef18dbac2e7d8dbdd149.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48543871
+      },
+      {
+        "item_en": "Shakshouka",
+        "item_ar": "Shakshouka",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Sandwich shakshouka",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/ce36a01343aea27a3616be2c44d3ca39.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52114038
+      },
+      {
+        "item_en": "Halloumi",
+        "item_ar": "Halloumi",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Sandwich halloumi",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/582cd1a9d4c79e9d24b23dc580a57f41.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52114046
+      },
+      {
+        "item_en": "Cheese With Thina",
+        "item_ar": "Cheese With Thina",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Sandwich tahina",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/72a958eed5b93519170acbcc4d080d3c?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48543872
+      },
+      {
+        "item_en": "Sandwich Cheese",
+        "item_ar": "Sandwich Cheese",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Cheese sandwich",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/72a958eed5b93519170acbcc4d080d3c?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48543874
+      }
+    ],
+    "Hot Beverages": [
+      {
+        "item_en": "Tea",
+        "item_ar": "Tea",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Hot red tea",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/f248ac8caf0674624c10b075e339c556.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 39760916
+      },
+      {
+        "item_en": "Karak",
+        "item_ar": "Karak",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Tea with milk and cardamom with our special mixture",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d6c625f063fae6242e0bd0fbc61235e9.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 39760917
+      }
+    ],
+    "Cold Beverages": [
+      {
+        "item_en": "Ice Roselle",
+        "item_ar": "Ice Roselle",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Roselle with ice pieces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/6e7fa6291571a61f5cd0ccadf5bd60f4.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 39760919
+      },
+      {
+        "item_en": "Rabea Juice",
+        "item_ar": "Rabea Juice",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Rabea orange juice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/468da511fe6a163c54c9ce1a4c04dc72.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 39760920
+      },
+      {
+        "item_en": "Water",
+        "item_ar": "Water",
+        "price": 2,
+        "currency": "SAR",
+        "description": "Refreshing mineral water",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/7c269a9bc173699a528019c5f34fd137.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 39760921
+      },
+      {
+        "item_en": "Soda",
+        "item_ar": "Soda",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Drink refreshing",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/52111064?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52111064
+      }
+    ],
+    "Meals": [
+      {
+        "item_en": "Combo Protien",
+        "item_ar": "Combo Protien",
+        "price": 43,
+        "currency": "SAR",
+        "description": "Available from 1 chicken sandwich - 1 tuna sandwich - 1 turkey egg sandwich - 1 egg & cheese sandwich and add 2 drinks of your choice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/f174fad5e5aad4aa92ad2f5c36843fe9.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 65367314
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.035Z",
+  "source": "Hungerstation"
+}

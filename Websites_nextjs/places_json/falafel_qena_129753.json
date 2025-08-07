@@ -1,0 +1,284 @@
+{
+  "restaurant_info": {
+    "id": "129753",
+    "name": "Falafel Qena",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2264206,
+      "longitude": 42.5880013
+    },
+    "rating": 4.2,
+    "review_count": 290,
+    "type_of_food": "Arabic",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/129753"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Special Falafel Sandwich With Hummus Cream Cheese Cheddar Cheese Chips And Sauces",
+        "item_ar": "Special Falafel Sandwich With Hummus Cream Cheese Cheddar Cheese Chips And Sauces",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Bread stuffed with falafel hummus cream cheese and cheddar cheese with eggs french fries potato sticks and albtal chips",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/110396/PRODUCT/56296771/bcc29794-df26-4cc7-8c9e-cdca33919a8d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56296771
+      },
+      {
+        "item_en": "Falafel Sandwich With Eggs, Potatoes And Cheese And With Batal Chips And Potato Sticks",
+        "item_ar": "Falafel Sandwich With Eggs, Potatoes And Cheese And With Batal Chips And Potato Sticks",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Bread sandwich stuffed with falafel, eggs, potatoes, cheese, chips and potato sticks",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/2f67221d8d6c97189a3936ac1d47030f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32710475
+      },
+      {
+        "item_en": "Egg And Potato Falafel Sandwich",
+        "item_ar": "Egg And Potato Falafel Sandwich",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Bread sandwich stuffed with falafel, eggs and potatoes",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/16453718fd1b73b204098a49d87e4ef3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32710473
+      },
+      {
+        "item_en": "Fries - Small",
+        "item_ar": "Fries - Small",
+        "price": 8,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32710482
+      }
+    ],
+    "Sandwiches": [
+      {
+        "item_en": "Falafel Sandwich With French Fries And Salad And Sauces",
+        "item_ar": "Falafel Sandwich With French Fries And Salad And Sauces",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Bread stuffed with falafel and french fries with green salad and sauces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-13509160?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52647768
+      },
+      {
+        "item_en": "Egg And Potato Falafel Sandwich",
+        "item_ar": "Egg And Potato Falafel Sandwich",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Bread sandwich stuffed with falafel, eggs and potatoes",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/16453718fd1b73b204098a49d87e4ef3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32710473
+      },
+      {
+        "item_en": "Falafel Sandwich With Eggs And French Fries And Cheddar Cheese",
+        "item_ar": "Falafel Sandwich With Eggs And French Fries And Cheddar Cheese",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Bread stuffed with falafel, eggs, french fries, and cheddar",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-13509160?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47045870
+      },
+      {
+        "item_en": "Falafel Sandwich With Eggs And French Fries And Cheddar Cheese And Batal Chips",
+        "item_ar": "Falafel Sandwich With Eggs And French Fries And Cheddar Cheese And Batal Chips",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Bread sandwich stuffed with falafel and eggs and french fries and cheddar cheese and chips",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/129749/PRODUCT/32710474/d0cc5be6-1c11-4b85-91bd-d4796ab7fc93.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32710474
+      },
+      {
+        "item_en": "Falafel Sandwich With Eggs, French Fries, Cheddar Cheese, And Potato Sticks",
+        "item_ar": "Falafel Sandwich With Eggs, French Fries, Cheddar Cheese, And Potato Sticks",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Bread stuffed with falafel, eggs, french fries, cheddar cheese, and potato sticks",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-13509160?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47046228
+      },
+      {
+        "item_en": "Falafel Sandwich With Eggs, Potatoes And Cheese And With Batal Chips And Potato Sticks",
+        "item_ar": "Falafel Sandwich With Eggs, Potatoes And Cheese And With Batal Chips And Potato Sticks",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Bread sandwich stuffed with falafel, eggs, potatoes, cheese, chips and potato sticks",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/2f67221d8d6c97189a3936ac1d47030f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32710475
+      },
+      {
+        "item_en": "Special Falafel Sandwich With Hummus Cream Cheese Cheddar Cheese Chips And Sauces",
+        "item_ar": "Special Falafel Sandwich With Hummus Cream Cheese Cheddar Cheese Chips And Sauces",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Bread stuffed with falafel hummus cream cheese and cheddar cheese with eggs french fries potato sticks and albtal chips",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/110396/PRODUCT/56296771/bcc29794-df26-4cc7-8c9e-cdca33919a8d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56296771
+      },
+      {
+        "item_en": "Mixed Falafel Sandwich With Kiri Cheese Cheddar Cheese Hummus Chips Sauces And Salad",
+        "item_ar": "Mixed Falafel Sandwich With Kiri Cheese Cheddar Cheese Hummus Chips Sauces And Salad",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Bread stuffed with falafel mixed with kiri cheese cheddar cheese hummus eggs french fries potato sticks batal chips sauces and salad",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/daf61fe6e76f338b99c2e30d67035900?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56298608
+      }
+    ],
+    "Side Orders": [
+      {
+        "item_en": "3 Falafel Pieces",
+        "item_ar": "3 Falafel Pieces",
+        "price": 1.5,
+        "currency": "SAR",
+        "description": "3 pieces of delicious falafel",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d21d5853f127ece29139e02bc5090f38.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32710484
+      },
+      {
+        "item_en": "Fries - Small",
+        "item_ar": "Fries - Small",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Crispy french fries",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1264909?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32710482
+      },
+      {
+        "item_en": "Fries - Large",
+        "item_ar": "Fries - Large",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Crispy french fries",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1264909?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32710483
+      }
+    ],
+    "Beverages": [
+      {
+        "item_en": "Pepsi",
+        "item_ar": "Pepsi",
+        "price": 3.5,
+        "currency": "SAR",
+        "description": "Refreshing soft drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-5738809?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32710485
+      },
+      {
+        "item_en": "Citrus",
+        "item_ar": "Citrus",
+        "price": 3.5,
+        "currency": "SAR",
+        "description": "Refreshing citrus soda with a tangy twist",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/b19afa1972f7d0db860a8f4f3d826f98.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32710486
+      },
+      {
+        "item_en": "Dew",
+        "item_ar": "Dew",
+        "price": 3.5,
+        "currency": "SAR",
+        "description": "Refreshing soft drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-10333076?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32710487
+      },
+      {
+        "item_en": "Al Rabie Juice",
+        "item_ar": "Al Rabie Juice",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Al rabie juice: refreshing orange juice.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/fede49e85226c0c7829ed64f89145cf3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32710488
+      }
+    ],
+    "Dishes Food": [
+      {
+        "item_en": "Special Large Mixed Falafel Dish - Xl Large",
+        "item_ar": "Special Large Mixed Falafel Dish - Xl Large",
+        "price": 40,
+        "currency": "SAR",
+        "description": "Falafel pieces with hummus and french fries and boiled eggs with salad and side sauces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/52647756?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52647756
+      },
+      {
+        "item_en": "Small Mixed Falafel Dish - Small",
+        "item_ar": "Small Mixed Falafel Dish - Small",
+        "price": 20,
+        "currency": "SAR",
+        "description": "A medium amount of falafel with hummus and french fries and boiled eggs with salad and side sauces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/52647763?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52647763
+      },
+      {
+        "item_en": "M Edium Mixed Falafel Dish - Medium",
+        "item_ar": "M Edium Mixed Falafel Dish - Medium",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Falafel dish with hummus and french fries and boiled eggs with salad and side sauces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-854409?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53310786
+      },
+      {
+        "item_en": "Large Dish Of Hummus - Medium",
+        "item_ar": "Large Dish Of Hummus - Medium",
+        "price": 20,
+        "currency": "SAR",
+        "description": "A large amount of special hummus",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1129124?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53310789
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.036Z",
+  "source": "Hungerstation"
+}

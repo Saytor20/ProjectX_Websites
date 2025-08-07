@@ -1,0 +1,490 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F8FAFB;
+  --foreground: #2C3E50;
+  --primary: #2C3E50;
+  --secondary: #3498DB;
+  --accent: #17A2B8;
+  --surface: rgba(255, 255, 255, 0.85);
+  --gradient-cool: linear-gradient(135deg, #2C3E50 0%, #3498DB 100%);
+  --gradient-glass: linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.7) 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--background);
+  position: relative;
+  color: var(--foreground);
+  font-family: 'Inter', 'SF Pro Display', system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Sophisticated geometric background pattern */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: 
+    radial-gradient(circle at 25% 25%, rgba(44, 62, 80, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 75% 25%, rgba(52, 152, 219, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 25% 75%, rgba(23, 162, 184, 0.02) 0%, transparent 50%),
+    radial-gradient(circle at 75% 75%, rgba(44, 62, 80, 0.02) 0%, transparent 50%);
+  animation: geometricFloat 30s ease-in-out infinite;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Minimal geometric pattern overlay */
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image:
+    url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%232C3E50' fill-opacity='0.015'%3E%3Ccircle cx='50' cy='50' r='1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-size: 100px 100px;
+  animation: patternDrift 60s linear infinite;
+  pointer-events: none;
+  z-index: -2;
+}
+
+@keyframes geometricFloat {
+  0%, 100% { 
+    transform: translate(0, 0) rotate(0deg) scale(1); 
+  }
+  25% { 
+    transform: translate(10px, -5px) rotate(90deg) scale(1.02); 
+  }
+  50% { 
+    transform: translate(-5px, 10px) rotate(180deg) scale(0.98); 
+  }
+  75% { 
+    transform: translate(5px, -10px) rotate(270deg) scale(1.01); 
+  }
+}
+
+@keyframes patternDrift {
+  0% { transform: translateX(0) translateY(0); }
+  100% { transform: translateX(-100px) translateY(-100px); }
+}
+
+/* Custom scrollbar with cool aesthetics */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(248, 250, 251, 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gradient-cool);
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #1A252F 0%, #2980B9 100%);
+}
+
+/* Text selection */
+::selection {
+  background: rgba(52, 152, 219, 0.2);
+  color: var(--foreground);
+}
+
+::-moz-selection {
+  background: rgba(52, 152, 219, 0.2);
+  color: var(--foreground);
+}
+
+/* Glass morphism effect */
+.glass-morphism {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+}
+
+/* Cool minimal glow effect */
+.cool-glow {
+  box-shadow: 
+    0 0 20px rgba(44, 62, 80, 0.1),
+    0 0 40px rgba(52, 152, 219, 0.05),
+    0 0 60px rgba(23, 162, 184, 0.03);
+  animation: coolPulse 4s ease-in-out infinite;
+}
+
+@keyframes coolPulse {
+  0%, 100% {
+    box-shadow: 
+      0 0 20px rgba(44, 62, 80, 0.1),
+      0 0 40px rgba(52, 152, 219, 0.05),
+      0 0 60px rgba(23, 162, 184, 0.03);
+  }
+  50% {
+    box-shadow: 
+      0 0 30px rgba(44, 62, 80, 0.15),
+      0 0 50px rgba(52, 152, 219, 0.08),
+      0 0 80px rgba(23, 162, 184, 0.05);
+  }
+}
+
+/* Sophisticated gradient text */
+.cool-gradient-text {
+  background: var(--gradient-cool);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: coolGradientShift 6s ease-in-out infinite;
+}
+
+@keyframes coolGradientShift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Elegant fade-in animation */
+.elegant-fade-in {
+  animation: elegantFadeIn 1s ease-out forwards;
+}
+
+@keyframes elegantFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Subtle hover lift effect */
+.subtle-lift {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.subtle-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 
+    0 12px 40px rgba(0, 0, 0, 0.1),
+    0 4px 16px rgba(52, 152, 219, 0.1);
+}
+
+/* Minimal card effect */
+.minimal-card {
+  background: var(--surface);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.minimal-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, 
+    transparent, 
+    rgba(52, 152, 219, 0.05), 
+    transparent
+  );
+  transition: left 0.6s;
+}
+
+.minimal-card:hover::before {
+  left: 100%;
+}
+
+.minimal-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.12);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+/* Cool ripple effect */
+.cool-ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+.cool-ripple::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(52, 152, 219, 0.3);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+.cool-ripple:hover::after {
+  width: 300px;
+  height: 300px;
+}
+
+/* Sophisticated loading animation */
+.sophisticated-loading {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, 
+    rgba(248, 250, 251, 0.3) 0%, 
+    rgba(52, 152, 219, 0.1) 50%, 
+    rgba(248, 250, 251, 0.3) 100%
+  );
+  background-size: 200% 100%;
+  animation: sophisticatedShimmer 2s infinite;
+}
+
+@keyframes sophisticatedShimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Minimal navigation indicator */
+.nav-indicator {
+  position: relative;
+}
+
+.nav-indicator::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--gradient-cool);
+  transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-indicator:hover::after,
+.nav-indicator.active::after {
+  width: 100%;
+}
+
+/* Cool focus states */
+.cool-focus {
+  outline: none;
+  position: relative;
+}
+
+.cool-focus::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: var(--gradient-cool);
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: -1;
+}
+
+.cool-focus:focus::before {
+  opacity: 0.3;
+}
+
+/* Elegant text reveal animation */
+.text-reveal {
+  position: relative;
+  overflow: hidden;
+}
+
+.text-reveal::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: var(--gradient-cool);
+  animation: textReveal 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes textReveal {
+  0% { left: -100%; }
+  50% { left: 0; }
+  100% { left: 100%; }
+}
+
+/* Responsive design utilities */
+@media (max-width: 768px) {
+  body::before {
+    background: 
+      radial-gradient(circle at 30% 30%, rgba(44, 62, 80, 0.02) 0%, transparent 50%),
+      radial-gradient(circle at 70% 70%, rgba(52, 152, 219, 0.02) 0%, transparent 50%);
+  }
+  
+  .cool-glow {
+    box-shadow: 
+      0 0 15px rgba(44, 62, 80, 0.08),
+      0 0 25px rgba(52, 152, 219, 0.04);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Image loading with sophisticated blur effect */
+.image-sophisticated-loading {
+  background: var(--gradient-glass);
+  backdrop-filter: blur(10px);
+  animation: sophisticatedImageLoad 2s infinite;
+}
+
+@keyframes sophisticatedImageLoad {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 0.8; }
+}
+
+/* Enhanced Minimal Animations */
+
+/* Minimal slide in animation */
+.minimal-slide-in {
+  opacity: 0;
+  animation: minimalSlideIn 1s ease-out 0.3s forwards;
+}
+
+@keyframes minimalSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+    letter-spacing: 0.2em;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    letter-spacing: normal;
+  }
+}
+
+/* Minimal fade in */
+.minimal-fade-in {
+  opacity: 0;
+  animation: minimalFadeIn 0.8s ease-out 0.6s forwards;
+}
+
+@keyframes minimalFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Minimal stat fade */
+.minimal-stat-fade {
+  opacity: 0;
+  animation: minimalStatFade 0.6s ease-out forwards;
+}
+
+.minimal-stat-fade:nth-child(1) { animation-delay: 0.8s; }
+.minimal-stat-fade:nth-child(2) { animation-delay: 1s; }
+.minimal-stat-fade:nth-child(3) { animation-delay: 1.2s; }
+
+@keyframes minimalStatFade {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Minimal button effects */
+.minimal-button {
+  position: relative;
+  overflow: hidden;
+}
+
+.minimal-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(0,0,0,0.05), transparent);
+  transition: left 0.6s;
+}
+
+.minimal-button:hover::before {
+  left: 100%;
+}
+
+/* Minimal navigation item effects */
+.minimal-nav-item::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: currentColor;
+  transition: width 0.3s ease;
+}
+
+.minimal-nav-item:hover::after {
+  width: 100%;
+}
+
+/* Clean hover effects */
+.minimal-hover {
+  transition: all 0.2s ease;
+}
+
+.minimal-hover:hover {
+  transform: translateY(-1px);
+}

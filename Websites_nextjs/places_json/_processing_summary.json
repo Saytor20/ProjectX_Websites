@@ -1,0 +1,602 @@
+{
+  "total_restaurants": 85,
+  "successfully_processed": 85,
+  "processing_date": "2025-08-05T20:31:20.043Z",
+  "restaurants": [
+    {
+      "id": "103591",
+      "name": "Mezaj Maghribi",
+      "filename": "mezaj_maghribi_103591.json",
+      "menu_items_count": 83,
+      "categories_count": 11
+    },
+    {
+      "id": "110870",
+      "name": "Cote Me",
+      "filename": "cote_me_110870.json",
+      "menu_items_count": 45,
+      "categories_count": 12
+    },
+    {
+      "id": "113480",
+      "name": "Lorenzo Pizza",
+      "filename": "lorenzo_pizza_113480.json",
+      "menu_items_count": 100,
+      "categories_count": 16
+    },
+    {
+      "id": "115244",
+      "name": "Alhatab",
+      "filename": "alhatab_115244.json",
+      "menu_items_count": 230,
+      "categories_count": 14
+    },
+    {
+      "id": "115874",
+      "name": "CA9 ؛ Al Muftaha",
+      "filename": "ca9_al_muftaha_115874.json",
+      "menu_items_count": 18,
+      "categories_count": 4
+    },
+    {
+      "id": "125581",
+      "name": "Karak Station",
+      "filename": "karak_station_125581.json",
+      "menu_items_count": 71,
+      "categories_count": 8
+    },
+    {
+      "id": "125771",
+      "name": "Ennabi Grill",
+      "filename": "ennabi_grill_125771.json",
+      "menu_items_count": 106,
+      "categories_count": 14
+    },
+    {
+      "id": "125772",
+      "name": "Sharar - Try Mogmarh",
+      "filename": "sharar_try_mogmarh_125772.json",
+      "menu_items_count": 27,
+      "categories_count": 7
+    },
+    {
+      "id": "129253",
+      "name": "Coffee Hut",
+      "filename": "coffee_hut_129253.json",
+      "menu_items_count": 80,
+      "categories_count": 4
+    },
+    {
+      "id": "131106",
+      "name": "BASKET COFFEE",
+      "filename": "basket_coffee_131106.json",
+      "menu_items_count": 29,
+      "categories_count": 3
+    },
+    {
+      "id": "131128",
+      "name": "Hashi Basha",
+      "filename": "hashi_basha_131128.json",
+      "menu_items_count": 34,
+      "categories_count": 6
+    },
+    {
+      "id": "132175",
+      "name": "Shiwayat Tahi",
+      "filename": "shiwayat_tahi_132175.json",
+      "menu_items_count": 22,
+      "categories_count": 6
+    },
+    {
+      "id": "136061",
+      "name": "Hekayat Al Shawaya",
+      "filename": "hekayat_al_shawaya_136061.json",
+      "menu_items_count": 23,
+      "categories_count": 7
+    },
+    {
+      "id": "137540",
+      "name": "Luigi",
+      "filename": "luigi_137540.json",
+      "menu_items_count": 33,
+      "categories_count": 8
+    },
+    {
+      "id": "143068",
+      "name": "Happy Cup",
+      "filename": "happy_cup_143068.json",
+      "menu_items_count": 21,
+      "categories_count": 5
+    },
+    {
+      "id": "143912",
+      "name": "Pasta Station",
+      "filename": "pasta_station_143912.json",
+      "menu_items_count": 17,
+      "categories_count": 4
+    },
+    {
+      "id": "151319",
+      "name": "tivo Sandwich",
+      "filename": "tivo_sandwich_151319.json",
+      "menu_items_count": 24,
+      "categories_count": 8
+    },
+    {
+      "id": "152451",
+      "name": "Sandwich",
+      "filename": "sandwich_152451.json",
+      "menu_items_count": 43,
+      "categories_count": 9
+    },
+    {
+      "id": "153199",
+      "name": "Coffee Address",
+      "filename": "coffee_address_153199.json",
+      "menu_items_count": 60,
+      "categories_count": 6
+    },
+    {
+      "id": "154737",
+      "name": "UTURN",
+      "filename": "uturn_154737.json",
+      "menu_items_count": 15,
+      "categories_count": 3
+    },
+    {
+      "id": "154740",
+      "name": "Zan sweet",
+      "filename": "zan_sweet_154740.json",
+      "menu_items_count": 1,
+      "categories_count": 1
+    },
+    {
+      "id": "15961",
+      "name": "The Burger's Origin",
+      "filename": "the_burgers_origin_15961.json",
+      "menu_items_count": 51,
+      "categories_count": 11
+    },
+    {
+      "id": "28703",
+      "name": "QALAT MADGUT",
+      "filename": "qalat_madgut_28703.json",
+      "menu_items_count": 29,
+      "categories_count": 5
+    },
+    {
+      "id": "33705",
+      "name": "N5",
+      "filename": "n5_33705.json",
+      "menu_items_count": 40,
+      "categories_count": 6
+    },
+    {
+      "id": "39025",
+      "name": "Al Zaki",
+      "filename": "al_zaki_39025.json",
+      "menu_items_count": 60,
+      "categories_count": 9
+    },
+    {
+      "id": "44038",
+      "name": "Fresh Burger",
+      "filename": "fresh_burger_44038.json",
+      "menu_items_count": 64,
+      "categories_count": 9
+    },
+    {
+      "id": "60694",
+      "name": "Hashem Restaurant",
+      "filename": "hashem_restaurant_60694.json",
+      "menu_items_count": 101,
+      "categories_count": 13
+    },
+    {
+      "id": "62529",
+      "name": "Kyan",
+      "filename": "kyan_62529.json",
+      "menu_items_count": 33,
+      "categories_count": 8
+    },
+    {
+      "id": "63191",
+      "name": "Abu Al Khair",
+      "filename": "abu_al_khair_63191.json",
+      "menu_items_count": 88,
+      "categories_count": 8
+    },
+    {
+      "id": "68554",
+      "name": "Anakeed",
+      "filename": "anakeed_68554.json",
+      "menu_items_count": 43,
+      "categories_count": 9
+    },
+    {
+      "id": "69262",
+      "name": "Alasturat Alhadith Restaurant",
+      "filename": "alasturat_alhadith_restaurant_69262.json",
+      "menu_items_count": 43,
+      "categories_count": 7
+    },
+    {
+      "id": "77695",
+      "name": "Pinzatta - Better than Pizza",
+      "filename": "pinzatta_better_than_pizza_77695.json",
+      "menu_items_count": 49,
+      "categories_count": 11
+    },
+    {
+      "id": "82936",
+      "name": "Nine cafe",
+      "filename": "nine_cafe_82936.json",
+      "menu_items_count": 87,
+      "categories_count": 16
+    },
+    {
+      "id": "83339",
+      "name": "Shawarma Zone",
+      "filename": "shawarma_zone_83339.json",
+      "menu_items_count": 34,
+      "categories_count": 6
+    },
+    {
+      "id": "87576",
+      "name": "Hoba Burger",
+      "filename": "hoba_burger_87576.json",
+      "menu_items_count": 22,
+      "categories_count": 9
+    },
+    {
+      "id": "91688",
+      "name": "KYAN",
+      "filename": "kyan_91688.json",
+      "menu_items_count": 59,
+      "categories_count": 5
+    },
+    {
+      "id": "92593",
+      "name": "SPECIALTY TEA",
+      "filename": "specialty_tea_92593.json",
+      "menu_items_count": 53,
+      "categories_count": 7
+    },
+    {
+      "id": "95544",
+      "name": "Namq Caffee",
+      "filename": "namq_caffee_95544.json",
+      "menu_items_count": 78,
+      "categories_count": 11
+    },
+    {
+      "id": "103724",
+      "name": "Lorenzo Pizza",
+      "filename": "lorenzo_pizza_103724.json",
+      "menu_items_count": 100,
+      "categories_count": 16
+    },
+    {
+      "id": "110453",
+      "name": "Shawarma Shyf Aljabal",
+      "filename": "shawarma_shyf_aljabal_110453.json",
+      "menu_items_count": 15,
+      "categories_count": 4
+    },
+    {
+      "id": "111863",
+      "name": "Alwazn Almithaly (DNP)",
+      "filename": "alwazn_almithaly_dnp_111863.json",
+      "menu_items_count": 1,
+      "categories_count": 1
+    },
+    {
+      "id": "11538",
+      "name": "Broast Al Medina",
+      "filename": "broast_al_medina_11538.json",
+      "menu_items_count": 27,
+      "categories_count": 5
+    },
+    {
+      "id": "117636",
+      "name": "Antika",
+      "filename": "antika_117636.json",
+      "menu_items_count": 21,
+      "categories_count": 5
+    },
+    {
+      "id": "120613",
+      "name": "Darseens",
+      "filename": "darseens_120613.json",
+      "menu_items_count": 30,
+      "categories_count": 5
+    },
+    {
+      "id": "121612",
+      "name": "Nestretto cafe",
+      "filename": "nestretto_cafe_121612.json",
+      "menu_items_count": 105,
+      "categories_count": 8
+    },
+    {
+      "id": "122565",
+      "name": "Falafel sandwich",
+      "filename": "falafel_sandwich_122565.json",
+      "menu_items_count": 18,
+      "categories_count": 4
+    },
+    {
+      "id": "122841",
+      "name": "Sidon Sweets",
+      "filename": "sidon_sweets_122841.json",
+      "menu_items_count": 42,
+      "categories_count": 12
+    },
+    {
+      "id": "122848",
+      "name": "Al-Samil",
+      "filename": "alsamil_122848.json",
+      "menu_items_count": 46,
+      "categories_count": 8
+    },
+    {
+      "id": "125444",
+      "name": "Al Subh",
+      "filename": "al_subh_125444.json",
+      "menu_items_count": 29,
+      "categories_count": 6
+    },
+    {
+      "id": "126555",
+      "name": "Kas gobn",
+      "filename": "kas_gobn_126555.json",
+      "menu_items_count": 37,
+      "categories_count": 10
+    },
+    {
+      "id": "128502",
+      "name": "Al Tazaj",
+      "filename": "al_tazaj_128502.json",
+      "menu_items_count": 109,
+      "categories_count": 14
+    },
+    {
+      "id": "128664",
+      "name": "Ovit",
+      "filename": "ovit_128664.json",
+      "menu_items_count": 24,
+      "categories_count": 8
+    },
+    {
+      "id": "128843",
+      "name": "Coffee Hut",
+      "filename": "coffee_hut_128843.json",
+      "menu_items_count": 75,
+      "categories_count": 4
+    },
+    {
+      "id": "129753",
+      "name": "Falafel Qena",
+      "filename": "falafel_qena_129753.json",
+      "menu_items_count": 23,
+      "categories_count": 5
+    },
+    {
+      "id": "131735",
+      "name": "Abu Mahal",
+      "filename": "abu_mahal_131735.json",
+      "menu_items_count": 19,
+      "categories_count": 6
+    },
+    {
+      "id": "133265",
+      "name": "Take Taco",
+      "filename": "take_taco_133265.json",
+      "menu_items_count": 16,
+      "categories_count": 4
+    },
+    {
+      "id": "136872",
+      "name": "Luigi",
+      "filename": "luigi_136872.json",
+      "menu_items_count": 34,
+      "categories_count": 9
+    },
+    {
+      "id": "137177",
+      "name": "Noodle lemon",
+      "filename": "noodle_lemon_137177.json",
+      "menu_items_count": 34,
+      "categories_count": 7
+    },
+    {
+      "id": "137466",
+      "name": "Al Othaim",
+      "filename": "al_othaim_137466.json",
+      "menu_items_count": 1,
+      "categories_count": 1
+    },
+    {
+      "id": "139349",
+      "name": "Jadeel",
+      "filename": "jadeel_139349.json",
+      "menu_items_count": 60,
+      "categories_count": 9
+    },
+    {
+      "id": "140892",
+      "name": "Shaqfa",
+      "filename": "shaqfa_140892.json",
+      "menu_items_count": 23,
+      "categories_count": 5
+    },
+    {
+      "id": "142757",
+      "name": "Khaliat Khalid",
+      "filename": "khaliat_khalid_142757.json",
+      "menu_items_count": 19,
+      "categories_count": 3
+    },
+    {
+      "id": "144448",
+      "name": "Knaflt",
+      "filename": "knaflt_144448.json",
+      "menu_items_count": 25,
+      "categories_count": 6
+    },
+    {
+      "id": "145589",
+      "name": "Mouajanat Makanak Al Raqi",
+      "filename": "mouajanat_makanak_al_raqi_145589.json",
+      "menu_items_count": 37,
+      "categories_count": 5
+    },
+    {
+      "id": "145796",
+      "name": "Bhaiya",
+      "filename": "bhaiya_145796.json",
+      "menu_items_count": 47,
+      "categories_count": 10
+    },
+    {
+      "id": "145875",
+      "name": "Lolliva Chocolate",
+      "filename": "lolliva_chocolate_145875.json",
+      "menu_items_count": 3,
+      "categories_count": 1
+    },
+    {
+      "id": "145914",
+      "name": "Pasta Station",
+      "filename": "pasta_station_145914.json",
+      "menu_items_count": 18,
+      "categories_count": 5
+    },
+    {
+      "id": "148068",
+      "name": "Bozen",
+      "filename": "bozen_148068.json",
+      "menu_items_count": 51,
+      "categories_count": 9
+    },
+    {
+      "id": "148770",
+      "name": "Zan sweet",
+      "filename": "zan_sweet_148770.json",
+      "menu_items_count": 1,
+      "categories_count": 1
+    },
+    {
+      "id": "148781",
+      "name": "Aram Coffee",
+      "filename": "aram_coffee_148781.json",
+      "menu_items_count": 22,
+      "categories_count": 3
+    },
+    {
+      "id": "149898",
+      "name": "Nobala’a Halab Restaurant",
+      "filename": "nobalaa_halab_restaurant_149898.json",
+      "menu_items_count": 57,
+      "categories_count": 8
+    },
+    {
+      "id": "150519",
+      "name": "Bulbul Alsaadah",
+      "filename": "bulbul_alsaadah_150519.json",
+      "menu_items_count": 121,
+      "categories_count": 9
+    },
+    {
+      "id": "151379",
+      "name": "Shaqfa",
+      "filename": "shaqfa_151379.json",
+      "menu_items_count": 22,
+      "categories_count": 6
+    },
+    {
+      "id": "151814",
+      "name": "Bohari",
+      "filename": "bohari_151814.json",
+      "menu_items_count": 11,
+      "categories_count": 4
+    },
+    {
+      "id": "152280",
+      "name": "Nus",
+      "filename": "nus_152280.json",
+      "menu_items_count": 30,
+      "categories_count": 7
+    },
+    {
+      "id": "152851",
+      "name": "Forn Nakshah",
+      "filename": "forn_nakshah_152851.json",
+      "menu_items_count": 56,
+      "categories_count": 9
+    },
+    {
+      "id": "15341",
+      "name": "Broccoli Pizza And Pasta",
+      "filename": "broccoli_pizza_and_pasta_15341.json",
+      "menu_items_count": 96,
+      "categories_count": 9
+    },
+    {
+      "id": "154024",
+      "name": "AQ fries",
+      "filename": "aq_fries_154024.json",
+      "menu_items_count": 53,
+      "categories_count": 10
+    },
+    {
+      "id": "155090",
+      "name": "Durar Al-Mashawi",
+      "filename": "durar_almashawi_155090.json",
+      "menu_items_count": 63,
+      "categories_count": 8
+    },
+    {
+      "id": "18593",
+      "name": "Shawarma Saj Beirut",
+      "filename": "shawarma_saj_beirut_18593.json",
+      "menu_items_count": 157,
+      "categories_count": 8
+    },
+    {
+      "id": "19771",
+      "name": "Golden Basbosti",
+      "filename": "golden_basbosti_19771.json",
+      "menu_items_count": 39,
+      "categories_count": 10
+    },
+    {
+      "id": "28218",
+      "name": "Ganadeel Al Toot",
+      "filename": "ganadeel_al_toot_28218.json",
+      "menu_items_count": 68,
+      "categories_count": 9
+    },
+    {
+      "id": "31342",
+      "name": "Sambousah Baladi",
+      "filename": "sambousah_baladi_31342.json",
+      "menu_items_count": 29,
+      "categories_count": 4
+    },
+    {
+      "id": "39029",
+      "name": "Al Zaki",
+      "filename": "al_zaki_39029.json",
+      "menu_items_count": 90,
+      "categories_count": 13
+    },
+    {
+      "id": "47401",
+      "name": "Butares",
+      "filename": "butares_47401.json",
+      "menu_items_count": 41,
+      "categories_count": 7
+    }
+  ]
+}

@@ -1,0 +1,400 @@
+{
+  "restaurant_info": {
+    "id": "137540",
+    "name": "Luigi",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2518623,
+      "longitude": 42.5980781
+    },
+    "rating": 4.2,
+    "review_count": 163,
+    "type_of_food": "Sandwich,Fast Food,Italian,International,Pizza,Pasta,Salads",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/137540"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Rocca Burrata Pizza.",
+        "item_ar": "Rocca Burrata Pizza.",
+        "price": 48,
+        "currency": "SAR",
+        "description": "The authentic italian flavor comes alive with a rich tomato sauce, fresh arugula, cherry tomato, mozzarella, burrata, and parmesan cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/077c667e657257e6efd88d2bbf5c03bf.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61728094
+      },
+      {
+        "item_en": "Hot Chicken Penne Pasta.",
+        "item_ar": "Hot Chicken Penne Pasta.",
+        "price": 37,
+        "currency": "SAR",
+        "description": "A tasty mix of penne and fusilli pasta, grilled chicken, parmesan, mozzarella, and cheddar, alfredo, marinara, and sriracha sauces for a rich flavor experience!",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/d9b2b3fed6f70299d6a7d842cf892d00.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61728898
+      },
+      {
+        "item_en": "Ranch Pizza.",
+        "item_ar": "Ranch Pizza.",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Wonderful!ranch sauce meets grilled chicken and white onions, topped with mozzarella and finished with a touch of oregano for a one-of-kind experience.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/698feb6d46bc49269f71045b95a8bf8d.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61727971
+      },
+      {
+        "item_en": "Margherita Pizza.",
+        "item_ar": "Margherita Pizza.",
+        "price": 35,
+        "currency": "SAR",
+        "description": "Enjoy the neapolitan flavor with tomato sauce, mozzarella cheese, fresh basil, and aromatic oregano.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/4fa61824d0c67bd92c3d57dfab4e12d2.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61728200
+      }
+    ],
+    "Chessy Crunchy Pizza": [
+      {
+        "item_en": "Cheesy Chicken Shawarma.",
+        "item_ar": "Cheesy Chicken Shawarma.",
+        "price": 42,
+        "currency": "SAR",
+        "description": "A distinctive arabic flavor with a thin, crispy pizza, filled with a double layer of creamy cheese, cheddar and mozzarella slices, chicken shawarma, pickles, tomatoes, onions, ranch sauce, and fresh parsley.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/209e91cb32b62dec0c77b8029d8da147.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61728607
+      },
+      {
+        "item_en": "Cheesy Margharita.",
+        "item_ar": "Cheesy Margharita.",
+        "price": 39,
+        "currency": "SAR",
+        "description": "A thin, crispy pizza, filled with a double layer of creamy cheese, cheddar and mozzarella slices, with a touch of oregano.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/2857a93a82a978b5243a42033036d4b1.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61728644
+      },
+      {
+        "item_en": "Cheesy Chicken Dynamite.",
+        "item_ar": "Cheesy Chicken Dynamite.",
+        "price": 42,
+        "currency": "SAR",
+        "description": "Thin and crispy pizza filled with a double layer of creamy cheese, cheddar and mozzarella slices, grilled chicken, tomatoes, topped with peri-peri sauce and ranch dressing.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/23a8689680052d55849643b8d9769481.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61728695
+      },
+      {
+        "item_en": "Cheesy Hot Honey Pepperoni.",
+        "item_ar": "Cheesy Hot Honey Pepperoni.",
+        "price": 45,
+        "currency": "SAR",
+        "description": "Thin and crispy pizza, filled with a double layer of creamy cheese, cheddar and mozzarella slices, topped with beef pepperoni, and a blend of crushed chili and honey for a perfect balance of spicy and sweet.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/c601cf4ef3a5cc610fd66d97d8d11ccc.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61728741
+      },
+      {
+        "item_en": "Cheesy Hot Dog.",
+        "item_ar": "Cheesy Hot Dog.",
+        "price": 45,
+        "currency": "SAR",
+        "description": "For hot dog lovers! a thin, crispy pizza filled with a double layer of creamy cheese, cheddar and mozzarella slices, topped with beef hot dog, along with ketchup and mustard.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/02f4a57bae3da26cef59a659e3985693.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61728792
+      }
+    ],
+    "Luigi Pizza": [
+      {
+        "item_en": "Ranch Pizza.",
+        "item_ar": "Ranch Pizza.",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Wonderful!ranch sauce meets grilled chicken and white onions, topped with mozzarella and finished with a touch of oregano for a one-of-kind experience.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/698feb6d46bc49269f71045b95a8bf8d.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61727971
+      },
+      {
+        "item_en": "Hot Honey Pepperoni Pizza.",
+        "item_ar": "Hot Honey Pepperoni Pizza.",
+        "price": 42,
+        "currency": "SAR",
+        "description": "A rich tomato sauce base, topped with beef pepperoni , melted mozzarella, and a unique blend of crushed chili and honey for the perfect balance of sweet and spicy.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/697cbda8bdbc19de9215e9151a7335e6.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61728026
+      },
+      {
+        "item_en": "Rocca Burrata Pizza.",
+        "item_ar": "Rocca Burrata Pizza.",
+        "price": 48,
+        "currency": "SAR",
+        "description": "The authentic italian flavor comes alive with a rich tomato sauce, fresh arugula, cherry tomato, mozzarella, burrata, and parmesan cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/077c667e657257e6efd88d2bbf5c03bf.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61728094
+      },
+      {
+        "item_en": "Margherita Pizza.",
+        "item_ar": "Margherita Pizza.",
+        "price": 35,
+        "currency": "SAR",
+        "description": "Enjoy the neapolitan flavor with tomato sauce, mozzarella cheese, fresh basil, and aromatic oregano.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/4fa61824d0c67bd92c3d57dfab4e12d2.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61728200
+      }
+    ],
+    "Detroit Pizza": [
+      {
+        "item_en": "Detroit Chicken Ranch.",
+        "item_ar": "Detroit Chicken Ranch.",
+        "price": 45,
+        "currency": "SAR",
+        "description": "Dive into distinctive flavors of mozzarella cheese, oregano, grilled chicken, red onions, topped with ranch sauce, completed with parmesan cheese and fresh parsley.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/851cf5914c25b6e8d0ed3698a69b51d3.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61728305
+      },
+      {
+        "item_en": "Detroit Hot American Pepperoni.",
+        "item_ar": "Detroit Hot American Pepperoni.",
+        "price": 48,
+        "currency": "SAR",
+        "description": "Enjoy different flavor with mozzarella cheese, oregano, beef pepperoni, jalapeño slices, and mutti sauce, ranch, and a spicy kick from sriracha, complemented by parmesan cheese and fresh parsley.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/c367f100b294cb2861700e7dc8fe202b.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61728374
+      },
+      {
+        "item_en": "Detroit Sriracha Chicken.",
+        "item_ar": "Detroit Sriracha Chicken.",
+        "price": 49,
+        "currency": "SAR",
+        "description": "A mix that offers a unique experience with mozzarella, oregano, spicy grilled chicken, yellow and red peppers, red onions, sriracha and ranch sauce, topped with parsley and parmesan.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/29f838210ba6bca989e65cc4e2f8439b.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61728474
+      },
+      {
+        "item_en": "Detroit Margarita.",
+        "item_ar": "Detroit Margarita.",
+        "price": 39,
+        "currency": "SAR",
+        "description": "A distinctive italian experience with mozzarella cheese, oregano, italian mutti sauce, parmesan cheese, and fresh parsley.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/ad917d45b037b0e5c4345eefdd9cb516.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61728536
+      }
+    ],
+    "Pasta": [
+      {
+        "item_en": "Alfredo Turkey Pasta.",
+        "item_ar": "Alfredo Turkey Pasta.",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Combines penne and fusilli pasta with slices of smoked turkey, alfredo and marinara sauces, complete with parmesan and mozzarella cheese for an irresistible flavor!",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/eabbebf41d37dbedda875be296396300.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61728865
+      },
+      {
+        "item_en": "Hot Chicken Penne Pasta.",
+        "item_ar": "Hot Chicken Penne Pasta.",
+        "price": 37,
+        "currency": "SAR",
+        "description": "A tasty mix of penne and fusilli pasta, grilled chicken, parmesan, mozzarella, and cheddar, alfredo, marinara, and sriracha sauces for a rich flavor experience!",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/d9b2b3fed6f70299d6a7d842cf892d00.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61728898
+      }
+    ],
+    "Starter": [
+      {
+        "item_en": "Calzone Ranch.",
+        "item_ar": "Calzone Ranch.",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Italian pie filled with melted mozzarella cheese, grilled chicken, and white onion, with ranch sauce.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/060d29fa040ff8d0c7c1a44877b88d75.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61728931
+      },
+      {
+        "item_en": "Crisper.",
+        "item_ar": "Crisper.",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Crispy golden wedges, perfectly seasoned and ideal for dipping in your favorite sauces.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/24c3976f427b114a3fb5815a89f8aab8.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62933460
+      },
+      {
+        "item_en": "Buffalo Wings 4 Pcs",
+        "item_ar": "Buffalo Wings 4 Pcs",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Delicious chicken wings coated in spicy buffalo sauce.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/ae325ea27feaa08c14406a88a8ea0d74.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62933470
+      },
+      {
+        "item_en": "Bbq Wings 4pc",
+        "item_ar": "Bbq Wings 4pc",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Chicken wings coated in rich bbq sauce. perfect for bbq lovers.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/597cd2f0bd1f41f0bd15e68d6911ccf8.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62933475
+      }
+    ],
+    "Beverages": [
+      {
+        "item_en": "7 Up Can",
+        "item_ar": "7 Up Can",
+        "price": 7,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/0c3058994bd81ff90480605be4816f39.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61728973
+      },
+      {
+        "item_en": "7 Up Diet Can.",
+        "item_ar": "7 Up Diet Can.",
+        "price": 7,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/a1023307321784c1a9ff24ee855889da.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61729005
+      },
+      {
+        "item_en": "Mirinda Can.",
+        "item_ar": "Mirinda Can.",
+        "price": 7,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/a9c65da55298be2c95732a7fe110768b.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61729030
+      },
+      {
+        "item_en": "Pepsi Diet Can.",
+        "item_ar": "Pepsi Diet Can.",
+        "price": 7,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/4340d3c441c47609a28268ea0e8d892b.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61729055
+      },
+      {
+        "item_en": "Pepsi Can.",
+        "item_ar": "Pepsi Can.",
+        "price": 7,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/7172f3114d3279104a332ec71730bd87.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61729077
+      },
+      {
+        "item_en": "Mountain Dew Can.",
+        "item_ar": "Mountain Dew Can.",
+        "price": 7,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/b2f194712e0da01a19a423a0fc94803d.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61729099
+      },
+      {
+        "item_en": "Small Water.",
+        "item_ar": "Small Water.",
+        "price": 4,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/20ff27ce50141515e6ca4fc472f42d96.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61729124
+      }
+    ],
+    "Sauce": [
+      {
+        "item_en": "Spicy Ranch.",
+        "item_ar": "Spicy Ranch.",
+        "price": 5,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/2f23d5fb6564262e532c574b18782c3c.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61729148
+      },
+      {
+        "item_en": "Ranch.",
+        "item_ar": "Ranch.",
+        "price": 5,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/23769ce59e2c629743ad26fd2989edc7.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61729170
+      },
+      {
+        "item_en": "Honey Bbq.",
+        "item_ar": "Honey Bbq.",
+        "price": 5,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LUIG/7117152655271e4193ea7786f472fcf3.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61729196
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.029Z",
+  "source": "Hungerstation"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "bbq-smokehouse",
+  "name": "BBQ Smokehouse",
+  "description": "Bold BBQ restaurant template with pink accents, dark theme, and smokehouse vibes perfect for barbecue joints and grills",
+  "version": "1.0.0",
+  "framework": "nextjs",
+  "language": "typescript", 
+  "styling": "tailwind+mui",
+  "recommended_for": ["bbq", "smokehouse", "barbecue", "grill", "american", "steakhouse", "casual-dining"],
+  "features": [
+    "responsive-design",
+    "typescript",
+    "bbq-pink-theme",
+    "dark-aesthetic",
+    "bold-typography",
+    "grid-layout",
+    "takeout-ordering",
+    "social-integration",
+    "menu-display",
+    "events-catering",
+    "reservation-system",
+    "bilingual-support"
+  ],
+  "structure": {
+    "template_type": "variant",
+    "uses_shared": true,
+    "custom_files": [
+      "src/app/layout.tsx",
+      "src/app/page.tsx", 
+      "src/app/globals.css",
+      "src/app/theme.ts",
+      "src/components/BBQHero.tsx",
+      "src/components/BBQHeader.tsx",
+      "src/components/BBQGrid.tsx",
+      "src/components/BBQFooter.tsx"
+    ]
+  }
+}

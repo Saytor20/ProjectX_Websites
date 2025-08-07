@@ -1,0 +1,365 @@
+{
+  "restaurant_info": {
+    "id": "152280",
+    "name": "Nus",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2097299,
+      "longitude": 42.4940703
+    },
+    "rating": 3.5,
+    "review_count": 41,
+    "type_of_food": "Sandwich,Fast Food,American",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/152280"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Gathering Box",
+        "item_ar": "Gathering Box",
+        "price": 87,
+        "currency": "SAR",
+        "description": "Mixed sandwich box (half portions)",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/2fddf92cc672f63f66659a67c5eb6fe6.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486647
+      },
+      {
+        "item_en": "Philly Steak Chipotle Chicken",
+        "item_ar": "Philly Steak Chipotle Chicken",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Philly steak with smoky chipotle sauce, onion, pepper, and cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/ff6695bdaaef86b116671bf7b89245c8.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486632
+      },
+      {
+        "item_en": "Fajita Sandwich",
+        "item_ar": "Fajita Sandwich",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Marinated chicken fajita slices with grilled vegetables and sauce in delicious bread",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/117808/PRODUCT/71486635/d50307c9-8369-4055-b9be-2ffba2bef9de.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486635
+      },
+      {
+        "item_en": "Spicy Crispy Chicken",
+        "item_ar": "Spicy Crispy Chicken",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Spicy crispy chicken with spicy sauce and lettuce in a burger bun",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/eb5723b8a521e0c0706b460f9474beca.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486634
+      }
+    ],
+    "Sandwiches": [
+      {
+        "item_en": "Philly Chicken Classic",
+        "item_ar": "Philly Chicken Classic",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Grilled chicken slices with pepper, onion, and cheese in soft bread",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/117808/PRODUCT/71486631/d6655b86-7cc0-45b2-885d-584289f88ff8.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486631
+      },
+      {
+        "item_en": "Philly Steak Chipotle Chicken",
+        "item_ar": "Philly Steak Chipotle Chicken",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Philly steak with smoky chipotle sauce, onion, pepper, and cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/ff6695bdaaef86b116671bf7b89245c8.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486632
+      },
+      {
+        "item_en": "Classic Crispy Chicken",
+        "item_ar": "Classic Crispy Chicken",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Crispy fried chicken with lettuce and mayonnaise in soft bread",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/1351247bc6f91f845e0e45cc8f62d8ad.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486633
+      },
+      {
+        "item_en": "Spicy Crispy Chicken",
+        "item_ar": "Spicy Crispy Chicken",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Spicy crispy chicken with spicy sauce and lettuce in a burger bun",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/eb5723b8a521e0c0706b460f9474beca.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486634
+      },
+      {
+        "item_en": "Fajita Sandwich",
+        "item_ar": "Fajita Sandwich",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Marinated chicken fajita slices with grilled vegetables and sauce in delicious bread",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/117808/PRODUCT/71486635/d50307c9-8369-4055-b9be-2ffba2bef9de.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486635
+      }
+    ],
+    "Side Dishes": [
+      {
+        "item_en": "Chicken Fries",
+        "item_ar": "Chicken Fries",
+        "price": 21,
+        "currency": "SAR",
+        "description": "French fries topped with crispy chicken bites and special sauce",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/117808/PRODUCT/71486637/1c6feec6-f818-486b-b8bf-9764844965e6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486637
+      },
+      {
+        "item_en": "Truffle Fries",
+        "item_ar": "Truffle Fries",
+        "price": 14,
+        "currency": "SAR",
+        "description": "French fries with premium truffle flavor, cheese, and creamy sauce",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/117808/PRODUCT/71486638/c40b4906-90fe-4434-a86b-9f54e6603a8f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486638
+      },
+      {
+        "item_en": "Chicken Bites",
+        "item_ar": "Chicken Bites",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Small crispy fried chicken pieces, delicious and served with dipping sauce",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/117808/PRODUCT/71486639/67d6d94d-a274-4e60-9382-319a0c88d261.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486639
+      },
+      {
+        "item_en": "Chicken Wings",
+        "item_ar": "Chicken Wings",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Fried or grilled chicken wings with hot seasoning",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/117808/PRODUCT/71486640/5db4af0f-4124-4da7-b29a-1f85d81c1a09.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486640
+      },
+      {
+        "item_en": "Fried Corn Sticks",
+        "item_ar": "Fried Corn Sticks",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Crispy fried sticks stuffed with corn and cheese",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/117808/PRODUCT/71486641/093c1465-0cff-4853-a34b-4f56b8397dde.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486641
+      },
+      {
+        "item_en": "Sweet Potato Fries",
+        "item_ar": "Sweet Potato Fries",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Sweet potato fries, crispy outside and tender inside",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d1dade744990c9284c12182502f4a4d2.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486642
+      },
+      {
+        "item_en": "Spiced Fries",
+        "item_ar": "Spiced Fries",
+        "price": 9,
+        "currency": "SAR",
+        "description": "French fries with spicy seasoning",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/37ee411b762d164d7d291deea0a298ca.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486643
+      }
+    ],
+    "Kids Meals": [
+      {
+        "item_en": "Sandwich Meal",
+        "item_ar": "Sandwich Meal",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Sandwich filled with various ingredients like meats, poultry, and assorted sauces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/9b8a069ae8559f93dfc9cecdf04a3f4f.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486645
+      },
+      {
+        "item_en": "Nuggets Meal",
+        "item_ar": "Nuggets Meal",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Small fried chicken bites, usually breaded and served with assorted sauces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/9d0e0a614d6bd41b7ef83d5a17ea06da.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486646
+      }
+    ],
+    "Boxes": [
+      {
+        "item_en": "Gathering Box",
+        "item_ar": "Gathering Box",
+        "price": 87,
+        "currency": "SAR",
+        "description": "Mixed sandwich box (half portions)",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/2fddf92cc672f63f66659a67c5eb6fe6.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486647
+      }
+    ],
+    "Sauces": [
+      {
+        "item_en": "Chipotle Sauce",
+        "item_ar": "Chipotle Sauce",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Creamy smoky sauce with chili flavor for a bold taste",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/117808/PRODUCT/71486648/3de9d129-db97-46d8-ac1c-4d01afb5519a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486648
+      },
+      {
+        "item_en": "Truffle Sauce",
+        "item_ar": "Truffle Sauce",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Premium sauce with truffle mushroom flavor, smooth and rich",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/117808/PRODUCT/71486649/52338465-fd3b-409f-a31b-7eed2303014f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486649
+      },
+      {
+        "item_en": "Classic Sauce",
+        "item_ar": "Classic Sauce",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Classic sauce with mild flavor, suits various dishes",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/117808/PRODUCT/71486650/719239bb-8af5-4beb-8b7a-679dfc1520fb.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486650
+      },
+      {
+        "item_en": "Ranch Sauce",
+        "item_ar": "Ranch Sauce",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Creamy sauce with herb and garlic flavor, common in salads",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/117808/PRODUCT/71486651/a313a4f3-f172-420c-8522-88deb6bc52bf.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486651
+      },
+      {
+        "item_en": "Cheese Sauce",
+        "item_ar": "Cheese Sauce",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Rich melted cheese based creamy sauce",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/117808/PRODUCT/71486652/d4afad35-ab1c-4b3c-b2e4-ea3c2f078c4d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486652
+      },
+      {
+        "item_en": "Spicy Sriracha Sauce",
+        "item_ar": "Spicy Sriracha Sauce",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Spicy thai sauce with garlic and red chili flavor",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/117808/PRODUCT/71486653/430f7253-b7f7-41e0-b2b4-62634ba16136.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486653
+      },
+      {
+        "item_en": "Honey Sauce",
+        "item_ar": "Honey Sauce",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Sweet honey flavored sauce for dipping",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/117808/PRODUCT/71486654/fa8457d9-45fc-41be-a490-582912e351a4.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486654
+      }
+    ],
+    "Beverages": [
+      {
+        "item_en": "Water",
+        "item_ar": "Water",
+        "price": 2,
+        "currency": "SAR",
+        "description": "Pure and refreshing drinking water",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/3ab4140c94ffa51aff04362ad60378e8.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486655
+      },
+      {
+        "item_en": "Cola",
+        "item_ar": "Cola",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Soft drink with unique and refreshing flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/ef24e1a3bc9af8f720b8e688231c7d66.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486656
+      },
+      {
+        "item_en": "Cola Light",
+        "item_ar": "Cola Light",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Unique and refreshing flavored soft drink, sugar free",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/2f658ad47d5996330039ce85b211040b.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486657
+      },
+      {
+        "item_en": "Sprite",
+        "item_ar": "Sprite",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Cup of soft drink with unique and refreshing flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/26f9ce917391142073786f9ba8453a7c.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71486658
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.040Z",
+  "source": "Hungerstation"
+}

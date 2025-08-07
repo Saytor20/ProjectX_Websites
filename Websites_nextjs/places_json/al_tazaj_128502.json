@@ -1,0 +1,1248 @@
+{
+  "restaurant_info": {
+    "id": "128502",
+    "name": "Al Tazaj",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2395662,
+      "longitude": 42.5949806
+    },
+    "rating": 4.3,
+    "review_count": 2189,
+    "type_of_food": "Sandwich,Arabic,Beverages",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/128502"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Farouj Meal",
+        "item_ar": "Farouj Meal",
+        "price": 36,
+        "currency": "SAR",
+        "description": "Our famous farouj seasoned with our special seasoning, grilled on charcoal + fries + drink. calories 100/194 per gram of chicken meat varies depending on the size of the chicken",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/73d76f55aae4fc2b6b2c644b8862f8b5.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922793
+      },
+      {
+        "item_en": "Crispy Burger",
+        "item_ar": "Crispy Burger",
+        "price": 16.25,
+        "currency": "SAR",
+        "description": "The golden crispy burger!",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/8b9eeb4a48d4288c0b9251e94147b1c6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922636
+      },
+      {
+        "item_en": "Broast",
+        "item_ar": "Broast",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Wheat, celery, mustard, soybeans",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/09541255c939de8d564f63af1cd19285.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922824
+      },
+      {
+        "item_en": "Crispy Burger Meal",
+        "item_ar": "Crispy Burger Meal",
+        "price": 25.25,
+        "currency": "SAR",
+        "description": "The golden crispy burger! + fries + drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/84fae24a1aa5fbea7393684cb67e18da.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922536
+      }
+    ],
+    "Our Offer": [
+      {
+        "item_en": "Crispy Roll Meal Offer",
+        "item_ar": "Crispy Roll Meal Offer",
+        "price": 28.25,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/399e1b93914d0873b537a54ff5b58583.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75337453
+      },
+      {
+        "item_en": "Family Bucket",
+        "item_ar": "Family Bucket",
+        "price": 106.35,
+        "currency": "SAR",
+        "description": "12 pieces broast, 6 pieces bread,3 coleslaw,6 garlic sauce, 1 ltr pepsi, family fries",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/8b5a220b4d012b6be7b2e469d92ad3bd.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922966
+      },
+      {
+        "item_en": "Satel Snack",
+        "item_ar": "Satel Snack",
+        "price": 90.35,
+        "currency": "SAR",
+        "description": "45 pcs. of your choice from cheesy nuggets, nuggets, chicken fries with 6 mix of sauces",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/a1fcc500139223421a9040151b3a92d7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922973
+      },
+      {
+        "item_en": "Kabab Al Jamaa",
+        "item_ar": "Kabab Al Jamaa",
+        "price": 90.35,
+        "currency": "SAR",
+        "description": "8 pcs. chicken kabab with rice, 3 bread, 3 dugus, 3 tahina, & 1 ltr. pepsi",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/1ab3a5e45b245cfab3bfce77985323ff.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922982
+      },
+      {
+        "item_en": "Bashka Tenders",
+        "item_ar": "Bashka Tenders",
+        "price": 58.35,
+        "currency": "SAR",
+        "description": "20 pieces chicken tenders (contains wheat, egg, soy, mustard)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/657ee7450f7b7df9d6d2e20970b7382e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922985
+      }
+    ],
+    "Our New": [
+      {
+        "item_en": "Mandi Altazaj Meal",
+        "item_ar": "Mandi Altazaj Meal",
+        "price": 38.35,
+        "currency": "SAR",
+        "description": "Mandi rice cooked with flavorful spices, served with fresh and delicious mandi chicken",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/1ef7634cfd69c6002874181ffef4eb42.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922994
+      },
+      {
+        "item_en": "Mandi Altazaj",
+        "item_ar": "Mandi Altazaj",
+        "price": 35.35,
+        "currency": "SAR",
+        "description": "Mandi rice cooked with flavorful spices, served with fresh and delicious mandi chicken",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/a62f2f2d88735ad357cf3bd474f65271.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922999
+      },
+      {
+        "item_en": "Sandawisht Tasty Meal",
+        "item_ar": "Sandawisht Tasty Meal",
+        "price": 28.35,
+        "currency": "SAR",
+        "description": "Our crispy tenders with lettuce and fries topped with tasty sauce wrapped in a tortilla.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/0d49ccecf8f2df73386dd3fa30628aee.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71923004
+      },
+      {
+        "item_en": "Sandawisht Garlic Mayo Meal",
+        "item_ar": "Sandawisht Garlic Mayo Meal",
+        "price": 28.35,
+        "currency": "SAR",
+        "description": "Our crispy tenders with lettuce and fries topped with mayo thoum sauce wrapped in a tortilla.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/b9b2c426f1cfde69fa428932a2e6a35c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71923010
+      }
+    ],
+    "Main Meals": [
+      {
+        "item_en": "Farouj Meal",
+        "item_ar": "Farouj Meal",
+        "price": 36,
+        "currency": "SAR",
+        "description": "Our famous farouj seasoned with our special seasoning, grilled on charcoal + fries + drink. calories 100/194 per gram of chicken meat varies depending on the size of the chicken",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/73d76f55aae4fc2b6b2c644b8862f8b5.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922793
+      },
+      {
+        "item_en": "Broast Meal",
+        "item_ar": "Broast Meal",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Our fresh & crispy chicken broast! + fries + drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/7173b15708e263e326e6735a7d0cbdd3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922801
+      },
+      {
+        "item_en": "Tandoori 4 Pcs Meal",
+        "item_ar": "Tandoori 4 Pcs Meal",
+        "price": 38.35,
+        "currency": "SAR",
+        "description": "4 pcs. grilled on charcoal farouj, tandoori flavored + taza sauce + seasoned fries + tandoori crunchy bread + drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/b252509a1abb8b65162f44c328bc2787.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922808
+      },
+      {
+        "item_en": "Farouj",
+        "item_ar": "Farouj",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Our famous farouj seasoned with our special seasoning, grilled on charcoal (bread contains wheat, tahina contains sesame seeds) calories 100/194 per gram of chicken meat varies depending on the size of the chicken",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/d9098f347b0a2db902b97956a97da7ee.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922815
+      },
+      {
+        "item_en": "Broast",
+        "item_ar": "Broast",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Wheat, celery, mustard, soybeans",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/09541255c939de8d564f63af1cd19285.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922824
+      },
+      {
+        "item_en": "Tandoori 4 Pcs",
+        "item_ar": "Tandoori 4 Pcs",
+        "price": 31.35,
+        "currency": "SAR",
+        "description": "4 pcs. grilled on charcoal farouj, tandoori flavored + taza sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/2992f5db4252dea9c4565d2052abc99c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922831
+      }
+    ],
+    "Garmasha": [
+      {
+        "item_en": "Gamer Box",
+        "item_ar": "Gamer Box",
+        "price": 35.35,
+        "currency": "SAR",
+        "description": "Crispy burger + 3 chicken tenders + sauce + fries + drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/5cd9f012d60fbd6efb9c679bac72f408.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922866
+      },
+      {
+        "item_en": "Tj Garmasha",
+        "item_ar": "Tj Garmasha",
+        "price": 31.35,
+        "currency": "SAR",
+        "description": "12 pcs. of crunchiness! 4 pcs. nuggets + 4 pcs. cheesy nuggets + 4 chicken fries + seasoned fries + cheese sauce + bbq sauce + honey mustard sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/060ec5be99ade102da695d491382c937.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922851
+      },
+      {
+        "item_en": "9 Pcs Tenders Combo",
+        "item_ar": "9 Pcs Tenders Combo",
+        "price": 38.35,
+        "currency": "SAR",
+        "description": "9 pcs. chicken tenders",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/7ccb30e19e9c2caf6bac128cc28aa5ca.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922858
+      },
+      {
+        "item_en": "10 Pcs Nuggets Meal",
+        "item_ar": "10 Pcs Nuggets Meal",
+        "price": 28.35,
+        "currency": "SAR",
+        "description": "10 pcs. chicken nuggets",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/60458ad8eb10a9d034f718d6f8436b9a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922875
+      },
+      {
+        "item_en": "9 Pcs Tenders",
+        "item_ar": "9 Pcs Tenders",
+        "price": 30.75,
+        "currency": "SAR",
+        "description": "9 pcs. chicken tenders",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/1ba545688b6126b281c3149aca2e86c6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922883
+      },
+      {
+        "item_en": "10 Pcs Nuggets With Fries",
+        "item_ar": "10 Pcs Nuggets With Fries",
+        "price": 22.35,
+        "currency": "SAR",
+        "description": "10 pcs. chicken nuggets + fries",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/fdd41625206631a1e95847ea45bb28cf.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922888
+      },
+      {
+        "item_en": "Nuggets 5 Pcs",
+        "item_ar": "Nuggets 5 Pcs",
+        "price": 10.25,
+        "currency": "SAR",
+        "description": "5 pcs. chicken nuggets",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/ecc29d80e72d4ceeff05251f6135ba31.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922895
+      },
+      {
+        "item_en": "4 Pcs Tenders",
+        "item_ar": "4 Pcs Tenders",
+        "price": 15.25,
+        "currency": "SAR",
+        "description": "4 pcs. chicken tenders",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/56c7c0e6209ac7d8f15aeb2b9b07f5bb.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922900
+      }
+    ],
+    "Rice Meals": [
+      {
+        "item_en": "Kabsa With Pepsi",
+        "item_ar": "Kabsa With Pepsi",
+        "price": 38.35,
+        "currency": "SAR",
+        "description": "Seasoned rice with fresh seasoned chicken + drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/50d687c9cef40b04a54e8b2b5efb57cf.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922908
+      },
+      {
+        "item_en": "Kabab Rice With Pepsi",
+        "item_ar": "Kabab Rice With Pepsi",
+        "price": 30.35,
+        "currency": "SAR",
+        "description": "Seasoned rice with grilled chicken kabab + drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/e95385dbff682b8581c2a132fd100eef.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922917
+      },
+      {
+        "item_en": "Kabsa",
+        "item_ar": "Kabsa",
+        "price": 35.35,
+        "currency": "SAR",
+        "description": "Seasoned rice with fresh seasoned chicken",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/b695f6727b4f85211a609bf017b5a908.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922926
+      },
+      {
+        "item_en": "Kabab With Rice",
+        "item_ar": "Kabab With Rice",
+        "price": 24.35,
+        "currency": "SAR",
+        "description": "Seasoned rice with grilled chicken kabab",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/21f2535a7648c24a7caa571e98269747.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922933
+      },
+      {
+        "item_en": "Mandi Altazaj",
+        "item_ar": "Mandi Altazaj",
+        "price": 35.35,
+        "currency": "SAR",
+        "description": "Mandi rice cooked with flavorful spices, served with fresh and delicious mandi chicken",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/a62f2f2d88735ad357cf3bd474f65271.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922941
+      },
+      {
+        "item_en": "Mandi Altazaj Meal",
+        "item_ar": "Mandi Altazaj Meal",
+        "price": 38.35,
+        "currency": "SAR",
+        "description": "Mandi rice cooked with flavorful spices, served with fresh and delicious mandi chicken",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/1ef7634cfd69c6002874181ffef4eb42.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922945
+      }
+    ],
+    "Rashaqa Meal": [
+      {
+        "item_en": "Rashaqa Meal",
+        "item_ar": "Rashaqa Meal",
+        "price": 36,
+        "currency": "SAR",
+        "description": "Our famous farouj seasoned with our special seasoning, grilled on charcoal",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/6f4c89dab5367ad14b3302a313bb8424.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922953
+      },
+      {
+        "item_en": "Rashaqa Meal With Corn",
+        "item_ar": "Rashaqa Meal With Corn",
+        "price": 36,
+        "currency": "SAR",
+        "description": "Our famous farouj seasoned with our special seasoning, grilled on charcoal",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/c7a4a3a33cff69180b511fd055a3c933.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922958
+      }
+    ],
+    "Burgers": [
+      {
+        "item_en": "Tasty Bbq Meal",
+        "item_ar": "Tasty Bbq Meal",
+        "price": 31.35,
+        "currency": "SAR",
+        "description": "Grilled on charcoal chicken patty topped with our tasty sauce, melted cheese, lettuce, tomatoes.. all between two fliped and toasted burger bread! + fries + drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/02c0b03eb8962689675f11738d3b9b7c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922511
+      },
+      {
+        "item_en": "Crispy Burger Meal",
+        "item_ar": "Crispy Burger Meal",
+        "price": 25.25,
+        "currency": "SAR",
+        "description": "The golden crispy burger! + fries + drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/84fae24a1aa5fbea7393684cb67e18da.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922536
+      },
+      {
+        "item_en": "Burger Arabia Meal White Bread",
+        "item_ar": "Burger Arabia Meal White Bread",
+        "price": 30.35,
+        "currency": "SAR",
+        "description": "Grilled on charcoal chicken patty with lettuce, tomatoes & cheese in arabic bread + fries + drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/a3a0d6a1cc89a522ea999eaa6a280889.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922557
+      },
+      {
+        "item_en": "Burger Arabia Meal Brown Bread",
+        "item_ar": "Burger Arabia Meal Brown Bread",
+        "price": 30.35,
+        "currency": "SAR",
+        "description": "Grilled on charcoal chicken patty with lettuce, tomatoes & cheese in arabic bread + fries + drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/be1f52355b6ace0c64586290d9340b33.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922573
+      },
+      {
+        "item_en": "Taza Burger Meal",
+        "item_ar": "Taza Burger Meal",
+        "price": 27.35,
+        "currency": "SAR",
+        "description": "Crispy chicken patty with taza sauce & lettuce + fries + drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/28588d5ba785c5fd47a67f771d3b6c22.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922596
+      },
+      {
+        "item_en": "Tasty Bbq",
+        "item_ar": "Tasty Bbq",
+        "price": 21.35,
+        "currency": "SAR",
+        "description": "Grilled on charcoal chicken patty topped with our tasty sauce, melted cheese, lettuce, tomatoes.. all between two fliped and toasted burger bread!",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/5c8e404feba5dd6e7ad1204fb9358fd1.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922614
+      },
+      {
+        "item_en": "Crispy Burger",
+        "item_ar": "Crispy Burger",
+        "price": 16.25,
+        "currency": "SAR",
+        "description": "The golden crispy burger!",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/8b9eeb4a48d4288c0b9251e94147b1c6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922636
+      },
+      {
+        "item_en": "Burger Arabia White Bread",
+        "item_ar": "Burger Arabia White Bread",
+        "price": 20.35,
+        "currency": "SAR",
+        "description": "Grilled on charcoal chicken patty with lettuce, tomatoes & cheese in arabic bread",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/4d7c91cadc7569edd567c7c098da3e5d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922655
+      },
+      {
+        "item_en": "Burger Arabia Brown Bread",
+        "item_ar": "Burger Arabia Brown Bread",
+        "price": 20.35,
+        "currency": "SAR",
+        "description": "Grilled on charcoal chicken patty with lettuce, tomatoes & cheese in arabic bread",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/0474e10ab4c991f10b01fdc2a6b911e3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922665
+      },
+      {
+        "item_en": "Taza Burger",
+        "item_ar": "Taza Burger",
+        "price": 17.25,
+        "currency": "SAR",
+        "description": "Crispy chicken patty with taza sauce & lettuce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/0bf1d41d786bdc41df431d7ec5c193ee.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922675
+      }
+    ],
+    "Sandwiches": [
+      {
+        "item_en": "Crispy Roll Meal Offer",
+        "item_ar": "Crispy Roll Meal Offer",
+        "price": 28.25,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/399e1b93914d0873b537a54ff5b58583.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75337377
+      },
+      {
+        "item_en": "Muhammas Combo",
+        "item_ar": "Muhammas Combo",
+        "price": 33.35,
+        "currency": "SAR",
+        "description": "2 muhammas sandwich with fries and drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/a64f6664e18343e07a1ff52b42b0f2b0.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71921704
+      },
+      {
+        "item_en": "Sandawisht Tasty Meal",
+        "item_ar": "Sandawisht Tasty Meal",
+        "price": 28.35,
+        "currency": "SAR",
+        "description": "Our crispy tenders with lettuce and fries topped with tasty sauce wrapped in a tortilla.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/0d49ccecf8f2df73386dd3fa30628aee.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71921744
+      },
+      {
+        "item_en": "Sandawisht Garlic Mayo Meal",
+        "item_ar": "Sandawisht Garlic Mayo Meal",
+        "price": 28.35,
+        "currency": "SAR",
+        "description": "Our crispy tenders with lettuce and fries topped with mayo thoum sauce wrapped in a tortilla.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/b9b2c426f1cfde69fa428932a2e6a35c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71921761
+      },
+      {
+        "item_en": "Kabab Sandwich Meal",
+        "item_ar": "Kabab Sandwich Meal",
+        "price": 33.35,
+        "currency": "SAR",
+        "description": "Chicken grilled kabab with tomatoes, pickles & tahina sauce in arabic bread + fries + drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/1346f2025e554cee937aced6f06dc3c9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71921796
+      },
+      {
+        "item_en": "Sandawisht Dooojaj Roll Meal",
+        "item_ar": "Sandawisht Dooojaj Roll Meal",
+        "price": 28.35,
+        "currency": "SAR",
+        "description": "Our crispy tenders with fries topped with cocktail sauce wrapped in a tortilla.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/f3e7578a65dda1f3951ae79bee7813b9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71921806
+      },
+      {
+        "item_en": "Chicken Sandwich Meal",
+        "item_ar": "Chicken Sandwich Meal",
+        "price": 32.35,
+        "currency": "SAR",
+        "description": "Farouj pulled chicken with fries, pickles & garlic mayo sauce in arabic bread + fries + drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/08477d96a72422864cf969652525cb7d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71921823
+      },
+      {
+        "item_en": "Sandawisht Tikka Meal",
+        "item_ar": "Sandawisht Tikka Meal",
+        "price": 28.35,
+        "currency": "SAR",
+        "description": "Our crispy tenders with lettuce and fries topped with our special tikka not too spicy sauce wrapped in a tortilla.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/9cbf113e244e57176423a2e302816aaa.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71921841
+      },
+      {
+        "item_en": "Muhammas Sandwich",
+        "item_ar": "Muhammas Sandwich",
+        "price": 14.35,
+        "currency": "SAR",
+        "description": "Our new muhammas sandwich crispy thin bread filled with oven grilled marinated chicken breasts, pickles, golden fries and pickles.. with your choice of sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/222bda504efbd9cbbea372962183639d.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71921861
+      },
+      {
+        "item_en": "Sandawisht Tasty",
+        "item_ar": "Sandawisht Tasty",
+        "price": 19.35,
+        "currency": "SAR",
+        "description": "Our crispy tenders with lettuce and fries topped with tasty sauce wrapped in a tortilla.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/f7c82986c8316da695db87c9bb0b1673.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71921879
+      },
+      {
+        "item_en": "Sandawisht Garlic Mayo",
+        "item_ar": "Sandawisht Garlic Mayo",
+        "price": 19.35,
+        "currency": "SAR",
+        "description": "Our crispy tenders with lettuce and fries topped with mayo thoum sauce wrapped in a tortilla.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/2c73fa79d39c7052fa8ac24dbc2f8169.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71921901
+      },
+      {
+        "item_en": "Crispy Roll Sandwich",
+        "item_ar": "Crispy Roll Sandwich",
+        "price": 20.25,
+        "currency": "SAR",
+        "description": "Crispy chicken, crispy fries & delicious sauce, all wrapped in a crisper coat!",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/f029162c604b43744901673117589a5e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71921916
+      },
+      {
+        "item_en": "Kabab Sandwich",
+        "item_ar": "Kabab Sandwich",
+        "price": 14.5,
+        "currency": "SAR",
+        "description": "Grilled on charcoal kabab with tomatoes, pickles & tahina sauce in arabic bread",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/88d88f8f1bacf35e5f81f10aba19a089.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71921935
+      },
+      {
+        "item_en": "Sandawisht Dooojaj Roll",
+        "item_ar": "Sandawisht Dooojaj Roll",
+        "price": 19.35,
+        "currency": "SAR",
+        "description": "Our crispy tenders with fries topped with cocktail sauce wrapped in a tortilla.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/6f90c40fa2749237f7d18439b9965cf8.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71921951
+      },
+      {
+        "item_en": "Chicken Sandwich",
+        "item_ar": "Chicken Sandwich",
+        "price": 14.35,
+        "currency": "SAR",
+        "description": "Farouj pulled chicken with fries, pickles & garlic mayo sauce in arabic bread (contains soybeans, wheat, egg, mustard)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/a4f126e2443f2442f8c8260235148ce3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71921969
+      },
+      {
+        "item_en": "Sandawisht Tikka",
+        "item_ar": "Sandawisht Tikka",
+        "price": 19.35,
+        "currency": "SAR",
+        "description": "Our crispy tenders with lettuce and fries topped with our special tikka not too spicy sauce wrapped in a tortilla.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/21ee444a076f187fbfda3a519cedce48.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71921987
+      }
+    ],
+    "Starters": [
+      {
+        "item_en": "Chicken Cheesy Fries",
+        "item_ar": "Chicken Cheesy Fries",
+        "price": 18.35,
+        "currency": "SAR",
+        "description": "Golden fries topped with crispy chicken & cheese sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/489268fbd3d7ce774cc1ff1846938c05.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922003
+      },
+      {
+        "item_en": "Cheesy Fries",
+        "item_ar": "Cheesy Fries",
+        "price": 16.25,
+        "currency": "SAR",
+        "description": "Golden fries topped with cheese sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/54993f18556a9f58c264fe955905d6ec.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922035
+      },
+      {
+        "item_en": "Tikka Batates + Chicken",
+        "item_ar": "Tikka Batates + Chicken",
+        "price": 19.25,
+        "currency": "SAR",
+        "description": "Golden fries and crispy chicken bites topped with our special tikka not too spicy sauce.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/d150f1bf52f268c8bafc8da76e10fc1a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922048
+      },
+      {
+        "item_en": "Homous",
+        "item_ar": "Homous",
+        "price": 9.35,
+        "currency": "SAR",
+        "description": "Contains soybeans",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/4f6a74485890fbcc90ad83545ff06fbb.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922061
+      },
+      {
+        "item_en": "Chicken Fries",
+        "item_ar": "Chicken Fries",
+        "price": 10.25,
+        "currency": "SAR",
+        "description": "5 pcs. crunchy chicken fries",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/e97ab7d21f867687abf839aa503030ba.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922072
+      },
+      {
+        "item_en": "Cheesy Nuggets 4 Pcs",
+        "item_ar": "Cheesy Nuggets 4 Pcs",
+        "price": 10.25,
+        "currency": "SAR",
+        "description": "4 pcs. cheesy nuggets",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/116cfa9d37cc4c607f90fbe89eda9b8c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922085
+      },
+      {
+        "item_en": "Tikka Batates",
+        "item_ar": "Tikka Batates",
+        "price": 16.25,
+        "currency": "SAR",
+        "description": "Golden fries bites topped with our special tikka not too spicy sauce.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/418916657b8ce8490916c27576238c43.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922099
+      },
+      {
+        "item_en": "Fries Medium",
+        "item_ar": "Fries Medium",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Fries small",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/f3789e230b109c9d6c713030f6129366.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922117
+      },
+      {
+        "item_en": "Fries Large",
+        "item_ar": "Fries Large",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Fries large",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/0fe163f81da2d6eea2bbfb1404fda592.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922135
+      },
+      {
+        "item_en": "Taza Rice",
+        "item_ar": "Taza Rice",
+        "price": 8.25,
+        "currency": "SAR",
+        "description": "(contains wheat)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/5dac66b2447718b27aca505b7226404b.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922146
+      },
+      {
+        "item_en": "Corn",
+        "item_ar": "Corn",
+        "price": 9.35,
+        "currency": "SAR",
+        "description": "Yellow corn",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/30e9f652dfe3b649515d6b2cc1462364.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922165
+      },
+      {
+        "item_en": "White Bread 4pcs",
+        "item_ar": "White Bread 4pcs",
+        "price": 2,
+        "currency": "SAR",
+        "description": "(contains wheat)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/b81b880f6320204e6919d41c6e8edc3e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922179
+      },
+      {
+        "item_en": "Brown Bread 4 Pcs",
+        "item_ar": "Brown Bread 4 Pcs",
+        "price": 2,
+        "currency": "SAR",
+        "description": "Brown bread 4 pcs",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/7add4d8e1824ad4210defbfd25b281db.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922196
+      },
+      {
+        "item_en": "2 Pieces Of Tandoori Bread",
+        "item_ar": "2 Pieces Of Tandoori Bread",
+        "price": 5,
+        "currency": "SAR",
+        "description": "2 pcs. tandoori crunchy bread",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/1090e90ceb433529d27b6b102aa143ec.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922205
+      },
+      {
+        "item_en": "Fatoush Salad Small",
+        "item_ar": "Fatoush Salad Small",
+        "price": 10.35,
+        "currency": "SAR",
+        "description": "Fatoush salad small",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/73c1f3cd63ae1cd956b9d0c6d328c230.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922223
+      },
+      {
+        "item_en": "Coleslaw",
+        "item_ar": "Coleslaw",
+        "price": 8.35,
+        "currency": "SAR",
+        "description": "(contains soybeans, egg)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/46f1dad8ebe4046d6d80b3bdf8257925.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922233
+      },
+      {
+        "item_en": "Green Salad",
+        "item_ar": "Green Salad",
+        "price": 10.25,
+        "currency": "SAR",
+        "description": "(contains soybeans, egg)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/ffceeb1768ad104d122792b87a01c6f4.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922244
+      }
+    ],
+    "Kids Meals": [
+      {
+        "item_en": "Half Farouj Kids Corn Meal",
+        "item_ar": "Half Farouj Kids Corn Meal",
+        "price": 19.5,
+        "currency": "SAR",
+        "description": "Half farouj + half corn + drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/43f34c7d5e923fe8cedc6f28452d5e34.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922256
+      },
+      {
+        "item_en": "Kids Burger Meal",
+        "item_ar": "Kids Burger Meal",
+        "price": 18.25,
+        "currency": "SAR",
+        "description": "Chicken crunchy burger with cheese + fries + drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/b357c1ae4dacd3abca0103e8809d5f4e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922268
+      },
+      {
+        "item_en": "Nuggets Kids Meal",
+        "item_ar": "Nuggets Kids Meal",
+        "price": 18.35,
+        "currency": "SAR",
+        "description": "4 pcs. chicken nuggets with cheese + fries + drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/a6c429254fe16fb0ec3ca6a58c508fb4.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922284
+      }
+    ],
+    "Sauces": [
+      {
+        "item_en": "Large Cheesy Sauce",
+        "item_ar": "Large Cheesy Sauce",
+        "price": 7.25,
+        "currency": "SAR",
+        "description": "Large cheesy sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/8c9ad29d3b29e8bdbfbc94d18c602a67.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922294
+      },
+      {
+        "item_en": "Tikka Sauce",
+        "item_ar": "Tikka Sauce",
+        "price": 5.25,
+        "currency": "SAR",
+        "description": "Tikka sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/5f6a5c0c28ef61a4bcbf198b30884110.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922309
+      },
+      {
+        "item_en": "Tasty Bbq Sauce",
+        "item_ar": "Tasty Bbq Sauce",
+        "price": 3.25,
+        "currency": "SAR",
+        "description": "Tasty bbq sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/a751489f8308621be1d1d17c3faab40c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922323
+      },
+      {
+        "item_en": "Tahina",
+        "item_ar": "Tahina",
+        "price": 2.25,
+        "currency": "SAR",
+        "description": "Sesame seeds",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/7e57578b6f056dfb38c3b0ef8a26386d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922338
+      },
+      {
+        "item_en": "Garlic Sauce 2pcs",
+        "item_ar": "Garlic Sauce 2pcs",
+        "price": 2.25,
+        "currency": "SAR",
+        "description": "Contains milk",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/8c86f3dde3bd03829ce40f962b62ad92.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922353
+      },
+      {
+        "item_en": "Spicy Garlic Sauce 2pcs",
+        "item_ar": "Spicy Garlic Sauce 2pcs",
+        "price": 2.25,
+        "currency": "SAR",
+        "description": "Contains milk",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/c7fb823c53ce6e03583cfb177d37a8a9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922366
+      },
+      {
+        "item_en": "Honey Mustard",
+        "item_ar": "Honey Mustard",
+        "price": 3.25,
+        "currency": "SAR",
+        "description": "Egg, soybeans, mustard",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/fa0829e846286ebb5808985a85b83465.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922384
+      },
+      {
+        "item_en": "Cocktail Sauce",
+        "item_ar": "Cocktail Sauce",
+        "price": 3.25,
+        "currency": "SAR",
+        "description": "Soybeans, egg, mustard",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/0ba75635a2bb0ed73c12d66c3d39758b.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922412
+      },
+      {
+        "item_en": "Bbq Sauce",
+        "item_ar": "Bbq Sauce",
+        "price": 3.25,
+        "currency": "SAR",
+        "description": "Soybeans, mustard",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/1841202ed3367674c753a675429e6bee.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922431
+      },
+      {
+        "item_en": "Taza Sauce",
+        "item_ar": "Taza Sauce",
+        "price": 3.25,
+        "currency": "SAR",
+        "description": "Soybeans, egg, mustard",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/c30addc5cc4cff659bc3252d3840eaa1.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922448
+      },
+      {
+        "item_en": "Doqus",
+        "item_ar": "Doqus",
+        "price": 2.25,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/0f23b6cb5a2f536dfd6815f4334019a7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922460
+      },
+      {
+        "item_en": "Dynamite Sauce",
+        "item_ar": "Dynamite Sauce",
+        "price": 3.25,
+        "currency": "SAR",
+        "description": "Dynamite sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/d5aadfdef2add8df4b2fee12d257e7f7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922472
+      },
+      {
+        "item_en": "1000 Island Sauce",
+        "item_ar": "1000 Island Sauce",
+        "price": 3.25,
+        "currency": "SAR",
+        "description": "1000 island sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/a9eb863bc61023df939d5fcef66d7770.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922487
+      },
+      {
+        "item_en": "Fatoush Sauce",
+        "item_ar": "Fatoush Sauce",
+        "price": 3.25,
+        "currency": "SAR",
+        "description": "Fatoush sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/567e408103c34b09d211baff3fb761df.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922499
+      }
+    ],
+    "Desserts": [
+      {
+        "item_en": "Basbosah Altaza",
+        "item_ar": "Basbosah Altaza",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Wheat, milk, almonds",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/2fe2144c01a8cae21fe7406dfd836072.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71921687
+      },
+      {
+        "item_en": "Basbosah Altaza 1 Pcs",
+        "item_ar": "Basbosah Altaza 1 Pcs",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Wheat, milk, almonds",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/ffadfc44128c97b535ca9779a07a19a3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71921690
+      }
+    ],
+    "Soft Drinks": [
+      {
+        "item_en": "Pepsi Medium",
+        "item_ar": "Pepsi Medium",
+        "price": 8,
+        "currency": "SAR",
+        "description": "(contains 199 calories)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/a321c481333a1fdedb506781ed0368a7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922692
+      },
+      {
+        "item_en": "Pepsi Large",
+        "item_ar": "Pepsi Large",
+        "price": 9,
+        "currency": "SAR",
+        "description": "(contains 199 calories)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/7d1002f52989d39755a3cc972c3a2371.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922708
+      },
+      {
+        "item_en": "Pepsi Diet Medium",
+        "item_ar": "Pepsi Diet Medium",
+        "price": 8,
+        "currency": "SAR",
+        "description": "(contains 1 calories)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/f01e16013301e4d6de31bf2a721c6105.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922722
+      },
+      {
+        "item_en": "Pepsi Diet Large",
+        "item_ar": "Pepsi Diet Large",
+        "price": 9,
+        "currency": "SAR",
+        "description": "(contains 1 calories)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/3f9bb679d32b3f915e2c1ea890ae1b8b.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922730
+      },
+      {
+        "item_en": "Mirinda Medium",
+        "item_ar": "Mirinda Medium",
+        "price": 8,
+        "currency": "SAR",
+        "description": "(contains 95 calories)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/a3d242fe07495bf3a930d9ffa3ef3e25.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922741
+      },
+      {
+        "item_en": "Mirinda Large",
+        "item_ar": "Mirinda Large",
+        "price": 9,
+        "currency": "SAR",
+        "description": "(contains 95 calories)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/c20ea4368976cbb7c591932774d7d0fe.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922748
+      },
+      {
+        "item_en": "7 Up Medium",
+        "item_ar": "7 Up Medium",
+        "price": 8,
+        "currency": "SAR",
+        "description": "(conatins 92 calories)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/69334f058408e04b95637c3aa304374c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922757
+      },
+      {
+        "item_en": "7 Up Large",
+        "item_ar": "7 Up Large",
+        "price": 9,
+        "currency": "SAR",
+        "description": "(contains 92 calories)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/34bbbee3f6476a0a3f64846bb5e80cbf.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922763
+      },
+      {
+        "item_en": "Mountain Dew Medium",
+        "item_ar": "Mountain Dew Medium",
+        "price": 8,
+        "currency": "SAR",
+        "description": "(contains 224 calories)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/07bd2438c7ae6de6de9df551e08c4468.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922770
+      },
+      {
+        "item_en": "Mountain Dew Large",
+        "item_ar": "Mountain Dew Large",
+        "price": 9,
+        "currency": "SAR",
+        "description": "(contains 224 calories)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/9c5d3bec67708531a7559ba3cc3256be.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922776
+      },
+      {
+        "item_en": "Delmonte Orange Juice",
+        "item_ar": "Delmonte Orange Juice",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Delmonte orange juice",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/b6541ba8458177c37532c93c38cb5db7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922782
+      },
+      {
+        "item_en": "Mineral Water",
+        "item_ar": "Mineral Water",
+        "price": 2,
+        "currency": "SAR",
+        "description": "Mineral water",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TAZJ/d49ac8ec2aea455b87e83b3a0f2e271c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71922787
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.036Z",
+  "source": "Hungerstation"
+}

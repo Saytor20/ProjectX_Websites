@@ -1,0 +1,558 @@
+{
+  "restaurant_info": {
+    "id": "145796",
+    "name": "Bhaiya",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.25849481077635,
+      "longitude": 42.59381677194207
+    },
+    "rating": 4.1,
+    "review_count": 72,
+    "type_of_food": "Arabic,Saudi",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/145796"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Vegetable Mutabbak",
+        "item_ar": "Vegetable Mutabbak",
+        "price": 15,
+        "currency": "SAR",
+        "description": "A thin dough stuffed with mixed vegetables and spices.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/145796/PRODUCT/64725205/9415d245-e71a-4682-b6bb-bfbad21fe30a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725205
+      },
+      {
+        "item_en": "Royal Masoub",
+        "item_ar": "Royal Masoub",
+        "price": 21,
+        "currency": "SAR",
+        "description": "A dish made of mashed bananas, crushed bread, cream, honey, cornflakes, and cheese.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/09015e533e865307d824e99fda633542.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725197
+      },
+      {
+        "item_en": "Adeni Shakshouka",
+        "item_ar": "Adeni Shakshouka",
+        "price": 17,
+        "currency": "SAR",
+        "description": "A mix of eggs, tomatoes, onions, red pepper, garlic, and spices.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/1c1a78f60213f6a8813a8050c51ba681.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725172
+      },
+      {
+        "item_en": "Qalabah Foul",
+        "item_ar": "Qalabah Foul",
+        "price": 14,
+        "currency": "SAR",
+        "description": "A dish of cooked foul mixed with tomatoes and spices.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/8765ccbe14556d4ba2567b11de3374ff.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725150
+      }
+    ],
+    "Foul": [
+      {
+        "item_en": "Foul With Olive Oil",
+        "item_ar": "Foul With Olive Oil",
+        "price": 13,
+        "currency": "SAR",
+        "description": "A plate of traditionally cooked foul with olive oil.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/84c42d90976023984cc85099a729f8db.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725147
+      },
+      {
+        "item_en": "Qalabah Foul",
+        "item_ar": "Qalabah Foul",
+        "price": 14,
+        "currency": "SAR",
+        "description": "A dish of cooked foul mixed with tomatoes and spices.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/8765ccbe14556d4ba2567b11de3374ff.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725150
+      },
+      {
+        "item_en": "Sana’ani Foul",
+        "item_ar": "Sana’ani Foul",
+        "price": 16,
+        "currency": "SAR",
+        "description": "A mix of cooked foul with yemeni spices.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/145796/PRODUCT/64725153/37855cc3-113b-4db8-8775-4c0bcb9ba808.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725153
+      },
+      {
+        "item_en": "Qalabah Lentils",
+        "item_ar": "Qalabah Lentils",
+        "price": 12,
+        "currency": "SAR",
+        "description": "A dish of cooked lentils mixed with tomatoes and spices.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/2f77d4977deeb948061aa9b2549fa07d.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725154
+      }
+    ],
+    "The Arika": [
+      {
+        "item_en": "Date Fattah",
+        "item_ar": "Date Fattah",
+        "price": 13,
+        "currency": "SAR",
+        "description": "A traditional dish made of crispy arabic bread pieces with ghee and dates.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/08bdaf7c53531455a3162089e6089c0c.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725157
+      },
+      {
+        "item_en": "Character Cream With Honey",
+        "item_ar": "Character Cream With Honey",
+        "price": 17,
+        "currency": "SAR",
+        "description": "A traditional dish made of crispy arabic bread pieces with ghee, cream, and honey.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/a506efa52b0a8cb6bcdf49d1e3048428.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725159
+      },
+      {
+        "item_en": "Royal Areekah",
+        "item_ar": "Royal Areekah",
+        "price": 23,
+        "currency": "SAR",
+        "description": "A popular dish made of whole wheat flour, ghee, dates, cream, honey, and cornflakes.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/145796/PRODUCT/64725160/01a2366f-7cdb-462b-864d-c30a2a58e0ec.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725160
+      }
+    ],
+    "Bread": [
+      {
+        "item_en": "Malooh",
+        "item_ar": "Malooh",
+        "price": 10,
+        "currency": "SAR",
+        "description": "A crispy yemeni bread made of a thin layer brushed with butter.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/145796/PRODUCT/64725162/fe88308e-821e-4d84-b4c2-6b0a4c60ba7e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725162
+      },
+      {
+        "item_en": "Malooh With Ghee And Honey",
+        "item_ar": "Malooh With Ghee And Honey",
+        "price": 15,
+        "currency": "SAR",
+        "description": "A crispy yemeni bread made of a thin layer brushed with butter, ghee, and honey.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/145796/PRODUCT/64725163/7fe6883e-fe91-4a11-a20b-01671fd72c1e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725163
+      },
+      {
+        "item_en": "Soft Malooh",
+        "item_ar": "Soft Malooh",
+        "price": 10,
+        "currency": "SAR",
+        "description": "A crispy yemeni bread made of a thin layer of mixed soft bread, brushed with butter.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/229d950b623da1865f5e46559ae488ad.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725165
+      },
+      {
+        "item_en": "Soft Malooh With Cream And Honey",
+        "item_ar": "Soft Malooh With Cream And Honey",
+        "price": 16,
+        "currency": "SAR",
+        "description": "A crispy yemeni bread made of a thin layer of mixed soft bread, brushed with butter, cream, and honey.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/145796/PRODUCT/64725167/9ccf2f30-1c98-4fb7-a952-d5e681b69ec9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725167
+      },
+      {
+        "item_en": "Atf",
+        "item_ar": "Atf",
+        "price": 5,
+        "currency": "SAR",
+        "description": "A soft and fluffy bread made from simple ingredients.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/145796/PRODUCT/64725168/378f85ba-a512-4c76-87cf-e96120021ff3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725168
+      }
+    ],
+    "Eggs": [
+      {
+        "item_en": "Shakshouka",
+        "item_ar": "Shakshouka",
+        "price": 16,
+        "currency": "SAR",
+        "description": "A mix of cooked eggs with delicious vegetables.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/145796/PRODUCT/64725170/bfb87668-ab36-4e05-8cbe-6d20b790d47a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725170
+      },
+      {
+        "item_en": "Adeni Shakshouka",
+        "item_ar": "Adeni Shakshouka",
+        "price": 17,
+        "currency": "SAR",
+        "description": "A mix of eggs, tomatoes, onions, red pepper, garlic, and spices.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/1c1a78f60213f6a8813a8050c51ba681.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725172
+      },
+      {
+        "item_en": "Shakshouka With Cheese",
+        "item_ar": "Shakshouka With Cheese",
+        "price": 18,
+        "currency": "SAR",
+        "description": "A mix of cooked eggs with vegetables and cheese.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/ddaf8f2be2c863fd6b018b76ac587207.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725173
+      },
+      {
+        "item_en": "Lahsa",
+        "item_ar": "Lahsa",
+        "price": 21,
+        "currency": "SAR",
+        "description": "A mix of eggs with cooked vegetables and creamy cheese.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/cc321ea2faebc486daa7e1bd536f6373.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725175
+      }
+    ],
+    "Meats": [
+      {
+        "item_en": "Liver",
+        "item_ar": "Liver",
+        "price": 21,
+        "currency": "SAR",
+        "description": "A mix of cooked liver pieces with fresh vegetables, onions, garlic, and spices.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/27ef8a0710f15e8ff4ed43a5c5901364.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725177
+      },
+      {
+        "item_en": "Liver With Cheese",
+        "item_ar": "Liver With Cheese",
+        "price": 23,
+        "currency": "SAR",
+        "description": "A mix of cooked liver pieces with fresh vegetables, onions, garlic, spices, and cheese.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/3dc101cc5559196c887a84b7ff5932c1.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725178
+      },
+      {
+        "item_en": "Mgalgal",
+        "item_ar": "Mgalgal",
+        "price": 22,
+        "currency": "SAR",
+        "description": "A dish of traditionally cooked meat pieces with spices and seasonings.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/145796/PRODUCT/64725180/45cfd624-7e27-4bc3-a678-6eee9862b7fb.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725180
+      },
+      {
+        "item_en": "Mgalgal With Cheese",
+        "item_ar": "Mgalgal With Cheese",
+        "price": 23,
+        "currency": "SAR",
+        "description": "A dish of traditionally cooked meat pieces with spices, seasonings, and cheese.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/4d337531a0686b906a2786d973895a2a.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725181
+      }
+    ],
+    "Fish": [
+      {
+        "item_en": "Fish Stew",
+        "item_ar": "Fish Stew",
+        "price": 20,
+        "currency": "SAR",
+        "description": "A mix of cooked vegetables with spices and seasonings in a fish-based tomato sauce.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/e6afb7f982e51457be027509b1a44d09.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725187
+      },
+      {
+        "item_en": "Plain Tuna",
+        "item_ar": "Plain Tuna",
+        "price": 14,
+        "currency": "SAR",
+        "description": "A dish of cooked tuna mixed with tomatoes and spices.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/5d697dba95d4f509ac6346073a1e7746.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725189
+      },
+      {
+        "item_en": "Tuna With Peas",
+        "item_ar": "Tuna With Peas",
+        "price": 16,
+        "currency": "SAR",
+        "description": "A dish of cooked tuna mixed with peas and spices.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/055cc8e4120c7888c58a72b5fd03a147.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725190
+      },
+      {
+        "item_en": "Tuna With Cheese",
+        "item_ar": "Tuna With Cheese",
+        "price": 16,
+        "currency": "SAR",
+        "description": "A dish of cooked tuna mixed with cheese and spices.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/145796/PRODUCT/64725192/47fb46e8-4d7e-4829-a508-0466b5bcd0aa.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725192
+      }
+    ],
+    "Masoub": [
+      {
+        "item_en": "Regular Masoub",
+        "item_ar": "Regular Masoub",
+        "price": 15,
+        "currency": "SAR",
+        "description": "A dish made of mashed bananas and crushed bread.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/145796/PRODUCT/64725195/6c605e44-3e52-49f1-8989-e221e2dfaeaf.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725195
+      },
+      {
+        "item_en": "Royal Masoub",
+        "item_ar": "Royal Masoub",
+        "price": 21,
+        "currency": "SAR",
+        "description": "A dish made of mashed bananas, crushed bread, cream, honey, cornflakes, and cheese.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/09015e533e865307d824e99fda633542.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725197
+      },
+      {
+        "item_en": "Masoub With Cream And Honey",
+        "item_ar": "Masoub With Cream And Honey",
+        "price": 16,
+        "currency": "SAR",
+        "description": "A dish made of mashed bananas, crushed bread, cream, and honey.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/01ab2be9b527b242a021fe0c5ebb08b9.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725199
+      },
+      {
+        "item_en": "Masoub With Cream",
+        "item_ar": "Masoub With Cream",
+        "price": 14,
+        "currency": "SAR",
+        "description": "A dish made of mashed bananas, crushed bread, and cream.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/145796/PRODUCT/64725201/3d464c6e-1d5b-41af-a8f5-b29ad01a954c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725201
+      },
+      {
+        "item_en": "Masoub With Cornflakes",
+        "item_ar": "Masoub With Cornflakes",
+        "price": 17,
+        "currency": "SAR",
+        "description": "A dish made of mashed bananas, crushed bread, and cornflakes.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/145796/PRODUCT/64725203/c68ba674-0c84-4e28-b4df-f935b90e5297.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725203
+      },
+      {
+        "item_en": "Masoub With Cream And Cheese",
+        "item_ar": "Masoub With Cream And Cheese",
+        "price": 16,
+        "currency": "SAR",
+        "description": "A dish made of mashed bananas, crushed bread, cream, and cheese.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/145796/PRODUCT/64725204/126878e4-7a7c-4ba6-88e4-72b5caa3fe4e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725204
+      }
+    ],
+    "Mutabbak": [
+      {
+        "item_en": "Vegetable Mutabbak",
+        "item_ar": "Vegetable Mutabbak",
+        "price": 15,
+        "currency": "SAR",
+        "description": "A thin dough stuffed with mixed vegetables and spices.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/145796/PRODUCT/64725205/9415d245-e71a-4682-b6bb-bfbad21fe30a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725205
+      },
+      {
+        "item_en": "Mutabbak With Cream And Honey",
+        "item_ar": "Mutabbak With Cream And Honey",
+        "price": 16,
+        "currency": "SAR",
+        "description": "A thin dough stuffed with cream and honey.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/145796/PRODUCT/64725207/3667d60c-dea1-4195-b940-e6d52be9edf4.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725207
+      },
+      {
+        "item_en": "Mutabbak With Creamy Cheese",
+        "item_ar": "Mutabbak With Creamy Cheese",
+        "price": 12,
+        "currency": "SAR",
+        "description": "A thin dough stuffed with creamy cheese and spices.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/145796/PRODUCT/64725209/d14cd3c9-0f13-448b-9990-5947df874c21.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725209
+      },
+      {
+        "item_en": "Mutabbak With Two Cheeses",
+        "item_ar": "Mutabbak With Two Cheeses",
+        "price": 15,
+        "currency": "SAR",
+        "description": "A thin dough stuffed with two types of cheese and spices.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/145796/PRODUCT/64725211/06b0f183-2f2d-4845-813e-6c12bb1285d1.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725211
+      },
+      {
+        "item_en": "Tuna Mutabbak",
+        "item_ar": "Tuna Mutabbak",
+        "price": 14,
+        "currency": "SAR",
+        "description": "A thin dough stuffed with tuna and spices.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/145796/PRODUCT/64725213/e25cd35d-9585-4f27-8754-c05639497a0f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725213
+      },
+      {
+        "item_en": "Banana Mutabbak",
+        "item_ar": "Banana Mutabbak",
+        "price": 13,
+        "currency": "SAR",
+        "description": "A thin dough stuffed with bananas and spices.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/145796/PRODUCT/64725215/ffa3dd8c-9018-4b41-8c26-5a07117cf60a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725215
+      },
+      {
+        "item_en": "Mutabbak With Cheddar Cheese",
+        "item_ar": "Mutabbak With Cheddar Cheese",
+        "price": 14,
+        "currency": "SAR",
+        "description": "A thin dough stuffed with cheddar cheese and spices.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/145796/PRODUCT/64725216/40291905-e68b-4a7c-ae94-4f3a14cf39b9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725216
+      }
+    ],
+    "Beverage": [
+      {
+        "item_en": "Adeni Milk",
+        "item_ar": "Adeni Milk",
+        "price": 4,
+        "currency": "SAR",
+        "description": "A mix of hot tea with milk and cardamom.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/f2a9455bea2ec5875b8ef689362e881c.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725217
+      },
+      {
+        "item_en": "Milk Tea",
+        "item_ar": "Milk Tea",
+        "price": 4,
+        "currency": "SAR",
+        "description": "A blend of rich-flavored red tea with milk.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/1508d1409731d71571b10bcb8e4706f0.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725219
+      },
+      {
+        "item_en": "Tea",
+        "item_ar": "Tea",
+        "price": 3,
+        "currency": "SAR",
+        "description": "A cup of strong red tea.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/b9425922eea1ee3870d10267e5d7ac51.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725220
+      },
+      {
+        "item_en": "Adeni Tea",
+        "item_ar": "Adeni Tea",
+        "price": 3,
+        "currency": "SAR",
+        "description": "A mix of hot tea with milk and cardamom.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/539487bf91e3a118ad19a2b197405059.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725222
+      },
+      {
+        "item_en": "Karak",
+        "item_ar": "Karak",
+        "price": 6,
+        "currency": "SAR",
+        "description": "A mix of hot tea with milk, saffron, cardamom, and cinnamon.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/e5f316fbde5ede216f8501e13f622ad2.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725223
+      },
+      {
+        "item_en": "Mineral Water",
+        "item_ar": "Mineral Water",
+        "price": 1,
+        "currency": "SAR",
+        "description": "A bottle of pure and refreshing drinking water.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/8d27638d460442c4be32dbe5bf1a4e2c.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64725225
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.038Z",
+  "source": "Hungerstation"
+}

@@ -1,0 +1,438 @@
+{
+  "restaurant_info": {
+    "id": "145589",
+    "name": "Mouajanat Makanak Al Raqi",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2263428,
+      "longitude": 42.58791979999999
+    },
+    "rating": 4.5,
+    "review_count": 71,
+    "type_of_food": "Arabic,Pastries",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/145589"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Mixed Pies - Large",
+        "item_ar": "Mixed Pies - Large",
+        "price": 70.28,
+        "currency": "SAR",
+        "description": "A variety of pies stuffed with different",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193688
+      },
+      {
+        "item_en": "Mixed Pies - Medium",
+        "item_ar": "Mixed Pies - Medium",
+        "price": 35.14,
+        "currency": "SAR",
+        "description": "A variety of pies stuffed with different",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193689
+      },
+      {
+        "item_en": "Chicken Sambosa - 20 Pills",
+        "item_ar": "Chicken Sambosa - 20 Pills",
+        "price": 37.65,
+        "currency": "SAR",
+        "description": "Sambosa stuffed with chicken inside crispy whole wheat dough",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193678
+      },
+      {
+        "item_en": "Chicken Puff Sambosa - 20 Pills",
+        "item_ar": "Chicken Puff Sambosa - 20 Pills",
+        "price": 37.65,
+        "currency": "SAR",
+        "description": "Sambosa stuffed with a delicious spiced chicken mixture",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193658
+      }
+    ],
+    "Samosa": [
+      {
+        "item_en": "Vegetable Puff Sambosa - 10 Pills",
+        "item_ar": "Vegetable Puff Sambosa - 10 Pills",
+        "price": 15.6,
+        "currency": "SAR",
+        "description": "Vegetable puff sambosa",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/79cfea42f952a797aa5588c435e82716.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193667
+      },
+      {
+        "item_en": "Sambosa With Potato Puff - 10 Pills",
+        "item_ar": "Sambosa With Potato Puff - 10 Pills",
+        "price": 15.6,
+        "currency": "SAR",
+        "description": "Sambosa with potato puff",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/79cfea42f952a797aa5588c435e82716.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193669
+      },
+      {
+        "item_en": "Sambosa Puff With Cream Cheese - 10 Pills",
+        "item_ar": "Sambosa Puff With Cream Cheese - 10 Pills",
+        "price": 15.6,
+        "currency": "SAR",
+        "description": "Sambosa stuffed with a creamy cream cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/79cfea42f952a797aa5588c435e82716.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193671
+      },
+      {
+        "item_en": "Sambosa Puff With White Sour Cheese - 10 Pills",
+        "item_ar": "Sambosa Puff With White Sour Cheese - 10 Pills",
+        "price": 15.6,
+        "currency": "SAR",
+        "description": "Sambosa stuffed with white cheese with a distinctive sour flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/79cfea42f952a797aa5588c435e82716.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193673
+      },
+      {
+        "item_en": "Sambosa Puff With Cheddar Cheese - 10 Pills",
+        "item_ar": "Sambosa Puff With Cheddar Cheese - 10 Pills",
+        "price": 15.6,
+        "currency": "SAR",
+        "description": "Sambosa stuffed with melted cheddar cheese with a strong flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/79cfea42f952a797aa5588c435e82716.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193675
+      },
+      {
+        "item_en": "Cream Cheese Flakes Sambosa - 10 Pills",
+        "item_ar": "Cream Cheese Flakes Sambosa - 10 Pills",
+        "price": 15.6,
+        "currency": "SAR",
+        "description": "Crispy dough stuffed with melted cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/d64b3a103e0a4c9117117bdfac0e0d91.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193680
+      },
+      {
+        "item_en": "Cheddar Cheese Flakes Sambosa - 10 Pills",
+        "item_ar": "Cheddar Cheese Flakes Sambosa - 10 Pills",
+        "price": 15.6,
+        "currency": "SAR",
+        "description": "Crispy dough stuffed with cheddar cheese and spice mixture",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/d64b3a103e0a4c9117117bdfac0e0d91.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193682
+      },
+      {
+        "item_en": "Chicken Puff Sambosa - 10 Pills",
+        "item_ar": "Chicken Puff Sambosa - 10 Pills",
+        "price": 18.83,
+        "currency": "SAR",
+        "description": "Sambosa stuffed with a delicious spiced chicken mixture",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/e3e25705647413a250358509706899f6.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193655
+      },
+      {
+        "item_en": "Sambosa Puff With Kiri Cheese - 10 Pills",
+        "item_ar": "Sambosa Puff With Kiri Cheese - 10 Pills",
+        "price": 18.83,
+        "currency": "SAR",
+        "description": "Sambosa stuffed with rich creamy kiri cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/79cfea42f952a797aa5588c435e82716.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193660
+      },
+      {
+        "item_en": "Chicken Sambosa - 10 Pills",
+        "item_ar": "Chicken Sambosa - 10 Pills",
+        "price": 18.83,
+        "currency": "SAR",
+        "description": "Sambosa stuffed with chicken inside crispy whole wheat dough",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/79cfea42f952a797aa5588c435e82716.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193677
+      },
+      {
+        "item_en": "Chicken Flakes Sambosa - 10 Pills",
+        "item_ar": "Chicken Flakes Sambosa - 10 Pills",
+        "price": 18.83,
+        "currency": "SAR",
+        "description": "Sambosa stuffed with chicken inside crispy pastry dough",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/d64b3a103e0a4c9117117bdfac0e0d91.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193684
+      },
+      {
+        "item_en": "Vegetable Puff Sambosa - 20 Pills",
+        "item_ar": "Vegetable Puff Sambosa - 20 Pills",
+        "price": 30.12,
+        "currency": "SAR",
+        "description": "Vegetable puff sambosa",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/79cfea42f952a797aa5588c435e82716.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193668
+      },
+      {
+        "item_en": "Sambosa With Potato Puff - 20 Pills",
+        "item_ar": "Sambosa With Potato Puff - 20 Pills",
+        "price": 30.12,
+        "currency": "SAR",
+        "description": "Sambosa with potato puff",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/79cfea42f952a797aa5588c435e82716.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193670
+      },
+      {
+        "item_en": "Sambosa Puff With Cream Cheese - 20 Pills",
+        "item_ar": "Sambosa Puff With Cream Cheese - 20 Pills",
+        "price": 30.12,
+        "currency": "SAR",
+        "description": "Sambosa stuffed with a creamy cream cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/79cfea42f952a797aa5588c435e82716.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193672
+      },
+      {
+        "item_en": "Sambosa Puff With White Sour Cheese - 20 Pills",
+        "item_ar": "Sambosa Puff With White Sour Cheese - 20 Pills",
+        "price": 30.12,
+        "currency": "SAR",
+        "description": "Sambosa stuffed with white cheese with a distinctive sour flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/79cfea42f952a797aa5588c435e82716.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193674
+      },
+      {
+        "item_en": "Sambosa Puff With Cheddar Cheese - 20 Pills",
+        "item_ar": "Sambosa Puff With Cheddar Cheese - 20 Pills",
+        "price": 30.12,
+        "currency": "SAR",
+        "description": "Sambosa stuffed with melted cheddar cheese with a strong flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/79cfea42f952a797aa5588c435e82716.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193676
+      },
+      {
+        "item_en": "Cream Cheese Flakes Sambosa - 20 Pills",
+        "item_ar": "Cream Cheese Flakes Sambosa - 20 Pills",
+        "price": 30.12,
+        "currency": "SAR",
+        "description": "Crispy dough stuffed with melted cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/d64b3a103e0a4c9117117bdfac0e0d91.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193681
+      },
+      {
+        "item_en": "Cheddar Cheese Flakes Sambosa - 20 Pills",
+        "item_ar": "Cheddar Cheese Flakes Sambosa - 20 Pills",
+        "price": 30.12,
+        "currency": "SAR",
+        "description": "Crispy dough stuffed with cheddar cheese and spice mixture",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/d64b3a103e0a4c9117117bdfac0e0d91.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193683
+      },
+      {
+        "item_en": "Chicken Puff Sambosa - 20 Pills",
+        "item_ar": "Chicken Puff Sambosa - 20 Pills",
+        "price": 37.65,
+        "currency": "SAR",
+        "description": "Sambosa stuffed with a delicious spiced chicken mixture",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/e3e25705647413a250358509706899f6.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193658
+      },
+      {
+        "item_en": "Sambosa Puff With Kiri Cheese - 20 Pills",
+        "item_ar": "Sambosa Puff With Kiri Cheese - 20 Pills",
+        "price": 37.65,
+        "currency": "SAR",
+        "description": "Sambosa stuffed with rich creamy kiri cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/79cfea42f952a797aa5588c435e82716.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193661
+      },
+      {
+        "item_en": "Chicken Sambosa - 20 Pills",
+        "item_ar": "Chicken Sambosa - 20 Pills",
+        "price": 37.65,
+        "currency": "SAR",
+        "description": "Sambosa stuffed with chicken inside crispy whole wheat dough",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/79cfea42f952a797aa5588c435e82716.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193678
+      },
+      {
+        "item_en": "Chicken Flakes Sambosa - 20 Pills",
+        "item_ar": "Chicken Flakes Sambosa - 20 Pills",
+        "price": 37.65,
+        "currency": "SAR",
+        "description": "Sambosa stuffed with chicken inside crispy pastry dough",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/d64b3a103e0a4c9117117bdfac0e0d91.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193685
+      }
+    ],
+    "Pastries": [
+      {
+        "item_en": "Mixed Pies - Medium",
+        "item_ar": "Mixed Pies - Medium",
+        "price": 35.14,
+        "currency": "SAR",
+        "description": "A variety of pies stuffed with different",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/58ec8ce1329124438a0203a698cce848.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193689
+      },
+      {
+        "item_en": "Mixed Pies - Large",
+        "item_ar": "Mixed Pies - Large",
+        "price": 70.28,
+        "currency": "SAR",
+        "description": "A variety of pies stuffed with different",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/58ec8ce1329124438a0203a698cce848.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193688
+      }
+    ],
+    "Mantu": [
+      {
+        "item_en": "Mento - 10 Pills",
+        "item_ar": "Mento - 10 Pills",
+        "price": 15.6,
+        "currency": "SAR",
+        "description": "Chicken flavored mento",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/18cb31ab85a1e117c021b1cad1591ad1.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193690
+      }
+    ],
+    "Spring Rolls": [
+      {
+        "item_en": "Chicken Spring Roll - Medium",
+        "item_ar": "Chicken Spring Roll - Medium",
+        "price": 35.14,
+        "currency": "SAR",
+        "description": "Thin dough rolls stuffed with delicious chicken",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/80e331a06e4de1593f00c875f21c30a9.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193695
+      },
+      {
+        "item_en": "Cheese Spring Roll - Medium",
+        "item_ar": "Cheese Spring Roll - Medium",
+        "price": 35.14,
+        "currency": "SAR",
+        "description": "Thin dough rolls stuffed with delicious cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/80e331a06e4de1593f00c875f21c30a9.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193697
+      },
+      {
+        "item_en": "Vegetable Spring Roll - Medium",
+        "item_ar": "Vegetable Spring Roll - Medium",
+        "price": 35.14,
+        "currency": "SAR",
+        "description": "Thin dough rolls stuffed with delicious vegetable",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/80e331a06e4de1593f00c875f21c30a9.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193699
+      },
+      {
+        "item_en": "Mixed Spring Roll - Medium",
+        "item_ar": "Mixed Spring Roll - Medium",
+        "price": 35.14,
+        "currency": "SAR",
+        "description": "Mixed spring roll stuffing chicken, cheese and vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/80e331a06e4de1593f00c875f21c30a9.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193701
+      },
+      {
+        "item_en": "Chicken Spring Roll - Large",
+        "item_ar": "Chicken Spring Roll - Large",
+        "price": 70.28,
+        "currency": "SAR",
+        "description": "Thin dough rolls stuffed with delicious chicken",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/80e331a06e4de1593f00c875f21c30a9.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193694
+      },
+      {
+        "item_en": "Cheese Spring Roll - Large",
+        "item_ar": "Cheese Spring Roll - Large",
+        "price": 70.28,
+        "currency": "SAR",
+        "description": "Thin dough rolls stuffed with delicious cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/80e331a06e4de1593f00c875f21c30a9.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193696
+      },
+      {
+        "item_en": "Vegetable Spring Roll - Large",
+        "item_ar": "Vegetable Spring Roll - Large",
+        "price": 70.28,
+        "currency": "SAR",
+        "description": "Thin dough rolls stuffed with delicious vegetable",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/80e331a06e4de1593f00c875f21c30a9.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193698
+      },
+      {
+        "item_en": "Mixed Spring Roll - Large",
+        "item_ar": "Mixed Spring Roll - Large",
+        "price": 70.28,
+        "currency": "SAR",
+        "description": "Mixed spring roll stuffing chicken, cheese and vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/80e331a06e4de1593f00c875f21c30a9.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70193700
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.037Z",
+  "source": "Hungerstation"
+}

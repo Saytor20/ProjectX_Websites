@@ -1,0 +1,1095 @@
+{
+  "restaurant_info": {
+    "id": "15341",
+    "name": "Broccoli Pizza And Pasta",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2320800620416,
+      "longitude": 42.55418447591737
+    },
+    "rating": 4.2,
+    "review_count": 144,
+    "type_of_food": "Italian,Pizza,Pasta",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/15341"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Chicken Pasta",
+        "item_ar": "Chicken Pasta",
+        "price": 38,
+        "currency": "SAR",
+        "description": "Served with garlic bread",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-704197?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 704197
+      },
+      {
+        "item_en": "Shrimp Pasta - Shrimp Pasta",
+        "item_ar": "Shrimp Pasta - Shrimp Pasta",
+        "price": 48,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 708988
+      },
+      {
+        "item_en": "Vegetable Pasta",
+        "item_ar": "Vegetable Pasta",
+        "price": 37,
+        "currency": "SAR",
+        "description": "Freshly made",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-704193?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 704193
+      },
+      {
+        "item_en": "Spicy Ranch Chicken   - Lrge",
+        "item_ar": "Spicy Ranch Chicken   - Lrge",
+        "price": 52,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7661421
+      }
+    ],
+    "Pasta": [
+      {
+        "item_en": "Chicken Pasta",
+        "item_ar": "Chicken Pasta",
+        "price": 38,
+        "currency": "SAR",
+        "description": "Served with garlic bread",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-704197?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 704197
+      },
+      {
+        "item_en": "Vegetable Pasta",
+        "item_ar": "Vegetable Pasta",
+        "price": 37,
+        "currency": "SAR",
+        "description": "Freshly made",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-704193?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 704193
+      },
+      {
+        "item_en": "Chicken Sausage Pasta",
+        "item_ar": "Chicken Sausage Pasta",
+        "price": 37,
+        "currency": "SAR",
+        "description": "Freshly made",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-704195?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 704195
+      },
+      {
+        "item_en": "Mexican Chicken Pasta",
+        "item_ar": "Mexican Chicken Pasta",
+        "price": 56,
+        "currency": "SAR",
+        "description": "Mexican style chicken pasta",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-7856385?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7856385
+      },
+      {
+        "item_en": "Mexican Shrimps Pasta",
+        "item_ar": "Mexican Shrimps Pasta",
+        "price": 66,
+        "currency": "SAR",
+        "description": "Pasta with shrimp, mexican style",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-7661399?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7661399
+      },
+      {
+        "item_en": "Beef Strips Pasta",
+        "item_ar": "Beef Strips Pasta",
+        "price": 37,
+        "currency": "SAR",
+        "description": "Served fresh",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-704187?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 704187
+      },
+      {
+        "item_en": "Shrimp Pasta - Shrimp Pasta",
+        "item_ar": "Shrimp Pasta - Shrimp Pasta",
+        "price": 48,
+        "currency": "SAR",
+        "description": "Delicious shrimp pasta with some fresh vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-90795?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 708988
+      },
+      {
+        "item_en": "Meatballs Pasta",
+        "item_ar": "Meatballs Pasta",
+        "price": 37,
+        "currency": "SAR",
+        "description": "Served fresh",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-704189?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 704189
+      }
+    ],
+    "Pizza": [
+      {
+        "item_en": "Meat Lovers Pizza - Small",
+        "item_ar": "Meat Lovers Pizza - Small",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Beef dice bbq chicken slice of sausage pepperoni topping with mozzarella cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/90805?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709061
+      },
+      {
+        "item_en": "Meat Lovers Pizza - Medium",
+        "item_ar": "Meat Lovers Pizza - Medium",
+        "price": 42,
+        "currency": "SAR",
+        "description": "Beef dice bbq chicken slice of sausage pepperoni topping with mozzarella cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/90805?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709062
+      },
+      {
+        "item_en": "Meat Lovers Pizza - Large",
+        "item_ar": "Meat Lovers Pizza - Large",
+        "price": 52,
+        "currency": "SAR",
+        "description": "Beef dice bbq chicken slice of sausage pepperoni topping with mozzarella cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/90805?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709063
+      },
+      {
+        "item_en": "Cheese Pizza  - Small",
+        "item_ar": "Cheese Pizza  - Small",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Mozzarella cheese and parmesan cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-90808?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709076
+      },
+      {
+        "item_en": "Cheese Pizza  - Medium",
+        "item_ar": "Cheese Pizza  - Medium",
+        "price": 42,
+        "currency": "SAR",
+        "description": "Mozzarella cheese and parmesan cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-90808?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709077
+      },
+      {
+        "item_en": "Cheese Pizza  - Large",
+        "item_ar": "Cheese Pizza  - Large",
+        "price": 52,
+        "currency": "SAR",
+        "description": "Mozzarella cheese and parmesan cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-90808?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709078
+      },
+      {
+        "item_en": "Shrimp Peri Peri Pizza - Small",
+        "item_ar": "Shrimp Peri Peri Pizza - Small",
+        "price": 28,
+        "currency": "SAR",
+        "description": "Peri peri",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/90814?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709098
+      },
+      {
+        "item_en": "Shrimp Peri Peri Pizza - Medium",
+        "item_ar": "Shrimp Peri Peri Pizza - Medium",
+        "price": 48,
+        "currency": "SAR",
+        "description": "Peri peri",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/90814?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709099
+      },
+      {
+        "item_en": "Shrimp Peri Peri Pizza - Big",
+        "item_ar": "Shrimp Peri Peri Pizza - Big",
+        "price": 57,
+        "currency": "SAR",
+        "description": "Peri peri",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/90814?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709100
+      },
+      {
+        "item_en": "Chicken Bbq Pizza - Small",
+        "item_ar": "Chicken Bbq Pizza - Small",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Grilled chicken pieces, red pepper, cheese and bbq sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-943390?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709129
+      },
+      {
+        "item_en": "Chicken Bbq Pizza - Medium",
+        "item_ar": "Chicken Bbq Pizza - Medium",
+        "price": 42,
+        "currency": "SAR",
+        "description": "Grilled chicken pieces, red pepper, cheese and bbq sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-943390?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709130
+      },
+      {
+        "item_en": "Chicken Bbq Pizza - Big",
+        "item_ar": "Chicken Bbq Pizza - Big",
+        "price": 52,
+        "currency": "SAR",
+        "description": "Grilled chicken pieces, red pepper, cheese and bbq sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-943390?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709131
+      },
+      {
+        "item_en": "Deluxe Pizza - Small",
+        "item_ar": "Deluxe Pizza - Small",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Pepperoni, mushrooms, peppers, black olives and cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-90825?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709152
+      },
+      {
+        "item_en": "Deluxe Pizza - Medium",
+        "item_ar": "Deluxe Pizza - Medium",
+        "price": 42,
+        "currency": "SAR",
+        "description": "Pepperoni, mushrooms, peppers, black olives and cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-90825?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709153
+      },
+      {
+        "item_en": "Deluxe Pizza - Large",
+        "item_ar": "Deluxe Pizza - Large",
+        "price": 52,
+        "currency": "SAR",
+        "description": "Pepperoni, mushrooms, peppers, black olives and cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-90825?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709154
+      },
+      {
+        "item_en": "Greek Pizza - Small",
+        "item_ar": "Greek Pizza - Small",
+        "price": 25,
+        "currency": "SAR",
+        "description": "mushrooms, peppers, black olives, tomatoes, cheese, feta cheese and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-90832?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709200
+      },
+      {
+        "item_en": "Greek Pizza - Medium",
+        "item_ar": "Greek Pizza - Medium",
+        "price": 42,
+        "currency": "SAR",
+        "description": "mushrooms, peppers, black olives, tomatoes, cheese, feta cheese and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-90832?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709201
+      },
+      {
+        "item_en": "Greek Pizza - Large",
+        "item_ar": "Greek Pizza - Large",
+        "price": 52,
+        "currency": "SAR",
+        "description": "mushrooms, peppers, black olives, tomatoes, cheese, feta cheese and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-90832?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709202
+      },
+      {
+        "item_en": "Hawaiian Pizza - Small",
+        "item_ar": "Hawaiian Pizza - Small",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Salami, pineapple and cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-95240?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709241
+      },
+      {
+        "item_en": "Hawaiian Pizza - Medium",
+        "item_ar": "Hawaiian Pizza - Medium",
+        "price": 42,
+        "currency": "SAR",
+        "description": "Salami, pineapple and cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-95240?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709242
+      },
+      {
+        "item_en": "Hawaiian Pizza - Large",
+        "item_ar": "Hawaiian Pizza - Large",
+        "price": 52,
+        "currency": "SAR",
+        "description": "Salami, pineapple and cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-95240?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709243
+      },
+      {
+        "item_en": "Pepperoni Pizza - Small",
+        "item_ar": "Pepperoni Pizza - Small",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Pepperoni and cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Alkafeef/bc51200ee05cc101f42dde45532ee0b0.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709303
+      },
+      {
+        "item_en": "Pepperoni Pizza - Medium",
+        "item_ar": "Pepperoni Pizza - Medium",
+        "price": 42,
+        "currency": "SAR",
+        "description": "Pepperoni and cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Alkafeef/bc51200ee05cc101f42dde45532ee0b0.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709304
+      },
+      {
+        "item_en": "Pepperoni Pizza - Large",
+        "item_ar": "Pepperoni Pizza - Large",
+        "price": 52,
+        "currency": "SAR",
+        "description": "Pepperoni and cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Alkafeef/bc51200ee05cc101f42dde45532ee0b0.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709305
+      },
+      {
+        "item_en": "Pepperoni Pizza - Family Size",
+        "item_ar": "Pepperoni Pizza - Family Size",
+        "price": 87,
+        "currency": "SAR",
+        "description": "Pepperoni and cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Alkafeef/bc51200ee05cc101f42dde45532ee0b0.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709306
+      },
+      {
+        "item_en": "Shrimp Pizza - Small",
+        "item_ar": "Shrimp Pizza - Small",
+        "price": 28,
+        "currency": "SAR",
+        "description": "Cheese , shrimp ,black olive , red pepper",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-90879?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709353
+      },
+      {
+        "item_en": "Shrimp Pizza - Medium",
+        "item_ar": "Shrimp Pizza - Medium",
+        "price": 48,
+        "currency": "SAR",
+        "description": "Cheese , shrimp ,black olive , red pepper",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-90879?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709354
+      },
+      {
+        "item_en": "Shrimp Pizza - Big",
+        "item_ar": "Shrimp Pizza - Big",
+        "price": 55,
+        "currency": "SAR",
+        "description": "Cheese , shrimp ,black olive , red pepper",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-90879?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709355
+      },
+      {
+        "item_en": "Vegetable Pizza - Small",
+        "item_ar": "Vegetable Pizza - Small",
+        "price": 25,
+        "currency": "SAR",
+        "description": "tomatoes, mushrooms, peppers, black olives, cheese and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-90885?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709376
+      },
+      {
+        "item_en": "Vegetable Pizza - Medium",
+        "item_ar": "Vegetable Pizza - Medium",
+        "price": 42,
+        "currency": "SAR",
+        "description": "tomatoes, mushrooms, peppers, black olives, cheese and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-90885?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709377
+      },
+      {
+        "item_en": "Vegetable Pizza - Large",
+        "item_ar": "Vegetable Pizza - Large",
+        "price": 52,
+        "currency": "SAR",
+        "description": "tomatoes, mushrooms, peppers, black olives, cheese and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-90885?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 709378
+      },
+      {
+        "item_en": "Chicken Peri Peri Pizza - Small",
+        "item_ar": "Chicken Peri Peri Pizza - Small",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Pizza dough with chicken and dynamite sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-501105?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7661413
+      },
+      {
+        "item_en": "Chicken Peri Peri Pizza - Medium",
+        "item_ar": "Chicken Peri Peri Pizza - Medium",
+        "price": 45,
+        "currency": "SAR",
+        "description": "Pizza dough with chicken and dynamite sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-501105?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7661414
+      },
+      {
+        "item_en": "Chicken Peri Peri Pizza - Large",
+        "item_ar": "Chicken Peri Peri Pizza - Large",
+        "price": 54,
+        "currency": "SAR",
+        "description": "Pizza dough with chicken and dynamite sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-501105?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7661415
+      },
+      {
+        "item_en": "Spicy Ranch Chicken   - Small",
+        "item_ar": "Spicy Ranch Chicken   - Small",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Pizza topped with ranch sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-501106?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7661419
+      },
+      {
+        "item_en": "Spicy Ranch Chicken   - Medium",
+        "item_ar": "Spicy Ranch Chicken   - Medium",
+        "price": 42,
+        "currency": "SAR",
+        "description": "Pizza topped with ranch sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-501106?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7661420
+      },
+      {
+        "item_en": "Spicy Ranch Chicken   - Lrge",
+        "item_ar": "Spicy Ranch Chicken   - Lrge",
+        "price": 52,
+        "currency": "SAR",
+        "description": "Pizza topped with ranch sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-501106?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7661421
+      }
+    ],
+    "Combo Meal": [
+      {
+        "item_en": "Chicken Pasta Combo",
+        "item_ar": "Chicken Pasta Combo",
+        "price": 45,
+        "currency": "SAR",
+        "description": "With ( salad & small drink )",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-7896897?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7896897
+      },
+      {
+        "item_en": "Veg Pasta Combo",
+        "item_ar": "Veg Pasta Combo",
+        "price": 45,
+        "currency": "SAR",
+        "description": "With ( salad & small drink )",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-7896896?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7896896
+      },
+      {
+        "item_en": "Beef Strips Pasta Combo",
+        "item_ar": "Beef Strips Pasta Combo",
+        "price": 45,
+        "currency": "SAR",
+        "description": "With ( salad & small drink )",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-7896900?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7896900
+      },
+      {
+        "item_en": "Meat Ball Pasta Combo",
+        "item_ar": "Meat Ball Pasta Combo",
+        "price": 45,
+        "currency": "SAR",
+        "description": "With (salad and small drink)",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-7896899?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7896899
+      },
+      {
+        "item_en": "Shrimps Pasta Combo",
+        "item_ar": "Shrimps Pasta Combo",
+        "price": 59,
+        "currency": "SAR",
+        "description": "With ( salad & small drink )",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-7896898?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7896898
+      },
+      {
+        "item_en": "Chicken Mexican Combo",
+        "item_ar": "Chicken Mexican Combo",
+        "price": 56,
+        "currency": "SAR",
+        "description": "With ( salad & small drink )",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-7896908?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7896908
+      },
+      {
+        "item_en": "Shrimps Mexican Combo",
+        "item_ar": "Shrimps Mexican Combo",
+        "price": 68,
+        "currency": "SAR",
+        "description": "With ( salad & small drink )",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-7896909?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7896909
+      },
+      {
+        "item_en": "Chicken Sausage Pasta Combo",
+        "item_ar": "Chicken Sausage Pasta Combo",
+        "price": 45,
+        "currency": "SAR",
+        "description": "With ( salad & small drink )",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-7896901?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7896901
+      },
+      {
+        "item_en": "Chicken Lasagna Combo",
+        "item_ar": "Chicken Lasagna Combo",
+        "price": 44,
+        "currency": "SAR",
+        "description": "with ( salad & small drink )",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/15341/PRODUCT/7896907/28f56f06-86ce-4400-b9f2-52e4e79d05e5.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7896907
+      },
+      {
+        "item_en": "Meat Lasagna Combo",
+        "item_ar": "Meat Lasagna Combo",
+        "price": 44,
+        "currency": "SAR",
+        "description": "With ( salad & small drink )",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/15341/PRODUCT/7896906/22286a27-697b-4f79-b2c0-f5b5ce739e40.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7896906
+      }
+    ],
+    "Lasagne": [
+      {
+        "item_en": "Chicken Lasagna",
+        "item_ar": "Chicken Lasagna",
+        "price": 37,
+        "currency": "SAR",
+        "description": "Layers of lasagna and ground chicken with tomato sauce prepared with delicious spices, béchamel sauce and mozzarella cheese.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/b7f1af3fe794f89116d7351a76bfee7a?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 704220
+      },
+      {
+        "item_en": "Meat Lasagna",
+        "item_ar": "Meat Lasagna",
+        "price": 37,
+        "currency": "SAR",
+        "description": "Layers of lasagna and ground meat with tomato sauce prepared with delicious spices, béchamel sauce and mozzarella cheese.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-774948?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 774948
+      }
+    ],
+    "Salad": [
+      {
+        "item_en": "Greek Salad - Medium",
+        "item_ar": "Greek Salad - Medium",
+        "price": 18,
+        "currency": "SAR",
+        "description": "made with pieces of tomatoes, cucumbers, onion, feta cheese, and olives and dressed with salt, greek oregano, and olive oil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-104512?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 786933
+      },
+      {
+        "item_en": "Garden Salad - Medium",
+        "item_ar": "Garden Salad - Medium",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Salad prepared from fresh vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-104546?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 787068
+      }
+    ],
+    "Appetizers": [
+      {
+        "item_en": "Potato Wedges",
+        "item_ar": "Potato Wedges",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Crispy potato wedges with a soft and fluffy interior, perfect as a side dish or snack.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-7661325?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7661325
+      },
+      {
+        "item_en": "Potatoes Wedge Family",
+        "item_ar": "Potatoes Wedge Family",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Crunchy spicy oven baked potatoes wedge",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-14435076?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14435076
+      },
+      {
+        "item_en": "Oven Baked Chicken Strips 4",
+        "item_ar": "Oven Baked Chicken Strips 4",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Marinated chicken slices, oven-broiled and crispy",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/15341/PRODUCT/7661328/86fe742e-e410-41b9-ba4d-db44d22fec4d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7661328
+      },
+      {
+        "item_en": "Oven Baked Boneless Buffalo Wings 4 Pcs",
+        "item_ar": "Oven Baked Boneless Buffalo Wings 4 Pcs",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Chicken wings with delicious and hot spices, grilled in the oven, served with sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-7661326?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7661326
+      },
+      {
+        "item_en": "Oven Baked Spicy Chicken Wings 4",
+        "item_ar": "Oven Baked Spicy Chicken Wings 4",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Chicken wings with delicious and hot spices, grilled in the oven, served with sauce",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/15341/PRODUCT/7661327/f4887cc0-20e8-4663-ab19-ebec4ef55fd6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7661327
+      },
+      {
+        "item_en": "Oven Baked Chicken Nuggets 8 Pcs",
+        "item_ar": "Oven Baked Chicken Nuggets 8 Pcs",
+        "price": 32,
+        "currency": "SAR",
+        "description": "Crispy chicken pieces prepared in the oven",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/62062/PRODUCT/7661329/9dee7339-72fb-4c5d-9df6-2a02b493a13f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7661329
+      },
+      {
+        "item_en": "Oven Baked Boneless Buffalo Wings 8",
+        "item_ar": "Oven Baked Boneless Buffalo Wings 8",
+        "price": 32,
+        "currency": "SAR",
+        "description": "Marinated chicken slices, oven-broiled and crispy",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-7661330?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7661330
+      },
+      {
+        "item_en": "Oven Baked Spicy Chicken Wings 8",
+        "item_ar": "Oven Baked Spicy Chicken Wings 8",
+        "price": 38,
+        "currency": "SAR",
+        "description": "Chicken wings with delicious and hot spices, grilled in the oven, served with sauce",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/15341/PRODUCT/7661331/0087f079-0c60-4de0-860e-045aee19919f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7661331
+      },
+      {
+        "item_en": "Oven Baked Chicken Strips 8",
+        "item_ar": "Oven Baked Chicken Strips 8",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Marinated chicken slices, oven-broiled and crispy",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-7661332?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7661332
+      },
+      {
+        "item_en": "Oven Baked Chicken Nuggets 12",
+        "item_ar": "Oven Baked Chicken Nuggets 12",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Marinated chicken slices, oven-broiled and crispy",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/15341/PRODUCT/7661333/154d2fc2-2bb5-4e75-ab31-821e692eee06.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7661333
+      },
+      {
+        "item_en": "Oven Baked Boneless Buffalo Wings 12",
+        "item_ar": "Oven Baked Boneless Buffalo Wings 12",
+        "price": 48,
+        "currency": "SAR",
+        "description": "Delicious spiced chicken wings grilled in the oven, served with sauce",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/15341/PRODUCT/7661334/6bd725a4-8685-4564-b3e3-199d10b7eaaa.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7661334
+      },
+      {
+        "item_en": "Oven Baked Chicken Strips 16",
+        "item_ar": "Oven Baked Chicken Strips 16",
+        "price": 52,
+        "currency": "SAR",
+        "description": "Marinated chicken slices, oven-broiled and crispy",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-7661336?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7661336
+      },
+      {
+        "item_en": "Oven Baked Boneless Buffalo Wings 16",
+        "item_ar": "Oven Baked Boneless Buffalo Wings 16",
+        "price": 52,
+        "currency": "SAR",
+        "description": "Crispy oven-baked chicken wings served with buffalo sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-7661338?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7661338
+      },
+      {
+        "item_en": "Oven Baked Spicy Chicken Wings 20",
+        "item_ar": "Oven Baked Spicy Chicken Wings 20",
+        "price": 92,
+        "currency": "SAR",
+        "description": "Chicken wings with delicious and hot spices, grilled in the oven, served with sauce",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/15341/PRODUCT/7661339/35653ef8-f11f-4109-9a6a-85597a21311d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7661339
+      },
+      {
+        "item_en": "Oven Baked Chicken Strips 20",
+        "item_ar": "Oven Baked Chicken Strips 20",
+        "price": 86,
+        "currency": "SAR",
+        "description": "Marinated chicken slices, oven-broiled and crispy",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/15341/PRODUCT/7661340/99bb2b27-bc62-487b-a633-4352ef4c0637.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7661340
+      },
+      {
+        "item_en": "Oven Baked Chicken Nuggets 20",
+        "item_ar": "Oven Baked Chicken Nuggets 20",
+        "price": 62,
+        "currency": "SAR",
+        "description": "Crispy chicken pieces prepared in the oven",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/60082/PRODUCT/7661341/69ea1227-33ed-40e4-9ace-536c00f4bc2b.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7661341
+      }
+    ],
+    "Sauce": [
+      {
+        "item_en": "Ranch Sauce",
+        "item_ar": "Ranch Sauce",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Yogurt, salt, garlic, onion, set of spices (black pepper, paprika, mustard) mixed with mayonnaise",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/27135170?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7856001
+      },
+      {
+        "item_en": "Barbeque Sauce",
+        "item_ar": "Barbeque Sauce",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Milk, flour, garlic, salt, black pepper, spices with grill taste",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/54714/PRODUCT/7856234/7af74b10-7b7d-4103-a517-846a68e86d84.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7856234
+      },
+      {
+        "item_en": "Spicy Peri Peri Sauce",
+        "item_ar": "Spicy Peri Peri Sauce",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Hot peri peri sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-7856328?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7856328
+      }
+    ],
+    "Drinks": [
+      {
+        "item_en": "Orange Juice",
+        "item_ar": "Orange Juice",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Cold and refreshing juice with fresh orange fruit",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-272232?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 704237
+      },
+      {
+        "item_en": "Cola - Small",
+        "item_ar": "Cola - Small",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Refreshing carbonated soft drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-104486?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 786844
+      },
+      {
+        "item_en": "Sprite - Small",
+        "item_ar": "Sprite - Small",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Sprite",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-104487?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 786846
+      },
+      {
+        "item_en": "Fanta - Small",
+        "item_ar": "Fanta - Small",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Refreshing soft drink with orange flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-104488?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 786850
+      },
+      {
+        "item_en": "Cola Diet  - Small",
+        "item_ar": "Cola Diet  - Small",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Coca-cola diet - low calorie cola with original taste.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-104489?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 786854
+      },
+      {
+        "item_en": "Cola Diet  - Large",
+        "item_ar": "Cola Diet  - Large",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Coca-cola diet - low calorie cola with original taste.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-104489?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75629818
+      },
+      {
+        "item_en": "Fanta - Large",
+        "item_ar": "Fanta - Large",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Refreshing soft drink with orange flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-104488?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75629819
+      },
+      {
+        "item_en": "Sprite - Meduim",
+        "item_ar": "Sprite - Meduim",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Refreshing sprite drink.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-104487?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75629820
+      },
+      {
+        "item_en": "Cola Diet  - Medium",
+        "item_ar": "Cola Diet  - Medium",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Coca-cola diet - low calorie cola with original taste.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-104489?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75629821
+      },
+      {
+        "item_en": "Fanta - Medium",
+        "item_ar": "Fanta - Medium",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Refreshing soft drink with orange flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-104488?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75629822
+      },
+      {
+        "item_en": "Sprite - Large",
+        "item_ar": "Sprite - Large",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Refreshing sprite drink.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-104487?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75629823
+      },
+      {
+        "item_en": "Cola - Medium",
+        "item_ar": "Cola - Medium",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Refreshing carbonated soft drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-104486?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75629826
+      },
+      {
+        "item_en": "Cola - Large",
+        "item_ar": "Cola - Large",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Refreshing carbonated soft drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-104486?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75629827
+      },
+      {
+        "item_en": "Water",
+        "item_ar": "Water",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Bottled mineral water",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1046633?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 704235
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.040Z",
+  "source": "Hungerstation"
+}

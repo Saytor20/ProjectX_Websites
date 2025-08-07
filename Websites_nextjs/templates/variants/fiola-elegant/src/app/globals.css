@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FDF5E6;
+  --foreground: #2C1810;
+  --wine-red: #8B0000;
+  --elegant-gray: #2C1810;
+  --warm-white: #FDF5E6;
+  --cream: #FAF0E6;
+  --soft-gray: #F5F5DC;
+  --muted-foreground: #6B7280;
+}
+
+@layer base {
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer utilities {
+  .wine-red {
+    color: var(--wine-red);
+  }
+  .elegant-gray {
+    color: var(--elegant-gray);
+  }
+  .warm-white {
+    color: var(--warm-white);
+  }
+  .bg-wine-red {
+    background-color: var(--wine-red);
+  }
+  .bg-warm-white {
+    background-color: var(--warm-white);
+  }
+  .bg-cream {
+    background-color: var(--cream);
+  }
+  .bg-soft-gray {
+    background-color: var(--soft-gray);
+  }
+  .border-wine-red {
+    border-color: var(--wine-red);
+  }
+  .border-soft-gray {
+    border-color: var(--soft-gray);
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', 'Playfair Display', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}

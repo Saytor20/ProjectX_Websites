@@ -1,0 +1,13 @@
+{
+  "name": "Fiola DC Cloned",
+  "description": "Michelin-starred sophisticated fine dining template cloned from Fiola DC. Features full-screen hero imagery, minimal dark aesthetic, luxury typography, and premium restaurant presentation. Perfect for high-end establishments seeking understated elegance.",
+  "category": "Fine Dining",
+  "style": "Sophisticated Minimalism",
+  "colors": {
+    "primary": "#000000",
+    "secondary": "#FFFFFF", 
+    "accent": "#F5F5F5",
+    "background": "#FAFAFA"
+  },
+  "recommended_for": ["michelin_starred", "fine_dining", "upscale_italian", "tasting_menu"]
+}

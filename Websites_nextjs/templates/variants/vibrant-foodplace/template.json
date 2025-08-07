@@ -1,0 +1,49 @@
+{
+  "id": "vibrant-foodplace",
+  "name": "Tropical Food Paradise",
+  "description": "Exotic tropical paradise-themed restaurant website with palm leaves, sunset gradients, beach vibes, and tropical fruit colors for vacation-inspired dining",
+  "version": "2.0.0",
+  "framework": "nextjs",
+  "language": "typescript",
+  "styling": "tailwind+mui",
+  "recommended_for": ["tropical-dining", "beach-restaurant", "island-cuisine", "vacation-resort", "tiki-bar", "seafood-restaurant", "smoothie-bar"],
+  "features": [
+    "responsive-design",
+    "typescript",
+    "tropical-theme",
+    "beach-vibes",
+    "sunset-gradients",
+    "palm-patterns",
+    "tropical-animations",
+    "paradise-effects",
+    "hero-sections",
+    "menu-display",
+    "gallery",
+    "contact-form",
+    "about-section",
+    "island-aesthetics",
+    "ocean-inspired",
+    "bilingual-support"
+  ],
+  "color_scheme": {
+    "primary": "#FF6B47",
+    "secondary": "#4ECDC4", 
+    "accent": "#FFD93D",
+    "background": "#FFF8E7",
+    "surface": "#FFFFFF",
+    "coral": "#FF7F7F",
+    "ocean": "#00CED1",
+    "sunset": "#FF4500",
+    "palm": "#228B22"
+  },
+  "structure": {
+    "template_type": "variant",
+    "uses_shared": true,
+    "custom_files": [
+      "src/app/layout.tsx",
+      "src/app/page.tsx", 
+      "src/app/globals.css",
+      "src/app/theme.ts"
+    ]
+  }
+} 

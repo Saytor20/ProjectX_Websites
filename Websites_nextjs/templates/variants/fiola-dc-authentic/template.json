@@ -1,0 +1,25 @@
+{
+  "name": "Fiola DC Authentic",
+  "description": "Michelin-starred fine dining template inspired by Fiola DC. Features elegant dark design, premium typography, sophisticated animations, and luxury aesthetic perfect for high-end restaurants.",
+  "category": "Fine Dining",
+  "style": "Luxury",
+  "colors": {
+    "primary": "#1A1A1A",
+    "secondary": "#C9A961",
+    "accent": "#F4F4F2",
+    "background": "#0F0F0F"
+  },
+  "features": [
+    "Dark luxury design",
+    "Gold accent colors",
+    "Premium typography",
+    "Smooth animations",
+    "Full-screen hero",
+    "Michelin star emphasis",
+    "Elegant navigation"
+  ],
+  "target": "Michelin-starred restaurants, fine dining establishments, luxury culinary experiences",
+  "demo_url": "",
+  "created_at": "2025-08-06",
+  "version": "1.0.0"
+}

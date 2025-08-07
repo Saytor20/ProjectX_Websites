@@ -1,0 +1,21 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+butcherandbee.com	TRUE	/	FALSE	1999999999	XSRF-TOKEN	eyJpdiI6Ik9GcHFGWFdKQkp1SVh6UTVXTEZUUWc9PSIsInZhbHVlIjoiTE9XVFRsaVI5SXROYzFzS2lCaGYxZkllb0pFcXNkV2ZwVjVIVFJZSmlsVm5cLzVXdnY0MlwvM1hWM3YrRXA5aVJzSXpycWtTbVlVYjFvQldhMDJxOUpsdz09IiwibWFjIjoiNjhiMTljNzMzYzM4MzIzMDAwNzA3ZThhYzEwNDk0NDQ1NzFiZDEwNzAzNDk3MzI2NTZiZjc2NDczMDYyZTZiNSJ9
+butcherandbee.com	TRUE	/	FALSE	1999999999	laravel_session	eyJpdiI6IjFvOW9EZjBcL1ZcL2E5VUhjcVN2VWRwUT09IiwidmFsdWUiOiI4bERJZDNIV2tDaUdtVXJiMGhQVWxEV2diNGIzblwvSXVkTUd0Z05WTUZ6RUJKUDhRZ0JyQ0VtdVR6cGNsd1d4Y2FsOUZ6ZEJHVUYyTDRlYXVsTTh3XC9nPT0iLCJtYWMiOiIzN2M1NmZlYmY1MDI4ZTI1ZWMzMDBjNGZiNTc3NmZkMDczMzk4MDllZTdmNDk1NjBiOTRhYzFiZjAxMGNjMzQ1In0%3D
+.chownow.com	TRUE	/	FALSE	1999999999	__cf_bm	rUnYou1PZlcFJNzCIlBpBKk5XNZpk0SwZd5oFWuMW3k-1754524352-1.0.1.1-tp_Uxm3172KyPhnnZazy7EjRcwAF9o8GvNXXf1HexVwZiwfZrD9p68nHAMQ7BR85OSbN.d7uufduV34b1fpupfFdaWFLyxc5U0Fmg832vPflO5US4RvTf22n3O8vTzkq
+.chownow.com	TRUE	/	FALSE	1999999999	__cfruid	05694ff1068682efe26ac720d983a47bbb71d010-1754524352
+.chownow.com	TRUE	/	FALSE	1999999999	_cfuvid	ZHXeLU8aw8.69gT81Yuwhqxgb_Yn5NU4T.v2cYpQfek-1754524352659-0.0.1.1-604800000
+order.chownow.com	TRUE	/	FALSE	1999999999	SameSite	None
+republicofpie.com	TRUE	/	FALSE	1999999999	_tracking_consent	3.AMPS_USOH_f_f_CI8YG*cNTzKjbg8Khlj87w
+republicofpie.com	TRUE	/	FALSE	1999999999	_landing_page	%2Frobots.txt
+republicofpie.com	TRUE	/	FALSE	1999999999	cart	hWN1VMxPSSUAfvGjB0vJNlMP%3Fkey%3De31db39350980ed084fcffa5f058b8cd
+republicofpie.com	TRUE	/	FALSE	1999999999	keep_alive	2272314d-40c1-4f0c-96d6-22bcc278d2ed
+republicofpie.com	TRUE	/	FALSE	1999999999	localization	US
+republicofpie.com	TRUE	/	FALSE	1999999999	cart_currency	USD
+republicofpie.com	TRUE	/	FALSE	1999999999	_shopify_y	33ff284b-2f14-40d9-8b79-d017d552e80a
+republicofpie.com	TRUE	/	FALSE	1999999999	_shopify_s	afdee64e-d183-476b-8b00-0c9e218aa592
+republicofpie.com	TRUE	/	FALSE	1999999999	_shopify_essential	:AZiB6n2jAAEAspun_pm_7Ilmf1CzDOdHTPihDbkPWkv98pNkk2bRaP0_mgnijCRuZfMpi34jgpRG58uC6pEgl5axrtY1_rVXrJQthzqu:
+republicofpie.com	TRUE	/	FALSE	1999999999	Priority	High
+republicofpie.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+www.tiagocoffee.com	TRUE	/	FALSE	1999999999	crumb	BUQAKDANuYy5MjMwOTE1OTI4NzI1OTNkNmRlMmNmM2QyZjMyM2Uw
+

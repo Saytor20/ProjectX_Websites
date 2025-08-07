@@ -1,0 +1,540 @@
+{
+  "restaurant_info": {
+    "id": "110870",
+    "name": "Cote Me",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2389375,
+      "longitude": 42.68206250000001
+    },
+    "rating": 4.5,
+    "review_count": 4,
+    "type_of_food": "Arabic",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/110870"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Acapulco Chicken Taco Meal",
+        "item_ar": "Acapulco Chicken Taco Meal",
+        "price": 63,
+        "currency": "SAR",
+        "description": "Acapulco chicken taco + pepsi + fries",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/f37c551d92f78e07c9bfdfbd895e8176.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 49804938
+      }
+    ],
+    "Soup": [
+      {
+        "item_en": "Pumpkin Soup",
+        "item_ar": "Pumpkin Soup",
+        "price": 31.9,
+        "currency": "SAR",
+        "description": "Pumpkin soup with almonds and parmesan cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/90d67892ca3f474465e321dedf65eb91.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313862
+      },
+      {
+        "item_en": "Mushroom Sop",
+        "item_ar": "Mushroom Sop",
+        "price": 29.7,
+        "currency": "SAR",
+        "description": "Cream of mushroom soup",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/9e66a7bf8e4dded2a834c22a8d37bcb4.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313863
+      },
+      {
+        "item_en": "Dafly Cream",
+        "item_ar": "Dafly Cream",
+        "price": 28.6,
+        "currency": "SAR",
+        "description": "Cream soup with chicken and vegetables, french style",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/a93993905cc3de697c11dd1c1b21bfca.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313864
+      }
+    ],
+    "Hummus": [
+      {
+        "item_en": "Hummus Cote Me",
+        "item_ar": "Hummus Cote Me",
+        "price": 38.5,
+        "currency": "SAR",
+        "description": "Mixed hummus with pesto, beetroot and plain chickpeas",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/7623365c5afe7fd3b5e0f6aefa877ead.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313865
+      }
+    ],
+    "Salads": [
+      {
+        "item_en": "Rocca Salad",
+        "item_ar": "Rocca Salad",
+        "price": 29.7,
+        "currency": "SAR",
+        "description": "Rocca salad with strawberries, cinderella tomato, parmesan cheese slices and sherry tomato",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/faf4b4ed22badec128d79c5e47b70e5e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313866
+      },
+      {
+        "item_en": "Caesar Salad",
+        "item_ar": "Caesar Salad",
+        "price": 37.4,
+        "currency": "SAR",
+        "description": "Lettuce with caesar sauce, chicken cubes, parmesan cheese slices, and crispy bread",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/9163289006ebcb47275237dd9dad050b.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313867
+      },
+      {
+        "item_en": "Mexican Nachos Salad",
+        "item_ar": "Mexican Nachos Salad",
+        "price": 40.7,
+        "currency": "SAR",
+        "description": "Mix litos with doritos, red and green beans, cheese cubes and grated carrots",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/1a13ee3481df65714c35e4e256ad8204.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313868
+      },
+      {
+        "item_en": "Chef Salad",
+        "item_ar": "Chef Salad",
+        "price": 42.9,
+        "currency": "SAR",
+        "description": "Olives and mixed litos with cherry tomato, sweet corn, shrimp with avocado and barbecue sauce.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d0c5d3e5fac6b3849eeeb3961146ed87.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313869
+      },
+      {
+        "item_en": "Greek Salad",
+        "item_ar": "Greek Salad",
+        "price": 31.9,
+        "currency": "SAR",
+        "description": "Lettuce, colored pepper, cherry tomato, cucumber, olives and feta cheese, with onion slices, mint, thyme and lemon.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/ba99319bdfcfdf3dfc430ca0b24859cb.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313870
+      },
+      {
+        "item_en": "Burrata Salad",
+        "item_ar": "Burrata Salad",
+        "price": 53.9,
+        "currency": "SAR",
+        "description": "Burrata cheese, three types of lettuce, colored tomato sherry, and honey oats",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/75774dd72f96bff757f020283f003a48.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313871
+      }
+    ],
+    "Appetizers": [
+      {
+        "item_en": "Crazy Fries",
+        "item_ar": "Crazy Fries",
+        "price": 49.5,
+        "currency": "SAR",
+        "description": "Crispy fries with chicken, five types of liquid cheese sauce, and the addition of crispy onions and jalapeno",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/90f2572a6ae9f5436e09a0c02e5df997.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313872
+      },
+      {
+        "item_en": "Texas Fries",
+        "item_ar": "Texas Fries",
+        "price": 46.2,
+        "currency": "SAR",
+        "description": "Crispy fries with beef ribs, melted cheese, fiery sauce, crispy onions and jalapeno.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/4e1a39974f80e955ff476c5d0189135d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313873
+      },
+      {
+        "item_en": "Cheesy Fries",
+        "item_ar": "Cheesy Fries",
+        "price": 34.1,
+        "currency": "SAR",
+        "description": "Crispy potatoes with pesto sauce, melted cheese, crispy onions and jalapeno",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/8762e200f046b8157fe13a26bde8bc7d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313874
+      },
+      {
+        "item_en": "Fries",
+        "item_ar": "Fries",
+        "price": 19.8,
+        "currency": "SAR",
+        "description": "Crispy potatoes with skin",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/00a0be2c3187a73142d22f618a1d868a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313875
+      },
+      {
+        "item_en": "Crispy Corkatta",
+        "item_ar": "Crispy Corkatta",
+        "price": 41.8,
+        "currency": "SAR",
+        "description": "Crispy potato balls with special sauce, liquid cheese, and crispy onions and jalapenos",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/c867ab9064af7d506bc63952a1d8b1be.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313876
+      },
+      {
+        "item_en": "Volcano Shrimp",
+        "item_ar": "Volcano Shrimp",
+        "price": 52.8,
+        "currency": "SAR",
+        "description": "Special style shrimp with special sauce and potato sticks",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/4a62af8f7d0eed43166cc82a9b6425cf.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313877
+      },
+      {
+        "item_en": "Bbq Lolo Pop",
+        "item_ar": "Bbq Lolo Pop",
+        "price": 28.6,
+        "currency": "SAR",
+        "description": "Chicken wings with barbecue sauce and ranch sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/e59a4c4b6265af41346f170c7f1da682.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313878
+      },
+      {
+        "item_en": "Lulu Pop Buffalo",
+        "item_ar": "Lulu Pop Buffalo",
+        "price": 28.6,
+        "currency": "SAR",
+        "description": "Chicken wings with american buffalo sauce and ranch sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/5081e245aa8cfb82d9b1535e72a70055.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313879
+      },
+      {
+        "item_en": "Rice",
+        "item_ar": "Rice",
+        "price": 14.3,
+        "currency": "SAR",
+        "description": "Cooked white rice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/33f38b3202e288c5f129689d50e0ac2d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313880
+      }
+    ],
+    "Seafood": [
+      {
+        "item_en": "Grilled Salmon",
+        "item_ar": "Grilled Salmon",
+        "price": 129.8,
+        "currency": "SAR",
+        "description": "Grilled salmon with shrimp, mashed potatoes, sauteed vegetables, and spanish sauce.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/cc03a657e96fad2c94d39f471f55898a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313881
+      }
+    ],
+    "Pasta": [
+      {
+        "item_en": "Black Pasta",
+        "item_ar": "Black Pasta",
+        "price": 53.9,
+        "currency": "SAR",
+        "description": "Farsh pasta with cream, chicken and italian herbs",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/0e22a3ee7b08b852d52827fe98a0aa56.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313882
+      },
+      {
+        "item_en": "Patrot Pasta",
+        "item_ar": "Patrot Pasta",
+        "price": 51.7,
+        "currency": "SAR",
+        "description": "Fresh pasta with butternut sauce and italian herbs",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/62b4dcbfa789a9593241daea194cac2d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313883
+      },
+      {
+        "item_en": "Shrimp Fettuccine",
+        "item_ar": "Shrimp Fettuccine",
+        "price": 51.7,
+        "currency": "SAR",
+        "description": "Fresh pasta with cream, shrimp and italian herbs",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/161ee887523d9a3f65b8c76e56927d14.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313884
+      },
+      {
+        "item_en": "Lasagna",
+        "item_ar": "Lasagna",
+        "price": 53.9,
+        "currency": "SAR",
+        "description": "Lasagna slices with minced meat and mozzarella cheese with cote me's special mixture",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/5eb670c6470c0eef5034a1c828772ada.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313885
+      }
+    ],
+    "Burger": [
+      {
+        "item_en": "Acapulco Chicken Taco",
+        "item_ar": "Acapulco Chicken Taco",
+        "price": 42.9,
+        "currency": "SAR",
+        "description": "Mexican bread stuffed with crispy chicken and cheese, with special sauce and cheetos",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/e38d08ff7d2476488641e7a277ae7b94.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313886
+      },
+      {
+        "item_en": "Short Ribs Taco",
+        "item_ar": "Short Ribs Taco",
+        "price": 49.5,
+        "currency": "SAR",
+        "description": "Mexican bread with beef ribs, cheese and special sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d098a8d78f0cfc09ec64ca77727ab74f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313887
+      },
+      {
+        "item_en": "Sotrilish Beef Burger",
+        "item_ar": "Sotrilish Beef Burger",
+        "price": 42.9,
+        "currency": "SAR",
+        "description": "Potato bread with angus beef, american cheese, bank sauce and crispy onion pickled cucumbers",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/ba7055b60cd5b6a32105bdcd84f483be.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313888
+      },
+      {
+        "item_en": "Firey Burger",
+        "item_ar": "Firey Burger",
+        "price": 42.9,
+        "currency": "SAR",
+        "description": "Potato bread with fiery burger, angus beef, jalapeno and crispy potato sticks",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/c7c4ee9c423c4d518dddc3a47daa8f50.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313889
+      },
+      {
+        "item_en": "Signature Chicken Burger",
+        "item_ar": "Signature Chicken Burger",
+        "price": 39.6,
+        "currency": "SAR",
+        "description": "Crispy chicken, potato bread, pesto sauce, pickled cucumber, lettuce and mixed cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/ccd7766e10744df376d18d1b168421a2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313890
+      },
+      {
+        "item_en": "Bbq Chicken Burger",
+        "item_ar": "Bbq Chicken Burger",
+        "price": 41.8,
+        "currency": "SAR",
+        "description": "Crispy chicken with barbecue sauce, potato bread, pesto sauce, pickled cucumber, lettuce and mixed cheese.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/cc60f9cd023478f26c358348ba8f7753.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313891
+      },
+      {
+        "item_en": "Buffalo Chicken Burger",
+        "item_ar": "Buffalo Chicken Burger",
+        "price": 41.8,
+        "currency": "SAR",
+        "description": "Crispy chicken with buffalo sauce, potato bread, pesto sauce, pickled cucumber, lettuce and mixed cheese.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/cc60f9cd023478f26c358348ba8f7753.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313892
+      }
+    ],
+    "Grilled": [
+      {
+        "item_en": "German Kebab",
+        "item_ar": "German Kebab",
+        "price": 64.9,
+        "currency": "SAR",
+        "description": "Meat kebab with petro sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/17d97e251a0093854203dc66484374fd.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313893
+      },
+      {
+        "item_en": "Chicken Kebab",
+        "item_ar": "Chicken Kebab",
+        "price": 52.8,
+        "currency": "SAR",
+        "description": "Chicken kebab with tomato sauce and cream",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/7314b5350ccfa93799a46520ef0d0ecb.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313894
+      },
+      {
+        "item_en": "Tender Line Pesto",
+        "item_ar": "Tender Line Pesto",
+        "price": 64.9,
+        "currency": "SAR",
+        "description": "Beef fillet with basil sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/9a1f1daaa21bb136a07079cdac4d12e6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313895
+      },
+      {
+        "item_en": "Shish Tawouk",
+        "item_ar": "Shish Tawouk",
+        "price": 52.8,
+        "currency": "SAR",
+        "description": "Shish tawook with cinderella tomato sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/6c7a1ce8c24b813e87d97c12b3e3c00d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313896
+      },
+      {
+        "item_en": "Lamb Ribs",
+        "item_ar": "Lamb Ribs",
+        "price": 86.9,
+        "currency": "SAR",
+        "description": "Grilled lamb chops with sauteed vegetables and buteo",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/cc9e0e3200a1f2f778cc0acc55d92b64.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313897
+      }
+    ],
+    "Steak": [
+      {
+        "item_en": "Texas Short Ribs",
+        "item_ar": "Texas Short Ribs",
+        "price": 141.9,
+        "currency": "SAR",
+        "description": "Beef ribs with brooklyn sauce and crispy potato sticks",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/e82e20d44d09d659a27fd19033f7e49b.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313898
+      },
+      {
+        "item_en": "Café De Paris",
+        "item_ar": "Café De Paris",
+        "price": 152.9,
+        "currency": "SAR",
+        "description": "Rab any steak with sauteed vegetables, fries, and metropolitan butter",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/030253e0b13533adbfc9dbe0cab1fa82.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313899
+      },
+      {
+        "item_en": "Chicken Piccata Milanese",
+        "item_ar": "Chicken Piccata Milanese",
+        "price": 75.9,
+        "currency": "SAR",
+        "description": "Crispy chicken with salad, ranch sauce, cheese sauce and fries",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/8cbe47e7c93980886b1f78f81dff8afb.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313900
+      }
+    ],
+    "Drinks": [
+      {
+        "item_en": "Soft Drinks",
+        "item_ar": "Soft Drinks",
+        "price": 6.3,
+        "currency": "SAR",
+        "description": "Refreshing soft drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/0156b03d9de87d464c9e758118e9ec45.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313901
+      },
+      {
+        "item_en": "Beer",
+        "item_ar": "Beer",
+        "price": 9.45,
+        "currency": "SAR",
+        "description": "Refreshing malt drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/afa5a1ece484ad1583d8e4f02aabd4dd.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313902
+      },
+      {
+        "item_en": "Orange Juice",
+        "item_ar": "Orange Juice",
+        "price": 15.4,
+        "currency": "SAR",
+        "description": "Fresh orange juice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/f733bb199bb672a1e4989211da2444b7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313903
+      },
+      {
+        "item_en": "Water",
+        "item_ar": "Water",
+        "price": 6.3,
+        "currency": "SAR",
+        "description": "Natural, refreshing, and healthy water.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/beeb01757ae5b2cb500f19b207467acd.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 33313904
+      }
+    ],
+    "Our Offers": [
+      {
+        "item_en": "Acapulco Chicken Taco Meal",
+        "item_ar": "Acapulco Chicken Taco Meal",
+        "price": 63,
+        "currency": "SAR",
+        "description": "Acapulco chicken taco + pepsi + fries",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/f37c551d92f78e07c9bfdfbd895e8176.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 49804938
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.023Z",
+  "source": "Hungerstation"
+}

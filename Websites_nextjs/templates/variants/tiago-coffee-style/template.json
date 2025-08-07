@@ -1,0 +1,33 @@
+{
+  "id": "tiago-coffee-style",
+  "name": "Tiago Coffee Style",
+  "description": "Warm and welcoming coffee shop design inspired by Tiago Coffee, featuring elegant pink branding, professional layout, and cozy atmosphere perfect for coffee shops and cafes",
+  "version": "1.0.0",
+  "framework": "nextjs",
+  "language": "typescript", 
+  "styling": "tailwind+mui",
+  "recommended_for": ["coffee-shop", "cafe", "coffee-bar", "specialty-coffee", "artisan-cafe", "local-cafe"],
+  "features": [
+    "responsive-design",
+    "typescript",
+    "warm-coffee-aesthetics",
+    "pink-color-palette",
+    "elegant-typography",
+    "professional-layout",
+    "coffee-shop-branding",
+    "menu-display",
+    "gallery-showcase",
+    "contact-form",
+    "bilingual-support"
+  ],
+  "structure": {
+    "template_type": "variant",
+    "uses_shared": true,
+    "custom_files": [
+      "src/app/layout.tsx",
+      "src/app/page.tsx", 
+      "src/app/globals.css",
+      "src/app/theme.ts"
+    ]
+  }
+}

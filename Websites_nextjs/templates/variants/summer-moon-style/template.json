@@ -1,0 +1,33 @@
+{
+  "id": "summer-moon-style",
+  "name": "Summer Moon Light",
+  "description": "Clean and light coffee shop template inspired by Summer Moon Coffee, featuring light green/blue backgrounds, minimal design, and menu-focused layout without pictures",
+  "version": "1.0.0",
+  "framework": "nextjs",
+  "language": "typescript",
+  "styling": "tailwind+mui",
+  "recommended_for": ["coffee-shop", "cafe", "light-menu", "minimal-cafe", "clean-design", "coffee-roaster"],
+  "features": [
+    "responsive-design",
+    "typescript",
+    "clean-minimal-design",
+    "light-green-blue-palette",
+    "menu-focused-layout",
+    "no-pictures-design",
+    "simple-typography",
+    "light-backgrounds",
+    "menu-display",
+    "contact-form",
+    "bilingual-support"
+  ],
+  "structure": {
+    "template_type": "variant",
+    "uses_shared": true,
+    "custom_files": [
+      "src/app/layout.tsx",
+      "src/app/page.tsx", 
+      "src/app/globals.css",
+      "src/app/theme.ts"
+    ]
+  }
+}

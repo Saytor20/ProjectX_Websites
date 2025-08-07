@@ -1,0 +1,346 @@
+{
+  "restaurant_info": {
+    "id": "131106",
+    "name": "BASKET COFFEE",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.18772563533255,
+      "longitude": 42.66440318954927
+    },
+    "rating": 4.2,
+    "review_count": 110,
+    "type_of_food": "Desserts,Beverages,Coffee",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/131106"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Large Mini Cookies Box",
+        "item_ar": "Large Mini Cookies Box",
+        "price": 35,
+        "currency": "SAR",
+        "description": "Large mini cookies box 16 piece",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/125164/b731f2d6-9a9d-442b-9ec9-fd3b4121e51c.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66027228
+      },
+      {
+        "item_en": "Small Mini Cookies Box",
+        "item_ar": "Small Mini Cookies Box",
+        "price": 18.5,
+        "currency": "SAR",
+        "description": "Small mini cookies box 8 piece",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/125164/502b7d34-26e8-4c4a-a186-daf6f13f7ddd.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66027227
+      },
+      {
+        "item_en": "Basket Hibiscus Box",
+        "item_ar": "Basket Hibiscus Box",
+        "price": 70,
+        "currency": "SAR",
+        "description": "Jack: makes 8 cups of small hibiscus",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/46812523?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 46812523
+      },
+      {
+        "item_en": "Basket Coffee Box Small",
+        "item_ar": "Basket Coffee Box Small",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Small box 4 cup",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/56954634?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56954634
+      }
+    ],
+    "Beverages": [
+      {
+        "item_en": "V60 Cold",
+        "item_ar": "V60 Cold",
+        "price": 12.25,
+        "currency": "SAR",
+        "description": "Drip coffee of the finest coffee with ice cubes",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/46812520?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 46812520
+      },
+      {
+        "item_en": "Coffee Day Hot Medium",
+        "item_ar": "Coffee Day Hot Medium",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Cup of coffee hot",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/61106179?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61106179
+      },
+      {
+        "item_en": "Coffee Day Cold Medium",
+        "item_ar": "Coffee Day Cold Medium",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Cup of coffee cold",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/61106180?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61106180
+      },
+      {
+        "item_en": "Coffee Day Cold Large",
+        "item_ar": "Coffee Day Cold Large",
+        "price": 12.25,
+        "currency": "SAR",
+        "description": "A cup of coffee cold",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/61107618?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61107618
+      },
+      {
+        "item_en": "Medium Hibiscus",
+        "item_ar": "Medium Hibiscus",
+        "price": 12.25,
+        "currency": "SAR",
+        "description": "A cup of hibiscus",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/61107619?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61107619
+      },
+      {
+        "item_en": "Coffee Day Hot Large",
+        "item_ar": "Coffee Day Hot Large",
+        "price": 12.25,
+        "currency": "SAR",
+        "description": "A cup of coffee large",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/61107620?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61107620
+      },
+      {
+        "item_en": "Large Hibiscus",
+        "item_ar": "Large Hibiscus",
+        "price": 15,
+        "currency": "SAR",
+        "description": "A cup large hibiscus",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/61111337?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61111337
+      },
+      {
+        "item_en": "Large Mini Cookies Box",
+        "item_ar": "Large Mini Cookies Box",
+        "price": 35,
+        "currency": "SAR",
+        "description": "Large mini cookies box, 16 pieces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/f8f6eed126c626cc5f05f86d0ad63c11?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66039631
+      },
+      {
+        "item_en": "V60  Hot",
+        "item_ar": "V60  Hot",
+        "price": 12.25,
+        "currency": "SAR",
+        "description": "Drip coffee of the finest quality",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/46812521?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 46812521
+      },
+      {
+        "item_en": "Ice Tea",
+        "item_ar": "Ice Tea",
+        "price": 12.25,
+        "currency": "SAR",
+        "description": "Peach flavored iced tea",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/51569870?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51569870
+      },
+      {
+        "item_en": "Coffee Day Cold Small - Small",
+        "item_ar": "Coffee Day Cold Small - Small",
+        "price": 7.25,
+        "currency": "SAR",
+        "description": "Black coffee with ice cubes",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1084893?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 46812514
+      },
+      {
+        "item_en": "Coffee Day Hot Small - Small",
+        "item_ar": "Coffee Day Hot Small - Small",
+        "price": 7.25,
+        "currency": "SAR",
+        "description": "Hot black coffee",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1084894?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 46812516
+      },
+      {
+        "item_en": "Water",
+        "item_ar": "Water",
+        "price": 1.25,
+        "currency": "SAR",
+        "description": "Pure and refreshing fresh drinking water",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1046633?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 46812522
+      },
+      {
+        "item_en": "Basket Coffee Box Small",
+        "item_ar": "Basket Coffee Box Small",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Small box 4 cup",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/56954634?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56954634
+      },
+      {
+        "item_en": "Small Hibiscus - Small",
+        "item_ar": "Small Hibiscus - Small",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Hibiscus juice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1084895?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 46812518
+      },
+      {
+        "item_en": "Basket Coffee Box",
+        "item_ar": "Basket Coffee Box",
+        "price": 50,
+        "currency": "SAR",
+        "description": "Jack makes 8 small cups of hot black coffee",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/46812519?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 46812519
+      },
+      {
+        "item_en": "Basket Hibiscus Box Small",
+        "item_ar": "Basket Hibiscus Box Small",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Small box 4 cup",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/56954633?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56954633
+      },
+      {
+        "item_en": "Basket Hibiscus Box",
+        "item_ar": "Basket Hibiscus Box",
+        "price": 70,
+        "currency": "SAR",
+        "description": "Jack: makes 8 cups of small hibiscus",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/46812523?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 46812523
+      }
+    ],
+    "Desserts": [
+      {
+        "item_en": "Classic Cookies",
+        "item_ar": "Classic Cookies",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Classic fresh cookies",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/46812526?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 46812526
+      },
+      {
+        "item_en": "Cookies Senapon",
+        "item_ar": "Cookies Senapon",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Cookies with cinnabon sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/46812529?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 46812529
+      },
+      {
+        "item_en": "Cookies Kender",
+        "item_ar": "Cookies Kender",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Cookies with kinder chocolate sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/46812528?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 46812528
+      },
+      {
+        "item_en": "Nutella Donut",
+        "item_ar": "Nutella Donut",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Donut stuffed with nutella",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/46812525?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 46812525
+      },
+      {
+        "item_en": "Nutella Thyme Donut",
+        "item_ar": "Nutella Thyme Donut",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Donuts filled with nutella and thyme",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/46812524?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 46812524
+      },
+      {
+        "item_en": "Small Mini Cookies Box",
+        "item_ar": "Small Mini Cookies Box",
+        "price": 18.5,
+        "currency": "SAR",
+        "description": "Small mini cookies box 8 piece",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/125164/502b7d34-26e8-4c4a-a186-daf6f13f7ddd.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66027227
+      },
+      {
+        "item_en": "Large Mini Cookies Box",
+        "item_ar": "Large Mini Cookies Box",
+        "price": 35,
+        "currency": "SAR",
+        "description": "Large mini cookies box 16 piece",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/125164/b731f2d6-9a9d-442b-9ec9-fd3b4121e51c.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66027228
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.028Z",
+  "source": "Hungerstation"
+}

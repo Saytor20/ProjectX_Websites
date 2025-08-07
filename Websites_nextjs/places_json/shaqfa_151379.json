@@ -1,0 +1,275 @@
+{
+  "restaurant_info": {
+    "id": "151379",
+    "name": "Shaqfa",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2359425,
+      "longitude": 42.5650042
+    },
+    "rating": 4.4,
+    "review_count": 114,
+    "type_of_food": "Desserts,Beverages,Coffee",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/151379"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Combo Box: Hot Coffee (1 Liter) + Dessert Box",
+        "item_ar": "Combo Box: Hot Coffee (1 Liter) + Dessert Box",
+        "price": 166,
+        "currency": "SAR",
+        "description": "Waffle box or mix box with 1 liter coffee",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/9c1604c959b917fe6947505513e1a2c8.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69642614
+      },
+      {
+        "item_en": "Sweet Box",
+        "item_ar": "Sweet Box",
+        "price": 96,
+        "currency": "SAR",
+        "description": "2 kinder waffles, 2 chocolate waffles, 2 caramel waffles, 2 kinder french toast, and 2 caramel french toast.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/65b06c1ddc51a28a01d5513bb39a9bb2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69431872
+      },
+      {
+        "item_en": "Shaqfat",
+        "item_ar": "Shaqfat",
+        "price": 59,
+        "currency": "SAR",
+        "description": "Shaqfat assortment of different fresh fruits",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/62abeba5f712f552982c8b4718dfd2f2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69642571
+      },
+      {
+        "item_en": "Box [ Mini Waffle ]",
+        "item_ar": "Box [ Mini Waffle ]",
+        "price": 45,
+        "currency": "SAR",
+        "description": "24 crispy mini waffles flavored with date molasses, cream sauce, and a sprinkle of toasted sesame seeds.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/42ce2f5247dda8ceafac935cf8c7843f.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69431870
+      }
+    ],
+    "Offers": [
+      {
+        "item_en": "Combo Box: Hot Coffee (1 Liter) + Dessert Box",
+        "item_ar": "Combo Box: Hot Coffee (1 Liter) + Dessert Box",
+        "price": 166,
+        "currency": "SAR",
+        "description": "Waffle box or mix box with 1 liter coffee",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/9c1604c959b917fe6947505513e1a2c8.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69642614
+      }
+    ],
+    "Gathering Boxes": [
+      {
+        "item_en": "Shaqfat",
+        "item_ar": "Shaqfat",
+        "price": 59,
+        "currency": "SAR",
+        "description": "Shaqfat assortment of different fresh fruits",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/62abeba5f712f552982c8b4718dfd2f2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69642571
+      },
+      {
+        "item_en": "Box [ Mini Waffle ]",
+        "item_ar": "Box [ Mini Waffle ]",
+        "price": 45,
+        "currency": "SAR",
+        "description": "24 crispy mini waffles flavored with date molasses, cream sauce, and a sprinkle of toasted sesame seeds.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/42ce2f5247dda8ceafac935cf8c7843f.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69431870
+      },
+      {
+        "item_en": "Sweet Box",
+        "item_ar": "Sweet Box",
+        "price": 96,
+        "currency": "SAR",
+        "description": "2 kinder waffles, 2 chocolate waffles, 2 caramel waffles, 2 kinder french toast, and 2 caramel french toast.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/65b06c1ddc51a28a01d5513bb39a9bb2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69431872
+      },
+      {
+        "item_en": "Coffee Box - 1 L",
+        "item_ar": "Coffee Box - 1 L",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Family coffee box made from the finest coffee beans",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d8377039136b37559a023891541bce51.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69431866
+      },
+      {
+        "item_en": "Hibiscus Box - 1 L",
+        "item_ar": "Hibiscus Box - 1 L",
+        "price": 45,
+        "currency": "SAR",
+        "description": "Family cold hibiscus box",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/6c0d1aeaddb9dad697ba5429013569f6.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69431868
+      },
+      {
+        "item_en": "Coffee Box - 2 L",
+        "item_ar": "Coffee Box - 2 L",
+        "price": 55,
+        "currency": "SAR",
+        "description": "Family coffee box made from the finest coffee beans",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d8377039136b37559a023891541bce51.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69431867
+      },
+      {
+        "item_en": "Hibiscus Box - 2 L",
+        "item_ar": "Hibiscus Box - 2 L",
+        "price": 69,
+        "currency": "SAR",
+        "description": "Family cold hibiscus box",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/668e3187cb11ead2a02740f35f4fc34e.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69431869
+      }
+    ],
+    "Cold Beverages": [
+      {
+        "item_en": "Iced Coffee Of The Day",
+        "item_ar": "Iced Coffee Of The Day",
+        "price": 8.5,
+        "currency": "SAR",
+        "description": "Black coffee from the finest coffee beans",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/efe960f0d00a3e18a1e47cdb4e4c586f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69431863
+      },
+      {
+        "item_en": "Iced Matcha",
+        "item_ar": "Iced Matcha",
+        "price": 11.5,
+        "currency": "SAR",
+        "description": "Matcha drink with ice cubes",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/73e5b01ec29b348e29ac533e2c53084e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69431864
+      },
+      {
+        "item_en": "Iced Hibiscus",
+        "item_ar": "Iced Hibiscus",
+        "price": 11.5,
+        "currency": "SAR",
+        "description": "Natural hibiscus drink with ice cubes",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/8da9e68fd35f64d7a9c331708fff3b91.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69431865
+      }
+    ],
+    "Hot Beverages": [
+      {
+        "item_en": "Coffee Of The Day",
+        "item_ar": "Coffee Of The Day",
+        "price": 7.5,
+        "currency": "SAR",
+        "description": "Black coffee from the finest coffee beans",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/3cb2daee0169de8f89d556a346021f20.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69431860
+      }
+    ],
+    "Desserts": [
+      {
+        "item_en": "Classic Belgian Waffle",
+        "item_ar": "Classic Belgian Waffle",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Classic unflavored belgian waffle",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/149894/PRODUCT/69431854/08deaeb9-8ae8-42e6-971c-9e83e8ecb0cd.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69431854
+      },
+      {
+        "item_en": "Chocolate Waffle",
+        "item_ar": "Chocolate Waffle",
+        "price": 12.5,
+        "currency": "SAR",
+        "description": "Belgian waffle covered in chocolate",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/149894/PRODUCT/69431855/33061bbb-e848-4925-8e6f-4bb327899f63.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69431855
+      },
+      {
+        "item_en": "Caramel Waffle",
+        "item_ar": "Caramel Waffle",
+        "price": 12.5,
+        "currency": "SAR",
+        "description": "Belgian waffle covered in caramel",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/149894/PRODUCT/69431856/fab29944-69e5-4286-b1fb-a77fe200c712.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69431856
+      },
+      {
+        "item_en": "Kinder Waffle",
+        "item_ar": "Kinder Waffle",
+        "price": 12.5,
+        "currency": "SAR",
+        "description": "Belgian waffle covered in kinder chocolate",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/149894/PRODUCT/69431857/82f25471-5d74-4ced-9cd4-d72b8ed13cb9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69431857
+      },
+      {
+        "item_en": "Caramel French Toast",
+        "item_ar": "Caramel French Toast",
+        "price": 11.5,
+        "currency": "SAR",
+        "description": "French toast covered in caramel",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/149894/PRODUCT/69431858/bca5c1b2-d208-4245-9837-698db684c58f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69431858
+      },
+      {
+        "item_en": "Kinder French Toast",
+        "item_ar": "Kinder French Toast",
+        "price": 11.5,
+        "currency": "SAR",
+        "description": "French toast covered in kinder chocolate",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/149894/PRODUCT/69431859/4f2b5530-1736-48e3-9130-410e68290f08.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69431859
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.039Z",
+  "source": "Hungerstation"
+}
