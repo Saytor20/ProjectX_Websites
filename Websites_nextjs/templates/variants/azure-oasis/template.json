@@ -1,0 +1,33 @@
+{
+  "id": "azure-oasis",
+  "name": "Azure Oasis",
+  "description": "Airy layout with jacaranda-purple accents, subtle glass cards, and generous negative space.",
+  "version": "2.0.0",
+  "framework": "nextjs",
+  "language": "typescript",
+  "styling": "vanilla+tailwind",
+  "recommended_for": ["mediterranean", "seafood", "modern", "cafe"],
+  "features": [
+    "responsive-design",
+    "typescript",
+    "glass-cards",
+    "menu-display",
+    "gallery",
+    "accessible"
+  ],
+  "structure": {
+    "template_type": "variant",
+    "uses_shared": true,
+    "custom_files": [
+      "src/app/layout.tsx",
+      "src/app/page.tsx",
+      "src/app/theme.ts",
+      "src/app/styles.css",
+      "src/components/Hero.tsx",
+      "src/components/MenuSection.tsx",
+      "src/components/Gallery.tsx",
+      "src/components/Footer.tsx"
+    ]
+  }
+}
+

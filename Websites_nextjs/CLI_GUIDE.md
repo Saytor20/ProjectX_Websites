@@ -1,7 +1,14 @@
-# 📋 CLI Guide - Restaurant Website Generator
+# 📋 CLI Guide - Next.js Restaurant Website Generator
 
 ## Overview
-The `websites` CLI is the main interface for generating restaurant websites. It provides an interactive menu system that automatically discovers templates and restaurants, making website generation simple and efficient.
+The `websites` CLI is the main interface for generating **professional Next.js restaurant websites**. It provides an interactive menu system that automatically discovers templates and restaurants, making Next.js website generation simple and efficient.
+
+### What the CLI Creates
+- **Complete Next.js 15 applications** with App Router architecture
+- **TypeScript-powered** websites with strict type checking
+- **Production-ready** static exports optimized for CDN deployment
+- **Responsive designs** with Tailwind CSS and Material-UI
+- **SEO-optimized** websites with meta tags and structured data
 
 ## Quick Start
 
@@ -11,6 +18,9 @@ chmod +x websites
 
 # Run the CLI
 ./websites
+
+# Non-interactive build (CI/automation)
+./websites --build --template <template_id> --restaurant <file.json> [--serve]
 ```
 
 ## Main Menu Options
@@ -22,7 +32,7 @@ Generate restaurant websites using available templates.
 1. Select from available templates (auto-discovered)
 2. Choose restaurant from 86+ pre-loaded options  
 3. Wait for generation (2-3 minutes)
-4. Preview opens automatically at `http://localhost:8080`
+4. Preview: start a static server in the generated folder (e.g., `python3 -m http.server 8080`)
 
 ### 2. System Status 📊
 Display comprehensive system diagnostics.
@@ -107,7 +117,7 @@ Available restaurants:
    - Inject restaurant data
    - Run Next.js build
    - Export static files
-4. **Preview Launch**: Automatic preview at `http://localhost:8080`
+4. **Preview Launch**: Use `--serve` for a direct link or run a static server in the folder
 
 ### Bulk Generation (Advanced)
 Generate websites for multiple restaurants:
@@ -179,6 +189,12 @@ chmod +x websites
 - Verify npm installation: `npm --version`
 - Clear cache: `rm -rf templates/_shared/node_modules`
 - Reinstall dependencies: `cd templates/_shared && npm install`
+
+#### Interactive input not accepted (piped input)
+- If running via tools that pipe stdin, the CLI reads from `/dev/tty` automatically. If you still see "Invalid choice", run in a terminal interactively or use non-interactive mode:
+  ```bash
+  ./websites --build --template modern-restaurant --restaurant abu_mahal_131735.json
+  ```
 
 ### Error Recovery
 

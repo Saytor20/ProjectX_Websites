@@ -257,16 +257,9 @@ export const restaurantData: RestaurantData = ${JSON.stringify(transformedData, 
                 stdio: 'pipe'
             });
 
-            // Build and export
-            console.log('Building and exporting...');
+            // Build (static export enabled via next.config.ts: output: 'export')
+            console.log('Building (static export via next.config.ts)...');
             execSync('npm run build', {
-                cwd: buildDir,
-                stdio: 'pipe'
-            });
-
-            // For Next.js, we need to export static files
-            console.log('Exporting static files...');
-            execSync('npm run export', {
                 cwd: buildDir,
                 stdio: 'pipe'
             });
@@ -371,45 +364,6 @@ export const restaurantData: RestaurantData = ${JSON.stringify(transformedData, 
         }
     }
 
-    // Clone a website using httrack or wget
-    async cloneWebsite(url, tool = 'httrack') {
-        console.log(`\n🚀 Cloning website from: ${url} using ${tool}`);
-        const cloneDir = path.resolve(__dirname, '../templates/clone');
-        
-        try {
-            if (!fs.existsSync(cloneDir)) {
-                fs.mkdirSync(cloneDir, { recursive: true });
-            }
-
-            let command;
-            if (tool === 'httrack') {
-                command = `httrack "${url}" -O "${cloneDir}"`;
-            } else if (tool === 'wget') {
-                const domain = new URL(url).hostname;
-                command = `/opt/homebrew/bin/wget --recursive --no-clobber --page-requisites --html-extension --convert-links --restrict-file-names=windows --domains ${domain} -P "${cloneDir}" "${url}"`;
-            } else {
-                throw new Error(`Unsupported cloning tool: ${tool}. Please use 'httrack' or 'wget'.`);
-            }
-
-            console.log(`Executing: ${command}`);
-            execSync(command, { stdio: 'inherit' });
-
-            console.log(`\n✅ Website cloned successfully!`);
-            console.log(`📁 Cloned website location: ${cloneDir}`);
-            
-            return {
-                success: true,
-                cloneDir: cloneDir
-            };
-
-        } catch (error) {
-            console.error(`\n❌ Website cloning failed:`, error.message);
-            return {
-                success: false,
-                error: error.message
-            };
-        }
-    }
 }
 
 // CLI Interface
@@ -417,8 +371,6 @@ if (require.main === module) {
     const args = process.argv.slice(2);
     let template = 'modern-restaurant';
     let restaurant = null;
-    let cloneUrl = null;
-    let cloneTool = 'httrack';
 
     // Parse command line arguments
     for (let i = 0; i < args.length; i++) {
@@ -428,29 +380,18 @@ if (require.main === module) {
         } else if (args[i] === '--restaurant' && args[i + 1]) {
             restaurant = args[i + 1];
             i++; // Skip next argument
-        } else if (args[i] === '--clone' && args[i + 1]) {
-            cloneUrl = args[i + 1];
-            i++;
-        } else if (args[i] === '--tool' && args[i + 1]) {
-            cloneTool = args[i + 1];
-            i++;
         }
     }
 
     const builder = new WebsiteBuilder({ template });
 
-    if (cloneUrl) {
-        builder.cloneWebsite(cloneUrl, cloneTool).then(result => {
-            process.exit(result.success ? 0 : 1);
-        });
-    } else if (restaurant) {
+    if (restaurant) {
         builder.buildForRestaurant(restaurant).then(result => {
             process.exit(result.success ? 0 : 1);
         });
     } else {
-        console.error('❌ Error: Please specify either a restaurant to build or a URL to clone.');
-        console.log('Usage for building: node website-builder.js --template <template> --restaurant <file>');
-        console.log('Usage for cloning: node website-builder.js --clone <url> [--tool <httrack|wget>]');
+        console.error('❌ Error: Please specify a restaurant to build.');
+        console.log('Usage: node website-builder.js --template <template> --restaurant <file>');
         process.exit(1);
     }
 }
