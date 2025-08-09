@@ -20,7 +20,7 @@ A complete system for generating production-ready restaurant websites using **Ne
 - 📊 **86+ pre-loaded restaurant data** (Saudi Arabian restaurants)
 - 🌍 **Bilingual support** (Arabic/English)
 - 📱 **Mobile-first responsive design**
-- ⚡ **Vercel-optimized deployment**
+- ⚡ **Dual deployment modes** (Static/Source)
 - 🎨 **Material-UI theming system**
 
 ## 🚀 Quick Start
@@ -28,20 +28,21 @@ A complete system for generating production-ready restaurant websites using **Ne
 ### Prerequisites
 - **Node.js 18-20** (required for Next.js 15)
 - **npm** (included with Node.js)
+- **Python 3** (for local preview server)
 
 ### Generate Your First Website
 
 ```bash
-# 1. Make CLI executable
-chmod +x Websites_nextjs/websites
+# Run the interactive CLI
+websites
 
-# 2. Run the interactive CLI
-cd Websites_nextjs
-./websites
-
-# 3. Follow the prompts:
+# Follow the prompts:
+# 1) Build Website 🏗️
 #    - Select a template (modern-restaurant, minimal-cafe, etc.)
 #    - Choose a restaurant from 86+ options
+#    - Pick deployment mode:
+#      • Testing & Preview (localhost) - Static files for CDN
+#      • Production Deployment (Vercel) - Full Next.js source
 #    - Wait 2-3 minutes for generation
 #    - Preview automatically opens at http://localhost:8080
 ```
@@ -50,49 +51,73 @@ That's it! You now have a complete Next.js restaurant website.
 
 ## 🏗️ System Architecture
 
-### Next.js-First Architecture
+### Clean Directory Structure
 ```
 Websites_nextjs/
 ├── templates/
 │   ├── _shared/              # Next.js base (package.json, next.config.ts)
 │   │   ├── package.json      # Next.js 15 + React 19 dependencies
 │   │   ├── next.config.ts    # Static export configuration
-│   │   ├── tsconfig.json     # TypeScript configuration
-│   │   └── src/
-│   │       ├── components/   # Shared React components
-│   │       ├── types/        # TypeScript definitions
-│   │       └── theme/        # Material-UI theme system
+│   │   ├── src/components/   # Shared React components
+│   │   └── src/types/        # TypeScript definitions
 │   └── variants/             # Template designs (13 available)
-├── places_json/              # Restaurant data (86+ restaurants)
-├── final_websites/           # Generated Next.js websites
-├── generator/                # Build system
-├── scripts/                  # Deployment utilities
+│       ├── minimal-cafe/     # Clean, sophisticated design
+│       ├── modern-restaurant/# Cyberpunk neon effects
+│       ├── fiola-dc-authentic/# Luxury fine dining
+│       └── ...
+├── restaurant_data/          # Restaurant JSON files (86+ restaurants)
+├── generated_sites/          # Generated Next.js websites
+├── generator/
+│   └── website-builder.js    # Build engine
 └── websites*                 # Interactive CLI
 ```
 
-### Build Process
-Each generated website is a complete Next.js project:
+### Deployment Modes
 
-1. **Template Merge**: Combines shared Next.js base with design variant
-2. **Data Injection**: Transforms restaurant data into TypeScript interfaces
-3. **Next.js Build**: Runs `npm run build` to create optimized bundle
-4. **Static Export**: Generates static HTML/CSS/JS via Next.js export
-5. **Deployment Ready**: Optimized for Vercel, Netlify, or any CDN
+#### 🧪 Testing & Preview (Static Mode)
+Perfect for testing and CDN deployment:
+```
+generated_sites/Abu Mahal/
+├── index.html              # Static homepage
+├── _next/static/          # Optimized CSS/JS bundles
+├── restaurant-data.json   # Restaurant data reference
+└── deployment-info.json   # Build metadata
+```
+- **Output**: Static HTML/CSS/JS files
+- **Server**: Auto-served on http://localhost:8080
+- **Deployment**: CDN, static hosting, GitHub Pages
+
+#### 🚀 Production Deployment (Source Mode)
+Full Next.js for Vercel deployment:
+```
+generated_sites/Abu Mahal/
+├── src/                   # Complete Next.js source
+├── package.json          # Dependencies
+├── next.config.ts        # Configuration
+└── deployment-info.json  # Build metadata
+```
+- **Output**: Full Next.js project
+- **Server**: `npm run dev` for development
+- **Deployment**: Vercel, Netlify, Next.js hosting
 
 ## 📋 Available Templates
 
 All templates create full Next.js applications with unique designs:
 
-| Template | Description | Best For | Tech Stack |
-|----------|-------------|----------|------------|
-| **modern-restaurant** | Cyberpunk design with neon effects | Contemporary, fusion dining | Next.js + TypeScript + Tailwind |
-| **minimal-cafe** | Clean, sophisticated design | Coffee shops, bakeries | Next.js + TypeScript + Material-UI |
-| **fiola-dc-authentic** | Luxury restaurant design | Fine dining, upscale venues | Next.js + TypeScript + Custom CSS |
-| **bbq-smokehouse** | Rustic, American BBQ theme | BBQ restaurants, grills | Next.js + TypeScript + Tailwind |
-| **vibrant-foodplace** | Tropical paradise theme | Beach restaurants, tiki bars | Next.js + TypeScript + Custom Theme |
-| ...and 8 more | Professional designs | Various restaurant types | All built on Next.js |
+| Template | Style | Best For |
+|----------|-------|----------|
+| **minimal-cafe** | Clean, sophisticated | Coffee shops, bakeries |
+| **modern-restaurant** | Cyberpunk, neon effects | Contemporary, fusion dining |
+| **fiola-dc-authentic** | Luxury fine dining | Upscale restaurants |
+| **bbq-smokehouse** | Rustic American BBQ | Grills, BBQ restaurants |
+| **azure-oasis** | Mediterranean elegance | Mediterranean, seafood |
+| **summer-moon-style** | Coffee shop warmth | Cafés, breakfast spots |
+| **romans-nyc-authentic** | NYC Italian style | Italian restaurants |
+| **tiago-coffee-style** | Artisan coffee focus | Specialty coffee shops |
+| **dhamaka-street-food** | Vibrant street food | Casual dining, food trucks |
+| ...and 4 more | Various professional designs | All restaurant types |
 
-## 🛠️ Development Workflow
+## 🔧 Development Workflow
 
 ### For Developers
 
@@ -100,148 +125,182 @@ Each generated website is a standard Next.js project:
 
 ```bash
 # Navigate to generated website
-cd final_websites/<restaurant-name>
+cd generated_sites/"Restaurant Name"
 
-# Install dependencies (already done during generation)
-npm install
+# Development (source mode only)
+npm run dev        # http://localhost:3000
 
-# Run development server
-npm run dev
+# Production build
+npm run build      # Creates optimized bundle
+npm start         # Production server
 
-# Build for production
-npm run build
-
-# Start production server
-npm start
-
-# Export static files
-npm run export
+# Static export (both modes)
+npm run export    # Creates static files in out/
 ```
-
-### Next.js Configuration
-
-All websites include:
-- **next.config.ts** with static export configuration
-- **TypeScript** support with strict typing
-- **App Router** architecture (Next.js 15 standard)
-- **Tailwind CSS** for utility-first styling
-- **Material-UI** for component library
-- **Optimized images** with Next.js Image component
 
 ### Template Development
 
-Create new templates as Next.js projects:
+Create new templates following Next.js standards:
 
 ```bash
 # Copy existing template
 cp -r templates/variants/minimal-cafe templates/variants/my-template
 
-# Edit Next.js app files:
-# - src/app/layout.tsx (page layout, metadata)
-# - src/app/page.tsx (main page components)  
-# - src/app/globals.css (custom styling)
+# Customize Next.js files:
+# - src/app/layout.tsx (metadata, fonts)
+# - src/app/page.tsx (components)
+# - src/app/globals.css (styling)
 # - src/app/theme.ts (Material-UI theme)
-# - template.json (template metadata)
+# - template.json (metadata)
 
 # Test with CLI
-./websites
+websites
 ```
 
-## 🚀 Deployment (Vercel Recommended)
+## 🚀 Deployment
 
-### Vercel Deployment
-Perfect for Next.js applications:
+### Vercel (Recommended for Source Mode)
 
 ```bash
 # Install Vercel CLI
 npm install -g vercel
 
-# Deploy a generated website
-cd final_websites/<restaurant-name>
+# Deploy generated website
+cd "generated_sites/Restaurant Name"
 vercel --prod
 
-# Or use our script
-./scripts/deploy-site.sh <restaurant-name>
+# Result: https://your-restaurant.vercel.app
 ```
 
-### Why Vercel for Next.js?
-- **Zero configuration** for Next.js projects
-- **Automatic optimizations** for Next.js applications
-- **Edge Functions** support for future enhancements
-- **Analytics** built for Next.js performance metrics
-- **Preview deployments** for every change
+### Static Hosting (Static Mode)
+
+```bash
+# Files ready for any static host:
+# - AWS S3 + CloudFront
+# - Netlify
+# - GitHub Pages
+# - Cloudflare Pages
+
+# Simply upload generated_sites/Restaurant Name/ contents
+```
 
 ## 📊 Restaurant Data
 
 86+ Saudi Arabian restaurants with complete data:
-- **Bilingual content** (Arabic/English)
-- **Menu categories** with items and pricing
-- **Contact information** and locations
-- **Images** and branding assets
-- **Structured data** for SEO
+- **Menu categories** with items, prices, descriptions
+- **Bilingual content** (Arabic/English names)
+- **Restaurant info** (location, contact, ratings)
+- **High-quality images** for all menu items
+- **Structured data** optimized for SEO
+
+### Data Structure
+```json
+{
+  "restaurant_info": {
+    "name": "Abu Mahal",
+    "region": "Abha", 
+    "rating": 4.3,
+    "review_count": 113,
+    "type_of_food": "Arabic,American,Burgers"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Chicken Kebab Sandwich",
+        "price": 12.5,
+        "currency": "SAR",
+        "description": "Bread, cheese, lettuce, potatoes, abu mahal sauce",
+        "image": "https://images.deliveryhero.io/..."
+      }
+    ]
+  }
+}
+```
 
 ## 🔧 Technical Specifications
 
-### Next.js Technology Stack
-- **Next.js**: 15.4.2 (App Router)
-- **React**: 19.1.0
-- **TypeScript**: 5.0+
-- **Tailwind CSS**: 4.0
-- **Material-UI**: 7.2.0
-- **Node.js**: 18-20 (required)
+### Technology Stack
+- **Next.js**: 15.4.2 (App Router architecture)
+- **React**: 19.1.0 (Latest stable)
+- **TypeScript**: 5.0+ (Strict mode)
+- **Tailwind CSS**: 4.0 (Utility-first styling)
+- **Material-UI**: 7.2.0 (Component library)
+- **Node.js**: 18-20 (Build requirement)
 
 ### Generated Website Features
-- **Static export** capability
-- **SEO optimized** with meta tags
-- **Responsive design** (mobile-first)
+- **Static export** for optimal performance
 - **TypeScript interfaces** for all data
+- **Responsive design** (mobile-first)
+- **SEO optimization** with meta tags
 - **Component architecture** with reusable parts
-- **Theming system** with Material-UI
-- **Performance optimized** with Next.js optimizations
+- **Performance optimized** with Next.js built-ins
+- **Accessibility** compliant (WCAG 2.1)
 
 ## 📖 Documentation
 
-- **[CLI Guide](Websites_nextjs/CLI_GUIDE.md)** - Complete CLI documentation
-- **[Deployment Guide](docs/DEPLOYMENT.md)** - Vercel deployment instructions
-- **[Next.js Project Guide](docs/NEXTJS_PROJECT_GUIDE.md)** - Next.js specific guidelines
-- **[Architecture Guide](Websites_nextjs/CLAUDE.md)** - System architecture details
+Essential system documentation:
+
+- **[System Installation](Websites_nextjs/SYSTEM_INSTALLATION.md)** - Complete setup and CLI guide
+- **[Template Creation](Websites_nextjs/TEMPLATE_CREATION.md)** - How to create new website templates
+- **[Architecture Guide](Websites_nextjs/CLAUDE.md)** - System architecture and development rules
 
 ## 🎯 Use Cases
 
 ### Perfect For:
-- **Restaurant owners** wanting professional websites
+- **Restaurant owners** wanting professional Next.js websites
 - **Web agencies** building restaurant sites at scale
-- **Developers** needing Next.js restaurant templates
+- **Developers** needing modern restaurant templates
 - **Marketing teams** creating multiple restaurant sites
 
 ### Generated Websites Include:
-- **Home page** with hero section and highlights
-- **Menu display** with categories and pricing
+- **Hero section** with restaurant branding
+- **Menu display** with categories, items, and pricing
 - **About section** with restaurant story
-- **Gallery** with food and ambiance photos
-- **Contact page** with location and details
+- **Photo gallery** with food and ambiance images
+- **Contact information** with location and hours
 - **Responsive navigation** for all screen sizes
+- **Footer** with social links and details
 
-## 🤝 System Benefits
+## 🔄 System Benefits
 
 ### Development Benefits
-- **No manual Next.js setup** - automated project creation
+- **Zero manual setup** - automated Next.js project creation
 - **Type-safe development** with TypeScript throughout
+- **Modern architecture** with Next.js 15 App Router
 - **Component reusability** via shared base system
-- **Modern development** with latest Next.js features
 - **Hot reload** during development
+- **Deployment flexibility** with dual modes
 
 ### Business Benefits
-- **Fast deployment** - websites ready in minutes
-- **Professional design** - 13 unique templates
+- **Fast generation** - websites ready in 3 minutes
+- **Professional designs** - 13 unique templates
 - **SEO optimized** - better search visibility
-- **Mobile responsive** - works on all devices
+- **Mobile responsive** - works perfectly on all devices
 - **Cost effective** - generate unlimited sites
+- **Production ready** - no additional configuration needed
 
-## 📞 Support & Contribution
+## 🚀 System Status
 
-This system generates production-ready Next.js applications. Each website follows Next.js best practices and can be extended like any standard Next.js project.
+**Current Statistics:**
+- ✅ 13 professional templates available
+- ✅ 86+ restaurant datasets loaded
+- ✅ Next.js 15 + React 19 technology stack
+- ✅ Dual deployment modes (Static/Source)
+- ✅ Interactive CLI with auto-discovery
+- ✅ TypeScript throughout for type safety
+- ✅ Mobile-first responsive design
+- ✅ SEO and performance optimized
+
+## 📞 Support
+
+This system generates production-ready Next.js applications following industry best practices. Each website can be extended like any standard Next.js project.
+
+**Quick Help:**
+- Run `websites` for interactive generation
+- Check `generated_sites/` for your websites
+- Use static mode for testing, source mode for Vercel
+- All templates work with all restaurant data
 
 ---
 
-**Generate your first Next.js restaurant website in 3 minutes! 🚀**
+**Generate your first professional Next.js restaurant website in 3 minutes! 🚀**

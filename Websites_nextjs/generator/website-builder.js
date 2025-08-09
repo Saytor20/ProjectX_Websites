@@ -9,10 +9,11 @@ class WebsiteBuilder {
         this.templateName = options.template || 'modern-restaurant';
         this.sharedDir = path.resolve(__dirname, '../templates/_shared');
         this.variantDir = path.resolve(__dirname, `../templates/variants/${this.templateName}`);
-        this.placesDir = options.placesDir || '../places_json';
-        this.outputDir = options.outputDir || path.resolve(__dirname, '../final_websites');
+        this.placesDir = options.placesDir || '../restaurant_data';
+        this.outputDir = options.outputDir || path.resolve(__dirname, '../generated_sites');
         this.tempDir = path.join(__dirname, 'temp_build');
         this.templatesConfigPath = path.resolve(__dirname, '../templates/template-config.json');
+        this.deploymentMode = options.deploymentMode || 'static'; // 'static' or 'source'
     }
 
     // Discover available templates from variants directory
@@ -273,27 +274,49 @@ export const restaurantData: RestaurantData = ${JSON.stringify(transformedData, 
 
     // Deploy built website to final location
     async deployWebsite(buildDir, restaurantData, restaurantFile) {
-        const restaurantName = restaurantFile.replace('.json', '');
+        // Use the actual restaurant name from the data, not the filename
+        const restaurantName = restaurantData.restaurant_info.name.replace(/[^a-zA-Z0-9\s\-]/g, '').replace(/\s+/g, ' ').trim();
         const deployDir = path.join(this.outputDir, restaurantName);
         
         // Clean deploy directory
         if (fs.existsSync(deployDir)) {
             fs.rmSync(deployDir, { recursive: true, force: true });
         }
+        fs.mkdirSync(deployDir, { recursive: true });
         
-        // Copy built files
-        const exportDir = path.join(buildDir, 'out');
-        if (fs.existsSync(exportDir)) {
-            await this.copyDirectorySync(exportDir, deployDir);
+        if (this.deploymentMode === 'source') {
+            // For Vercel deployment: copy the full Next.js source
+            console.log('Deploying full Next.js source for Vercel...');
+            await this.copyDirectorySync(buildDir, deployDir);
+            
+            // Remove build artifacts to keep source clean
+            const artifactPaths = [
+                path.join(deployDir, 'out'),
+                path.join(deployDir, '.next'),
+                path.join(deployDir, 'node_modules')
+            ];
+            
+            for (const artifactPath of artifactPaths) {
+                if (fs.existsSync(artifactPath)) {
+                    fs.rmSync(artifactPath, { recursive: true, force: true });
+                }
+            }
         } else {
-            throw new Error('Export directory not found after build');
-        }
+            // For static deployment: copy only the exported files
+            console.log('Deploying static files for CDN...');
+            const exportDir = path.join(buildDir, 'out');
+            if (fs.existsSync(exportDir)) {
+                await this.copyDirectorySync(exportDir, deployDir);
+            } else {
+                throw new Error('Export directory not found after build');
+            }
 
-        // Copy restaurant data file
-        const buildDataPath = path.join(buildDir, 'restaurant-data.json');
-        const deployDataPath = path.join(deployDir, 'restaurant-data.json');
-        if (fs.existsSync(buildDataPath)) {
-            fs.copyFileSync(buildDataPath, deployDataPath);
+            // Copy restaurant data file for reference
+            const buildDataPath = path.join(buildDir, 'restaurant-data.json');
+            const deployDataPath = path.join(deployDir, 'restaurant-data.json');
+            if (fs.existsSync(buildDataPath)) {
+                fs.copyFileSync(buildDataPath, deployDataPath);
+            }
         }
 
         // Create deployment info
@@ -303,7 +326,8 @@ export const restaurantData: RestaurantData = ${JSON.stringify(transformedData, 
             generated_at: new Date().toISOString(),
             restaurant_file: restaurantFile,
             build_directory: buildDir,
-            deploy_directory: deployDir
+            deploy_directory: deployDir,
+            deployment_mode: this.deploymentMode
         };
         
         fs.writeFileSync(
@@ -371,6 +395,7 @@ if (require.main === module) {
     const args = process.argv.slice(2);
     let template = 'modern-restaurant';
     let restaurant = null;
+    let deploymentMode = 'static';
 
     // Parse command line arguments
     for (let i = 0; i < args.length; i++) {
@@ -380,10 +405,13 @@ if (require.main === module) {
         } else if (args[i] === '--restaurant' && args[i + 1]) {
             restaurant = args[i + 1];
             i++; // Skip next argument
+        } else if (args[i] === '--mode' && args[i + 1]) {
+            deploymentMode = args[i + 1];
+            i++; // Skip next argument
         }
     }
 
-    const builder = new WebsiteBuilder({ template });
+    const builder = new WebsiteBuilder({ template, deploymentMode });
 
     if (restaurant) {
         builder.buildForRestaurant(restaurant).then(result => {

@@ -1,0 +1,9 @@
+{
+  "template": "modern-restaurant",
+  "restaurant": "Al Othaim",
+  "generated_at": "2025-08-08T23:47:48.272Z",
+  "restaurant_file": "al_othaim_137466.json",
+  "build_directory": "/Users/mohammadalmusaiteer/Project Shawrma-Website temp/Websites_nextjs/generator/temp_build/al_othaim_137466",
+  "deploy_directory": "/Users/mohammadalmusaiteer/Project Shawrma-Website temp/Websites_nextjs/generated_sites/Al Othaim",
+  "deployment_mode": "static"
+}
