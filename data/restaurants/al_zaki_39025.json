@@ -1,0 +1,699 @@
+{
+  "restaurant_info": {
+    "id": "39025",
+    "name": "Al Zaki",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.259029,
+      "longitude": 42.635297
+    },
+    "rating": 4.3,
+    "review_count": 1137,
+    "type_of_food": "Sandwich,Fast Food",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/39025"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Crispy Burger",
+        "item_ar": "Crispy Burger",
+        "price": 13,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/7401b49d76b7d74781ec8abce724af02.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907516
+      },
+      {
+        "item_en": "Falafel Pie",
+        "item_ar": "Falafel Pie",
+        "price": 11,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/1d19389ec5f60a53777c19760a6a66e1.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907518
+      },
+      {
+        "item_en": "Crispy Tortilla",
+        "item_ar": "Crispy Tortilla",
+        "price": 14.5,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/7819014cfb3a7ffc945239a92d327579.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907477
+      },
+      {
+        "item_en": "Chicken Pie",
+        "item_ar": "Chicken Pie",
+        "price": 15,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/4a99fd4ca8e783bdaada9b164abd7706.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907528
+      }
+    ],
+    "Offers": [
+      {
+        "item_en": "Offer Burger",
+        "item_ar": "Offer Burger",
+        "price": 45,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/f7b77085350b68e6cd4882ff86ddd449.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907463
+      }
+    ],
+    "Pizza": [
+      {
+        "item_en": "Small Bbq Pizza",
+        "item_ar": "Small Bbq Pizza",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Delicious pizza bbq",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/1a9a78fb02e299d9816af21c1345ff3f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907481
+      },
+      {
+        "item_en": "Offer Pizza",
+        "item_ar": "Offer Pizza",
+        "price": 60,
+        "currency": "SAR",
+        "description": "Two pizza and one free",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/5fe08c26831bc4c5901b0bcb7f675f9e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907464
+      },
+      {
+        "item_en": "Medium Bbq Pizza",
+        "item_ar": "Medium Bbq Pizza",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Delicious pizza bbq",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/2fc4757afb26123c22a75e983ee14d37.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907482
+      },
+      {
+        "item_en": "Small Pepperoni Pizza",
+        "item_ar": "Small Pepperoni Pizza",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Delicious pizza pepperoni",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/62907483?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907483
+      },
+      {
+        "item_en": "Medium Pepperoni Pizza",
+        "item_ar": "Medium Pepperoni Pizza",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Delicious pizza pepperoni",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/62907484?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907484
+      },
+      {
+        "item_en": "Small Vegetable Pizza",
+        "item_ar": "Small Vegetable Pizza",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Delicious pizza vegetable",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/62907485?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907485
+      },
+      {
+        "item_en": "Medium Vegetable Pizza",
+        "item_ar": "Medium Vegetable Pizza",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Delicious pizza vegetable",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/62907486?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907486
+      },
+      {
+        "item_en": "Small Ranch Pizza",
+        "item_ar": "Small Ranch Pizza",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Delicious pizza ranch",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/62907487?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907487
+      },
+      {
+        "item_en": "Medium Ranch Pizza",
+        "item_ar": "Medium Ranch Pizza",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Delicious pizza ranch",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/62907488?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907488
+      },
+      {
+        "item_en": "Small Chicken Pizza",
+        "item_ar": "Small Chicken Pizza",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Delicious pizza chicken",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/62907489?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907489
+      },
+      {
+        "item_en": "Medium Chicken Pizza",
+        "item_ar": "Medium Chicken Pizza",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Delicious pizza chicken",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/62907490?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907490
+      },
+      {
+        "item_en": "Nest Small",
+        "item_ar": "Nest Small",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Delicious pizza",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/62907491?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907491
+      },
+      {
+        "item_en": "Nest Meduime",
+        "item_ar": "Nest Meduime",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Delicious pizza",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/62907492?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907492
+      },
+      {
+        "item_en": "Small Margaret",
+        "item_ar": "Small Margaret",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Delicious pizza margaret",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/62907493?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907493
+      },
+      {
+        "item_en": "Margaret Medium",
+        "item_ar": "Margaret Medium",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Delicious pizza margaret",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/6b530564f66eb83fbcaa3d4992bbd297.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907494
+      }
+    ],
+    "Tortilla": [
+      {
+        "item_en": "Crispy Tortilla",
+        "item_ar": "Crispy Tortilla",
+        "price": 14.5,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/7819014cfb3a7ffc945239a92d327579.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907477
+      },
+      {
+        "item_en": "Fish Tortilla",
+        "item_ar": "Fish Tortilla",
+        "price": 16,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/4dd8ea5e58563523cc80f637c0450a4c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907478
+      },
+      {
+        "item_en": "Totila Fish Meal",
+        "item_ar": "Totila Fish Meal",
+        "price": 23,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/f26ad3adbde8cb520aae40f0196f70ed.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907479
+      },
+      {
+        "item_en": "Crispy Tortilla Meal",
+        "item_ar": "Crispy Tortilla Meal",
+        "price": 22,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/14838e28865259ebe366fa5f69103d60.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907480
+      }
+    ],
+    "Sandwiches": [
+      {
+        "item_en": "Crispy Fish",
+        "item_ar": "Crispy Fish",
+        "price": 9,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/509c9491701d1d2e746cfc805260cff5.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907536
+      },
+      {
+        "item_en": "Crispy Chicken",
+        "item_ar": "Crispy Chicken",
+        "price": 7,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/7599ce34d5849334a648b4854c3338d9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907537
+      },
+      {
+        "item_en": "Crispy Fish Meal",
+        "item_ar": "Crispy Fish Meal",
+        "price": 17,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/84a9719a996dd8ffb97dc40d52b50ff6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907538
+      },
+      {
+        "item_en": "Crispy Chicken Meal",
+        "item_ar": "Crispy Chicken Meal",
+        "price": 17,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/70a97475361f3877f498750830cbab25.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907539
+      }
+    ],
+    "Chciekn Burger": [
+      {
+        "item_en": "Crispy Burger",
+        "item_ar": "Crispy Burger",
+        "price": 13,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/7401b49d76b7d74781ec8abce724af02.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907516
+      },
+      {
+        "item_en": "Crispy Burger Meal",
+        "item_ar": "Crispy Burger Meal",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Delicious crispy burger",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/62907517?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907517
+      }
+    ],
+    "Pies": [
+      {
+        "item_en": "Falafel Pie",
+        "item_ar": "Falafel Pie",
+        "price": 11,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/1d19389ec5f60a53777c19760a6a66e1.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907518
+      },
+      {
+        "item_en": "Falafel Brown Pie",
+        "item_ar": "Falafel Brown Pie",
+        "price": 12,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/a208a681d695877cc5092d401285e5ba.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907519
+      },
+      {
+        "item_en": "Egg And Cheese Pie",
+        "item_ar": "Egg And Cheese Pie",
+        "price": 10,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/5a6fd2e2c536791d9fc1eed06ac785ba.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907520
+      },
+      {
+        "item_en": "Whole Egg And Cheese Pie",
+        "item_ar": "Whole Egg And Cheese Pie",
+        "price": 11,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/5f9d7a69223f373f485770d7c7af622e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907521
+      },
+      {
+        "item_en": "Falafel Egg Pie",
+        "item_ar": "Falafel Egg Pie",
+        "price": 12,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/6ff5231ce28effcf0179ccd459b7888b.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907522
+      },
+      {
+        "item_en": "Egg Falafel Brown Pie",
+        "item_ar": "Egg Falafel Brown Pie",
+        "price": 13,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/56ce95a607b238fece6a2ca81411a931.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907523
+      },
+      {
+        "item_en": "Tuna Pie",
+        "item_ar": "Tuna Pie",
+        "price": 15,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/ebae1c821c0db0e659bee45c5847fc8f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907524
+      },
+      {
+        "item_en": "Tuna Whole Pie",
+        "item_ar": "Tuna Whole Pie",
+        "price": 16,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/edd50b746b5305dabbf0c9bb3710ec3c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907525
+      },
+      {
+        "item_en": "Liquid Cheese Pie",
+        "item_ar": "Liquid Cheese Pie",
+        "price": 10,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/244aa4b0b400b8fcb008f2995e030970.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907526
+      },
+      {
+        "item_en": "Fluid Whole Cheese Pie",
+        "item_ar": "Fluid Whole Cheese Pie",
+        "price": 11,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/b7efc55666a8ac2315b22efb655b1711.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907527
+      },
+      {
+        "item_en": "Chicken Pie",
+        "item_ar": "Chicken Pie",
+        "price": 15,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/4a99fd4ca8e783bdaada9b164abd7706.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907528
+      },
+      {
+        "item_en": "Chicken Pie",
+        "item_ar": "Chicken Pie",
+        "price": 16,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/e7d2cd64c3fdc40f2dc5858fef206014.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907529
+      },
+      {
+        "item_en": "Thyme Pie",
+        "item_ar": "Thyme Pie",
+        "price": 9,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/867c2b6a45a0b6d3eef531e5855d8f67.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907530
+      },
+      {
+        "item_en": "Labneh Pie",
+        "item_ar": "Labneh Pie",
+        "price": 9,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/87d3c544c718e701f87da645477b9f72.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907532
+      },
+      {
+        "item_en": "Labneh Pie With Thyme",
+        "item_ar": "Labneh Pie With Thyme",
+        "price": 10,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/7d48028e192edd91759da534f910444d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907533
+      },
+      {
+        "item_en": "Labneh With Honey Pie",
+        "item_ar": "Labneh With Honey Pie",
+        "price": 11,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/09707f82388ead28c6f13f86d7ae4690.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907534
+      },
+      {
+        "item_en": "Labneh Thyme Wheat Pie",
+        "item_ar": "Labneh Thyme Wheat Pie",
+        "price": 11,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/90b251e61338281f64698a0e1f21f7cc.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907535
+      }
+    ],
+    "Appetizers": [
+      {
+        "item_en": "Garlic",
+        "item_ar": "Garlic",
+        "price": 2,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/0307536d96e3eccbc076237bb1382d6c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907506
+      },
+      {
+        "item_en": "Small Bread",
+        "item_ar": "Small Bread",
+        "price": 1,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/8cd00d3d57abe25f6750a2dae22d9ece.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907507
+      },
+      {
+        "item_en": "Cabbage Salad",
+        "item_ar": "Cabbage Salad",
+        "price": 3,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/a8f27df3d93137ae4b99dc15f20b9117.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907508
+      },
+      {
+        "item_en": "Broast Sauce",
+        "item_ar": "Broast Sauce",
+        "price": 2,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/85a891c3c520f4cd4dafb0ed25ebbed7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907509
+      },
+      {
+        "item_en": "Cheese Sauce",
+        "item_ar": "Cheese Sauce",
+        "price": 2,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/075b2a5919883ded6e1478c16ffbab14.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907510
+      },
+      {
+        "item_en": "Dynamite Sauce",
+        "item_ar": "Dynamite Sauce",
+        "price": 3,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/aab84386af470f5a87991c1cbc2df538.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907511
+      },
+      {
+        "item_en": "Spicy Sauce",
+        "item_ar": "Spicy Sauce",
+        "price": 3,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/03f7d68c146dfbd88dab3f85f2178da4.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907512
+      },
+      {
+        "item_en": "Boneless Sauce",
+        "item_ar": "Boneless Sauce",
+        "price": 2,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/767a2a00d0ee254ed614162e2993c3f8.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907513
+      },
+      {
+        "item_en": "Ketchup",
+        "item_ar": "Ketchup",
+        "price": 2,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/8bc0355227b3d4e8fc1cb6d2e330ef3a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907514
+      },
+      {
+        "item_en": "Green Salad",
+        "item_ar": "Green Salad",
+        "price": 7,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/a86812a84d3dbbb07bff2ca9518b5eae.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907515
+      }
+    ],
+    "Drinks": [
+      {
+        "item_en": "Rabea Juice 250 Ml",
+        "item_ar": "Rabea Juice 250 Ml",
+        "price": 2.5,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/5e6a7c01351d42128cf73f3934438e91.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907460
+      },
+      {
+        "item_en": "Water 500 Ml",
+        "item_ar": "Water 500 Ml",
+        "price": 1,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/3bbf007c98f2f1bf0932023095cdedd4.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907461
+      },
+      {
+        "item_en": "Soft Drink 320",
+        "item_ar": "Soft Drink 320",
+        "price": 2.5,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-AKI/fa4dc2726d5eae03478a342a88bf5bc3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62907462
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.031Z",
+  "source": "Hungerstation"
+}

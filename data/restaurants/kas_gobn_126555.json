@@ -1,0 +1,448 @@
+{
+  "restaurant_info": {
+    "id": "126555",
+    "name": "Kas gobn",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2379334,
+      "longitude": 42.5605947
+    },
+    "rating": 4.2,
+    "review_count": 309,
+    "type_of_food": "Sandwich,Fast Food,Breakfast",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/126555"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Vegetarian Enemies Box",
+        "item_ar": "Vegetarian Enemies Box",
+        "price": 92.43,
+        "currency": "SAR",
+        "description": "3 liver rolls\n3 chicken rolls \n3 hot dog rolls",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/45278206?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45278206
+      },
+      {
+        "item_en": "Break Box",
+        "item_ar": "Break Box",
+        "price": 72,
+        "currency": "SAR",
+        "description": "4- cheese eggs 4- cheese liver 4- cheese shakshouka 4- chicken shawarma 4- mix cheese 4- oman chips with cheese",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/120780/PRODUCT/670a66e1-05dc-4b0e-9c67-d09d0822956f.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71951416
+      },
+      {
+        "item_en": "Spicy Tuna",
+        "item_ar": "Spicy Tuna",
+        "price": 21.06,
+        "currency": "SAR",
+        "description": "Spicy tunaa",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/3303ce091dc307305f131bef4305c13a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 49365066
+      },
+      {
+        "item_en": "Ice Tea Habaq",
+        "item_ar": "Ice Tea Habaq",
+        "price": 14.04,
+        "currency": "SAR",
+        "description": "Iced tea with basil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/89a27ae1a94493f9cff277b38de023b8.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 49428502
+      }
+    ],
+    "Twists": [
+      {
+        "item_en": "Egg And Cheese Twist",
+        "item_ar": "Egg And Cheese Twist",
+        "price": 5.85,
+        "currency": "SAR",
+        "description": "Eggs served with cream cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/85991c329f822b716b46bce1876031a6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 43130488
+      },
+      {
+        "item_en": "Cheese With Liver Twist",
+        "item_ar": "Cheese With Liver Twist",
+        "price": 8.19,
+        "currency": "SAR",
+        "description": "Liver cooked with special mixture served with cream cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/7a26875309371b5a76da4216f0892bce.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 43130489
+      },
+      {
+        "item_en": "Shakshouka With Cheese Twist",
+        "item_ar": "Shakshouka With Cheese Twist",
+        "price": 7.02,
+        "currency": "SAR",
+        "description": "Shakshuka cooked in our special way with cream cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/0856c080a0aaf6764b402ff1788fa883.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 43130490
+      },
+      {
+        "item_en": "Twist Kas Gobn",
+        "item_ar": "Twist Kas Gobn",
+        "price": 7.02,
+        "currency": "SAR",
+        "description": "Mix cheese with herbs and cream cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/c4355c182c96c1cb4dab0a250aba4e92.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 43130491
+      },
+      {
+        "item_en": "Shawarmiah Twist",
+        "item_ar": "Shawarmiah Twist",
+        "price": 8.19,
+        "currency": "SAR",
+        "description": "Chicken cooked with special mixture served with garlic dip, pickles and potatoes",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/647e6003a989c7cd6198c4c4ca9c7d4d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 43130492
+      },
+      {
+        "item_en": "Halva Twist",
+        "item_ar": "Halva Twist",
+        "price": 5.85,
+        "currency": "SAR",
+        "description": "Halva served with cream cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/cb188b6ee896e3f5a8a6b0f9e03808bd.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 43130493
+      },
+      {
+        "item_en": "Peanut Butter And Jam Twist",
+        "item_ar": "Peanut Butter And Jam Twist",
+        "price": 5.85,
+        "currency": "SAR",
+        "description": "Peanut butter served with red berries",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/43b63a52fd76554fcdfb7bd950e78675.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 43130494
+      }
+    ],
+    "Box": [
+      {
+        "item_en": "Satiety Box",
+        "item_ar": "Satiety Box",
+        "price": 63.18,
+        "currency": "SAR",
+        "description": "3 chicken twists 3 liver twists 3 egg and cheese twists",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/45278203?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45278203
+      },
+      {
+        "item_en": "Friends Box",
+        "item_ar": "Friends Box",
+        "price": 57.33,
+        "currency": "SAR",
+        "description": "2 egg twists with cheese\n2 liver twists with cheese\n2 shakshuka twists with cheese\n2 chicken twists\n1  cup of cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/45278205?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45278205
+      },
+      {
+        "item_en": "Vegetarian Enemies Box",
+        "item_ar": "Vegetarian Enemies Box",
+        "price": 92.43,
+        "currency": "SAR",
+        "description": "3 liver rolls\n3 chicken rolls \n3 hot dog rolls",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/45278206?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45278206
+      },
+      {
+        "item_en": "Break Box",
+        "item_ar": "Break Box",
+        "price": 72,
+        "currency": "SAR",
+        "description": "4- cheese eggs 4- cheese liver 4- cheese shakshouka 4- chicken shawarma 4- mix cheese 4- oman chips with cheese",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/120780/PRODUCT/670a66e1-05dc-4b0e-9c67-d09d0822956f.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71951416
+      }
+    ],
+    "Brioche": [
+      {
+        "item_en": "Chipis Hot Dog",
+        "item_ar": "Chipis Hot Dog",
+        "price": 18.72,
+        "currency": "SAR",
+        "description": "Chipis hot dogg",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/8c861e7a78948963ba1b56c397f7a077.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 49365056
+      },
+      {
+        "item_en": "Spicy Tuna",
+        "item_ar": "Spicy Tuna",
+        "price": 21.06,
+        "currency": "SAR",
+        "description": "Spicy tunaa",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/3303ce091dc307305f131bef4305c13a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 49365066
+      },
+      {
+        "item_en": "Halloumi",
+        "item_ar": "Halloumi",
+        "price": 22.23,
+        "currency": "SAR",
+        "description": "Toasted brioche bun with grilled halloumi, basil, olive slices, and tomato pesto.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/3ebef9d11c691bba26a32fc580288b66.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 49403760
+      },
+      {
+        "item_en": "Shoarmia",
+        "item_ar": "Shoarmia",
+        "price": 19.89,
+        "currency": "SAR",
+        "description": "Toasted brioche bun with grilled chicken, special seasoning, served with tahini and pickles, and potatoes.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/3138d13d833bdc823139e0dceec9b7b3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 49425641
+      }
+    ],
+    "Iced Drinks": [
+      {
+        "item_en": "Ice Tea Habaq",
+        "item_ar": "Ice Tea Habaq",
+        "price": 14.04,
+        "currency": "SAR",
+        "description": "Iced tea with basil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/89a27ae1a94493f9cff277b38de023b8.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 49428502
+      },
+      {
+        "item_en": "Iced Karak",
+        "item_ar": "Iced Karak",
+        "price": 12.87,
+        "currency": "SAR",
+        "description": "Iced karak drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/2598c08fc61befdb2a698890452e6a0f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 49428517
+      }
+    ],
+    "Snack": [
+      {
+        "item_en": "Meat Samosa",
+        "item_ar": "Meat Samosa",
+        "price": 9.36,
+        "currency": "SAR",
+        "description": "Special dough stuffed with meat",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/c7898fcb17b01ecb3d5d6e7ab9647c2f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 49689806
+      },
+      {
+        "item_en": "French Fries",
+        "item_ar": "French Fries",
+        "price": 7.02,
+        "currency": "SAR",
+        "description": "French fries with ketchup and mayonnaise sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d14ece4ecac7d1401eed0f8f6b55874b.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 49689807
+      },
+      {
+        "item_en": "Cheese Samosa",
+        "item_ar": "Cheese Samosa",
+        "price": 9.36,
+        "currency": "SAR",
+        "description": "Special dough stuffed with cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/c7898fcb17b01ecb3d5d6e7ab9647c2f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 49689808
+      }
+    ],
+    "Pie": [
+      {
+        "item_en": "Eeg Wiht Cheese Pie",
+        "item_ar": "Eeg Wiht Cheese Pie",
+        "price": 16.38,
+        "currency": "SAR",
+        "description": "Egg cheese with chips pie",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/120780/PRODUCT/6485c35e-a88e-4e02-8942-601e8cd6c2df.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 68431297
+      },
+      {
+        "item_en": "Pie Oman Chips",
+        "item_ar": "Pie Oman Chips",
+        "price": 12.87,
+        "currency": "SAR",
+        "description": "Egg cheese with chips pie",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/120780/PRODUCT/a22d18f1-13e3-4ec0-8b83-20975b587d13.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 68431462
+      }
+    ],
+    "Roll": [
+      {
+        "item_en": "Hot Dog Roll",
+        "item_ar": "Hot Dog Roll",
+        "price": 14.04,
+        "currency": "SAR",
+        "description": "Grilled sausage with crispy potatoes",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/43130495?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 43130495
+      },
+      {
+        "item_en": "Liver Roll",
+        "item_ar": "Liver Roll",
+        "price": 14.04,
+        "currency": "SAR",
+        "description": "Liver cooked with special mixture served with cream cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/43130496?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 43130496
+      },
+      {
+        "item_en": "Chicken Roll",
+        "item_ar": "Chicken Roll",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Chicken cooked with special mixture served with garlic dip, pickles and potatoes",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/43130497?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 43130497
+      }
+    ],
+    "Cold Beverages": [
+      {
+        "item_en": "Kenza Cola",
+        "item_ar": "Kenza Cola",
+        "price": 3,
+        "currency": "SAR",
+        "description": "The classic refreshing flavor for cola lovers.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/eee831c9314bf00ac33637055e7cb408.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69431028
+      },
+      {
+        "item_en": "Citrus",
+        "item_ar": "Citrus",
+        "price": 3.51,
+        "currency": "SAR",
+        "description": "Refreshing citrus soda with a tangy twist.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/87a55c5bc1088d9499ef25c988fd8249.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 43130510
+      },
+      {
+        "item_en": "Rabea Juice",
+        "item_ar": "Rabea Juice",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Refreshing orange drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/cbba9b1124e36c76dd6cf0d65faaf55e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 43130505
+      }
+    ],
+    "Hot Beverages": [
+      {
+        "item_en": "Karak",
+        "item_ar": "Karak",
+        "price": 5.85,
+        "currency": "SAR",
+        "description": "Hot tea with milk, saffron and cardamom",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/a804f08b8f3af910d2112ddb2a24b531.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 43130511
+      },
+      {
+        "item_en": "Plain Tea",
+        "item_ar": "Plain Tea",
+        "price": 3.51,
+        "currency": "SAR",
+        "description": "Hot red tea",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/43130512?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 43130512
+      },
+      {
+        "item_en": "Tea With Basil",
+        "item_ar": "Tea With Basil",
+        "price": 3.51,
+        "currency": "SAR",
+        "description": "Red tea with basil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/6f6620883cfdfbca0fa3c0ad324e7ab7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 43130513
+      },
+      {
+        "item_en": "Tea With Mint",
+        "item_ar": "Tea With Mint",
+        "price": 3.51,
+        "currency": "SAR",
+        "description": "Red tea with mint",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/6f6620883cfdfbca0fa3c0ad324e7ab7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 43130514
+      },
+      {
+        "item_en": "Tea With Basil And Mint",
+        "item_ar": "Tea With Basil And Mint",
+        "price": 3.51,
+        "currency": "SAR",
+        "description": "Red tea with basil and mint",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/6f6620883cfdfbca0fa3c0ad324e7ab7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 43130515
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.036Z",
+  "source": "Hungerstation"
+}

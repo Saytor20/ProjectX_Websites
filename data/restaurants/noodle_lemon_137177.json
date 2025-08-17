@@ -1,0 +1,409 @@
+{
+  "restaurant_info": {
+    "id": "137177",
+    "name": "Noodle lemon",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2526219,
+      "longitude": 42.5975401
+    },
+    "rating": 3.8,
+    "review_count": 151,
+    "type_of_food": "Fast Food,Asian",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/137177"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Special Lemon Roll",
+        "item_ar": "Special Lemon Roll",
+        "price": 58,
+        "currency": "SAR",
+        "description": "Inside shrimp avocado. outside caviar, spicy crab and spicy mayonnaise",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/67cae0160d0701cf6f067748c6a01a7f.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376437
+      },
+      {
+        "item_en": "Crazy Californian",
+        "item_ar": "Crazy Californian",
+        "price": 52,
+        "currency": "SAR",
+        "description": "Inside crab, cucumber and avocado. outside caviar and spicy crab",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/465b628fd4eb2f16eb2204c637453c98.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376445
+      },
+      {
+        "item_en": "Crunchy Spicy Roll",
+        "item_ar": "Crunchy Spicy Roll",
+        "price": 52,
+        "currency": "SAR",
+        "description": "Inside fried shrimp, philadelphia cheese and avocado. outside roll fred, teriyaki and spicy mayonnaise",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/256ff00d887bfa2448b66d85a08f83af.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376440
+      },
+      {
+        "item_en": "Crunchyroll",
+        "item_ar": "Crunchyroll",
+        "price": 52,
+        "currency": "SAR",
+        "description": "Inside fried shrimp, philadelphia and avocado. outside crispy rice and teriyaki",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d9ffecc6687626162e98786af6423f8b.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376446
+      }
+    ],
+    "Sushi": [
+      {
+        "item_en": "Special Lemon Roll",
+        "item_ar": "Special Lemon Roll",
+        "price": 58,
+        "currency": "SAR",
+        "description": "Inside shrimp avocado. outside caviar, spicy crab and spicy mayonnaise",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/67cae0160d0701cf6f067748c6a01a7f.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376437
+      },
+      {
+        "item_en": "Spicy Hot Lemon Roll",
+        "item_ar": "Spicy Hot Lemon Roll",
+        "price": 49,
+        "currency": "SAR",
+        "description": "Inside boiled shrimp, fresh salmon and philadelphia roll cheese. outside roll fred and spicy mayonnaise sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/2ec22da344aaf4dd896b1ad289ba5c6e.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376438
+      },
+      {
+        "item_en": "Dynamite Roll",
+        "item_ar": "Dynamite Roll",
+        "price": 49,
+        "currency": "SAR",
+        "description": "Inside fried shrimp and fried crab. outside crispy rice and spicy mayonnaise",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/706b03fcc960ab90c25dfdeb902a5fcd.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376439
+      },
+      {
+        "item_en": "Crunchy Spicy Roll",
+        "item_ar": "Crunchy Spicy Roll",
+        "price": 52,
+        "currency": "SAR",
+        "description": "Inside fried shrimp, philadelphia cheese and avocado. outside roll fred, teriyaki and spicy mayonnaise",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/256ff00d887bfa2448b66d85a08f83af.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376440
+      },
+      {
+        "item_en": "Chicken Roll",
+        "item_ar": "Chicken Roll",
+        "price": 45,
+        "currency": "SAR",
+        "description": "Inside fried with philadelphia cheese. outside spicy mayonnaise",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d9ffecc6687626162e98786af6423f8b.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376441
+      },
+      {
+        "item_en": "Crispy Chicken Roll",
+        "item_ar": "Crispy Chicken Roll",
+        "price": 45,
+        "currency": "SAR",
+        "description": "Inside fried chickens philadelphia cheese outside crispy rice and spicy mayonnaise",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/41f826dc4400258387326cbbf2243537.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376442
+      },
+      {
+        "item_en": "Crispy Roll",
+        "item_ar": "Crispy Roll",
+        "price": 45,
+        "currency": "SAR",
+        "description": "Inside fried shrimp, philadelphia cheese. outside roll fred and teriyaki",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/4efd8d425b329bf45d103bbd78667f02.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376443
+      },
+      {
+        "item_en": "Philadelphia Roll",
+        "item_ar": "Philadelphia Roll",
+        "price": 49,
+        "currency": "SAR",
+        "description": "Inside crab, philadelphia roll cheese and avocado. outside smoked salmon, teriyaki + sesame",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/de262b7d3677e91c21ebc14ef2b20a7d.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376444
+      },
+      {
+        "item_en": "Crazy Californian",
+        "item_ar": "Crazy Californian",
+        "price": 52,
+        "currency": "SAR",
+        "description": "Inside crab, cucumber and avocado. outside caviar and spicy crab",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/465b628fd4eb2f16eb2204c637453c98.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376445
+      },
+      {
+        "item_en": "Crunchyroll",
+        "item_ar": "Crunchyroll",
+        "price": 52,
+        "currency": "SAR",
+        "description": "Inside fried shrimp, philadelphia and avocado. outside crispy rice and teriyaki",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d9ffecc6687626162e98786af6423f8b.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376446
+      }
+    ],
+    "Noodles": [
+      {
+        "item_en": "Chicken Noodles",
+        "item_ar": "Chicken Noodles",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Inside shrimp avocado. outside caviar, spicy crab and spicy mayonnaise",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/e7ca0014afa09f2faf04be6e9c94edcd.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376447
+      },
+      {
+        "item_en": "Smoky Chicken Noodles",
+        "item_ar": "Smoky Chicken Noodles",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Inside boiled shrimp, fresh salmon and philadelphia roll cheese. outside roll fred and spicy mayonnaise sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/4d71af45763f865a7ecdea2b89569ab2.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376448
+      },
+      {
+        "item_en": "Smoky Shrimp Noodles",
+        "item_ar": "Smoky Shrimp Noodles",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Inside fried shrimp and fried crab. outside crispy rice and spicy mayonnaise",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/6645410a56cca7636a7b36b77ad080c5.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376449
+      },
+      {
+        "item_en": "Shrimp Noodles",
+        "item_ar": "Shrimp Noodles",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Inside fried shrimp, philadelphia cheese and avocado. outside roll fred, teriyaki and spicy mayonnaise",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d73f70faa0dc0ae43cb6fcf420c5672b.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376450
+      },
+      {
+        "item_en": "Vegetable Noodles",
+        "item_ar": "Vegetable Noodles",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Inside fried shrimp, philadelphia cheese. outside crispy rice and spicy mayonnaise",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/90b8ada414daaa212309aeb5970f6602.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376452
+      }
+    ],
+    "Indomie": [
+      {
+        "item_en": "Indomie Chicken",
+        "item_ar": "Indomie Chicken",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Inside fried shrimp, philadelphia cheese. outside roll fred and teriyaki",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/5d46e1d198b37033360a4f9cec1ab170.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376453
+      },
+      {
+        "item_en": "Indomie Smoke Chicken",
+        "item_ar": "Indomie Smoke Chicken",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Inside crab, philadelphia roll cheese and avocado. outside smoked salmon, teriyaki + sesame",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/750fc4976130f3142599b002fd014f97.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376454
+      },
+      {
+        "item_en": "Indomie Shrimp",
+        "item_ar": "Indomie Shrimp",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Inside crab, cucumber and avocado. outside caviar and spicy crab",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/4292f6c747502538449f18563b6ed3ff.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376455
+      },
+      {
+        "item_en": "Indomie Shrimp Smoke",
+        "item_ar": "Indomie Shrimp Smoke",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Inside fried shrimp, philadelphia and avocado. outside crispy rice and teriyaki",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/750fc4976130f3142599b002fd014f97.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376456
+      },
+      {
+        "item_en": "Indomie Cream",
+        "item_ar": "Indomie Cream",
+        "price": 23,
+        "currency": "SAR",
+        "description": "A plate containing cooked indomie with cooking cream added to it",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/53a810de7d3527d8adc126a5d3893565.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376457
+      },
+      {
+        "item_en": "Indomie Vegetables",
+        "item_ar": "Indomie Vegetables",
+        "price": 19,
+        "currency": "SAR",
+        "description": "A plate containing cooked indomie with vegetables",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376458
+      }
+    ],
+    "Appetizers": [
+      {
+        "item_en": "Dynamite Shrimp",
+        "item_ar": "Dynamite Shrimp",
+        "price": 49,
+        "currency": "SAR",
+        "description": "A plate containing shrimp with dynamite sauce added to it",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/67c664ad40ddc2415c1753102b962db0.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376459
+      },
+      {
+        "item_en": "Crab Crunchy Salad",
+        "item_ar": "Crab Crunchy Salad",
+        "price": 42,
+        "currency": "SAR",
+        "description": "Crunchy crab salad with a fresh seafood vibe",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/189009df5983e9bc34f9d3f14888967c.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376461
+      }
+    ],
+    "Pasta": [
+      {
+        "item_en": "Red Sauce Pasta",
+        "item_ar": "Red Sauce Pasta",
+        "price": 32,
+        "currency": "SAR",
+        "description": "A plate containing pasta cooked with red sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/8158550c9ec0178cea1ca94d99cd7fb2.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376462
+      },
+      {
+        "item_en": "White Sauce Pasta",
+        "item_ar": "White Sauce Pasta",
+        "price": 32,
+        "currency": "SAR",
+        "description": "A plate containing pasta cooked with white sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/5db0b89caeed636b2c32cb8f61a2fd7b.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376463
+      }
+    ],
+    "Beverages": [
+      {
+        "item_en": "Pepsi",
+        "item_ar": "Pepsi",
+        "price": 4,
+        "currency": "SAR",
+        "description": "A refreshing soft drink with pepsi flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/54109ff91b7c56f6a40c55263d9170eb.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376464
+      },
+      {
+        "item_en": "Mirinda Citrus",
+        "item_ar": "Mirinda Citrus",
+        "price": 4,
+        "currency": "SAR",
+        "description": "A refreshing soft drink with citrus flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/1269ab34aee70bcf351eea79b70638f4.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376465
+      },
+      {
+        "item_en": "Mountain Dew",
+        "item_ar": "Mountain Dew",
+        "price": 4,
+        "currency": "SAR",
+        "description": "A refreshing soft drink with lemon flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/820e3ad7a3c784b2c34392cd55a5ad11.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376466
+      },
+      {
+        "item_en": "7 Up",
+        "item_ar": "7 Up",
+        "price": 4,
+        "currency": "SAR",
+        "description": "A refreshing soft drink with lemon and mint flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/1f951a751baed84a814c9894a4ffab81.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376467
+      },
+      {
+        "item_en": "Mirinda Orange",
+        "item_ar": "Mirinda Orange",
+        "price": 4,
+        "currency": "SAR",
+        "description": "A refreshing soft drink with orange flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/6429765ce3bbf4e2afb4ce1232e7168d.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59376468
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.037Z",
+  "source": "Hungerstation"
+}

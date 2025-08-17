@@ -1,0 +1,699 @@
+{
+  "restaurant_info": {
+    "id": "139349",
+    "name": "Jadeel",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.19838889999999,
+      "longitude": 42.5577467
+    },
+    "rating": 4.5,
+    "review_count": 1363,
+    "type_of_food": "Desserts",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/139349"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Mini Pudding",
+        "item_ar": "Mini Pudding",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Mix cake with chocolate sauce and marshmallow",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/9c4ab4a0c291925c77943d9d0abba47c?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54273148
+      },
+      {
+        "item_en": "Chunky Cake",
+        "item_ar": "Chunky Cake",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Chunky cake layers of harmony made of brownies and cake covered with cinnamon and dulce sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/d3dfa45f085dd49b7028770c05f6ffd4?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 58546856
+      },
+      {
+        "item_en": "Ice V60",
+        "item_ar": "Ice V60",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Black coffee prepared by distillation method",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/26680399?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 26680399
+      },
+      {
+        "item_en": "Chocolate Pudding",
+        "item_ar": "Chocolate Pudding",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Cake include chocolate sauce and marshmallows",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/18797ad30a2fb783f16afb58f080d58b?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56554497
+      }
+    ],
+    "New": [
+      {
+        "item_en": "Mini Pudding",
+        "item_ar": "Mini Pudding",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Mix cake with chocolate sauce and marshmallow",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/9c4ab4a0c291925c77943d9d0abba47c?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54273148
+      },
+      {
+        "item_en": "Cup Chocolate Peanut",
+        "item_ar": "Cup Chocolate Peanut",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Each cup contains 5 pieces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/55576172?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 55576172
+      },
+      {
+        "item_en": "Chocolate Pudding",
+        "item_ar": "Chocolate Pudding",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Cake include chocolate sauce and marshmallows",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/18797ad30a2fb783f16afb58f080d58b?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56554497
+      },
+      {
+        "item_en": "Chunky Cake",
+        "item_ar": "Chunky Cake",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Chunky cake layers of harmony made of brownies and cake covered with cinnamon and dulce sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/d3dfa45f085dd49b7028770c05f6ffd4?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 58546856
+      },
+      {
+        "item_en": "Cookies Brownie",
+        "item_ar": "Cookies Brownie",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Cookies and brownie with 2 special sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/18086a4da157d3b090c09c43b2cbf77e?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 58557103
+      },
+      {
+        "item_en": "Chocolate Bars - Tunnock's Bar",
+        "item_ar": "Chocolate Bars - Tunnock's Bar",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Chocolate bar in different filling",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/0b047ae6062d932edd61a729669a5172?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61994542
+      },
+      {
+        "item_en": "Chocolate - Rice Krispy",
+        "item_ar": "Chocolate - Rice Krispy",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Chocolate bar in different filling",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1209471?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62521726
+      },
+      {
+        "item_en": "Chocolate - Wonder Bar",
+        "item_ar": "Chocolate - Wonder Bar",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Chocolate bar in different filling",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1209471?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62521727
+      },
+      {
+        "item_en": "Chocolate - Creamy Brownie",
+        "item_ar": "Chocolate - Creamy Brownie",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Chocolate bar in different filling",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1209471?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62521728
+      },
+      {
+        "item_en": "Chocolate - Coconut Bar",
+        "item_ar": "Chocolate - Coconut Bar",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Chocolate bar in different filling",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1209471?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62521729
+      },
+      {
+        "item_en": "Pinto Cake",
+        "item_ar": "Pinto Cake",
+        "price": 50,
+        "currency": "SAR",
+        "description": "Chocolate cake covered with special sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/709bf721948042299928769daa60a239?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71517287
+      },
+      {
+        "item_en": "Mini Pudding Box - Mini Chocolate",
+        "item_ar": "Mini Pudding Box - Mini Chocolate",
+        "price": 95,
+        "currency": "SAR",
+        "description": "Box inside 6 mini pudding",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7573b6d8334aab4e90476892ad497385?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 43279635
+      },
+      {
+        "item_en": "Box Pudding",
+        "item_ar": "Box Pudding",
+        "price": 170,
+        "currency": "SAR",
+        "description": "7 pcs pudding",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/26657259?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 26657259
+      },
+      {
+        "item_en": "Chunky Cake Box",
+        "item_ar": "Chunky Cake Box",
+        "price": 155,
+        "currency": "SAR",
+        "description": "6 pieces combination of cake with two special sauce and crumb biscuit",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/55332464?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 55332464
+      },
+      {
+        "item_en": "Triple Cake",
+        "item_ar": "Triple Cake",
+        "price": 28,
+        "currency": "SAR",
+        "description": "Delicious cake covered with special chocolate",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/38978468?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 38978468
+      },
+      {
+        "item_en": "Chocolate Peanut Butter",
+        "item_ar": "Chocolate Peanut Butter",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Chocolate coated brownie with peanut butter filling",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/08ff2860a834ce4081e13f65d7818b03?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 55338649
+      }
+    ],
+    "Coffee Beans": [
+      {
+        "item_en": "Coffee Beans 250 G - Ethiopian Shelshele",
+        "item_ar": "Coffee Beans 250 G - Ethiopian Shelshele",
+        "price": 50,
+        "currency": "SAR",
+        "description": "Four different varieties of coffee beans",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/e55b0af10a84fa28701bbe262b4f5eea?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 65923670
+      },
+      {
+        "item_en": "Coffee Beans 1 Kg - Ethiopian Shelshele",
+        "item_ar": "Coffee Beans 1 Kg - Ethiopian Shelshele",
+        "price": 130,
+        "currency": "SAR",
+        "description": "Four different varieties of coffee beans",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/848e5bd10189abbaaaec1a26455b3c1c?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 65923674
+      },
+      {
+        "item_en": "Coffee Beans 500g - Ethiopian Shelshele",
+        "item_ar": "Coffee Beans 500g - Ethiopian Shelshele",
+        "price": 70,
+        "currency": "SAR",
+        "description": "Four different varieties of coffee beans",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/c5da17c711c92afd144e9d05f3b79f9e?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 65923678
+      },
+      {
+        "item_en": "Coffee Beans 1 Kg - Blend Coffee Beans",
+        "item_ar": "Coffee Beans 1 Kg - Blend Coffee Beans",
+        "price": 130,
+        "currency": "SAR",
+        "description": "Four different varieties of coffee beans",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/848e5bd10189abbaaaec1a26455b3c1c?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 65923679
+      }
+    ],
+    "Pastries": [
+      {
+        "item_en": "Qiddiyah Pudding",
+        "item_ar": "Qiddiyah Pudding",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Qadiya pudding delicious dessert made from milk with various flavors",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/8d8e2d838e8e9ad1adf239018eb311b3?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 65243702
+      }
+    ],
+    "Cake Boxes": [
+      {
+        "item_en": "Assorted Box",
+        "item_ar": "Assorted Box",
+        "price": 90,
+        "currency": "SAR",
+        "description": "The box contains 6pcs of cakes - 2 cheesecake-1 carrotcake-2 germancake-1 chocoflan",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/47809248?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47809248
+      }
+    ],
+    "Cake": [
+      {
+        "item_en": "New York Cheesecake",
+        "item_ar": "New York Cheesecake",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Classic cheesecake made with a rich baked cheesecake mixture",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/3f922843092ab45526239f18a5cd4cc9?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 58546857
+      },
+      {
+        "item_en": "German Cake Sliced",
+        "item_ar": "German Cake Sliced",
+        "price": 42,
+        "currency": "SAR",
+        "description": "Cake chocolate with pecan",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/619056bc6610f7044674b7efbee213d9?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72690304
+      },
+      {
+        "item_en": "German Cake",
+        "item_ar": "German Cake",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Chocolate fluffy cake topped with delicious chocolate sauce with nuts",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/20985154?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20985154
+      },
+      {
+        "item_en": "Choco Flan",
+        "item_ar": "Choco Flan",
+        "price": 17,
+        "currency": "SAR",
+        "description": "A layer of caramel cream and a layer of chocolate cake",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/20985152?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20985152
+      },
+      {
+        "item_en": "Matilda Cake",
+        "item_ar": "Matilda Cake",
+        "price": 17,
+        "currency": "SAR",
+        "description": "Moist cake topped with chocolate ganache",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/23522c3a6fec0cf4294f0a2f8b64f596?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56319297
+      },
+      {
+        "item_en": "Coffee Cake",
+        "item_ar": "Coffee Cake",
+        "price": 12,
+        "currency": "SAR",
+        "description": "( hanovirean )coffee cake",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/20985165?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20985165
+      },
+      {
+        "item_en": "Salted Cookies",
+        "item_ar": "Salted Cookies",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Hanovirean",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/20985163?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20985163
+      },
+      {
+        "item_en": "Chocolate Boat",
+        "item_ar": "Chocolate Boat",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Chocolate boat  ( hanovirean )",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/20985158?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20985158
+      },
+      {
+        "item_en": "Double Brownie",
+        "item_ar": "Double Brownie",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Double brownie ( hanovirean )",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/20985161?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20985161
+      },
+      {
+        "item_en": "Creme Brulee",
+        "item_ar": "Creme Brulee",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Creme brulee ( hanovirean )",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/20985164?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20985164
+      },
+      {
+        "item_en": "Lamington Cake",
+        "item_ar": "Lamington Cake",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Lamington( hanovirean )",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/20985160?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20985160
+      },
+      {
+        "item_en": "Lemon Cake",
+        "item_ar": "Lemon Cake",
+        "price": 12,
+        "currency": "SAR",
+        "description": "( hanovirean ) lemon cake",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/20985159?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20985159
+      }
+    ],
+    "Hot Drinks": [
+      {
+        "item_en": "Espresso",
+        "item_ar": "Espresso",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Espresso coffee without additives",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/20985135?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20985135
+      },
+      {
+        "item_en": "Cortado",
+        "item_ar": "Cortado",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Equal quantity of espresso coffee and steamed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/20985136?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20985136
+      },
+      {
+        "item_en": "Flat White",
+        "item_ar": "Flat White",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Espresso coffee with milk and rich foam",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/20985137?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20985137
+      },
+      {
+        "item_en": "V60",
+        "item_ar": "V60",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Drip black coffee",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/20985138?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20985138
+      },
+      {
+        "item_en": "Cappuccino",
+        "item_ar": "Cappuccino",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Espresso coffee with milk and rich foam",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/20985139?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20985139
+      },
+      {
+        "item_en": "Latte",
+        "item_ar": "Latte",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Espresso coffee with steamed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/20985140?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20985140
+      },
+      {
+        "item_en": "Spanish Latte",
+        "item_ar": "Spanish Latte",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Espresso coffee with fresh milk and sweetened condensed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/20985141?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20985141
+      },
+      {
+        "item_en": "Americano",
+        "item_ar": "Americano",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Americano hot",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/20985143?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20985143
+      },
+      {
+        "item_en": "Coffee Dispenser",
+        "item_ar": "Coffee Dispenser",
+        "price": 70,
+        "currency": "SAR",
+        "description": "Contains 1 and half liter of coffee 7 cups inclusion",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/6f769cb98ae17db88cac300ab720dd3b?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 40825009
+      },
+      {
+        "item_en": "Coffee Of The Day - Small",
+        "item_ar": "Coffee Of The Day - Small",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Roasted coffee prepared by distillation",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7ec2db5a6a09502c7a18281a78e36fcb?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53839291
+      },
+      {
+        "item_en": "Coffee Of The Day - Large",
+        "item_ar": "Coffee Of The Day - Large",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Roasted coffee prepared by distillation",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1301928?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74869591
+      }
+    ],
+    "Cold Drinks": [
+      {
+        "item_en": "Iced Latte",
+        "item_ar": "Iced Latte",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Espresso coffee with fresh milk and ice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/26680363?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 26680363
+      },
+      {
+        "item_en": "Iced Americano",
+        "item_ar": "Iced Americano",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Shot of espresso with water added",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/3551ac38ae391ff673c5d7bef7e76d6c?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 26680381
+      },
+      {
+        "item_en": "Iced Spanish Latte",
+        "item_ar": "Iced Spanish Latte",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Espresso coffee with steamed milk and sweetened condensed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/33848e8972c0af77c00ccec64379a8a4?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 26680397
+      },
+      {
+        "item_en": "Ice V60",
+        "item_ar": "Ice V60",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Black coffee prepared by distillation method",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/26680399?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 26680399
+      },
+      {
+        "item_en": "Coffee Day Cold",
+        "item_ar": "Coffee Day Cold",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Coffee through distillation process",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/d893027d887de265c7170f88ef11b050?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56317795
+      }
+    ],
+    "Box Chocolate": [
+      {
+        "item_en": "Brand Mix",
+        "item_ar": "Brand Mix",
+        "price": 149,
+        "currency": "SAR",
+        "description": "Consists of 42 pieces of luxury chocolate",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/20985145?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20985145
+      },
+      {
+        "item_en": "Truffle",
+        "item_ar": "Truffle",
+        "price": 130,
+        "currency": "SAR",
+        "description": "24 pieces soft cake with chocolate added",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/20985146?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20985146
+      },
+      {
+        "item_en": "Salted Pecan",
+        "item_ar": "Salted Pecan",
+        "price": 160,
+        "currency": "SAR",
+        "description": "30 pieces of specially prepared salted pecan chocolate",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/20985147?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20985147
+      },
+      {
+        "item_en": "Crepe Dulcey",
+        "item_ar": "Crepe Dulcey",
+        "price": 149,
+        "currency": "SAR",
+        "description": "Prepare thinly sliced ​​pancake mixture",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/20985148?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20985148
+      },
+      {
+        "item_en": "Palm Chocolate",
+        "item_ar": "Palm Chocolate",
+        "price": 170,
+        "currency": "SAR",
+        "description": "The box contains 30 pieces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/20985149?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20985149
+      },
+      {
+        "item_en": "Pouch Chocolate",
+        "item_ar": "Pouch Chocolate",
+        "price": 160,
+        "currency": "SAR",
+        "description": "The box contains 25 pieces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/20985150?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20985150
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.037Z",
+  "source": "Hungerstation"
+}

@@ -1,0 +1,618 @@
+{
+  "restaurant_info": {
+    "id": "92593",
+    "name": "SPECIALTY TEA",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.21956249999999,
+      "longitude": 42.66893750000001
+    },
+    "rating": 4.2,
+    "review_count": 6,
+    "type_of_food": "Coffee",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/92593"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Chocolate Crepe",
+        "item_ar": "Chocolate Crepe",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Thin crepe dough with chocolate sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118243?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118243
+      }
+    ],
+    "Specialty Tea": [
+      {
+        "item_en": "Plain Steam Tea",
+        "item_ar": "Plain Steam Tea",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Hot red tea prepared on steam",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118199?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118199
+      },
+      {
+        "item_en": "Steam Tea With Mint",
+        "item_ar": "Steam Tea With Mint",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Hot red tea prepared on steam",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118201?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118201
+      },
+      {
+        "item_en": "Mixed Steam Tea",
+        "item_ar": "Mixed Steam Tea",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Mixed steam tea containing a blend of leaves",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/92593/PRODUCT/20118203/bc756acb-7483-4991-b295-25d8d89634ed.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118203
+      },
+      {
+        "item_en": "Loose Tea",
+        "item_ar": "Loose Tea",
+        "price": 5,
+        "currency": "SAR",
+        "description": "A traditional drink of tea, mint and sugar",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118207?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118207
+      },
+      {
+        "item_en": "Glass Steam Tea",
+        "item_ar": "Glass Steam Tea",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Lipton tea 2 pieces instant fast brewing",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118204?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118204
+      },
+      {
+        "item_en": "Tea With Milk",
+        "item_ar": "Tea With Milk",
+        "price": 8,
+        "currency": "SAR",
+        "description": "A traditional hot beverage made with black tea and milk.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118205?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118205
+      },
+      {
+        "item_en": "Karak Tea",
+        "item_ar": "Karak Tea",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Milk tea with fragrant indian spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/48d540911d87abc582800a7c0bd82d67.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118206
+      },
+      {
+        "item_en": "Moroccan Tea",
+        "item_ar": "Moroccan Tea",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Moroccan style mint tea",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/92593/PRODUCT/20118208/810a4863-7c7a-4ef3-b2d1-fcd8b4b77ab5.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118208
+      }
+    ],
+    "Hot Specialty Coffee": [
+      {
+        "item_en": "Cuppccino",
+        "item_ar": "Cuppccino",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Espresso with steamed milk and foam",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/92593/PRODUCT/20118211/48a5f28b-bd93-4416-9c8e-ce41469efb08.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118211
+      },
+      {
+        "item_en": "Americano",
+        "item_ar": "Americano",
+        "price": 15,
+        "currency": "SAR",
+        "description": "A shot of espresso with water added",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-8879280?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118218
+      },
+      {
+        "item_en": "Coffee Of The Day",
+        "item_ar": "Coffee Of The Day",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Black coffee prepared from specialized seeds",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118210?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118210
+      },
+      {
+        "item_en": "Espresso",
+        "item_ar": "Espresso",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Espresso coffee without additives",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-7846026?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118216
+      },
+      {
+        "item_en": "Saudi Coffee",
+        "item_ar": "Saudi Coffee",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Saudi coffee from premium saudi coffee beans",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118220?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118220
+      },
+      {
+        "item_en": "Turkish Coffee",
+        "item_ar": "Turkish Coffee",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Coffee prepared in the traditional turkish way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/473d550751cf2729f0aceabd68bc7704.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118222
+      },
+      {
+        "item_en": "Latte",
+        "item_ar": "Latte",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Espresso coffee with steamed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-12008558?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118212
+      },
+      {
+        "item_en": "French Coffee",
+        "item_ar": "French Coffee",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Espresso coffee with milk in the french way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118213?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118213
+      },
+      {
+        "item_en": "Mocha",
+        "item_ar": "Mocha",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Espresso coffee with steamed milk and chocolate",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/92593/PRODUCT/20118217/988e43e8-9194-4305-9c98-09ff284af610.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118217
+      },
+      {
+        "item_en": "Hot Chocolate",
+        "item_ar": "Hot Chocolate",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Sweetened chocolate and fresh milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118219?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118219
+      },
+      {
+        "item_en": "Flat White",
+        "item_ar": "Flat White",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Espresso coffee with milk and rich foam",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118221?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118221
+      },
+      {
+        "item_en": "Cortado",
+        "item_ar": "Cortado",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Equal quantity of espresso coffee and steamed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-22057481?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118223
+      },
+      {
+        "item_en": "Macchiato",
+        "item_ar": "Macchiato",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Espresso coffee with milk and rich foam",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118224?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118224
+      },
+      {
+        "item_en": "Italian Coffee",
+        "item_ar": "Italian Coffee",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Authentic italian coffee, rich in taste and invigorating aroma.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/92593/PRODUCT/20118214/f613b2a0-57ca-4e05-9f52-288827545cc4.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118214
+      },
+      {
+        "item_en": "Spanish Latte",
+        "item_ar": "Spanish Latte",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Espresso coffee with fresh milk and sweetened condensed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-22284102?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118215
+      },
+      {
+        "item_en": "V 60",
+        "item_ar": "V 60",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Black coffee prepared by distillation method",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118225?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118225
+      }
+    ],
+    "Cold And Iced Coffee": [
+      {
+        "item_en": "Iced Americano",
+        "item_ar": "Iced Americano",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Shot of espresso with water added and ice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118235?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118235
+      },
+      {
+        "item_en": "Iced V 60",
+        "item_ar": "Iced V 60",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Iced black coffee prepared using the drip method",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118234?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118234
+      },
+      {
+        "item_en": "Iced Mocha",
+        "item_ar": "Iced Mocha",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Iced espresso coffee with steamed milk and chocolate",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118229?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118229
+      },
+      {
+        "item_en": "Iced Latte",
+        "item_ar": "Iced Latte",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Espresso coffee with fresh milk and ice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118227?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118227
+      },
+      {
+        "item_en": "Iced Caramel Macchiato",
+        "item_ar": "Iced Caramel Macchiato",
+        "price": 19,
+        "currency": "SAR",
+        "description": "A delicious blend of espresso and pure milk, with a sweet caramel taste.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118228?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118228
+      },
+      {
+        "item_en": "Iced Spanish Latte",
+        "item_ar": "Iced Spanish Latte",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Espresso coffee with steamed ice milk and sweetened condensed milk with ice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118226?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118226
+      }
+    ],
+    "Fresh Juices": [
+      {
+        "item_en": "Lemon Juice",
+        "item_ar": "Lemon Juice",
+        "price": 15,
+        "currency": "SAR",
+        "description": "A refreshing citrus drink made from lemons",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118237?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118237
+      },
+      {
+        "item_en": "Lemon Juice With Mint",
+        "item_ar": "Lemon Juice With Mint",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Refreshing lemon juice with mint",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118238?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118238
+      }
+    ],
+    "Mixture And Flavors": [
+      {
+        "item_en": "Special",
+        "item_ar": "Special",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Refreshing mojito with mixed flavours",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118240?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118240
+      },
+      {
+        "item_en": "Mojito",
+        "item_ar": "Mojito",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Classic mojito drink made of mint and lemon.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118241?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118241
+      },
+      {
+        "item_en": "Redbull",
+        "item_ar": "Redbull",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Refreshing energy drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118242?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118242
+      }
+    ],
+    "Sweets And Cakes": [
+      {
+        "item_en": "Cheese Croissant",
+        "item_ar": "Cheese Croissant",
+        "price": 7,
+        "currency": "SAR",
+        "description": "French butter croissant stuffed with cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118260?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118260
+      },
+      {
+        "item_en": "Vanilla Muffin",
+        "item_ar": "Vanilla Muffin",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Delicious vanilla flavored muffin mix",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118252?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118252
+      },
+      {
+        "item_en": "Belgian Waffle",
+        "item_ar": "Belgian Waffle",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Waffle topped with belgian chocolate",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118254?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118254
+      },
+      {
+        "item_en": "Vanilla Cookies",
+        "item_ar": "Vanilla Cookies",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Flaky vanilla cookies stuffed with chocolate pieces",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/92593/PRODUCT/20118262/1ea20fa2-9cdc-4e47-bf09-28122f1fbbee.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118262
+      },
+      {
+        "item_en": "Chocolate Cookies",
+        "item_ar": "Chocolate Cookies",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Cookies stuffed with chocolate pieces",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118263
+      },
+      {
+        "item_en": "Chocolate Crepe",
+        "item_ar": "Chocolate Crepe",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Thin crepe dough with chocolate sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118243?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118243
+      },
+      {
+        "item_en": "Pistachio Crepe",
+        "item_ar": "Pistachio Crepe",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Prepared from thin crepe dough with pistachio sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118244?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118244
+      },
+      {
+        "item_en": "Chocolate Croissant",
+        "item_ar": "Chocolate Croissant",
+        "price": 16,
+        "currency": "SAR",
+        "description": "French croissant with butter and chocolate",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118247?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118247
+      },
+      {
+        "item_en": "Pistachio Croissant",
+        "item_ar": "Pistachio Croissant",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Delicious pastries made from light and flaky dough, served as a special snack or as part of breakfast.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/7f84e01bff4485009de3250fb5a13803.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118248
+      },
+      {
+        "item_en": "Belgian Chocolate Waffle",
+        "item_ar": "Belgian Chocolate Waffle",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Fluffy waffle dough with delicious belgian chocolate sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118255?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118255
+      },
+      {
+        "item_en": "Belgian Waffle With Pistachio",
+        "item_ar": "Belgian Waffle With Pistachio",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Crispy waffle dough prepared in a special way with chocolate sauce",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118256
+      },
+      {
+        "item_en": "Mixed Crepe",
+        "item_ar": "Mixed Crepe",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Prepared from thin pancake mixture and mixed sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20118245?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118245
+      },
+      {
+        "item_en": "Mixed Croissant",
+        "item_ar": "Mixed Croissant",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Croissant prepared with butter",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118250
+      },
+      {
+        "item_en": "Mixed Belgian Waffle",
+        "item_ar": "Mixed Belgian Waffle",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Soft waffle topped with a rich layer of delicious sauces",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20118258
+      },
+      {
+        "item_en": "Cheese Madrid",
+        "item_ar": "Cheese Madrid",
+        "price": 19.5,
+        "currency": "SAR",
+        "description": "A slice that steals the spotlight! this european-style baked cheesecake features a smooth, creamy layer over a rich chocolate cookie crust — perfectly toasted for a warm, indulgent experience. cheese madrid… the dessert that makes you say, “this is exactly what i’ve been craving!”",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/92593/PRODUCT/40dbbce6-436b-40c5-963a-35a83817ff10.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72251717
+      },
+      {
+        "item_en": "Crunch Choco",
+        "item_ar": "Crunch Choco",
+        "price": 19.5,
+        "currency": "SAR",
+        "description": "Crunch choco — a soft double-layered chocolate cake filled with smooth vanilla cream, topped with a layer of rich chocolate and toasted puffed rice for an irresistible crunch. the perfect treat for chocolate lovers craving something",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/92593/PRODUCT/6a358e54-97d9-4078-aa01-932e9e742a15.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72283989
+      },
+      {
+        "item_en": "Coconut Cheese",
+        "item_ar": "Coconut Cheese",
+        "price": 19.5,
+        "currency": "SAR",
+        "description": "Coconut cheese – a soft, melt-in-your-mouth cake filled with a rich, creamy layer and coated in shredded coconut that adds a unique flavor to every bite. a perfectly balanced dessert that satisfies all sweet cravings.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/92593/PRODUCT/4ff4b76a-5c2b-42a3-b618-9d401ea6d496.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72291182
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.034Z",
+  "source": "Hungerstation"
+}

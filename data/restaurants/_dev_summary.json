@@ -1,0 +1,41 @@
+{
+  "description": "Development subset for testing - 4 diverse restaurants",
+  "total_restaurants": 4,
+  "created_date": "2025-08-12T00:00:00.000Z",
+  "restaurants": [
+    {
+      "id": "63191",
+      "name": "Abu Al Khair",
+      "filename": "abu_al_khair_63191.json",
+      "menu_items_count": 88,
+      "categories_count": 8,
+      "type": "Medium-sized restaurant"
+    },
+    {
+      "id": "153199",
+      "name": "Coffee Address",
+      "filename": "coffee_address_153199.json",
+      "menu_items_count": 60,
+      "categories_count": 6,
+      "type": "Coffee shop"
+    },
+    {
+      "id": "125444",
+      "name": "Al Subh",
+      "filename": "al_subh_125444.json",
+      "menu_items_count": 29,
+      "categories_count": 6,
+      "type": "Small restaurant"
+    },
+    {
+      "id": "154737",
+      "name": "UTURN",
+      "filename": "uturn_154737.json",
+      "menu_items_count": 15,
+      "categories_count": 3,
+      "type": "Minimal menu"
+    }
+  ],
+  "total_menu_items": 192,
+  "note": "This reduces from 85 restaurants with ~4000+ menu items to just 4 restaurants with 192 menu items total"
+}

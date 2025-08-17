@@ -1,0 +1,818 @@
+{
+  "restaurant_info": {
+    "id": "125581",
+    "name": "Karak Station",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.23992362222974,
+      "longitude": 42.68286297615558
+    },
+    "rating": 4.4,
+    "review_count": 72,
+    "type_of_food": "Beverages,Coffee,Breakfast,Pastries",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/125581"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Chips And Cheese Chapati",
+        "item_ar": "Chips And Cheese Chapati",
+        "price": 10.5,
+        "currency": "SAR",
+        "description": "Chips and cheese chapati",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/4c10dbb7f2c8d7f52a27b2f1059cae9d.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964646
+      },
+      {
+        "item_en": "Egg Cheese Chapati",
+        "item_ar": "Egg Cheese Chapati",
+        "price": 10.5,
+        "currency": "SAR",
+        "description": "Chapati filled with omelette egg and creamy kraft cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/892dd3398263b9b7b3a0cfbf90983e46.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964649
+      },
+      {
+        "item_en": "Mini Chapati Box (20 Mini Pieces)",
+        "item_ar": "Mini Chapati Box (20 Mini Pieces)",
+        "price": 99,
+        "currency": "SAR",
+        "description": "Special chapati box - contains 20 small chapatis, and you can choose up to 5 different types within the box to experience a variety of flavors that cater to all tastes",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/86031605b3f4a9e82294bb4af5077b22.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964633
+      },
+      {
+        "item_en": "Karak Tea Thermos",
+        "item_ar": "Karak Tea Thermos",
+        "price": 63.5,
+        "currency": "SAR",
+        "description": "Karak tea thermos",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/827e3080b2ba5717912ea0d2436f01b8.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964666
+      }
+    ],
+    "Sweets": [
+      {
+        "item_en": "Qatayef Box (45 Pieces)",
+        "item_ar": "Qatayef Box (45 Pieces)",
+        "price": 171.5,
+        "currency": "SAR",
+        "description": "Cheese qatayef box (45pieces) – delicious cheese-stuffed qatayef, perfect for sharing and enjoying a savory-sweet treat",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/ccd798301f0d326d681f0aa299804166.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 65768991
+      },
+      {
+        "item_en": "Qatayef (5 Pieces)",
+        "item_ar": "Qatayef (5 Pieces)",
+        "price": 22,
+        "currency": "SAR",
+        "description": "5 pieces of cheese qatayef – delicate, stuffed with rich cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/f4213a164e0ef3537dbda498203e4aa3.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 65768989
+      },
+      {
+        "item_en": "Kunafa With Cheese",
+        "item_ar": "Kunafa With Cheese",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Kunafa with cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/9d5bd31f6c526d394ea5b83c83639a52.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964652
+      },
+      {
+        "item_en": "Kunafa With Cream",
+        "item_ar": "Kunafa With Cream",
+        "price": 31,
+        "currency": "SAR",
+        "description": "Kunafa with cream",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/78e0316f468f11954f15abc6f2be2f34.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964654
+      },
+      {
+        "item_en": "Saffron Cake",
+        "item_ar": "Saffron Cake",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Saffron cake sweet",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/e31895ab3b25a92e5bfb5ab079aea7ee.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964653
+      },
+      {
+        "item_en": "Date Cake",
+        "item_ar": "Date Cake",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Date cake sweet",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/fb553a57f57efeec99f69cdcdb172b1a.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964655
+      },
+      {
+        "item_en": "San Sebastian Cake",
+        "item_ar": "San Sebastian Cake",
+        "price": 25,
+        "currency": "SAR",
+        "description": "San sebastian cake",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/fd493d532ef9c48c21ff9dabd1acaad0.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964656
+      },
+      {
+        "item_en": "Honey Cake",
+        "item_ar": "Honey Cake",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Honey cake sweet",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/dc8cec80a3d80b5665693d4c44e5cbb5.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964658
+      },
+      {
+        "item_en": "Galaxy Cake",
+        "item_ar": "Galaxy Cake",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Galaxy cake sweet",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/e217fe3eaea8704eddfacec466ac260e.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964659
+      },
+      {
+        "item_en": "Cream Basbousa",
+        "item_ar": "Cream Basbousa",
+        "price": 31,
+        "currency": "SAR",
+        "description": "Cream basbousa sweet",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/8d51280ad55ba1dfeeb1784597c7b27f.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964664
+      }
+    ],
+    "Sambosa": [
+      {
+        "item_en": "Sambosat Box",
+        "item_ar": "Sambosat Box",
+        "price": 115,
+        "currency": "SAR",
+        "description": "Sambosat box (45 pieces)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/75a39bdc20e8cc490efffa447a4ac7c4.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964651
+      },
+      {
+        "item_en": "Mini Sambosat Box",
+        "item_ar": "Mini Sambosat Box",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Mini sambosat box",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/45537f47d2e63f26dccbbd5ed8a4dc96.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964650
+      }
+    ],
+    "Chapati": [
+      {
+        "item_en": "Halloumi Chapati",
+        "item_ar": "Halloumi Chapati",
+        "price": 11.5,
+        "currency": "SAR",
+        "description": "Chapati stuffed with rich cypriot halloumi cheese, fresh zaatar, and black olives",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/2f9472cd276ee139b0869d4e45017616.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56117264
+      },
+      {
+        "item_en": "Mini Chapati Box (20 Mini Pieces)",
+        "item_ar": "Mini Chapati Box (20 Mini Pieces)",
+        "price": 99,
+        "currency": "SAR",
+        "description": "Special chapati box - contains 20 small chapatis, and you can choose up to 5 different types within the box to experience a variety of flavors that cater to all tastes",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/86031605b3f4a9e82294bb4af5077b22.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964633
+      },
+      {
+        "item_en": "Cream Cheese Chapati",
+        "item_ar": "Cream Cheese Chapati",
+        "price": 9.5,
+        "currency": "SAR",
+        "description": "Cream cheese chapati",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/4090d93dc42ee9830f65ceb54a2e55c3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964645
+      },
+      {
+        "item_en": "Shakshoka Chapati",
+        "item_ar": "Shakshoka Chapati",
+        "price": 10.5,
+        "currency": "SAR",
+        "description": "Taste our shakshoka: scrambled eggs, cooked with tomatoes, peppers and onions",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/05397f2606d369e74a96e8bcfc33c15c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964635
+      },
+      {
+        "item_en": "Turkey And Cheese Chapati",
+        "item_ar": "Turkey And Cheese Chapati",
+        "price": 12.5,
+        "currency": "SAR",
+        "description": "Turkey and cheese chapati",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/fbd7c47e1be94323e8a620039170cf66.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964636
+      },
+      {
+        "item_en": "Falafel And Labneh Chapati",
+        "item_ar": "Falafel And Labneh Chapati",
+        "price": 10.5,
+        "currency": "SAR",
+        "description": "Falafel and labneh chapati",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/ba869f25b606b095db49ae7ba9958b39.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964637
+      },
+      {
+        "item_en": "Mortadella Cheese Chapati",
+        "item_ar": "Mortadella Cheese Chapati",
+        "price": 12.5,
+        "currency": "SAR",
+        "description": "Mortadella cheese chapati",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/75fd176f163c4e526dda154eba927c67.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964639
+      },
+      {
+        "item_en": "Feta Chapati",
+        "item_ar": "Feta Chapati",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Chapati filled with feta cheese with a tangy flavor",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/3cd01e85838b5bb3f901404ec89cd323.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964640
+      },
+      {
+        "item_en": "Egg Cheese Chapati",
+        "item_ar": "Egg Cheese Chapati",
+        "price": 10.5,
+        "currency": "SAR",
+        "description": "Chapati filled with omelette egg and creamy kraft cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/892dd3398263b9b7b3a0cfbf90983e46.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964649
+      },
+      {
+        "item_en": "Kiri Chapati",
+        "item_ar": "Kiri Chapati",
+        "price": 9.5,
+        "currency": "SAR",
+        "description": "Chapati filled with kiri cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/c533e61fddb5f809de094275140c91e2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964641
+      },
+      {
+        "item_en": "Labneh And Zaatar Chapati",
+        "item_ar": "Labneh And Zaatar Chapati",
+        "price": 10.5,
+        "currency": "SAR",
+        "description": "Labneh and zaatar chapati",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/91308b48b327f1a19a4bac13588df0b0.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964643
+      },
+      {
+        "item_en": "Tuna Chapati",
+        "item_ar": "Tuna Chapati",
+        "price": 12.5,
+        "currency": "SAR",
+        "description": "Chapati filled with tuna",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/c387a961665f7d89590bc2c5b1c3393c.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964644
+      },
+      {
+        "item_en": "Chips And Cheese Chapati",
+        "item_ar": "Chips And Cheese Chapati",
+        "price": 10.5,
+        "currency": "SAR",
+        "description": "Chips and cheese chapati",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/4c10dbb7f2c8d7f52a27b2f1059cae9d.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964646
+      },
+      {
+        "item_en": "Egg Chapati",
+        "item_ar": "Egg Chapati",
+        "price": 9.5,
+        "currency": "SAR",
+        "description": "Chapati filled with omelette egg",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/d6f298cdd10101e046f36d4bab31bba3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964647
+      },
+      {
+        "item_en": "Zaatar Chapati",
+        "item_ar": "Zaatar Chapati",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Chapati filled with zaatar and olive oil",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/4553b8a649b7cf1ba0ee36a640310c26.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964648
+      },
+      {
+        "item_en": "Nutella Chapati",
+        "item_ar": "Nutella Chapati",
+        "price": 10.5,
+        "currency": "SAR",
+        "description": "Chapati filled with rich nutella",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/b7e8b518b540037e36e35c32afdae377.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964634
+      },
+      {
+        "item_en": "Qimer And Honey Chapati",
+        "item_ar": "Qimer And Honey Chapati",
+        "price": 10.5,
+        "currency": "SAR",
+        "description": "Qimer and honey chapati",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/57641f6894bbc95e86293cb0163fd362.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964642
+      },
+      {
+        "item_en": "Plain Chapati",
+        "item_ar": "Plain Chapati",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Freshly made chapati",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/a8cadd0a5d1b2edbcad898582d49b758.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964638
+      }
+    ],
+    "Tea": [
+      {
+        "item_en": "Karak Tea",
+        "item_ar": "Karak Tea",
+        "price": 9.5,
+        "currency": "SAR",
+        "description": "Unique blend of tea, milk and sugar, flavored with cardamom",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/c07f95045f6b2e31400b3b64c0d748fc.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964695
+      },
+      {
+        "item_en": "Cereal Karak",
+        "item_ar": "Cereal Karak",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Karak tea, topped with corn flakes",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/ef040bc3fe27406314735eba17eb9e21.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964693
+      },
+      {
+        "item_en": "Black Tea",
+        "item_ar": "Black Tea",
+        "price": 8,
+        "currency": "SAR",
+        "description": "English black drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/832b70ec6f73b1cbd56f49e72a79a6b4.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964694
+      },
+      {
+        "item_en": "Taifi Tea",
+        "item_ar": "Taifi Tea",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Tea with the taifi method",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/c5e2563dcbb8e8ae6fc89aa68324b0c5.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964698
+      },
+      {
+        "item_en": "Iced Hibiscus Tea",
+        "item_ar": "Iced Hibiscus Tea",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Iced hibiscus tea",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/e5d48bf3d1fb71796d90d50e78def5ea.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964701
+      },
+      {
+        "item_en": "Flavoured Milk",
+        "item_ar": "Flavoured Milk",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Flavoured fresh hot milk",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/9cf7b0ee30314f5c0060f685f3c2a5bc.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964699
+      },
+      {
+        "item_en": "Iced Tea Passion Fruit",
+        "item_ar": "Iced Tea Passion Fruit",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Iced tea passion fruit",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/793d3906d105c1caddf5efa9e4b8e78f.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964700
+      },
+      {
+        "item_en": "Peach Iced Tea",
+        "item_ar": "Peach Iced Tea",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Peach iced tea",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/5271f573b06b8718bb02a8a07583c48f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964702
+      },
+      {
+        "item_en": "Sahlab",
+        "item_ar": "Sahlab",
+        "price": 17.5,
+        "currency": "SAR",
+        "description": "A warm, creamy drink made with milk, sugar, and sahlab powder, topped with cinnamon and nuts",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/784d659484cc182aa99abf5c11bb11ed.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964703
+      },
+      {
+        "item_en": "Tea With Milk",
+        "item_ar": "Tea With Milk",
+        "price": 9.5,
+        "currency": "SAR",
+        "description": "Tea with fresh milk",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/22ce015958ba2a6b599d611f91803e17.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964704
+      },
+      {
+        "item_en": "Horlicks",
+        "item_ar": "Horlicks",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Malt drink blended with hot milk",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/889038e2f54f0618db9319ec7563d11e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964692
+      }
+    ],
+    "Coffee": [
+      {
+        "item_en": "Spanish Latte",
+        "item_ar": "Spanish Latte",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Combination of espresso coffee, milk and sweet condensed milk",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/b197bf04c95eb67e55c2cee51226e074.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964682
+      },
+      {
+        "item_en": "Iced Spanish Latte",
+        "item_ar": "Iced Spanish Latte",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Iced combination of espresso coffee, milk and sweet condensed milk",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/9bff872561ffec7da61f02fae5fa58da.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964680
+      },
+      {
+        "item_en": "Saudi Coffee",
+        "item_ar": "Saudi Coffee",
+        "price": 9.5,
+        "currency": "SAR",
+        "description": "Traditional arabic coffee",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/5474e04832bf0b5e5a709b314f2c4141.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964687
+      },
+      {
+        "item_en": "Caramel Latte",
+        "item_ar": "Caramel Latte",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Espresso, steamed milk, and caramel syrup for a smooth, sweet flavor",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/36f3adbdbb720ae106681cf215b80474.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964681
+      },
+      {
+        "item_en": "Hot Chocolate",
+        "item_ar": "Hot Chocolate",
+        "price": 16.5,
+        "currency": "SAR",
+        "description": "Chocolate melted in hot milk",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/6b336e0baa6dc008b132085dd9352134.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964685
+      },
+      {
+        "item_en": "Espresso",
+        "item_ar": "Espresso",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Rich shot of espresso coffee",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/93cdcd73b4cb52b131b4080fac0d8382.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964670
+      },
+      {
+        "item_en": "Americano",
+        "item_ar": "Americano",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Espresso coffee diluted with hot water",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/cc75db925a6b4e675b0b4a4a8673388d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964671
+      },
+      {
+        "item_en": "Iced Americano",
+        "item_ar": "Iced Americano",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Iced espresso coffee diluted with cold water",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/cb879d93c1c8dc3c1195e8462f24f963.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964672
+      },
+      {
+        "item_en": "Flat White",
+        "item_ar": "Flat White",
+        "price": 17.5,
+        "currency": "SAR",
+        "description": "Coffee made with espresso and velvety steamed milk",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/1e6d2c04d9c908dc49ebf4f835309a8e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964673
+      },
+      {
+        "item_en": "Latte",
+        "item_ar": "Latte",
+        "price": 17.5,
+        "currency": "SAR",
+        "description": "Espresso with steamed milk and a touch of foam. served hot",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/76481865fd0e5cbc38a9931842c91ab6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964674
+      },
+      {
+        "item_en": "Cappuccino",
+        "item_ar": "Cappuccino",
+        "price": 17.5,
+        "currency": "SAR",
+        "description": "Espresso coffee and hot milk, topped with foamed milk",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/54d0a89cf6d8861ff6e11a799707fbb2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964675
+      },
+      {
+        "item_en": "V60",
+        "item_ar": "V60",
+        "price": 18.5,
+        "currency": "SAR",
+        "description": "Smooth pour-over coffee with a clean, rich flavor",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/fd5f3625554157d53b8c78f2afd3eb3f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964683
+      },
+      {
+        "item_en": "Iced V60",
+        "item_ar": "Iced V60",
+        "price": 19.5,
+        "currency": "SAR",
+        "description": "A refreshing, chilled pour-over coffee with a smooth, rich taste",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/1d501c6ccc1745f6e2bb14e75432b627.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964676
+      },
+      {
+        "item_en": "Chemex",
+        "item_ar": "Chemex",
+        "price": 18.5,
+        "currency": "SAR",
+        "description": "Aromatic coffee brewed with the chemex method",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/2e4bb92011cd052165dba3e2b84abc1a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964679
+      },
+      {
+        "item_en": "Iced Chemex",
+        "item_ar": "Iced Chemex",
+        "price": 19.5,
+        "currency": "SAR",
+        "description": "Aromatic iced coffee brewed with the chemex method",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/dfce9aa3cb0d76a610eb25620f697c89.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964677
+      },
+      {
+        "item_en": "Cortado",
+        "item_ar": "Cortado",
+        "price": 17.5,
+        "currency": "SAR",
+        "description": "Smooth espresso balanced with a touch of warm milk",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/b1d86d9fe0bc03e972eadd8c628b6b5e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964678
+      },
+      {
+        "item_en": "Iced Caramel Latte",
+        "item_ar": "Iced Caramel Latte",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Chilled espresso, milk, and caramel syrup over ice",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/42bf037b4fee0e9ecd61265bb35adc97.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964684
+      },
+      {
+        "item_en": "Turkish Coffee",
+        "item_ar": "Turkish Coffee",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Rich, strong coffee with a frothy finish, served with water",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/066212c1caeb800ae455ffb296755454.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964686
+      }
+    ],
+    "Thermos": [
+      {
+        "item_en": "Karak Tea Thermos",
+        "item_ar": "Karak Tea Thermos",
+        "price": 63.5,
+        "currency": "SAR",
+        "description": "Karak tea thermos",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/827e3080b2ba5717912ea0d2436f01b8.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964666
+      },
+      {
+        "item_en": "Saudi Coffee Thermos",
+        "item_ar": "Saudi Coffee Thermos",
+        "price": 63.5,
+        "currency": "SAR",
+        "description": "Saudi coffee thermos",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/c5ec6a4bd09fc5b02d97311c853ab303.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964668
+      },
+      {
+        "item_en": "Black Tea Thermos",
+        "item_ar": "Black Tea Thermos",
+        "price": 58,
+        "currency": "SAR",
+        "description": "Black tea thermos",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/58ce6ef6c7010c5fddfc3cbae45ca52f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964669
+      },
+      {
+        "item_en": "Milk Thermos",
+        "item_ar": "Milk Thermos",
+        "price": 58,
+        "currency": "SAR",
+        "description": "Fresh hot milk, served in 1 liter mattara",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/e2a47802fd481e80e4f96733a2672803.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964667
+      }
+    ],
+    "Cold Drinks": [
+      {
+        "item_en": "Mojito",
+        "item_ar": "Mojito",
+        "price": 19.5,
+        "currency": "SAR",
+        "description": "A refreshing mix of mint, lime, soda water, with flavors of your choice",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/8ef89830a335d58c591c5f74b9e6a3ea.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964691
+      },
+      {
+        "item_en": "Orange Juice",
+        "item_ar": "Orange Juice",
+        "price": 17.5,
+        "currency": "SAR",
+        "description": "Fresh orange juice, served cold",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/2efba583908a05082000f9cabc476f8b.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964688
+      },
+      {
+        "item_en": "Lemon Mint Juice",
+        "item_ar": "Lemon Mint Juice",
+        "price": 16.5,
+        "currency": "SAR",
+        "description": "Lemon mint juice",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/1bdf7a880ff85e739a5a9a45ba263bcd.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964690
+      },
+      {
+        "item_en": "Berain Water",
+        "item_ar": "Berain Water",
+        "price": 1.5,
+        "currency": "SAR",
+        "description": "Mineral water bottle",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-KAR/5b55337da63600f41bf148d65176e5f7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54964689
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.026Z",
+  "source": "Hungerstation"
+}

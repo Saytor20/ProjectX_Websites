@@ -1,0 +1,1005 @@
+{
+  "restaurant_info": {
+    "id": "63191",
+    "name": "Abu Al Khair",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2364375,
+      "longitude": 42.5935625
+    },
+    "rating": 4,
+    "review_count": 186,
+    "type_of_food": "Arabic,Saudi",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/63191"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Shakshoka Adni",
+        "item_ar": "Shakshoka Adni",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Eggs cooked with some delicious vegetables and tomato sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9332305?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332305
+      },
+      {
+        "item_en": "Shakshoka",
+        "item_ar": "Shakshoka",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Eggs cooked with some delicious vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/86d348b89700fd499bddd229111ebc13.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332304
+      },
+      {
+        "item_en": "Ads Tawa",
+        "item_ar": "Ads Tawa",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Lentils cooked with spices and oils",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9332314?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332314
+      },
+      {
+        "item_en": "Qelaba Tawa",
+        "item_ar": "Qelaba Tawa",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Beans cooked with spices, oils and tomato sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9332315?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332315
+      }
+    ],
+    "Beans And Lentils": [
+      {
+        "item_en": "Foul Sada - Small",
+        "item_ar": "Foul Sada - Small",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Foul cooked in the traditional way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-14425920?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332278
+      },
+      {
+        "item_en": "Foul Sada - Medium",
+        "item_ar": "Foul Sada - Medium",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Foul cooked in the traditional way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-14425920?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332279
+      },
+      {
+        "item_en": "Foul Sada - Big",
+        "item_ar": "Foul Sada - Big",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Foul cooked in the traditional way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-14425920?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332280
+      },
+      {
+        "item_en": "Ads Sada - Small",
+        "item_ar": "Ads Sada - Small",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Lentils cooked in the traditional way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-539000?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332281
+      },
+      {
+        "item_en": "Ads Sada - Medium",
+        "item_ar": "Ads Sada - Medium",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Lentils cooked in the traditional way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-539000?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332282
+      },
+      {
+        "item_en": "Ads Sada - Big",
+        "item_ar": "Ads Sada - Big",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Lentils cooked in the traditional way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-539000?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332283
+      },
+      {
+        "item_en": "Qelaba Sada - Small",
+        "item_ar": "Qelaba Sada - Small",
+        "price": 4,
+        "currency": "SAR",
+        "description": "A famous arabic dish consisting of fava beans cooked with tomato sauce, spices and oils",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-539001?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332284
+      },
+      {
+        "item_en": "Qelaba Sada - Medium",
+        "item_ar": "Qelaba Sada - Medium",
+        "price": 7,
+        "currency": "SAR",
+        "description": "A famous arabic dish consisting of fava beans cooked with tomato sauce, spices and oils",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-539001?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332285
+      },
+      {
+        "item_en": "Qelaba Sada - Big",
+        "item_ar": "Qelaba Sada - Big",
+        "price": 9,
+        "currency": "SAR",
+        "description": "A famous arabic dish consisting of fava beans cooked with tomato sauce, spices and oils",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-539001?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332286
+      }
+    ],
+    "Applied": [
+      {
+        "item_en": "Motabak Lahm Baladi",
+        "item_ar": "Motabak Lahm Baladi",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Mutabbak dough stuffed with spiced local meat",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9332287?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332287
+      },
+      {
+        "item_en": "Motabak Gbn Saiel",
+        "item_ar": "Motabak Gbn Saiel",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Mutabbak dough stuffed with cream cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9332288?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332288
+      },
+      {
+        "item_en": "Motabak Gbn Shedar",
+        "item_ar": "Motabak Gbn Shedar",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Mutabbak dough stuffed with cheddar cheese",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/63287/PRODUCT/9332289/f7ddaf4e-1ee1-437c-80e6-d436dbd863ca.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332289
+      },
+      {
+        "item_en": "Motabak Tona",
+        "item_ar": "Motabak Tona",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Mutabbak dough stuffed with tuna",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9332290?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332290
+      },
+      {
+        "item_en": "Motabak Dgag",
+        "item_ar": "Motabak Dgag",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Mutabbak dough stuffed with chicken",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9332291?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332291
+      },
+      {
+        "item_en": "Motabak Moz",
+        "item_ar": "Motabak Moz",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Mutabbak dough stuffed with banana",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9332292?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332292
+      },
+      {
+        "item_en": "Motabak Notela",
+        "item_ar": "Motabak Notela",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Mutabbak dough stuffed with nutella",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9332293?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332293
+      },
+      {
+        "item_en": "Motabak Notela Moz",
+        "item_ar": "Motabak Notela Moz",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Mutabbak dough stuffed with nutella and banana pieces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9332294?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332294
+      },
+      {
+        "item_en": "Motabak Gbn Haloom",
+        "item_ar": "Motabak Gbn Haloom",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Mutabbak dough stuffed with halloumi cheese",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/63191/PRODUCT/9332297/85f2246d-ebcb-4f97-ad1c-5f5a29f109ae.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332297
+      },
+      {
+        "item_en": "Motabak Tmr Keshta",
+        "item_ar": "Motabak Tmr Keshta",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Mutabbak dough stuffed with dates and delicious cream",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9332299?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332299
+      },
+      {
+        "item_en": "Motabak Mshkl Gbn",
+        "item_ar": "Motabak Mshkl Gbn",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Mutabbak dough stuffed with a variety of mixed cheeses",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9332300?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332300
+      },
+      {
+        "item_en": "Motabak Tona Shedar",
+        "item_ar": "Motabak Tona Shedar",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Mutabbak dough stuffed with tuna and cheddar cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9332301?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332301
+      },
+      {
+        "item_en": "Motabak Kodar",
+        "item_ar": "Motabak Kodar",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Mutabbak dough stuffed with fresh vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9332302?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332302
+      }
+    ],
+    "Muqlqal": [
+      {
+        "item_en": "Foul Tawa",
+        "item_ar": "Foul Tawa",
+        "price": 13,
+        "currency": "SAR",
+        "description": "A popular arabic dish consisting of foul  cooked with spices and oil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9332303?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332303
+      },
+      {
+        "item_en": "Shakshoka",
+        "item_ar": "Shakshoka",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Eggs cooked with some delicious vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/86d348b89700fd499bddd229111ebc13.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332304
+      },
+      {
+        "item_en": "Shakshoka Adni",
+        "item_ar": "Shakshoka Adni",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Eggs cooked with some delicious vegetables and tomato sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9332305?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332305
+      },
+      {
+        "item_en": "Bed Makli",
+        "item_ar": "Bed Makli",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Fried eggs in oil with salt and black pepper",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9332306?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332306
+      },
+      {
+        "item_en": "Bed Tabakat",
+        "item_ar": "Bed Tabakat",
+        "price": 17,
+        "currency": "SAR",
+        "description": "Fried eggs with spices in our special way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9332307?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332307
+      },
+      {
+        "item_en": "Foul Bed",
+        "item_ar": "Foul Bed",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Fava beans cooked with eggs in the traditional way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/36c07decbd6eb2a572d30165e0593a2d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332309
+      },
+      {
+        "item_en": "Tona Tawa",
+        "item_ar": "Tona Tawa",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Cooked tuna with fresh vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9332311?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332311
+      },
+      {
+        "item_en": "Kebda Baladi",
+        "item_ar": "Kebda Baladi",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Liver cooked with fresh vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9332312?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332312
+      },
+      {
+        "item_en": "Moglgl Baladi",
+        "item_ar": "Moglgl Baladi",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Cooked meat, tomatoes, onions and a mix of vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9332313?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332313
+      },
+      {
+        "item_en": "Ads Tawa",
+        "item_ar": "Ads Tawa",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Lentils cooked with spices and oils",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9332314?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332314
+      },
+      {
+        "item_en": "Qelaba Tawa",
+        "item_ar": "Qelaba Tawa",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Beans cooked with spices, oils and tomato sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9332315?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332315
+      },
+      {
+        "item_en": "Ads Bed",
+        "item_ar": "Ads Bed",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Lentils cooked with spices, oils and eggs",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9332316?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332316
+      },
+      {
+        "item_en": "Qelaba Bed",
+        "item_ar": "Qelaba Bed",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Beans cooked with spices, oils, tomato sauce and eggs",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9332317?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332317
+      }
+    ],
+    "Almaesub": [
+      {
+        "item_en": "Adi - Small",
+        "item_ar": "Adi - Small",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Banana-based dessert made with ripe bananas and breadcrumbs",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332318
+      },
+      {
+        "item_en": "Adi - Medium",
+        "item_ar": "Adi - Medium",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Banana-based dessert made with ripe bananas and breadcrumbs",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332319
+      },
+      {
+        "item_en": "Asal - Small",
+        "item_ar": "Asal - Small",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Banana-based dessert made with ripe bananas, breadcrumbs, and honey",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332321
+      },
+      {
+        "item_en": "Asal - Medium",
+        "item_ar": "Asal - Medium",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Banana-based dessert made with ripe bananas, breadcrumbs, and honey",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332322
+      },
+      {
+        "item_en": "Keshta - Small",
+        "item_ar": "Keshta - Small",
+        "price": 13,
+        "currency": "SAR",
+        "description": "A banana-based dessert made with ripe bananas, breadcrumbs and cream",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ABB/c49e6563d1bd730d9297de5c79235ef1.png?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332324
+      },
+      {
+        "item_en": "Keshta - Medium",
+        "item_ar": "Keshta - Medium",
+        "price": 14,
+        "currency": "SAR",
+        "description": "A banana-based dessert made with ripe bananas, breadcrumbs and cream",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ABB/c49e6563d1bd730d9297de5c79235ef1.png?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332325
+      },
+      {
+        "item_en": "Keshta Asal - Small",
+        "item_ar": "Keshta Asal - Small",
+        "price": 14,
+        "currency": "SAR",
+        "description": "A banana-based dessert made with ripe bananas, breadcrumbs, cream and honey",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-16946799?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332327
+      },
+      {
+        "item_en": "Keshta Asal - Medium",
+        "item_ar": "Keshta Asal - Medium",
+        "price": 15,
+        "currency": "SAR",
+        "description": "A banana-based dessert made with ripe bananas, breadcrumbs, cream and honey",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-16946799?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332328
+      },
+      {
+        "item_en": "Tmr - Small",
+        "item_ar": "Tmr - Small",
+        "price": 10,
+        "currency": "SAR",
+        "description": "A banana-based dessert made with ripe bananas, ground bread, and dates",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332330
+      },
+      {
+        "item_en": "Tmr - Medium",
+        "item_ar": "Tmr - Medium",
+        "price": 12,
+        "currency": "SAR",
+        "description": "A banana-based dessert made with ripe bananas, ground bread, and dates",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332331
+      },
+      {
+        "item_en": "Mshkal - Small",
+        "item_ar": "Mshkal - Small",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Banana-based dessert made from over-ripe bananas, ground flat bread, cream, cheese, dates, and honey.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-19901468?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332333
+      },
+      {
+        "item_en": "Mshkal - Medium",
+        "item_ar": "Mshkal - Medium",
+        "price": 17,
+        "currency": "SAR",
+        "description": "Banana-based dessert made from over-ripe bananas, ground flat bread, cream, cheese, dates, and honey.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-19901468?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332334
+      },
+      {
+        "item_en": "Malaki - Medium",
+        "item_ar": "Malaki - Medium",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Banana-based dessert made from over-ripe bananas, ground flat bread, cream, cheese, dates, and honey.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-5090610?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332337
+      },
+      {
+        "item_en": "Malaki Fakhr - Small",
+        "item_ar": "Malaki Fakhr - Small",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Banana-based dessert made from over-ripe bananas, ground flat bread, cream, cheese, dates, and honey.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-5788346?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332339
+      },
+      {
+        "item_en": "Malaki Fakhr - Medium",
+        "item_ar": "Malaki Fakhr - Medium",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Banana-based dessert made from over-ripe bananas, ground flat bread, cream, cheese, dates, and honey.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-5788346?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332340
+      },
+      {
+        "item_en": "Notela - Small",
+        "item_ar": "Notela - Small",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Banana-based dessert made with ripe bananas, breadcrumbs and nutella",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332342
+      },
+      {
+        "item_en": "Notela - Medium",
+        "item_ar": "Notela - Medium",
+        "price": 17,
+        "currency": "SAR",
+        "description": "Banana-based dessert made with ripe bananas, breadcrumbs and nutella",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332343
+      },
+      {
+        "item_en": "Pistachio - Small",
+        "item_ar": "Pistachio - Small",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Banana-based dessert made with ripe bananas, breadcrumbs and pistachios",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-MKM/7b0bf8a349393ad429aefd777961fcef.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332345
+      },
+      {
+        "item_en": "Pistachio - Medium",
+        "item_ar": "Pistachio - Medium",
+        "price": 17,
+        "currency": "SAR",
+        "description": "Banana-based dessert made with ripe bananas, breadcrumbs and pistachios",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-MKM/7b0bf8a349393ad429aefd777961fcef.jpg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332346
+      },
+      {
+        "item_en": "Frawla - Small",
+        "item_ar": "Frawla - Small",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Banana-based dessert made with ripe bananas, breadcrumbs and strawberries",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332348
+      },
+      {
+        "item_en": "Frawla - Medium",
+        "item_ar": "Frawla - Medium",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Banana-based dessert made with ripe bananas, breadcrumbs and strawberries",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332349
+      },
+      {
+        "item_en": "Meksrat - Small",
+        "item_ar": "Meksrat - Small",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Banana-based dessert made with ripe bananas, breadcrumbs and nuts",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-19901468?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332357
+      },
+      {
+        "item_en": "Meksrat - Medium",
+        "item_ar": "Meksrat - Medium",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Banana-based dessert made with ripe bananas, breadcrumbs and nuts",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-19901468?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332358
+      },
+      {
+        "item_en": "Smn - Small",
+        "item_ar": "Smn - Small",
+        "price": 14,
+        "currency": "SAR",
+        "description": "A banana-based dessert made with ripe bananas, breadcrumbs and ghee",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332360
+      },
+      {
+        "item_en": "Smn - Medium",
+        "item_ar": "Smn - Medium",
+        "price": 15,
+        "currency": "SAR",
+        "description": "A banana-based dessert made with ripe bananas, breadcrumbs and ghee",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332361
+      }
+    ],
+    "Tames": [
+      {
+        "item_en": "Tames",
+        "item_ar": "Tames",
+        "price": 2,
+        "currency": "SAR",
+        "description": "It is prepared from flour, yeast, sugar, oil, and milk.",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332363
+      },
+      {
+        "item_en": "Tames Gbn",
+        "item_ar": "Tames Gbn",
+        "price": 7,
+        "currency": "SAR",
+        "description": "It is prepared from flour, yeast, sugar, oil, milk and cheese",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332364
+      },
+      {
+        "item_en": "Tames Smsm",
+        "item_ar": "Tames Smsm",
+        "price": 3,
+        "currency": "SAR",
+        "description": "It is prepared from flour, yeast, sugar, oil, milk, sesame and black seed",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332366
+      }
+    ],
+    "Alfata": [
+      {
+        "item_en": "Keshta - Small",
+        "item_ar": "Keshta - Small",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Cream fatteh soft fatteh dish filled with sweet cream",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-539019?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332374
+      },
+      {
+        "item_en": "Keshta - Medium",
+        "item_ar": "Keshta - Medium",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Cream fatteh soft fatteh dish filled with sweet cream",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-539019?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332375
+      },
+      {
+        "item_en": "Keshta Asal - Small",
+        "item_ar": "Keshta Asal - Small",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Cream and honey fatteh sweet fatteh with cream and natural honey",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-16946799?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332377
+      },
+      {
+        "item_en": "Keshta Asal - Medium",
+        "item_ar": "Keshta Asal - Medium",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Cream and honey fatteh sweet fatteh with cream and natural honey",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-16946799?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332378
+      },
+      {
+        "item_en": "Malaki - Small",
+        "item_ar": "Malaki - Small",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Flour, ghee, dates, cream, honey, corn flakes, cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-539023?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332386
+      },
+      {
+        "item_en": "Malaki - Medium",
+        "item_ar": "Malaki - Medium",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Flour, ghee, dates, cream, honey, corn flakes, cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-539023?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332387
+      },
+      {
+        "item_en": "Malaki Fakhr - Small",
+        "item_ar": "Malaki Fakhr - Small",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Flour, ghee, dates, cream, honey, banana",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-5788346?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332389
+      },
+      {
+        "item_en": "Malaki Fakhr - Medium",
+        "item_ar": "Malaki Fakhr - Medium",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Flour, ghee, dates, cream, honey, banana",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-5788346?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332390
+      },
+      {
+        "item_en": "Notela - Small",
+        "item_ar": "Notela - Small",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Flour, ghee, dates, cream, nutella",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-539025?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332392
+      }
+    ],
+    "Alearika": [
+      {
+        "item_en": "Keshta - Small",
+        "item_ar": "Keshta - Small",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Brown flour, white flour, dates, water, unsalted butter and ghee, cream",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ABB/c49e6563d1bd730d9297de5c79235ef1.png?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332419
+      },
+      {
+        "item_en": "Keshta - Medium",
+        "item_ar": "Keshta - Medium",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Brown flour, white flour, dates, water, unsalted butter and ghee, cream",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ABB/c49e6563d1bd730d9297de5c79235ef1.png?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332420
+      },
+      {
+        "item_en": "Keshta Asl - Small",
+        "item_ar": "Keshta Asl - Small",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Brown flour, white flour, dates, water, unsalted butter and ghee, cream, honey",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ABB/c49e6563d1bd730d9297de5c79235ef1.png?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332422
+      },
+      {
+        "item_en": "Keshta Asl - Medium",
+        "item_ar": "Keshta Asl - Medium",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Brown flour, white flour, dates, water, unsalted butter and ghee, cream, honey",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ABB/c49e6563d1bd730d9297de5c79235ef1.png?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332423
+      },
+      {
+        "item_en": "Mix - Small",
+        "item_ar": "Mix - Small",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Brown flour, white flour, dates, water, unsalted butter and ghee",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9277672?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332428
+      },
+      {
+        "item_en": "Mix - Medium",
+        "item_ar": "Mix - Medium",
+        "price": 17,
+        "currency": "SAR",
+        "description": "Brown flour, white flour, dates, water, unsalted butter and ghee",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9277672?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332429
+      },
+      {
+        "item_en": "Malaki - Small",
+        "item_ar": "Malaki - Small",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Brown flour, white flour, dates, water, unsalted butter and ghee, cheese, corn flakes",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-539038?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332431
+      },
+      {
+        "item_en": "Malaki - Medium",
+        "item_ar": "Malaki - Medium",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Brown flour, white flour, dates, water, unsalted butter and ghee, cheese, corn flakes",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-539038?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332432
+      },
+      {
+        "item_en": "Malaki Faker - Small",
+        "item_ar": "Malaki Faker - Small",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Brown flour, white flour, dates, water, unsalted butter and ghee, cheese, corn flakes",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-539039?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332434
+      },
+      {
+        "item_en": "Malaki Faker - Medium",
+        "item_ar": "Malaki Faker - Medium",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Brown flour, white flour, dates, water, unsalted butter and ghee, cheese, corn flakes",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-539039?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332435
+      },
+      {
+        "item_en": "Areika Strawberry - Small",
+        "item_ar": "Areika Strawberry - Small",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Brown flour, white flour, dates, water, unsalted butter and ghee, strawberries",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/e3d12d0abfaffd5e7df2ca7d0684bff2.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332443
+      },
+      {
+        "item_en": "Areika Strawberry - Medium",
+        "item_ar": "Areika Strawberry - Medium",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Brown flour, white flour, dates, water, unsalted butter and ghee, strawberries",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/e3d12d0abfaffd5e7df2ca7d0684bff2.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9332444
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.032Z",
+  "source": "Hungerstation"
+}

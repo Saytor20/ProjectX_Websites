@@ -1,0 +1,1153 @@
+{
+  "restaurant_info": {
+    "id": "113480",
+    "name": "Lorenzo Pizza",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2518623,
+      "longitude": 42.5980781
+    },
+    "rating": 4.3,
+    "review_count": 709,
+    "type_of_food": "Beverages,Pizza,Pasta",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/113480"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Hunger Station Exclusive Offer",
+        "item_ar": "Hunger Station Exclusive Offer",
+        "price": 127,
+        "currency": "SAR",
+        "description": "3 medium traditional pizzas 2 delight potato wedges",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/2d8de93fffbc8f7e30941ee00081e3cb.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71811669
+      },
+      {
+        "item_en": "Lorenzo Pasta",
+        "item_ar": "Lorenzo Pasta",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Enjoy our unique creamy pink sauce , a mixture of alfredo sauce and red sauce , grilled chicken, topped with mozzarella cheese, garnish with parmesan cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/ed84e82118369d2316cfe4b171efe8c0.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053199
+      },
+      {
+        "item_en": "Lorenzo Deluxe Chicken Ranch",
+        "item_ar": "Lorenzo Deluxe Chicken Ranch",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Classic grilled chicken in a delicious ranch sauce with onions, extra drizzle of ranch sauce topped with mozzarella cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/60cd61b6f5d3241a28836031cf52cc95.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053176
+      },
+      {
+        "item_en": "Fans Box",
+        "item_ar": "Fans Box",
+        "price": 99,
+        "currency": "SAR",
+        "description": "2 medium traditional pizzas delight potato wedges pesto bread sticks lorenzo pasta",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/62effc89ea18c5bff74e22b49a03dce1.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 38029494
+      }
+    ],
+    "Hunger Station Offer": [
+      {
+        "item_en": "Hungerstation Napoli Crunchy Chicken",
+        "item_ar": "Hungerstation Napoli Crunchy Chicken",
+        "price": 38,
+        "currency": "SAR",
+        "description": "An exclusive experience with unique dough with crispy chicken strips, a blend of cheddar and mozzarella cheese, and delicious ranch sauce.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/198b6b6419bcb905b4b1fc048c664630.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71526367
+      },
+      {
+        "item_en": "Hunger Station Exclusive Offer",
+        "item_ar": "Hunger Station Exclusive Offer",
+        "price": 127,
+        "currency": "SAR",
+        "description": "3 medium traditional pizzas 2 delight potato wedges",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/2d8de93fffbc8f7e30941ee00081e3cb.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71811669
+      }
+    ],
+    "Deals": [
+      {
+        "item_en": "Fans Box",
+        "item_ar": "Fans Box",
+        "price": 99,
+        "currency": "SAR",
+        "description": "2 medium traditional pizzas delight potato wedges pesto bread sticks lorenzo pasta",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/62effc89ea18c5bff74e22b49a03dce1.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 38029494
+      },
+      {
+        "item_en": "Limited Time Offer",
+        "item_ar": "Limited Time Offer",
+        "price": 48,
+        "currency": "SAR",
+        "description": "Large pizza with any crust except cheesy crust + 6 pcs jalapeno poppers",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/3806c359d736472ca0ba478ffdde19c9.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62669193
+      },
+      {
+        "item_en": "Pasta Offer Sr 79",
+        "item_ar": "Pasta Offer Sr 79",
+        "price": 79,
+        "currency": "SAR",
+        "description": "2 lorenzo pasta + 2 delight potato wedges + 4 garlic bread",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/d540e3c05ef1f6eab49877484572dfb4.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 41760183
+      },
+      {
+        "item_en": "Tripletta Box",
+        "item_ar": "Tripletta Box",
+        "price": 135,
+        "currency": "SAR",
+        "description": "2 large traditional pizzas + fried chicken bites (4 pcs) + delight potato wedges + bbq chicken rolls (4 pcs) + cheese jalapeno poppers (4 pcs) + chocolate chip cookie",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/864104e892191ca37281e46b3a0a99bc.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27370109
+      },
+      {
+        "item_en": "Small Pizza Meal",
+        "item_ar": "Small Pizza Meal",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Any small pizza + potato wedges + soft drink (can)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/761d26722cf03e022001232c70cc243a.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053085
+      },
+      {
+        "item_en": "Wrap Meal",
+        "item_ar": "Wrap Meal",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Any wrap sandwich. delight potato wedges pepsi can",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/fc80f70883461e777dd8ed6c77b755b7.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 42438056
+      }
+    ],
+    "New": [
+      {
+        "item_en": "Crunchy Chicken Ranch",
+        "item_ar": "Crunchy Chicken Ranch",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Crunchy chicken ranch wrap with ranch sauce, layer of yellow cheese slices, fresh tomato and lettuce, wrapped all in tortilla",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/9dffc92bfeeb365a13fc052de6ac428a.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 39318222
+      },
+      {
+        "item_en": "Crunchy Chicken Spicy",
+        "item_ar": "Crunchy Chicken Spicy",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Crunchy chicken spicy wrap with peri peri sauce, layer of yellow cheese slices, fresh tomato and lettuce, wrapped all in tortilla",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/94368bd5077f614e4df9c4c87bc145e9.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 39318338
+      },
+      {
+        "item_en": "Grilled Chicken Wrap",
+        "item_ar": "Grilled Chicken Wrap",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Grilled chicken wrap with ranch sauce, layer of yellow cheese slices, fresh tomato and lettuce, mayonnaise , wrapped all in tortilla",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/a9b63dc67fe2b8bcf703ac4579108ddc.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 39318389
+      },
+      {
+        "item_en": "Pesto Chicken Wrap",
+        "item_ar": "Pesto Chicken Wrap",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Pesto chicken wrap with pesto and ranch sauce, layer of yellow cheese slices, fresh tomato and lettuce, mayonnaise , wrapped all in tortilla",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/a10c0334964674aba510b0612634539b.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 39318412
+      }
+    ],
+    "Starter": [
+      {
+        "item_en": "Bbq Chicken Rolls(4 Pcs)",
+        "item_ar": "Bbq Chicken Rolls(4 Pcs)",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Grilled chicken breast, onions, cheddar cheese, wrapped in a crispy tortilla baked with mozzarella cheese. dip it in honey bbq sauce.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/428297b8fc83e2ededb95418be5c9d01.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053089
+      },
+      {
+        "item_en": "Cheesy Jalapeno Poppers(6 Pcs)",
+        "item_ar": "Cheesy Jalapeno Poppers(6 Pcs)",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Chopped jalapeno, coated with cheddar cheese, fried to melt in your mouth.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/8dd3129fe4ce3aa52fc5b26e38343b41.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053091
+      },
+      {
+        "item_en": "Cheesy Garlic Bread (4 Pcs)",
+        "item_ar": "Cheesy Garlic Bread (4 Pcs)",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Soft garlic bread, baked with butter and parsley, coverd with mozzarella.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/2bb7f9e330c3b0750a81957b88a1ef5c.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053093
+      },
+      {
+        "item_en": "Delight Potato Wedges",
+        "item_ar": "Delight Potato Wedges",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Baked potato wedges with lorenzo seasoning",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/ec78a2b707793d1d489af906413f2a29.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053095
+      },
+      {
+        "item_en": "Garlic Bread (4 Pcs)",
+        "item_ar": "Garlic Bread (4 Pcs)",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Soft garlic bread, baked with butter and parsley.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/88caeab404a805f6b68e70d7a3eafcc7.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053099
+      },
+      {
+        "item_en": "Italian Bread Sticks (6 Pcs)",
+        "item_ar": "Italian Bread Sticks (6 Pcs)",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Bread sticks baked from our special dough, smeared in fresh olive oil and seasoned with oregano and italian herbs, served with pizza sauce.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/e6c174ecb53a4d1c191a67e8dfbb4231.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053101
+      },
+      {
+        "item_en": "Mozzarella Sticks(5 Pcs)",
+        "item_ar": "Mozzarella Sticks(5 Pcs)",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Fried mozzarella sticks made with real mozzarella cheeses then generously coated with herby breadcrumbs",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/fc5f826fcf81c78ed97ba347d21d1a64.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053103
+      },
+      {
+        "item_en": "Onion Rings (8 Pcs)",
+        "item_ar": "Onion Rings (8 Pcs)",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Breaded onion slices, seasoned and fried to a golden color and a rich flavor",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/6b15cae8856e19b03704d6c5b0acb386.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053104
+      },
+      {
+        "item_en": "Pesto Bread Sticks (6 Pcs)",
+        "item_ar": "Pesto Bread Sticks (6 Pcs)",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Pesto flavored bread sticks, baked and dipped in pesto sauce, topped with mozzarella cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/afc8a46e421bbe13d8f17dc0b5719258.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053106
+      }
+    ],
+    "Salads": [
+      {
+        "item_en": "Beetroots Salad",
+        "item_ar": "Beetroots Salad",
+        "price": 27,
+        "currency": "SAR",
+        "description": "A refreshing salad that combines beets, arugula, lettuce, cherry tomatoes, red cabbage, feta cheese, and toasted walnuts, with balsamic vinaigrette to perfectly enhance the flavors.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/a6153ee0e9d9d2decdb767c31a248a16.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72035339
+      },
+      {
+        "item_en": "Vegan Salad",
+        "item_ar": "Vegan Salad",
+        "price": 27,
+        "currency": "SAR",
+        "description": "A refreshing salad with crisp iceberg lettuce, colorful red cabbage, fresh arugula , fresh mango, green apple, cooked quinoa, delicate almond flakes, and drizzle of balsamic dressing.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/e63f8810f11963cadf72b15ed69b0e70.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62933659
+      },
+      {
+        "item_en": "Green Salad",
+        "item_ar": "Green Salad",
+        "price": 19,
+        "currency": "SAR",
+        "description": "A mix of lettuce, carrots, green pepper, red beans, cucumbers, tomatoes, green olives, sweet corn, served with italian dressings",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/b365b33f4d797aa9b91e68aaceba4989.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053111
+      },
+      {
+        "item_en": "Chicken Caesar Salad",
+        "item_ar": "Chicken Caesar Salad",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Grilled chicken, romaine lettuce, tossed with parmesan cheese, croutons, and caesar dressing.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/49d4892b681c032de1af9b10128cc995.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53702780
+      }
+    ],
+    "Wings": [
+      {
+        "item_en": "Hot Wings(8 Pcs)",
+        "item_ar": "Hot Wings(8 Pcs)",
+        "price": 31,
+        "currency": "SAR",
+        "description": "Hot chicken wings marinated in lorenzo sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/ad1511b9dc1d931a594206bdbcafc646.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053112
+      },
+      {
+        "item_en": "Fried Chicken Bites(8 Pcs)",
+        "item_ar": "Fried Chicken Bites(8 Pcs)",
+        "price": 27,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/79aed2dd6fdffb0ae1cfc326e371fd07.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053115
+      },
+      {
+        "item_en": "Hot Wings(4 Pcs)",
+        "item_ar": "Hot Wings(4 Pcs)",
+        "price": 17,
+        "currency": "SAR",
+        "description": "Hot chicken wings marinated in lorenzo sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/025e7f2cd24c45959d99d651b084ef92.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053117
+      }
+    ],
+    "Napoli Style Pizza": [
+      {
+        "item_en": "Palermo",
+        "item_ar": "Palermo",
+        "price": 37,
+        "currency": "SAR",
+        "description": "A blend of simplicity and sophistication, it presents with tomato sauce, italian beef, pepperoni, and fresh mozzarella.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/bf71d97eeb1bc4124494c8c49940f060.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51096459
+      },
+      {
+        "item_en": "Rocca Burrata",
+        "item_ar": "Rocca Burrata",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Exudes authentic italian flavors with tomato sauce, fresh arugula, tomato slices, a touch of olive oil, mozzarella, burrata cheese, and parmesan.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/c1a86efc1818840206c7a5b33e2d51b6.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51096504
+      },
+      {
+        "item_en": "Lorenzo",
+        "item_ar": "Lorenzo",
+        "price": 37,
+        "currency": "SAR",
+        "description": "Tomato sauce, burrata cheese, cherry tomatoes, mozzarella cheese, and fresh basil, for an irresistible classic experience.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/d0b9889fb8b43b0b80bbc807dc9bdedc.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51096549
+      },
+      {
+        "item_en": "Pesto",
+        "item_ar": "Pesto",
+        "price": 37,
+        "currency": "SAR",
+        "description": "For lovers of exquisite flavors, pesto, dried tomatoes, mozzarella cheese, and fragrant basil leaves.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/06e9491ce4d3366533ceb18e70d3ce11.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51096566
+      },
+      {
+        "item_en": "Napolitana Margherita",
+        "item_ar": "Napolitana Margherita",
+        "price": 34,
+        "currency": "SAR",
+        "description": "Authentic neapolitan flavor with tomato sauce, mozzarella cheese, fresh basil, and aromatic oregano leaves.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/ba70a381f7b4186af72fc5ece7269794.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51096584
+      }
+    ],
+    "Cheesy Crunchy": [
+      {
+        "item_en": "Cheesy Crunchy Hot American Pepperoni",
+        "item_ar": "Cheesy Crunchy Hot American Pepperoni",
+        "price": 46,
+        "currency": "SAR",
+        "description": "Thin and crispy pizza with double layer filled with cheddar and cream cheese, topped with mozz cheese, pepperoni, jalapeno, oregano, a drizzle of three kinds of sauces, ranch, sriracha, and a mutti, sprinkle of parmesan cheese, and parsley",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/067886852116d103260e6dce250f4a8d.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053119
+      },
+      {
+        "item_en": "Cheesy Crunchy Ranch",
+        "item_ar": "Cheesy Crunchy Ranch",
+        "price": 40,
+        "currency": "SAR",
+        "description": "Thin and crispy pizza with double layer filled with cheddar and cream cheese, topped with mozz cheese, grilled chicken, onions, and a drizzle of ranch sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/40cbdb80056e5b0975d3a4d17f6a6abe.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053121
+      },
+      {
+        "item_en": "Cheesy Crunchy Supreme",
+        "item_ar": "Cheesy Crunchy Supreme",
+        "price": 40,
+        "currency": "SAR",
+        "description": "Thin and crispy pizza with double layer filled with cheddar and cream cheese, topped with mozz cheese, pepperoni, beef, mushrooms, green pepper, onions, black olives",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/2dd3808b5c84c9173e60b449298e1274.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053123
+      },
+      {
+        "item_en": "Cheesy Crunchy Vegetarian",
+        "item_ar": "Cheesy Crunchy Vegetarian",
+        "price": 37,
+        "currency": "SAR",
+        "description": "Thin and crispy pizza with double layer filled with cheddar and cream cheese, topped with mozz cheese, mushrooms, green pepper, tomatoes, onions, and black olives.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/a809dd4e7a1c0c6c3882777534e20581.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053125
+      }
+    ],
+    "Large Pizza": [
+      {
+        "item_en": "Lorenzo Chicken Fajita",
+        "item_ar": "Lorenzo Chicken Fajita",
+        "price": 46,
+        "currency": "SAR",
+        "description": "The ultimate combo of fajita chicken, sliced onions, green and red pepper, topped with melted mozzarella, drizzled with ranch sauce.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/bd17fa8b4c35b3a3bd4a1b2308341912.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053136
+      },
+      {
+        "item_en": "Lorenzo Bbq Chicken",
+        "item_ar": "Lorenzo Bbq Chicken",
+        "price": 46,
+        "currency": "SAR",
+        "description": "Enjoy the wonderful taste of bbq, grilled chicken mixed in a mouthwatering bbq sauce with sliced onions, extra drizzle of bbq sauce, topped off with mozzarella cheese.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/4a154769e0acb148d237cedab417df31.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053140
+      },
+      {
+        "item_en": "Lorenzo Chicken Dynamite",
+        "item_ar": "Lorenzo Chicken Dynamite",
+        "price": 46,
+        "currency": "SAR",
+        "description": "Spice it up with a ranch sauce base, grilled chicken, fresh tomatoes, and a drizzle of dynamite sauce topped with mozzarella cheese.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/cf4dc82a6561bea0363740bbde22f644.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053142
+      },
+      {
+        "item_en": "Lorenzo Deluxe Chicken Ranch",
+        "item_ar": "Lorenzo Deluxe Chicken Ranch",
+        "price": 46,
+        "currency": "SAR",
+        "description": "Classic grilled chicken in a delicious ranch sauce with onions, extra drizzle of ranch sauce topped with mozzarella cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/d0d4cd5d8a677622b0758b8ed61860ca.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053144
+      },
+      {
+        "item_en": "Lorenzo Hawaiian",
+        "item_ar": "Lorenzo Hawaiian",
+        "price": 46,
+        "currency": "SAR",
+        "description": "Beef pepperoni with juicy pineapple topped with mozzarella cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/6fbf1b4845ee5af95bfce956d2060805.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053146
+      },
+      {
+        "item_en": "Lorenzo Hot & Spicy Beef",
+        "item_ar": "Lorenzo Hot & Spicy Beef",
+        "price": 46,
+        "currency": "SAR",
+        "description": "Turn up the heat with juicy ground beef, sliced onions, tomatoes, spicy green and red chillies, topped mozzarella cheese.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/06e5691d88383e52732f3415590a320e.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053148
+      },
+      {
+        "item_en": "Lorenzo Hot & Spicy Chicken",
+        "item_ar": "Lorenzo Hot & Spicy Chicken",
+        "price": 46,
+        "currency": "SAR",
+        "description": "Turn up the heat with juicy grilled chicken, sliced onions, tomatoes, spicy green and red chillies, topped with mozzarella cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/9f10a71de5af0ced5deaa7a32b5ab404.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053150
+      },
+      {
+        "item_en": "Lorenzo Chicken",
+        "item_ar": "Lorenzo Chicken",
+        "price": 46,
+        "currency": "SAR",
+        "description": "The ultimate mix of juicy grilled chicken strips together with onions, green peppers, tomatoes topped with mozzarella cheese.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/e9e8ab9555533fafbe6bf337363ac8b3.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053152
+      },
+      {
+        "item_en": "Lorenzo Supreme",
+        "item_ar": "Lorenzo Supreme",
+        "price": 46,
+        "currency": "SAR",
+        "description": "Our famous combination of beef pepperoni, juicy beef, mushrooms, green peppers, onions, black olives topped with mozzarella cheese.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/ad66521656bbc9f146023dcf7065a1f4.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053154
+      },
+      {
+        "item_en": "Lorenzo Margharita",
+        "item_ar": "Lorenzo Margharita",
+        "price": 46,
+        "currency": "SAR",
+        "description": "Go back to where it all began with the classic cheese and tomato base.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/1ac7e4572a0fc410f504a4d3b370513a.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053156
+      },
+      {
+        "item_en": "Lorenzo Meaty Deluxe",
+        "item_ar": "Lorenzo Meaty Deluxe",
+        "price": 46,
+        "currency": "SAR",
+        "description": "A delicious assortment of beef pepperoni, mushrooms, and juicy ground beef seasoned with lorenzo special spices, topped with mozzarella cheese.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/4302e7f34c7b58aa823033892f24b26a.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053158
+      },
+      {
+        "item_en": "Lorenzo Chicken Shawarma",
+        "item_ar": "Lorenzo Chicken Shawarma",
+        "price": 46,
+        "currency": "SAR",
+        "description": "Enjoy the authentic arabic taste of marinated chicken shawarma , ranch sauce , onions, pickels , parsley, & a drizzle of garlic mayonnaise topped with mozzarella cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/b4517bc143582fb2cc7b88e1ac0a65f1.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053159
+      },
+      {
+        "item_en": "Lorenzo Verdure (Vegetables)",
+        "item_ar": "Lorenzo Verdure (Vegetables)",
+        "price": 46,
+        "currency": "SAR",
+        "description": "Mushrooms, green peppers, fresh tomatoes, onions and black olives loaded on a tomato base topped with mozzarella cheese.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/8421369a3cdb1585b6eed4d8562a6f1f.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053162
+      },
+      {
+        "item_en": "Lorenzo Pepperoni",
+        "item_ar": "Lorenzo Pepperoni",
+        "price": 46,
+        "currency": "SAR",
+        "description": "One of our all-time specialties. a meaty feast of double pepperoni, tomato sauce topped with mozzarella cheese.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/ad23c24bd615ad61903b1fb4daeba3c2.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053164
+      },
+      {
+        "item_en": "Lorenzo Primavera",
+        "item_ar": "Lorenzo Primavera",
+        "price": 46,
+        "currency": "SAR",
+        "description": "Great recipe for pesto lovers , wonderful pesto sauce, cherry tomato topped with mozzarella cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/5dbce4088093a58a42666f9f9ea66269.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053166
+      }
+    ],
+    "Medium Pizza": [
+      {
+        "item_en": "Lorenzo Chicken Fajita",
+        "item_ar": "Lorenzo Chicken Fajita",
+        "price": 33,
+        "currency": "SAR",
+        "description": "The ultimate combo of fajita chicken, sliced onions, green and red pepper, topped with melted mozzarella, drizzled with ranch sauce.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/6dfb131380fe9275d4e2aa5e1ddd5fa5.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053168
+      },
+      {
+        "item_en": "Lorenzo Bbq Chicken",
+        "item_ar": "Lorenzo Bbq Chicken",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Enjoy the wonderful taste of bbq, grilled chicken mixed in a mouthwatering bbq sauce with sliced onions, extra drizzle of bbq sauce, topped off with mozzarella cheese.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/cb3cda7826e9eb75df38ecd593633518.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053172
+      },
+      {
+        "item_en": "Lorenzo Chicken Dynamite",
+        "item_ar": "Lorenzo Chicken Dynamite",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Spice it up with a ranch sauce base, grilled chicken, fresh tomatoes, and a drizzle of dynamite sauce topped with mozzarella cheese.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/992dd044cead179313fe69910027a31c.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053174
+      },
+      {
+        "item_en": "Lorenzo Deluxe Chicken Ranch",
+        "item_ar": "Lorenzo Deluxe Chicken Ranch",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Classic grilled chicken in a delicious ranch sauce with onions, extra drizzle of ranch sauce topped with mozzarella cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/60cd61b6f5d3241a28836031cf52cc95.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053176
+      },
+      {
+        "item_en": "Lorenzo Hot & Spicy Beef",
+        "item_ar": "Lorenzo Hot & Spicy Beef",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Turn up the heat with juicy ground beef, sliced onions, tomatoes, spicy green and red chillies, topped mozzarella cheese.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/334909745ac0f1d381e48ca3ce852060.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053178
+      },
+      {
+        "item_en": "Lorenzo Hawaiian",
+        "item_ar": "Lorenzo Hawaiian",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Beef pepperoni with juicy pineapple topped with mozzarella cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/6f5be3b9e7a5fad4416e043c4977da27.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053180
+      },
+      {
+        "item_en": "Lorenzo Hot & Spicy Chicken",
+        "item_ar": "Lorenzo Hot & Spicy Chicken",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Turn up the heat with juicy grilled chicken, sliced onions, tomatoes, spicy green and red chillies, topped with mozzarella cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/b8b265e3920814cecd6f247c16509b37.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053182
+      },
+      {
+        "item_en": "Lorenzo Chicken",
+        "item_ar": "Lorenzo Chicken",
+        "price": 33,
+        "currency": "SAR",
+        "description": "The ultimate mix of juicy grilled chicken strips together with onions, green peppers, tomatoes topped with mozzarella cheese.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/1b318884aeaf6949ff7b1c8bf2d01322.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053184
+      },
+      {
+        "item_en": "Lorenzo Supreme",
+        "item_ar": "Lorenzo Supreme",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Our famous combination of beef pepperoni, juicy beef, mushrooms, green peppers, onions, black olives topped with mozzarella cheese.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/3f2d4033a2d2c03588c6a0bf7279986d.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053186
+      },
+      {
+        "item_en": "Lorenzo Meaty Deluxe",
+        "item_ar": "Lorenzo Meaty Deluxe",
+        "price": 33,
+        "currency": "SAR",
+        "description": "A delicious assortment of beef pepperoni, mushrooms, and juicy ground beef seasoned with lorenzo special spices, topped with mozzarella cheese.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/bdf10a3fcbe17d4c8a90d23de7e62a74.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053188
+      },
+      {
+        "item_en": "Lorenzo Margharita",
+        "item_ar": "Lorenzo Margharita",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Go back to where it all began with the classic cheese and tomato base.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/b88f7ca6bb8f31eeb191295e05aed325.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053190
+      },
+      {
+        "item_en": "Lorenzo Chicken Shawarma",
+        "item_ar": "Lorenzo Chicken Shawarma",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Enjoy the authentic arabic taste of marinated chicken shawarma , ranch sauce , onions, pickels , parsley, & a drizzle of garlic mayonnaise topped with mozzarella cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/849bce2703e02f2195d514333516bf3f.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053192
+      },
+      {
+        "item_en": "Lorenzo Pepperoni",
+        "item_ar": "Lorenzo Pepperoni",
+        "price": 33,
+        "currency": "SAR",
+        "description": "One of our all-time specialties. a meaty feast of double pepperoni, tomato sauce topped with mozzarella cheese.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/4daa174c054181a72aba2dcb0003014c.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053193
+      },
+      {
+        "item_en": "Lorenzo Primavera",
+        "item_ar": "Lorenzo Primavera",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Great recipe for pesto lovers , wonderful pesto sauce, cherry tomato topped with mozzarella cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/19b3cc98eed93512947cb0d750f8e58d.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053195
+      },
+      {
+        "item_en": "Lorenzo Verdure (Vegetables)",
+        "item_ar": "Lorenzo Verdure (Vegetables)",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Mushrooms, green peppers, fresh tomatoes, onions and black olives loaded on a tomato base topped with mozzarella cheese.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/f58f59249ad5110a805355d9df9455c6.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053197
+      }
+    ],
+    "Pasta": [
+      {
+        "item_en": "Lorenzo Pasta",
+        "item_ar": "Lorenzo Pasta",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Enjoy our unique creamy pink sauce , a mixture of alfredo sauce and red sauce , grilled chicken, topped with mozzarella cheese, garnish with parmesan cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/ed84e82118369d2316cfe4b171efe8c0.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053199
+      },
+      {
+        "item_en": "Chicken Alfredo Pasta",
+        "item_ar": "Chicken Alfredo Pasta",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Pasta penne, alfredo sauce, mushroom , grilled chicken, mozzarella cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/bbc66d876827a5b1a378943878013fea.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053201
+      },
+      {
+        "item_en": "Chicken With Roasted Vegetable Pasta",
+        "item_ar": "Chicken With Roasted Vegetable Pasta",
+        "price": 35,
+        "currency": "SAR",
+        "description": "Pasta penne, alfredo sauce, grilled chicken, roasted vegetables (broccoli, zucchini, mushroom and green pepper), mozzarella cheese, parmesan cheese, .",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/65210e759cb4c282349b3a6f3dabef7c.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053203
+      },
+      {
+        "item_en": "Pesto Chicken Pasta",
+        "item_ar": "Pesto Chicken Pasta",
+        "price": 35,
+        "currency": "SAR",
+        "description": "Pasta penne, alfredo sauce and pesto, grilled chicken, mozzarella cheese, parmesan cheese.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/6171e2d638688fc35372be8d216d28d1.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053205
+      },
+      {
+        "item_en": "Beef Lasagna",
+        "item_ar": "Beef Lasagna",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Pasta layers, bolognaise sauce, bechamel sauce, diced beef, parsely.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/6145747e126a778d9c48fa0e60ba3df4.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053208
+      }
+    ],
+    "Sandwiches": [
+      {
+        "item_en": "Chicken Fajita",
+        "item_ar": "Chicken Fajita",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Chicken fajita, green pepper, red pepper, yellow pepper, tomatoes, iceberg lettuce, ranch sauce and covered with mozzarella cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/2fe3fadc096c5309cf9f6f8c77967636.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47619262
+      },
+      {
+        "item_en": "Chicken Deluxe",
+        "item_ar": "Chicken Deluxe",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Grilled chicken, fresh sliced tomatoes, shredded iceberg lettuce, ranch sauce, covered with mozzarella cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/90ad77e0f844da6b58ef80e94c5cde83.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053212
+      },
+      {
+        "item_en": "Meaty Deluxe",
+        "item_ar": "Meaty Deluxe",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Beef pepperoni, fresh sliced tomatoes, iceberg lettuce, ranch sauce covered with mozzarella cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/0c4d75191b58f3d33eae249e41621764.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053215
+      }
+    ],
+    "Desserts": [
+      {
+        "item_en": "Carrots Cake",
+        "item_ar": "Carrots Cake",
+        "price": 13,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/4be3aa44ba21dfcc8b4ace57cf1701b3.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 46943781
+      },
+      {
+        "item_en": "Strawberry Cheesecake",
+        "item_ar": "Strawberry Cheesecake",
+        "price": 15,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/d9b38e7f03e062bd0b4ad479c6133f26.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 46943782
+      },
+      {
+        "item_en": "Chocolate Chip Cookie",
+        "item_ar": "Chocolate Chip Cookie",
+        "price": 27,
+        "currency": "SAR",
+        "description": "Spoil yourself and indulge your sensation with our mushy cookie infused with melting chocolate chips",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/fc95cbf5b3bfd5b86553b24520354bca.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053221
+      }
+    ],
+    "Sauces": [
+      {
+        "item_en": "Honey Bbq Cup",
+        "item_ar": "Honey Bbq Cup",
+        "price": 5,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/6f0463e5ddcedc30540e8d14287f4062.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053227
+      },
+      {
+        "item_en": "Ranch Cup",
+        "item_ar": "Ranch Cup",
+        "price": 5,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/5aa8793eeeba55f493d515e273b9ccc6.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053229
+      },
+      {
+        "item_en": "Dynamite Cup",
+        "item_ar": "Dynamite Cup",
+        "price": 5,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/c346a2752c05fe0dd7f9be34111f3f72.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053232
+      },
+      {
+        "item_en": "Peri Peri Sauce",
+        "item_ar": "Peri Peri Sauce",
+        "price": 5,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/f525750ed4e08e05cf94f5225ffcf7e7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63702109
+      }
+    ],
+    "Drinks": [
+      {
+        "item_en": "7 Up Can",
+        "item_ar": "7 Up Can",
+        "price": 6,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/1db941adafda9ac515ba93cd147e41b3.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053233
+      },
+      {
+        "item_en": "7 Up Diet Can",
+        "item_ar": "7 Up Diet Can",
+        "price": 6,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/a689d0e3cd73008766a433142f171f91.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053236
+      },
+      {
+        "item_en": "Mirinda Can",
+        "item_ar": "Mirinda Can",
+        "price": 6,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/c4d5d9fb6337f67c01be651ef4eaa4bf.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053238
+      },
+      {
+        "item_en": "Mountain Dew Can",
+        "item_ar": "Mountain Dew Can",
+        "price": 6,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/3793d5b3d4525d393a65290bb970c0ac.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053240
+      },
+      {
+        "item_en": "Pepsi Can",
+        "item_ar": "Pepsi Can",
+        "price": 6,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/6ce43869f60c08921f390f2f83f3ca02.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053242
+      },
+      {
+        "item_en": "Pepsi Diet Can",
+        "item_ar": "Pepsi Diet Can",
+        "price": 6,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/54ae56512a96f25220629d3b1ff43615.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053244
+      },
+      {
+        "item_en": "Pepsi 2.25 Lt",
+        "item_ar": "Pepsi 2.25 Lt",
+        "price": 12,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/46b2d14abb45c2b97348ee28704c351e.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053251
+      },
+      {
+        "item_en": "7 Up 2.25 Lt",
+        "item_ar": "7 Up 2.25 Lt",
+        "price": 12,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/7deeee2df10231114c021dcb86d27795.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053245
+      },
+      {
+        "item_en": "Mirinda 2.25 Lt",
+        "item_ar": "Mirinda 2.25 Lt",
+        "price": 12,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/2a3c15a06d91fcc417dcd6accb0ed062.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053247
+      },
+      {
+        "item_en": "Pepsi 1.0 Lt",
+        "item_ar": "Pepsi 1.0 Lt",
+        "price": 9,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/a6d9011f72a0d45a7ad1f9f9580311e7.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053257
+      },
+      {
+        "item_en": "7 Up 1.0 Lt",
+        "item_ar": "7 Up 1.0 Lt",
+        "price": 9,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/58e736cf21b9c002b2d8ec63bbbb6420.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053254
+      },
+      {
+        "item_en": "Aquafina Water 500 Ml",
+        "item_ar": "Aquafina Water 500 Ml",
+        "price": 3,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/64eec64bff49438399cdc9173b792c4e.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053260
+      },
+      {
+        "item_en": "Lipton Ice Tea Peach",
+        "item_ar": "Lipton Ice Tea Peach",
+        "price": 6,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/b1f32a043a6e6544691ee0a943829dbb.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053261
+      },
+      {
+        "item_en": "Lipton Ice Tea Lemon",
+        "item_ar": "Lipton Ice Tea Lemon",
+        "price": 6,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-LOR/a4555f3a1f2eb0ee7146de940f9e2e44.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27053263
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.024Z",
+  "source": "Hungerstation"
+}

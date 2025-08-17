@@ -1,0 +1,304 @@
+# Mehu Fresh Skin Mapping
+# 
+# Fresh, modern, vibrant theme for contemporary restaurants and cafes
+# Features golden (#d8bc41) and coral (#ff6a6a) colors with Heebo + Raleway typography
+# Supports modern restaurant experiences with social integration and fresh aesthetics
+
+page:
+  layout:
+    # Fresh Modern Navigation
+    - as: Navbar
+      variant: fresh-modern
+      props:
+        brand:
+          name: "$.business.name"
+          logo: "$.business.logo ?? null"
+          tagline: "$.business.tagline"
+        navigation:
+          - label: "Home"
+            href: "#home"
+          - label: "Fresh Menu"
+            href: "#menu"
+            when: "$.menu.sections[*]"
+          - label: "Gallery"
+            href: "#gallery"
+            when: "$.gallery.images[*]"
+          - label: "Hours"
+            href: "#hours"
+            when: "$.locations[0].hours"
+          - label: "Contact"
+            href: "#contact"
+        social: "$.business.social"
+        modernContact:
+          whatsapp: "$.contact.whatsapp"
+          delivery: "$.contact.delivery_apps"
+        locale: "$.metadata.locale"
+        direction: "$.metadata.direction"
+        showSocialIcons: true
+
+    # Fresh Vibrant Hero
+    - as: Hero
+      variant: fresh-vibrant
+      props:
+        title: "$.business.name"
+        subtitle: "$.business.tagline ?? 'Fresh. Modern. Delicious.'"
+        description: "$.business.description | truncate(180)"
+        primaryCta:
+          text: "Explore Fresh Menu"
+          href: "#menu"
+          when: "$.menu.sections[*]"
+        secondaryCta:
+          text: "Order Online"
+          href: "$.contact.delivery_apps[0].url ?? '#contact'"
+          when: "$.contact.delivery_apps[*]"
+        image: "$.gallery.hero ?? $.gallery.food_photography[0].url ?? $.gallery.images[0].url"
+        backgroundType: "fresh-gradient"
+        features:
+          - icon: "leaf"
+            text: "Fresh Ingredients"
+            when: "$.business.fresh_ingredients"
+          - icon: "clock"
+            text: "Quick Service"
+          - icon: "heart"
+            text: "Made with Love"
+        socialProof:
+          rating: "$.business.rating"
+          reviews: "$.business.review_count"
+
+    # Fresh Menu Section
+    - as: Section
+      props:
+        id: "menu"
+        className: "fresh-menu-section"
+        background: "subtle-pattern"
+      when: "$.menu.sections[*]"
+      children:
+        - as: RichText
+          props:
+            content: |
+              # Fresh Menu
+              Discover our carefully crafted selection of fresh, modern dishes
+            alignment: "center"
+            
+        - as: MenuList
+          variant: fresh-cards
+          props:
+            sections: "$.menu.sections"
+            currency: "$.menu.currency ?? 'SAR'"
+            showImages: true
+            showDescriptions: true
+            showIngredients: true
+            dietaryFilters: "$.menu.dietary_options"
+            freshHighlights: "$.menu.fresh_ingredients"
+            modernLayout: true
+            locale: "$.metadata.locale"
+            cardStyle: "elevated"
+
+    # Fresh Sustainability Section
+    - as: Section
+      props:
+        id: "sustainability"
+        className: "sustainability-section"
+        background: "fresh-accent"
+      when: "$.business.sustainability || $.business.local_sourcing"
+      children:
+        - as: RichText
+          props:
+            content: |
+              ## Fresh & Sustainable
+              We're committed to using fresh, locally sourced ingredients and sustainable practices
+            features:
+              - title: "Local Sourcing"
+                description: "$.business.local_sourcing ?? 'Supporting local farmers and suppliers'"
+                icon: "map-pin"
+              - title: "Sustainability"
+                description: "$.business.sustainability ?? 'Eco-friendly practices in everything we do'"
+                icon: "recycle"
+              - title: "Fresh Daily"
+                description: "All ingredients sourced fresh daily for maximum quality"
+                icon: "sunrise"
+            layout: "feature-grid"
+
+    # Fresh Gallery Section
+    - as: Section
+      props:
+        id: "gallery"
+        className: "fresh-gallery-section"
+      when: "$.gallery.images[*]"
+      children:
+        - as: RichText
+          props:
+            content: |
+              # Fresh Moments
+              A glimpse into our fresh ingredients, modern ambiance, and delicious creations
+            alignment: "center"
+            
+        - as: Gallery
+          variant: fresh-masonry
+          props:
+            images: "$.gallery.food_photography ?? $.gallery.images | first(16)"
+            showLightbox: true
+            aspectRatio: "dynamic"
+            categories:
+              - "Food"
+              - "Ambiance" 
+              - "Behind the Scenes"
+            socialIntegration:
+              instagram: "$.social.instagram"
+              hashtag: "#MehuFresh"
+            modernEffects: true
+
+    # Fresh Hours Section
+    - as: Section
+      props:
+        id: "hours"
+        className: "fresh-hours-section"
+        background: "light-pattern"
+      when: "$.locations[0].hours"
+      children:
+        - as: Hours
+          variant: fresh-inline
+          props:
+            title: "When We're Fresh"
+            subtitle: "Visit us during these hours for the freshest experience"
+            hours: "$.locations[0].hours"
+            timezone: "$.locations[0].timezone ?? 'Asia/Riyadh'"
+            showStatus: true
+            showNextOpen: true
+            locale: "$.metadata.locale"
+            modernIndicators: true
+            specialHours: "$.locations[0].special_hours"
+
+    # Modern Contact & Location Section
+    - as: Section
+      props:
+        id: "contact"
+        className: "fresh-contact-section"
+      children:
+        # Fresh Location Map
+        - as: LocationMap
+          variant: fresh-integrated
+          when: "$.locations[0]"
+          props:
+            location: "$.locations[0]"
+            height: "450px"
+            showMarker: true
+            showInfo: true
+            modernStyle: true
+            contactCard:
+              title: "Visit Our Fresh Location"
+              subtitle: "Experience fresh flavors in our modern space"
+              features:
+                - icon: "wifi"
+                  text: "Free Wi-Fi"
+                - icon: "parking"
+                  text: "Easy Parking"
+                  when: "$.locations[0].parking"
+                - icon: "accessibility"
+                  text: "Accessible"
+                  when: "$.locations[0].accessible"
+            
+        # Modern Contact Options
+        - as: RichText
+          props:
+            content: |
+              ## Get in Touch
+              Connect with us through your preferred modern method
+            contactMethods:
+              - type: "whatsapp"
+                label: "WhatsApp"
+                value: "$.contact.whatsapp"
+                primary: true
+                when: "$.contact.whatsapp"
+              - type: "phone"
+                label: "Call Us"
+                value: "$.locations[0].phone"
+                when: "$.locations[0].phone"
+              - type: "email"
+                label: "Email"
+                value: "$.contact.email"
+                when: "$.contact.email"
+              - type: "instagram"
+                label: "Instagram"
+                value: "$.social.instagram"
+                when: "$.social.instagram"
+            layout: "contact-grid"
+
+        # Fresh Delivery CTA
+        - as: CTA
+          variant: fresh-gradient
+          when: "$.contact.delivery_apps[*]"
+          props:
+            title: "Order Fresh Now"
+            description: "Get our fresh dishes delivered straight to your door"
+            primaryButton:
+              text: "Order Online"
+              href: "$.contact.delivery_apps[0].url"
+              target: "_blank"
+            secondaryButton:
+              text: "View All Delivery Options"
+              href: "#delivery-options"
+              when: "$.contact.delivery_apps[1]"
+            deliveryApps: "$.contact.delivery_apps"
+            backgroundStyle: "fresh-gradient"
+
+    # Fresh Social Section
+    - as: Section
+      props:
+        id: "social"
+        className: "fresh-social-section"
+        background: "coral-gradient"
+      when: "$.social.instagram || $.social.tiktok"
+      children:
+        - as: RichText
+          props:
+            content: |
+              # Follow Our Fresh Journey
+              Stay updated with our latest fresh creations and behind-the-scenes moments
+            socialLinks:
+              - platform: "instagram"
+                handle: "$.social.instagram"
+                label: "Follow on Instagram"
+                when: "$.social.instagram"
+              - platform: "tiktok"
+                handle: "$.social.tiktok"
+                label: "Watch on TikTok"
+                when: "$.social.tiktok"
+              - platform: "facebook"
+                handle: "$.social.facebook"
+                label: "Like on Facebook"
+                when: "$.social.facebook"
+            layout: "social-showcase"
+            modernIcons: true
+
+    # Fresh Footer
+    - as: Footer
+      variant: fresh-minimal
+      props:
+        business: "$.business"
+        locations: "$.locations"
+        social: "$.business.social"
+        modernContact:
+          whatsapp: "$.contact.whatsapp"
+          delivery: "$.contact.delivery_apps"
+        quickLinks:
+          - text: "Menu"
+            href: "#menu"
+            when: "$.menu.sections[*]"
+          - text: "Gallery" 
+            href: "#gallery"
+            when: "$.gallery.images[*]"
+          - text: "Hours"
+            href: "#hours"
+            when: "$.locations[0].hours"
+          - text: "Contact"
+            href: "#contact"
+        showNewsletter: true
+        newsletterTitle: "Stay Fresh"
+        newsletterSubtitle: "Get updates on new dishes and special offers"
+        showSocial: true
+        modernLayout: true
+        copyrightText: "Fresh experiences, modern taste. All rights reserved."
+        locale: "$.metadata.locale"
+        direction: "$.metadata.direction"
+        sustainabilityNote: "$.business.sustainability"

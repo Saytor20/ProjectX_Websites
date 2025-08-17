@@ -1,0 +1,470 @@
+{
+  "restaurant_info": {
+    "id": "19771",
+    "name": "Golden Basbosti",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.222843,
+      "longitude": 42.554124
+    },
+    "rating": 4.3,
+    "review_count": 42,
+    "type_of_food": "Desserts",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/19771"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Basbousa Offer (Large Mixed Basbosa Box + Small Mixed Basbosa Box )",
+        "item_ar": "Basbousa Offer (Large Mixed Basbosa Box + Small Mixed Basbosa Box )",
+        "price": 125,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/a78c76afa62fe8ca962fe244198dd5c3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47873722
+      },
+      {
+        "item_en": "A Big Mixed Basbousa Box",
+        "item_ar": "A Big Mixed Basbousa Box",
+        "price": 95,
+        "currency": "SAR",
+        "description": "Different types of basbousa according to the availability of each type",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/846896ba330df61435b2897ee28bffc2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20397638
+      },
+      {
+        "item_en": "Half Kilo Offer (Medium Mix + Cake)",
+        "item_ar": "Half Kilo Offer (Medium Mix + Cake)",
+        "price": 83.75,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/6858a717b51fe0e1ee2becf6ba1ffcbe.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62671656
+      },
+      {
+        "item_en": "Basbousa Box With Assorted Middle Pieces",
+        "item_ar": "Basbousa Box With Assorted Middle Pieces",
+        "price": 57,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/f6a9b10c71f9e98e101105abf8275607.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 60795480
+      }
+    ],
+    "New Items": [
+      {
+        "item_en": "Breakfast (A Piece Of Basbousa + A Cup Of Arabic Coffee)",
+        "item_ar": "Breakfast (A Piece Of Basbousa + A Cup Of Arabic Coffee)",
+        "price": 20,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/78406db5fb31ad01f5d3d5a1f1c48d9a.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 73277132
+      },
+      {
+        "item_en": "Arabic Coffee Pot (Original Blend)",
+        "item_ar": "Arabic Coffee Pot (Original Blend)",
+        "price": 37,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/d0917e7274b1bfd3a8e5156e4abe5906.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66633450
+      },
+      {
+        "item_en": "Lotus Cake",
+        "item_ar": "Lotus Cake",
+        "price": 18,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/64c67ac40f5f70a55412cfa8cfc3fe0c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74529570
+      }
+    ],
+    "Cakes": [
+      {
+        "item_en": "Ganache Cake",
+        "item_ar": "Ganache Cake",
+        "price": 18,
+        "currency": "SAR",
+        "description": "A mixture of delicious crunchy ganache chocolate",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/b074d3e589f21461a30fa3c1f7847562.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 40769835
+      },
+      {
+        "item_en": "Nutella Cake",
+        "item_ar": "Nutella Cake",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Cake stuffed with nutella, drowned in delicious nutella sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/0b14edb50f1ac2dfc999652ddbe29018.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 40769855
+      },
+      {
+        "item_en": "Caramel Cake",
+        "item_ar": "Caramel Cake",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Turkish cake mixed with milk with caramel sauce and special cream",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/5152968022c021124cf4c2af9ed52fa3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 40769872
+      }
+    ],
+    "Basbousa": [
+      {
+        "item_en": "Small Mixed Basbousa Box",
+        "item_ar": "Small Mixed Basbousa Box",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Different types basbousa of according to the availability of each type",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/a805d6bbb9758e8b9a537e435411568a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20397579
+      },
+      {
+        "item_en": "Basbousa Box With Assorted Middle Pieces",
+        "item_ar": "Basbousa Box With Assorted Middle Pieces",
+        "price": 57,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/f6a9b10c71f9e98e101105abf8275607.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 60795480
+      },
+      {
+        "item_en": "A Big Mixed Basbousa Box",
+        "item_ar": "A Big Mixed Basbousa Box",
+        "price": 95,
+        "currency": "SAR",
+        "description": "Different types of basbousa according to the availability of each type",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/846896ba330df61435b2897ee28bffc2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20397638
+      },
+      {
+        "item_en": "Plain Basbousa",
+        "item_ar": "Plain Basbousa",
+        "price": 27,
+        "currency": "SAR",
+        "description": "Plain basbousa with the taste of happiness",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/91a1c2a4d3bb719e9222fa72a30ca15d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57784512
+      },
+      {
+        "item_en": "Cream Basbousa",
+        "item_ar": "Cream Basbousa",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Basbousa with special cream filling",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/26800c131a6aa4fb967b8207a2c01175.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57784519
+      },
+      {
+        "item_en": "Nutella Basbousa",
+        "item_ar": "Nutella Basbousa",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Basbousa stuffed with nutella",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/bcf73d3a45d13fcf0666d1adac616eca.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57784534
+      },
+      {
+        "item_en": "Toffee Basbousa",
+        "item_ar": "Toffee Basbousa",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Stuffed basbousa with delicious toffee filling",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/52eb810c01b303ab1d3a7811982dc6d0.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57784526
+      },
+      {
+        "item_en": "Kit Kat Basbousa",
+        "item_ar": "Kit Kat Basbousa",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Kit kat basbousa",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/c3a3ce130ec757bb8b9c994fb7b74178.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57784548
+      },
+      {
+        "item_en": "Lotus Basbousa",
+        "item_ar": "Lotus Basbousa",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Basbousa with lotus",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/77b08f5adf37fe6ee3d0ca8cafe46d53.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57784555
+      },
+      {
+        "item_en": "Galaxy Basbousa",
+        "item_ar": "Galaxy Basbousa",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Basbousa stuffed and covered with galaxy",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/2eafc07c9e2c622f5cc2745e73f9abef.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57784562
+      },
+      {
+        "item_en": "Nestle Basbousa",
+        "item_ar": "Nestle Basbousa",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Basbousa topped with nestle",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/b2ecfcb1b212a9bb8efd8d6e53f116ff.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57784570
+      },
+      {
+        "item_en": "Golden Bsbosati",
+        "item_ar": "Golden Bsbosati",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Basbousa with filling",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/5544d89b711b2cd0d5f339a47381f2c6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57784577
+      },
+      {
+        "item_en": "Cinnabon Basbousa",
+        "item_ar": "Cinnabon Basbousa",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Basbousa stuffed with cinnabon filling",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/2551b49850132f39f550400f7c70da97.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57784583
+      },
+      {
+        "item_en": "Mini Basbousa 12 Pieces",
+        "item_ar": "Mini Basbousa 12 Pieces",
+        "price": 48,
+        "currency": "SAR",
+        "description": "Pieces of mixed basbousa in a different and delicious way",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/69987420455aab0863f6655d5e1f21d2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57784505
+      },
+      {
+        "item_en": "Raffaello Basbousa",
+        "item_ar": "Raffaello Basbousa",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Basbousa with special raffaello chocolate and coconut",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/420c873d41a22b0171480178b3da9029.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 73277123
+      },
+      {
+        "item_en": "Rocher Basbousa",
+        "item_ar": "Rocher Basbousa",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Mix basbousa with roche chocolate",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/0191f5138a3312aec041231391d8e07b.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 73277126
+      }
+    ],
+    "Konafa": [
+      {
+        "item_en": "Basbousa Kunafa With Cream",
+        "item_ar": "Basbousa Kunafa With Cream",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Mix basbousa kunafa stuffed with cream",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/e5c83f8d7435f66c7fc076363531e4cb.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61172746
+      },
+      {
+        "item_en": "Basbousa Kunafa Cinnabon",
+        "item_ar": "Basbousa Kunafa Cinnabon",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Mix basbousa kunafa stuffed with cinnabon",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/59f14be112c96073e128b38e39290f67.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61172751
+      },
+      {
+        "item_en": "Basbousa Kunafa Mix",
+        "item_ar": "Basbousa Kunafa Mix",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Mix basbousa kunafa with mixed filling",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/db54340e42fdcaa820780943d2193f58.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61172764
+      }
+    ],
+    "Maamoul": [
+      {
+        "item_en": "Box Basbousa Maamoul 12 Piece",
+        "item_ar": "Box Basbousa Maamoul 12 Piece",
+        "price": 45,
+        "currency": "SAR",
+        "description": "Maamoul dough with date filling in a special and distinctive way",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/3d81e72640b2280d3c77ff16cdd0d1e9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61172741
+      }
+    ],
+    "Coffee Beans": [
+      {
+        "item_en": "Golden Qahwati Bag",
+        "item_ar": "Golden Qahwati Bag",
+        "price": 52,
+        "currency": "SAR",
+        "description": "Saudi coffee contains special golden coffee mixture with special additives",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/940ffe990827e020fabc9b62e39e0fc5.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61172726
+      }
+    ],
+    "Beverages": [
+      {
+        "item_en": "Coffee Cup",
+        "item_ar": "Coffee Cup",
+        "price": 9,
+        "currency": "SAR",
+        "description": "A cup of saudi coffee from our golden coffee",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/ff49eef85f5a56b534e2ff1be96ba6a8.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20398327
+      }
+    ],
+    "Offers": [
+      {
+        "item_en": "Half Kilo Offer (Medium Mix + Cake)",
+        "item_ar": "Half Kilo Offer (Medium Mix + Cake)",
+        "price": 83.75,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/6858a717b51fe0e1ee2becf6ba1ffcbe.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62671656
+      },
+      {
+        "item_en": "Basbousa Offer (Large Mixed Basbosa Box + Small Mixed Basbosa Box )",
+        "item_ar": "Basbousa Offer (Large Mixed Basbosa Box + Small Mixed Basbosa Box )",
+        "price": 125,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/a78c76afa62fe8ca962fe244198dd5c3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47873722
+      },
+      {
+        "item_en": "Nhalik Wnqahawik (Large Box Of Mix Basbousa + Large Coffee Pot (5 Cups))",
+        "item_ar": "Nhalik Wnqahawik (Large Box Of Mix Basbousa + Large Coffee Pot (5 Cups))",
+        "price": 143.75,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/25cdee90170af409ab40479940e1e508.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62671671
+      },
+      {
+        "item_en": "Big Basbousa (2 Large Boxes Of Large Mix Basbousa + Box Of 12 Pieces Of Maamoul)",
+        "item_ar": "Big Basbousa (2 Large Boxes Of Large Mix Basbousa + Box Of 12 Pieces Of Maamoul)",
+        "price": 237.5,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/041d497b7a64ea644e8dc30d58b0b33b.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47631532
+      },
+      {
+        "item_en": "Aldiyafa Offer (Half Kilo Of Golden Coffee + Box Of 12 Maamoul Pieces +Box Of 12 Mini Basbousa Pieces)",
+        "item_ar": "Aldiyafa Offer (Half Kilo Of Golden Coffee + Box Of 12 Maamoul Pieces +Box Of 12 Mini Basbousa Pieces)",
+        "price": 99,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/2c83ccc70d1412c271e2c5cd40d5f693.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62671666
+      },
+      {
+        "item_en": "Stikana(Medium Mixed Basbousa + Original Coffee Pot)",
+        "item_ar": "Stikana(Medium Mixed Basbousa + Original Coffee Pot)",
+        "price": 100,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/d08f747a601ae10e6124812a5b5e0273.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69748229
+      }
+    ],
+    "The Big Offer": [
+      {
+        "item_en": "Offer 3*2 (3 Kilos Of My Golden Coffee)",
+        "item_ar": "Offer 3*2 (3 Kilos Of My Golden Coffee)",
+        "price": 253.33,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-GB/068d2f2e7b6248ad9355821fa5f90553.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 41479726
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.041Z",
+  "source": "Hungerstation"
+}

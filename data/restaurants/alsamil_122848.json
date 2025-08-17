@@ -1,0 +1,543 @@
+{
+  "restaurant_info": {
+    "id": "122848",
+    "name": "Al-Samil",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2519058,
+      "longitude": 42.5977404
+    },
+    "rating": 4.2,
+    "review_count": 736,
+    "type_of_food": "Sandwich,Fast Food",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/122848"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Double Arabic",
+        "item_ar": "Double Arabic",
+        "price": 24,
+        "currency": "SAR",
+        "description": "A sandwich of chicken shawarma pieces made of saj bread, potatoes, garlic sauce, and double ketchup sauce.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/35807c57223b3070224d7a3b1d798405.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872418
+      },
+      {
+        "item_en": "Broasted - Spicy",
+        "item_ar": "Broasted - Spicy",
+        "price": 24,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872403
+      },
+      {
+        "item_en": "Broasted - Regular",
+        "item_ar": "Broasted - Regular",
+        "price": 24,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872404
+      },
+      {
+        "item_en": "Small Shawarma",
+        "item_ar": "Small Shawarma",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Chicken shawarma, garlic sauce and pickles",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/64361185835e8d5044f7b39fb3323333.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872419
+      }
+    ],
+    "Broast": [
+      {
+        "item_en": "Crunchy Roll",
+        "item_ar": "Crunchy Roll",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Crunchy roll with a crispy layer",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/71923b061c35e25e97f2cef6d0e75c23.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872409
+      },
+      {
+        "item_en": "Crispy Thighs",
+        "item_ar": "Crispy Thighs",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Crispy fried chicken thighs with a special mixture",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/88b5599505fa3e5a7728f8209ec1427a.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872410
+      },
+      {
+        "item_en": "Crispy Chicken Burger",
+        "item_ar": "Crispy Chicken Burger",
+        "price": 15,
+        "currency": "SAR",
+        "description": "A delicious burger sandwich with a fried patty",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/e434a81c0d1068804f22b5553136ed30.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872411
+      },
+      {
+        "item_en": "Crispy Fish Burger",
+        "item_ar": "Crispy Fish Burger",
+        "price": 15,
+        "currency": "SAR",
+        "description": "A delicious burger sandwich with a fried fish slice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44872412?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872412
+      },
+      {
+        "item_en": "Rizo Drumsticks",
+        "item_ar": "Rizo Drumsticks",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Thigh pieces with samil mixture",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/2320ddb44c34404c417a7cdb49f97ca4?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 49681221
+      },
+      {
+        "item_en": "Mix Grill",
+        "item_ar": "Mix Grill",
+        "price": 27,
+        "currency": "SAR",
+        "description": "Pice of kabab",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/9f7991e18038be1a36f35e733284b5f7?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 49681263
+      },
+      {
+        "item_en": "The Thighs Are Four",
+        "item_ar": "The Thighs Are Four",
+        "price": 32,
+        "currency": "SAR",
+        "description": "Chicken thighs with cabbage salad with rice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/16c9b53c647a5c0b8a2faf31e080c358?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 60367534
+      },
+      {
+        "item_en": "Boneless Fish - Spicy",
+        "item_ar": "Boneless Fish - Spicy",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Crispy fried boneless fillet fish pieces with a special mixture",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/16266fdafd3214dda33f05ecac3aeb4c.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872407
+      },
+      {
+        "item_en": "Boneless Fish - Regular",
+        "item_ar": "Boneless Fish - Regular",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Crispy fried boneless fillet fish pieces with a special mixture",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/16266fdafd3214dda33f05ecac3aeb4c.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872408
+      },
+      {
+        "item_en": "Broasted - Spicy",
+        "item_ar": "Broasted - Spicy",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Fried and crispy chicken in our special way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/7460225caadaa2f61a385f57e631ab6d.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872403
+      },
+      {
+        "item_en": "Broasted - Regular",
+        "item_ar": "Broasted - Regular",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Fried and crispy chicken in our special way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/7460225caadaa2f61a385f57e631ab6d.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872404
+      }
+    ],
+    "Grills": [
+      {
+        "item_en": "Tikka Sandwich",
+        "item_ar": "Tikka Sandwich",
+        "price": 12,
+        "currency": "SAR",
+        "description": "A sandwich of chicken tikka pieces with vegetables and special sauces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/0b16086142fb9a6f306b52c1d4415a76.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872413
+      },
+      {
+        "item_en": "Chicken Kebab",
+        "item_ar": "Chicken Kebab",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Special bread stuffed with chicken kebab with vegetables and sauces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/a31b6d90c219ab22748b27efe3117be7.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872414
+      },
+      {
+        "item_en": "Meat Kebab",
+        "item_ar": "Meat Kebab",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Special bread stuffed with meat kebab with vegetables and sauces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/798506ff280d838693c43c39c9481716.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872415
+      },
+      {
+        "item_en": "Chicken Grill",
+        "item_ar": "Chicken Grill",
+        "price": 11,
+        "currency": "SAR",
+        "description": "A sandwich made from special bread stuffed with grilled chicken pieces, vegetables and special sauces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44872416?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872416
+      },
+      {
+        "item_en": "The Fitness Offer Mix Grill",
+        "item_ar": "The Fitness Offer Mix Grill",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Mixed grill with fattoush salad",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/29b0f50014ee7de892b6b1d2eb62ff23?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 60367536
+      }
+    ],
+    "Shawarma": [
+      {
+        "item_en": "Arab",
+        "item_ar": "Arab",
+        "price": 19,
+        "currency": "SAR",
+        "description": "A sandwich of chicken shawarma pieces made of saj bread, potatoes, garlic sauce, and ketchup sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/2a89513ebc316d65bf2eedea84580c39.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872417
+      },
+      {
+        "item_en": "Double Arabic",
+        "item_ar": "Double Arabic",
+        "price": 24,
+        "currency": "SAR",
+        "description": "A sandwich of chicken shawarma pieces made of saj bread, potatoes, garlic sauce, and double ketchup sauce.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/35807c57223b3070224d7a3b1d798405.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872418
+      },
+      {
+        "item_en": "Small Shawarma",
+        "item_ar": "Small Shawarma",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Chicken shawarma, garlic sauce and pickles",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/64361185835e8d5044f7b39fb3323333.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872419
+      },
+      {
+        "item_en": "Large Shawarma",
+        "item_ar": "Large Shawarma",
+        "price": 13,
+        "currency": "SAR",
+        "description": "A sandwich of chicken shawarma, garlic sauce and large pickles",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/b0357b75cfc2dad4072f89c9aaf7013f.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872420
+      },
+      {
+        "item_en": "Plate Of Shawrmma",
+        "item_ar": "Plate Of Shawrmma",
+        "price": 27,
+        "currency": "SAR",
+        "description": "Pice of shawermma",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/122848/PRODUCT/49681910/ab25d023-8089-4c74-bba3-a620ba54fe3f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 49681910
+      }
+    ],
+    "Fattah": [
+      {
+        "item_en": "Grilled Fattah (Chicken)",
+        "item_ar": "Grilled Fattah (Chicken)",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Spiced rice with special sauce and chicken skewer kebab",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44872423?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872423
+      },
+      {
+        "item_en": "Grilled Fattah (Meat)",
+        "item_ar": "Grilled Fattah (Meat)",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Spicy rice with special sauce and meat kebab skewer",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44872424?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872424
+      },
+      {
+        "item_en": "Mix Grill Fattah",
+        "item_ar": "Mix Grill Fattah",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Spiced rice with special sauce with two skewers of grilled meat kebab and chicken kebab",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/69aea160ceb06be99f521b08ccf04a55.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872425
+      },
+      {
+        "item_en": "Plain Rice",
+        "item_ar": "Plain Rice",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Spiced rice cooked in our special way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/b01aac96d30d044ff3c025a9da2a74bc.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872426
+      },
+      {
+        "item_en": "Mix Fattah With Fuchsia Salad",
+        "item_ar": "Mix Fattah With Fuchsia Salad",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Mix fattah with fuchsia salad with pepsi",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/b47e85c3686cbd739f4ecf058497e8b1?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 60367535
+      },
+      {
+        "item_en": "Fattah Shawarma - Spicy",
+        "item_ar": "Fattah Shawarma - Spicy",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Spicy rice with special sauce and chicken shawarma slices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/073d62225af921dd0eb1853beea4726e.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872421
+      },
+      {
+        "item_en": "Fattah Shawarma - Regular",
+        "item_ar": "Fattah Shawarma - Regular",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Spicy rice with special sauce and chicken shawarma slices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/073d62225af921dd0eb1853beea4726e.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872422
+      }
+    ],
+    "Appetizers": [
+      {
+        "item_en": "Cabbage Salad",
+        "item_ar": "Cabbage Salad",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Salad of cabbage, carrots, mayonnaise, vinegar and sugar.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/a23228cd2c0868d9d5c9d10b2bab9310.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872437
+      },
+      {
+        "item_en": "Hummus",
+        "item_ar": "Hummus",
+        "price": 6,
+        "currency": "SAR",
+        "description": "A mixture of mashed chickpeas, olive oil, lemon juice and spices.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/4254d6eff199dd1d75d8e10ccbfe146d.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872438
+      },
+      {
+        "item_en": "French Fries",
+        "item_ar": "French Fries",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Crispy french fries prepared in a delicious way.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/45004954?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872439
+      },
+      {
+        "item_en": "Chicken Fries",
+        "item_ar": "Chicken Fries",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Crispy fried potato fingers with crispy chicken pieces with a mixture of delicious sauces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44872440?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872440
+      },
+      {
+        "item_en": "Samel Sauce",
+        "item_ar": "Samel Sauce",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Special sauce with special spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44872441?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872441
+      },
+      {
+        "item_en": "Garlic Sauce",
+        "item_ar": "Garlic Sauce",
+        "price": 4,
+        "currency": "SAR",
+        "description": "It adds a distinctive and rich garlic flavor to foods, enhancing the taste and flavour.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/5c72e7906b98386e861f04f3f0ab177d.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872442
+      }
+    ],
+    "Beverages": [
+      {
+        "item_en": "Pepsi",
+        "item_ar": "Pepsi",
+        "price": 4,
+        "currency": "SAR",
+        "description": "The soft drink with a unique and refreshing flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-5738809?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872443
+      },
+      {
+        "item_en": "Water",
+        "item_ar": "Water",
+        "price": 1,
+        "currency": "SAR",
+        "description": "Pure and refreshing fresh drinking water",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1046633?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44872444
+      }
+    ],
+    "Manakish": [
+      {
+        "item_en": "Akkawi Manoushe",
+        "item_ar": "Akkawi Manoushe",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Delicious akkawi manoushe",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/62ab2fa2928f2355d9704a9273715eb6?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61561752
+      },
+      {
+        "item_en": "Two Cheese Manoushe",
+        "item_ar": "Two Cheese Manoushe",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Delicious two cheese manoucheh",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/f0b61ac65a57c825a2990699f551ad3d?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61561753
+      },
+      {
+        "item_en": "Halloumi Manoushe",
+        "item_ar": "Halloumi Manoushe",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Delicious halloumi manoushe",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/4fdde88e7e09d9fef46eb6bee0bc49a7?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61563891
+      },
+      {
+        "item_en": "Chicken Manoushe",
+        "item_ar": "Chicken Manoushe",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Delicious chicken manoushe",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/ddfdd3cb9c64a6b9b53f4d5913f550a6?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61563892
+      },
+      {
+        "item_en": "Labneh And Thyme Manoushe",
+        "item_ar": "Labneh And Thyme Manoushe",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Delicious labneh thyme manoushe",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/501e19016e18e7843b41a6262d2cf59f?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61563893
+      },
+      {
+        "item_en": "Manqusha Flafel",
+        "item_ar": "Manqusha Flafel",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Manqusha flafel delicious",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/63245481?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63245481
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.035Z",
+  "source": "Hungerstation"
+}

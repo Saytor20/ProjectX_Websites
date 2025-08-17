@@ -1,0 +1,32 @@
+{
+  "name": "Conbiz Premium",
+  "version": "1.0.0",
+  "description": "Professional business template with golden accents and premium features",
+  "author": "Restaurant Generator System",
+  "tags": ["business", "premium", "professional", "corporate"],
+  "category": "business",
+  "preview": "preview.jpg",
+  "colors": {
+    "primary": "#ffc53c",
+    "secondary": "#008136",
+    "accent": "#fff8e1"
+  },
+  "typography": {
+    "headings": "Epilogue",
+    "body": "Epilogue"
+  },
+  "features": [
+    "Professional business design",
+    "Premium styling and gradients",
+    "Corporate dining aesthetic",
+    "Award and certification display",
+    "Newsletter integration",
+    "Testimonial sections"
+  ],
+  "suitable_for": [
+    "Corporate dining",
+    "Premium restaurants",
+    "Business establishments",
+    "Upscale cafeterias"
+  ]
+}

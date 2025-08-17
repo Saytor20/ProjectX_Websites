@@ -1,0 +1,227 @@
+{
+  "restaurant_info": {
+    "id": "115874",
+    "name": "CA9 ؛ Al Muftaha",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2481351,
+      "longitude": 42.620568
+    },
+    "rating": 3.6,
+    "review_count": 5,
+    "type_of_food": "Desserts,Coffee",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/115874"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Iced V60",
+        "item_ar": "Iced V60",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Iced black coffee prepared using the drip method",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/53064698?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53064698
+      },
+      {
+        "item_en": "Cookies Vanilla",
+        "item_ar": "Cookies Vanilla",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Soft vanilla cookies with a premium taste",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/115870/PRODUCT/54282591/2c46e40a-98b3-4b1d-8451-6db8bb6f99e1.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54282591
+      },
+      {
+        "item_en": "Iced Hibiscus",
+        "item_ar": "Iced Hibiscus",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Iced drink flavored with hibiscus flower",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/53064697?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53064697
+      }
+    ],
+    "Hot Drinks": [
+      {
+        "item_en": "Sahlab",
+        "item_ar": "Sahlab",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Traditional hot drink with creamy texture and rich flavor.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/63375498?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63375498
+      },
+      {
+        "item_en": "Hot Coffee Of The Day",
+        "item_ar": "Hot Coffee Of The Day",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Black coffee prepared from specialized crops",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/53064692?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53064692
+      },
+      {
+        "item_en": "Mocha",
+        "item_ar": "Mocha",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Espresso coffee with steamed milk and chocolate",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/9b2946e818890b1a54105801cef5b5b7.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53064693
+      },
+      {
+        "item_en": "V 60",
+        "item_ar": "V 60",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Black coffee prepared by distillation method",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/53064690?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53064690
+      },
+      {
+        "item_en": "Hot Chocolate",
+        "item_ar": "Hot Chocolate",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Sweetened chocolate with fresh milk",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/115871/PRODUCT/53064696/16b54905-b664-46a5-8f0a-6e6595f0fd8f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53064696
+      },
+      {
+        "item_en": "Americano",
+        "item_ar": "Americano",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Diluted espresso coffee, characterized by its strong taste and slight bitterness.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/53064691?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53064691
+      }
+    ],
+    "Cold Drinks": [
+      {
+        "item_en": "Iced Coffee Of The Day",
+        "item_ar": "Iced Coffee Of The Day",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Iced black coffee prepared from specialized crops",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/53064700?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53064700
+      },
+      {
+        "item_en": "Iced Hibiscus",
+        "item_ar": "Iced Hibiscus",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Iced drink flavored with hibiscus flower",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/53064697?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53064697
+      },
+      {
+        "item_en": "Iced V60",
+        "item_ar": "Iced V60",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Iced black coffee prepared using the drip method",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/53064698?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53064698
+      },
+      {
+        "item_en": "Iced Americano",
+        "item_ar": "Iced Americano",
+        "price": 6,
+        "currency": "SAR",
+        "description": "A shot of espresso diluted with ice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/53064699?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53064699
+      }
+    ],
+    "Desserts": [
+      {
+        "item_en": "Hasawi Cookies",
+        "item_ar": "Hasawi Cookies",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Delicious hasawi cookies with dates",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/602dcc95f55addad0c5045f240a0f0ef.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 38348033
+      },
+      {
+        "item_en": "Cookies Vanilla",
+        "item_ar": "Cookies Vanilla",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Soft vanilla cookies with a premium taste",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/115870/PRODUCT/54282591/2c46e40a-98b3-4b1d-8451-6db8bb6f99e1.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54282591
+      },
+      {
+        "item_en": "Cookies Chocolate",
+        "item_ar": "Cookies Chocolate",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Chocolate cookies with a crispy rich layer",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/b937eb6a20fd8c3b5b9f9e3e1ba68a97?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54282590
+      },
+      {
+        "item_en": "Mini Chocolate",
+        "item_ar": "Mini Chocolate",
+        "price": 9,
+        "currency": "SAR",
+        "description": "New now special chocolate pieces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/f9ea140d791f260d6e84436a68025dc9.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 38348034
+      },
+      {
+        "item_en": "Chocolate Donut",
+        "item_ar": "Chocolate Donut",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Sweet chocolate flavored donut on top",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/115875/PRODUCT/53064526/57b2d383-1d08-479c-83ef-950aa655feae.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53064526
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.026Z",
+  "source": "Hungerstation"
+}

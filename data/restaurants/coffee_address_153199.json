@@ -1,0 +1,693 @@
+{
+  "restaurant_info": {
+    "id": "153199",
+    "name": "Coffee Address",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2463025,
+      "longitude": 42.6853997
+    },
+    "rating": 4.2,
+    "review_count": 27,
+    "type_of_food": "Desserts,Coffee",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/153199"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Mixed Gathering Box 14 Pcs",
+        "item_ar": "Mixed Gathering Box 14 Pcs",
+        "price": 49,
+        "currency": "SAR",
+        "description": "Mixed gathering box 14 pcs",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/85d4139b752582faeff34ccefed34069.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374554
+      },
+      {
+        "item_en": "Ethiopian Gathering Coffee",
+        "item_ar": "Ethiopian Gathering Coffee",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Ethiopian gathering coffee",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/b136d4450c7108cd794a80f71a47ec82.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374551
+      },
+      {
+        "item_en": "Brazilian Gathering Coffee",
+        "item_ar": "Brazilian Gathering Coffee",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Brazilian gathering coffee",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/b136d4450c7108cd794a80f71a47ec82.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374548
+      },
+      {
+        "item_en": "Iced Matcha Latte",
+        "item_ar": "Iced Matcha Latte",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Iced matcha latte",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/150289a15a3b84d2ce9eed6d0dda0e17.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374601
+      }
+    ],
+    "New Sandwiches": [
+      {
+        "item_en": "Cream Cheese Pretzel With Mint",
+        "item_ar": "Cream Cheese Pretzel With Mint",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Cream cheese pretzel with mint",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/4bfd3f8ee452791c27f1043082475f95.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374538
+      },
+      {
+        "item_en": "Cream Cheese Pretzel With Spinach",
+        "item_ar": "Cream Cheese Pretzel With Spinach",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Cream cheese pretzel with spinach",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/41e7bbf1208e86763a65a0532f1d1826.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374540
+      },
+      {
+        "item_en": "Halloumi Panini With Pesto",
+        "item_ar": "Halloumi Panini With Pesto",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Halloumi panini with pesto",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/f2c28bdf7a74ff63f18a6681bbba2247.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374542
+      },
+      {
+        "item_en": "Spicy Tuna Panini",
+        "item_ar": "Spicy Tuna Panini",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Spicy tuna panini",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/43df288716eace0cfe3b28123fddc40e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374544
+      },
+      {
+        "item_en": "Turkey Pretzel With Cream Cheese",
+        "item_ar": "Turkey Pretzel With Cream Cheese",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Turkey pretzel with cream cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/198a1a67d05f3f39c47703012135c68e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374546
+      }
+    ],
+    "Gathering": [
+      {
+        "item_en": "Brazilian Gathering Coffee",
+        "item_ar": "Brazilian Gathering Coffee",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Brazilian gathering coffee",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/b136d4450c7108cd794a80f71a47ec82.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374548
+      },
+      {
+        "item_en": "Ethiopian Gathering Coffee",
+        "item_ar": "Ethiopian Gathering Coffee",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Ethiopian gathering coffee",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/b136d4450c7108cd794a80f71a47ec82.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374551
+      },
+      {
+        "item_en": "Mixed Gathering Box 28 Pcs",
+        "item_ar": "Mixed Gathering Box 28 Pcs",
+        "price": 98,
+        "currency": "SAR",
+        "description": "Mixed gathering box 28 pcs",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/32d1602eba8bd302263b0f56763ddbb8.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374553
+      },
+      {
+        "item_en": "Mixed Gathering Box 14 Pcs",
+        "item_ar": "Mixed Gathering Box 14 Pcs",
+        "price": 49,
+        "currency": "SAR",
+        "description": "Mixed gathering box 14 pcs",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/85d4139b752582faeff34ccefed34069.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374554
+      },
+      {
+        "item_en": "Salted Caramel Brownies 28 Pcs",
+        "item_ar": "Salted Caramel Brownies 28 Pcs",
+        "price": 98,
+        "currency": "SAR",
+        "description": "Salted caramel brownies 28 pcs",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/252b95bead8eaaa6ac55301cbb479952.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374556
+      },
+      {
+        "item_en": "Espresso Hot Chocolate",
+        "item_ar": "Espresso Hot Chocolate",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Espresso hot chocolate",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/8d633c9a3d816d344716623168d638b4.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374558
+      },
+      {
+        "item_en": "Pecan Bites 28 Pcs",
+        "item_ar": "Pecan Bites 28 Pcs",
+        "price": 98,
+        "currency": "SAR",
+        "description": "Pecan bites 28 pcs",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/ef8c8e91ea5ecc49d6e965d0477b2078.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374561
+      }
+    ],
+    "Hot Beverages": [
+      {
+        "item_en": "Espresso",
+        "item_ar": "Espresso",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Espresso cup",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/ec3c141863862a925769bce7bcf90c78.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374562
+      },
+      {
+        "item_en": "Cortado",
+        "item_ar": "Cortado",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Cortado cup",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/fa2ad2cb425c6cc3d80ccb3217418e69.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374564
+      },
+      {
+        "item_en": "Flat White",
+        "item_ar": "Flat White",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Flat white",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/6625b91c9b629ff3cd718df12635dd33.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374567
+      },
+      {
+        "item_en": "Americano",
+        "item_ar": "Americano",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Americano cup",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/bea7e20bbb272e14b0b7b89b6b24ee36.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374569
+      },
+      {
+        "item_en": "Hot Chocolate",
+        "item_ar": "Hot Chocolate",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Hot chocolate",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/8d633c9a3d816d344716623168d638b4.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374571
+      },
+      {
+        "item_en": "Cappuccino",
+        "item_ar": "Cappuccino",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Cappuccino cup",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/80bace8dd03c097e2dc474ada61cc47e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374573
+      },
+      {
+        "item_en": "Latte",
+        "item_ar": "Latte",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Latte cup",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/1ea7a408948f7ca2c1d86191f7bd54f3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374575
+      },
+      {
+        "item_en": "Spanish Latte",
+        "item_ar": "Spanish Latte",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Spanish latte",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/5640052dea2b00002c25212626c7bbcf.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374576
+      },
+      {
+        "item_en": "Pistachio Latte",
+        "item_ar": "Pistachio Latte",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Pistachio latte",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/92ea78849b18701a4f85580edc12b433.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374578
+      },
+      {
+        "item_en": "White Mocha Latte",
+        "item_ar": "White Mocha Latte",
+        "price": 0,
+        "currency": "SAR",
+        "description": "White mocha latte",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/5640052dea2b00002c25212626c7bbcf.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374581
+      },
+      {
+        "item_en": "Matcha Latte",
+        "item_ar": "Matcha Latte",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Matcha latte",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/e62814b916ba6eb93424f0fdbe4008c7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374583
+      },
+      {
+        "item_en": "Brazilian Black Hot",
+        "item_ar": "Brazilian Black Hot",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Brazilian black hot",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/63568328129733e8508d7a4808050b37.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374585
+      },
+      {
+        "item_en": "Ethiopian Black Hot",
+        "item_ar": "Ethiopian Black Hot",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Ethiopian black hot",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/b7c7060cefa3870a0f4d8dff170dc44e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374587
+      }
+    ],
+    "Cold Beverages": [
+      {
+        "item_en": "Iced Cortado",
+        "item_ar": "Iced Cortado",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Iced cortado",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/73e835c972fa71516f06a9e35ec94799.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374589
+      },
+      {
+        "item_en": "Iced Americano",
+        "item_ar": "Iced Americano",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Iced americano",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/65b29d651089b09a894211e0ae11a619.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374591
+      },
+      {
+        "item_en": "Iced Latte",
+        "item_ar": "Iced Latte",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Iced latte",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/0c67fa43891e5981bdcda76f553b447a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374593
+      },
+      {
+        "item_en": "Iced Spanish Latte",
+        "item_ar": "Iced Spanish Latte",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Iced spanish latte",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/ea188fcdaa32d31a2caae1cef52c9591.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374595
+      },
+      {
+        "item_en": "Iced Pistachio Latte",
+        "item_ar": "Iced Pistachio Latte",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Iced pistachio latte",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/6df4b8deae99cfeac2b3c55b50bbe921.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374597
+      },
+      {
+        "item_en": "Iced White Mocha Latte",
+        "item_ar": "Iced White Mocha Latte",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Iced white mocha latte",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/69a759db96d2cf4068fc02e3c8226301.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374599
+      },
+      {
+        "item_en": "Iced Matcha Latte",
+        "item_ar": "Iced Matcha Latte",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Iced matcha latte",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/150289a15a3b84d2ce9eed6d0dda0e17.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374601
+      },
+      {
+        "item_en": "Iced Karkade",
+        "item_ar": "Iced Karkade",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Iced karkade",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/6a067d499f5988ee9019c4f40102b890.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374603
+      },
+      {
+        "item_en": "Blueberry Mojito",
+        "item_ar": "Blueberry Mojito",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Blueberry mojito",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/eacdddfc800e44954bbb889ed6508add.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374605
+      },
+      {
+        "item_en": "Tropical Fruits Mojito",
+        "item_ar": "Tropical Fruits Mojito",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Tropical fruits mojito",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/50529fbd90704a4d34c491a069ef48eb.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374607
+      },
+      {
+        "item_en": "Sparkling Water",
+        "item_ar": "Sparkling Water",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Sparkling water",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/c7ad73e3ffa554ab63545b41f081e5ca.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374609
+      }
+    ],
+    "Desserts": [
+      {
+        "item_en": "English Cake Vanilla",
+        "item_ar": "English Cake Vanilla",
+        "price": 11,
+        "currency": "SAR",
+        "description": "English cake vanilla",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/0b233986b1ba4ba2121b4184a75492f4.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374611
+      },
+      {
+        "item_en": "English Marble Cake",
+        "item_ar": "English Marble Cake",
+        "price": 11,
+        "currency": "SAR",
+        "description": "English marble cake",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/278562ba9c0fe90e9e39244dda619f40.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374613
+      },
+      {
+        "item_en": "English Cake Chocolate",
+        "item_ar": "English Cake Chocolate",
+        "price": 11,
+        "currency": "SAR",
+        "description": "English cake chocolate",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/52e7c59670842a081640badbc8a68e29.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374615
+      },
+      {
+        "item_en": "English Cake Orange",
+        "item_ar": "English Cake Orange",
+        "price": 11,
+        "currency": "SAR",
+        "description": "English cake orange",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/d38ffb062e91262c3e3e5fbe08b692c6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374617
+      },
+      {
+        "item_en": "English Cake Lemon",
+        "item_ar": "English Cake Lemon",
+        "price": 11,
+        "currency": "SAR",
+        "description": "English cake lemon",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/5ba64f827218f69c106e5ae113b8783d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374619
+      },
+      {
+        "item_en": "Dark Chocolate Pudding 70gms",
+        "item_ar": "Dark Chocolate Pudding 70gms",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Dark chocolate pudding-70gms",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/4fc786fbeefc558f4491fbd7c0fbed97.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374621
+      },
+      {
+        "item_en": "Dates Pudding 70gms",
+        "item_ar": "Dates Pudding 70gms",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Dates pudding-70gms",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/268e9f48657c79f048956aa18f69e2ec.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374623
+      },
+      {
+        "item_en": "Milk Chocolate Pudding 70gms",
+        "item_ar": "Milk Chocolate Pudding 70gms",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Milk chocolate pudding-70gms",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/7dfb8dd60b256a7ef4508e209d1e94cd.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374624
+      },
+      {
+        "item_en": "Chocolate Nutella Cookies Cup",
+        "item_ar": "Chocolate Nutella Cookies Cup",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Chocolate nutella cookies cup",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/d32ea3993a665bf199428307cc88655e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374627
+      },
+      {
+        "item_en": "Nutella Cookies Cup",
+        "item_ar": "Nutella Cookies Cup",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Nutella cookies cup",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/d229da1fda6ba1b43d8a4b534f997080.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374629
+      },
+      {
+        "item_en": "Pistachio Cookies Cup",
+        "item_ar": "Pistachio Cookies Cup",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Pistachio cookies cup",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/28d82d715f55641f4c02f8e963514c96.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374631
+      },
+      {
+        "item_en": "Mix Cookies Cup",
+        "item_ar": "Mix Cookies Cup",
+        "price": 0,
+        "currency": "SAR",
+        "description": "Mix cookies cup",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/1d3d43f062de2e0eead225ee92e7339d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374633
+      },
+      {
+        "item_en": "Cookies Vanilla",
+        "item_ar": "Cookies Vanilla",
+        "price": 11,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/bc880405edd9a30cf7eb85a3c4fd46c6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374635
+      },
+      {
+        "item_en": "Classic Brownies",
+        "item_ar": "Classic Brownies",
+        "price": 0,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/db1e349c39d3317d7603c5c5fb7013c8.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374636
+      },
+      {
+        "item_en": "Peanuts Brownies",
+        "item_ar": "Peanuts Brownies",
+        "price": 0,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/89ca0834c954cf030270401fef6cabe3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374639
+      },
+      {
+        "item_en": "Salted Caramel Brownies",
+        "item_ar": "Salted Caramel Brownies",
+        "price": 0,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/449639df58dec51f59181c3d547be7f8.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374641
+      },
+      {
+        "item_en": "Mixed Brownies 3 Pcs",
+        "item_ar": "Mixed Brownies 3 Pcs",
+        "price": 14,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374643
+      },
+      {
+        "item_en": "Pecan Bites",
+        "item_ar": "Pecan Bites",
+        "price": 0,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/56875d36221133cb717b027509771335.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374645
+      },
+      {
+        "item_en": "Brownie Bites",
+        "item_ar": "Brownie Bites",
+        "price": 11,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/c1570aeb4b5339b0c3b1643583a24104.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374647
+      },
+      {
+        "item_en": "Crunchy Chocolate",
+        "item_ar": "Crunchy Chocolate",
+        "price": 11,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Cofe/09bf235895cf73772b1e02a196f46f83.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72374649
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.030Z",
+  "source": "Hungerstation"
+}

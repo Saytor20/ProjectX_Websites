@@ -1,0 +1,269 @@
+{
+  "restaurant_info": {
+    "id": "148781",
+    "name": "Aram Coffee",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2102175,
+      "longitude": 42.49460819999999
+    },
+    "rating": 4.1,
+    "review_count": 65,
+    "type_of_food": "Desserts,Bakery,Coffee,Juices",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/148781"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Strawberry Matcha",
+        "item_ar": "Strawberry Matcha",
+        "price": 24,
+        "currency": "SAR",
+        "description": "A blend of green matcha with refreshing strawberry flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/f3a679386623bc205d761c16ff145c4f.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 67962066
+      },
+      {
+        "item_en": "Berry Matcha",
+        "item_ar": "Berry Matcha",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Matcha drink mixed with fresh berry flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/a9e1ab3d80a49716130beed5a496ff2e.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 67962067
+      },
+      {
+        "item_en": "Mango Matcha",
+        "item_ar": "Mango Matcha",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Matcha blended with tropical mango flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/c189c87065d6c0ead2c4aefd7e7581a6.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 67962068
+      },
+      {
+        "item_en": "Matcha Matcha",
+        "item_ar": "Matcha Matcha",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Green matcha tea powder with natural flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/1ba71f1bf40b0279b64498a1742e9851.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 67962065
+      }
+    ],
+    "Cold Beverages": [
+      {
+        "item_en": "Matcha Matcha",
+        "item_ar": "Matcha Matcha",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Green matcha tea powder with natural flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/1ba71f1bf40b0279b64498a1742e9851.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 67962065
+      },
+      {
+        "item_en": "Strawberry Matcha",
+        "item_ar": "Strawberry Matcha",
+        "price": 24,
+        "currency": "SAR",
+        "description": "A blend of green matcha with refreshing strawberry flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/f3a679386623bc205d761c16ff145c4f.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 67962066
+      },
+      {
+        "item_en": "Berry Matcha",
+        "item_ar": "Berry Matcha",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Matcha drink mixed with fresh berry flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/a9e1ab3d80a49716130beed5a496ff2e.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 67962067
+      },
+      {
+        "item_en": "Mango Matcha",
+        "item_ar": "Mango Matcha",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Matcha blended with tropical mango flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/c189c87065d6c0ead2c4aefd7e7581a6.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 67962068
+      },
+      {
+        "item_en": "Ice Americano",
+        "item_ar": "Ice Americano",
+        "price": 13,
+        "currency": "SAR",
+        "description": "A shot of espresso diluted with ice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/f394ecff72650e4c955a9562327904a4.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 67962069
+      },
+      {
+        "item_en": "Ice Coffee Of The Day",
+        "item_ar": "Ice Coffee Of The Day",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Iced black coffee brewed from specialty beans",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/17e58fc462acc465de66b54a5cb4e4ce.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 67962070
+      },
+      {
+        "item_en": "Ice V60",
+        "item_ar": "Ice V60",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Iced black coffee prepared using the drip method",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/17e58fc462acc465de66b54a5cb4e4ce.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 67962071
+      },
+      {
+        "item_en": "Ice Spanish Latte",
+        "item_ar": "Ice Spanish Latte",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Espresso with ice, milk, and sweetened condensed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/326ca5a9a6476c269883325d8e8f9ac7.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 67962072
+      }
+    ],
+    "Hot Beverages": [
+      {
+        "item_en": "Cappuccino",
+        "item_ar": "Cappuccino",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Espresso with steamed milk and foam",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/f00308819222f213c06d1556ed1be764.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 67962073
+      },
+      {
+        "item_en": "Flat White",
+        "item_ar": "Flat White",
+        "price": 17,
+        "currency": "SAR",
+        "description": "Rich espresso with steamed milk and foam",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/836bd72df0fd5262cc1cf93655dfd5be.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 67962074
+      },
+      {
+        "item_en": "Cortado",
+        "item_ar": "Cortado",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Equal parts espresso and steamed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/1896591657d851d9a26ee1aaed33646b.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 67962075
+      },
+      {
+        "item_en": "Spanish Latte",
+        "item_ar": "Spanish Latte",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Espresso with steamed milk and sweetened condensed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/e17de4e31f54d9a91e66bdc5da49423b.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 67962076
+      },
+      {
+        "item_en": "Latte",
+        "item_ar": "Latte",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Espresso with steamed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/e17de4e31f54d9a91e66bdc5da49423b.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 67962078
+      },
+      {
+        "item_en": "Matcha",
+        "item_ar": "Matcha",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Green matcha tea powder with natural flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/0d6b1d005fa0e9ae0999d2aff9fcc1a4.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 67962079
+      },
+      {
+        "item_en": "Espresso",
+        "item_ar": "Espresso",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Hot, concentrated espresso rich in flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/7303c43d890fdc4b400448238773171e.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 67962080
+      },
+      {
+        "item_en": "Americano",
+        "item_ar": "Americano",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Diluted espresso with a bold taste and light bitterness",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/97e3737f5bf6a198642d4aad640ecc21.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 67962081
+      },
+      {
+        "item_en": "Coffee Of The Day",
+        "item_ar": "Coffee Of The Day",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Black coffee brewed from ready specialty beans",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/c3007b463d97166fc6354bbf8a948bd6.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 67962082
+      },
+      {
+        "item_en": "V60",
+        "item_ar": "V60",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Black coffee brewed using the drip method",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/c3007b463d97166fc6354bbf8a948bd6.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 67962083
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.038Z",
+  "source": "Hungerstation"
+}

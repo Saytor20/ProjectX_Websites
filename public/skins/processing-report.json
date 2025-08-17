@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-08-14T04:24:02.181Z",
+  "processedSkins": [
+    {
+      "id": "bistly-modern",
+      "name": "Bistly Modern",
+      "rulesProcessed": 18,
+      "keyframesScoped": 0,
+      "variablesScoped": 72,
+      "animationsUpdated": 0,
+      "size": 28764,
+      "sizeGzipped": 4266,
+      "hash": "5c434f517935",
+      "conflicts": 0,
+      "warnings": 0
+    },
+    {
+      "id": "conbiz-premium",
+      "name": "Conbiz Premium",
+      "rulesProcessed": 212,
+      "keyframesScoped": 2,
+      "variablesScoped": 49,
+      "animationsUpdated": 2,
+      "size": 37499,
+      "sizeGzipped": 4815,
+      "hash": "63ec58e7a7c7",
+      "conflicts": 1,
+      "warnings": 0
+    },
+    {
+      "id": "mehu-fresh",
+      "name": "Mehu Fresh",
+      "rulesProcessed": 104,
+      "keyframesScoped": 0,
+      "variablesScoped": 50,
+      "animationsUpdated": 0,
+      "size": 18669,
+      "sizeGzipped": 3082,
+      "hash": "0278c7c2a828",
+      "conflicts": 2,
+      "warnings": 0
+    }
+  ],
+  "summary": {
+    "totalSkins": 3,
+    "totalSize": 84932,
+    "totalGzippedSize": 12163,
+    "totalConflicts": 3,
+    "totalWarnings": 0
+  }
+}

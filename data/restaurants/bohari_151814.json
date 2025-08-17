@@ -1,0 +1,150 @@
+{
+  "restaurant_info": {
+    "id": "151814",
+    "name": "Bohari",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2379334,
+      "longitude": 42.5605947
+    },
+    "rating": 4.3,
+    "review_count": 20,
+    "type_of_food": "Fast Food,Arabic",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/151814"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Piece Grilled Chicken With Rice",
+        "item_ar": "Piece Grilled Chicken With Rice",
+        "price": 49,
+        "currency": "SAR",
+        "description": "Our signature marinated chicken, grilled on a special grill, served with delicious rice.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/1cc1178ae7fb8648d3b9806852604322.JPG?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71086654
+      },
+      {
+        "item_en": "Half Grilled Chicken With Rice",
+        "item_ar": "Half Grilled Chicken With Rice",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Half a chicken, marinated on our special grill, served with delicious rice.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/870c731473bc1ee158173860d501f076.JPG?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71086656
+      },
+      {
+        "item_en": "Spicy Salad Sauce",
+        "item_ar": "Spicy Salad Sauce",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Parsley, tomatoes, onions, bulgur, and olive oil.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/71086658?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71086658
+      },
+      {
+        "item_en": "Soft Drink",
+        "item_ar": "Soft Drink",
+        "price": 5,
+        "currency": "SAR",
+        "description": "The soft drink with a unique and refreshing flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/9ef9fe09c480f38ce09d262baa816f64.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71086660
+      }
+    ],
+    "Salads": [
+      {
+        "item_en": "Spicy Salad Sauce",
+        "item_ar": "Spicy Salad Sauce",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Parsley, tomatoes, onions, bulgur, and olive oil.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/71086658?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71086658
+      }
+    ],
+    "Main Dishes": [
+      {
+        "item_en": "Piece Grilled Chicken With Rice",
+        "item_ar": "Piece Grilled Chicken With Rice",
+        "price": 49,
+        "currency": "SAR",
+        "description": "Our signature marinated chicken, grilled on a special grill, served with delicious rice.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/1cc1178ae7fb8648d3b9806852604322.JPG?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71086654
+      },
+      {
+        "item_en": "Half Grilled Chicken With Rice",
+        "item_ar": "Half Grilled Chicken With Rice",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Half a chicken, marinated on our special grill, served with delicious rice.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/870c731473bc1ee158173860d501f076.JPG?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71086656
+      },
+      {
+        "item_en": "Quarter Grilled Chicken With Rice",
+        "item_ar": "Quarter Grilled Chicken With Rice",
+        "price": 15,
+        "currency": "SAR",
+        "description": "A quarter chicken, marinated on our special grill, served with delicious rice.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/a6af0112ae570e974e5c81bdc08e7e79.JPG?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71086657
+      }
+    ],
+    "Beverages": [
+      {
+        "item_en": "Soft Drink",
+        "item_ar": "Soft Drink",
+        "price": 5,
+        "currency": "SAR",
+        "description": "The soft drink with a unique and refreshing flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/9ef9fe09c480f38ce09d262baa816f64.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71086660
+      },
+      {
+        "item_en": "Water",
+        "item_ar": "Water",
+        "price": 2,
+        "currency": "SAR",
+        "description": "Pure and refreshing fresh drinking water",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/930cf214b16bffef15aca73ea81c26e4.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71086661
+      },
+      {
+        "item_en": "Laban",
+        "item_ar": "Laban",
+        "price": 5,
+        "currency": "SAR",
+        "description": "A refreshing and beneficial fresh laban drink",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/151794/PRODUCT/71086662/c76c21a3-01b1-4338-bbb2-6cd9ff7387cc.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71086662
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.039Z",
+  "source": "Hungerstation"
+}

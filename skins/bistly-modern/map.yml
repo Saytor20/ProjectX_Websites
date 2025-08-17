@@ -1,0 +1,41 @@
+# Bistly Modern Skin Component Mapping
+# This file maps restaurant data to component properties using JSONPath expressions
+
+navbar:
+  brand: "$.restaurant.name"
+  logo: "$.restaurant.logo"
+  social_links: "$.restaurant.social_media"
+
+hero:
+  title: "$.restaurant.name"
+  subtitle: "$.restaurant.description"
+  images: "$.restaurant.gallery[0:3]"
+  cta_text: "View Menu"
+
+menu-list:
+  title: "Our Menu"
+  subtitle: "Authentic flavors crafted with the finest ingredients"
+  categories: "$.restaurant.menu.categories"
+
+gallery:
+  title: "Gallery"
+  images: "$.restaurant.gallery"
+
+hours:
+  title: "Opening Hours"
+  schedule: "$.restaurant.hours"
+
+location-map:
+  title: "Find Us"
+  locations: "$.restaurant.location"
+
+cta:
+  title: "Ready to Experience Excellence?"
+  description: "Join us for an unforgettable dining experience"
+  button_text: "Make Reservation"
+
+footer:
+  brand: "$.restaurant.name"
+  description: "$.restaurant.description"
+  hours: "$.restaurant.hours"
+  contact: "$.restaurant.contact"

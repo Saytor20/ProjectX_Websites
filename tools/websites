@@ -1,0 +1,472 @@
+#!/bin/bash
+
+# Restaurant Website Generator CLI
+# Version 5.0 - Modern Next.js Integration
+
+# --- Configuration ---
+# Point to the actual project directory
+PROJECT_ROOT="/Users/mohammadalmusaiteer/Project Shawrma-Website temp/Websites_nextjs"
+
+# --- Color Definitions (defined early for all functions) ---
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+CYAN='\033[0;36m'
+NC='\033[0m'
+
+# --- Helper Functions ---
+print_color() {
+    echo -e "${1}${2}${NC}"
+}
+
+# --- Optional Non-Interactive Mode ---
+# Usage: websites --build --template <template_id> --restaurant <file.json> [--mode source|static] [--serve]
+if [[ "$1" == "--build" ]]; then
+  shift
+  TEMPLATE=""
+  RESTAURANT=""
+  SERVE="false"
+  DEPLOYMENT_MODE="static"
+  while [[ $# -gt 0 ]]; do
+    case "$1" in
+      --template)
+        TEMPLATE="$2"; shift 2 ;;
+      --restaurant)
+        RESTAURANT="$2"; shift 2 ;;
+      --mode)
+        DEPLOYMENT_MODE="$2"; shift 2 ;;
+      --serve)
+        SERVE="true"; shift 1 ;;
+      *) shift ;;
+    esac
+  done
+  if [[ -z "$TEMPLATE" || -z "$RESTAURANT" ]]; then
+    echo "Usage: websites --build --template <template_id> --restaurant <file.json> [--mode source|static] [--serve]" >&2
+    exit 2
+  fi
+  node "$PROJECT_ROOT/generator/website-builder.js" --template "$TEMPLATE" --restaurant "$RESTAURANT" --mode "$DEPLOYMENT_MODE"
+  build_exit=$?
+  if [[ "$build_exit" -eq 0 ]]; then
+    # Locate the most recently modified generated site directory
+    site_dir=$(ls -td "$PROJECT_ROOT/generated_sites"/*/ 2>/dev/null | head -1)
+    if [[ -z "$site_dir" ]]; then
+      echo "Could not locate generated site directory." >&2
+      exit 1
+    fi
+    if [[ "$SERVE" == "true" ]]; then
+      lsof -ti:8080 | xargs kill -9 &> /dev/null
+      (cd "$site_dir" && python3 -m http.server 8080 &)
+      print_color $GREEN "\n🌐 Website is now running at: http://localhost:8080"
+      print_color $CYAN "Website directory: $site_dir"
+    else
+      print_color $CYAN "\nWebsite directory: $site_dir"
+      echo "To preview locally: (cd \"$site_dir\" && python3 -m http.server 8080) then open http://localhost:8080"
+    fi
+  fi
+  exit "$build_exit"
+fi
+
+# --- Interactive Input Functions ---
+
+# --- Additional Helper Functions ---
+
+print_header() {
+    clear
+    print_color $CYAN "🌐 Restaurant Website Generator"
+    echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+    echo
+}
+
+# Simple input reading for interactive mode
+simple_read() {
+    local prompt="$1"
+    printf "%s" "$prompt"
+    read -r response
+    echo "$response"
+}
+
+# --- Core CLI Functions ---
+
+# 1. Build a Website - Completely Rebuilt for Reliability
+build_website_workflow() {
+    cd "$PROJECT_ROOT" || exit 1
+    
+    # Clear screen and show header
+    clear
+    print_color $CYAN "🌐 Restaurant Website Generator - Build Website"
+    echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+    echo
+
+    # Step 1: Template Selection
+    print_color $YELLOW "Step 1: Choose a template"
+    echo
+
+    # Get all templates using absolute path - handle spaces in paths properly
+    local templates=()
+    local template_names=()
+    
+    # Process each template directory - use while loop to handle spaces in paths
+    while IFS= read -r -d '' template_dir; do
+        local template_id=$(basename "$template_dir")
+        local template_json="$template_dir/template.json"
+        local display_name="$template_id"
+        
+        # Try to get the name from template.json
+        if [ -f "$template_json" ] && command -v jq >/dev/null 2>&1; then
+            display_name=$(jq -r '.displayName // .name // .id // ""' "$template_json" 2>/dev/null)
+            if [ -z "$display_name" ] || [ "$display_name" = "null" ]; then
+                display_name="$template_id"
+            fi
+        elif [ -f "$template_json" ]; then
+            # Fallback to grep if jq is not available
+            local displayName=$(grep '"displayName"' "$template_json" 2>/dev/null | head -1 | sed 's/.*"displayName"[[:space:]]*:[[:space:]]*"\([^"]*\)".*/\1/')
+            if [ ! -z "$displayName" ]; then
+                display_name="$displayName"
+            fi
+        fi
+        
+        templates+=("$template_id")
+        template_names+=("$display_name")
+    done < <(find "$PROJECT_ROOT/templates/variants" -mindepth 1 -maxdepth 1 -type d -print0 2>/dev/null | sort -z)
+
+    # Check if we have templates
+    if [ ${#templates[@]} -eq 0 ]; then
+        print_color $RED "❌ No templates found!"
+        echo
+        printf "Press Enter to return to main menu..."
+        read
+        return 1
+    fi
+
+    # Display templates
+    for i in "${!templates[@]}"; do
+        printf "%2d) %s\n" $((i+1)) "${template_names[$i]}"
+    done
+    echo
+
+    # Get template choice
+    local template_choice=""
+    while true; do
+        printf "Choose template (1-${#templates[@]}): "
+        if ! read template_choice; then
+            # Handle EOF (Ctrl+D or piped input ending)
+            echo
+            print_color $RED "Input ended. Returning to main menu..."
+            return 1
+        fi
+        
+        # Validate choice
+        if [[ "$template_choice" =~ ^[0-9]+$ ]] && [ "$template_choice" -ge 1 ] && [ "$template_choice" -le ${#templates[@]} ]; then
+            break
+        else
+            print_color $RED "Invalid choice. Please enter a number between 1 and ${#templates[@]}"
+        fi
+    done
+
+    local selected_template="${templates[$((template_choice-1))]}"
+    local selected_template_name="${template_names[$((template_choice-1))]}"
+
+    # Step 2: Restaurant Selection
+    clear
+    print_color $CYAN "🌐 Restaurant Website Generator - Build Website"
+    echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+    echo
+    print_color $YELLOW "Step 2: Choose a restaurant"
+    echo
+    print_color $CYAN "Selected template: $selected_template_name"
+    echo
+
+    # Get all restaurant files
+    local restaurant_files=($(ls restaurant_data/*.json 2>/dev/null | grep -v "_processing_summary.json" | sort))
+    local restaurants=()
+    
+    # Process restaurant files
+    for restaurant_file in "${restaurant_files[@]}"; do
+        local restaurant_name=$(basename "$restaurant_file")
+        restaurants+=("$restaurant_name")
+    done
+
+    # Check if we have restaurants
+    if [ ${#restaurants[@]} -eq 0 ]; then
+        print_color $RED "❌ No restaurant files found!"
+        echo
+        printf "Press Enter to return to main menu..."
+        read
+        return 1
+    fi
+
+    # Display restaurants (first 20 for readability)
+    local display_count=${#restaurants[@]}
+    if [ $display_count -gt 20 ]; then
+        display_count=20
+    fi
+
+    for i in $(seq 0 $((display_count-1))); do
+        printf "%2d) %s\n" $((i+1)) "${restaurants[$i]}"
+    done
+    
+    if [ ${#restaurants[@]} -gt 20 ]; then
+        printf "    ... and %d more restaurants\n" $((${#restaurants[@]} - 20))
+    fi
+    echo
+
+    # Get restaurant choice
+    local restaurant_choice=""
+    while true; do
+        printf "Choose restaurant (1-${#restaurants[@]}): "
+        if ! read restaurant_choice; then
+            # Handle EOF (Ctrl+D or piped input ending)
+            echo
+            print_color $RED "Input ended. Returning to main menu..."
+            return 1
+        fi
+        
+        # Validate choice
+        if [[ "$restaurant_choice" =~ ^[0-9]+$ ]] && [ "$restaurant_choice" -ge 1 ] && [ "$restaurant_choice" -le ${#restaurants[@]} ]; then
+            break
+        else
+            print_color $RED "Invalid choice. Please enter a number between 1 and ${#restaurants[@]}"
+        fi
+    done
+
+    local selected_restaurant="${restaurants[$((restaurant_choice-1))]}"
+
+    # Step 3: Choose Deployment Mode  
+    clear
+    print_color $CYAN "🌐 Restaurant Website Generator - Build Website"
+    echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+    echo
+    print_color $YELLOW "Step 3: Choose deployment type"
+    echo
+    print_color $CYAN "Template: $selected_template_name ($selected_template)"
+    print_color $CYAN "Restaurant: $selected_restaurant"
+    echo
+    
+    print_color $YELLOW "Deployment Options:"
+    echo "1) Testing & Preview (localhost)"
+    echo "   - Generates static files for local testing"
+    echo "   - Starts local server for immediate preview"
+    echo "   - Ideal for testing and development"
+    echo
+    echo "2) Production Deployment (Vercel)"
+    echo "   - Generates full Next.js source code"
+    echo "   - Ready for Vercel deployment with GitHub"
+    echo "   - Supports plugins and dynamic features"
+    echo
+
+    # Get deployment choice
+    local deployment_choice=""
+    while true; do
+        printf "Choose deployment type (1-2): "
+        if ! read deployment_choice; then
+            echo
+            print_color $RED "Input ended. Returning to main menu..."
+            return 1
+        fi
+        
+        if [[ "$deployment_choice" =~ ^[12]$ ]]; then
+            break
+        else
+            print_color $RED "Invalid choice. Please enter 1 or 2"
+        fi
+    done
+
+    local deployment_mode="static"
+    local deployment_type="Testing & Preview"
+    if [ "$deployment_choice" = "2" ]; then
+        deployment_mode="source"
+        deployment_type="Production Deployment"
+    fi
+
+    # Step 4: Build Website
+    clear
+    print_color $CYAN "🌐 Restaurant Website Generator - Build Website"
+    echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+    echo
+    print_color $YELLOW "Step 4: Building your website..."
+    echo
+    print_color $CYAN "Template: $selected_template_name ($selected_template)"
+    print_color $CYAN "Restaurant: $selected_restaurant"
+    print_color $CYAN "Deployment: $deployment_type ($deployment_mode mode)"
+    echo
+    print_color $GREEN "🚀 Starting build process..."
+    echo
+
+    # Execute the build with chosen deployment mode
+    if node "$PROJECT_ROOT/generator/website-builder.js" --template "$selected_template" --restaurant "$selected_restaurant" --mode "$deployment_mode"; then
+        # Find the most recently modified directory in generated_sites
+        local website_dir=$(ls -td "$PROJECT_ROOT/generated_sites"/*/ 2>/dev/null | head -1)
+        
+        echo
+        print_color $GREEN "✅ Website built successfully!"
+        echo
+        print_color $CYAN "📁 Website location: $website_dir"
+        echo
+        
+        if [ "$deployment_mode" = "static" ]; then
+            # Testing & Preview Mode
+            print_color $YELLOW "🌐 Starting local preview server..."
+            
+            # Kill any existing server on port 8080
+            pkill -f "python3 -m http.server 8080" 2>/dev/null || true
+            
+            # Start new server in background
+            (cd "$website_dir" && python3 -m http.server 8080 >/dev/null 2>&1 &)
+            sleep 2
+            
+            print_color $GREEN "✅ Preview server started!"
+            print_color $GREEN "🔗 Website is now running at: http://localhost:8080"
+            echo
+            print_color $CYAN "💡 This is for testing only. Use option 2 for production deployment."
+            
+        else
+            # Production Deployment Mode
+            print_color $GREEN "🚀 Ready for Vercel deployment!"
+            echo
+            print_color $YELLOW "Next Steps for Vercel Deployment:"
+            echo "1. Push this directory to GitHub:"
+            echo "   cd \"$website_dir\""
+            echo "   git init && git add . && git commit -m \"Initial commit\""
+            echo "   git remote add origin <your-github-repo-url>"
+            echo "   git push -u origin main"
+            echo
+            echo "2. Connect to Vercel:"
+            echo "   - Go to https://vercel.com"
+            echo "   - Import your GitHub repository"
+            echo "   - Deploy automatically!"
+            echo
+            print_color $CYAN "🔗 Your Vercel URL will be: https://your-project-name.vercel.app"
+            print_color $CYAN "💡 Full Next.js source code with plugins support included."
+        fi
+        
+    else
+        echo
+        print_color $RED "❌ Website build failed!"
+        echo
+    fi
+
+    # Wait for user input before returning
+    printf "Press Enter to return to main menu..."
+    read
+}
+
+# 2. System Status
+show_system_status() {
+    print_header
+    print_color $CYAN "📊 System Status"
+    echo
+    local template_count=$(ls -d templates/variants/*/ 2>/dev/null | wc -l)
+    local restaurant_count=$(ls restaurant_data/*.json 2>/dev/null | wc -l)
+    local website_count=$(ls generated_sites/ 2>/dev/null | wc -l)
+    
+    echo "- Template Variants: $template_count (path: $PROJECT_ROOT/templates/variants)"
+    echo "- Restaurant Data Files: $restaurant_count (path: $PROJECT_ROOT/restaurant_data)"
+    echo "- Generated Websites: $website_count (path: $PROJECT_ROOT/generated_sites)"
+    echo "- Shared Components: $(ls templates/_shared/src/components/ 2>/dev/null | wc -l)"
+    echo
+    print_color $YELLOW "Available Template Variants:"
+    for template_dir in $(ls -d templates/variants/*/ 2>/dev/null); do
+        local template_id=$(basename "$template_dir")
+        local template_json="$template_dir/template.json"
+        local display_name="$template_id"
+        
+        if [ -f "$template_json" ]; then
+            local displayName=$(grep '"displayName"' "$template_json" | sed 's/.*"displayName": *"\([^"]*\)".*/\1/')
+            if [ ! -z "$displayName" ]; then
+                display_name="$displayName"
+            fi
+        fi
+        
+        echo "  • $display_name ($template_id)"
+    done
+    echo
+    printf "Press Enter to return to the main menu..."
+    read
+}
+
+# 3. View Generated Websites
+view_generated_websites() {
+    print_header
+    print_color $CYAN "📁 Generated Websites"
+    echo
+    
+    local websites=($(ls generated_sites/ | grep -v "_generation_summary.json"))
+    if [ ${#websites[@]} -eq 0 ]; then
+        print_color $YELLOW "No websites have been generated yet."
+        echo
+    printf "Press Enter to return to the main menu..."
+    read
+        return
+    fi
+    
+    for i in "${!websites[@]}"; do
+        printf "%2d) %s\n" $((i+1)) "${websites[$i]}"
+    done
+    echo
+    printf "Enter website number to view (or press Enter to go back): "
+    read choice
+    
+    if [[ "$choice" =~ ^[0-9]+$ ]] && [ "$choice" -ge 1 ] && [ "$choice" -le ${#websites[@]} ]; then
+        local selected_website="${websites[$((choice-1))]}"
+        
+        # Stop any existing server
+        lsof -ti:8080 | xargs kill -9 &> /dev/null
+        
+        # Start server for selected website
+        (cd "$PROJECT_ROOT/generated_sites/$selected_website" && python3 -m http.server 8080 &)
+        
+        print_color $GREEN "
+🌐 Website is now running at: http://localhost:8080"
+        print_color $CYAN "Website: $selected_website"
+        echo
+    printf "Press Enter to stop the server and return to menu..."
+    read
+        
+        # Stop the server
+        lsof -ti:8080 | xargs kill -9 &> /dev/null
+    fi
+}
+
+
+# --- Main Menu --- 
+main_menu() {
+    while true; do
+        print_header
+        print_color $YELLOW "Please choose an option:"
+        echo "1) Build Website 🏗️"
+        echo "2) System Status 📊"
+        echo "3) View Generated Websites 📁"
+        echo "4) Clean Generated Sites 🗑️"
+        echo "5) Exit"
+        echo
+        printf "Enter your choice [1-5]: "
+        if ! read choice; then
+            # Handle EOF (Ctrl+D or piped input ending)
+            echo
+            print_color $YELLOW "Goodbye!"
+            exit 0
+        fi
+
+        case $choice in
+            1) build_website_workflow ;;
+            2) show_system_status ;;
+            3) view_generated_websites ;;
+            4) 
+                print_header
+                print_color $YELLOW "🧹 Cleaning generated sites and temporary build directories..."
+                echo
+                rm -rf "$PROJECT_ROOT/generated_sites"/* 2>/dev/null
+                rm -rf "$PROJECT_ROOT/generator/temp_build"/* 2>/dev/null
+                print_color $GREEN "Done."
+                echo
+                printf "Press Enter to return to the main menu..."
+                read
+                ;;
+            5) exit 0 ;;
+            *) print_color $RED "Invalid choice. Please try again." && sleep 2 ;;
+        esac
+    done
+}
+
+# --- Entry Point ---
+main_menu

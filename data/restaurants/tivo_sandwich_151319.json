@@ -1,0 +1,301 @@
+{
+  "restaurant_info": {
+    "id": "151319",
+    "name": "tivo Sandwich",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2692892,
+      "longitude": 42.6571635
+    },
+    "rating": 3.8,
+    "review_count": 4,
+    "type_of_food": "Sandwich,Fast Food",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/151319"
+  },
+  "menu_categories": {
+    "Sandwich Sets": [
+      {
+        "item_en": "Tivo Set Of 3",
+        "item_ar": "Tivo Set Of 3",
+        "price": 78,
+        "currency": "SAR",
+        "description": "Choose any 3 borderless sandwiches at a special discounted price",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Tivo/34648fbdfbe639e9e4856e577f4926cb.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74234356
+      }
+    ],
+    "Chicken Sandwich": [
+      {
+        "item_en": "Classic Shawarama",
+        "item_ar": "Classic Shawarama",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Enjoy the arabian shawarma flavor with our special baked bread with shawarma chicken, special tomato sauce, dill pickles, mozzarella cheese, oregano, and garlic mayo",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Tivo/0e98fa8b75bbc8bb0ccd969239ab92c1.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74234360
+      },
+      {
+        "item_en": "Porto Peri Peri",
+        "item_ar": "Porto Peri Peri",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Enjoy the portuguese flavor in our special baked bread with peri peri chicken, green pepper, onion, mozzarella cheese, oregano and peri peri sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Tivo/859fa600e795062f73c010f142197e16.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74234365
+      },
+      {
+        "item_en": "Chicken Mexicana",
+        "item_ar": "Chicken Mexicana",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Enjoy the mexican flavor with our special baked bread with chipotle chicken, green & red pepper, onion, jalapeno and mozzarella cheese",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Tivo/11ba49d9b662fc6aeadc58e28906c0e8.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74234370
+      },
+      {
+        "item_en": "Chicken Ranch Jalapeno",
+        "item_ar": "Chicken Ranch Jalapeno",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Enjoy the classic ranch flavor with our special baked bread and chicken with our ranch sauce, mozzarella cheese, jalapeno and oregano",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Tivo/a346ea981f4cb50be8a97f356a3d1485.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74234379
+      },
+      {
+        "item_en": "Korean Chicken Kickers",
+        "item_ar": "Korean Chicken Kickers",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Enjoy the korean flavor with our special baked bread, chicken kickers, hot honey sauce, green pepper, mozzarella cheese, dill pickles and oregano.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Tivo/9698b269aba5608f9fd4044649102358.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74234385
+      },
+      {
+        "item_en": "Bollywood Chicken",
+        "item_ar": "Bollywood Chicken",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Enjoy the indian flavor in our special baked bread with peri peri chicken, mozzarella cheese, green pepper, oregano, mint & coriander sauce and tomato sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Tivo/6112370293c2a94ba13aca318f3f945d.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74234389
+      },
+      {
+        "item_en": "Texas Bbq Chicken",
+        "item_ar": "Texas Bbq Chicken",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Enjoy the texas flavor with our special baked bread with bbq chicken, cheese, caramelized onions and a sprinkle of oregano",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Tivo/9bc906464f47f9075a3d69d838ec5a9e.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74234394
+      }
+    ],
+    "Meat Sandwiches": [
+      {
+        "item_en": "London Steak & Chips",
+        "item_ar": "London Steak & Chips",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Enjoy the london flavor with our special baked bread, beef steak slices, potato wedges, mozzarella cheese, dijon dressing and oregano",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Tivo/85106852af29f8b27ed1da0560ee6202.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74234401
+      },
+      {
+        "item_en": "Nyc Smoked Beef",
+        "item_ar": "Nyc Smoked Beef",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Enjoy the new york flavor with our special baked bread with smoked beef, dijon and ranch sauce, mozzeralla cheese, oregano and pickles",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Tivo/c5d34adead8002d4b42a007eb1a865b7.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74234408
+      }
+    ],
+    "Veg Sandwiches": [
+      {
+        "item_en": "Roman Garden",
+        "item_ar": "Roman Garden",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Enjoy the italian flavor in our special baked bread with roasted veggies mozzarella cheese parmesan cheese oregano and pesto sauce enjoy the italian flavor in our special baked bread with roasted veggies mozzarella che",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Tivo/4a77b5db9252dc889d728e3e5c2e50cc.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74234415
+      },
+      {
+        "item_en": "Le Paris Veggie",
+        "item_ar": "Le Paris Veggie",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Enjoy the french flavor in our special baked bread with roasted mushrooms mozzarella cheese oregano potato and alfredo sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Tivo/72814d73351527a93899f6caecd704ca.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74234420
+      }
+    ],
+    "Side Dishes": [
+      {
+        "item_en": "Potato Wedges",
+        "item_ar": "Potato Wedges",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Golden slices of potato infused with herbs",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Tivo/43327ead12dd49128bf77fe2ebfb4456.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74234427
+      },
+      {
+        "item_en": "Chicken Kickers",
+        "item_ar": "Chicken Kickers",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Chicken kickers",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Tivo/d50250e5becd8a154ada8942f30fa8a6.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74234429
+      },
+      {
+        "item_en": "Rocca Parmigiana Salad",
+        "item_ar": "Rocca Parmigiana Salad",
+        "price": 16,
+        "currency": "SAR",
+        "description": "A fresh mix of rocca, cherry tomatoes, and shredded parmesan tossed in a dijon dressing for a light and flavorful salad.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Tivo/aebb93107719f33fed9778f9b6c9f094.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74234440
+      }
+    ],
+    "Desserts": [
+      {
+        "item_en": "Choco Chip Cookies",
+        "item_ar": "Choco Chip Cookies",
+        "price": 12,
+        "currency": "SAR",
+        "description": "2 pcs of our special chocolate chip cookies",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Tivo/5baa2a627df144a3b7845b087f26dcb2.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74234442
+      }
+    ],
+    "Sauces": [
+      {
+        "item_en": "Dynamite Dip",
+        "item_ar": "Dynamite Dip",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Dynamite dip",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Tivo/d8187de83948a8eec0cfb1793d1d283e.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74234449
+      }
+    ],
+    "Drinks": [
+      {
+        "item_en": "7 Up",
+        "item_ar": "7 Up",
+        "price": 5,
+        "currency": "SAR",
+        "description": "7 up",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Tivo/e3293b27063120a2a341eaa3b128a7f7.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74234452
+      },
+      {
+        "item_en": "Diet 7 Up 360ml",
+        "item_ar": "Diet 7 Up 360ml",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Diet 7 up 360ml",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Tivo/0e086ba711c64f9775cd297adf51241f.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74234454
+      },
+      {
+        "item_en": "Diet Pepsi",
+        "item_ar": "Diet Pepsi",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Diet pepsi",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Tivo/d3e9d50481f7932910edf17d5fa1eeea.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74234457
+      },
+      {
+        "item_en": "Mirinda Orange 360ml",
+        "item_ar": "Mirinda Orange 360ml",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Mirinda orange 360ml",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Tivo/c1b55de86be8cbecc61ce3b37ad75e8f.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74234459
+      },
+      {
+        "item_en": "Pepsi 360ml",
+        "item_ar": "Pepsi 360ml",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Pepsi 360ml",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Tivo/92c5d93372bd54f7ae6bf02296f0137e.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74234462
+      },
+      {
+        "item_en": "Mirinda Citrus 360ml",
+        "item_ar": "Mirinda Citrus 360ml",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Mirinda citrus 360ml",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Tivo/2ee0029d3f92641893b265663eb226c4.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74234465
+      },
+      {
+        "item_en": "Aquafina 500 Ml",
+        "item_ar": "Aquafina 500 Ml",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Aquafina 500 ml",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Tivo/116ede10cd1787806f507cb57c7757ed.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74234467
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.030Z",
+  "source": "Hungerstation"
+}

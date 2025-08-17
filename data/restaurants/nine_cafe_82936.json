@@ -1,0 +1,1010 @@
+{
+  "restaurant_info": {
+    "id": "82936",
+    "name": "Nine cafe",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2481351,
+      "longitude": 42.620568
+    },
+    "rating": 4.7,
+    "review_count": 17,
+    "type_of_food": "Desserts,Coffee",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/82936"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Pudding",
+        "item_ar": "Pudding",
+        "price": 24,
+        "currency": "SAR",
+        "description": "New now  delicious pudding dessert with marshmallow covered with chocolate and nuts",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/38102094?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 38102094
+      },
+      {
+        "item_en": "Ice Japanese V60",
+        "item_ar": "Ice Japanese V60",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Now try japanese ice with our specialty coffee",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-24000053?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 24000053
+      },
+      {
+        "item_en": "Italian Coffee - Italian Coffee Large",
+        "item_ar": "Italian Coffee - Italian Coffee Large",
+        "price": 17,
+        "currency": "SAR",
+        "description": "Balanced taste of italian coffee and steamed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-14987828?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987828
+      },
+      {
+        "item_en": "Crunchy Cake",
+        "item_ar": "Crunchy Cake",
+        "price": 29,
+        "currency": "SAR",
+        "description": "New now, delicious chocolate cake with crunchy chocolate chips for a unique experience. enjoy the taste of chocolate with cream.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/6d004224c5b18430c1446ace47b63ded.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 67482766
+      }
+    ],
+    "Boxs": [
+      {
+        "item_en": "Daily Coffee Box",
+        "item_ar": "Daily Coffee Box",
+        "price": 48,
+        "currency": "SAR",
+        "description": "Today's coffee box with cups to share and taste today's coffee",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/4e73b7a2453b6110dc2ed256b4f9993e?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56955059
+      },
+      {
+        "item_en": "Hot Chocolate Box",
+        "item_ar": "Hot Chocolate Box",
+        "price": 83,
+        "currency": "SAR",
+        "description": "New now enjoy a delicious chocolate box that includes 6 special cups made with love",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/38021510?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 38021510
+      },
+      {
+        "item_en": "Family Roselle",
+        "item_ar": "Family Roselle",
+        "price": 95,
+        "currency": "SAR",
+        "description": "Now with the strongest summer offers\nhibiscus ice box\nthe most delicious hibiscus and the most refreshing drink\nserved with 8 cups\nto taste it as you like\nshake well before use",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/21254985?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 21254985
+      }
+    ],
+    "Nafhmk": [
+      {
+        "item_en": "Cheese Mango",
+        "item_ar": "Cheese Mango",
+        "price": 29,
+        "currency": "SAR",
+        "description": "New now with delicious mango cake with cream",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/4bed255df90cc6449fdabc71f808fa20?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71093164
+      },
+      {
+        "item_en": "Tuna Spicy Sandwich",
+        "item_ar": "Tuna Spicy Sandwich",
+        "price": 21,
+        "currency": "SAR",
+        "description": "New now with the delicious spicy tuna sandwich from coffee at nine",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/1e9f82d4a666b34bb08eca9b82fa247a?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72411219
+      },
+      {
+        "item_en": "Crunchy Cake",
+        "item_ar": "Crunchy Cake",
+        "price": 29,
+        "currency": "SAR",
+        "description": "New now, delicious chocolate cake with crunchy chocolate chips for a unique experience. enjoy the taste of chocolate with cream.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/6d004224c5b18430c1446ace47b63ded.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 67482766
+      },
+      {
+        "item_en": "Cheesecake Coconut",
+        "item_ar": "Cheesecake Coconut",
+        "price": 27,
+        "currency": "SAR",
+        "description": "Coconut cheesecake is a rich and creamy dessert with a tropical twist. it typically features a graham cracker crust and a cheesecake filling made with cream cheese, sugar, eggs, and coconut. the coconut flavor can come from shredded coconut, coconut milk, coconut extract, or a combination of these ingredients.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/25aa1ec8167abe8390ec5188f095d5e8.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 65864927
+      },
+      {
+        "item_en": "Choco Missu",
+        "item_ar": "Choco Missu",
+        "price": 26,
+        "currency": "SAR",
+        "description": "New now tiramisu 9 with chocolate",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/452a6f42e31c51d52922f4696e2afd67?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64430938
+      },
+      {
+        "item_en": "Tiramisu Cup",
+        "item_ar": "Tiramisu Cup",
+        "price": 22,
+        "currency": "SAR",
+        "description": "New now tiramcio cup cake stuffed with delicious chocolate cream",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/82938/PRODUCT/41022295/9ac5438b-b247-4bd7-aab1-4c959a86edde.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 41022295
+      },
+      {
+        "item_en": "Pudding",
+        "item_ar": "Pudding",
+        "price": 24,
+        "currency": "SAR",
+        "description": "New now  delicious pudding dessert with marshmallow covered with chocolate and nuts",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/38102094?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 38102094
+      },
+      {
+        "item_en": "Cold Hazelnut Chocolate",
+        "item_ar": "Cold Hazelnut Chocolate",
+        "price": 20,
+        "currency": "SAR",
+        "description": "New now from summer coffee at nine cold chocolate for a refreshing summer with a hazelnut flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/074bdc3bad9c3069cf9fc5bbce00ac45?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70834539
+      },
+      {
+        "item_en": "Cold Hazelnut Italian",
+        "item_ar": "Cold Hazelnut Italian",
+        "price": 20,
+        "currency": "SAR",
+        "description": "New from summer coffee at nine: an italian drink with a delicious hazelnut flavor.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/89f2f27e9e796c94674b0e5628a8062f?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70586714
+      },
+      {
+        "item_en": "Alfredo",
+        "item_ar": "Alfredo",
+        "price": 14,
+        "currency": "SAR",
+        "description": "New now from the ninth summer coffee coffee drink from our delicious coffee crops try the taste of cold coffee from the ninth coffee",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/71093182?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71093182
+      },
+      {
+        "item_en": "Hot Chocolate Hazelnut   Medium",
+        "item_ar": "Hot Chocolate Hazelnut   Medium",
+        "price": 16,
+        "currency": "SAR",
+        "description": "New now hot chocolate with a new mixture with a wonderful hazelnut taste",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/5cb323678c8dedb2f62267ba0682cc65?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62163020
+      },
+      {
+        "item_en": "Latte",
+        "item_ar": "Latte",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Espresso with steamed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/14987821?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987821
+      }
+    ],
+    "Hot Drinks": [
+      {
+        "item_en": "Black American Coffee - Black American Coffee Medium",
+        "item_ar": "Black American Coffee - Black American Coffee Medium",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Black coffee prepared from specialized crops, ready upon request",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1022118?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 40438152
+      },
+      {
+        "item_en": "Spanish Latte - Hot Spanish Latte   Medium",
+        "item_ar": "Spanish Latte - Hot Spanish Latte   Medium",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Espresso coffee with steamed milk and sweetened condensed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1022119?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 40438153
+      },
+      {
+        "item_en": "Cappuccino - Cappuccino Meduim",
+        "item_ar": "Cappuccino - Cappuccino Meduim",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Espresso with steamed milk and foam",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1022120?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 40438154
+      },
+      {
+        "item_en": "Italian Coffee - Italian Coffee Medium",
+        "item_ar": "Italian Coffee - Italian Coffee Medium",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Balanced taste of italian coffee and steamed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1022121?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 40438155
+      },
+      {
+        "item_en": "French Coffee - French Coffee Medium",
+        "item_ar": "French Coffee - French Coffee Medium",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Beverage made with espresso, milk and sugar - large",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1022122?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 40438156
+      },
+      {
+        "item_en": "Italian With Hazelnut - Italian With Hazelnut Medium",
+        "item_ar": "Italian With Hazelnut - Italian With Hazelnut Medium",
+        "price": 17,
+        "currency": "SAR",
+        "description": "A shot of espresso coffee added to water with hazelnuts",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1022123?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 40438157
+      },
+      {
+        "item_en": "Mocha - Mocha Medium",
+        "item_ar": "Mocha - Mocha Medium",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Espresso coffee with steamed milk and chocolate",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1022125?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 40438159
+      },
+      {
+        "item_en": "Special Cappuccino - Special Cappuccino    Medium",
+        "item_ar": "Special Cappuccino - Special Cappuccino    Medium",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Espresso with steamed milk and foam",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1022126?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 40438160
+      },
+      {
+        "item_en": "Coffee Day - Coffe Day   Large",
+        "item_ar": "Coffee Day - Coffe Day   Large",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Enjoy a cup of fresh coffee every day at all times of the day",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1060561?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 43397328
+      },
+      {
+        "item_en": "Black American Coffee - Black American Coffee Large",
+        "item_ar": "Black American Coffee - Black American Coffee Large",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Black coffee prepared from specialized crops, ready upon request",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-14987834?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987834
+      },
+      {
+        "item_en": "Spanish Latte - Hot Spanish Latte   Large",
+        "item_ar": "Spanish Latte - Hot Spanish Latte   Large",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Espresso coffee with steamed milk and sweetened condensed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-14987831?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987831
+      },
+      {
+        "item_en": "Cappuccino - Cappuccino Large",
+        "item_ar": "Cappuccino - Cappuccino Large",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Espresso with steamed milk and foam",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-14987816?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987816
+      },
+      {
+        "item_en": "Italian Coffee - Italian Coffee Large",
+        "item_ar": "Italian Coffee - Italian Coffee Large",
+        "price": 17,
+        "currency": "SAR",
+        "description": "Balanced taste of italian coffee and steamed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-14987828?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987828
+      },
+      {
+        "item_en": "French Coffee - French Coffee Large",
+        "item_ar": "French Coffee - French Coffee Large",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Beverage made with espresso, milk and sugar - large",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-14987830?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987830
+      },
+      {
+        "item_en": "Turkish Coffee",
+        "item_ar": "Turkish Coffee",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Coffee prepared in the traditional turkish way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/14987833?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987833
+      },
+      {
+        "item_en": "Double Shot Espresso",
+        "item_ar": "Double Shot Espresso",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Hot espresso without additives",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/14987815?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987815
+      },
+      {
+        "item_en": "Italian With Hazelnut - Italian With Hazelnut Large",
+        "item_ar": "Italian With Hazelnut - Italian With Hazelnut Large",
+        "price": 20,
+        "currency": "SAR",
+        "description": "A shot of espresso coffee added to water with hazelnuts",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-14987829?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987829
+      },
+      {
+        "item_en": "Cortado",
+        "item_ar": "Cortado",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Equal quantity of espresso coffee and steamed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/14987819?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987819
+      },
+      {
+        "item_en": "Mocha - Mocha Large",
+        "item_ar": "Mocha - Mocha Large",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Espresso coffee with steamed milk and chocolate",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-14987836?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987836
+      },
+      {
+        "item_en": "Special Cappuccino - Special Cappuccino    Large",
+        "item_ar": "Special Cappuccino - Special Cappuccino    Large",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Espresso with steamed milk and foam",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-14987817?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987817
+      },
+      {
+        "item_en": "Double Shot Macchiato",
+        "item_ar": "Double Shot Macchiato",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Double shot espresso with a spoonful of thick milk foam",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/14987818?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987818
+      },
+      {
+        "item_en": "Flat White",
+        "item_ar": "Flat White",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Espresso coffee with milk and rich foam",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/14987820?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987820
+      },
+      {
+        "item_en": "Hot Mint",
+        "item_ar": "Hot Mint",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Boil mint leaves with hot water",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-22000196?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 22000196
+      },
+      {
+        "item_en": "Moroccan Coffee",
+        "item_ar": "Moroccan Coffee",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Coffee prepared in the traditional moroccan style",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/14987825?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987825
+      },
+      {
+        "item_en": "Coffee Day - Coffe Day   Medium",
+        "item_ar": "Coffee Day - Coffe Day   Medium",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Enjoy a cup of fresh coffee every day at all times of the day",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/4d17e804983440cb1120accd1391e07f?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 31782498
+      },
+      {
+        "item_en": "Hot Caramel Macchiato",
+        "item_ar": "Hot Caramel Macchiato",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Single macchiato flavored with caramel and milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/32014514?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32014514
+      },
+      {
+        "item_en": "Saudi Coffee Cup",
+        "item_ar": "Saudi Coffee Cup",
+        "price": 10,
+        "currency": "SAR",
+        "description": "one cup of arabic coffee in the distinctive ninth coffee style",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-14987835?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987835
+      }
+    ],
+    "Distilled Coffee": [
+      {
+        "item_en": "Hot V60",
+        "item_ar": "Hot V60",
+        "price": 17,
+        "currency": "SAR",
+        "description": "Black coffee prepared by distillation method",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/14987869?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987869
+      },
+      {
+        "item_en": "Ice Japanese V60",
+        "item_ar": "Ice Japanese V60",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Now try japanese ice with our specialty coffee",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-24000053?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 24000053
+      },
+      {
+        "item_en": "Cold Brew  Peache",
+        "item_ar": "Cold Brew  Peache",
+        "price": 24,
+        "currency": "SAR",
+        "description": "New now  taste the freshness of summer from nine cafe  cold brew coffee with a delicious peach taste",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/54e2c5332d728c30a51059370a717823?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47138026
+      },
+      {
+        "item_en": "Ice Cold Brew",
+        "item_ar": "Ice Cold Brew",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Cold specialty coffee prepared daily",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-14987842?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987842
+      }
+    ],
+    "Tea": [
+      {
+        "item_en": "English Red Tea",
+        "item_ar": "English Red Tea",
+        "price": 6,
+        "currency": "SAR",
+        "description": "English red hot tea",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/14987810?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987810
+      },
+      {
+        "item_en": "Kenyan Red Tea",
+        "item_ar": "Kenyan Red Tea",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Hot red tea",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-14987812?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987812
+      },
+      {
+        "item_en": "Moroccan Tea",
+        "item_ar": "Moroccan Tea",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Moroccan tea is one of the finest types of tea that deserves to be tried",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/20342366?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20342366
+      },
+      {
+        "item_en": "English Green Tea",
+        "item_ar": "English Green Tea",
+        "price": 6,
+        "currency": "SAR",
+        "description": "English green hot tea",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-22000195?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 22000195
+      }
+    ],
+    "Cold Drinks": [
+      {
+        "item_en": "Ice Americano Peach",
+        "item_ar": "Ice Americano Peach",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Now try a mixture of american coffee with a refreshing peach flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/14987867?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987867
+      },
+      {
+        "item_en": "Ice Caramel Macchiato",
+        "item_ar": "Ice Caramel Macchiato",
+        "price": 21,
+        "currency": "SAR",
+        "description": "It is a combination of rich espresso with caramel flavored syrup,and iced cold milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/14987844?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987844
+      },
+      {
+        "item_en": "Ice Nine Chocolate",
+        "item_ar": "Ice Nine Chocolate",
+        "price": 22,
+        "currency": "SAR",
+        "description": "New now taste the cold chocolate drink with delicious chocolate pieces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/9cc34b3cf3f39c6fb278c9b28ac7a856?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47254399
+      },
+      {
+        "item_en": "Ice Spanish Latte",
+        "item_ar": "Ice Spanish Latte",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Cold spanish with caramel sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/14987843?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987843
+      },
+      {
+        "item_en": "Ice Pistachio Latte",
+        "item_ar": "Ice Pistachio Latte",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Cold latte with delicious pistachio sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-14987841?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987841
+      },
+      {
+        "item_en": "Roselle Bag",
+        "item_ar": "Roselle Bag",
+        "price": 20,
+        "currency": "SAR",
+        "description": "New now refreshing hibiscus drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/25110811?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 25110811
+      },
+      {
+        "item_en": "Ice Mocha",
+        "item_ar": "Ice Mocha",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Espresso with fresh milk, chocolate and ice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-14987845?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987845
+      },
+      {
+        "item_en": "Ice Roselle",
+        "item_ar": "Ice Roselle",
+        "price": 15,
+        "currency": "SAR",
+        "description": "New try now the delicious refreshing ice roselle drink",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/82936/PRODUCT/18597192/9141f87c-8b26-49ef-acd6-60ac3a617659.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 18597192
+      },
+      {
+        "item_en": "Ice Latte",
+        "item_ar": "Ice Latte",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Espresso coffee with iced milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/17189057?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 17189057
+      },
+      {
+        "item_en": "Ice White Americano",
+        "item_ar": "Ice White Americano",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Coffee drink with delicious white chocolate sauce mixed with milk",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/83070/PRODUCT/17189065/4b7a239b-e9e9-4c7e-a986-7b97bd1d280d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 17189065
+      }
+    ],
+    "Refresher": [
+      {
+        "item_en": "9 Soda",
+        "item_ar": "9 Soda",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Refreshing soda drink with all the flavors you want",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/82902/PRODUCT/14987851/ea258c09-5cd7-4892-be2b-852b2ae9e1e9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987851
+      },
+      {
+        "item_en": "7 Up Mojito",
+        "item_ar": "7 Up Mojito",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Try the refreshing mojito drink now with your choice of your favorite flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/14987853?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987853
+      }
+    ],
+    "Cookies": [
+      {
+        "item_en": "Vanilla Cookies",
+        "item_ar": "Vanilla Cookies",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Pieces of soft vanilla cookies stuffed with chocolate chips",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-14987875?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987875
+      },
+      {
+        "item_en": "Chocolate Cookies",
+        "item_ar": "Chocolate Cookies",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Cookies stuffed with chocolate pieces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-14987876?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 14987876
+      },
+      {
+        "item_en": "Cookies Hassawy",
+        "item_ar": "Cookies Hassawy",
+        "price": 10,
+        "currency": "SAR",
+        "description": "New now hasawi cookies from ninth coffee. taste the taste of dates with cookies",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/25457442?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 25457442
+      }
+    ],
+    "Donut": [
+      {
+        "item_en": "Chocolate & Filly Nut Donuts",
+        "item_ar": "Chocolate & Filly Nut Donuts",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Round donut stuffed with delicious chocolate and hazelnut cream, topped with a layer of chocolate and special nuts",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-6336022?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 24151904
+      },
+      {
+        "item_en": "Chocolate Donut",
+        "item_ar": "Chocolate Donut",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Round chocolate donut topped with a layer of chocolate sprinkles",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/17384693?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 17384693
+      },
+      {
+        "item_en": "Dount Oreo",
+        "item_ar": "Dount Oreo",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Round donuts filled with delicious oreo chocolate cream and topped with a layer of oreo",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/82895/PRODUCT/17384750/28395917-2f18-4af1-b3fb-7ad410a9e50d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 17384750
+      }
+    ],
+    "Bakery And Desserts": [
+      {
+        "item_en": "Nine Chocolate Bag",
+        "item_ar": "Nine Chocolate Bag",
+        "price": 9,
+        "currency": "SAR",
+        "description": "New now special ninth chocolate to complement with your special drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/43144451?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 43144451
+      }
+    ],
+    "Sandwiches": [
+      {
+        "item_en": "Halloumi Cheese",
+        "item_ar": "Halloumi Cheese",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Special halloumi cheese sandwich",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-18228597?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 18228597
+      },
+      {
+        "item_en": "Chicken Caesar",
+        "item_ar": "Chicken Caesar",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Chicken sandwich with special caesar salad",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/82898/PRODUCT/18228560/0a31077f-58a6-438e-be0a-c8a5f37a2e6c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 18228560
+      }
+    ],
+    "Coffee Beans": [
+      {
+        "item_en": "Colombia Excelso Bag",
+        "item_ar": "Colombia Excelso Bag",
+        "price": 68,
+        "currency": "SAR",
+        "description": "Specialty coffee beans that are considered a member of the liberica family, but their type is actually indescribably distinctive, as it is characterized by a pungent flavor and fruit as well.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/18701941?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 18701941
+      },
+      {
+        "item_en": "Chilchili Ethiopia Bag",
+        "item_ar": "Chilchili Ethiopia Bag",
+        "price": 73,
+        "currency": "SAR",
+        "description": "ethiopian coffee is a great ethiopian espresso coffee it is processed by the natural dried method which preserves the natural properties and unique flavor of the coffee this crop is roasted to perfection to bring out its rich flavor and texture",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/18701942?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 18701942
+      },
+      {
+        "item_en": "Yemen Haraz Bag 250 Grams",
+        "item_ar": "Yemen Haraz Bag 250 Grams",
+        "price": 81,
+        "currency": "SAR",
+        "description": "Yemeni specialty coffee beans our coffee beans are filled with a complex blend of delicious notes all of our crops are roasted inside saudi arabia to ensure that most importantly you get good fresh coffee every time",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/35732913?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 35732913
+      }
+    ],
+    "Cups": [
+      {
+        "item_en": "Steel Cup",
+        "item_ar": "Steel Cup",
+        "price": 35,
+        "currency": "SAR",
+        "description": "Luxury cup suitable for hot and cold drinks",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-18208225?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 18208225
+      },
+      {
+        "item_en": "New Pink Color Luxury Cup",
+        "item_ar": "New Pink Color Luxury Cup",
+        "price": 66,
+        "currency": "SAR",
+        "description": "New now  travel mugs with the design of “ninth coffee” keep the heat for two to six hours",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/82898/PRODUCT/37032182/fa0d1b27-057a-49aa-8bbc-fdf942f35fdb.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 37032182
+      },
+      {
+        "item_en": "New  Green Luxury Cup",
+        "item_ar": "New  Green Luxury Cup",
+        "price": 66,
+        "currency": "SAR",
+        "description": "New now travel mugs with the design of “ninth coffee” keep the heat for two to six hours",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/82902/PRODUCT/37032186/c3069094-4bcf-4ef4-89fb-aa66773a8c7a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 37032186
+      },
+      {
+        "item_en": "New Luxury Plastic 12oz Cup",
+        "item_ar": "New Luxury Plastic 12oz Cup",
+        "price": 11,
+        "currency": "SAR",
+        "description": "New now the luxurious cup of ninth coffee",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/df795c069e0acd2d7aa58274032b3f84?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56650941
+      },
+      {
+        "item_en": "Travel Cup",
+        "item_ar": "Travel Cup",
+        "price": 41,
+        "currency": "SAR",
+        "description": "A small heat-preserving cup",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-18208226?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 18208226
+      }
+    ],
+    "Extras": [
+      {
+        "item_en": "Scented Towels",
+        "item_ar": "Scented Towels",
+        "price": 30,
+        "currency": "SAR",
+        "description": "High quality scented towels",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20341152?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20341152
+      },
+      {
+        "item_en": "Scented Towel",
+        "item_ar": "Scented Towel",
+        "price": 2,
+        "currency": "SAR",
+        "description": "High quality scented towels",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-24954136?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 24954136
+      }
+    ],
+    "Water": [
+      {
+        "item_en": "Montana Imported Water",
+        "item_ar": "Montana Imported Water",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Pure and natural water.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/82938/PRODUCT/22000180/b9489346-234b-4af7-9940-b585e65cadf7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 22000180
+      },
+      {
+        "item_en": "Berain Water",
+        "item_ar": "Berain Water",
+        "price": 2,
+        "currency": "SAR",
+        "description": "Natural, refreshing, and healthy water.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/82895/PRODUCT/22000185/913d60f3-aca5-4b9a-824d-b0e5f2643123.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 22000185
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.033Z",
+  "source": "Hungerstation"
+}

@@ -1,0 +1,350 @@
+{
+  "restaurant_info": {
+    "id": "28703",
+    "name": "QALAT MADGUT",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2590578,
+      "longitude": 42.6355227
+    },
+    "rating": 4.2,
+    "review_count": 62,
+    "type_of_food": "Arabic,Beverages,Saudi",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/28703"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Hashi Labani",
+        "item_ar": "Hashi Labani",
+        "price": 70,
+        "currency": "SAR",
+        "description": "Delicious rice dish with fresh hashi meat",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/561988?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 561988
+      },
+      {
+        "item_en": "Chicken Madgot  - Half",
+        "item_ar": "Chicken Madgot  - Half",
+        "price": 26,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 561990
+      },
+      {
+        "item_en": "Chicken Madgot  - 1 Piece",
+        "item_ar": "Chicken Madgot  - 1 Piece",
+        "price": 52,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 561989
+      },
+      {
+        "item_en": "Magloubah",
+        "item_ar": "Magloubah",
+        "price": 36,
+        "currency": "SAR",
+        "description": "Chicken with rice and fried vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/25781057?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 25781057
+      }
+    ],
+    "Main Menu": [
+      {
+        "item_en": "Chicken Madgot  - 1 Piece",
+        "item_ar": "Chicken Madgot  - 1 Piece",
+        "price": 52,
+        "currency": "SAR",
+        "description": "Cooked in pressure cooker\\",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/71290?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 561989
+      },
+      {
+        "item_en": "Chicken Madgot  - Half",
+        "item_ar": "Chicken Madgot  - Half",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Cooked in pressure cooker\\",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/71290?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 561990
+      },
+      {
+        "item_en": "Magloubah",
+        "item_ar": "Magloubah",
+        "price": 36,
+        "currency": "SAR",
+        "description": "Chicken with rice and fried vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/25781057?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 25781057
+      },
+      {
+        "item_en": "Hashi Labani",
+        "item_ar": "Hashi Labani",
+        "price": 70,
+        "currency": "SAR",
+        "description": "Delicious rice dish with fresh hashi meat",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/561988?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 561988
+      },
+      {
+        "item_en": "A Travel Dish",
+        "item_ar": "A Travel Dish",
+        "price": 8,
+        "currency": "SAR",
+        "description": "A round tin plate that covers your needs",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/12834/PRODUCT/1809009/d98cf31c-b839-4e01-873e-24405d7167b1.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1809009
+      },
+      {
+        "item_en": "A Travel Dish",
+        "item_ar": "A Travel Dish",
+        "price": 12,
+        "currency": "SAR",
+        "description": "A large round tin plate that covers your needs",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1809010?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1809010
+      },
+      {
+        "item_en": "One Meal Rice Shabiah",
+        "item_ar": "One Meal Rice Shabiah",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Popular rice portion with traditional ingredients and seasoned rice",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 58069217
+      },
+      {
+        "item_en": "One Meal Rice Bokhary",
+        "item_ar": "One Meal Rice Bokhary",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Fresh bukhari rice portion with authentic arabic spices",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 58069218
+      }
+    ],
+    "Salad": [
+      {
+        "item_en": "Spicy Salad - Medium Size",
+        "item_ar": "Spicy Salad - Medium Size",
+        "price": 4,
+        "currency": "SAR",
+        "description": "A salad consisting of some crushed vegetables with hot pepper",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-71291?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 561996
+      },
+      {
+        "item_en": "Yegort Salads - Small",
+        "item_ar": "Yegort Salads - Small",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Prepared with yoghurt, cucumber, garlic, salt, lemon juice and dried mint",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-594475?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 12382079
+      },
+      {
+        "item_en": "Green Salads - Small",
+        "item_ar": "Green Salads - Small",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Salad prepared from fresh vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/594477?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 12382080
+      },
+      {
+        "item_en": "Baladi Salads  - Small",
+        "item_ar": "Baladi Salads  - Small",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Tomatoes with onion slices, lemon and salt",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/594478?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 12382083
+      },
+      {
+        "item_en": "Yegort Salads - Large",
+        "item_ar": "Yegort Salads - Large",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Prepared with yoghurt, cucumber, garlic, salt, lemon juice and dried mint",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-594475?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 12382078
+      },
+      {
+        "item_en": "Green Salads - Large",
+        "item_ar": "Green Salads - Large",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Salad prepared from fresh vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/594477?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 12382081
+      },
+      {
+        "item_en": "Baladi Salads  - Large",
+        "item_ar": "Baladi Salads  - Large",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Tomatoes with onion slices, lemon and salt",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/594478?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 12382082
+      },
+      {
+        "item_en": "Hot Souce",
+        "item_ar": "Hot Souce",
+        "price": 2,
+        "currency": "SAR",
+        "description": "Delicious red hot pepper sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-561998?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 561998
+      },
+      {
+        "item_en": "Motabal",
+        "item_ar": "Motabal",
+        "price": 9,
+        "currency": "SAR",
+        "description": "consisting of finely chopped roasted eggplant, olive oil, lemon juice, various seasonings, and tahini.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/9013223?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9013223
+      }
+    ],
+    "Desserts": [
+      {
+        "item_en": "Knefa Cream",
+        "item_ar": "Knefa Cream",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Threads of dough, added with ghee and sugar, stuffed with cream",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/562001?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 562001
+      },
+      {
+        "item_en": "Oven Cream",
+        "item_ar": "Oven Cream",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Oven cream - sweet",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11596514?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 47022614
+      },
+      {
+        "item_en": "Basbousa",
+        "item_ar": "Basbousa",
+        "price": 6,
+        "currency": "SAR",
+        "description": "A middle eastern dessert made with semolina and sweetened with simple syrup",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-16925271?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 16925271
+      }
+    ],
+    "Beverages": [
+      {
+        "item_en": "Water - Small",
+        "item_ar": "Water - Small",
+        "price": 1,
+        "currency": "SAR",
+        "description": "Bottled mineral water",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-71292?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 562002
+      },
+      {
+        "item_en": "Water - Medium",
+        "item_ar": "Water - Medium",
+        "price": 2,
+        "currency": "SAR",
+        "description": "Bottled mineral water",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-71292?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 562003
+      },
+      {
+        "item_en": "Small Laban",
+        "item_ar": "Small Laban",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Small laban 180 ml",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-562007?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 562007
+      },
+      {
+        "item_en": "Laban Shanenah - 330",
+        "item_ar": "Laban Shanenah - 330",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Fresh laban drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/594480?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 12382085
+      },
+      {
+        "item_en": "Laban Shanenah - 1500 Ml",
+        "item_ar": "Laban Shanenah - 1500 Ml",
+        "price": 17,
+        "currency": "SAR",
+        "description": "Fresh laban drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/594480?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 12382084
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.031Z",
+  "source": "Hungerstation"
+}

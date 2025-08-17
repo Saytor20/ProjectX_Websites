@@ -1,0 +1,229 @@
+{
+  "restaurant_info": {
+    "id": "145914",
+    "name": "Pasta Station",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2279163,
+      "longitude": 42.5437714
+    },
+    "rating": 4,
+    "review_count": 34,
+    "type_of_food": "Sandwich,Fast Food,Italian,International,Pizza,Pasta,Salads",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/145914"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Sriracha Penne Chicken",
+        "item_ar": "Sriracha Penne Chicken",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Creamy alfredo pasta with mozzarella, parmesan, and cheddar cheese, grilled chicken, and a spicy touch of sriracha and marinara sauce for a flavorful experience.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-PSTN/0c4b082cbfc6bb1a1eb335cb35e7dcc2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435339
+      },
+      {
+        "item_en": "Alfredo Fettuccine",
+        "item_ar": "Alfredo Fettuccine",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Fettuccine pasta in rich alfredo sauce, mozzarella, parmesan cheese, grilled chicken, and a touch of italian seasoning for a flavorful twist.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-PSTN/a3f7fb6a0832dca50cddf721f914a296.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435331
+      },
+      {
+        "item_en": "Pesto Grilled Chicken",
+        "item_ar": "Pesto Grilled Chicken",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Fusilli pasta with pesto sauce, mozzarella, parmesan cheese, pine nuts, and parsley, with a touch of italian seasoning for a perfectly balanced flavor.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-PSTN/8fb929b023566592533e57eb5db42b39.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435333
+      },
+      {
+        "item_en": "Ceaser Salad.",
+        "item_ar": "Ceaser Salad.",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Romaine lettuce with grilled chicken, croutons, parmesan cheese, and delicious caesar dressing.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-PSTN/4643a79721174734f58c508749bd5c71.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435342
+      }
+    ],
+    "Pasta": [
+      {
+        "item_en": "Alfredo Fettuccine",
+        "item_ar": "Alfredo Fettuccine",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Fettuccine pasta in rich alfredo sauce, mozzarella, parmesan cheese, grilled chicken, and a touch of italian seasoning for a flavorful twist.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-PSTN/a3f7fb6a0832dca50cddf721f914a296.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435331
+      },
+      {
+        "item_en": "Pesto Grilled Chicken",
+        "item_ar": "Pesto Grilled Chicken",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Fusilli pasta with pesto sauce, mozzarella, parmesan cheese, pine nuts, and parsley, with a touch of italian seasoning for a perfectly balanced flavor.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-PSTN/8fb929b023566592533e57eb5db42b39.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435333
+      },
+      {
+        "item_en": "Creamy Broccoli Mushroom",
+        "item_ar": "Creamy Broccoli Mushroom",
+        "price": 35,
+        "currency": "SAR",
+        "description": "Fettuccine pasta with creamy alfredo sauce, mozzarella, parmesan cheese, fresh broccoli, and mushrooms.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-PSTN/372388605d2fd6ce8813b77526b15173.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435335
+      },
+      {
+        "item_en": "Turkey Alfredo",
+        "item_ar": "Turkey Alfredo",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Pasta with creamy alfredo sauce, mozzarella, parmesan cheese, and smoked turkey slices for a rich blend of flavors.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-PSTN/e0969926fb091e2c2d65084138cbc0bd.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435337
+      },
+      {
+        "item_en": "Sriracha Penne Chicken",
+        "item_ar": "Sriracha Penne Chicken",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Creamy alfredo pasta with mozzarella, parmesan, and cheddar cheese, grilled chicken, and a spicy touch of sriracha and marinara sauce for a flavorful experience.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-PSTN/0c4b082cbfc6bb1a1eb335cb35e7dcc2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435339
+      }
+    ],
+    "Salad": [
+      {
+        "item_en": "Ceaser Salad.",
+        "item_ar": "Ceaser Salad.",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Romaine lettuce with grilled chicken, croutons, parmesan cheese, and delicious caesar dressing.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-PSTN/4643a79721174734f58c508749bd5c71.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435342
+      }
+    ],
+    "Starter": [
+      {
+        "item_en": "Mozzeralla Sticks",
+        "item_ar": "Mozzeralla Sticks",
+        "price": 34,
+        "currency": "SAR",
+        "description": "Perfectly crispy and golden fried mozzarella sticks",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-PSTN/ad08bd4a0f6b72028b1b4e5f3e3cd541.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435343
+      }
+    ],
+    "Drinks": [
+      {
+        "item_en": "Pepsi Can",
+        "item_ar": "Pepsi Can",
+        "price": 7,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-PSTN/7f4dbc2ef93a52e96ab40ca56b4752e6.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435345
+      },
+      {
+        "item_en": "Pepsi Diet Can",
+        "item_ar": "Pepsi Diet Can",
+        "price": 7,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-PSTN/74fa26a2c14117b21cdb4fc105735e25.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435347
+      },
+      {
+        "item_en": "7 Up Can",
+        "item_ar": "7 Up Can",
+        "price": 7,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-PSTN/95e27290a2c2c4e2bf29e18bab499ec4.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435349
+      },
+      {
+        "item_en": "7 Up Diet Can",
+        "item_ar": "7 Up Diet Can",
+        "price": 7,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-PSTN/a3ab485f3744720eb73ae5f7bfa8f0de.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435351
+      },
+      {
+        "item_en": "Mirinda Can",
+        "item_ar": "Mirinda Can",
+        "price": 7,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-PSTN/6b375a4bb5ff4f7fe0d4933378a9280f.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435353
+      },
+      {
+        "item_en": "Mountain Dew Can",
+        "item_ar": "Mountain Dew Can",
+        "price": 7,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-PSTN/384b06fa46d4c7481b679f5e7727107c.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435355
+      },
+      {
+        "item_en": "Small Water",
+        "item_ar": "Small Water",
+        "price": 3,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-PSTN/7f5c043bc6b9cbf2acd669e3f81f8f7e.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435357
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.038Z",
+  "source": "Hungerstation"
+}

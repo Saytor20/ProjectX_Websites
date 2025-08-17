@@ -1,0 +1,361 @@
+{
+  "restaurant_info": {
+    "id": "120613",
+    "name": "Darseens",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2313655,
+      "longitude": 42.4970759
+    },
+    "rating": 4.5,
+    "review_count": 202,
+    "type_of_food": "Desserts",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/120613"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Dates Stuffed Large",
+        "item_ar": "Dates Stuffed Large",
+        "price": 149,
+        "currency": "SAR",
+        "description": "Dates stuffed with pecans almonds and biscuits",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/6b892fe1c546fc275bf82808d0a8e264?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57648630
+      },
+      {
+        "item_en": "Korean Cake Flower And Chain White - Size 8 Inch",
+        "item_ar": "Korean Cake Flower And Chain White - Size 8 Inch",
+        "price": 118,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 58546239
+      },
+      {
+        "item_en": "Apple And Bican Tart - Large",
+        "item_ar": "Apple And Bican Tart - Large",
+        "price": 109,
+        "currency": "SAR",
+        "description": "Apple and bican stuffed tart",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/e1c8a147351817b7905d780072ad9570?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 43279639
+      },
+      {
+        "item_en": "Basbousa Cheesecake",
+        "item_ar": "Basbousa Cheesecake",
+        "price": 86,
+        "currency": "SAR",
+        "description": "Cheesecake topped with a golden layer of basbousa",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/9a37b17d1ad4a9d830684c2fa88b5d13?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57648632
+      }
+    ],
+    "Gathering Box": [
+      {
+        "item_en": "Salt Box",
+        "item_ar": "Salt Box",
+        "price": 98,
+        "currency": "SAR",
+        "description": "Vine leaves and kibba and potato balls and musakhan",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/43279638?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 43279638
+      }
+    ],
+    "Plates": [
+      {
+        "item_en": "Dates Stuffed Large",
+        "item_ar": "Dates Stuffed Large",
+        "price": 149,
+        "currency": "SAR",
+        "description": "Dates stuffed with pecans almonds and biscuits",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/6b892fe1c546fc275bf82808d0a8e264?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57648630
+      }
+    ],
+    "Sweets Box": [
+      {
+        "item_en": "Stuffed Dates Box",
+        "item_ar": "Stuffed Dates Box",
+        "price": 72,
+        "currency": "SAR",
+        "description": "Dates stuffed with pecans almonds and biscuits",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/8724c4f0f045d648c511e8f793b7704b?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57648851
+      },
+      {
+        "item_en": "Chocolate Bar With Kunafa And Pestayo",
+        "item_ar": "Chocolate Bar With Kunafa And Pestayo",
+        "price": 24.5,
+        "currency": "SAR",
+        "description": "Rich belgian choc latte filled with kunafa and pistachio filling",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/5a726a6117822087e582f8c4c4cd7e78?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63298914
+      },
+      {
+        "item_en": "Apple And Bican Tart - Medium",
+        "item_ar": "Apple And Bican Tart - Medium",
+        "price": 63,
+        "currency": "SAR",
+        "description": "Apple and bican stuffed tart",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72936497
+      },
+      {
+        "item_en": "Kinder Cookies",
+        "item_ar": "Kinder Cookies",
+        "price": 98,
+        "currency": "SAR",
+        "description": "Kinder cookies with a sprinkle of sea salt - the perfect balance of sweetness and saltiness",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/fd0bdc66bb785d1d6fbc8cc592174a87?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 73721348
+      },
+      {
+        "item_en": "Basbusa",
+        "item_ar": "Basbusa",
+        "price": 68,
+        "currency": "SAR",
+        "description": "Basbousa with special cream filling",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/58546238?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 58546238
+      },
+      {
+        "item_en": "Cheesecake",
+        "item_ar": "Cheesecake",
+        "price": 85,
+        "currency": "SAR",
+        "description": "Mini cheesecake",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/d612d6af98e63efa305f56c2cf6ef739?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57870118
+      },
+      {
+        "item_en": "Luxury Maamoul",
+        "item_ar": "Luxury Maamoul",
+        "price": 60,
+        "currency": "SAR",
+        "description": "Luxurious maamoul stuffed with dates",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/57648631?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57648631
+      },
+      {
+        "item_en": "Basbousa Cheesecake",
+        "item_ar": "Basbousa Cheesecake",
+        "price": 86,
+        "currency": "SAR",
+        "description": "Cheesecake topped with a golden layer of basbousa",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/9a37b17d1ad4a9d830684c2fa88b5d13?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57648632
+      },
+      {
+        "item_en": "Assorted Chocolate Bar",
+        "item_ar": "Assorted Chocolate Bar",
+        "price": 29.5,
+        "currency": "SAR",
+        "description": "Three pieces with kunafa and salted caramel kunafa and berries and caramel wafer",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/348ffcec3e2950389d7948323b13f953?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63299907
+      },
+      {
+        "item_en": "Apple And Bican Tart - Large",
+        "item_ar": "Apple And Bican Tart - Large",
+        "price": 109,
+        "currency": "SAR",
+        "description": "Apple and bican stuffed tart",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/e1c8a147351817b7905d780072ad9570?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 43279639
+      }
+    ],
+    "Cake": [
+      {
+        "item_en": "Korean Cake Flower And Chain White - Size 8 Inch",
+        "item_ar": "Korean Cake Flower And Chain White - Size 8 Inch",
+        "price": 118,
+        "currency": "SAR",
+        "description": "Layers of soft cake and delicious raspberry jam",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1169973?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 58546239
+      },
+      {
+        "item_en": "Korean Cake Flower And Chain White - 6 Inch",
+        "item_ar": "Korean Cake Flower And Chain White - 6 Inch",
+        "price": 93,
+        "currency": "SAR",
+        "description": "Layers of soft cake and delicious raspberry jam",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1169973?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 58654842
+      },
+      {
+        "item_en": "Korean Cake White - 4 Inches",
+        "item_ar": "Korean Cake White - 4 Inches",
+        "price": 64,
+        "currency": "SAR",
+        "description": "Koreanstyle cake with a light texture filled with fruits and cream",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/0213c1e549f3ac390dbe6c3db227840f?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75612410
+      },
+      {
+        "item_en": "Korean Cake White - 8 Inches",
+        "item_ar": "Korean Cake White - 8 Inches",
+        "price": 118,
+        "currency": "SAR",
+        "description": "Koreanstyle cake with a light texture filled with fruits and cream",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/0213c1e549f3ac390dbe6c3db227840f?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75612412
+      },
+      {
+        "item_en": "Korean Cake White - 6 Inches",
+        "item_ar": "Korean Cake White - 6 Inches",
+        "price": 93,
+        "currency": "SAR",
+        "description": "Koreanstyle cake with a light texture filled with fruits and cream",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/0213c1e549f3ac390dbe6c3db227840f?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75612413
+      },
+      {
+        "item_en": "Korean Sprinkle Cake - 8 Inches",
+        "item_ar": "Korean Sprinkle Cake - 8 Inches",
+        "price": 118,
+        "currency": "SAR",
+        "description": "Korean sprinkles cake",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/8cd38070fb27df5586a5cedaa41390e7?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75612449
+      },
+      {
+        "item_en": "Korean Sprinkle Cake - 6 Inches",
+        "item_ar": "Korean Sprinkle Cake - 6 Inches",
+        "price": 93,
+        "currency": "SAR",
+        "description": "Korean sprinkles cake",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/8cd38070fb27df5586a5cedaa41390e7?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75612450
+      },
+      {
+        "item_en": "Korean Sprinkle Cake - 4 Inches",
+        "item_ar": "Korean Sprinkle Cake - 4 Inches",
+        "price": 64,
+        "currency": "SAR",
+        "description": "Korean sprinkles cake",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/8cd38070fb27df5586a5cedaa41390e7?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75612451
+      },
+      {
+        "item_en": "Korean Sky Blue Cake - 4 Inches",
+        "item_ar": "Korean Sky Blue Cake - 4 Inches",
+        "price": 64,
+        "currency": "SAR",
+        "description": "Layers of soft cake with a delicious berry filling",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/ad38b051a0f256086a811c29aa8df635?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75612540
+      },
+      {
+        "item_en": "Korean Sky Blue Cake - 8 Inches",
+        "item_ar": "Korean Sky Blue Cake - 8 Inches",
+        "price": 118,
+        "currency": "SAR",
+        "description": "Layers of soft cake with a delicious berry filling",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/ad38b051a0f256086a811c29aa8df635?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75612541
+      },
+      {
+        "item_en": "Korean Sky Blue Cake - 6 Inches",
+        "item_ar": "Korean Sky Blue Cake - 6 Inches",
+        "price": 93,
+        "currency": "SAR",
+        "description": "Layers of soft cake with a delicious berry filling",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/ad38b051a0f256086a811c29aa8df635?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75612542
+      },
+      {
+        "item_en": "Korean Cake Green - 4 Inches",
+        "item_ar": "Korean Cake Green - 4 Inches",
+        "price": 64,
+        "currency": "SAR",
+        "description": "Layers of soft cake with a delicious berry filling",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/9944fbdc5a30b1c1033b6037a81872af?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75612623
+      },
+      {
+        "item_en": "Korean Cake Green - 8 Inches",
+        "item_ar": "Korean Cake Green - 8 Inches",
+        "price": 118,
+        "currency": "SAR",
+        "description": "Layers of soft cake with a delicious berry filling",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/9944fbdc5a30b1c1033b6037a81872af?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75612624
+      },
+      {
+        "item_en": "Korean Cake Green - 6 Inches",
+        "item_ar": "Korean Cake Green - 6 Inches",
+        "price": 93,
+        "currency": "SAR",
+        "description": "Layers of soft cake with a delicious berry filling",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/9944fbdc5a30b1c1033b6037a81872af?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75612625
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.035Z",
+  "source": "Hungerstation"
+}

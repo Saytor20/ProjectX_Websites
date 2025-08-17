@@ -1,0 +1,604 @@
+{
+  "restaurant_info": {
+    "id": "15961",
+    "name": "The Burger's Origin",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.256294,
+      "longitude": 42.631294
+    },
+    "rating": 4.3,
+    "review_count": 816,
+    "type_of_food": "Fast Food,American,Burgers",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/15961"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Classic Hungerstation Saving.",
+        "item_ar": "Classic Hungerstation Saving.",
+        "price": 156,
+        "currency": "SAR",
+        "description": "4 classic chicken , 4 french fries , 4 soft drinks",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/69e1f9f904aeb8fc45c2f91cc5a005a5.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 60152661
+      },
+      {
+        "item_en": "Classic Gathering Box.",
+        "item_ar": "Classic Gathering Box.",
+        "price": 134,
+        "currency": "SAR",
+        "description": "6 classic local meat or chicken burgers , fries and 4 sauces of your choice",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/689208cd7a87f491801891bb93551955.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53550682
+      },
+      {
+        "item_en": "French Fries.",
+        "item_ar": "French Fries.",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Spicy french fries",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/c589a22cb6310f43a256ecb7a2a477eb.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53551436
+      },
+      {
+        "item_en": "Classic Duo Original Offer Hungerstation .",
+        "item_ar": "Classic Duo Original Offer Hungerstation .",
+        "price": 78,
+        "currency": "SAR",
+        "description": "Classic meat & classic chicken , 2 french fries , 2 soft drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/121da4ee48f19a87492952b7d6843e9b.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 68923056
+      }
+    ],
+    "M42": [
+      {
+        "item_en": "Classic Duo Original Offer Hungerstation .",
+        "item_ar": "Classic Duo Original Offer Hungerstation .",
+        "price": 78,
+        "currency": "SAR",
+        "description": "Classic meat & classic chicken , 2 french fries , 2 soft drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/121da4ee48f19a87492952b7d6843e9b.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 68923056
+      }
+    ],
+    "Saving Offers": [
+      {
+        "item_en": "Classic Hungerstation Saving.",
+        "item_ar": "Classic Hungerstation Saving.",
+        "price": 156,
+        "currency": "SAR",
+        "description": "4 classic chicken , 4 french fries , 4 soft drinks",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/69e1f9f904aeb8fc45c2f91cc5a005a5.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 60152661
+      }
+    ],
+    "New": [
+      {
+        "item_en": "Mushroom Burger (Double).",
+        "item_ar": "Mushroom Burger (Double).",
+        "price": 34,
+        "currency": "SAR",
+        "description": "Two slices of local beef with grilled mushroom and hot peppers with a mix of cheeses",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/72ab1760c793ddb28b6a4b6ea5666982.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66808731
+      },
+      {
+        "item_en": "Mushroom Burger.",
+        "item_ar": "Mushroom Burger.",
+        "price": 29,
+        "currency": "SAR",
+        "description": "A slice of local beef with grilled mushroom, hot peppers and pepper jack cheese.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/b5ea54ed52332da44c6593099282d54e.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66808734
+      }
+    ],
+    "Meat   Local Meat": [
+      {
+        "item_en": "Bacon Burger Double.",
+        "item_ar": "Bacon Burger Double.",
+        "price": 34,
+        "currency": "SAR",
+        "description": "Pretzel bread, two slices of local meat , pepper jack cheese , special bacon mixture with our special sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/b4a223fbfb2c36ea74496febb8326587.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66808746
+      },
+      {
+        "item_en": "Bacon Burger.",
+        "item_ar": "Bacon Burger.",
+        "price": 29,
+        "currency": "SAR",
+        "description": "If you're into bold flavors, this burger is for you! double local beef patties with pepper jack cheese, special bacon blend, and a signature sauce. all in a fresh pretzel bun.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/ab9dcca02bf2365fcca43e2191b3f1c3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66808752
+      },
+      {
+        "item_en": "Cherry Burger Double.",
+        "item_ar": "Cherry Burger Double.",
+        "price": 34,
+        "currency": "SAR",
+        "description": "Two slices of beef with a mixture of natural cheddar and pepperjack cheese topped with smoked cherry sauce.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/f1b94095d471e1d16da4e6178f03af88.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66808761
+      },
+      {
+        "item_en": "Cherry Burger.",
+        "item_ar": "Cherry Burger.",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Slice of local meat with natural pepper jack cheese topped with smoked cherry sauce.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/2a5acd8d8f32aeebedfa85b85a2be136.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66808773
+      },
+      {
+        "item_en": "Classic Beef Burger.",
+        "item_ar": "Classic Beef Burger.",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Fresh burger bun toasted with butter, cheddar cheese, local meat slice , shredded lettuce, onion slices, sauce.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/9e217a3379d1e1f6f018ca6498fa1864.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53550264
+      },
+      {
+        "item_en": "Juicy Burger Beef.",
+        "item_ar": "Juicy Burger Beef.",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Fresh burger bun toasted with butter, cheddar cheese, local meat slice , shredded lettuce, onion slices, sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/f53c97f7d04e3380bb7e1c38651f2c56.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53550317
+      }
+    ],
+    "Chicken": [
+      {
+        "item_en": "Classic Chicken Burger.",
+        "item_ar": "Classic Chicken Burger.",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Fresh burger bread toasted with butter, cheddar cheese, soft chicken piece, shredded lettuce, sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/d1e9ce980bf03722f9f657b26d470e28.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53550424
+      },
+      {
+        "item_en": "Crispy Chicken Burger.",
+        "item_ar": "Crispy Chicken Burger.",
+        "price": 24,
+        "currency": "SAR",
+        "description": "A piece of crispy chicken , sauce and red cabbage salad.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/5ae44601d14e0d400b1cff54697e1538.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53550520
+      },
+      {
+        "item_en": "Grilled Burger.",
+        "item_ar": "Grilled Burger.",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Soft brioche bread, grilled chicken breast, cheddar cheese, lettuce slices, garlic sauce.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/a0c0bdd27deb115c5661492ff9ce1ae7.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66808790
+      },
+      {
+        "item_en": "Juicy Chicken Burger.",
+        "item_ar": "Juicy Chicken Burger.",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Fresh burger bread toasted with butter, cheddar cheese, soft chicken piece, shredded lettuce, onion slices, sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/daaf2523892ea357578559c515c5cb2d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53550478
+      },
+      {
+        "item_en": "Tandoori Wrap.",
+        "item_ar": "Tandoori Wrap.",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Tortilla bread, cheddar cheese, tandoori chicken pieces, shredded lettuce, chopped onions, sauce, french fries, pickles",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/548a0f2f366b0528d657190b53c01df0.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53550632
+      }
+    ],
+    "Boxes": [
+      {
+        "item_en": "Classic Gathering Box.",
+        "item_ar": "Classic Gathering Box.",
+        "price": 134,
+        "currency": "SAR",
+        "description": "6 classic local meat or chicken burgers , fries and 4 sauces of your choice",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/689208cd7a87f491801891bb93551955.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53550682
+      },
+      {
+        "item_en": "Juicy Gathering Box.",
+        "item_ar": "Juicy Gathering Box.",
+        "price": 129,
+        "currency": "SAR",
+        "description": "6 juicy burgers local meat or chicken, fries and 4 sauces of your choice",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/cfff48de07e3cb233cafff733a353fdd.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53550837
+      },
+      {
+        "item_en": "Barbecue Box Beef 6 Pieces.",
+        "item_ar": "Barbecue Box Beef 6 Pieces.",
+        "price": 114,
+        "currency": "SAR",
+        "description": "6 pieces of local meat , 6 pieces of bread, 6 slices of cheese, sauces, onion rings, shredded lettuce, salt, black pepper.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/91ae9d25a5eefaf3e6819479aece79d8.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53550889
+      },
+      {
+        "item_en": ".Barbecue Box Beef 4 Pieces",
+        "item_ar": ".Barbecue Box Beef 4 Pieces",
+        "price": 84,
+        "currency": "SAR",
+        "description": "4 pieces of local meat, 4 pieces of bread, 4 slices of cheese, tbo sauces, onion rings, shredded lettuce, salt, black pepper.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/8e4b8e6d46da0b62944dd5022c691952.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53550956
+      },
+      {
+        "item_en": "Barbecue Box Chicken 6 Pieces.",
+        "item_ar": "Barbecue Box Chicken 6 Pieces.",
+        "price": 114,
+        "currency": "SAR",
+        "description": "6 chicken pieces, 6 bread pieces, 6 cheese slices, sauces, onion rings, shredded lettuce, salt, black pepper.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/1b5dbe31b81671345a1fa9a6788729b2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53551004
+      },
+      {
+        "item_en": ".Barbecue Box Chicken 4 Pieces",
+        "item_ar": ".Barbecue Box Chicken 4 Pieces",
+        "price": 84,
+        "currency": "SAR",
+        "description": "4 chicken pieces, 4 bread pieces, 4 cheese slices, sauces, onion rings, shredded lettuce, salt, black pepper.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/b988a4bbd8da6ea32c11b3eac70c5a0a.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53551050
+      }
+    ],
+    "Appetizers": [
+      {
+        "item_en": "Dynamite Shrimp.",
+        "item_ar": "Dynamite Shrimp.",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Fried shrimp, lettuce, red cabbage, with our special dynamite sauce.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/ca2d3af7c5e4a6f001ba1d658e68a0d7.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53551163
+      },
+      {
+        "item_en": "Crispy Fries.",
+        "item_ar": "Crispy Fries.",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Crispy chicken, french fries, cheddar sauce, special sauce, and a touch of red cabbage.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/0b08b8b546dbe4963e383b69b942d348.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53551106
+      },
+      {
+        "item_en": "Legend Fries.",
+        "item_ar": "Legend Fries.",
+        "price": 21,
+        "currency": "SAR",
+        "description": "French fries, fried onions, minced beef, black limon, salt, paprika, special cheese sauce, and tbo sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/efe69fc6a7609662df9fedb515eb4700.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53551204
+      },
+      {
+        "item_en": "Cheese Fries.",
+        "item_ar": "Cheese Fries.",
+        "price": 12,
+        "currency": "SAR",
+        "description": "French fries with our special cheese sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/edcfdb1b6f1000d0f82fecc95b38588d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53551262
+      },
+      {
+        "item_en": ".Mozzarella Sticks",
+        "item_ar": ".Mozzarella Sticks",
+        "price": 17,
+        "currency": "SAR",
+        "description": "Four crispy mozzarella sticks with tbo sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/cb6d9366f57bd8dc0e95f04aed4e2f25.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53551321
+      },
+      {
+        "item_en": "Chicken Nuggets.",
+        "item_ar": "Chicken Nuggets.",
+        "price": 13,
+        "currency": "SAR",
+        "description": "6 pieces of delicious nuggets with our special sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/5d84a496907d3d780ddc50db21c3375e.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66043790
+      },
+      {
+        "item_en": "Beef Samosa.",
+        "item_ar": "Beef Samosa.",
+        "price": 13,
+        "currency": "SAR",
+        "description": "4 pieces of local meat samosa with tbo sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/70cf071b0095bccb2f901097bfd6bd9c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53551401
+      },
+      {
+        "item_en": "Chicken Samosa.",
+        "item_ar": "Chicken Samosa.",
+        "price": 13,
+        "currency": "SAR",
+        "description": "4 pieces of chicken samosa with tbo sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/44d580058415bf2351fa3031584cd578.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53551363
+      },
+      {
+        "item_en": "French Fries.",
+        "item_ar": "French Fries.",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Spicy french fries",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/c589a22cb6310f43a256ecb7a2a477eb.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53551436
+      },
+      {
+        "item_en": "Cheese Jalapeno",
+        "item_ar": "Cheese Jalapeno",
+        "price": 9,
+        "currency": "SAR",
+        "description": "4 jalapeño cheese sticks, served with our signature burger sauce… a spicy, cheesy flavor you can’t resist!",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/3a5f1e81d051ab2d3fbda44855c6708e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53551491
+      }
+    ],
+    "Kids Meals": [
+      {
+        "item_en": "Kids Meal Chicken.",
+        "item_ar": "Kids Meal Chicken.",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Chicken burger, french fries, juice, kids toy",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/6c87e84f526f156199334d59d5e5e1b7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53551558
+      },
+      {
+        "item_en": "Kids Meal Nuggets.",
+        "item_ar": "Kids Meal Nuggets.",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Five chicken nuggets, fries, rabie juice and small toy",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/c95dfd8b729de839ee43bf14db495e30.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 58279489
+      }
+    ],
+    "Sauce": [
+      {
+        "item_en": "Cheese Sauce (New).",
+        "item_ar": "Cheese Sauce (New).",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Cheese sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/daabf08c24dab2c3ebb36aa6ad3c0fe2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54444961
+      },
+      {
+        "item_en": "Origin Sauce.",
+        "item_ar": "Origin Sauce.",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Origin sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/69782a4f852330451598ee92b95c7156.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53551597
+      },
+      {
+        "item_en": "Spicy Sauce.",
+        "item_ar": "Spicy Sauce.",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Spicy sauce.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/b3eaa4036d75bd48022ccd8943d1a214.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53551661
+      },
+      {
+        "item_en": "Garlic Sauce.",
+        "item_ar": "Garlic Sauce.",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Garlic sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/242fc1c3e3263749dc54ce8c9703b37f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53551689
+      },
+      {
+        "item_en": "Jalapeno.",
+        "item_ar": "Jalapeno.",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Jalapeno slices",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/837ac5a4a39c4436bccc2e7084eab7bd.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53551710
+      }
+    ],
+    "Beverages": [
+      {
+        "item_en": "Pepsi.",
+        "item_ar": "Pepsi.",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Pepsi soft drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/8afc6ddc3ea357824e47a3789ff169e4.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53551732
+      },
+      {
+        "item_en": "Pepsi Diet.",
+        "item_ar": "Pepsi Diet.",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Pepsi diet",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/bc0280eee030bcc1eac56d6b1cbeb615.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53551756
+      },
+      {
+        "item_en": "7up.",
+        "item_ar": "7up.",
+        "price": 5,
+        "currency": "SAR",
+        "description": "7up soft drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/c7faec4234e44d77eb4381d481f1a844.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53551776
+      },
+      {
+        "item_en": "7up Diet.",
+        "item_ar": "7up Diet.",
+        "price": 5,
+        "currency": "SAR",
+        "description": "7up diet",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/9fcb1de016d223f6f7c525b9f32fe516.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53551829
+      },
+      {
+        "item_en": "Mirinda Citrus.",
+        "item_ar": "Mirinda Citrus.",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Mirinda citrus",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/afbea304d8a17c48f86c7a2a15108039.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53551916
+      },
+      {
+        "item_en": ".Mirinda Orange",
+        "item_ar": ".Mirinda Orange",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Mirinda orange soft drink.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/3ce4ac49d2b7d29e03009a55c943aff5.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53551989
+      },
+      {
+        "item_en": "Mountain Dew.",
+        "item_ar": "Mountain Dew.",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Mountain dew",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/6b051940e3e17fce2cb694fd1c75462e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53552035
+      },
+      {
+        "item_en": "Rabie",
+        "item_ar": "Rabie",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Rabie drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/fbfd4ee9cf011199c11cba9f09594718.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53552042
+      },
+      {
+        "item_en": "Water",
+        "item_ar": "Water",
+        "price": 1,
+        "currency": "SAR",
+        "description": "Water bottle",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-TBSO/5069fd9d955da1f1406ee983e06b6914.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 53552058
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.030Z",
+  "source": "Hungerstation"
+}

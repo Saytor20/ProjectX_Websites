@@ -1,0 +1,1158 @@
+{
+  "restaurant_info": {
+    "id": "60694",
+    "name": "Hashem Restaurant",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.24966939999999,
+      "longitude": 42.59894250000001
+    },
+    "rating": 4,
+    "review_count": 511,
+    "type_of_food": "Sandwich,Arabic,Falafel,Breakfast",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/60694"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Plain Hummus - Small",
+        "item_ar": "Plain Hummus - Small",
+        "price": 12,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378618
+      },
+      {
+        "item_en": "Plain Falafel Plate - Medium",
+        "item_ar": "Plain Falafel Plate - Medium",
+        "price": 14,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378675
+      },
+      {
+        "item_en": "Chicken Tortilla",
+        "item_ar": "Chicken Tortilla",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Tortilla bread stuffed with spiced chicken, chickpeas, lettuce leaves and tahini sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-6411844?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378695
+      },
+      {
+        "item_en": "Chicken Hummus - Small",
+        "item_ar": "Chicken Hummus - Small",
+        "price": 18,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378612
+      }
+    ],
+    "Crumbs": [
+      {
+        "item_en": "Meat Fattah With Pine Nuts - Small",
+        "item_ar": "Meat Fattah With Pine Nuts - Small",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Bread mixture with soft hummus, add hummus and special seasoning, garnished with nuts and crispy bread, spiced ground meat and parsley.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579254?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378698
+      },
+      {
+        "item_en": "Meat Fattah With Pine Nuts - Medium",
+        "item_ar": "Meat Fattah With Pine Nuts - Medium",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Bread mixture with soft hummus, add hummus and special seasoning, garnished with nuts and crispy bread, spiced ground meat and parsley.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579254?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378699
+      },
+      {
+        "item_en": "Meat Fattah With Pine Nuts - Large",
+        "item_ar": "Meat Fattah With Pine Nuts - Large",
+        "price": 51,
+        "currency": "SAR",
+        "description": "Bread mixture with soft hummus, add hummus and special seasoning, garnished with nuts and crispy bread, spiced ground meat and parsley.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579254?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378700
+      },
+      {
+        "item_en": "Chicken Fattah With Pine Nuts - Small",
+        "item_ar": "Chicken Fattah With Pine Nuts - Small",
+        "price": 22,
+        "currency": "SAR",
+        "description": "bread mixture with soft hummus, added hummus and special seasoning, decorated with nuts and crispy bread with marinated chicken, parsley and sumac.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579255?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378701
+      },
+      {
+        "item_en": "Chicken Fattah With Pine Nuts - Medium",
+        "item_ar": "Chicken Fattah With Pine Nuts - Medium",
+        "price": 29,
+        "currency": "SAR",
+        "description": "bread mixture with soft hummus, added hummus and special seasoning, decorated with nuts and crispy bread with marinated chicken, parsley and sumac.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579255?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378702
+      },
+      {
+        "item_en": "Chicken Fattah With Pine Nuts - Large",
+        "item_ar": "Chicken Fattah With Pine Nuts - Large",
+        "price": 51,
+        "currency": "SAR",
+        "description": "bread mixture with soft hummus, added hummus and special seasoning, decorated with nuts and crispy bread with marinated chicken, parsley and sumac.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579255?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378703
+      },
+      {
+        "item_en": "Fatteh With Pine Nuts - Small",
+        "item_ar": "Fatteh With Pine Nuts - Small",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Bread mixture with soft chickpeas, add chickpeas and special seasoning, garnished with nuts, crispy bread, parsley and sumac.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579256?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378704
+      },
+      {
+        "item_en": "Fatteh With Pine Nuts - Medium",
+        "item_ar": "Fatteh With Pine Nuts - Medium",
+        "price": 27,
+        "currency": "SAR",
+        "description": "Bread mixture with soft chickpeas, add chickpeas and special seasoning, garnished with nuts, crispy bread, parsley and sumac.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579256?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378705
+      },
+      {
+        "item_en": "Fatteh With Pine Nuts - Large",
+        "item_ar": "Fatteh With Pine Nuts - Large",
+        "price": 40,
+        "currency": "SAR",
+        "description": "Bread mixture with soft chickpeas, add chickpeas and special seasoning, garnished with nuts, crispy bread, parsley and sumac.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579256?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378706
+      }
+    ],
+    "Eggs": [
+      {
+        "item_en": "Omelette Egg Bowl",
+        "item_ar": "Omelette Egg Bowl",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Fried eggs with black pepper",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11378657?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378657
+      },
+      {
+        "item_en": "Egg Bowl",
+        "item_ar": "Egg Bowl",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Fried eggs with oil and salt",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/14776/PRODUCT/11378658/a2547556-2d25-4b88-a4f6-fa9b3baca607.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378658
+      }
+    ],
+    "Falafel": [
+      {
+        "item_en": "Regular Mix Falafel Plate - Small",
+        "item_ar": "Regular Mix Falafel Plate - Small",
+        "price": 13,
+        "currency": "SAR",
+        "description": "falafel stuffed with onions and spices with regular falafel beads, fresh vegetables, cucumber pickles and tahini sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1218668?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378665
+      },
+      {
+        "item_en": "Regular Mix Falafel Plate - Medium",
+        "item_ar": "Regular Mix Falafel Plate - Medium",
+        "price": 21,
+        "currency": "SAR",
+        "description": "falafel stuffed with onions and spices with regular falafel beads, fresh vegetables, cucumber pickles and tahini sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1218668?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378666
+      },
+      {
+        "item_en": "Regular Mix Falafel Plate - Large",
+        "item_ar": "Regular Mix Falafel Plate - Large",
+        "price": 30,
+        "currency": "SAR",
+        "description": "falafel stuffed with onions and spices with regular falafel beads, fresh vegetables, cucumber pickles and tahini sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1218668?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378667
+      },
+      {
+        "item_en": "Super Mix Falafel Plate - Small",
+        "item_ar": "Super Mix Falafel Plate - Small",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Falafel stuffed with onions and spices with regular falafel beads, fresh vegetables, cucumber pickles and fried potato fingers",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579246?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378668
+      },
+      {
+        "item_en": "Super Mix Falafel Plate - Medium",
+        "item_ar": "Super Mix Falafel Plate - Medium",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Falafel stuffed with onions and spices with regular falafel beads, fresh vegetables, cucumber pickles and fried potato fingers",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579246?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378669
+      },
+      {
+        "item_en": "Super Mix Falafel Plate - Large",
+        "item_ar": "Super Mix Falafel Plate - Large",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Falafel stuffed with onions and spices with regular falafel beads, fresh vegetables, cucumber pickles and fried potato fingers",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579246?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378670
+      },
+      {
+        "item_en": "Plain Falafel Plate - Small",
+        "item_ar": "Plain Falafel Plate - Small",
+        "price": 8,
+        "currency": "SAR",
+        "description": "regular falafel kernels, with fresh vegetables, pickled cucumber and tahini sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579248?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378674
+      },
+      {
+        "item_en": "Plain Falafel Plate - Medium",
+        "item_ar": "Plain Falafel Plate - Medium",
+        "price": 14,
+        "currency": "SAR",
+        "description": "regular falafel kernels, with fresh vegetables, pickled cucumber and tahini sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579248?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378675
+      },
+      {
+        "item_en": "Plain Falafel Plate - Large",
+        "item_ar": "Plain Falafel Plate - Large",
+        "price": 25,
+        "currency": "SAR",
+        "description": "regular falafel kernels, with fresh vegetables, pickled cucumber and tahini sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579248?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378676
+      },
+      {
+        "item_en": "Stuffed Falafel 3 Pieces",
+        "item_ar": "Stuffed Falafel 3 Pieces",
+        "price": 2.5,
+        "currency": "SAR",
+        "description": "Falafel balls stuffed with onions and spices, fresh vegetables, pickled cucumber, and tahini sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11378677?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378677
+      },
+      {
+        "item_en": "Regular Falafel 3 Pieces",
+        "item_ar": "Regular Falafel 3 Pieces",
+        "price": 1,
+        "currency": "SAR",
+        "description": "Delicious and fresh falafel balls",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11378678?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378678
+      },
+      {
+        "item_en": "Falafel",
+        "item_ar": "Falafel",
+        "price": 1,
+        "currency": "SAR",
+        "description": "Falafel cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d3f6b66afe07044752490b4e4d65634e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 39115607
+      }
+    ],
+    "Frying Pans": [
+      {
+        "item_en": "Plain Tomato Frying Pan - Small",
+        "item_ar": "Plain Tomato Frying Pan - Small",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Cooked tomatoes with onions, garlic and hot pepper with hashem's special mixture",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579249?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378679
+      },
+      {
+        "item_en": "Plain Tomato Frying Pan - Medium",
+        "item_ar": "Plain Tomato Frying Pan - Medium",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Cooked tomatoes with onions, garlic and hot pepper with hashem's special mixture",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579249?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378680
+      },
+      {
+        "item_en": "Tomato Frying Pan With Meat - Small",
+        "item_ar": "Tomato Frying Pan With Meat - Small",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Tomatoes cooked with meat, onions, garlic and hot pepper with hashem’s special mixture",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579250?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378681
+      },
+      {
+        "item_en": "Tomato Frying Pan With Meat - Medium",
+        "item_ar": "Tomato Frying Pan With Meat - Medium",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Tomatoes cooked with meat, onions, garlic and hot pepper with hashem’s special mixture",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579250?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378682
+      },
+      {
+        "item_en": "Shakshuka With Cheese - Small",
+        "item_ar": "Shakshuka With Cheese - Small",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Tomatoes cooked with onions, garlic, chili pepper, fresh eggs and cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579252?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378685
+      },
+      {
+        "item_en": "Shakshuka With Cheese - Medium",
+        "item_ar": "Shakshuka With Cheese - Medium",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Tomatoes cooked with onions, garlic, chili pepper, fresh eggs and cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579252?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378686
+      },
+      {
+        "item_en": "Sweet Potato - Small",
+        "item_ar": "Sweet Potato - Small",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Fried potato cubes with eggs added to black pepper",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579253?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378687
+      },
+      {
+        "item_en": "Sweet Potato - Medium",
+        "item_ar": "Sweet Potato - Medium",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Fried potato cubes with eggs added to black pepper",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579253?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378688
+      }
+    ],
+    "Hashem's Meal": [
+      {
+        "item_en": "Falafel Pie Meal",
+        "item_ar": "Falafel Pie Meal",
+        "price": 17,
+        "currency": "SAR",
+        "description": "Pie dough stuffed with soft hummus and plain falafel with vegetables, tahini sauce, potatoes, hummus, pickles and ketchup.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11378689?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378689
+      },
+      {
+        "item_en": "Liver Pie Meal",
+        "item_ar": "Liver Pie Meal",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Pie dough stuffed with hashem’s signature chickpeas with liver, fresh lettuce leaves, and tahini sauce, served with fried potato fingers, hummus, ketchup, and pickles.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11378691?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378691
+      },
+      {
+        "item_en": "Falafel Meal",
+        "item_ar": "Falafel Meal",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Tortilla bread stuffed with soft chickpeas and regular falafel with vegetables, tahini sauce, potatoes, hummus, pickles and ketchup",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11378692?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378692
+      },
+      {
+        "item_en": "Fulla Liver Meal",
+        "item_ar": "Fulla Liver Meal",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Tortilla bread stuffed with special hummus hashem with liver, fresh lettuce leaves and tahini sauce served with french fries, hummus, ketchup and pickles",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11378694?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378694
+      },
+      {
+        "item_en": "Chicken Tortilla",
+        "item_ar": "Chicken Tortilla",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Tortilla bread stuffed with spiced chicken, chickpeas, lettuce leaves and tahini sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-6411844?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378695
+      },
+      {
+        "item_en": "Liver Tortilla",
+        "item_ar": "Liver Tortilla",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Tortilla bread stuffed with fresh liver cooked with chickpeas, lettuce leaves and tahini sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11378696?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378696
+      },
+      {
+        "item_en": "Tortilla Falafel Super",
+        "item_ar": "Tortilla Falafel Super",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Tortilla bread stuffed with regular falafel and chickpeas with tahini salad with the addition of fried potato fingers",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11378697?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378697
+      }
+    ],
+    "Chickpeas": [
+      {
+        "item_en": "Hummus With Meat (Fresh) - Small",
+        "item_ar": "Hummus With Meat (Fresh) - Small",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Hashem's special chickpeas with fresh meat cooked with spices, nuts, pine nuts and olive oil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579226?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378607
+      },
+      {
+        "item_en": "Hummus With Meat (Fresh) - Medium",
+        "item_ar": "Hummus With Meat (Fresh) - Medium",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Hashem's special chickpeas with fresh meat cooked with spices, nuts, pine nuts and olive oil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579226?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378608
+      },
+      {
+        "item_en": "Hummus With Meat (Fresh) - Large",
+        "item_ar": "Hummus With Meat (Fresh) - Large",
+        "price": 37,
+        "currency": "SAR",
+        "description": "Hashem's special chickpeas with fresh meat cooked with spices, nuts, pine nuts and olive oil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579226?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378609
+      },
+      {
+        "item_en": "Hummus With Meat Pieces (Fresh) - Small",
+        "item_ar": "Hummus With Meat Pieces (Fresh) - Small",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Hashem's signature hummus with fresh meat pieces cooked with spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579227?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378610
+      },
+      {
+        "item_en": "Hummus With Meat Pieces (Fresh) - Medium",
+        "item_ar": "Hummus With Meat Pieces (Fresh) - Medium",
+        "price": 35,
+        "currency": "SAR",
+        "description": "Hashem's signature hummus with fresh meat pieces cooked with spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579227?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378611
+      },
+      {
+        "item_en": "Chicken Hummus - Small",
+        "item_ar": "Chicken Hummus - Small",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Hashem hummus with spiced fresh chicken added to the special mixture.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579228?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378612
+      },
+      {
+        "item_en": "Chicken Hummus - Medium",
+        "item_ar": "Chicken Hummus - Medium",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Hashem hummus with spiced fresh chicken added to the special mixture.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579228?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378613
+      },
+      {
+        "item_en": "Chicken Hummus - Large",
+        "item_ar": "Chicken Hummus - Large",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Hashem hummus with spiced fresh chicken added to the special mixture.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579228?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378614
+      },
+      {
+        "item_en": "Hummus With Kibbeh - Small",
+        "item_ar": "Hummus With Kibbeh - Small",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Hashem's signature hummus with liver cooked with onions, garlic, hot peppers and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579229?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378615
+      },
+      {
+        "item_en": "Hummus With Kibbeh - Medium",
+        "item_ar": "Hummus With Kibbeh - Medium",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Hashem's signature hummus with liver cooked with onions, garlic, hot peppers and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579229?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378616
+      },
+      {
+        "item_en": "Hummus With Kibbeh - Large",
+        "item_ar": "Hummus With Kibbeh - Large",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Hashem's signature hummus with liver cooked with onions, garlic, hot peppers and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579229?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378617
+      },
+      {
+        "item_en": "Plain Hummus - Small",
+        "item_ar": "Plain Hummus - Small",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Special hashem hummus, with hummus, special seasoning and extra olive oil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579230?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378618
+      },
+      {
+        "item_en": "Plain Hummus - Medium",
+        "item_ar": "Plain Hummus - Medium",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Special hashem hummus, with hummus, special seasoning and extra olive oil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579230?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378619
+      },
+      {
+        "item_en": "Plain Hummus - Large",
+        "item_ar": "Plain Hummus - Large",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Special hashem hummus, with hummus, special seasoning and extra olive oil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579230?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378620
+      },
+      {
+        "item_en": "Hummus With Bean - Small",
+        "item_ar": "Hummus With Bean - Small",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Hashem's special hummus, with beans and chickpeas, with hashem's special dressing and extra olive oil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579231?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378621
+      },
+      {
+        "item_en": "Hummus With Bean - Medium",
+        "item_ar": "Hummus With Bean - Medium",
+        "price": 17,
+        "currency": "SAR",
+        "description": "Hashem's special hummus, with beans and chickpeas, with hashem's special dressing and extra olive oil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579231?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378622
+      },
+      {
+        "item_en": "Hummus With Bean - Large",
+        "item_ar": "Hummus With Bean - Large",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Hashem's special hummus, with beans and chickpeas, with hashem's special dressing and extra olive oil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579231?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378623
+      },
+      {
+        "item_en": "Rosary - Small",
+        "item_ar": "Rosary - Small",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Special hashem hummus with chickpeas, hashem seasoning and olive oil",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378627
+      },
+      {
+        "item_en": "Rosary - Medium",
+        "item_ar": "Rosary - Medium",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Special hashem hummus with chickpeas, hashem seasoning and olive oil",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378628
+      },
+      {
+        "item_en": "Rosary - Large",
+        "item_ar": "Rosary - Large",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Special hashem hummus with chickpeas, hashem seasoning and olive oil",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378629
+      },
+      {
+        "item_en": "Spiced - Small",
+        "item_ar": "Spiced - Small",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Grilled eggplant with tahini, lemon, garlic, hot pepper and olive oil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579234?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378630
+      },
+      {
+        "item_en": "Spiced - Medium",
+        "item_ar": "Spiced - Medium",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Grilled eggplant with tahini, lemon, garlic, hot pepper and olive oil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579234?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378631
+      },
+      {
+        "item_en": "Spiced - Large",
+        "item_ar": "Spiced - Large",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Grilled eggplant with tahini, lemon, garlic, hot pepper and olive oil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579234?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378632
+      },
+      {
+        "item_en": "Mixed Sanctity - Small",
+        "item_ar": "Mixed Sanctity - Small",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Al-jarra beans with special hashem chickpeas mixed and added with the special seasoning, chickpeas and extra olive oil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-6717916?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378633
+      },
+      {
+        "item_en": "Mixed Sanctity - Medium",
+        "item_ar": "Mixed Sanctity - Medium",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Al-jarra beans with special hashem chickpeas mixed and added with the special seasoning, chickpeas and extra olive oil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-6717916?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378634
+      },
+      {
+        "item_en": "Mixed Sanctity - Large",
+        "item_ar": "Mixed Sanctity - Large",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Al-jarra beans with special hashem chickpeas mixed and added with the special seasoning, chickpeas and extra olive oil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-6717916?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378635
+      }
+    ],
+    "Abu Youth Cake": [
+      {
+        "item_en": "Abu Al Shabab Super Cake",
+        "item_ar": "Abu Al Shabab Super Cake",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Kaak bread stuffed with regular falafel, hummus, fresh vegetables, lemon slices and tahini sauce with the addition of french fries fingers",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11378707?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378707
+      },
+      {
+        "item_en": "Abu Al Shabab Cake Stuffed / Regular",
+        "item_ar": "Abu Al Shabab Cake Stuffed / Regular",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Kaak bread stuffed with regular falafel, hummus, fresh vegetables, lemon slices and tahini sauce with the addition of french fries fingers",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11378708?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378708
+      },
+      {
+        "item_en": "Liver Cake",
+        "item_ar": "Liver Cake",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Kaak bread stuffed with liver and hummus with vegetables and tahini sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11378711?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378711
+      },
+      {
+        "item_en": "Chicken Cake",
+        "item_ar": "Chicken Cake",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Kaak bread stuffed with spiced chicken and hummus with vegetables and tahini sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11378712?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378712
+      }
+    ],
+    "Appetizers And Salads": [
+      {
+        "item_en": "Tahini Salad",
+        "item_ar": "Tahini Salad",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Mixed chopped vegetables with tahini sauce and olive oil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11378713?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378713
+      },
+      {
+        "item_en": "Mixed Pickles",
+        "item_ar": "Mixed Pickles",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Cucumber pickles and mixed pickles with olives",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11378714?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378714
+      },
+      {
+        "item_en": "Falafel Dough",
+        "item_ar": "Falafel Dough",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Hashem falafel dough is ready to fry",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11378717?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378717
+      },
+      {
+        "item_en": "Hummus Beans",
+        "item_ar": "Hummus Beans",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Cooked hummus",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/97d012f00837510f732b762a43b394fd?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378718
+      },
+      {
+        "item_en": "Potato",
+        "item_ar": "Potato",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Crispy french fries",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11378719?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378719
+      },
+      {
+        "item_en": "Jordanian Hot Sauce",
+        "item_ar": "Jordanian Hot Sauce",
+        "price": 1.5,
+        "currency": "SAR",
+        "description": "jordanian chili and hot pepper with olive oil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11378722?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378722
+      },
+      {
+        "item_en": "Special Seasoning",
+        "item_ar": "Special Seasoning",
+        "price": 1.5,
+        "currency": "SAR",
+        "description": "Jordanian style sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-19675710?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378723
+      },
+      {
+        "item_en": "3 Pieces Of Lebanese Bread",
+        "item_ar": "3 Pieces Of Lebanese Bread",
+        "price": 1,
+        "currency": "SAR",
+        "description": "Crispy and fresh lebanese bread",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11378724?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378724
+      }
+    ],
+    "Sandwiches": [
+      {
+        "item_en": "Stuffed Super Falafel Sandwich",
+        "item_ar": "Stuffed Super Falafel Sandwich",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Shami bread stuffed with stuffed falafel, hashem salad and hummus with the addition of fried potato fingers",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/72992/PRODUCT/11961985/b1a84f80-3d9a-41d0-ac69-8fe14be0bf81.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11961985
+      },
+      {
+        "item_en": "Stuffed Regular Falafel Sandwich",
+        "item_ar": "Stuffed Regular Falafel Sandwich",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Shami bread stuffed with falafel and hashem salad",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/72992/PRODUCT/11961986/8a54088a-bbc4-459d-b76e-980e047b9d0d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11961986
+      },
+      {
+        "item_en": "Super Falafel Sandwich",
+        "item_ar": "Super Falafel Sandwich",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Shami bread stuffed with regular falafel, hashem salad and hummus, with the addition of fried potato fingers",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11961987?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11961987
+      },
+      {
+        "item_en": "Falafel Sandwich With Chickpeas",
+        "item_ar": "Falafel Sandwich With Chickpeas",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Shami bread stuffed with regular falafel and hummus with hashem salad",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/72992/PRODUCT/11961988/d9a014fd-7358-498d-bfd7-5501e8dd2e34.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11961988
+      },
+      {
+        "item_en": "Regular Falafel Sandwich",
+        "item_ar": "Regular Falafel Sandwich",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Plain delicious falafel sandwich",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/14778/PRODUCT/11961989/61b14cf5-9ee5-4e15-9f0d-96e8e5875229.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11961989
+      },
+      {
+        "item_en": "Foul And Falafel Sandwich",
+        "item_ar": "Foul And Falafel Sandwich",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Shami bread stuffed with foul and regular falafel with hashem salad",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11961990?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11961990
+      },
+      {
+        "item_en": "Full Sandwich",
+        "item_ar": "Full Sandwich",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Shami bread stuffed with foul with special seasoning",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11961991?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11961991
+      },
+      {
+        "item_en": "Sandwich Omelet",
+        "item_ar": "Sandwich Omelet",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Eggs cheese lettuce tomato",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-18630252?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 39115608
+      }
+    ],
+    "Boxes Lamaa": [
+      {
+        "item_en": "Classic Box",
+        "item_ar": "Classic Box",
+        "price": 60,
+        "currency": "SAR",
+        "description": "It contains one hummus one mutabal one fava beans one shakshuka one falafel plate one potato four hashem sauceand four coca cola",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/fd950c86b776d54694e50f3d8f17c2d1?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 39120168
+      },
+      {
+        "item_en": "Box Vip",
+        "item_ar": "Box Vip",
+        "price": 85,
+        "currency": "SAR",
+        "description": "It contains one mixed falafel plate one fattah one tomato frying pan with meat one hummus with chicken one shakshuka with cheese one potato four hashem sauce and four coca cola",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/05fc6cf886ec70f5d4016047428afeba?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 39120169
+      },
+      {
+        "item_en": "Special Box",
+        "item_ar": "Special Box",
+        "price": 70,
+        "currency": "SAR",
+        "description": "It contains one falafel plate one hummus one qudsia plate one egg one tomato fryer four hashem sauce one potato plate and four coca cola",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/f57d0ccdca9286f19eebcdbef486caf8?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 39120170
+      }
+    ],
+    "Signature Box": [
+      {
+        "item_en": "Sandwiches Box",
+        "item_ar": "Sandwiches Box",
+        "price": 55,
+        "currency": "SAR",
+        "description": "It contains two omelette sandwiches two falafel tortillas two super sandwiches a plate fries and three coca cola",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/9d6c5e1f35209d1a2a64547ff139a242?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 39747691
+      }
+    ],
+    "Beans": [
+      {
+        "item_en": "Tomato Bean - Small",
+        "item_ar": "Tomato Bean - Small",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Jarra foul cooked with garlic, hot pepper and tomato with olive oil and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579237?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378639
+      },
+      {
+        "item_en": "Tomato Bean - Medium",
+        "item_ar": "Tomato Bean - Medium",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Jarra foul cooked with garlic, hot pepper and tomato with olive oil and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579237?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378640
+      },
+      {
+        "item_en": "Tomato Bean - Large",
+        "item_ar": "Tomato Bean - Large",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Jarra foul cooked with garlic, hot pepper and tomato with olive oil and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-579237?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378641
+      },
+      {
+        "item_en": "Jordanian Beans - Small",
+        "item_ar": "Jordanian Beans - Small",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Jar foul, seasoned with seasoning, hummus and extra olive oil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-6700743?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378645
+      },
+      {
+        "item_en": "Jordanian Beans - Medium",
+        "item_ar": "Jordanian Beans - Medium",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Jar foul, seasoned with seasoning, hummus and extra olive oil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-6700743?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378646
+      },
+      {
+        "item_en": "Jordanian Beans - Large",
+        "item_ar": "Jordanian Beans - Large",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Jar foul, seasoned with seasoning, hummus and extra olive oil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-6700743?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378647
+      },
+      {
+        "item_en": "Egyptian Foul - Small",
+        "item_ar": "Egyptian Foul - Small",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Jar foul with tahini, cumin and extra olive oil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-6700743?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378651
+      },
+      {
+        "item_en": "Egyptian Foul - Medium",
+        "item_ar": "Egyptian Foul - Medium",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Jar foul with tahini, cumin and extra olive oil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-6700743?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378652
+      },
+      {
+        "item_en": "Egyptian Foul - Large",
+        "item_ar": "Egyptian Foul - Large",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Jar foul with tahini, cumin and extra olive oil",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-6700743?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11378653
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.032Z",
+  "source": "Hungerstation"
+}

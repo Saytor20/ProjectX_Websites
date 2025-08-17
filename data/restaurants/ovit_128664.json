@@ -1,0 +1,301 @@
+{
+  "restaurant_info": {
+    "id": "128664",
+    "name": "Ovit",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.23863471153249,
+      "longitude": 42.58042152489368
+    },
+    "rating": 4.3,
+    "review_count": 119,
+    "type_of_food": "Fast Food,American,Burgers",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/128664"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Truffle Pizza",
+        "item_ar": "Truffle Pizza",
+        "price": 34,
+        "currency": "SAR",
+        "description": "Special truffle sauce, mushroom, truffle cheese, rocket leaves",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20984841?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20984841
+      },
+      {
+        "item_en": "Bacon And Chicken Pizza",
+        "item_ar": "Bacon And Chicken Pizza",
+        "price": 31,
+        "currency": "SAR",
+        "description": "Teriyaki chicken slices, bacon slices, bell pepper, fresh mozzarella, rocket leaves",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20984840?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20984840
+      },
+      {
+        "item_en": "Crispy Dynamite Shrimp",
+        "item_ar": "Crispy Dynamite Shrimp",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Fried shrimp with dynamite sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20984849?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20984849
+      },
+      {
+        "item_en": "Fries With Chicken",
+        "item_ar": "Fries With Chicken",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Delicious chicken fries",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20984857?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20984857
+      }
+    ],
+    "Our New": [
+      {
+        "item_en": "Ovit Smash Burger",
+        "item_ar": "Ovit Smash Burger",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Black angus double smash beef, lettuce, two slices of white cheese with special sauce, fresh bread without sesame seeds",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/52874d2860e13d10f4b80da5c9cabe3a.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70866476
+      }
+    ],
+    "Pizza": [
+      {
+        "item_en": "Pizza Margherita",
+        "item_ar": "Pizza Margherita",
+        "price": 28,
+        "currency": "SAR",
+        "description": "Tomato sauce, fresh mozzarella cheese, fresh buffalo cheese, parmesan, basil leaves",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20984839?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20984839
+      },
+      {
+        "item_en": "Bacon And Chicken Pizza",
+        "item_ar": "Bacon And Chicken Pizza",
+        "price": 31,
+        "currency": "SAR",
+        "description": "Teriyaki chicken slices, bacon slices, bell pepper, fresh mozzarella, rocket leaves",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20984840?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20984840
+      },
+      {
+        "item_en": "Truffle Pizza",
+        "item_ar": "Truffle Pizza",
+        "price": 34,
+        "currency": "SAR",
+        "description": "Special truffle sauce, mushroom, truffle cheese, rocket leaves",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20984841?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20984841
+      }
+    ],
+    "Burger": [
+      {
+        "item_en": "Classic Beef Burger",
+        "item_ar": "Classic Beef Burger",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Black angus beef 100 grams, cheddar sauce, lettuce, pickles, ovit sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20984842?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20984842
+      },
+      {
+        "item_en": "Crispy Chicken Burger",
+        "item_ar": "Crispy Chicken Burger",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Fried chicken breast, cheddar sauce, lettuce salad, chicken sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20984843?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20984843
+      },
+      {
+        "item_en": "Spicy Chicken Burger",
+        "item_ar": "Spicy Chicken Burger",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Spicy fried chicken breast, cheddar sauce, spicy sauce, lettuce, pickles, black bread with sesame",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20984844?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20984844
+      },
+      {
+        "item_en": "Ovit Beef Burger",
+        "item_ar": "Ovit Beef Burger",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Black angus beef 100 grams, marinated stuffed with cheese, cheddar sauce, ovit sauce, lettuce, pickles",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/0fe28ba14b590e81b873eb358d4aeaac.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20984845
+      },
+      {
+        "item_en": "Truffle Beef Burger",
+        "item_ar": "Truffle Beef Burger",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Black angus beef 100 grams, special truffle sauce, cheddar sauce, caramelized onions, rocca",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20984846?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20984846
+      }
+    ],
+    "Dishes": [
+      {
+        "item_en": "Chicken Burger Slider",
+        "item_ar": "Chicken Burger Slider",
+        "price": 28,
+        "currency": "SAR",
+        "description": "Three fried chicken pieces, cheddar sauce, lettuce, chicken sauce, black bread with sesame seeds",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/e944e4264eefdcb978af3f1f54dfb9ab.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20984847
+      },
+      {
+        "item_en": "Beef Burger Slider",
+        "item_ar": "Beef Burger Slider",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Three pieces of meat, cheddar sauce, lettuce, pickles, ovit sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20984848?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20984848
+      },
+      {
+        "item_en": "Crispy Dynamite Shrimp",
+        "item_ar": "Crispy Dynamite Shrimp",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Fried shrimp with dynamite sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20984849?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20984849
+      },
+      {
+        "item_en": "Crispy Dynamite Chicken",
+        "item_ar": "Crispy Dynamite Chicken",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Made from chicken that is coated in a crispy batter and then tossed in a sweet and spicy sauce.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20984850?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20984850
+      }
+    ],
+    "Side Orders": [
+      {
+        "item_en": "Chicken Caesar",
+        "item_ar": "Chicken Caesar",
+        "price": 21,
+        "currency": "SAR",
+        "description": "A mixture of fresh vegetables and grilled chicken slices, with delicious caesar sauce and special spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20984853?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20984853
+      },
+      {
+        "item_en": "Meat And Cheese Fries",
+        "item_ar": "Meat And Cheese Fries",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Crispy french fries with cheese and meat",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20984855?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20984855
+      },
+      {
+        "item_en": "Potato",
+        "item_ar": "Potato",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Crispy french fries.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20984856?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20984856
+      },
+      {
+        "item_en": "Fries With Chicken",
+        "item_ar": "Fries With Chicken",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Delicious chicken fries",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20984857?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20984857
+      }
+    ],
+    "Kids Meal": [
+      {
+        "item_en": "Chicken Burger",
+        "item_ar": "Chicken Burger",
+        "price": 19,
+        "currency": "SAR",
+        "description": "A slice of chicken topped with fresh vegetables and sauce in a burger bun",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-8277887?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20984858
+      }
+    ],
+    "Beverages": [
+      {
+        "item_en": "Soft Drinks",
+        "item_ar": "Soft Drinks",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Soft drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20984862?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20984862
+      },
+      {
+        "item_en": "Water",
+        "item_ar": "Water",
+        "price": 2,
+        "currency": "SAR",
+        "description": "Bottled mineral water",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20984863?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20984863
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.036Z",
+  "source": "Hungerstation"
+}

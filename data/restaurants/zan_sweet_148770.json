@@ -1,0 +1,34 @@
+{
+  "restaurant_info": {
+    "id": "148770",
+    "name": "Zan sweet",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2279163,
+      "longitude": 42.5437714
+    },
+    "rating": 5,
+    "review_count": 1,
+    "type_of_food": "Desserts",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/148770"
+  },
+  "menu_categories": {
+    "Chocolates": [
+      {
+        "item_en": "Zan Chocolate Box",
+        "item_ar": "Zan Chocolate Box",
+        "price": 99,
+        "currency": "SAR",
+        "description": "A luxurious blend of eastern flavors with a modern twist in a premium chocolate box, featuring three unique fillings: kunafa salted caramel pecan, kunafa pistachio, and kunafa nutella.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ZANS/76fd27d732b93b471779fb4f87004fa6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69220198
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.038Z",
+  "source": "Hungerstation"
+}

@@ -1,0 +1,655 @@
+{
+  "restaurant_info": {
+    "id": "152851",
+    "name": "Forn Nakshah",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2582609,
+      "longitude": 42.5939683
+    },
+    "rating": 4.5,
+    "review_count": 2,
+    "type_of_food": "Arabic,Pastries",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/152851"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Pinky Shrimp",
+        "item_ar": "Pinky Shrimp",
+        "price": 39.5,
+        "currency": "SAR",
+        "description": "A dish of penne pasta cooked with delicious rubicon.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/152851/PRODUCT/72047255/36655eed-1099-4add-94be-9c8a07a722fd.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047255
+      }
+    ],
+    "Manakish": [
+      {
+        "item_en": "Thyme Manqusha",
+        "item_ar": "Thyme Manqusha",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Delicious dough with thyme",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/152851/PRODUCT/72047229/242f442c-63b4-491e-9406-564d53b28410.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047229
+      },
+      {
+        "item_en": "Manaqish Qashquan",
+        "item_ar": "Manaqish Qashquan",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/c343f047b9673161a897527571a4e6a2?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74776974
+      },
+      {
+        "item_en": "Vegetable Labneh Manqusha",
+        "item_ar": "Vegetable Labneh Manqusha",
+        "price": 21.5,
+        "currency": "SAR",
+        "description": "Delicious dough with labneh and vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/72047231?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047231
+      },
+      {
+        "item_en": "Thyme Cheese Manqusha",
+        "item_ar": "Thyme Cheese Manqusha",
+        "price": 20.5,
+        "currency": "SAR",
+        "description": "Delicious dough with thyme and cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/72047230?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047230
+      },
+      {
+        "item_en": "Pepperoni Manqusha",
+        "item_ar": "Pepperoni Manqusha",
+        "price": 21.5,
+        "currency": "SAR",
+        "description": "Delicious dough with pepperoni",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/72047232?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047232
+      },
+      {
+        "item_en": "Manakish Smoky Turki",
+        "item_ar": "Manakish Smoky Turki",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Manaqush",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/35ad7142886966f7551537dd7b012cc4?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 73053194
+      },
+      {
+        "item_en": "Halloumi Pesto",
+        "item_ar": "Halloumi Pesto",
+        "price": 20.5,
+        "currency": "SAR",
+        "description": "Delicious dough with halloumi cheese and pesto sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/72047235?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047235
+      }
+    ],
+    "Pizza": [
+      {
+        "item_en": "Burrata Pizza",
+        "item_ar": "Burrata Pizza",
+        "price": 38.5,
+        "currency": "SAR",
+        "description": "Delicious pizza prepared in a delicious way with mozzarella cheese",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/152851/PRODUCT/72047236/7ec59c78-3f32-42d8-bfdc-b14d1a85c737.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047236
+      },
+      {
+        "item_en": "Margherita Pizza",
+        "item_ar": "Margherita Pizza",
+        "price": 35,
+        "currency": "SAR",
+        "description": "Delicious pizza prepared with sauce and mozzarella cheese.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/152851/PRODUCT/72047237/7056fc61-9c20-4fb8-b55f-9786a046ad02.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047237
+      },
+      {
+        "item_en": "Pepperoni Pizza",
+        "item_ar": "Pepperoni Pizza",
+        "price": 36,
+        "currency": "SAR",
+        "description": "Delicious pizza prepared with pepperoni and mozzarella cheese.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/152851/PRODUCT/72047238/4c1e073c-90be-40dd-87b8-6ff310f5f112.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047238
+      },
+      {
+        "item_en": "Aubergine Arugula Pizza",
+        "item_ar": "Aubergine Arugula Pizza",
+        "price": 36,
+        "currency": "SAR",
+        "description": "Delicious pizza made with fried eggplant slices, arugula, and mozzarella.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/72047240?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047240
+      },
+      {
+        "item_en": "Chicken Pizza",
+        "item_ar": "Chicken Pizza",
+        "price": 36,
+        "currency": "SAR",
+        "description": "Delicious pizza made with chicken, tomatoes, green peppers, and onions.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/152851/PRODUCT/72047241/2bb0b7e8-3fac-4a01-ba5f-f75f21661fdf.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047241
+      },
+      {
+        "item_en": "Truffle Pizza",
+        "item_ar": "Truffle Pizza",
+        "price": 38.5,
+        "currency": "SAR",
+        "description": "Delicious pizza prepared in a delicious way.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/152851/PRODUCT/72047243/41499689-1a79-4eca-bd2b-ca91e4af9b01.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047243
+      }
+    ],
+    "Box": [
+      {
+        "item_en": "Sandwich Box",
+        "item_ar": "Sandwich Box",
+        "price": 50,
+        "currency": "SAR",
+        "description": "Types: tuna, cheese, chicken, pepperoni, smoke, turkey",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/d8e0b0b8e78e71e984c9a94b688d1249?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74330277
+      },
+      {
+        "item_en": "Box Monkey Bread",
+        "item_ar": "Box Monkey Bread",
+        "price": 66,
+        "currency": "SAR",
+        "description": "Dessert",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/10753f3ec4510de73ac0fc767767adfe?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74330302
+      },
+      {
+        "item_en": "Box Mix Naqsha",
+        "item_ar": "Box Mix Naqsha",
+        "price": 60,
+        "currency": "SAR",
+        "description": "Dessert pastries sandwiches",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/6eb14ee0ae5e3c30c536f3d6a61f05eb?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 74338231
+      },
+      {
+        "item_en": "Season Box",
+        "item_ar": "Season Box",
+        "price": 110,
+        "currency": "SAR",
+        "description": "Chocolate cake, mango cake, red velvet cake",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/53d26d917fd377e0695e2e5be42565fe?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75366014
+      },
+      {
+        "item_en": "Mango Cake",
+        "item_ar": "Mango Cake",
+        "price": 82,
+        "currency": "SAR",
+        "description": "Mongo and cake",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/70c0e530a57fb396af17b48e244822ed?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75366015
+      },
+      {
+        "item_en": "Box Chocolate Naqshah",
+        "item_ar": "Box Chocolate Naqshah",
+        "price": 83,
+        "currency": "SAR",
+        "description": "Cake",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7ef41d7331319c0e3f16b84d5cfbcb3e?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75366019
+      }
+    ],
+    "Italian Corner": [
+      {
+        "item_en": "Chicken Alfredo",
+        "item_ar": "Chicken Alfredo",
+        "price": 38.5,
+        "currency": "SAR",
+        "description": "A dish of pasta cooked with creamy alfredo sauce.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/b0bbbb330db958a470eafc0d3673da97.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047253
+      },
+      {
+        "item_en": "Chicken Pesto",
+        "item_ar": "Chicken Pesto",
+        "price": 39.5,
+        "currency": "SAR",
+        "description": "A dish of chicken pieces cooked with spices and pesto sauce.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/681b26c4c51ba4cfd3f980cc39052f4d.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047254
+      },
+      {
+        "item_en": "Pinky Shrimp",
+        "item_ar": "Pinky Shrimp",
+        "price": 39.5,
+        "currency": "SAR",
+        "description": "A dish of penne pasta cooked with delicious rubicon.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/152851/PRODUCT/72047255/36655eed-1099-4add-94be-9c8a07a722fd.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047255
+      },
+      {
+        "item_en": "Al Forno Lasagna",
+        "item_ar": "Al Forno Lasagna",
+        "price": 37,
+        "currency": "SAR",
+        "description": "Minced meat",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/9a4e580cdeb24312477af94aca0f2366.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047256
+      },
+      {
+        "item_en": "Lemon Risotto",
+        "item_ar": "Lemon Risotto",
+        "price": 37,
+        "currency": "SAR",
+        "description": "A dish of rice cooked in a special sauce with lemon.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/152851/PRODUCT/72047257/94489b26-f7a0-416c-8bd9-a09934585e66.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047257
+      },
+      {
+        "item_en": "Truffle Risotto",
+        "item_ar": "Truffle Risotto",
+        "price": 39.5,
+        "currency": "SAR",
+        "description": "A dish of rice cooked a special dish with delicious ingredients.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/c35cc11d02a215c6c23a4e3f6c206573.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047258
+      },
+      {
+        "item_en": "Saffron Risotto",
+        "item_ar": "Saffron Risotto",
+        "price": 38.5,
+        "currency": "SAR",
+        "description": "A dish consisting of rice cooked in a special dish with saffron.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/9c600d6abc422a127a36e9e78491121b.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047259
+      },
+      {
+        "item_en": "Pasta Kajun",
+        "item_ar": "Pasta Kajun",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Italin",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/e93c68290013c41f8aa2f949cae26ade?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 73053192
+      }
+    ],
+    "Side Dishes": [
+      {
+        "item_en": "Mac And Cheese",
+        "item_ar": "Mac And Cheese",
+        "price": 32.5,
+        "currency": "SAR",
+        "description": "A dish consisting of pasta cooked with delicious cheeses.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/72047260?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047260
+      },
+      {
+        "item_en": "Arancini",
+        "item_ar": "Arancini",
+        "price": 32.5,
+        "currency": "SAR",
+        "description": "A plate of delicious aranci balls",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/25ca6f293c1b9cb388a79b6aa053653b.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047261
+      },
+      {
+        "item_en": "Potatoes",
+        "item_ar": "Potatoes",
+        "price": 8.5,
+        "currency": "SAR",
+        "description": "Crispy fried potato fingers",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/db6bae72a2720c5af0407e07a8fe47dd.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047262
+      },
+      {
+        "item_en": "Fattoush",
+        "item_ar": "Fattoush",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Tomato",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/2298eecc092877b3ca9f49de16ca7351?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75288875
+      },
+      {
+        "item_en": "Rocca Salad",
+        "item_ar": "Rocca Salad",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Onion",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/75289243?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75289243
+      },
+      {
+        "item_en": "Chicken Caesar Salad",
+        "item_ar": "Chicken Caesar Salad",
+        "price": 32,
+        "currency": "SAR",
+        "description": "Chkien",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/221201fa42cf5455cb0eb64fedfda7af?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75289254
+      },
+      {
+        "item_en": "Watermelon Salad",
+        "item_ar": "Watermelon Salad",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/b16055fdd778929cf075a192bea9d3d4?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 75289309
+      }
+    ],
+    "Desserts": [
+      {
+        "item_en": "Raspberry Tiramisu",
+        "item_ar": "Raspberry Tiramisu",
+        "price": 24,
+        "currency": "SAR",
+        "description": "A dessert made with layers of whipped cream, cream cheese, and a sprinkle of cocoa with berries",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/868ed36b17ce13b17d09a024dd8a79fe.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047263
+      },
+      {
+        "item_en": "Mango Cake",
+        "item_ar": "Mango Cake",
+        "price": 24,
+        "currency": "SAR",
+        "description": "A delicious mango truffle cake",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/152851/PRODUCT/72047264/bb1008a3-d6c6-4786-a05c-c0ae247bdd8d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047264
+      },
+      {
+        "item_en": "Chocolate Naqsha",
+        "item_ar": "Chocolate Naqsha",
+        "price": 26.5,
+        "currency": "SAR",
+        "description": "A dessert made with our own chocolate",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/152851/PRODUCT/72047265/664e2cd7-cb4f-4c14-bd93-be8f816d1696.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047265
+      },
+      {
+        "item_en": "Date Cake",
+        "item_ar": "Date Cake",
+        "price": 24,
+        "currency": "SAR",
+        "description": "A light, fluffy cake made with delicious dates",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/0f3bf7c55484f946f1693896c91aa4a2.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047266
+      },
+      {
+        "item_en": "Triple Honey",
+        "item_ar": "Triple Honey",
+        "price": 25,
+        "currency": "SAR",
+        "description": "A delicious honey dessert",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/106e2ecdf47476b5faf987692d348020.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047267
+      },
+      {
+        "item_en": "Snickers",
+        "item_ar": "Snickers",
+        "price": 26.5,
+        "currency": "SAR",
+        "description": "A delicious dessert made with delicious snickers",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/152851/PRODUCT/72047268/f0a72128-7ba3-42b3-afa7-daa06dc6552c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047268
+      }
+    ],
+    "Hot Beverages": [
+      {
+        "item_en": "Hot Spanish Latte",
+        "item_ar": "Hot Spanish Latte",
+        "price": 14.5,
+        "currency": "SAR",
+        "description": "Espresso coffee with steamed milk and sweetened condensed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/e310e5a6cc44c149b69b58ca7e14a437.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047269
+      },
+      {
+        "item_en": "Turkish Coffee",
+        "item_ar": "Turkish Coffee",
+        "price": 9.5,
+        "currency": "SAR",
+        "description": "Coffee prepared in the traditional turkish way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/347921cc71c42f6655630df12cc81048.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047270
+      },
+      {
+        "item_en": "Mocha Latte",
+        "item_ar": "Mocha Latte",
+        "price": 14.5,
+        "currency": "SAR",
+        "description": "Espresso coffee with milk and chocolate",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/dece59e0b464fbbdee8a7a350e7236b6.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047272
+      },
+      {
+        "item_en": "Turkish Tea",
+        "item_ar": "Turkish Tea",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Turkish tea served strong and aromatic",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/9eca78bc68444bd8c434d48afdd8b5fe?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 73051298
+      },
+      {
+        "item_en": "Capptchino",
+        "item_ar": "Capptchino",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Espresso with steamed milk and foam",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/9780e33a2a004a969234ce8654696a8a?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 73051399
+      },
+      {
+        "item_en": "Coffe Day Hot",
+        "item_ar": "Coffe Day Hot",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Spreso",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/362be13ed9f5c229102d5137c3e2646d?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 73053191
+      },
+      {
+        "item_en": "Cortado",
+        "item_ar": "Cortado",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Drink hot",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/fd2aa2e75e29112666dbd49f0961a738?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 73053193
+      }
+    ],
+    "Cold Beverages": [
+      {
+        "item_en": "Iced Latte",
+        "item_ar": "Iced Latte",
+        "price": 14.5,
+        "currency": "SAR",
+        "description": "Espresso coffee with steamed milk and ice cubes",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/207bfdc5d0d937c7875a335563c4c32b.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047275
+      },
+      {
+        "item_en": "Spanish Latte",
+        "item_ar": "Spanish Latte",
+        "price": 17,
+        "currency": "SAR",
+        "description": "Espresso coffee with steamed milk, sweetened condensed milk, and ice cubes",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/c47c54524eb14f50045861dc65581a7a.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047276
+      },
+      {
+        "item_en": "Iced Americano",
+        "item_ar": "Iced Americano",
+        "price": 12,
+        "currency": "SAR",
+        "description": "A shot of diluted espresso coffee with ice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/65b7c380b69f216d8339a35cd2dd9d85.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047277
+      },
+      {
+        "item_en": "Water",
+        "item_ar": "Water",
+        "price": 1.5,
+        "currency": "SAR",
+        "description": "Pure, refreshing fresh drinking water",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/152851/PRODUCT/72047283/42fa96b9-f4c8-4078-a323-bdfe409b12d2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047283
+      },
+      {
+        "item_en": "Pepsi 250 Ml",
+        "item_ar": "Pepsi 250 Ml",
+        "price": 5,
+        "currency": "SAR",
+        "description": "A refreshing soft drink with a unique flavor",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/152851/PRODUCT/72047284/32148d59-32fe-4883-ad4c-bc0edc9035e2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047284
+      },
+      {
+        "item_en": "Diet Pepsi 250 Ml",
+        "item_ar": "Diet Pepsi 250 Ml",
+        "price": 5,
+        "currency": "SAR",
+        "description": "A refreshing soft drink with a unique flavor without sugar",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/152851/PRODUCT/72047285/7e08a48b-c12e-4876-9b6b-0e3eeb354b12.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047285
+      },
+      {
+        "item_en": "7 Up 250 Ml",
+        "item_ar": "7 Up 250 Ml",
+        "price": 5,
+        "currency": "SAR",
+        "description": "A refreshing soft drink with a lemon flavor",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/152851/PRODUCT/72047287/e68ef876-6d52-405f-885d-948cf05c7564.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72047287
+      },
+      {
+        "item_en": "Code Red Mojito",
+        "item_ar": "Code Red Mojito",
+        "price": 17,
+        "currency": "SAR",
+        "description": "A refreshing drink with a unique and delicious flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/db7067f40fdfa17ab9f5c7ee854c660c?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 73054125
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.040Z",
+  "source": "Hungerstation"
+}

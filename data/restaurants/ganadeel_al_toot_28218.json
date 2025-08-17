@@ -1,0 +1,787 @@
+{
+  "restaurant_info": {
+    "id": "28218",
+    "name": "Ganadeel Al Toot",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.219943,
+      "longitude": 42.548119
+    },
+    "rating": 4.3,
+    "review_count": 171,
+    "type_of_food": "Grill,Shawarma",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/28218"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Doner Arbi",
+        "item_ar": "Doner Arbi",
+        "price": 28,
+        "currency": "SAR",
+        "description": "Chicken shawarma with arabic spices and soft bread",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537660?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537660
+      },
+      {
+        "item_en": "Normal Broasted",
+        "item_ar": "Normal Broasted",
+        "price": 26.5,
+        "currency": "SAR",
+        "description": "Regular broasted chicken, crispy and tasty",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537684?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537684
+      },
+      {
+        "item_en": "Mix Tabak",
+        "item_ar": "Mix Tabak",
+        "price": 68,
+        "currency": "SAR",
+        "description": "Varied mixed grill selection with traditional flavors",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537677?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537677
+      },
+      {
+        "item_en": "Batates Small",
+        "item_ar": "Batates Small",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Crispy french fries prepared in a delicious way.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537638?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537638
+      }
+    ],
+    "Appetizers": [
+      {
+        "item_en": "Mix Salta Small",
+        "item_ar": "Mix Salta Small",
+        "price": 27,
+        "currency": "SAR",
+        "description": "Mixed appetizers with a traditional assortment and delicious flavours.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537637?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537637
+      },
+      {
+        "item_en": "Garlic Sauce",
+        "item_ar": "Garlic Sauce",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Sauce contains garlic, salt and lemon juice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/55c85693f04890dd537932da575453f8?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32629125
+      },
+      {
+        "item_en": "Tursu",
+        "item_ar": "Tursu",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Vegetables preserved in an acidic solution",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/9fdeb9be1256a4105b9ef4b2da4d656c?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32629126
+      },
+      {
+        "item_en": "Salat",
+        "item_ar": "Salat",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Salad fresh and vibrant with a mix of flavors",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537641?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537641
+      },
+      {
+        "item_en": "Fattoush",
+        "item_ar": "Fattoush",
+        "price": 21,
+        "currency": "SAR",
+        "description": "A lebanese salad made with toasted or fried pieces of flatbread, crisp greens, radishes, tomatoes, and onion, often dressed with a bright, minty dressing and sprinkled with sumac",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537643?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537643
+      },
+      {
+        "item_en": "Baba Gonog",
+        "item_ar": "Baba Gonog",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Mashed mixture of grilled eggplant, vegetables, olive oil, garlic and lemon juice.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537633?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537633
+      },
+      {
+        "item_en": "Tebule",
+        "item_ar": "Tebule",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Salad that includes parsley, mint, tomatoes, onions, and bulgur marinated in lemon juice and olive oil.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537642?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537642
+      },
+      {
+        "item_en": "Mutebel",
+        "item_ar": "Mutebel",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Dish of grilled eggplant mixed with yogurt, tahini and lemon sauce.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537632?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537632
+      },
+      {
+        "item_en": "Muhamara",
+        "item_ar": "Muhamara",
+        "price": 27,
+        "currency": "SAR",
+        "description": "A mixture of nuts with pepper molasses and grilled vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537636?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537636
+      },
+      {
+        "item_en": "Humus",
+        "item_ar": "Humus",
+        "price": 16,
+        "currency": "SAR",
+        "description": "A mixture of mashed chickpeas, olive oil, lemon juice and spices.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537631?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537631
+      },
+      {
+        "item_en": "Hamas Bialfurun",
+        "item_ar": "Hamas Bialfurun",
+        "price": 25,
+        "currency": "SAR",
+        "description": "A mixture of mashed chickpeas, olive oil, lemon juice and spices.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537635?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537635
+      },
+      {
+        "item_en": "Sarma Tabag Small",
+        "item_ar": "Sarma Tabag Small",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Tender grape leaves stuffed with seasoned rice and herbs",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537634?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537634
+      },
+      {
+        "item_en": "Mahshi",
+        "item_ar": "Mahshi",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Stuffed dish prepared with a variety of vegetables and fresh spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537640?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537640
+      },
+      {
+        "item_en": "Rice",
+        "item_ar": "Rice",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Cooked white rice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537639?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537639
+      },
+      {
+        "item_en": "Batates Small",
+        "item_ar": "Batates Small",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Crispy french fries prepared in a delicious way.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537638?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537638
+      }
+    ],
+    "Broasted": [
+      {
+        "item_en": "Normal Broasted",
+        "item_ar": "Normal Broasted",
+        "price": 26.5,
+        "currency": "SAR",
+        "description": "Regular broasted chicken, crispy and tasty",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537684?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537684
+      },
+      {
+        "item_en": "Spicy Broasted",
+        "item_ar": "Spicy Broasted",
+        "price": 26.5,
+        "currency": "SAR",
+        "description": "Pieces of spicy fried chicken with some spices added to it",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11735513?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11735513
+      }
+    ],
+    "Shawarma": [
+      {
+        "item_en": "Doner",
+        "item_ar": "Doner",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Tender chicken shawarma sandwich with delicious seasoning",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537659?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537659
+      },
+      {
+        "item_en": "Doner Arbi",
+        "item_ar": "Doner Arbi",
+        "price": 28,
+        "currency": "SAR",
+        "description": "Chicken shawarma with arabic spices and soft bread",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537660?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537660
+      },
+      {
+        "item_en": "Doner Iskander",
+        "item_ar": "Doner Iskander",
+        "price": 68,
+        "currency": "SAR",
+        "description": "Iskender,style shawarma served with sauce, yogurt, and bread",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537661?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537661
+      },
+      {
+        "item_en": "T Doner Small",
+        "item_ar": "T Doner Small",
+        "price": 27,
+        "currency": "SAR",
+        "description": "Chicken shawarma plate served with sauces and bread.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537662?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537662
+      },
+      {
+        "item_en": "Sawarma Doner",
+        "item_ar": "Sawarma Doner",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Doner shawarma filled with meat and wrapped in soft bread",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537663?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537663
+      },
+      {
+        "item_en": "Sawarma Fries",
+        "item_ar": "Sawarma Fries",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Shawarma served over fries, topped with cheese and sauces.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537664?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537664
+      }
+    ],
+    "Sandwiches": [
+      {
+        "item_en": "Avsal Meat Sond",
+        "item_ar": "Avsal Meat Sond",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Meat awsal sandwich with grilled meat pieces inside the sandwich",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537655?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537655
+      },
+      {
+        "item_en": "Kabab Chicken Sond",
+        "item_ar": "Kabab Chicken Sond",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Chicken kebab sandwich is grilled chicken with delicious spices.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537656?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537656
+      },
+      {
+        "item_en": "Shish Sond",
+        "item_ar": "Shish Sond",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Shish tawouk sandwich consisting of seasoned grilled chicken pieces inside bread.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537657?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537657
+      },
+      {
+        "item_en": "Kabab Meat Sond",
+        "item_ar": "Kabab Meat Sond",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Sandwich stuffed with grilled minced and seasoned meat",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537658?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537658
+      }
+    ],
+    "Grilled": [
+      {
+        "item_en": "Avsal Plt",
+        "item_ar": "Avsal Plt",
+        "price": 52,
+        "currency": "SAR",
+        "description": "Grilled meat pieces served on a large platter",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537671?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537671
+      },
+      {
+        "item_en": "Kabab Meat Tabak",
+        "item_ar": "Kabab Meat Tabak",
+        "price": 52,
+        "currency": "SAR",
+        "description": "Kebab meat plate consists of grilled kebab meat with delicious spices.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537672?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537672
+      },
+      {
+        "item_en": "Kabab Chicken Tabak",
+        "item_ar": "Kabab Chicken Tabak",
+        "price": 52,
+        "currency": "SAR",
+        "description": "Chicken kebab plate is grilled chicken prepared with special spices.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537673?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537673
+      },
+      {
+        "item_en": "Shish Tabak",
+        "item_ar": "Shish Tabak",
+        "price": 52,
+        "currency": "SAR",
+        "description": "Grilled tawook plate with a wonderful and unique flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537674?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537674
+      },
+      {
+        "item_en": "Riash",
+        "item_ar": "Riash",
+        "price": 61,
+        "currency": "SAR",
+        "description": "Seasoned and delicious ribs prepared our special way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537675?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537675
+      },
+      {
+        "item_en": "Kanat",
+        "item_ar": "Kanat",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Home style chicken wings with classic flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537676?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537676
+      },
+      {
+        "item_en": "Mix Tabak",
+        "item_ar": "Mix Tabak",
+        "price": 68,
+        "currency": "SAR",
+        "description": "Varied mixed grill selection with traditional flavors",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537677?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537677
+      },
+      {
+        "item_en": "Iskander Kabab Meat",
+        "item_ar": "Iskander Kabab Meat",
+        "price": 57,
+        "currency": "SAR",
+        "description": "Iskender kebab is grilled meat slices covered with tomato sauce and butter.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537678?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537678
+      },
+      {
+        "item_en": "Iskander Kabab Chicken",
+        "item_ar": "Iskander Kabab Chicken",
+        "price": 57,
+        "currency": "SAR",
+        "description": "Iskender chicken kebab is grilled chicken served with rice.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537679?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537679
+      },
+      {
+        "item_en": "Kufatuh Qanadel",
+        "item_ar": "Kufatuh Qanadel",
+        "price": 69,
+        "currency": "SAR",
+        "description": "Special kofta named qanadil with unique seasoning.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537680?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537680
+      },
+      {
+        "item_en": "Tagen Meat",
+        "item_ar": "Tagen Meat",
+        "price": 57,
+        "currency": "SAR",
+        "description": "A dish prepared with cooked meat pieces and vegetables seasoned with delicious spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537681?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537681
+      },
+      {
+        "item_en": "Tagen Chicken",
+        "item_ar": "Tagen Chicken",
+        "price": 57,
+        "currency": "SAR",
+        "description": "A dish made of cooked chicken pieces with vegetables seasoned with delicious spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537682?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537682
+      },
+      {
+        "item_en": "Chicken  Grill - Half Chicken",
+        "item_ar": "Chicken  Grill - Half Chicken",
+        "price": 27,
+        "currency": "SAR",
+        "description": "Grilled chicken with delicious seasoning",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20135183?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20135183
+      },
+      {
+        "item_en": "Chicken  Grill - Full Chicken",
+        "item_ar": "Chicken  Grill - Full Chicken",
+        "price": 54,
+        "currency": "SAR",
+        "description": "Grilled chicken with delicious seasoning",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-20135184?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 20135184
+      }
+    ],
+    "Pastries": [
+      {
+        "item_en": "Cheese",
+        "item_ar": "Cheese",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Pie stuffed with delicious cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537645?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537645
+      },
+      {
+        "item_en": "Zeter",
+        "item_ar": "Zeter",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Flaky pastry filled with aromatic za'atar herbs",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537646?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537646
+      },
+      {
+        "item_en": "Lebne",
+        "item_ar": "Lebne",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Pastry with labneh, creamy and tangy in flavor.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537647?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537647
+      },
+      {
+        "item_en": "Meat",
+        "item_ar": "Meat",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Cooked meat, tomato, onion and a mix of vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537648?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537648
+      },
+      {
+        "item_en": "Ispanek",
+        "item_ar": "Ispanek",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Pie with a filling of spinach, healthy and tasty with a distinctive taste.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537649?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537649
+      },
+      {
+        "item_en": "Lebne Zeter",
+        "item_ar": "Lebne Zeter",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Soft dough filled with delicious labneh and za'atar.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537650?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537650
+      },
+      {
+        "item_en": "Lebne Asal",
+        "item_ar": "Lebne Asal",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Soft dough filled with delicious labneh and honey.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537651?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537651
+      },
+      {
+        "item_en": "Cheese Zeter",
+        "item_ar": "Cheese Zeter",
+        "price": 10,
+        "currency": "SAR",
+        "description": "A pastry filled with cheese and za'atar, offering a savory and delicious flavor.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537652?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537652
+      },
+      {
+        "item_en": "Cheese Asal",
+        "item_ar": "Cheese Asal",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Cheese pastry with honey, a delightful combination of soft cheese and sweet honey.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537653?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537653
+      },
+      {
+        "item_en": "Lebne Zeton",
+        "item_ar": "Lebne Zeton",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Soft dough filled with delicious labneh and olives.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537654?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537654
+      }
+    ],
+    "Pizza": [
+      {
+        "item_en": "Pizaa Chicken  Big",
+        "item_ar": "Pizaa Chicken  Big",
+        "price": 36,
+        "currency": "SAR",
+        "description": "Delicious pizza made with chicken, tomatoes, green peppers, and onions",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537668?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537668
+      },
+      {
+        "item_en": "Piza Big",
+        "item_ar": "Piza Big",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Delicious pizza made with tomatoes, green peppers, onions, and black olives",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537669?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537669
+      },
+      {
+        "item_en": "Bulbul Big",
+        "item_ar": "Bulbul Big",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Large sized crispy pastry nest, rich in flavor and texture.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537670?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537670
+      }
+    ],
+    "Juice": [
+      {
+        "item_en": "Portakal Small",
+        "item_ar": "Portakal Small",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Natural juice prepared from fresh orange, with a sweet and tangy refreshing taste, rich in vitamin c.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537685?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537685
+      },
+      {
+        "item_en": "Koktel Small",
+        "item_ar": "Koktel Small",
+        "price": 10,
+        "currency": "SAR",
+        "description": "A blend of a selection of fresh, refreshing, and delicious fruits.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537686?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537686
+      },
+      {
+        "item_en": "Tot Small",
+        "item_ar": "Tot Small",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Fresh berry juice with a rich and delicious flavor.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537687?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537687
+      },
+      {
+        "item_en": "Mango Small",
+        "item_ar": "Mango Small",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Mango juice with a rich and delicious taste.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537688?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537688
+      },
+      {
+        "item_en": "Nar Small",
+        "item_ar": "Nar Small",
+        "price": 10,
+        "currency": "SAR",
+        "description": "A natural and refreshing drink with a sweet and tangy balanced flavor, rich in antioxidants.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537689?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537689
+      },
+      {
+        "item_en": "Farola Small",
+        "item_ar": "Farola Small",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Cold juice with a sweet and refreshing strawberry flavor.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-11537690?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 11537690
+      },
+      {
+        "item_en": "Cola Diet",
+        "item_ar": "Cola Diet",
+        "price": 7,
+        "currency": "SAR",
+        "description": "The soft drink with a unique and refreshing flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/32629121?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32629121
+      },
+      {
+        "item_en": "Cola",
+        "item_ar": "Cola",
+        "price": 7,
+        "currency": "SAR",
+        "description": "The soft drink with a unique and refreshing flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/32629122?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32629122
+      },
+      {
+        "item_en": "Sprite",
+        "item_ar": "Sprite",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Refreshing sprite drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/32629124?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32629124
+      },
+      {
+        "item_en": "Fanta",
+        "item_ar": "Fanta",
+        "price": 7,
+        "currency": "SAR",
+        "description": "The soft drink with a unique and refreshing flavor with orange flavour.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/32629368?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 32629368
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.042Z",
+  "source": "Hungerstation"
+}

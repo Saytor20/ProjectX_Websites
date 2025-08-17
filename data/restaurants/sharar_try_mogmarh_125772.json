@@ -1,0 +1,332 @@
+{
+  "restaurant_info": {
+    "id": "125772",
+    "name": "Sharar - Try Mogmarh",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2519058,
+      "longitude": 42.5977404
+    },
+    "rating": 3.9,
+    "review_count": 73,
+    "type_of_food": "Sandwich,Fast Food",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/125772"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Mogmarh Meal",
+        "item_ar": "Mogmarh Meal",
+        "price": 39,
+        "currency": "SAR",
+        "description": "El maqmarah rahi sandwich + crunchy waffle fries + soft drink to cool your heart",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/2fa6d1c17e26aefd36b7718cdf702e1d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704482
+      },
+      {
+        "item_en": "Classic Meal",
+        "item_ar": "Classic Meal",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Classic sandwich + crunchy waffle fries + cold soft drink on your heart",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/ee9302df5b6a23fe69cbaa5f9db04801.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704480
+      },
+      {
+        "item_en": "Mogmarh Tawook Sandwich",
+        "item_ar": "Mogmarh Tawook Sandwich",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Charcoal grilled tawook sandwich in our special way, the sandwich contains 8 large pieces of tawook in addition to fries, fresh pickles and locally prepared peri-peri sauce wrapped in saj bread specially prepared for the machine.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/a97e350b3020f6b6a41b9b9220393e8c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704485
+      },
+      {
+        "item_en": "Waffle Platter",
+        "item_ar": "Waffle Platter",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Enjoy your waffle fries even more with the huge waffle box from sharar, in addition to garlic sauce and the dangerous peri peri sauce.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/6cd9f8bf1ab58f4b32596cbcd3a7176d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704490
+      }
+    ],
+    "Offers": [
+      {
+        "item_en": "Exclusive Sharar Offer",
+        "item_ar": "Exclusive Sharar Offer",
+        "price": 140,
+        "currency": "SAR",
+        "description": "2 muqamma sandwiches, 2 specialty sandwiches, large hummus, large waffle fries and 2 special sauces",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/e58b20820a4e423954f5909bb9fdffdd.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704479
+      }
+    ],
+    "Sharar Meal": [
+      {
+        "item_en": "Classic Meal",
+        "item_ar": "Classic Meal",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Classic sandwich + crunchy waffle fries + cold soft drink on your heart",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/ee9302df5b6a23fe69cbaa5f9db04801.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704480
+      },
+      {
+        "item_en": "Specialty Meal",
+        "item_ar": "Specialty Meal",
+        "price": 29,
+        "currency": "SAR",
+        "description": "The awesome specialty sandwich + crispy waffle fries + a soft drink that will cool your heart",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/ade861398d14e934c553d3292381b6bf.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704481
+      },
+      {
+        "item_en": "Mogmarh Meal",
+        "item_ar": "Mogmarh Meal",
+        "price": 39,
+        "currency": "SAR",
+        "description": "El maqmarah rahi sandwich + crunchy waffle fries + soft drink to cool your heart",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/2fa6d1c17e26aefd36b7718cdf702e1d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704482
+      }
+    ],
+    "Sandwiches": [
+      {
+        "item_en": "Classic Tawook Sandwich",
+        "item_ar": "Classic Tawook Sandwich",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Love it tawook bread, garlic, fries, pickles and saj! el clasico is the best choice",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/272abbaf4e56cfb98d1aa7678fe5ad04.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704483
+      },
+      {
+        "item_en": "Specialty Tawook Sandwich",
+        "item_ar": "Specialty Tawook Sandwich",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Chicken shish tawook pieces with waffle fries and specialty sauce served in tortilla bread",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/9697f0d6fae1accb73b0f8e8233037ec.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704484
+      },
+      {
+        "item_en": "Mogmarh Tawook Sandwich",
+        "item_ar": "Mogmarh Tawook Sandwich",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Charcoal grilled tawook sandwich in our special way, the sandwich contains 8 large pieces of tawook in addition to fries, fresh pickles and locally prepared peri-peri sauce wrapped in saj bread specially prepared for the machine.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/a97e350b3020f6b6a41b9b9220393e8c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704485
+      }
+    ],
+    "Appetizers": [
+      {
+        "item_en": "Hummus Snack",
+        "item_ar": "Hummus Snack",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Hummus snack",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/2ce55da3d0e7eb0285ee320cde9171dc.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704486
+      },
+      {
+        "item_en": "Large Hummus",
+        "item_ar": "Large Hummus",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Enjoy the large sharar hummus 200g with hot oil",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/a0b5ef5acc3925a6f1f2097bb27a145e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704487
+      },
+      {
+        "item_en": "Large Tawook Salad",
+        "item_ar": "Large Tawook Salad",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Enjoy the large sharar tawook salad",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/0131090e19de161b057d185acbac36f7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704488
+      },
+      {
+        "item_en": "Jalapeno Loaded Fries",
+        "item_ar": "Jalapeno Loaded Fries",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Enjoy the french fries sharar mix with delicious cocktail sauce, crunchy onions and hot jalapeno pieces.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/980e90f4d232f0bafcce5af63e0a375f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704489
+      },
+      {
+        "item_en": "Waffle Platter",
+        "item_ar": "Waffle Platter",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Enjoy your waffle fries even more with the huge waffle box from sharar, in addition to garlic sauce and the dangerous peri peri sauce.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/6cd9f8bf1ab58f4b32596cbcd3a7176d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704490
+      },
+      {
+        "item_en": "Waffle Fries",
+        "item_ar": "Waffle Fries",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Waffle fries",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/20abd0c6fc9e9d78d529bc647948dd31.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704491
+      }
+    ],
+    "Sauces Assortment": [
+      {
+        "item_en": "Sauces",
+        "item_ar": "Sauces",
+        "price": 4,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/e9f9f4fc9851cefc5ecb3a4e7bb3d8ea.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704492
+      }
+    ],
+    "Drinks": [
+      {
+        "item_en": "Coke Cola",
+        "item_ar": "Coke Cola",
+        "price": 5,
+        "currency": "SAR",
+        "description": "320 ml coke cola",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/892920d32212d91f4f14c2ea0f67bb0d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704493
+      },
+      {
+        "item_en": "Coke Cola Light",
+        "item_ar": "Coke Cola Light",
+        "price": 5,
+        "currency": "SAR",
+        "description": "320 ml coke cola light",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/f8cff0989232f228f6e83923dce75ead.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704494
+      },
+      {
+        "item_en": "Coke Cola Zero",
+        "item_ar": "Coke Cola Zero",
+        "price": 5,
+        "currency": "SAR",
+        "description": "320 ml coke cola zero",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/8201960764ee57ebbdc463bf89942108.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704495
+      },
+      {
+        "item_en": "Fanta Strawberry",
+        "item_ar": "Fanta Strawberry",
+        "price": 5,
+        "currency": "SAR",
+        "description": "320 ml fanta strawberry",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/147473374672ceb92ca990945eb54b1e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704496
+      },
+      {
+        "item_en": "Fanta Orange",
+        "item_ar": "Fanta Orange",
+        "price": 5,
+        "currency": "SAR",
+        "description": "320 ml fanta orange",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/f73d260cb9dfe2c9b53e70c15c3b9c61.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704497
+      },
+      {
+        "item_en": "Fanta Citrus",
+        "item_ar": "Fanta Citrus",
+        "price": 5,
+        "currency": "SAR",
+        "description": "320 ml fanta citrus",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/b7ae32c9de24f643e9dadba12d42ebe2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704498
+      },
+      {
+        "item_en": "Sprite",
+        "item_ar": "Sprite",
+        "price": 5,
+        "currency": "SAR",
+        "description": "320 ml sprite",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/830805568782193ec3e543e0ecf4c30c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704499
+      },
+      {
+        "item_en": "Sprite Zero",
+        "item_ar": "Sprite Zero",
+        "price": 5,
+        "currency": "SAR",
+        "description": "320 ml sprite zero",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/c5020a040bad9ead4e6e906b53eb6b74.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704500
+      },
+      {
+        "item_en": "Arwa Water",
+        "item_ar": "Arwa Water",
+        "price": 2,
+        "currency": "SAR",
+        "description": "500 ml arwa water",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-SRR/869e656430e9c4992ac5bc258b37b91f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63704501
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.027Z",
+  "source": "Hungerstation"
+}

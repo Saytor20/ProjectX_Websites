@@ -1,0 +1,407 @@
+{
+  "restaurant_info": {
+    "id": "131128",
+    "name": "Hashi Basha",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.25148378220156,
+      "longitude": 42.59836553009416
+    },
+    "rating": 4.3,
+    "review_count": 485,
+    "type_of_food": "Grill,Beverages,Saudi,Salads",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/131128"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Half Chicken Madghot",
+        "item_ar": "Half Chicken Madghot",
+        "price": 28,
+        "currency": "SAR",
+        "description": "Half chicken madghot",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/815cba431694b0c32f582936b4096726.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204616
+      },
+      {
+        "item_en": "Pepsi 360 Ml",
+        "item_ar": "Pepsi 360 Ml",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Pepsi 360 ml",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/fb30cc91282befce1911a0543f04aa99.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204966
+      },
+      {
+        "item_en": "Cucumber Yoghurt Salad",
+        "item_ar": "Cucumber Yoghurt Salad",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Yogurt salad with cucumber",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/124828/PRODUCT/45204536/83b5f6c3-a642-4ed9-8c6d-bde4b8054d45.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204536
+      },
+      {
+        "item_en": "Half Shawaya Chicken",
+        "item_ar": "Half Shawaya Chicken",
+        "price": 28,
+        "currency": "SAR",
+        "description": "Half shawaya chicken",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/bf78b6fa6cc67303f87b9c982b57766d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204657
+      }
+    ],
+    "Starters": [
+      {
+        "item_en": "Cucumber Yoghurt Salad",
+        "item_ar": "Cucumber Yoghurt Salad",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Yogurt salad with cucumber",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/124828/PRODUCT/45204536/83b5f6c3-a642-4ed9-8c6d-bde4b8054d45.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204536
+      },
+      {
+        "item_en": "Green Salad",
+        "item_ar": "Green Salad",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Green salad",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131128/PRODUCT/45204538/3c51e090-9914-4462-9e6b-4a40059ef80d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204538
+      },
+      {
+        "item_en": "Spicy Salad",
+        "item_ar": "Spicy Salad",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Spicy salad",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/124828/PRODUCT/45204542/6d7da986-105b-4bea-a2c2-4125a642f9d8.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204542
+      },
+      {
+        "item_en": "Sumatra Salad",
+        "item_ar": "Sumatra Salad",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Sumatra salad",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/be453ce2a7f98cfcdb435fe8339d8a72.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204550
+      },
+      {
+        "item_en": "Tomato And Onion Salad",
+        "item_ar": "Tomato And Onion Salad",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Tomato and onion salad",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/5006cb69cc4fbe2b9bcf9a41a2a4c781.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204558
+      },
+      {
+        "item_en": "Tahiniah Salad",
+        "item_ar": "Tahiniah Salad",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Tahina salad",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131128/PRODUCT/45204569/0186b163-42ec-4a4c-aa9d-ecaba2f89400.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204569
+      },
+      {
+        "item_en": "Hot Salad Bottle",
+        "item_ar": "Hot Salad Bottle",
+        "price": 2.5,
+        "currency": "SAR",
+        "description": "Hot salad 2.5  sar 88ml",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/8e4b3ee169393d48810dc8db056b619b.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204579
+      }
+    ],
+    "Main Course's": [
+      {
+        "item_en": "Nafar Madghot Hashi",
+        "item_ar": "Nafar Madghot Hashi",
+        "price": 73,
+        "currency": "SAR",
+        "description": "Nafar madghot hashy",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/bb9d700ca0f1cf5ac348d50a0d9f50ce.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204592
+      },
+      {
+        "item_en": "Nafar Kabsah Hashi",
+        "item_ar": "Nafar Kabsah Hashi",
+        "price": 73,
+        "currency": "SAR",
+        "description": "Nafar kabsah hashi",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/28df4dfa70265f3b9793d138972e1609.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204605
+      },
+      {
+        "item_en": "Half Chicken Madghot",
+        "item_ar": "Half Chicken Madghot",
+        "price": 28,
+        "currency": "SAR",
+        "description": "Half chicken madghot",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/815cba431694b0c32f582936b4096726.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204616
+      },
+      {
+        "item_en": "Half Shawaya Chicken",
+        "item_ar": "Half Shawaya Chicken",
+        "price": 28,
+        "currency": "SAR",
+        "description": "Half shawaya chicken",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/bf78b6fa6cc67303f87b9c982b57766d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204657
+      },
+      {
+        "item_en": "Basha Kabsah Chicken",
+        "item_ar": "Basha Kabsah Chicken",
+        "price": 28,
+        "currency": "SAR",
+        "description": "Kabsa al basha chicken",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/5f294538391c2d71ec47e8b2433550e9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204672
+      },
+      {
+        "item_en": "Basha Kabsah Hashi",
+        "item_ar": "Basha Kabsah Hashi",
+        "price": 73,
+        "currency": "SAR",
+        "description": "Kabsa al basha hashi",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/5bf08894add7ddcdba8dde97c7da7aaf.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204683
+      }
+    ],
+    "Edam": [
+      {
+        "item_en": "Mixed Vegetables With Chicken",
+        "item_ar": "Mixed Vegetables With Chicken",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Mixed vegetables with chicken",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/486e1ecf544e8257bf335de59578471c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204697
+      },
+      {
+        "item_en": "Mulukhiyah",
+        "item_ar": "Mulukhiyah",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Mulukhiyah",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/91cf8eb60f4e8c7a85943136d17a73ea.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204707
+      },
+      {
+        "item_en": "Moussaka",
+        "item_ar": "Moussaka",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Moussaka",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/affaf35d6f785766395c4f6a9a2b2388.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204722
+      }
+    ],
+    "Desserts": [
+      {
+        "item_en": "Konafa With Cream",
+        "item_ar": "Konafa With Cream",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Konafa cream",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/acf034c89c57c9830564ff43366846ba.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204738
+      },
+      {
+        "item_en": "Cheese Cake Ice Cream",
+        "item_ar": "Cheese Cake Ice Cream",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Cheese cake ice cream",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/d21b00d097b17a66977e7e57da331cb7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204775
+      },
+      {
+        "item_en": "Cheese Cake Louts",
+        "item_ar": "Cheese Cake Louts",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Cheese cake louts",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/e2dd74c5045b78c272795d213ab47463.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204796
+      },
+      {
+        "item_en": "Cheese Cake Galaxy",
+        "item_ar": "Cheese Cake Galaxy",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Cheese cake | galaxy",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/03d0bf9a3a363d342d6f98033b8d6b59.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204815
+      },
+      {
+        "item_en": "Cream Sweet",
+        "item_ar": "Cream Sweet",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Cream desert",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/cbb5f93ddd25cf9076b59ae56f04cd83.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204834
+      }
+    ],
+    "Beverages": [
+      {
+        "item_en": "Al Qaria Laban",
+        "item_ar": "Al Qaria Laban",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Al qaria laban",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/c7e20ab8329b69960438b70fc1e8af21.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204862
+      },
+      {
+        "item_en": "Yoghurt 170 Grams",
+        "item_ar": "Yoghurt 170 Grams",
+        "price": 3,
+        "currency": "SAR",
+        "description": "ِyoghurt 170  grams",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/8e3e11de09a7571270221371696b30f9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204910
+      },
+      {
+        "item_en": "Water",
+        "item_ar": "Water",
+        "price": 2,
+        "currency": "SAR",
+        "description": "Water 600 ml",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/e23ceab312891009619d60febe24b1f0.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204937
+      },
+      {
+        "item_en": "Pepsi 360 Ml",
+        "item_ar": "Pepsi 360 Ml",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Pepsi 360 ml",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/fb30cc91282befce1911a0543f04aa99.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204966
+      },
+      {
+        "item_en": "Pepsi Diet 360 Ml",
+        "item_ar": "Pepsi Diet 360 Ml",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Pepsi diet 360 ml",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/9b27a4c47398e7252dfa5fc01b9967fb.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45204993
+      },
+      {
+        "item_en": "Pepsi 2.25 Ltr",
+        "item_ar": "Pepsi 2.25 Ltr",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Pepsi 2.25 ltr",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/960c95dfdfda7f1528e3eff6ebe1896c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45205019
+      },
+      {
+        "item_en": "7 Up 360 Ml",
+        "item_ar": "7 Up 360 Ml",
+        "price": 4,
+        "currency": "SAR",
+        "description": "7up 360 ml",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/114a67f73c6222a62ced2c922b2ebe84.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45205042
+      },
+      {
+        "item_en": "7 Up Diet 360 Ml",
+        "item_ar": "7 Up Diet 360 Ml",
+        "price": 4,
+        "currency": "SAR",
+        "description": "7up diet 360 ml",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/ab03862cd164f6cc16da14d7d2ac39de.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45205080
+      },
+      {
+        "item_en": "Citrus 360 Ml",
+        "item_ar": "Citrus 360 Ml",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Marinda citrus 360 ml",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HASHB/ad83ca85eaa28dc6989c4b7a39c2ebdd.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 45205116
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.028Z",
+  "source": "Hungerstation"
+}

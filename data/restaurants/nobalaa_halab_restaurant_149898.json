@@ -1,0 +1,664 @@
+{
+  "restaurant_info": {
+    "id": "149898",
+    "name": "Nobala’a Halab Restaurant",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2138756,
+      "longitude": 42.5216134
+    },
+    "rating": 4.1,
+    "review_count": 17,
+    "type_of_food": "Sandwich,Fast Food,Grill,Arabic",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/149898"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Mixed Grill 0.5 Kg",
+        "item_ar": "Mixed Grill 0.5 Kg",
+        "price": 82,
+        "currency": "SAR",
+        "description": "0.5 kg of fresh mixed meat grill",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/381061444d0b7d68841aec1882dcbaca.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435165
+      },
+      {
+        "item_en": "Chicken Kebab For One Person",
+        "item_ar": "Chicken Kebab For One Person",
+        "price": 37,
+        "currency": "SAR",
+        "description": "Skewers of minced and marinated chicken grilled the traditional way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/bc6ff7ba1861afde4eb6cff2b3063168.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435191
+      },
+      {
+        "item_en": "Large Mixed Appetizers Plate",
+        "item_ar": "Large Mixed Appetizers Plate",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Large mixed appetizer plate",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/032b7640cea38958576886e0c85fa721.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435221
+      },
+      {
+        "item_en": "Mixed Appetizers Plate Nobala Aleppo",
+        "item_ar": "Mixed Appetizers Plate Nobala Aleppo",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Mixed appetizer plate nobala aleppo",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/ebc3f1121b9a39d255bbbb16e5009849.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435220
+      }
+    ],
+    "Grilled Meat": [
+      {
+        "item_en": "Mixed Nobala Aleppo Grill 1 Kg",
+        "item_ar": "Mixed Nobala Aleppo Grill 1 Kg",
+        "price": 188,
+        "currency": "SAR",
+        "description": "A variety of marinated grilled meats",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/96a99fbfe9cebfccdbe3bdcb8070f6c0.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435155
+      },
+      {
+        "item_en": "Clay Mixed Grill With Rice 1 Kg",
+        "item_ar": "Clay Mixed Grill With Rice 1 Kg",
+        "price": 182,
+        "currency": "SAR",
+        "description": "Mixed chicken and meat grill with rice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/9de6476525ff6ef0d4e2667bc4952b0c.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435156
+      },
+      {
+        "item_en": "Mixed Grill 1 Kg",
+        "item_ar": "Mixed Grill 1 Kg",
+        "price": 163,
+        "currency": "SAR",
+        "description": "1 kg of fresh mixed meat grill",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/9f76b76a438612aad3aa2e76721889ca.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435157
+      },
+      {
+        "item_en": "Mixed Meat Grill 1 Kg",
+        "item_ar": "Mixed Meat Grill 1 Kg",
+        "price": 188,
+        "currency": "SAR",
+        "description": "A selection of marinated meat grills",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/6fde8c7313927144c2da393ef0bf34e0.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435158
+      },
+      {
+        "item_en": "Meat Kebab 1 Kg",
+        "item_ar": "Meat Kebab 1 Kg",
+        "price": 177,
+        "currency": "SAR",
+        "description": "Skewers of minced and marinated meat grilled the traditional way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/6fde8c7313927144c2da393ef0bf34e0.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435159
+      },
+      {
+        "item_en": "Meat Kebab 0.5 Kg",
+        "item_ar": "Meat Kebab 0.5 Kg",
+        "price": 90,
+        "currency": "SAR",
+        "description": "Skewers of minced and marinated meat grilled the traditional way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/79c89d5a2a0e1b6572aea03c40978be6.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435161
+      },
+      {
+        "item_en": "Meat Skewers 0.5 Kg",
+        "item_ar": "Meat Skewers 0.5 Kg",
+        "price": 95,
+        "currency": "SAR",
+        "description": "Skewers of marinated meat with some grilled vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/12d31ed7f093ce981a25fa63cec94a0e.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435162
+      },
+      {
+        "item_en": "Mixed Meat Grill 0.5 Kg",
+        "item_ar": "Mixed Meat Grill 0.5 Kg",
+        "price": 97,
+        "currency": "SAR",
+        "description": "Skewers of minced and marinated meat grilled the traditional way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/af9ae188f3653805e9549f988834cd10.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435163
+      },
+      {
+        "item_en": "Mixed Grill With Rice 0.5 Kg",
+        "item_ar": "Mixed Grill With Rice 0.5 Kg",
+        "price": 92,
+        "currency": "SAR",
+        "description": "A mix of marinated chicken and meat grills",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/5d2fe3ab0d8f4b66f250a10eaaad15ce.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435164
+      },
+      {
+        "item_en": "Mixed Grill 0.5 Kg",
+        "item_ar": "Mixed Grill 0.5 Kg",
+        "price": 82,
+        "currency": "SAR",
+        "description": "0.5 kg of fresh mixed meat grill",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/381061444d0b7d68841aec1882dcbaca.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435165
+      },
+      {
+        "item_en": "Aleppo Kebab For One Person",
+        "item_ar": "Aleppo Kebab For One Person",
+        "price": 44,
+        "currency": "SAR",
+        "description": "Skewers of minced and marinated meat grilled aleppo style",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/bdbc57f69d90a8c118def5b3b9dbdd0d.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435166
+      },
+      {
+        "item_en": "Lamb Chops For One Person",
+        "item_ar": "Lamb Chops For One Person",
+        "price": 50,
+        "currency": "SAR",
+        "description": "Fresh marinated and grilled lamb ribs",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/a3ff9011e5c90d535065456c779c7d26.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435171
+      },
+      {
+        "item_en": "Mixed Grill For One Person",
+        "item_ar": "Mixed Grill For One Person",
+        "price": 38,
+        "currency": "SAR",
+        "description": "A mix of marinated chicken and meat grills",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/a2241c8aab1ba9eb2f2ee5cf5bf0d52e.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435172
+      },
+      {
+        "item_en": "Mixed Meat Grill For One Person",
+        "item_ar": "Mixed Meat Grill For One Person",
+        "price": 48,
+        "currency": "SAR",
+        "description": "A mix of marinated chicken and meat grills",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/abafd60b387da54eb3b83fe5bca93c5b.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435173
+      },
+      {
+        "item_en": "Meat Kebab For One Person",
+        "item_ar": "Meat Kebab For One Person",
+        "price": 44,
+        "currency": "SAR",
+        "description": "Skewers of minced and marinated meat grilled the traditional way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d5b708980b62542e6c882c6a00a64676.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435174
+      },
+      {
+        "item_en": "Clay Tagine Meat With Vegetables",
+        "item_ar": "Clay Tagine Meat With Vegetables",
+        "price": 44,
+        "currency": "SAR",
+        "description": "Slow cooked meat tagine in pottery with fresh vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/79b26b9706009962d2e0c09b212deca3.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435178
+      }
+    ],
+    "Pastries": [
+      {
+        "item_en": "Vegetable Pizza Medium",
+        "item_ar": "Vegetable Pizza Medium",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Delicious pizza made with tomatoes, green peppers, onions, and black olives",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/791723a9249586adb734a03143a4934c.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435179
+      },
+      {
+        "item_en": "Nobala Aleppo Kebab 1 Kg",
+        "item_ar": "Nobala Aleppo Kebab 1 Kg",
+        "price": 200,
+        "currency": "SAR",
+        "description": "A variety of delicious marinated grills",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/8c60206ec65c3039312fb606a236358f.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435180
+      }
+    ],
+    "Sandwiches": [
+      {
+        "item_en": "Meat Kebab Sandwich",
+        "item_ar": "Meat Kebab Sandwich",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Skewers of minced and marinated meat grilled the traditional way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/f619ad74c919b673e7d606dc939a1ee7.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435181
+      },
+      {
+        "item_en": "Meat Skewer Sandwich",
+        "item_ar": "Meat Skewer Sandwich",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Skewers of marinated meat with some grilled vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/2be555c897c15ca5f49eb0ffdf5e275b.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435182
+      },
+      {
+        "item_en": "Chicken Kebab Sandwich",
+        "item_ar": "Chicken Kebab Sandwich",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Skewers of minced and marinated chicken grilled the traditional way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/8ec5c69a0bdd0166d99f166440167a0f.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435183
+      },
+      {
+        "item_en": "Chicken Skewer Sandwich",
+        "item_ar": "Chicken Skewer Sandwich",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Skewers of marinated chicken with some grilled vegetables",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/149898/PRODUCT/69435184/2bc5125b-9b1b-4e02-8761-9fedc5f2e880.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435184
+      }
+    ],
+    "Grilled Chicken": [
+      {
+        "item_en": "Chicken Kebab 1 Kg",
+        "item_ar": "Chicken Kebab 1 Kg",
+        "price": 140,
+        "currency": "SAR",
+        "description": "Skewers of minced and marinated chicken grilled the traditional way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/31bcf66bd95defbce8f88755cfc2c0ee.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435185
+      },
+      {
+        "item_en": "Chicken Skewers 1 Kg",
+        "item_ar": "Chicken Skewers 1 Kg",
+        "price": 146,
+        "currency": "SAR",
+        "description": "Grilled marinated chicken kebab skewers",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/149898/PRODUCT/69435186/6ca4927d-9420-4be4-9de6-66f8fe3a8c8d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435186
+      },
+      {
+        "item_en": "Mixed Chicken Grill 1 Kg",
+        "item_ar": "Mixed Chicken Grill 1 Kg",
+        "price": 144,
+        "currency": "SAR",
+        "description": "Grilled marinated chicken kebab skewers",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/a6a5e85018672971940739d7795ada3a.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435187
+      },
+      {
+        "item_en": "Chicken Kebab 0.5 Kg",
+        "item_ar": "Chicken Kebab 0.5 Kg",
+        "price": 75,
+        "currency": "SAR",
+        "description": "Skewers of minced and marinated chicken grilled the traditional way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/79c89d5a2a0e1b6572aea03c40978be6.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435188
+      },
+      {
+        "item_en": "Chicken Skewers 0.5 Kg",
+        "item_ar": "Chicken Skewers 0.5 Kg",
+        "price": 75,
+        "currency": "SAR",
+        "description": "Grilled marinated chicken kebab skewers",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/970c14b962e13262275df7519439800a.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435189
+      },
+      {
+        "item_en": "Mixed Chicken Grill 0.5 Kg",
+        "item_ar": "Mixed Chicken Grill 0.5 Kg",
+        "price": 73,
+        "currency": "SAR",
+        "description": "Grilled marinated chicken kebab skewers",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/149898/PRODUCT/69435190/bda41342-25b6-48cb-9976-a31bdbc763cf.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435190
+      },
+      {
+        "item_en": "Chicken Kebab For One Person",
+        "item_ar": "Chicken Kebab For One Person",
+        "price": 37,
+        "currency": "SAR",
+        "description": "Skewers of minced and marinated chicken grilled the traditional way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/bc6ff7ba1861afde4eb6cff2b3063168.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435191
+      },
+      {
+        "item_en": "Shish Tawook For One Person",
+        "item_ar": "Shish Tawook For One Person",
+        "price": 37,
+        "currency": "SAR",
+        "description": "Grilled chicken pieces seasoned with delicious spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/e63a10e633e6c0b7bb6c9f80474177f6.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435192
+      },
+      {
+        "item_en": "Bone In Chicken Skewers For One Person",
+        "item_ar": "Bone In Chicken Skewers For One Person",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Small marinated chicken pieces grilled on the bone over charcoal",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/5f586e4066051bb566545e069aaf667e.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435193
+      },
+      {
+        "item_en": "Clay Tagine Chicken With Vegetables",
+        "item_ar": "Clay Tagine Chicken With Vegetables",
+        "price": 38,
+        "currency": "SAR",
+        "description": "Chicken tagine slow cooked in a clay pot with fresh vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/584647b955aa4d8d640821365e4afb66.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435194
+      },
+      {
+        "item_en": "Mixed Chicken Grill For One Person",
+        "item_ar": "Mixed Chicken Grill For One Person",
+        "price": 37,
+        "currency": "SAR",
+        "description": "Grilled marinated chicken kebab skewers",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/6ebead7b22edc845d7dac47bebdf2334.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435197
+      },
+      {
+        "item_en": "Twashka Chicken",
+        "item_ar": "Twashka Chicken",
+        "price": 32,
+        "currency": "SAR",
+        "description": "Toshka chicken stuffed with cheese and grilled to perfection",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/73e520b7853848d1684b5eaf526d91cb.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435198
+      },
+      {
+        "item_en": "Chicken Arayes",
+        "item_ar": "Chicken Arayes",
+        "price": 27,
+        "currency": "SAR",
+        "description": "Fresh bread stuffed with marinated meat, tomatoes, and onions, grilled",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/b495e39083a3328de6cf684af2e7765c.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435199
+      }
+    ],
+    "Hot Appetizers": [
+      {
+        "item_en": "Meat Arayes With Vegetables",
+        "item_ar": "Meat Arayes With Vegetables",
+        "price": 32,
+        "currency": "SAR",
+        "description": "Fresh meat arayes with vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/73551576bc0e3ed928712e4b38571632.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435202
+      },
+      {
+        "item_en": "Toshka Meat With Cheese",
+        "item_ar": "Toshka Meat With Cheese",
+        "price": 38,
+        "currency": "SAR",
+        "description": "Toshka meat with delicious cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d96bbc35110068e3a1e069efb71992d8.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435203
+      },
+      {
+        "item_en": "French Fries Plate",
+        "item_ar": "French Fries Plate",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Crispy french fries made in a delicious way",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/149898/PRODUCT/69435205/90b6beee-3e5b-48b8-9921-8dbf9188f3de.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435205
+      }
+    ],
+    "Cold Appetizers": [
+      {
+        "item_en": "Hummus Plate",
+        "item_ar": "Hummus Plate",
+        "price": 14,
+        "currency": "SAR",
+        "description": "A blend of mashed chickpeas, olive oil, lemon juice, and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/66ebf77933e5171150876eb3b35c2044.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435210
+      },
+      {
+        "item_en": "Baba Ghanoush Plate",
+        "item_ar": "Baba Ghanoush Plate",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Mashed mix of grilled eggplant, vegetables, olive oil, garlic, and lemon juice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/c36427f3176ea9d3bda4ef8e015a6e92.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435212
+      },
+      {
+        "item_en": "Aleppo Style Muhammara Plate",
+        "item_ar": "Aleppo Style Muhammara Plate",
+        "price": 14,
+        "currency": "SAR",
+        "description": "A mix of nuts with pepper paste and grilled vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/57d6e7a9bcf33aa7eb55f8c6dabd3297.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435213
+      },
+      {
+        "item_en": "Beetroot Moutabal Plate",
+        "item_ar": "Beetroot Moutabal Plate",
+        "price": 14,
+        "currency": "SAR",
+        "description": "A dish made of grilled eggplant and beetroot mixed with yogurt, tahini, and lemon",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/14d4cec50908dc7b1841e4057b18b0cd.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435214
+      },
+      {
+        "item_en": "Garlic Cream Plate",
+        "item_ar": "Garlic Cream Plate",
+        "price": 9,
+        "currency": "SAR",
+        "description": "A delicious garlic sauce prepared with spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/e3a1d28357098260443c493ae143f45f.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435215
+      },
+      {
+        "item_en": "Fattoush Plate",
+        "item_ar": "Fattoush Plate",
+        "price": 20,
+        "currency": "SAR",
+        "description": "A salad with parsley, cucumber, tomatoes, onions, and toasted bread with a tasty lemon and olive oil dressing",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/149898/PRODUCT/69435217/8ac1fc98-4c3a-47aa-9486-c27294660948.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435217
+      },
+      {
+        "item_en": "Yalanji Stuffed Grape Leaves Plate",
+        "item_ar": "Yalanji Stuffed Grape Leaves Plate",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Grape leaves stuffed with a mix of rice and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/35421ac3fa9864b41ade3b4acad8cf59.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435218
+      },
+      {
+        "item_en": "Green Salad Plate",
+        "item_ar": "Green Salad Plate",
+        "price": 11,
+        "currency": "SAR",
+        "description": "A mix of fresh vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/20473c0ae774f3bd34930dd967a81fd3.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435219
+      },
+      {
+        "item_en": "Mixed Appetizers Plate Nobala Aleppo",
+        "item_ar": "Mixed Appetizers Plate Nobala Aleppo",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Mixed appetizer plate nobala aleppo",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/ebc3f1121b9a39d255bbbb16e5009849.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435220
+      },
+      {
+        "item_en": "Large Mixed Appetizers Plate",
+        "item_ar": "Large Mixed Appetizers Plate",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Large mixed appetizer plate",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/032b7640cea38958576886e0c85fa721.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435221
+      }
+    ],
+    "Beverages": [
+      {
+        "item_en": "Fresh Orange Juice",
+        "item_ar": "Fresh Orange Juice",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Refreshing juice made from fresh oranges",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/5dc0db2f6aaee8777e62e023f645f1f5.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435222
+      },
+      {
+        "item_en": "Pepsi",
+        "item_ar": "Pepsi",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Can of soft drink with a unique and refreshing flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/3ec554a8d0d45fca8e2f10ae5433347f.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435224
+      },
+      {
+        "item_en": "7 Up",
+        "item_ar": "7 Up",
+        "price": 4,
+        "currency": "SAR",
+        "description": "7up soft drink with a delicious lemon flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/132c08cee4a58bd34a53d5ef9c2ede64.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435226
+      },
+      {
+        "item_en": "Dew",
+        "item_ar": "Dew",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Soft drink with a unique and refreshing flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/26d4a0f256101c263e3e630d00436d74.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435228
+      },
+      {
+        "item_en": "Water",
+        "item_ar": "Water",
+        "price": 1,
+        "currency": "SAR",
+        "description": "Pure and refreshing drinking water",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/1bb6f2d2818cba345db332fc400ac478.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69435230
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.039Z",
+  "source": "Hungerstation"
+}

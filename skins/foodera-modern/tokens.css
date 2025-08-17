@@ -1,0 +1,110 @@
+/**
+ * Auto-generated CSS Custom Properties
+ * Generated from tokens.json for skin: foodera-modern
+ * Do not edit manually - use tokens.json instead
+ */
+
+:root {
+  /* Colors */
+  --color-primary: #e74c3c;
+  --color-primary-hover: #c0392b;
+  --color-secondary: #43121d;
+  --color-accent: #f39c12;
+  --color-background: #ffffff;
+  --color-surface: #f8f9fa;
+  /* Text Colors */
+  --color-text-primary: #43121d;
+  --color-text-secondary: #555555;
+  --color-text-muted: #999999;
+  --color-text-inverse: #ffffff;
+  /* Border Colors */
+  --color-border: #e9ecef;
+  --color-border-light: #f1f3f4;
+  --color-border-dark: #dee2e6;
+  /* Status Colors */
+  --color-success: #27ae60;
+  --color-warning: #f39c12;
+  --color-error: #e74c3c;
+  --color-info: #3498db;
+
+  /* Typography */
+  --font-sans: Roboto, ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-serif: Quicksand, ui-serif, Georgia, serif;
+  --font-mono: ui-monospace, SFMono-Regular, monospace;
+  /* Font Sizes */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+  --font-size-6xl: 3.75rem;
+  /* Font Weights */
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  /* Line Heights */
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.75;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+
+  /* Border Radius */
+  --radius-none: 0;
+  --radius-sm: 0.125rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+
+  /* Transitions */
+  --transition-fast: 150ms;
+  --transition-normal: 200ms;
+  --transition-slow: 300ms;
+  /* Easing */
+  --easing-linear: linear;
+  --easing-out: cubic-bezier(0, 0, 0.2, 1);
+  --easing-in: cubic-bezier(0.4, 0, 1, 1);
+  --easing-inOut: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Component Tokens */
+  --navbar-height: 4.375rem;
+  --navbar-padding: 1rem 1.5rem;
+  --navbar-background: rgba(255, 255, 255, 0.95);
+  --navbar-backdrop-blur: blur(12px);
+  --navbar-border-bottom: 1px solid #e2e8f0;
+  --hero-min-height: 60vh;
+  --hero-padding: 5rem 1.5rem;
+  --hero-title-size: 3rem;
+  --hero-subtitle-size: 1.25rem;
+  --card-padding: 1.5rem;
+  --card-border-radius: 0.5rem;
+  --card-background: #ffffff;
+  --card-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  --button-padding: 0.75rem 1.5rem;
+  --button-border-radius: 0.5rem;
+  --button-font-weight: 600;
+  --button-transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}

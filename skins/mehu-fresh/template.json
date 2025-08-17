@@ -1,0 +1,32 @@
+{
+  "name": "Mehu Fresh",
+  "version": "1.0.0",
+  "description": "Fresh, modern template with vibrant golden and coral accents",
+  "author": "Restaurant Generator System",
+  "tags": ["fresh", "modern", "vibrant", "contemporary"],
+  "category": "modern",
+  "preview": "preview.jpg",
+  "colors": {
+    "primary": "#d8bc41",
+    "secondary": "#ff6a6a",
+    "accent": "#fff8e1"
+  },
+  "typography": {
+    "headings": "Heebo",
+    "body": "Raleway"
+  },
+  "features": [
+    "Fresh modern design",
+    "Vibrant color palette",
+    "Gradient text effects",
+    "Glassmorphism effects",
+    "Dynamic animations",
+    "Contemporary card layouts"
+  ],
+  "suitable_for": [
+    "Contemporary cafes",
+    "Fresh food establishments",
+    "Modern restaurants",
+    "Healthy eating venues"
+  ]
+}
