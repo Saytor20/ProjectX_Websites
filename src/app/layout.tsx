@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import { EditorLoader } from './EditorLoader'
+import EnhancedEditorComponent from '@/dev/EnhancedEditorComponent'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,24 +20,11 @@ export default function RootLayout({
       <body className={inter.className}>
         {children}
         
-        {/* Visual Editor V2 - React-based */}
-        <EditorLoader />
-        
+        {/* Development-only enhanced editor component - TypeScript transpiled */}
         {process.env.NODE_ENV === 'development' && (
           <>
-            {/* Legacy editor (can be disabled via feature flags) */}
             <link rel="stylesheet" href="/dev/inspector.css" />
-            <link rel="stylesheet" href="/dev/phase-d-editor.css" />
-            <script 
-              src="/dev/inspector.js" 
-              type="module"
-              async
-            />
-            <script 
-              src="/dev/phase-d-editor-functional.js" 
-              type="module"
-              async
-            />
+            <EnhancedEditorComponent />
           </>
         )}
       </body>

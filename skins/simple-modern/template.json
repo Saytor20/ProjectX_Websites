@@ -1,0 +1,56 @@
+{
+  "id": "simple-modern",
+  "name": "Simple Modern",
+  "version": "1.0.0",
+  "description": "Clean and minimal restaurant template with modern design elements",
+  "author": "Design Team",
+  "category": "modern",
+  "premium": false,
+  "features": [
+    "Minimal design",
+    "Clean typography",
+    "Simple navigation",
+    "Mobile responsive",
+    "Fast loading"
+  ],
+  "preview": {
+    "desktop": "/previews/simple-modern-desktop.jpg",
+    "mobile": "/previews/simple-modern-mobile.jpg"
+  },
+  "colors": {
+    "primary": "#333333",
+    "secondary": "#666666", 
+    "accent": "#007bff",
+    "background": "#ffffff",
+    "text": "#333333"
+  },
+  "fonts": {
+    "sans": "Inter",
+    "serif": "Georgia"
+  },
+  "layout": {
+    "navbar_height": "60px",
+    "section_padding": "2rem",
+    "container_width": "1200px"
+  },
+  "components": [
+    "Navbar",
+    "Hero", 
+    "MenuList",
+    "Hours",
+    "LocationMap",
+    "CTA",
+    "Footer"
+  ],
+  "responsive": true,
+  "performance": {
+    "css_size": "< 30KB",
+    "js_size": "< 10KB",
+    "load_time": "< 1.5s"
+  },
+  "compatibility": {
+    "browsers": ["Chrome", "Firefox", "Safari", "Edge"],
+    "mobile": true,
+    "tablet": true
+  }
+}

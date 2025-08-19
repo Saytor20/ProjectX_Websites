@@ -1,0 +1,56 @@
+{
+  "restaurant_info": {
+    "name": "Coffee Address",
+    "description": "Specialty coffee shop with artisanal brews and light bites",
+    "cuisine_type": ["Coffee", "Cafe", "Light Meals"],
+    "address": "456 Coffee Street, Arts District, Downtown",
+    "phone": "+966 11 987 6543",
+    "working_hours": "Monday-Friday 7:00 AM - 9:00 PM, Weekends 8:00 AM - 10:00 PM",
+    "delivery": true,
+    "pickup": true,
+    "rating": 4.7,
+    "price_range": "$"
+  },
+  "menu": [
+    {
+      "id": "1",
+      "name": "Espresso",
+      "description": "Rich and intense single shot of our signature blend",
+      "price": "12",
+      "category": "Coffee",
+      "image": "https://images.unsplash.com/photo-1510707577091-a1e34e20c9b5?w=400"
+    },
+    {
+      "id": "2",
+      "name": "Cappuccino",
+      "description": "Perfect balance of espresso, steamed milk and velvety foam",
+      "price": "18",
+      "category": "Coffee",
+      "image": "https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?w=400"
+    },
+    {
+      "id": "3",
+      "name": "Avocado Toast",
+      "description": "Fresh avocado on sourdough bread with cherry tomatoes and herbs",
+      "price": "25",
+      "category": "Light Meals",
+      "image": "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?w=400"
+    },
+    {
+      "id": "4",
+      "name": "Chocolate Croissant",
+      "description": "Buttery pastry filled with rich Belgian chocolate",
+      "price": "15",
+      "category": "Pastries",
+      "image": "https://images.unsplash.com/photo-1555507036-ab794f1eb0b4?w=400"
+    },
+    {
+      "id": "5",
+      "name": "Cold Brew",
+      "description": "Smooth and refreshing cold-steeped coffee served over ice",
+      "price": "16",
+      "category": "Coffee",
+      "image": "https://images.unsplash.com/photo-1517701550927-90ac39d1a2ca?w=400"
+    }
+  ]
+}

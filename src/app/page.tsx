@@ -1,7 +1,13 @@
 'use client'
 
 import React, { useState, useEffect, useRef } from 'react'
-import { DragDropContext, Droppable, Draggable } from '@hello-pangea/dnd'
+import './figma-ui.css'
+import SimpleTools from '../components/design/SimpleTools'
+import SelectTool from '../components/design/SelectTool'
+import SimpleShapes from '../components/design/SimpleShapes'
+import SimplePictures from '../components/design/SimplePictures'
+import SimpleLinks from '../components/design/SimpleLinks'
+import ShapeRenderer from '../components/design/ShapeRenderer'
 
 interface RestaurantOption {
   id: string
@@ -17,6 +23,21 @@ interface SkinOption {
 }
 
 export default function Home() {
+  // UI state (declare first)
+  const [leftPanelOpen, setLeftPanelOpen] = useState(true)
+  const [rightPanelOpen, setRightPanelOpen] = useState(true)
+  const [activeTab, setActiveTab] = useState('templates')
+  
+  // Design mode states
+  const [selectedTool, setSelectedTool] = useState<string>('select')
+  const [selectedElement, setSelectedElement] = useState<HTMLElement | null>(null)
+  const [designHistory, setDesignHistory] = useState<any[]>([])
+  const [isDesignMode, setIsDesignMode] = useState(false)
+  const [selectedShape, setSelectedShape] = useState<string>('')
+  const [shapes, setShapes] = useState<any[]>([])
+  const [selectedShapeObject, setSelectedShapeObject] = useState<any>(null)
+
+  // Core app states
   const [selectedSkin, setSelectedSkin] = useState<string>('') 
   const [selectedRestaurant, setSelectedRestaurant] = useState<string>('')
   const [isGenerating, setIsGenerating] = useState<boolean | string>(false)
@@ -30,9 +51,8 @@ export default function Home() {
   const [loadingRestaurants, setLoadingRestaurants] = useState(true)
   const [restaurantData, setRestaurantData] = useState<any>(null)
   
-  // Template type toggle
-  const [templateType, setTemplateType] = useState<'skin' | 'standalone'>('skin')
-  const [selectedStandalone, setSelectedStandalone] = useState<string>('')
+  // Simplified - only one template type
+  const [templateType] = useState<'skin'>('skin')
   
   // Enhanced UX states
   const [isVisualEditorActive, setIsVisualEditorActive] = useState(false)
@@ -88,20 +108,24 @@ export default function Home() {
     if (typeof window === 'undefined') return
 
     try {
-      // Remove existing skin CSS
-      const existingLink = document.getElementById('skin-css') as HTMLLinkElement
-      if (existingLink) {
-        existingLink.remove()
-      }
+      // Remove ALL existing skin CSS (not just the one with id)
+      const existingLinks = document.querySelectorAll('link[href*="/api/skins/"]')
+      existingLinks.forEach(link => link.remove())
 
       if (skinId) {
+        // Add cache-busting timestamp to force reload
+        const timestamp = Date.now()
+        
         // Create new link element for skin CSS
         const link = document.createElement('link')
         link.id = 'skin-css'
         link.rel = 'stylesheet'
         link.type = 'text/css'
-        link.href = `/api/skins/${skinId}/css`
-        link.onload = () => setSkinLoaded(true)
+        link.href = `/api/skins/${skinId}/css?t=${timestamp}`
+        link.onload = () => {
+          console.log(`✓ Loaded skin CSS: ${skinId}`)
+          setSkinLoaded(true)
+        }
         link.onerror = () => {
           console.warn(`Failed to load skin CSS: ${skinId}`)
           setSkinLoaded(false)
@@ -122,12 +146,29 @@ export default function Home() {
     } else {
       setSkinLoaded(false)
       // Remove any existing skin CSS
-      const existingLink = document.getElementById('skin-css') as HTMLLinkElement
-      if (existingLink) {
-        existingLink.remove()
-      }
+      const existingLinks = document.querySelectorAll('link[href*="/api/skins/"]')
+      existingLinks.forEach(link => link.remove())
     }
   }, [selectedSkin])
+
+  // Force iframe reload when skin changes (simplified)
+  useEffect(() => {
+    if (demoGenerated && selectedSkin && selectedRestaurant) {
+      const timer = setTimeout(() => {
+        const iframe = document.querySelector('iframe[title="Website Preview"]') as HTMLIFrameElement
+        if (iframe) {
+          const baseSrc = `/restaurant/${selectedRestaurant}`
+          iframe.src = `${baseSrc}?preview=true&skin=${selectedSkin}&t=${Date.now()}`
+          console.log(`🔄 Updated iframe src: ${iframe.src}`)
+        }
+      }, 500) // Small delay to ensure skin CSS is loaded
+      
+      return () => clearTimeout(timer)
+    }
+    
+    // Return undefined for cases where the condition is not met
+    return undefined
+  }, [selectedSkin, demoGenerated, selectedRestaurant])
 
   // Load available skins on component mount
   useEffect(() => {
@@ -245,6 +286,96 @@ export default function Home() {
     return undefined
   }, [demoGenerated, heroImages.length])
 
+  // Keyboard shortcuts for design tools
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (activeTab !== 'design' || !demoGenerated) return
+
+      // Prevent shortcuts when typing in inputs
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) {
+        return
+      }
+
+      switch (e.key.toLowerCase()) {
+        case 'v':
+          if (!e.ctrlKey && !e.metaKey) {
+            e.preventDefault()
+            handleToolSelect('select')
+          }
+          break
+        case 'r':
+          if (!e.ctrlKey && !e.metaKey) {
+            e.preventDefault()
+            handleToolSelect('shapes')
+          }
+          break
+        case 't':
+          if (!e.ctrlKey && !e.metaKey) {
+            e.preventDefault()
+            handleToolSelect('text')
+          }
+          break
+        case 'i':
+          if (!e.ctrlKey && !e.metaKey) {
+            e.preventDefault()
+            handleToolSelect('images')
+          }
+          break
+        case 'l':
+          if (!e.ctrlKey && !e.metaKey) {
+            e.preventDefault()
+            handleToolSelect('links')
+          }
+          break
+        case 'g':
+          if (!e.ctrlKey && !e.metaKey) {
+            e.preventDefault()
+            handleToolSelect('layout')
+          }
+          break
+        case 'escape':
+          e.preventDefault()
+          handleToolSelect('select')
+          setSelectedShapeObject(null)
+          setSelectedElement(null)
+          break
+        case 'delete':
+        case 'backspace':
+          if (selectedShapeObject) {
+            e.preventDefault()
+            setShapes(prevShapes => prevShapes.filter(shape => shape.id !== selectedShapeObject.id))
+            setSelectedShapeObject(null)
+          }
+          break
+      }
+
+      // Shape type shortcuts when shapes tool is active
+      if (selectedTool === 'shapes') {
+        switch (e.key) {
+          case '1':
+            e.preventDefault()
+            setSelectedShape('rectangle')
+            break
+          case '2':
+            e.preventDefault()
+            setSelectedShape('circle')
+            break
+          case '3':
+            e.preventDefault()
+            setSelectedShape('line')
+            break
+          case '4':
+            e.preventDefault()
+            setSelectedShape('triangle')
+            break
+        }
+      }
+    }
+
+    window.addEventListener('keydown', handleKeyDown)
+    return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [activeTab, demoGenerated, selectedTool, selectedShapeObject])
+
   const generateSite = async () => {
     if (!selectedSkin || !selectedRestaurant) {
       setError('Please select both a skin and restaurant')
@@ -274,6 +405,16 @@ export default function Home() {
 
       if (response.ok && result.success) {
         setDemoGenerated(true)
+        // Load restaurant data for preview
+        try {
+          const restaurantResponse = await fetch(`/api/restaurants/${selectedRestaurant}`)
+          if (restaurantResponse.ok) {
+            const restaurantDataResult = await restaurantResponse.json()
+            setRestaurantData(restaurantDataResult)
+          }
+        } catch (err) {
+          console.log('Failed to load restaurant data for preview:', err)
+        }
       } else {
         setError(`Generation failed: ${result.error || 'Unknown error'}`)
       }
@@ -284,270 +425,245 @@ export default function Home() {
     }
   }
 
-  const generateStandaloneSite = async (deploymentType: 'dev' | 'static' | 'build' = 'dev') => {
-    if (!selectedStandalone || !selectedRestaurant) {
-      setError('Please select both a template and restaurant')
-      return
-    }
-
-    setIsGenerating(`${deploymentType === 'dev' ? 'Starting development server' : 
-                     deploymentType === 'static' ? 'Building static export' : 
-                     'Building production version'}`)
-    setError('')
-
-    try {
-      const selectedRestaurantData = availableRestaurants.find(r => r.id === selectedRestaurant)
+  // Auto-save functionality
+  useEffect(() => {
+    if (shapes.length > 0 || selectedTool !== 'select') {
+      const saveData = {
+        shapes,
+        selectedTool,
+        selectedShape,
+        timestamp: Date.now(),
+        restaurantId: selectedRestaurant,
+        skinId: selectedSkin
+      }
       
-      const response = await fetch('/api/generate/standalone', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          templateId: selectedStandalone,
-          restaurantId: selectedRestaurant,
-          restaurantFile: selectedRestaurantData?.file,
-          deploymentType,
-          generateStatic: deploymentType === 'static',
-          buildProduction: deploymentType === 'build'
-        })
-      })
-
-      const result = await response.json()
-
-      if (response.ok && result.success) {
-        setDemoGenerated(true)
-      } else {
-        setError(`Generation failed: ${result.error || 'Unknown error'}`)
-      }
-    } catch (error) {
-      setError(`Network error: ${error instanceof Error ? error.message : 'Failed to connect to server'}`)
-    } finally {
-      setIsGenerating(false)
+      // Auto-save to localStorage
+      localStorage.setItem('design-autosave', JSON.stringify(saveData))
+      console.log('🔄 Auto-saved design changes')
     }
+  }, [shapes, selectedTool, selectedShape, selectedRestaurant, selectedSkin])
+
+  // Load saved design data on mount
+  useEffect(() => {
+    if (demoGenerated && selectedRestaurant && selectedSkin) {
+      try {
+        const saved = localStorage.getItem('design-autosave')
+        if (saved) {
+          const saveData = JSON.parse(saved)
+          if (saveData.restaurantId === selectedRestaurant && saveData.skinId === selectedSkin) {
+            setShapes(saveData.shapes || [])
+            console.log('📂 Loaded saved design data')
+          }
+        }
+      } catch (error) {
+        console.warn('Failed to load saved design data:', error)
+      }
+    }
+  }, [demoGenerated, selectedRestaurant, selectedSkin])
+
+  // Tool management functions
+  const handleShapeCreate = (shape: any) => {
+    setShapes(prevShapes => [...prevShapes, shape])
+    console.log('Shape created:', shape)
   }
+
+  const handleShapeSelect = (shape: any) => {
+    setSelectedShapeObject(shape)
+    console.log('Shape selected:', shape)
+  }
+
+  const handleImageAdd = (image: any) => {
+    console.log('Image added:', image)
+    // TODO: Add image to canvas
+  }
+
+  const handleLinkCreate = (link: any) => {
+    console.log('Link created:', link)
+    // TODO: Handle link creation
+  }
+
+  // Tool selection handler
+  const handleToolSelect = (tool: string) => {
+    setSelectedTool(tool)
+    if (tool === 'shapes') {
+      setSelectedShape('rectangle') // Default to rectangle
+    } else {
+      setSelectedShape('')
+    }
+    
+    // Clear selections when switching tools
+    setSelectedElement(null)
+    setSelectedShapeObject(null)
+  }
+
+  // Removed standalone site generation - simplified to single template system
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Control Panel */}
-      <div className="bg-white shadow-sm border-b">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <h1 
-            className="text-3xl font-bold text-gray-900 mb-6 cursor-pointer"
-            onClick={() => {
-              console.log('🔍 JavaScript is working! State check:', { selectedSkin, selectedRestaurant });
-              alert(`JS Working! Skin: "${selectedSkin}", Restaurant: "${selectedRestaurant}"`);
-            }}
-            title="Click to test JavaScript execution"
-          >
-            Restaurant Website Generator
-          </h1>
-          <p className="text-gray-600 mb-6">
-            Component Kit + Skin System - Current Phase: Local JSON Only
-          </p>
-          
-          {/* Template Type Toggle */}
-          <div className="mb-6">
-            <div className="inline-flex rounded-lg border border-gray-200 bg-gray-100 p-1">
-              <button
-                onClick={() => setTemplateType('skin')}
-                className={`px-4 py-2 rounded-md text-sm font-medium transition-colors ${
-                  templateType === 'skin'
-                    ? 'bg-white text-gray-900 shadow-sm'
-                    : 'text-gray-500 hover:text-gray-700'
-                }`}
-              >
-                Skin Templates
-              </button>
-              <button
-                onClick={() => setTemplateType('standalone')}
-                className={`px-4 py-2 rounded-md text-sm font-medium transition-colors ${
-                  templateType === 'standalone'
-                    ? 'bg-white text-gray-900 shadow-sm'
-                    : 'text-gray-500 hover:text-gray-700'
-                }`}
-              >
-                Standalone Templates
-              </button>
-            </div>
+    <div className="figma-workspace">
+      {/* Modern Top Header */}
+      <div className="figma-header">
+        <div className="header-left">
+          <div className="logo-area">
+            <div className="logo-icon">🎨</div>
+            <h1 className="app-title">Website Studio</h1>
+          </div>
+          <div className="workspace-tabs">
+            <button 
+              className={`tab ${activeTab === 'templates' ? 'active' : ''}`}
+              onClick={() => setActiveTab('templates')}
+            >
+              <span className="tab-icon">🎯</span>
+              Templates
+            </button>
+            <button 
+              className={`tab ${activeTab === 'design' ? 'active' : ''}`}
+              onClick={() => setActiveTab('design')}
+              disabled={!demoGenerated}
+            >
+              <span className="tab-icon">🎨</span>
+              Design
+            </button>
+            <button 
+              className={`tab ${activeTab === 'preview' ? 'active' : ''}`}
+              onClick={() => setActiveTab('preview')}
+              disabled={!demoGenerated}
+            >
+              <span className="tab-icon">👁️</span>
+              Preview
+            </button>
+          </div>
+        </div>
+        <div className="header-right">
+          <button className="action-btn primary">
+            <span className="btn-icon">🚀</span>
+            Export
+          </button>
+          <button className="action-btn secondary">
+            <span className="btn-icon">💾</span>
+            Save
+          </button>
+        </div>
+      </div>
+
+      {/* Modern Workspace Layout */}
+      <div className="figma-workspace-content">
+        {/* Left Sidebar */}
+        <div className={`figma-sidebar left ${leftPanelOpen ? 'open' : 'closed'}`}>
+          <div className="sidebar-header">
+            <button 
+              className="sidebar-toggle"
+              onClick={() => setLeftPanelOpen(!leftPanelOpen)}
+            >
+              {leftPanelOpen ? '◀' : '▶'}
+            </button>
+            <h3 className="sidebar-title">
+              {activeTab === 'templates' ? 'Templates' : activeTab === 'design' ? 'Design Tools' : 'Components'}
+            </h3>
           </div>
           
-          {templateType === 'skin' && (
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
-              {/* Skin Selection */}
-              <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                Select Skin {loadingSkins && '(Loading...)'}
-              </label>
-              <select
-                value={selectedSkin}
-                onChange={(e) => {
-                  console.log('🎨 Skin selection changed:', e.target.value);
-                  setSelectedSkin(e.target.value);
-                }}
-                disabled={loadingSkins}
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 disabled:bg-gray-100 disabled:cursor-not-allowed"
-              >
-                <option value="">{loadingSkins ? 'Loading templates...' : 'Choose a skin...'}</option>
-                {availableSkins.map(skin => (
-                  <option key={skin.id} value={skin.id}>
-                    {skin.name} v{skin.version}
-                  </option>
-                ))}
-              </select>
-              {selectedSkin && (
-                <p className="mt-1 text-xs text-gray-500">
-                  {availableSkins.find(s => s.id === selectedSkin)?.description}
-                  {skinLoaded ? ' ✓ Loaded' : ' Loading...'}
-                </p>
-              )}
-            </div>
-
-            {/* Restaurant Selection */}
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                Select Restaurant {loadingRestaurants && '(Loading...)'}
-              </label>
-              <select
-                value={selectedRestaurant}
-                onChange={(e) => {
-                  console.log('🍽️ Restaurant selection changed:', e.target.value);
-                  setSelectedRestaurant(e.target.value);
-                }}
-                disabled={loadingRestaurants}
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 disabled:bg-gray-100 disabled:cursor-not-allowed"
-              >
-                <option value="">{loadingRestaurants ? 'Loading restaurants...' : 'Choose a restaurant...'}</option>
-                {availableRestaurants.map(restaurant => (
-                  <option key={restaurant.id} value={restaurant.id}>
-                    {restaurant.name}
-                  </option>
-                ))}
-              </select>
-            </div>
-
-            {/* Menu Display Options */}
-            <div className="md:col-span-2">
-              <label className="block text-sm font-medium text-gray-700 mb-2">
-                Menu Display Configuration
-              </label>
-              <div className="p-3 border border-gray-200 rounded-lg space-y-3">
-                <div className="grid grid-cols-2 gap-3">
-                  {/* Layout Variant */}
-                  <div>
-                    <label className="block text-xs text-gray-600 mb-1">Layout Style</label>
-                    <select
-                      value={menuDisplay.variant}
-                      onChange={(e) => setMenuDisplay(d => ({ ...d, variant: e.target.value as any }))}
-                      className="w-full p-2 border border-gray-300 rounded text-sm"
-                    >
-                      <option value="grid-photos">Grid with Photos</option>
-                      <option value="table-clean">Clean Table Layout</option>
-                      <option value="cards-compact">Compact Cards</option>
-                    </select>
-                  </div>
-
-                  {/* Items Per Row */}
-                  <div>
-                    <label className="block text-xs text-gray-600 mb-1">Items per Row</label>
-                    <select
-                      value={menuDisplay.itemsPerRow}
-                      onChange={(e) => setMenuDisplay(d => ({ ...d, itemsPerRow: parseInt(e.target.value) }))}
-                      className="w-full p-2 border border-gray-300 rounded text-sm"
-                    >
-                      <option value="2">2 Items</option>
-                      <option value="3">3 Items</option>
-                      <option value="4">4 Items</option>
-                      <option value="5">5 Items</option>
-                    </select>
-                  </div>
-                </div>
-
-                {/* Image Options */}
-                <div className="space-y-2">
-                  <label className="flex items-center gap-2">
-                    <input
-                      type="checkbox"
-                      className="h-4 w-4"
-                      checked={menuDisplay.showImages}
-                      onChange={(e) => setMenuDisplay(d => ({ ...d, showImages: e.target.checked }))}
-                    />
-                    <span className="text-sm text-gray-700">Show Menu Photos</span>
-                  </label>
-
-                  {menuDisplay.showImages && (
-                    <div className="ml-6 grid grid-cols-2 gap-2">
-                      <div>
-                        <label className="block text-xs text-gray-600 mb-1">Grid Columns</label>
+          {leftPanelOpen && (
+            <div className="sidebar-content">
+              {/* Templates Tab Content */}
+              {activeTab === 'templates' && (
+                <>
+                  {/* Template Selection */}
+                  <div className="panel-section">
+                    <div className="section-header">
+                      <span className="section-icon">🎨</span>
+                      <span className="section-title">Templates</span>
+                      {loadingSkins && <span className="loading-indicator">⌛</span>}
+                    </div>
+                    <div className="settings-group">
+                      <div className="setting-row">
                         <select
-                          value={menuDisplay.grid.columns}
-                          onChange={(e) => setMenuDisplay(d => ({ 
-                            ...d, 
-                            grid: { ...d.grid, columns: parseInt(e.target.value) },
-                            itemsPerRow: parseInt(e.target.value)
-                          }))}
-                          className="w-full p-1 border border-gray-300 rounded text-sm"
+                          value={selectedSkin}
+                          onChange={(e) => {
+                            console.log('🎨 Template selected:', e.target.value);
+                            setSelectedSkin(e.target.value);
+                          }}
+                          disabled={loadingSkins}
+                          className="setting-select"
+                          style={{width: '100%', padding: '12px', fontSize: '13px'}}
                         >
-                          <option value="2">2 Columns</option>
-                          <option value="3">3 Columns</option>
-                          <option value="4">4 Columns</option>
-                          <option value="5">5 Columns</option>
+                          <option value="">{loadingSkins ? 'Loading templates...' : 'Choose a template...'}</option>
+                          {availableSkins.map(skin => (
+                            <option key={skin.id} value={skin.id}>
+                              {skin.name} v{skin.version}
+                            </option>
+                          ))}
                         </select>
+                        {selectedSkin && (
+                          <div style={{marginTop: '8px', fontSize: '11px', color: 'var(--figma-text-muted)'}}>
+                            {availableSkins.find(s => s.id === selectedSkin)?.description}
+                            {skinLoaded ? ' ✓ Loaded' : ' Loading...'}
+                          </div>
+                        )}
                       </div>
-                      
-                      <div>
-                        <label className="block text-xs text-gray-600 mb-1">Image Shape</label>
+                    </div>
+                  </div>
+                  
+                  {/* Restaurant Selection */}
+                  <div className="panel-section">
+                    <div className="section-header">
+                      <span className="section-icon">🍽️</span>
+                      <span className="section-title">Restaurant Data</span>
+                      {loadingRestaurants && <span className="loading-indicator">⌛</span>}
+                    </div>
+                    <div className="settings-group">
+                      <div className="setting-row">
                         <select
-                          value={menuDisplay.grid.imageShape}
-                          onChange={(e) => setMenuDisplay(d => ({ 
-                            ...d, 
-                            grid: { ...d.grid, imageShape: e.target.value as any }
-                          }))}
-                          className="w-full p-1 border border-gray-300 rounded text-sm"
+                          value={selectedRestaurant}
+                          onChange={(e) => {
+                            console.log('🍽️ Restaurant selected:', e.target.value);
+                            setSelectedRestaurant(e.target.value);
+                          }}
+                          disabled={loadingRestaurants}
+                          className="setting-select"
+                          style={{width: '100%', padding: '12px', fontSize: '13px'}}
                         >
-                          <option value="boxed">Boxed</option>
-                          <option value="rounded">Rounded</option>
-                          <option value="circle">Circle</option>
+                          <option value="">{loadingRestaurants ? 'Loading restaurants...' : 'Choose a restaurant...'}</option>
+                          {availableRestaurants.map(restaurant => (
+                            <option key={restaurant.id} value={restaurant.id}>
+                              🍴 {restaurant.name}
+                            </option>
+                          ))}
                         </select>
                       </div>
                     </div>
-                  )}
-                </div>
+                  </div>
+                </>
+              )}
 
-                <div className="grid grid-cols-2 gap-3">
-                  {/* Items per page */}
-                  <div>
-                    <label className="block text-xs text-gray-600 mb-1">
-                      Items per page (0 = all)
-                    </label>
-                    <input
-                      type="number"
-                      min="0"
-                      max="50"
-                      value={menuDisplay.paginateThreshold}
-                      onChange={(e) => setMenuDisplay(d => ({ ...d, paginateThreshold: parseInt(e.target.value) || 0 }))}
-                      className="w-full p-2 border border-gray-300 rounded text-sm"
-                      placeholder="8"
-                    />
+              {/* Design Tab Content */}
+              {activeTab === 'design' && (
+                <SimpleTools 
+                  onToolSelect={handleToolSelect}
+                  selectedTool={selectedTool}
+                />
+              )}
+              
+              {/* Error Display */}
+              {error && (
+                <div className="panel-section">
+                  <div style={{padding: '16px', background: 'rgba(248, 81, 73, 0.1)', border: '1px solid rgba(248, 81, 73, 0.2)', borderRadius: '8px'}}>
+                    <div style={{color: 'var(--figma-error)', fontSize: '12px'}}>{error}</div>
                   </div>
                 </div>
-
-                {/* Other Options */}
-                <label className="flex items-center gap-2">
-                  <input
-                    type="checkbox"
-                    className="h-4 w-4"
-                    checked={menuDisplay.showDescriptions}
-                    onChange={(e) => setMenuDisplay(d => ({ ...d, showDescriptions: e.target.checked }))}
-                  />
-                  <span className="text-sm text-gray-700">Show Item Descriptions</span>
-                </label>
-              </div>
+              )}
             </div>
+          )}
+        </div>
 
-            {/* Generate Button */}
-            <div className="flex items-end">
-              <button
+        {/* Main Canvas Area */}
+        <div className="figma-canvas">
+          <div className="canvas-header">
+            <div className="canvas-controls">
+              <button className="canvas-btn" title="Zoom Out">-</button>
+              <span className="zoom-level">100%</span>
+              <button className="canvas-btn" title="Zoom In">+</button>
+            </div>
+            <div className="canvas-actions">
+              <button 
                 onClick={() => {
                   console.log('🚀 Generate button clicked!', {
                     selectedSkin,
@@ -557,1103 +673,338 @@ export default function Home() {
                   generateSite();
                 }}
                 disabled={!selectedSkin || !selectedRestaurant || !!isGenerating}
-                className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="generate-btn"
               >
+                <span className="btn-icon">🚀</span>
                 {isGenerating ? 'Generating...' : 'Generate Website'}
               </button>
             </div>
           </div>
-          )}
 
-          {/* Stats */}
-          {demoGenerated && (
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6 text-sm">
-              <div className="bg-blue-50 p-3 rounded-lg">
-                <div className="text-blue-800 font-semibold">Skin</div>
-                <div className="text-blue-600">{availableSkins.find(s => s.id === selectedSkin)?.name}</div>
-              </div>
-              <div className="bg-green-50 p-3 rounded-lg">
-                <div className="text-green-800 font-semibold">CSS Size</div>
-                <div className="text-green-600">32KB</div>
-              </div>
-              <div className="bg-purple-50 p-3 rounded-lg">
-                <div className="text-purple-800 font-semibold">Components</div>
-                <div className="text-purple-600">10</div>
-              </div>
-              <div className="bg-orange-50 p-3 rounded-lg">
-                <div className="text-orange-800 font-semibold">Restaurant</div>
-                <div className="text-orange-600">{availableRestaurants.find(r => r.id === selectedRestaurant)?.name}</div>
-              </div>
-            </div>
-          )}
-          
-          {templateType === 'standalone' && (
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
-              {/* Standalone Template Selection */}
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Select Template
-                </label>
-                <select
-                  value={selectedStandalone}
-                  onChange={(e) => setSelectedStandalone(e.target.value)}
-                  className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                >
-                  <option value="">Choose a template...</option>
-                  <option value="foodera-site">Foodera Modern</option>
-                </select>
-                {selectedStandalone && (
-                  <p className="mt-1 text-xs text-gray-500">
-                    Complete Next.js application with unique design
-                  </p>
-                )}
-              </div>
 
-              {/* Restaurant Selection */}
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Select Restaurant {loadingRestaurants && '(Loading...)'}
-                </label>
-                <select
-                  value={selectedRestaurant}
-                  onChange={(e) => setSelectedRestaurant(e.target.value)}
-                  disabled={loadingRestaurants}
-                  className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 disabled:bg-gray-100 disabled:cursor-not-allowed"
-                >
-                  <option value="">{loadingRestaurants ? 'Loading restaurants...' : 'Choose a restaurant...'}</option>
-                  {availableRestaurants.map(restaurant => (
-                    <option key={restaurant.id} value={restaurant.id}>
-                      {restaurant.name}
-                    </option>
-                  ))}
-                </select>
-              </div>
-
-              {/* Generate Button */}
-              <div className="flex items-end">
-                <button
-                  onClick={() => generateStandaloneSite('dev')}
-                  disabled={!selectedStandalone || !selectedRestaurant || !!isGenerating}
-                  className="w-full bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors"
-                >
-                  {isGenerating ? String(isGenerating) : 'Generate Standalone Site'}
-                </button>
-              </div>
-            </div>
-          )}
-          
-          {/* Error Display */}
-          {error && (
-            <div className="mb-6 p-4 border border-red-300 bg-red-50 rounded-lg">
-              <p className="text-red-800 text-sm">{error}</p>
-            </div>
-          )}
-          
-        </div>
-      </div>
-
-      {/* Generated Site Preview */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {demoGenerated ? (
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <div className="p-4 bg-gray-100 border-b">
-              <h2 className="font-semibold text-gray-800">Generated Website Preview</h2>
-              <p className="text-sm text-gray-600">
-                {templateType === 'skin' 
-                  ? `Skin: ${availableSkins.find(s => s.id === selectedSkin)?.name} | Restaurant: ${availableRestaurants.find(r => r.id === selectedRestaurant)?.name}`
-                  : `Template: ${selectedStandalone === 'foodera-site' ? 'Foodera Modern' : selectedStandalone} | Restaurant: ${availableRestaurants.find(r => r.id === selectedRestaurant)?.name}`
-                }
-              </p>
-            </div>
-            
-            {/* Website Preview - Different for Skin vs Standalone */}
-            {templateType === 'skin' ? (
-              <div className="relative preview-mode" data-skin={selectedSkin}>
-                {/* Navbar */}
-                <nav className="navbar">
-                <div className="navbar__container">
-                  <div className="navbar__left">
-                    <div className="navbar__logo">
-                      <img src="/food-smile-logo.svg" alt="Food Smile Logo" />
-                    </div>
-                    <div className="navbar__social">
-                      <a href="#" className="navbar__social-link" aria-label="Facebook">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                          <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-                        </svg>
-                      </a>
-                      <a href="#" className="navbar__social-link" aria-label="Instagram">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
-                        </svg>
-                      </a>
-                      <a href="#" className="navbar__social-link" aria-label="Twitter">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                          <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
-                        </svg>
-                      </a>
-                    </div>
-                  </div>
-                  <ul className="navbar__nav">
-                    <li><a href="#menu" className="navbar__nav-link">Menu</a></li>
-                    <li><a href="#gallery" className="navbar__nav-link">Gallery</a></li>
-                    <li><a href="#contact" className="navbar__nav-link">Contact</a></li>
-                    <li><a href="#locations" className="navbar__nav-link">Locations</a></li>
-                  </ul>
-                </div>
-              </nav>
-
-              {/* Hero Section */}
-              <section id="hero" className="hero">
-                <div className="hero__container">
-                  <div className="hero__content">
-                    <p className="hero__subtitle">Welcome to</p>
-                    <h1 className="hero__title">
-                      {restaurantData?.restaurant_info?.name || availableRestaurants.find(r => r.id === selectedRestaurant)?.name || 'Our Restaurant'}
-                    </h1>
-                    <p className="hero__description">
-                      {restaurantData?.restaurant_info?.type_of_food 
-                        ? `Experience authentic ${restaurantData.restaurant_info.type_of_food} cuisine ${restaurantData.restaurant_info.address ? `in ${restaurantData.restaurant_info.address.split(',')[0]}` : ''}. Fresh ingredients, traditional recipes, and modern presentation come together to create an unforgettable dining experience.`
-                        : 'Experience authentic Middle Eastern cuisine in the heart of Saudi Arabia. Fresh ingredients, traditional recipes, and modern presentation come together to create an unforgettable dining experience.'
-                      }
-                    </p>
-                    <button className="hero__cta-button">
-                      View Our Menu
-                    </button>
-                  </div>
-                  <div className="hero__image">
-                    <div className="hero__carousel">
-                      {heroImages.map((image, index) => (
-                        <img 
-                          key={index}
-                          src={image.url} 
-                          alt={image.alt}
-                          className={`hero__carousel-image ${index === currentImageIndex ? 'active' : ''}`}
-                        />
-                      ))}
-                      <div className="hero__carousel-dots">
-                        {heroImages.map((_, index) => (
-                          <button
-                            key={index}
-                            className={`hero__carousel-dot ${index === currentImageIndex ? 'active' : ''}`}
-                            onClick={() => setCurrentImageIndex(index)}
-                            aria-label={`Go to slide ${index + 1}`}
-                          />
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
-
-              {/* Menu Section - With Tabs */}
-              <section id="menu" className="menu-list">
-                <div className="menu-list__header">
-                  <h2 className="menu-list__title">Our Menu</h2>
-                  <p className="menu-list__subtitle">
-                    {restaurantData ? 'Discover our carefully crafted dishes' : 'Select a restaurant to view menu'}
-                  </p>
-                </div>
-                
-                {restaurantData?.menu_categories ? (() => {
-                  const allCategories = Object.entries(restaurantData.menu_categories)
-                    .filter(([category, items]) => Array.isArray(items) && items.length > 0);
-                  
-                  const paginateThreshold = menuDisplay.paginateThreshold || 0;
-                  
-                  // Filter categories based on selection
-                  const displayCategories = selectedCategory === 'all' 
-                    ? allCategories 
-                    : allCategories.filter(([category]) => category === selectedCategory);
-                  
-                  return (
-                    <div className={`menu-list__container menu-list--${menuDisplay.variant}`}>
-                      {/* Category Tabs */}
-                      <div className="menu-list__tabs" style={{ 
-                        display: 'flex', 
-                        flexWrap: 'wrap',
-                        gap: '8px',
-                        marginBottom: '2rem',
-                        borderBottom: '2px solid #E5DCD2',
-                        paddingBottom: '1rem'
-                      }}>
-                        <button
-                          onClick={() => setSelectedCategory('all')}
-                          style={{
-                            padding: '12px 20px',
-                            borderRadius: '25px',
-                            background: selectedCategory === 'all' ? '#B38E6A' : '#f8f9fa',
-                            color: selectedCategory === 'all' ? 'white' : '#534931',
-                            fontWeight: selectedCategory === 'all' ? 'bold' : 'normal',
-                            cursor: 'pointer',
-                            fontSize: '14px',
-                            transition: 'all 0.3s ease',
-                            border: selectedCategory === 'all' ? '2px solid #B38E6A' : '2px solid transparent'
-                          }}
-                          onMouseEnter={(e) => {
-                            if (selectedCategory !== 'all') {
-                              e.currentTarget.style.background = '#E5DCD2';
-                              e.currentTarget.style.color = '#534931';
-                            }
-                          }}
-                          onMouseLeave={(e) => {
-                            if (selectedCategory !== 'all') {
-                              e.currentTarget.style.background = '#f8f9fa';
-                              e.currentTarget.style.color = '#534931';
-                            }
-                          }}
-                        >
-                          All Categories ({allCategories.length})
-                        </button>
-                        {allCategories.map(([category, items]) => {
-                          const itemsArray = items as any[];
-                          const categoryDisplay = category.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
-                          const isSelected = selectedCategory === category;
-                          
-                          return (
-                            <button
-                              key={category}
-                              onClick={() => setSelectedCategory(category)}
-                              style={{
-                                padding: '12px 20px',
-                                borderRadius: '25px',
-                                background: isSelected ? '#B38E6A' : '#f8f9fa',
-                                color: isSelected ? 'white' : '#534931',
-                                fontWeight: isSelected ? 'bold' : 'normal',
-                                cursor: 'pointer',
-                                fontSize: '14px',
-                                transition: 'all 0.3s ease',
-                                border: isSelected ? '2px solid #B38E6A' : '2px solid transparent'
-                              }}
-                              onMouseEnter={(e) => {
-                                if (!isSelected) {
-                                  e.currentTarget.style.background = '#E5DCD2';
-                                  e.currentTarget.style.color = '#534931';
-                                }
-                              }}
-                              onMouseLeave={(e) => {
-                                if (!isSelected) {
-                                  e.currentTarget.style.background = '#f8f9fa';
-                                  e.currentTarget.style.color = '#534931';
-                                }
-                              }}
-                            >
-                              {categoryDisplay} ({itemsArray.length})
-                            </button>
-                          );
-                        })}
-                      </div>
-                      
-                      {/* Display Selected Categories */}
-                      {displayCategories.map(([category, items]) => {
-                        const itemsArray = items as any[];
-                        const totalItems = itemsArray.length;
-                        const categoryCurrentPage = currentPage[category] || 0;
-                        const showPagination = paginateThreshold > 0 && totalItems > paginateThreshold;
-                        const startIndex = showPagination ? categoryCurrentPage * paginateThreshold : 0;
-                        const endIndex = showPagination ? startIndex + paginateThreshold : totalItems;
-                        const visibleItems = itemsArray.slice(startIndex, endIndex);
-                        const totalPages = showPagination ? Math.ceil(totalItems / paginateThreshold) : 1;
-                        
-                        return (
-                          <div key={category} className="menu-list__category">
-                            {/* Items Grid */}
-                            {menuDisplay.variant === 'grid-photos' && menuDisplay.showImages ? (
-                              <div 
-                                className="menu-list__grid" 
-                                style={{ 
-                                  display: 'grid',
-                                  gridTemplateColumns: `repeat(${menuDisplay.itemsPerRow}, 1fr)`,
-                                  gap: '1.5rem',
-                                  marginBottom: '2rem'
-                                }}
-                              >
-                                {visibleItems.map((item: any, index: number) => (
-                                  <div key={`${category}-${startIndex + index}`} className={`menu-list__item menu-list__item--${menuDisplay.grid.imageShape}`}>
-                                    <div className="menu-list__item-image" style={{ position: 'relative', marginBottom: '0.75rem' }}>
-                                      {(() => {
-                                        const name = item.item_en || item.item_ar || item.name || item.item_name || `item-${index}`
-                                        const slug = String(name).toLowerCase().replace(/[^a-z0-9]+/g, '-')
-                                        const dataImg = item.image || (item.images && item.images[0]?.url)
-                                        const src = menuDisplay.imageMode === 'from-data' && dataImg
-                                          ? dataImg
-                                          : `${menuDisplay.imagesBasePath}/${slug}.jpg`
-                                        
-                                        const imageStyle = {
-                                          width: '100%',
-                                          height: '220px',
-                                          objectFit: 'cover' as const,
-                                          display: 'block',
-                                          borderRadius: menuDisplay.grid.imageShape === 'circle' ? '50%' : menuDisplay.grid.imageShape === 'rounded' ? '12px' : '8px',
-                                          boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
-                                          transition: 'transform 0.3s ease, box-shadow 0.3s ease'
-                                        };
-                                        
-                                        return (
-                                          <img
-                                            src={src}
-                                            alt={name}
-                                            style={imageStyle}
-                                            loading="lazy"
-                                            onError={(e) => {
-                                              e.currentTarget.src = 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'
-                                            }}
-                                            onMouseEnter={(e) => {
-                                              e.currentTarget.style.transform = 'translateY(-4px)';
-                                              e.currentTarget.style.boxShadow = '0 8px 25px rgba(0,0,0,0.2)';
-                                            }}
-                                            onMouseLeave={(e) => {
-                                              e.currentTarget.style.transform = 'translateY(0)';
-                                              e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
-                                            }}
-                                          />
-                                        )
-                                      })()}
-                                      {item.price && (
-                                        <div className="menu-list__item-price" style={{ 
-                                          position: 'absolute', 
-                                          top: '12px', 
-                                          right: '12px', 
-                                          background: '#B38E6A', 
-                                          color: 'white', 
-                                          padding: '6px 12px', 
-                                          borderRadius: '20px',
-                                          fontSize: '14px',
-                                          fontWeight: 'bold',
-                                          boxShadow: '0 2px 8px rgba(0,0,0,0.2)'
-                                        }}>
-                                          {typeof item.price === 'string' ? item.price : `${item.price} ${item.currency || 'SAR'}`}
-                                        </div>
-                                      )}
-                                    </div>
-                                    <div className="menu-list__item-content">
-                                      <div className="menu-list__item-name" style={{ 
-                                        fontWeight: 'bold', 
-                                        marginBottom: '6px',
-                                        fontSize: '16px',
-                                        color: '#534931',
-                                        lineHeight: '1.4'
-                                      }}>
-                                        {item.item_en || item.item_ar || item.name || item.item_name || `Item ${startIndex + index + 1}`}
-                                      </div>
-                                      {menuDisplay.showDescriptions && item.description && (
-                                        <div className="menu-list__item-description" style={{ 
-                                          fontSize: '14px', 
-                                          color: '#666', 
-                                          lineHeight: '1.5',
-                                          marginTop: '4px'
-                                        }}>
-                                          {item.description.length > 80 
-                                            ? `${item.description.substring(0, 80)}...` 
-                                            : item.description
-                                          }
-                                        </div>
-                                      )}
-                                    </div>
-                                  </div>
-                                ))}
-                              </div>
-                            ) : menuDisplay.variant === 'table-clean' ? (
-                              <div className="menu-list__table-grid" style={{ 
-                                display: 'grid',
-                                gridTemplateColumns: `repeat(${menuDisplay.itemsPerRow}, 1fr)`,
-                                gap: '1rem',
-                                marginBottom: '2rem'
-                              }}>
-                                {visibleItems.map((item: any, index: number) => (
-                                  <div key={`${category}-${startIndex + index}`} className="menu-list__table-item" style={{ 
-                                    padding: '16px', 
-                                    border: '2px solid #E5DCD2', 
-                                    borderRadius: '8px',
-                                    background: 'white',
-                                    boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
-                                    display: 'flex',
-                                    flexDirection: 'column',
-                                    justifyContent: 'space-between',
-                                    minHeight: '140px'
-                                  }}>
-                                    <div>
-                                      <div className="menu-list__table-item-name" style={{ 
-                                        color: '#534931', 
-                                        fontSize: '16px', 
-                                        fontWeight: 'bold',
-                                        marginBottom: '8px',
-                                        lineHeight: '1.3'
-                                      }}>
-                                        {item.item_en || item.item_ar || item.name || item.item_name || `Item ${startIndex + index + 1}`}
-                                      </div>
-                                      {menuDisplay.showDescriptions && item.description && (
-                                        <div className="menu-list__table-item-description" style={{ 
-                                          fontSize: '14px', 
-                                          color: '#666', 
-                                          lineHeight: '1.4',
-                                          marginBottom: '8px'
-                                        }}>
-                                          {item.description.length > 80 ? `${item.description.substring(0, 80)}...` : item.description}
-                                        </div>
-                                      )}
-                                    </div>
-                                    {item.price && (
-                                      <div className="menu-list__table-item-price" style={{ 
-                                        fontWeight: 'bold', 
-                                        color: '#B38E6A', 
-                                        fontSize: '16px',
-                                        textAlign: 'right',
-                                        marginTop: 'auto'
-                                      }}>
-                                        {typeof item.price === 'string' ? item.price : `${item.price} ${item.currency || 'SAR'}`}
-                                      </div>
-                                    )}
-                                  </div>
-                                ))}
-                              </div>
-                            ) : (
-                              // Compact Cards Layout
-                              <div className="menu-list__cards-grid" style={{ 
-                                display: 'grid',
-                                gridTemplateColumns: `repeat(${menuDisplay.itemsPerRow}, 1fr)`,
-                                gap: '1rem',
-                                marginBottom: '2rem'
-                              }}>
-                                {visibleItems.map((item: any, index: number) => (
-                                  <div key={`${category}-${startIndex + index}`} className="menu-list__card-item" style={{ 
-                                    padding: '12px', 
-                                    border: '1px solid #E5DCD2', 
-                                    borderRadius: '6px',
-                                    background: 'white',
-                                    boxShadow: '0 1px 4px rgba(0,0,0,0.08)',
-                                    display: 'flex',
-                                    flexDirection: 'column',
-                                    justifyContent: 'space-between',
-                                    minHeight: '120px',
-                                    transition: 'transform 0.2s ease, box-shadow 0.2s ease'
-                                  }}
-                                  onMouseEnter={(e) => {
-                                    e.currentTarget.style.transform = 'translateY(-2px)';
-                                    e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
-                                  }}
-                                  onMouseLeave={(e) => {
-                                    e.currentTarget.style.transform = 'translateY(0)';
-                                    e.currentTarget.style.boxShadow = '0 1px 4px rgba(0,0,0,0.08)';
-                                  }}
-                                  >
-                                    <div>
-                                      <div className="menu-list__card-item-name" style={{ 
-                                        color: '#534931', 
-                                        fontSize: '15px', 
-                                        fontWeight: 'bold',
-                                        marginBottom: '6px',
-                                        lineHeight: '1.3'
-                                      }}>
-                                        {item.item_en || item.item_ar || item.name || item.item_name || `Item ${startIndex + index + 1}`}
-                                      </div>
-                                      {menuDisplay.showDescriptions && item.description && (
-                                        <div className="menu-list__card-item-description" style={{ 
-                                          fontSize: '13px', 
-                                          color: '#666', 
-                                          lineHeight: '1.4',
-                                          marginBottom: '6px'
-                                        }}>
-                                          {item.description.length > 60 ? `${item.description.substring(0, 60)}...` : item.description}
-                                        </div>
-                                      )}
-                                    </div>
-                                    {item.price && (
-                                      <div className="menu-list__card-item-price" style={{ 
-                                        fontWeight: 'bold', 
-                                        color: '#B38E6A', 
-                                        fontSize: '15px',
-                                        textAlign: 'right',
-                                        marginTop: 'auto'
-                                      }}>
-                                        {typeof item.price === 'string' ? item.price : `${item.price} ${item.currency || 'SAR'}`}
-                                      </div>
-                                    )}
-                                  </div>
-                                ))}
-                              </div>
-                            )}
-                            
-                            {/* Pagination for individual categories */}
-                            {showPagination && totalPages > 1 && (
-                              <div className="menu-list__pagination" style={{ 
-                                display: 'flex', 
-                                justifyContent: 'space-between', 
-                                alignItems: 'center',
-                                marginTop: '2rem',
-                                padding: '1.5rem',
-                                background: '#f8f9fa',
-                                borderRadius: '12px',
-                                border: '2px solid #E5DCD2'
-                              }}>
-                                <div className="menu-list__pagination-info">
-                                  <span style={{ color: '#534931', fontWeight: 'bold' }}>
-                                    {endIndex < totalItems ? `+ ${totalItems - endIndex} more items` : 'All items shown'}
-                                  </span>
-                                </div>
-                                <div className="menu-list__pagination-nav" style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                                  <button 
-                                    className="menu-list__pagination-arrow menu-list__pagination-arrow--left" 
-                                    disabled={categoryCurrentPage === 0}
-                                    onClick={() => setCurrentPage(prev => ({ ...prev, [category]: Math.max(0, categoryCurrentPage - 1) }))}
-                                    style={{ 
-                                      padding: '12px', 
-                                      border: '2px solid #B38E6A', 
-                                      borderRadius: '8px', 
-                                      background: categoryCurrentPage === 0 ? '#f0f0f0' : '#B38E6A',
-                                      color: categoryCurrentPage === 0 ? '#999' : 'white',
-                                      cursor: categoryCurrentPage === 0 ? 'not-allowed' : 'pointer',
-                                      transition: 'all 0.3s ease'
-                                    }}
-                                  >
-                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                                      <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
-                                    </svg>
-                                  </button>
-                                  <span className="menu-list__pagination-page" style={{ 
-                                    padding: '0 16px',
-                                    fontWeight: 'bold',
-                                    color: '#534931'
-                                  }}>
-                                    {categoryCurrentPage + 1} of {totalPages}
-                                  </span>
-                                  <button 
-                                    className="menu-list__pagination-arrow menu-list__pagination-arrow--right"
-                                    disabled={categoryCurrentPage >= totalPages - 1}
-                                    onClick={() => setCurrentPage(prev => ({ ...prev, [category]: Math.min(totalPages - 1, categoryCurrentPage + 1) }))}
-                                    style={{ 
-                                      padding: '12px', 
-                                      border: '2px solid #B38E6A', 
-                                      borderRadius: '8px', 
-                                      background: categoryCurrentPage >= totalPages - 1 ? '#f0f0f0' : '#B38E6A',
-                                      color: categoryCurrentPage >= totalPages - 1 ? '#999' : 'white',
-                                      cursor: categoryCurrentPage >= totalPages - 1 ? 'not-allowed' : 'pointer',
-                                      transition: 'all 0.3s ease'
-                                    }}
-                                  >
-                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                                      <path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/>
-                                    </svg>
-                                  </button>
-                                </div>
-                              </div>
-                            )}
-                          </div>
-                        );
-                      })}
-                    </div>
-                  );
-                })() : restaurantData ? (
-                  <div className="menu-list__grid">
-                    <div className="menu-list__category">
-                      <h3 className="menu-list__category-title">Menu Information</h3>
-                      <ul className="menu-list__items">
-                        <li className="menu-list__item">
-                          <div className="menu-list__item-info">
-                            <div className="menu-list__item-name">Visit us for our full menu</div>
-                            <div className="menu-list__item-description">
-                              {restaurantData.restaurant_info?.name} offers authentic cuisine with fresh ingredients
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
+          {/* Canvas Content */}
+          <div className="canvas-content">
+            {/* Templates Tab - Generation Interface */}
+            {activeTab === 'templates' && (
+              <>
+                {demoGenerated ? (
+                  <div className="preview-frame">
+                    <div className="preview-content" style={{
+                      backgroundColor: 'white',
+                      borderRadius: '0',
+                      margin: '0',
+                      padding: '0',
+                      overflow: 'hidden',
+                      height: '100%',
+                      width: '100%',
+                      position: 'relative',
+                      flex: 1
+                    }}>
+                      <iframe
+                        src={`/restaurant/${selectedRestaurant}?preview=true&skin=${selectedSkin}`}
+                        style={{
+                          width: '100%',
+                          height: '100%',
+                          border: 'none',
+                          backgroundColor: 'white'
+                        }}
+                        title="Website Preview"
+                      />
                     </div>
                   </div>
                 ) : (
-                  <div className="menu-list__grid">
-                    <div className="menu-list__category">
-                      <h3 className="menu-list__category-title">Loading Menu...</h3>
-                      <ul className="menu-list__items">
-                        <li className="menu-list__item">
-                          <div className="menu-list__item-info">
-                            <div className="menu-list__item-name">Please select a restaurant to view menu</div>
-                            <div className="menu-list__item-description">Choose from our available restaurants above</div>
-                          </div>
-                        </li>
-                      </ul>
+                  <div className="empty-state">
+                    <div className="empty-state-icon">🎨</div>
+                    <div className="empty-state-title">Ready to Create</div>
+                    <div className="empty-state-desc">
+                      Select a template and restaurant data to generate your website preview
+                    </div>
+                    <div style={{ marginTop: '20px', display: 'flex', gap: '16px', justifyContent: 'center', fontSize: '12px', color: 'var(--figma-text-muted)' }}>
+                      <span>🎨 {availableSkins.length} templates</span>
+                      <span>🍽️ {availableRestaurants.length} restaurants</span>
+                      <span>📱 Local data only</span>
                     </div>
                   </div>
                 )}
-              </section>
-
-              {/* Gallery Section */}
-              <section id="gallery" className="gallery">
-                <div className="gallery__container">
-                  <div className="gallery__header">
-                    <h2 className="gallery__title">Our Gallery</h2>
-                  </div>
-                  <div className="gallery__grid">
-                    <div className="gallery__item">
-                      <div className="gallery__carousel">
-                        <div className="gallery__carousel-images">
-                          <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Delicious dish" className={`gallery__carousel-image ${0 === currentImageIndex ? 'active' : ''}`} />
-                          <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Restaurant ambiance" className={`gallery__carousel-image ${1 === currentImageIndex ? 'active' : ''}`} />
-                          <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Fresh ingredients" className={`gallery__carousel-image ${2 === currentImageIndex ? 'active' : ''}`} />
-                          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Chef cooking" className={`gallery__carousel-image ${3 === currentImageIndex ? 'active' : ''}`} />
-                        </div>
-                        <div className="gallery__carousel-dots">
-                          {heroImages.map((_, index) => (
-                            <button
-                              key={index}
-                              className={`gallery__carousel-dot ${index === currentImageIndex ? 'active' : ''}`}
-                              onClick={() => setCurrentImageIndex(index)}
-                              aria-label={`Go to gallery slide ${index + 1}`}
-                            />
-                          ))}
-                        </div>
-                      </div>
-                    </div>
-                    <div className="gallery__item">
-                      <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Restaurant ambiance" />
-                    </div>
-                    <div className="gallery__item">
-                      <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Fresh ingredients" />
-                    </div>
-                  </div>
-                </div>
-              </section>
-
-              {/* Locations Section */}
-              <section id="locations" className="locations">
-                <div className="locations__container">
-                  <div className="locations__header">
-                    <h2 className="locations__title">Our Location</h2>
-                    <p className="locations__subtitle">Visit us at our location</p>
-                  </div>
-                  <div className="locations__grid">
-                    <div className="locations__item">
-                      <h3 className="locations__branch-name">
-                        {restaurantData?.restaurant_info?.name || 'Main Branch'}
-                      </h3>
-                      <p className="locations__address">
-                        {restaurantData?.restaurant_info?.address || 'Riyadh, Saudi Arabia'}
-                      </p>
-                      {restaurantData?.restaurant_info?.phone && (
-                        <p className="locations__phone">{restaurantData.restaurant_info.phone}</p>
-                      )}
-                      {restaurantData?.restaurant_info?.hours && (
-                        <p className="locations__hours">{restaurantData.restaurant_info.hours}</p>
-                      )}
-                    </div>
-                  </div>
-                </div>
-              </section>
-
-              {/* Footer */}
-              <footer className="footer">
-                <div className="footer__container">
-                  <div className="footer__content">
-                    <div className="footer__section">
-                      <h3>Contact Info</h3>
-                      <p>📍 {restaurantData?.restaurant_info?.address || 'Riyadh, Saudi Arabia'}</p>
-                      <p>📞 {restaurantData?.restaurant_info?.phone || '+966 11 123 4567'}</p>
-                      <p>✉️ info@{selectedRestaurant}.com</p>
-                    </div>
-                    <div className="footer__section">
-                      <h3>Opening Hours</h3>
-                      {restaurantData?.restaurant_info?.hours ? (
-                        <p>{restaurantData.restaurant_info.hours}</p>
-                      ) : (
-                        <>
-                          <p>Saturday - Thursday: 11:00 AM - 11:00 PM</p>
-                          <p>Friday: 2:00 PM - 11:00 PM</p>
-                        </>
-                      )}
-                    </div>
-                    <div className="footer__section">
-                      <h3>About</h3>
-                      <p>{restaurantData?.restaurant_info?.name || 'Restaurant'}</p>
-                      <p>{restaurantData?.restaurant_info?.type_of_food || 'Authentic cuisine'}</p>
-                    </div>
-                  </div>
-                  <div className="footer__bottom">
-                    <p>&copy; 2024 {availableRestaurants.find(r => r.id === selectedRestaurant)?.name}. All rights reserved.</p>
-                  </div>
-                </div>
-              </footer>
-            </div>
-            ) : (
-              /* Standalone Template Preview */
-              <div className="bg-gray-50 p-6 text-center">
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">
-                  Standalone Template Preview
-                </h3>
-                <p className="text-sm text-gray-600 mb-6">
-                  {selectedStandalone === 'foodera-site' ? 'Foodera Modern' : selectedStandalone} template is running independently
-                </p>
-                
-                {/* Simple view website link */}
-                <a 
-                  href={`http://localhost:3001/${selectedRestaurant}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
-                >
-                  <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                  </svg>
-                  View Website
-                </a>
-              </div>
+              </>
             )}
-          </div>
-        ) : (
-          <div className="text-center py-12">
-            <div className="text-gray-400 mb-4">
-              <svg className="mx-auto h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-              </svg>
-            </div>
-            <h3 className="text-lg font-medium text-gray-900 mb-2">No Website Generated</h3>
-            <p className="text-gray-600 mb-6">
-              Select a skin and restaurant above, then click "Generate Website" to see the preview.
-            </p>
-            <div className="space-y-2 text-sm text-gray-500">
-              <p>🎨 <strong>{availableSkins.length}</strong> premium skins available</p>
-              <p>🍽️ <strong>{availableRestaurants.length}</strong> restaurants available</p>
-              <p>📱 Render only from local JSON files; no external fetching yet.</p>
-            </div>
-          </div>
-        )}
-      </div>
-      
-      {/* Enhanced Editor Integration */}
-      {typeof window !== 'undefined' && (
-        <script 
-          src="/dev/enhanced-editor.js" 
-          defer
-          onLoad={() => {
-            if (window.enhancedEditor && restaurantData) {
-              window.restaurantData = restaurantData;
-            }
-          }}
-        />
-      )}
-    </div>
-  )
-}
 
-// Enhanced Template Selector Components
-function SkinTemplateSelector({ 
-  selectedSkin, 
-  onSkinSelect, 
-  skinLoaded, 
-  availableSkins, 
-  loadingSkins 
-}: {
-  selectedSkin: string
-  onSkinSelect: (skinId: string) => void
-  skinLoaded: boolean
-  availableSkins: any[]
-  loadingSkins: boolean
-}) {
-  const [previews, setPreviews] = useState<Record<string, string>>({})
-  
-  useEffect(() => {
-    // Load template previews
-    const loadPreviews = async () => {
-      const newPreviews: Record<string, string> = {}
-      
-      for (const skin of availableSkins) {
-        try {
-          const response = await fetch(`/api/skins/${skin.id}/preview`)
-          if (response.ok) {
-            const previewData = await response.text()
-            newPreviews[skin.id] = previewData
-          }
-        } catch (error) {
-          console.warn(`Failed to load preview for ${skin.id}:`, error)
-        }
-      }
-      
-      setPreviews(newPreviews)
-    }
-    
-    if (availableSkins.length > 0) {
-      loadPreviews()
-    }
-  }, [availableSkins])
-  
-  return (
-    <div className="enhanced-skin-selector">
-      <h3 className="text-lg font-semibold mb-4">🎨 Choose Your Design</h3>
-      
-      {loadingSkins ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {[1, 2, 3].map(i => (
-            <div key={i} className="skin-placeholder animate-pulse">
-              <div className="bg-gray-200 h-40 rounded-lg mb-3"></div>
-              <div className="bg-gray-200 h-4 rounded mb-2"></div>
-              <div className="bg-gray-200 h-3 rounded w-2/3"></div>
-            </div>
-          ))}
-        </div>
-      ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {availableSkins.map(skin => (
-            <div 
-              key={skin.id}
-              className={`skin-card cursor-pointer border-2 rounded-xl p-4 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 ${
-                selectedSkin === skin.id 
-                  ? 'border-blue-500 bg-blue-50 shadow-lg' 
-                  : 'border-gray-200 hover:border-blue-300'
-              }`}
-              onClick={() => onSkinSelect(skin.id)}
-            >
-              <div className="skin-preview-container mb-3">
-                {previews[skin.id] ? (
-                  <div 
-                    className="preview-content h-32 rounded-lg overflow-hidden"
-                    dangerouslySetInnerHTML={{ __html: previews[skin.id] }}
+            {/* Design Tab - Design Interface */}
+            {activeTab === 'design' && demoGenerated && (
+              <div className="design-frame">
+                <div className="design-content" style={{
+                  backgroundColor: 'white',
+                  borderRadius: '0',
+                  margin: '0',
+                  padding: '0',
+                  overflow: 'hidden',
+                  height: '100%',
+                  width: '100%',
+                  position: 'relative',
+                  flex: 1
+                }}>
+                  <iframe
+                    src={`/restaurant/${selectedRestaurant}?skin=${selectedSkin}`}
+                    style={{
+                      width: '100%',
+                      height: '100%',
+                      border: 'none',
+                      backgroundColor: 'white',
+                      pointerEvents: selectedTool === 'select' || selectedTool === 'links' || selectedTool === 'text' ? 'auto' : 'none'
+                    }}
+                    title="Design Mode"
+                    id="design-iframe"
+                    sandbox="allow-same-origin allow-scripts"
                   />
-                ) : (
-                  <div className="h-32 bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg flex items-center justify-center">
-                    <span className="text-gray-500 text-sm">Loading preview...</span>
+                  {/* Design overlays and controls will be added here */}
+                  <div className="design-overlay" style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    bottom: 0,
+                    pointerEvents: selectedTool === 'shapes' ? 'auto' : 'none',
+                    zIndex: 10
+                  }}>
+                    {/* Grid overlay */}
+                    <div className="grid-overlay" style={{
+                      position: 'absolute',
+                      top: 0,
+                      left: 0,
+                      right: 0,
+                      bottom: 0,
+                      backgroundImage: 'linear-gradient(rgba(0,0,0,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(0,0,0,0.1) 1px, transparent 1px)',
+                      backgroundSize: '20px 20px',
+                      opacity: selectedTool === 'layout' ? 0.3 : 0
+                    }}></div>
+                    
+                    {/* Simple Tool Overlays */}
+                    <SelectTool
+                      isActive={selectedTool === 'select'}
+                      onElementSelect={(element) => {
+                        setSelectedElement(element)
+                        console.log('Element selected:', element)
+                      }}
+                    />
+                    
+                    <SimpleShapes
+                      isActive={selectedTool === 'shapes'}
+                      onShapeCreate={handleShapeCreate}
+                    />
+                    
+                    <SimplePictures
+                      isActive={selectedTool === 'pictures'}
+                      onImageAdd={handleImageAdd}
+                    />
+                    
+                    <SimpleLinks
+                      isActive={selectedTool === 'links'}
+                      onLinkCreate={handleLinkCreate}
+                    />
+                    
+                    {/* Render all shapes */}
+                    <ShapeRenderer
+                      shapes={shapes}
+                      onShapeClick={(shape) => {
+                        setSelectedShapeObject(shape)
+                        setSelectedTool('select')
+                      }}
+                      selectedShapeId={selectedShapeObject?.id}
+                    />
                   </div>
-                )}
-              </div>
-              
-              <h4 className="font-semibold text-gray-800 mb-1">{skin.name}</h4>
-              <p className="text-sm text-gray-600 mb-2">{skin.description}</p>
-              
-              <div className="skin-features">
-                <div className="flex flex-wrap gap-1">
-                  <span className="px-2 py-1 bg-green-100 text-green-700 text-xs rounded-full">
-                    ✓ Responsive
-                  </span>
-                  <span className="px-2 py-1 bg-blue-100 text-blue-700 text-xs rounded-full">
-                    ✓ Customizable
-                  </span>
-                  {selectedSkin === skin.id && skinLoaded && (
-                    <span className="px-2 py-1 bg-purple-100 text-purple-700 text-xs rounded-full">
-                      ✓ Active
-                    </span>
-                  )}
                 </div>
               </div>
-            </div>
-          ))}
-        </div>
-      )}
-      
-      <style jsx>{`
-        .skin-card {
-          transform-style: preserve-3d;
-        }
-        
-        .skin-card:hover {
-          transform: translateY(-4px) rotateX(5deg);
-        }
-        
-        .preview-content {
-          transform: scale(0.8);
-          transform-origin: top left;
-          width: 125%;
-          height: 125%;
-        }
-        
-        .skin-placeholder {
-          padding: 1rem;
-          border: 2px solid #e5e7eb;
-          border-radius: 0.75rem;
-        }
-        
-        @keyframes pulse {
-          0%, 100% { opacity: 1; }
-          50% { opacity: 0.5; }
-        }
-        
-        .animate-pulse {
-          animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-        }
-      `}</style>
-    </div>
-  )
-}
+            )}
 
-function StandalonePreview({ 
-  templateId, 
-  restaurantData, 
-  isGenerating 
-}: {
-  templateId: string
-  restaurantData: any
-  isGenerating: boolean | string
-}) {
-  const [previewHTML, setPreviewHTML] = useState<string>('')
-  const [loading, setLoading] = useState(false)
-  
-  useEffect(() => {
-    if (templateId && restaurantData) {
-      loadStandalonePreview()
-    }
-  }, [templateId, restaurantData])
-  
-  const loadStandalonePreview = async () => {
-    setLoading(true)
-    try {
-      const response = await fetch('/api/templates/preview', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          templateId,
-          restaurantData
-        })
-      })
-      
-      const result = await response.json()
-      if (result.success) {
-        setPreviewHTML(result.previewHTML)
-      }
-    } catch (error) {
-      console.error('Failed to load standalone preview:', error)
-    } finally {
-      setLoading(false)
-    }
-  }
-  
-  if (!templateId) {
-    return (
-      <div className="standalone-empty-state text-center py-12">
-        <div className="text-gray-400 mb-4">
-          <svg className="mx-auto h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-          </svg>
-        </div>
-        <h3 className="text-lg font-medium text-gray-900 mb-2">Select a Standalone Template</h3>
-        <p className="text-gray-600">Choose from our collection of complete Next.js templates</p>
-      </div>
-    )
-  }
-  
-  if (loading) {
-    return (
-      <div className="standalone-loading text-center py-12">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
-        <p className="text-gray-600">Loading template preview...</p>
-      </div>
-    )
-  }
-  
-  return (
-    <div className="standalone-preview-wrapper">
-      <div className="preview-header bg-gray-50 p-4 border-b">
-        <div className="flex justify-between items-center">
-          <div>
-            <h3 className="font-semibold text-gray-800">📱 Standalone Template Preview</h3>
-            <p className="text-sm text-gray-600">
-              {templateId === 'foodera-site' ? 'Foodera Modern' : templateId} • 
-              {restaurantData?.restaurant_info?.name || 'Restaurant'}
-            </p>
-          </div>
-          <div className="flex gap-2">
-            <button className="px-3 py-1 bg-blue-600 text-white rounded text-sm hover:bg-blue-700">
-              📱 Mobile View
-            </button>
-            <button className="px-3 py-1 bg-green-600 text-white rounded text-sm hover:bg-green-700">
-              🚀 Launch
-            </button>
-          </div>
-        </div>
-      </div>
-      
-      <div className="preview-content">
-        {previewHTML ? (
-          <div 
-            className="standalone-preview-html"
-            dangerouslySetInnerHTML={{ __html: previewHTML }}
-          />
-        ) : (
-          <div className="preview-fallback bg-gray-50 p-8 text-center">
-            <p className="text-gray-600 mb-4">Preview not available</p>
-            <a 
-              href={`http://localhost:3001/${restaurantData?.restaurant_info?.name || 'restaurant'}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-            >
-              <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-              </svg>
-              View Full Site
-            </a>
-          </div>
-        )}
-      </div>
-    </div>
-  )
-}
-
-function StandaloneTemplateSelector({
-  selectedStandalone,
-  onTemplateSelect,
-  restaurantData
-}: {
-  selectedStandalone: string
-  onTemplateSelect: (templateId: string) => void
-  restaurantData: any
-}) {
-  const templates = [
-    {
-      id: 'foodera-site',
-      name: 'Foodera Modern',
-      description: 'Complete Next.js application with modern design system',
-      features: ['Full Next.js App', 'Custom Components', 'Advanced Animations', 'Mobile First'],
-      preview: '/images/template-previews/foodera-modern.jpg'
-    }
-  ]
-  
-  return (
-    <div className="standalone-template-selector">
-      <h3 className="text-lg font-semibold mb-4">🚀 Standalone Templates</h3>
-      <p className="text-gray-600 mb-6">Complete Next.js applications with unique design systems</p>
-      
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {templates.map(template => (
-          <div 
-            key={template.id}
-            className={`template-card cursor-pointer border-2 rounded-xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-2 ${
-              selectedStandalone === template.id 
-                ? 'border-purple-500 bg-purple-50 shadow-lg' 
-                : 'border-gray-200 hover:border-purple-300'
-            }`}
-            onClick={() => onTemplateSelect(template.id)}
-          >
-            <div className="template-preview mb-4">
-              <div className="h-40 bg-gradient-to-br from-purple-400 to-pink-400 rounded-lg flex items-center justify-center text-white font-bold text-xl">
-                {template.name}
-              </div>
-            </div>
-            
-            <h4 className="font-bold text-gray-800 mb-2">{template.name}</h4>
-            <p className="text-gray-600 mb-4">{template.description}</p>
-            
-            <div className="template-features mb-4">
-              <div className="grid grid-cols-2 gap-2">
-                {template.features.map((feature, index) => (
-                  <span 
-                    key={index}
-                    className="px-2 py-1 bg-purple-100 text-purple-700 text-xs rounded-full text-center"
+            {/* Preview Tab - Opens in new window */}
+            {activeTab === 'preview' && demoGenerated && (
+              <div className="empty-state">
+                <div className="empty-state-icon">👁️</div>
+                <div className="empty-state-title">Preview Mode</div>
+                <div className="empty-state-desc">
+                  Your website preview will open in a new window
+                </div>
+                <div style={{ marginTop: '30px', display: 'flex', gap: '16px', justifyContent: 'center' }}>
+                  <button 
+                    className="action-btn primary"
+                    onClick={() => {
+                      window.open(`/restaurant/${selectedRestaurant}?skin=${selectedSkin}&preview=true&device=desktop`, '_blank')
+                    }}
                   >
-                    ✓ {feature}
-                  </span>
-                ))}
-              </div>
-            </div>
-            
-            {selectedStandalone === template.id && (
-              <div className="selected-indicator">
-                <div className="flex items-center text-purple-600 font-medium">
-                  <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                  </svg>
-                  Selected Template
+                    <span className="btn-icon">🖥️</span>
+                    Desktop Preview
+                  </button>
+                  <button 
+                    className="action-btn primary"
+                    onClick={() => {
+                      window.open(`/restaurant/${selectedRestaurant}?skin=${selectedSkin}&preview=true&device=tablet`, '_blank')
+                    }}
+                  >
+                    <span className="btn-icon">📱</span>
+                    Tablet Preview
+                  </button>
+                  <button 
+                    className="action-btn primary"
+                    onClick={() => {
+                      window.open(`/restaurant/${selectedRestaurant}?skin=${selectedSkin}&preview=true&device=mobile`, '_blank')
+                    }}
+                  >
+                    <span className="btn-icon">📲</span>
+                    Mobile Preview
+                  </button>
                 </div>
               </div>
             )}
           </div>
-        ))}
+        </div>
+
+        {/* Right Sidebar */}
+        <div className={`figma-sidebar right ${rightPanelOpen ? 'open' : 'closed'}`}>
+          <div className="sidebar-header">
+            <h3 className="sidebar-title">
+              {activeTab === 'design' ? 'Element Properties' : 'Settings'}
+            </h3>
+            <button 
+              className="sidebar-toggle"
+              onClick={() => setRightPanelOpen(!rightPanelOpen)}
+            >
+              {rightPanelOpen ? '▶' : '◀'}
+            </button>
+          </div>
+          
+          {rightPanelOpen && (
+            <div className="sidebar-content">
+              {/* Templates Tab - Menu Settings */}
+              {activeTab === 'templates' && (
+                <div className="panel-section">
+                  <div className="section-header">
+                    <span className="section-icon">⚙️</span>
+                    <span className="section-title">Menu Settings</span>
+                  </div>
+                  <div className="settings-group">
+                    <div className="setting-row">
+                      <label className="setting-label">Layout Style</label>
+                      <select
+                        value={menuDisplay.variant}
+                        onChange={(e) => setMenuDisplay(d => ({ ...d, variant: e.target.value as any }))}
+                        className="setting-select"
+                      >
+                        <option value="grid-photos">Grid with Photos</option>
+                        <option value="table-clean">Clean Table</option>
+                        <option value="cards-compact">Compact Cards</option>
+                      </select>
+                    </div>
+                    
+                    <div className="setting-row">
+                      <label className="setting-label">Items per Row</label>
+                      <select
+                        value={menuDisplay.itemsPerRow}
+                        onChange={(e) => setMenuDisplay(d => ({ ...d, itemsPerRow: parseInt(e.target.value) }))}
+                        className="setting-select"
+                      >
+                        <option value="2">2 Items</option>
+                        <option value="3">3 Items</option>
+                        <option value="4">4 Items</option>
+                      </select>
+                    </div>
+                    
+                    <div className="setting-row">
+                      <label className="setting-toggle">
+                        <input
+                          type="checkbox"
+                          checked={menuDisplay.showImages}
+                          onChange={(e) => setMenuDisplay(d => ({ ...d, showImages: e.target.checked }))}
+                        />
+                        <span className="toggle-slider"></span>
+                        <span className="toggle-label">Show Menu Photos</span>
+                      </label>
+                    </div>
+                    
+                    <div className="setting-row">
+                      <label className="setting-toggle">
+                        <input
+                          type="checkbox"
+                          checked={menuDisplay.showDescriptions}
+                          onChange={(e) => setMenuDisplay(d => ({ ...d, showDescriptions: e.target.checked }))}
+                        />
+                        <span className="toggle-slider"></span>
+                        <span className="toggle-label">Show Descriptions</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {/* Simplified Design Info */}
+              {activeTab === 'design' && demoGenerated && (
+                <div className="panel-section">
+                  <div className="section-header">
+                    <span className="section-icon">ℹ️</span>
+                    <span className="section-title">Info</span>
+                  </div>
+                  <div style={{padding: '16px', fontSize: '12px', color: 'var(--figma-text-muted)', textAlign: 'center'}}>
+                    <p>Use the tools on the left to edit your website.</p>
+                    <p>Changes are saved automatically.</p>
+                    {selectedTool && <p>Active tool: <strong>{selectedTool}</strong></p>}
+                  </div>
+                </div>
+              )}
+
+
+              {/* Preview Tab - Preview Options */}
+              {activeTab === 'preview' && demoGenerated && (
+                <div className="panel-section">
+                  <div className="section-header">
+                    <span className="section-icon">👁️</span>
+                    <span className="section-title">Preview Options</span>
+                  </div>
+                  <div className="settings-group">
+                    <div className="setting-row">
+                      <label className="setting-label">Device View</label>
+                      <select className="setting-select">
+                        <option value="desktop">Desktop (1920px)</option>
+                        <option value="tablet">Tablet (768px)</option>
+                        <option value="mobile">Mobile (375px)</option>
+                      </select>
+                    </div>
+                    <div className="setting-row">
+                      <button 
+                        className="action-btn-full"
+                        onClick={() => {
+                          window.open(`/api/preview/${selectedRestaurant}?skin=${selectedSkin}`, '_blank')
+                        }}
+                      >
+                        🔗 Open in New Window
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              )}
+              
+              {/* Project Status - Compact Version */}
+              {demoGenerated && (
+                <div className="panel-section">
+                  <div className="section-header">
+                    <span className="section-icon">📊</span>
+                    <span className="section-title">Status</span>
+                  </div>
+                  <div className="status-compact">
+                    <div className="status-item">
+                      <span className="status-label">Template:</span>
+                      <span className="status-value">{availableSkins.find(s => s.id === selectedSkin)?.name}</span>
+                    </div>
+                    <div className="status-item">
+                      <span className="status-label">Restaurant:</span>
+                      <span className="status-value">{availableRestaurants.find(r => r.id === selectedRestaurant)?.name}</span>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+        </div>
       </div>
     </div>
   )
 }
+

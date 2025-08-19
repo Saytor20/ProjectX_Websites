@@ -20,9 +20,10 @@ const nextConfig: NextConfig = {
     formats: ['image/webp', 'image/avif'],
   },
 
-  // TypeScript configuration
+  // TypeScript configuration - ignore errors during development
   typescript: {
     tsconfigPath: './tsconfig.json',
+    ignoreBuildErrors: process.env.NODE_ENV === 'development',
   },
 
   // Security headers - DISABLED FOR DEVELOPMENT DEBUGGING

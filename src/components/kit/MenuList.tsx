@@ -1,405 +1,222 @@
-/**
- * MenuList Component
- * 
- * Enhanced restaurant menu display with multiple layout variants.
- * Supports RTL, pricing, images, pagination, and dietary tags.
- * 
- * Features:
- * - Image mode: 6-8 items with arrow navigation
- * - Non-image mode: Tabulated grid format with auto-padding
- * - Responsive grid layouts
- * - Pagination for large menus
- */
+'use client'
 
-'use client';
+import React, { useState } from 'react'
+import { BaseComponentProps, MenuSection, MenuItem } from './types'
 
-import React, { useState, useCallback, useMemo } from 'react';
-import Image from 'next/image';
-import { MenuListProps, MenuItem, MenuSection } from './types';
+export interface MenuListProps extends BaseComponentProps {
+  title?: string
+  sections: MenuSection[]
+  currency?: string
+  showImages?: boolean
+  showDescriptions?: boolean
+  locale?: string
+}
 
-export const MenuList: React.FC<MenuListProps> = ({
-  variant = 'grid-photos',
-  sections,
-  currency,
+export function MenuList({ 
+  title = 'Menu',
+  sections = [],
+  currency = 'SAR',
   showImages = true,
-  showPrices = true,
   showDescriptions = true,
-  className = '',
-  'data-testid': testId = 'menu-list',
   locale = 'en',
-  direction = 'ltr',
-  paginateThreshold = 24,
-  grid = {
-    columns: 3,
-    imageShape: 'boxed'
+  className = '',
+  variant = 'accordion',
+  ...props 
+}: MenuListProps) {
+  const [activeSection, setActiveSection] = useState<number | null>(0)
+
+  const menuStyle: React.CSSProperties = {
+    padding: '3rem 2rem',
+    maxWidth: '1200px',
+    margin: '0 auto'
   }
-}) => {
-  const [activeSection, setActiveSection] = useState<string>(sections[0]?.id || '');
-  const [currentPage, setCurrentPage] = useState<Record<string, number>>({});
 
-  const formatPrice = useCallback((price: number, offerPrice?: number) => {
-    const formatCurrency = (amount: number) => {
-      return new Intl.NumberFormat(locale === 'ar' ? 'ar-SA' : 'en-US', {
-        style: 'currency',
-        currency,
-        minimumFractionDigits: 0,
-        maximumFractionDigits: 2,
-      }).format(amount);
-    };
+  const titleStyle: React.CSSProperties = {
+    textAlign: 'center',
+    fontSize: '2.5rem',
+    fontWeight: 'bold',
+    marginBottom: '3rem',
+    color: 'var(--menu-title-color, #333)'
+  }
 
-    if (offerPrice && offerPrice < price) {
-      return (
-        <span className="menu-item__price menu-item__price--offer">
-          <span className="menu-item__price--original" aria-label={locale === 'ar' ? 'السعر الأصلي' : 'Original price'}>
-            {formatCurrency(price)}
-          </span>
-          <span className="menu-item__price--current" aria-label={locale === 'ar' ? 'السعر الحالي' : 'Current price'}>
-            {formatCurrency(offerPrice)}
-          </span>
-        </span>
-      );
-    }
+  const sectionHeaderStyle: React.CSSProperties = {
+    fontSize: '1.8rem',
+    fontWeight: 'bold',
+    color: 'var(--menu-section-color, #007bff)',
+    borderBottom: '2px solid var(--menu-section-color, #007bff)',
+    paddingBottom: '0.5rem',
+    marginBottom: '1.5rem',
+    cursor: variant === 'accordion' ? 'pointer' : 'default',
+    transition: 'color 0.2s ease'
+  }
 
-    return (
-      <span className="menu-item__price">
-        {formatCurrency(price)}
-      </span>
-    );
-  }, [currency, locale]);
+  const itemsGridStyle: React.CSSProperties = {
+    display: 'grid',
+    gridTemplateColumns: variant === 'simple-list' 
+      ? '1fr' 
+      : 'repeat(auto-fill, minmax(300px, 1fr))',
+    gap: '1.5rem',
+    marginBottom: '3rem'
+  }
 
-  const renderDietaryTags = useCallback((tags: string[] = []) => {
-    if (!tags.length) return null;
+  const itemStyle: React.CSSProperties = {
+    backgroundColor: 'var(--menu-item-bg, #ffffff)',
+    padding: '1.5rem',
+    borderRadius: '0.5rem',
+    boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+    transition: 'transform 0.2s ease, box-shadow 0.2s ease',
+    cursor: 'pointer',
+    border: variant === 'simple-list' ? '1px solid #eee' : 'none'
+  }
 
-    const tagLabels: Record<string, { en: string; ar: string; icon: string }> = {
-      vegan: { en: 'Vegan', ar: 'نباتي', icon: '🌱' },
-      vegetarian: { en: 'Vegetarian', ar: 'نباتي جزئي', icon: '🥬' },
-      spicy: { en: 'Spicy', ar: 'حار', icon: '🌶️' },
-      halal: { en: 'Halal', ar: 'حلال', icon: '🥩' },
-      gluten_free: { en: 'Gluten Free', ar: 'خالي من الجلوتين', icon: '🌾' },
-      dairy_free: { en: 'Dairy Free', ar: 'خالي من الألبان', icon: '🥛' },
-    };
+  const itemHeaderStyle: React.CSSProperties = {
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'flex-start',
+    marginBottom: showDescriptions ? '0.75rem' : '0',
+    gap: '1rem'
+  }
 
-    return (
-      <div className="menu-item__tags" role="list" aria-label={locale === 'ar' ? 'الخصائص الغذائية' : 'Dietary information'}>
-        {tags.map(tag => {
-          const tagInfo = tagLabels[tag];
-          if (!tagInfo) return null;
-          
-          return (
-            <span
-              key={tag}
-              className={`menu-item__tag menu-item__tag--${tag}`}
-              role="listitem"
-              aria-label={tagInfo[locale] || tagInfo.en}
-              title={tagInfo[locale] || tagInfo.en}
-            >
-              <span aria-hidden="true">{tagInfo.icon}</span>
-              <span className="menu-item__tag-text">{tagInfo[locale] || tagInfo.en}</span>
-            </span>
-          );
-        })}
-      </div>
-    );
-  }, [locale]);
+  const itemNameStyle: React.CSSProperties = {
+    fontSize: '1.2rem',
+    fontWeight: 'bold',
+    color: 'var(--menu-item-name-color, #333)',
+    margin: 0,
+    flex: 1
+  }
 
-  // Pagination logic
-  const getPaginatedItems = useCallback((items: MenuItem[], sectionId: string) => {
-    if (!paginateThreshold || items.length <= paginateThreshold) {
-      return { 
-        currentItems: items, 
-        totalPages: 1, 
-        currentPage: 1,
-        hasMore: false
-      };
-    }
+  const itemPriceStyle: React.CSSProperties = {
+    fontSize: '1.2rem',
+    fontWeight: 'bold',
+    color: 'var(--menu-item-price-color, #007bff)',
+    whiteSpace: 'nowrap'
+  }
 
-    // For image mode: show 6-8 items per page
-    const itemsPerPage = showImages ? 8 : paginateThreshold;
-    const totalPages = Math.ceil(items.length / itemsPerPage);
-    const page = currentPage[sectionId] || 1;
-    const startIndex = (page - 1) * itemsPerPage;
-    const endIndex = startIndex + itemsPerPage;
-    
-    return {
-      currentItems: items.slice(startIndex, endIndex),
-      totalPages,
-      currentPage: page,
-      hasMore: page < totalPages
-    };
-  }, [paginateThreshold, showImages, currentPage]);
+  const itemDescriptionStyle: React.CSSProperties = {
+    fontSize: '0.95rem',
+    color: 'var(--menu-item-description-color, #666)',
+    lineHeight: 1.5,
+    margin: 0
+  }
 
-  const handlePageChange = useCallback((sectionId: string, page: number) => {
-    setCurrentPage(prev => ({ ...prev, [sectionId]: page }));
-  }, []);
+  const formatPrice = (price: string | number) => {
+    if (!price) return 'Price on request'
+    return `${price} ${currency}`
+  }
 
-  const renderPagination = useCallback((sectionId: string, totalPages: number, currentPageNum: number) => {
-    if (totalPages <= 1) return null;
-
-    return (
-      <div className="menu-pagination" aria-label={locale === 'ar' ? 'تنقل الصفحات' : 'Page navigation'}>
-        <button
-          className="menu-pagination__button menu-pagination__button--prev"
-          onClick={() => handlePageChange(sectionId, currentPageNum - 1)}
-          disabled={currentPageNum <= 1}
-          aria-label={locale === 'ar' ? 'الصفحة السابقة' : 'Previous page'}
-        >
-          {direction === 'rtl' ? '→' : '←'}
-        </button>
-        
-        <span className="menu-pagination__info">
-          {locale === 'ar' 
-            ? `صفحة ${currentPageNum} من ${totalPages}`
-            : `Page ${currentPageNum} of ${totalPages}`
-          }
-        </span>
-        
-        <button
-          className="menu-pagination__button menu-pagination__button--next"
-          onClick={() => handlePageChange(sectionId, currentPageNum + 1)}
-          disabled={currentPageNum >= totalPages}
-          aria-label={locale === 'ar' ? 'الصفحة التالية' : 'Next page'}
-        >
-          {direction === 'rtl' ? '←' : '→'}
-        </button>
-      </div>
-    );
-  }, [locale, direction, handlePageChange]);
-
-  const renderMenuItem = useCallback((item: MenuItem, sectionId: string) => {
-    const itemName = (locale === 'ar' && item.nameAr) ? item.nameAr : item.name;
-    const itemDescription = (locale === 'ar' && item.descriptionAr) ? item.descriptionAr : item.description;
-    
-    return (
-      <article
-        key={item.id}
-        className={`menu-item ${!item.available ? 'menu-item--unavailable' : ''} menu-item--${variant}`}
-        data-testid={`menu-item-${item.id}`}
-        aria-labelledby={`menu-item-name-${item.id}`}
-      >
-        {showImages && item.image && (
-          <div className={`menu-item__image menu-item__image--${grid?.imageShape || 'boxed'}`}>
-            <Image
-              src={item.image}
-              alt={item.alt || itemName}
-              width={120}
-              height={120}
-              sizes="(max-width: 768px) 80px, 120px"
-              style={{ objectFit: 'cover' }}
-              loading="lazy"
-            />
-          </div>
-        )}
-        
-        <div className="menu-item__content">
-          <div className="menu-item__header">
-            <h4 
-              className="menu-item__name"
-              id={`menu-item-name-${item.id}`}
-            >
-              {itemName}
-              {!item.available && (
-                <span className="menu-item__unavailable-badge" aria-label={locale === 'ar' ? 'غير متوفر' : 'Unavailable'}>
-                  {locale === 'ar' ? 'غير متوفر' : 'Unavailable'}
-                </span>
-              )}
-            </h4>
-            
-            {showPrices && (
-              <div className="menu-item__price-wrapper" aria-live="polite">
-                {formatPrice(item.price, item.offerPrice)}
-              </div>
-            )}
-          </div>
-          
-          {showDescriptions && itemDescription && (
-            <p className="menu-item__description">
-              {itemDescription}
-            </p>
-          )}
-          
-          {renderDietaryTags(item.tags)}
-        </div>
-      </article>
-    );
-  }, [locale, showImages, showPrices, showDescriptions, formatPrice, renderDietaryTags, variant, grid?.imageShape]);
-
-  const renderSection = useCallback((section: MenuSection) => {
-    const sectionTitle = (locale === 'ar' && section.titleAr) ? section.titleAr : section.title;
-    const { currentItems, totalPages, currentPage: currentPageNum, hasMore } = getPaginatedItems(section.items, section.id);
-    
-    // Determine grid classes based on variant and settings
-    const gridClasses = useMemo(() => {
-      const baseClasses = ['menu-section__items'];
-      
-      if (variant === 'table-clean') {
-        return [...baseClasses, 'menu-section__items--table'].join(' ');
-      } else if (variant === 'cards-compact') {
-        return [...baseClasses, 'menu-section__items--cards'].join(' ');
-      } else if (variant === 'grid-photos') {
-        const columns = grid?.columns || 3;
-        return [...baseClasses, 'menu-section__items--grid', `menu-section__items--cols-${columns}`].join(' ');
-      }
-      
-      return [...baseClasses, `menu-section__items--${variant}`].join(' ');
-    }, [variant, grid?.columns]);
-    
-    return (
-      <section
-        key={section.id}
-        className="menu-section"
-        data-testid={`menu-section-${section.id}`}
-        aria-labelledby={`menu-section-title-${section.id}`}
-      >
-        <header className="menu-section__header">
-          <h3 
-            className="menu-section__title"
-            id={`menu-section-title-${section.id}`}
-          >
-            {sectionTitle}
-          </h3>
-          {section.description && (
-            <p className="menu-section__description">
-              {section.description}
-            </p>
-          )}
-          {hasMore && (
-            <div className="menu-section__item-count">
-              {locale === 'ar' 
-                ? `يعرض ${currentItems.length} من ${section.items.length} عنصر`
-                : `Showing ${currentItems.length} of ${section.items.length} items`
-              }
-            </div>
-          )}
-        </header>
-        
-        <div className={gridClasses}>
-          {currentItems.map(item => renderMenuItem(item, section.id))}
-        </div>
-        
-        {renderPagination(section.id, totalPages, currentPageNum)}
-      </section>
-    );
-  }, [locale, getPaginatedItems, renderMenuItem, renderPagination, variant, grid?.columns]);
-
-  const menuClasses = [
-    'menu-list',
-    `menu-list--${variant}`,
-    `menu-list--${direction}`,
-    showImages ? 'menu-list--with-images' : 'menu-list--no-images',
-    className,
-  ].filter(Boolean).join(' ');
-
-  // Accordion variant (special handling)
-  if (variant === 'accordion') {
-    return (
-      <div 
-        className={menuClasses}
-        data-testid={testId}
-        dir={direction}
-      >
-        {sections.map(section => {
-          const isActive = activeSection === section.id;
-          const sectionTitle = (locale === 'ar' && section.titleAr) ? section.titleAr : section.title;
-          const { currentItems } = getPaginatedItems(section.items, section.id);
-          
-          return (
-            <div key={section.id} className="menu-accordion__section">
-              <button
-                className={`menu-accordion__trigger ${isActive ? 'menu-accordion__trigger--active' : ''}`}
-                onClick={() => setActiveSection(isActive ? '' : section.id)}
-                aria-expanded={isActive}
-                aria-controls={`menu-accordion-content-${section.id}`}
-                data-testid={`menu-accordion-trigger-${section.id}`}
-              >
-                <span className="menu-accordion__trigger-text">{sectionTitle}</span>
-                <span className="menu-accordion__trigger-icon" aria-hidden="true">
-                  {isActive ? '−' : '+'}
-                </span>
-              </button>
-              
-              <div
-                id={`menu-accordion-content-${section.id}`}
-                className={`menu-accordion__content ${isActive ? 'menu-accordion__content--open' : ''}`}
-                aria-hidden={!isActive}
-              >
-                <div className="menu-accordion__items">
-                  {currentItems.map(item => renderMenuItem(item, section.id))}
-                </div>
-              </div>
-            </div>
-          );
-        })}
-        
-        {/* JSON-LD structured data for menu */}
-        <script 
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Menu",
-              "hasMenuSection": sections.map(section => ({
-                "@type": "MenuSection",
-                "name": section.title,
-                "description": section.description,
-                "hasMenuItem": section.items.map(item => ({
-                  "@type": "MenuItem",
-                  "name": item.name,
-                  "description": item.description,
-                  "offers": {
-                    "@type": "Offer",
-                    "price": item.offerPrice || item.price,
-                    "priceCurrency": currency,
-                    "availability": item.available ? "https://schema.org/InStock" : "https://schema.org/OutOfStock"
-                  },
-                  "image": item.image,
-                  "suitableForDiet": item.tags?.map(tag => `https://schema.org/${tag}Diet`).filter(Boolean)
-                }))
-              }))
-            })
+  const renderMenuItem = (item: MenuItem, index: number) => (
+    <div
+      key={index}
+      style={itemStyle}
+      onMouseEnter={(e) => {
+        if (variant !== 'simple-list') {
+          e.currentTarget.style.transform = 'translateY(-2px)'
+          e.currentTarget.style.boxShadow = '0 4px 15px rgba(0,0,0,0.15)'
+        }
+      }}
+      onMouseLeave={(e) => {
+        if (variant !== 'simple-list') {
+          e.currentTarget.style.transform = 'translateY(0)'
+          e.currentTarget.style.boxShadow = '0 2px 8px rgba(0,0,0,0.1)'
+        }
+      }}
+    >
+      {showImages && item.image && (
+        <img
+          src={item.image}
+          alt={item.name}
+          style={{
+            width: '100%',
+            height: '200px',
+            objectFit: 'cover',
+            borderRadius: '0.25rem',
+            marginBottom: '1rem'
           }}
         />
+      )}
+      
+      <div style={itemHeaderStyle}>
+        <h4 style={itemNameStyle}>{item.name}</h4>
+        <span style={itemPriceStyle}>{formatPrice(item.price)}</span>
       </div>
-    );
+      
+      {showDescriptions && item.description && (
+        <p style={itemDescriptionStyle}>{item.description}</p>
+      )}
+    </div>
+  )
+
+  const renderSection = (section: MenuSection, index: number) => {
+    const isActive = variant !== 'accordion' || activeSection === index
+    
+    return (
+      <div key={index} style={{ marginBottom: '3rem' }}>
+        <h3
+          style={sectionHeaderStyle}
+          onClick={() => {
+            if (variant === 'accordion') {
+              setActiveSection(activeSection === index ? null : index)
+            }
+          }}
+          onMouseEnter={(e) => {
+            if (variant === 'accordion') {
+              e.currentTarget.style.color = 'var(--menu-section-hover-color, #0056b3)'
+            }
+          }}
+          onMouseLeave={(e) => {
+            if (variant === 'accordion') {
+              e.currentTarget.style.color = 'var(--menu-section-color, #007bff)'
+            }
+          }}
+        >
+          {section.name}
+          {variant === 'accordion' && (
+            <span style={{ marginLeft: '0.5rem', fontSize: '1rem' }}>
+              {isActive ? '▼' : '▶'}
+            </span>
+          )}
+        </h3>
+        
+        {section.description && (
+          <p style={{
+            color: '#666',
+            fontSize: '1rem',
+            marginBottom: '1.5rem',
+            fontStyle: 'italic'
+          }}>
+            {section.description}
+          </p>
+        )}
+        
+        {isActive && (
+          <div style={itemsGridStyle}>
+            {section.items.map((item, itemIndex) => renderMenuItem(item, itemIndex))}
+          </div>
+        )}
+      </div>
+    )
   }
 
-  // Other variants (grid-photos, table-clean, cards-compact, etc.)
+  if (!sections || sections.length === 0) {
+    return (
+      <section className={`menu-list menu-list-${variant} ${className}`} style={menuStyle} {...props}>
+        {title && <h2 style={titleStyle}>{title}</h2>}
+        <p style={{ textAlign: 'center', color: '#666', fontSize: '1.1rem' }}>
+          Menu items will be available soon.
+        </p>
+      </section>
+    )
+  }
+
   return (
-    <div 
-      className={menuClasses}
-      data-testid={testId}
-      data-component="menu-list"
-      dir={direction}
+    <section 
+      className={`menu-list menu-list-${variant} ${className}`}
+      style={menuStyle}
+      {...props}
     >
-      {sections.map(renderSection)}
+      {title && <h2 style={titleStyle}>{title}</h2>}
       
-      {/* JSON-LD structured data */}
-      <script 
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Menu",
-            "hasMenuSection": sections.map(section => ({
-              "@type": "MenuSection", 
-              "name": section.title,
-              "description": section.description,
-              "hasMenuItem": section.items.map(item => ({
-                "@type": "MenuItem",
-                "name": item.name,
-                "description": item.description,
-                "offers": {
-                  "@type": "Offer",
-                  "price": item.offerPrice || item.price,
-                  "priceCurrency": currency,
-                  "availability": item.available ? "https://schema.org/InStock" : "https://schema.org/OutOfStock"
-                },
-                "image": item.image,
-                "suitableForDiet": item.tags?.map(tag => `https://schema.org/${tag}Diet`).filter(Boolean)
-              }))
-            }))
-          })
-        }}
-      />
-    </div>
-  );
-};
+      {sections.map((section, index) => renderSection(section, index))}
+    </section>
+  )
+}

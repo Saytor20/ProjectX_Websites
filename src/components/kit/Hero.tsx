@@ -1,176 +1,248 @@
-/**
- * Hero Component
- * 
- * Main banner section with multiple variants.
- * Supports background images, CTAs, and responsive design.
- */
+'use client'
 
-'use client';
+import React from 'react'
+import { BaseComponentProps, CTAButton } from './types'
 
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import { HeroProps } from './types';
+export interface HeroProps extends BaseComponentProps {
+  title: string
+  subtitle?: string
+  description?: string
+  ctaButton?: CTAButton
+  secondaryButton?: CTAButton
+  image?: string
+  backgroundType?: 'gradient' | 'image' | 'solid' | 'video'
+  backgroundImage?: string
+  backgroundVideo?: string
+  showStats?: boolean
+  stats?: Array<{
+    label: string
+    value: string
+  }>
+}
 
-export const Hero: React.FC<HeroProps> = ({
-  variant,
+export function Hero({ 
   title,
   subtitle,
   description,
+  ctaButton,
+  secondaryButton,
   image,
-  imageAlt,
-  ctaText,
-  ctaHref,
+  backgroundType = 'gradient',
   backgroundImage,
+  backgroundVideo,
+  showStats = false,
+  stats = [],
   className = '',
-  'data-testid': testId = 'hero',
-  locale = 'en',
-  direction = 'ltr',
-}) => {
-  const heroClasses = [
-    'hero',
-    `hero--${variant}`,
-    `hero--${direction}`,
-    backgroundImage && 'hero--has-bg',
-    className,
-  ].filter(Boolean).join(' ');
+  variant = 'default',
+  ...props 
+}: HeroProps) {
+  const getBackgroundStyle = (): React.CSSProperties => {
+    switch (backgroundType) {
+      case 'gradient':
+        return {
+          background: 'var(--hero-gradient, linear-gradient(135deg, #667eea 0%, #764ba2 100%))'
+        }
+      case 'image':
+        return {
+          backgroundImage: `url(${backgroundImage})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }
+      case 'solid':
+        return {
+          backgroundColor: 'var(--hero-bg, #f8f9fa)'
+        }
+      default:
+        return {}
+    }
+  }
 
-  const renderContent = () => (
-    <div className="hero__content">
-      <div className="hero__text">
-        {subtitle && (
-          <p className="hero__subtitle" data-testid="hero-subtitle">
-            {subtitle}
-          </p>
-        )}
-        
-        <h1 className="hero__title" data-testid="hero-title">
-          {title}
-        </h1>
-        
-        {description && (
-          <div className="hero__description" data-testid="hero-description">
-            <p>{description}</p>
-          </div>
-        )}
-        
-        {ctaText && ctaHref && (
-          <div className="hero__cta">
-            <Link 
-              href={ctaHref}
-              className="hero__cta-button"
-              data-testid="hero-cta"
-            >
-              {ctaText}
-            </Link>
-          </div>
-        )}
-      </div>
-    </div>
-  );
+  const heroStyle: React.CSSProperties = {
+    ...getBackgroundStyle(),
+    color: backgroundType === 'solid' ? 'var(--hero-text-color, #333)' : 'white',
+    padding: '4rem 2rem',
+    textAlign: 'center',
+    position: 'relative',
+    minHeight: '500px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center'
+  }
 
-  const renderImage = () => {
-    if (!image) return null;
-    
-    return (
-      <div className="hero__image" data-testid="hero-image">
-        <Image
-          src={image}
-          alt={imageAlt || title}
-          fill
-          priority
-          sizes={variant === 'fullscreen' ? '100vw' : '(max-width: 768px) 100vw, 50vw'}
-          style={{ objectFit: 'cover' }}
-        />
-      </div>
-    );
-  };
+  const contentStyle: React.CSSProperties = {
+    maxWidth: '800px',
+    margin: '0 auto',
+    zIndex: 1,
+    position: 'relative'
+  }
 
-  // Background image style
-  const backgroundStyle = backgroundImage ? {
-    backgroundImage: `url(${backgroundImage})`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-  } : {};
+  const titleStyle: React.CSSProperties = {
+    fontSize: 'var(--hero-title-size, 3.5rem)',
+    fontWeight: 'bold',
+    marginBottom: '1rem',
+    lineHeight: 1.2
+  }
+
+  const subtitleStyle: React.CSSProperties = {
+    fontSize: 'var(--hero-subtitle-size, 1.5rem)',
+    marginBottom: '1rem',
+    opacity: 0.9
+  }
+
+  const descriptionStyle: React.CSSProperties = {
+    fontSize: 'var(--hero-description-size, 1.1rem)',
+    marginBottom: '2rem',
+    opacity: 0.8,
+    lineHeight: 1.6
+  }
+
+  const buttonContainerStyle: React.CSSProperties = {
+    display: 'flex',
+    gap: '1rem',
+    justifyContent: 'center',
+    flexWrap: 'wrap',
+    marginBottom: showStats ? '3rem' : '0'
+  }
+
+  const primaryButtonStyle: React.CSSProperties = {
+    padding: '0.75rem 2rem',
+    backgroundColor: 'var(--hero-button-bg, #007bff)',
+    color: 'white',
+    textDecoration: 'none',
+    borderRadius: '0.5rem',
+    fontSize: '1.1rem',
+    fontWeight: 'bold',
+    transition: 'all 0.3s ease',
+    border: 'none',
+    cursor: 'pointer'
+  }
+
+  const secondaryButtonStyle: React.CSSProperties = {
+    padding: '0.75rem 2rem',
+    backgroundColor: 'transparent',
+    color: backgroundType === 'solid' ? 'var(--hero-text-color, #333)' : 'white',
+    textDecoration: 'none',
+    borderRadius: '0.5rem',
+    fontSize: '1.1rem',
+    fontWeight: 'bold',
+    transition: 'all 0.3s ease',
+    border: '2px solid currentColor',
+    cursor: 'pointer'
+  }
+
+  const statsStyle: React.CSSProperties = {
+    display: 'flex',
+    justifyContent: 'center',
+    gap: '3rem',
+    marginTop: '2rem',
+    flexWrap: 'wrap'
+  }
+
+  const statItemStyle: React.CSSProperties = {
+    textAlign: 'center',
+    minWidth: '100px'
+  }
+
+  const statValueStyle: React.CSSProperties = {
+    fontSize: '2rem',
+    fontWeight: 'bold',
+    display: 'block'
+  }
+
+  const statLabelStyle: React.CSSProperties = {
+    fontSize: '0.9rem',
+    opacity: 0.8,
+    marginTop: '0.25rem'
+  }
 
   return (
     <section 
-      className={heroClasses}
-      data-testid={testId}
-      data-component="hero"
-      dir={direction}
-      style={backgroundStyle}
-      role="banner"
-      aria-labelledby="hero-title"
+      className={`hero hero-${variant} ${className}`}
+      style={heroStyle}
+      {...props}
     >
-      <div className="hero__container">
-        {variant === 'image-left' && (
-          <>
-            {renderImage()}
-            {renderContent()}
-          </>
+      {backgroundVideo && (
+        <video
+          autoPlay
+          muted
+          loop
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover',
+            zIndex: -1
+          }}
+        >
+          <source src={backgroundVideo} type="video/mp4" />
+        </video>
+      )}
+
+      <div style={contentStyle}>
+        <h1 style={titleStyle}>{title}</h1>
+        
+        {subtitle && (
+          <h2 style={subtitleStyle}>{subtitle}</h2>
         )}
         
-        {variant === 'minimal' && renderContent()}
-        
-        {variant === 'gradient' && (
-          <>
-            <div className="hero__gradient" aria-hidden="true" />
-            {renderContent()}
-            {renderImage()}
-          </>
+        {description && (
+          <p style={descriptionStyle}>{description}</p>
         )}
         
-        {variant === 'fullscreen' && (
-          <>
-            {renderImage()}
-            <div className="hero__overlay" aria-hidden="true" />
-            {renderContent()}
-          </>
+        {(ctaButton || secondaryButton) && (
+          <div style={buttonContainerStyle}>
+            {ctaButton && (
+              <a
+                href={ctaButton.href}
+                target={ctaButton.target}
+                style={primaryButtonStyle}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.transform = 'translateY(-2px)'
+                  e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.2)'
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.transform = 'translateY(0)'
+                  e.currentTarget.style.boxShadow = 'none'
+                }}
+              >
+                {ctaButton.text}
+              </a>
+            )}
+            
+            {secondaryButton && (
+              <a
+                href={secondaryButton.href}
+                target={secondaryButton.target}
+                style={secondaryButtonStyle}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.backgroundColor = backgroundType === 'solid' ? 'var(--hero-text-color, #333)' : 'white'
+                  e.currentTarget.style.color = backgroundType === 'solid' ? 'white' : 'var(--hero-gradient, #667eea)'
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.backgroundColor = 'transparent'
+                  e.currentTarget.style.color = backgroundType === 'solid' ? 'var(--hero-text-color, #333)' : 'white'
+                }}
+              >
+                {secondaryButton.text}
+              </a>
+            )}
+          </div>
+        )}
+        
+        {showStats && stats.length > 0 && (
+          <div style={statsStyle}>
+            {stats.map((stat, index) => (
+              <div key={index} style={statItemStyle}>
+                <span style={statValueStyle}>{stat.value}</span>
+                <span style={statLabelStyle}>{stat.label}</span>
+              </div>
+            ))}
+          </div>
         )}
       </div>
-      
-      {/* Scroll indicator for fullscreen variant */}
-      {variant === 'fullscreen' && (
-        <div className="hero__scroll-indicator" aria-hidden="true">
-          <button
-            className="hero__scroll-button"
-            onClick={() => {
-              const nextSection = document.querySelector('section:not([role="banner"])');
-              nextSection?.scrollIntoView({ behavior: 'smooth' });
-            }}
-            aria-label={locale === 'ar' ? 'تمرير للأسفل' : 'Scroll down'}
-          >
-            <svg 
-              width="24" 
-              height="24" 
-              viewBox="0 0 24 24" 
-              fill="none" 
-              stroke="currentColor" 
-              strokeWidth="2"
-              aria-hidden="true"
-            >
-              <path d="M7 13l3 3 3-3" />
-              <path d="M7 6l3 3 3-3" />
-            </svg>
-          </button>
-        </div>
-      )}
-      
-      {/* Structured data for SEO */}
-      <script 
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPageElement",
-            "name": "Hero Section",
-            "description": description || subtitle || title,
-            "image": image || backgroundImage,
-          })
-        }}
-      />
     </section>
-  );
-};
+  )
+}

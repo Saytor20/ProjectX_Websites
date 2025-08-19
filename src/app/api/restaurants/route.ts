@@ -19,7 +19,7 @@ interface RestaurantOption {
 
 export async function GET(request: NextRequest) {
   try {
-    const restaurantDataDir = path.join(process.cwd(), 'data/restaurants')
+    const restaurantDataDir = path.join(process.cwd(), 'restaurant_data')
     
     // Check if restaurant_data directory exists
     const dirExists = await fs.access(restaurantDataDir).then(() => true).catch(() => false)
@@ -91,7 +91,7 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    const filePath = path.join(process.cwd(), 'data/restaurants', filename)
+    const filePath = path.join(process.cwd(), 'restaurant_data', filename)
     
     const fileExists = await fs.access(filePath).then(() => true).catch(() => false)
     if (!fileExists) {

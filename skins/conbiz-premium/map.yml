@@ -1,14 +1,19 @@
 # Conbiz Premium Skin Mapping
 # 
-# Professional business theme mapping for restaurants and food businesses
-# Uses hierarchical layout structure with 10-component architecture
-# Supports conditional rendering and JSONPath data mapping
+# Professional business theme for upscale restaurants and dining establishments
+# Clean, sophisticated design with focus on quality and service
+
+meta:
+  name: "Conbiz Premium"
+  description: "Professional business template for upscale restaurants and dining establishments"
+  version: "2.0.0"
+  author: "Design Team"
 
 page:
   layout:
     # Professional Navigation Bar
     - as: Navbar
-      variant: professional
+      variant: premium-business
       props:
         brand:
           name: "$.business.name"
@@ -18,7 +23,6 @@ page:
             href: "#home"
           - label: "About"
             href: "#about"
-            when: "$.business.description"
           - label: "Menu" 
             href: "#menu"
             when: "$.menu.sections[*]"
@@ -27,221 +31,150 @@ page:
             when: "$.gallery.images[*]"
           - label: "Hours"
             href: "#hours"
-            when: "$.hours.regular[*]"
-          - label: "Location"
-            href: "#location"
+            when: "$.locations[0].hours"
           - label: "Contact"
             href: "#contact"
-        contact:
-          phone: "$.contact.phone"
-          email: "$.contact.email"
         social: "$.business.social"
         locale: "$.metadata.locale"
         direction: "$.metadata.direction"
-        showCTA: true
 
     # Business-focused Hero Section
     - as: Hero
-      variant: business-premium
+      variant: premium-business
       props:
         title: "$.business.name"
-        subtitle: "$.business.tagline ?? $.business.type"
-        description: "$.business.description | truncate(200)"
-        primaryCTA:
+        subtitle: "$.business.tagline ?? 'Premium Dining Experience'"
+        description: "$.business.description ?? 'Experience exceptional cuisine and impeccable service in an elegant atmosphere.'"
+        ctaButton:
           text: "View Our Menu"
           href: "#menu"
           when: "$.menu.sections[*]"
-        secondaryCTA:
+        secondaryButton:
           text: "Make Reservation"
-          href: "tel:$.contact.phone"
-          when: "$.contact.phone"
-        heroImage: "$.gallery.hero_image ?? $.gallery.images[0].url"
-        backgroundType: "professional-gradient"
-        showAwards: true
-        awards: "$.business.awards"
-        showRating: true
-        rating: "$.business.rating"
+          href: "tel:$.locations[0].phone"
+          when: "$.locations[0].phone"
+        image: "$.gallery.hero ?? $.gallery.images[0].url"
+        backgroundType: "premium-gradient"
 
     # About Section
     - as: Section
       props:
         id: "about"
-        className: "about-section premium-section"
-      when: "$.business.description"
+        className: "premium-about-section"
       children:
         - as: RichText
-          variant: professional
+          variant: premium-story
           props:
             title: "About $.business.name"
-            content: "$.business.description"
-            highlights: "$.business.highlights"
-            showCertifications: true
-            certifications: "$.business.certifications"
-            layout: "two-column"
+            content: |
+              **$.business.description ?? 'Experience exceptional dining with us'**
+              
+              We are committed to providing an unparalleled dining experience through exceptional cuisine, impeccable service, and an elegant atmosphere that reflects our dedication to culinary excellence.
+            features:
+              - title: "Premium Quality"
+                description: "Only the finest ingredients and preparation methods"
+                icon: "star"
+              - title: "Expert Service"
+                description: "Professional staff dedicated to your experience"
+                icon: "users"
+              - title: "Elegant Atmosphere"
+                description: "Sophisticated ambiance for memorable dining"
+                icon: "heart"
+            layout: "premium-features"
 
     # Featured Menu Section
     - as: Section
       props:
         id: "menu"
-        className: "menu-section premium-section"
+        className: "premium-menu-section"
       when: "$.menu.sections[*]"
       children:
         - as: MenuList
-          variant: "$.menu.display.variant ?? 'grid-photos'"
+          variant: premium-elegant
           props:
             title: "Our Premium Menu"
             subtitle: "Carefully crafted dishes with the finest ingredients"
             sections: "$.menu.sections"
-            featuredItems: "$.menu.featured_items"
             currency: "$.menu.currency ?? 'SAR'"
-            showImages: "$.menu.display.showImages ?? true"
-            showDescriptions: "$.menu.display.showDescriptions ?? true"
-            showNutrition: true
-            showDietaryInfo: true
-            groupByCategory: true
+            showImages: true
+            showDescriptions: true
             locale: "$.metadata.locale"
-            showPricing: true
-            layout: "premium"
-            paginateThreshold: "$.menu.display.paginateThreshold ?? 24"
-            grid: "$.menu.display.grid"
 
     # Professional Gallery Section  
     - as: Section
       props:
         id: "gallery"
-        className: "gallery-section premium-section"
+        className: "premium-gallery-section"
       when: "$.gallery.images[*]"
       children:
         - as: Gallery
-          variant: professional-grid
+          variant: premium-showcase
           props:
             title: "Our Gallery"
             subtitle: "A glimpse into our culinary excellence"
-            images: "$.gallery.images | first(16)"
-            categories: "$.gallery.categories"
+            images: "$.gallery.images | first(12)"
             showLightbox: true
-            showFilters: true
             aspectRatio: "landscape"
-            layout: "masonry"
-            showCaptions: true
 
     # Business Hours Section
     - as: Section
       props:
         id: "hours"
-        className: "hours-section premium-section" 
-      when: "$.hours.regular[*]"
+        className: "premium-hours-section" 
+      when: "$.locations[0].hours"
       children:
         - as: Hours
-          variant: business-card
+          variant: premium-elegant
           props:
             title: "Business Hours"
-            subtitle: "We're here to serve you"
-            regularHours: "$.hours.regular"
-            specialHours: "$.hours.special"
-            holidays: "$.hours.holidays"
-            timezone: "$.location.timezone ?? 'Asia/Riyadh'"
+            subtitle: "We're here to serve you with excellence"
+            hours: "$.locations[0].hours"
+            timezone: "$.locations[0].timezone ?? 'Asia/Riyadh'"
             showStatus: true
-            showNextOpen: true
-            showHolidays: true
             locale: "$.metadata.locale"
-            layout: "professional"
 
-    # Location & Contact Section
+    # Contact Section
     - as: Section
       props:
-        id: "location"
-        className: "location-section premium-section"
+        id: "contact"
+        className: "premium-contact-section"
       children:
-        # Interactive Location Map
+        # Location Map
         - as: LocationMap
-          variant: business-professional
-          when: "$.location.coordinates"
+          variant: premium-professional
+          when: "$.locations[0]"
           props:
-            title: "Find Us"
-            location: "$.location"
-            address: "$.location.address"
-            coordinates: "$.location.coordinates"
-            phone: "$.contact.phone"
-            email: "$.contact.email"
-            website: "$.contact.website"
+            title: "Visit Our Location"
+            location: "$.locations[0]"
             height: "450px"
             showMarker: true
             showInfo: true
-            showDirections: true
-            showContact: true
-            style: "professional"
             
-        # Contact Information
-        - as: RichText
-          variant: contact-info
-          props:
-            title: "Contact Information"
-            content: "Get in touch with us for reservations or inquiries"
-            contactDetails:
-              phone: "$.contact.phone"
-              email: "$.contact.email"
-              website: "$.contact.website"
-              address: "$.location.address"
-            showSocial: true
-            social: "$.business.social"
-            layout: "contact-card"
-
-    # Call-to-Action Section
-    - as: Section
-      props:
-        id: "cta"
-        className: "cta-section premium-section"
-      children:
+        # Premium CTA
         - as: CTA
-          variant: premium-split
+          variant: premium-invitation
           props:
             title: "Experience Premium Dining"
             description: "Join us for an exceptional culinary journey with premium ingredients and professional service"
             primaryButton:
               text: "Make Reservation"
-              href: "tel:$.contact.phone"
-              when: "$.contact.phone"
+              href: "tel:$.locations[0].phone"
+              when: "$.locations[0].phone"
             secondaryButton:
-              text: "View Full Menu"
-              href: "#menu"
-              when: "$.menu.sections[*]"
-            tertiaryButton:
               text: "Get Directions"
-              href: "$.location.mapsUrl"
+              href: "$.locations[0].mapsUrl"
               target: "_blank"
-              when: "$.location.mapsUrl"
-            backgroundImage: "$.gallery.cta_background ?? $.gallery.images[1].url"
-            showTestimonials: true
-            testimonials: "$.business.testimonials | first(3)"
-            layout: "premium"
+              when: "$.locations[0].mapsUrl"
 
     # Professional Footer
     - as: Footer
-      variant: business-premium
+      variant: premium-business
       props:
         business: "$.business"
-        location: "$.location"
-        contact: "$.contact"
+        locations: "$.locations"
         social: "$.business.social"
-        hours: "$.hours.regular"
         showNewsletter: true
-        newsletterTitle: "Stay Updated"
-        newsletterSubtitle: "Get the latest updates and special offers"
         showSocial: true
-        showHours: true
-        showContact: true
-        showAwards: true
-        awards: "$.business.awards"
         copyrightText: "All rights reserved."
         locale: "$.metadata.locale"
         direction: "$.metadata.direction"
-        layout: "premium-business"
-        links:
-          - label: "Privacy Policy"
-            href: "/privacy"
-          - label: "Terms of Service" 
-            href: "/terms"
-          - label: "Careers"
-            href: "/careers"
-            when: "$.business.hiring"

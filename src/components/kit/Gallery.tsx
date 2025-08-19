@@ -1,329 +1,269 @@
-/**
- * Gallery Component
- * 
- * Image gallery with multiple layout variants and accessibility features.
- * Supports lightbox, responsive grids, and lazy loading.
- */
+'use client'
 
-'use client';
+import React, { useState } from 'react'
+import { BaseComponentProps, GalleryImage } from './types'
 
-import React, { useState, useCallback, useEffect } from 'react';
-import Image from 'next/image';
-import { GalleryProps, GalleryImageItem } from './types';
+export interface GalleryProps extends BaseComponentProps {
+  title?: string
+  images: GalleryImage[]
+  showLightbox?: boolean
+  aspectRatio?: 'square' | 'landscape' | 'portrait' | 'auto'
+  columns?: number
+}
 
-export const Gallery: React.FC<GalleryProps> = ({
-  images,
-  variant = 'grid',
-  columns = 3,
+export function Gallery({ 
+  title = 'Gallery',
+  images = [],
+  showLightbox = true,
   aspectRatio = 'square',
+  columns = 3,
   className = '',
-  'data-testid': testId = 'gallery',
-  locale = 'en',
-  direction = 'ltr',
-}) => {
-  const [lightboxOpen, setLightboxOpen] = useState(false);
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [currentSlide, setCurrentSlide] = useState(0);
+  variant = 'masonry',
+  ...props 
+}: GalleryProps) {
+  const [lightboxIndex, setLightboxIndex] = useState<number | null>(null)
 
-  // Handle keyboard navigation in lightbox
-  const handleKeyDown = useCallback((event: KeyboardEvent) => {
-    if (!lightboxOpen) return;
+  const galleryStyle: React.CSSProperties = {
+    padding: '3rem 2rem',
+    maxWidth: '1200px',
+    margin: '0 auto'
+  }
 
-    switch (event.key) {
-      case 'Escape':
-        setLightboxOpen(false);
-        break;
-      case 'ArrowLeft':
-        event.preventDefault();
-        setCurrentImageIndex(prev => 
-          prev > 0 ? prev - 1 : images.length - 1
-        );
-        break;
-      case 'ArrowRight':
-        event.preventDefault();
-        setCurrentImageIndex(prev => 
-          prev < images.length - 1 ? prev + 1 : 0
-        );
-        break;
+  const titleStyle: React.CSSProperties = {
+    textAlign: 'center',
+    fontSize: '2.5rem',
+    fontWeight: 'bold',
+    marginBottom: '3rem',
+    color: 'var(--gallery-title-color, #333)'
+  }
+
+  const gridStyle: React.CSSProperties = {
+    display: 'grid',
+    gridTemplateColumns: `repeat(auto-fit, minmax(250px, 1fr))`,
+    gap: '1rem',
+    marginBottom: '2rem'
+  }
+
+  const getImageStyle = (): React.CSSProperties => {
+    const baseStyle: React.CSSProperties = {
+      width: '100%',
+      borderRadius: '0.5rem',
+      cursor: showLightbox ? 'pointer' : 'default',
+      transition: 'transform 0.3s ease',
+      objectFit: 'cover'
     }
-  }, [lightboxOpen, images.length]);
 
-  useEffect(() => {
-    document.addEventListener('keydown', handleKeyDown);
-    return () => document.removeEventListener('keydown', handleKeyDown);
-  }, [handleKeyDown]);
-
-  // Disable body scroll when lightbox is open
-  useEffect(() => {
-    if (lightboxOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'unset';
+    switch (aspectRatio) {
+      case 'square':
+        return { ...baseStyle, height: '250px' }
+      case 'landscape':
+        return { ...baseStyle, height: '200px' }
+      case 'portrait':
+        return { ...baseStyle, height: '300px' }
+      default:
+        return { ...baseStyle, height: 'auto' }
     }
-    
-    return () => {
-      document.body.style.overflow = 'unset';
-    };
-  }, [lightboxOpen]);
+  }
 
-  const openLightbox = useCallback((index: number) => {
-    setCurrentImageIndex(index);
-    setLightboxOpen(true);
-  }, []);
+  const lightboxStyle: React.CSSProperties = {
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    backgroundColor: 'rgba(0, 0, 0, 0.9)',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    zIndex: 9999,
+    padding: '2rem'
+  }
 
-  const closeLightbox = useCallback(() => {
-    setLightboxOpen(false);
-  }, []);
+  const lightboxImageStyle: React.CSSProperties = {
+    maxWidth: '90%',
+    maxHeight: '90%',
+    objectFit: 'contain',
+    borderRadius: '0.5rem'
+  }
 
-  const navigateImage = useCallback((direction: 'prev' | 'next') => {
-    setCurrentImageIndex(prev => {
-      if (direction === 'next') {
-        return prev < images.length - 1 ? prev + 1 : 0;
-      } else {
-        return prev > 0 ? prev - 1 : images.length - 1;
-      }
-    });
-  }, [images.length]);
+  const lightboxCloseStyle: React.CSSProperties = {
+    position: 'absolute',
+    top: '1rem',
+    right: '1rem',
+    background: 'rgba(255, 255, 255, 0.2)',
+    border: 'none',
+    color: 'white',
+    fontSize: '2rem',
+    cursor: 'pointer',
+    borderRadius: '50%',
+    width: '3rem',
+    height: '3rem',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center'
+  }
 
-  const galleryClasses = [
-    'gallery',
-    `gallery--${variant}`,
-    `gallery--${direction}`,
-    `gallery--columns-${columns}`,
-    `gallery--${aspectRatio}`,
-    className,
-  ].filter(Boolean).join(' ');
+  const navigationStyle: React.CSSProperties = {
+    position: 'absolute',
+    top: '50%',
+    transform: 'translateY(-50%)',
+    background: 'rgba(255, 255, 255, 0.2)',
+    border: 'none',
+    color: 'white',
+    fontSize: '2rem',
+    cursor: 'pointer',
+    borderRadius: '50%',
+    width: '3rem',
+    height: '3rem',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center'
+  }
 
-  // Carousel variant
-  if (variant === 'carousel') {
-    const itemsToShow = Math.min(columns, images.length);
-    const maxSlide = Math.max(0, images.length - itemsToShow);
-    
+  const openLightbox = (index: number) => {
+    if (showLightbox) {
+      setLightboxIndex(index)
+    }
+  }
+
+  const closeLightbox = () => {
+    setLightboxIndex(null)
+  }
+
+  const nextImage = () => {
+    if (lightboxIndex !== null) {
+      setLightboxIndex((lightboxIndex + 1) % images.length)
+    }
+  }
+
+  const prevImage = () => {
+    if (lightboxIndex !== null) {
+      setLightboxIndex(lightboxIndex === 0 ? images.length - 1 : lightboxIndex - 1)
+    }
+  }
+
+  if (!images || images.length === 0) {
     return (
-      <div 
-        className={galleryClasses}
-        data-testid={testId}
-        dir={direction}
-        role="region"
-        aria-label={locale === 'ar' ? 'معرض الصور' : 'Image gallery'}
+      <section className={`gallery gallery-${variant} ${className}`} style={galleryStyle} {...props}>
+        {title && <h2 style={titleStyle}>{title}</h2>}
+        <p style={{ textAlign: 'center', color: '#666', fontSize: '1.1rem' }}>
+          Gallery images will be available soon.
+        </p>
+      </section>
+    )
+  }
+
+  return (
+    <>
+      <section 
+        className={`gallery gallery-${variant} ${className}`}
+        style={galleryStyle}
+        {...props}
       >
-        <div className="gallery__carousel">
-          <div 
-            className="gallery__carousel-track"
-            style={{ 
-              transform: `translateX(-${currentSlide * (100 / itemsToShow)}%)`,
-              width: `${(images.length / itemsToShow) * 100}%`
-            }}
-          >
-            {images.map((image, index) => {
-              const caption = (locale === 'ar' && image.captionAr) ? image.captionAr : image.caption;
-              
-              return (
-                <div
-                  key={index}
-                  className="gallery__carousel-slide"
-                  style={{ width: `${100 / images.length}%` }}
-                >
-                  <button
-                    className="gallery__image-button"
-                    onClick={() => openLightbox(index)}
-                    aria-label={`${locale === 'ar' ? 'عرض الصورة' : 'View image'} ${index + 1}: ${image.alt}`}
-                  >
-                    <Image
-                      src={image.url}
-                      alt={image.alt}
-                      fill
-                      sizes={`${100 / itemsToShow}vw`}
-                      style={{ objectFit: 'cover' }}
-                      loading="lazy"
-                    />
-                  </button>
-                  {caption && (
-                    <p className="gallery__image-caption">{caption}</p>
-                  )}
+        {title && <h2 style={titleStyle}>{title}</h2>}
+        
+        <div style={gridStyle}>
+          {images.map((image, index) => (
+            <div key={index} style={{ position: 'relative' }}>
+              <img
+                src={image.url}
+                alt={image.alt || `Gallery image ${index + 1}`}
+                style={getImageStyle()}
+                onClick={() => openLightbox(index)}
+                onMouseEnter={(e) => {
+                  if (showLightbox) {
+                    e.currentTarget.style.transform = 'scale(1.05)'
+                  }
+                }}
+                onMouseLeave={(e) => {
+                  if (showLightbox) {
+                    e.currentTarget.style.transform = 'scale(1)'
+                  }
+                }}
+                loading="lazy"
+              />
+              {image.caption && (
+                <div style={{
+                  position: 'absolute',
+                  bottom: 0,
+                  left: 0,
+                  right: 0,
+                  background: 'linear-gradient(transparent, rgba(0,0,0,0.7))',
+                  color: 'white',
+                  padding: '1rem',
+                  borderRadius: '0 0 0.5rem 0.5rem',
+                  fontSize: '0.9rem'
+                }}>
+                  {image.caption}
                 </div>
-              );
-            })}
-          </div>
+              )}
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Lightbox */}
+      {showLightbox && lightboxIndex !== null && (
+        <div 
+          style={lightboxStyle}
+          onClick={closeLightbox}
+        >
+          <button
+            style={lightboxCloseStyle}
+            onClick={closeLightbox}
+            aria-label="Close lightbox"
+          >
+            ×
+          </button>
           
-          {/* Carousel controls */}
-          {images.length > itemsToShow && (
+          {images.length > 1 && (
             <>
               <button
-                className="gallery__carousel-button gallery__carousel-button--prev"
-                onClick={() => setCurrentSlide(Math.max(0, currentSlide - 1))}
-                disabled={currentSlide === 0}
-                aria-label={locale === 'ar' ? 'الصورة السابقة' : 'Previous images'}
+                style={{ ...navigationStyle, left: '2rem' }}
+                onClick={(e) => {
+                  e.stopPropagation()
+                  prevImage()
+                }}
+                aria-label="Previous image"
               >
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d={direction === 'rtl' ? "M9 18l6-6-6-6" : "M15 18l-6-6 6-6"} />
-                </svg>
+                ‹
               </button>
-              
               <button
-                className="gallery__carousel-button gallery__carousel-button--next"
-                onClick={() => setCurrentSlide(Math.min(maxSlide, currentSlide + 1))}
-                disabled={currentSlide >= maxSlide}
-                aria-label={locale === 'ar' ? 'الصورة التالية' : 'Next images'}
+                style={{ ...navigationStyle, right: '2rem' }}
+                onClick={(e) => {
+                  e.stopPropagation()
+                  nextImage()
+                }}
+                aria-label="Next image"
               >
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d={direction === 'rtl' ? "M15 18l-6-6 6-6" : "M9 18l6-6-6-6"} />
-                </svg>
+                ›
               </button>
             </>
           )}
-        </div>
-      </div>
-    );
-  }
-
-  // Grid, Masonry, and Lightbox variants
-  return (
-    <>
-      <div 
-        className={galleryClasses}
-        data-testid={testId}
-        dir={direction}
-        role="region"
-        aria-label={locale === 'ar' ? 'معرض الصور' : 'Image gallery'}
-      >
-        <div className="gallery__grid">
-          {images.map((image, index) => {
-            const caption = (locale === 'ar' && image.captionAr) ? image.captionAr : image.caption;
-            
-            return (
-              <figure 
-                key={index} 
-                className="gallery__item"
-                data-testid={`gallery-item-${index}`}
-              >
-                <button
-                  className="gallery__image-button"
-                  onClick={() => variant === 'lightbox' ? openLightbox(index) : undefined}
-                  aria-label={`${locale === 'ar' ? 'عرض الصورة' : 'View image'} ${index + 1}: ${image.alt}`}
-                  disabled={variant !== 'lightbox'}
-                >
-                  <Image
-                    src={image.url}
-                    alt={image.alt}
-                    fill
-                    sizes={`(max-width: 768px) 50vw, ${100 / columns}vw`}
-                    style={{ objectFit: 'cover' }}
-                    loading={index < 6 ? 'eager' : 'lazy'}
-                  />
-                  
-                  {variant === 'lightbox' && (
-                    <div className="gallery__overlay" aria-hidden="true">
-                      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
-                        <circle cx="12" cy="12" r="3" />
-                      </svg>
-                    </div>
-                  )}
-                </button>
-                
-                {caption && (
-                  <figcaption className="gallery__image-caption">
-                    {caption}
-                  </figcaption>
-                )}
-              </figure>
-            );
-          })}
-        </div>
-      </div>
-
-      {/* Lightbox modal */}
-      {variant === 'lightbox' && lightboxOpen && (
-        <div 
-          className="gallery__lightbox"
-          role="dialog"
-          aria-modal="true"
-          aria-label={locale === 'ar' ? 'مشاهد الصورة بحجم كامل' : 'Full size image viewer'}
-          data-testid="gallery-lightbox"
-        >
-          <div className="gallery__lightbox-backdrop" onClick={closeLightbox} />
           
-          <div className="gallery__lightbox-content">
-            <button
-              className="gallery__lightbox-close"
-              onClick={closeLightbox}
-              aria-label={locale === 'ar' ? 'إغلاق المشاهد' : 'Close viewer'}
-            >
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M18 6L6 18M6 6l12 12" />
-              </svg>
-            </button>
-            
-            <div className="gallery__lightbox-image">
-              <Image
-                src={images[currentImageIndex]?.url}
-                alt={images[currentImageIndex]?.alt}
-                fill
-                sizes="100vw"
-                style={{ objectFit: 'contain' }}
-                priority
-              />
+          <img
+            src={images[lightboxIndex].url}
+            alt={images[lightboxIndex].alt || `Gallery image ${lightboxIndex + 1}`}
+            style={lightboxImageStyle}
+            onClick={(e) => e.stopPropagation()}
+          />
+          
+          {images[lightboxIndex].caption && (
+            <div style={{
+              position: 'absolute',
+              bottom: '2rem',
+              left: '50%',
+              transform: 'translateX(-50%)',
+              color: 'white',
+              fontSize: '1.1rem',
+              textAlign: 'center',
+              maxWidth: '80%'
+            }}>
+              {images[lightboxIndex].caption}
             </div>
-            
-            {images[currentImageIndex]?.caption && (
-              <div className="gallery__lightbox-caption">
-                {(locale === 'ar' && images[currentImageIndex]?.captionAr) ? 
-                  images[currentImageIndex]?.captionAr : 
-                  images[currentImageIndex]?.caption
-                }
-              </div>
-            )}
-            
-            {/* Navigation buttons */}
-            {images.length > 1 && (
-              <>
-                <button
-                  className="gallery__lightbox-nav gallery__lightbox-nav--prev"
-                  onClick={() => navigateImage('prev')}
-                  aria-label={locale === 'ar' ? 'الصورة السابقة' : 'Previous image'}
-                >
-                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d={direction === 'rtl' ? "M9 18l6-6-6-6" : "M15 18l-6-6 6-6"} />
-                  </svg>
-                </button>
-                
-                <button
-                  className="gallery__lightbox-nav gallery__lightbox-nav--next"
-                  onClick={() => navigateImage('next')}
-                  aria-label={locale === 'ar' ? 'الصورة التالية' : 'Next image'}
-                >
-                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d={direction === 'rtl' ? "M15 18l-6-6 6-6" : "M9 18l6-6-6-6"} />
-                  </svg>
-                </button>
-              </>
-            )}
-            
-            {/* Image counter */}
-            <div className="gallery__lightbox-counter">
-              {currentImageIndex + 1} {locale === 'ar' ? 'من' : 'of'} {images.length}
-            </div>
-          </div>
+          )}
         </div>
       )}
-
-      {/* JSON-LD structured data */}
-      <script 
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "ImageGallery",
-            "image": images.map(image => ({
-              "@type": "ImageObject",
-              "url": image.url,
-              "description": image.alt,
-              "caption": image.caption,
-            }))
-          })
-        }}
-      />
     </>
-  );
-};
+  )
+}

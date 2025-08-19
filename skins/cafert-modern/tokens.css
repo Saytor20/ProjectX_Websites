@@ -6,31 +6,31 @@
 
 :root {
   /* Colors */
-  --color-primary: #B38E6A;
-  --color-primary-hover: #A67C59;
+  --color-primary: #c3c7c2;
+  --color-primary-hover: #a1a659;
   --color-secondary: #534931;
-  --color-accent: #E5DCD2;
+  --color-accent: #e5dcd2;
   --color-background: #ffffff;
-  --color-surface: #F7F7F7;
+  --color-surface: #f7f7f7;
   /* Text Colors */
   --color-text-primary: #534931;
-  --color-text-secondary: #5C5C5C;
-  --color-text-muted: #B38E6A;
+  --color-text-secondary: #5c5c5c;
+  --color-text-muted: #b38e6a;
   --color-text-inverse: #ffffff;
   /* Border Colors */
-  --color-border: #E5DCD2;
-  --color-border-light: #F7F7F7;
-  --color-border-dark: #C3B2A5;
+  --color-border: #e5dcd2;
+  --color-border-light: #f7f7f7;
+  --color-border-dark: #c3b2a5;
   /* Status Colors */
   --color-success: #10b981;
-  --color-warning: #B38E6A;
+  --color-warning: #b38e6a;
   --color-error: #ef4444;
   --color-info: #534931;
 
   /* Typography */
-  --font-sans: Montserrat, ui-sans-serif, system-ui, -apple-system, sans-serif;
-  --font-serif: Raleway, ui-serif, Georgia, serif;
-  --font-mono: ui-monospace, SFMono-Regular, monospace;
+  --font-sans: Montserrat;
+  --font-serif: Raleway;
+  --font-mono: ui-monospace;
   /* Font Sizes */
   --font-size-xs: 0.75rem;
   --font-size-sm: 0.875rem;

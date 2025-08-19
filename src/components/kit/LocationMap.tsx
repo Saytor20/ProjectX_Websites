@@ -1,282 +1,188 @@
-/**
- * LocationMap Component
- * 
- * Displays restaurant location with Google Maps integration.
- * Supports multiple variants and accessibility features.
- */
+'use client'
 
-'use client';
+import React from 'react'
+import { BaseComponentProps, Location } from './types'
 
-import React, { useState, useCallback } from 'react';
-import { LocationMapProps } from './types';
+export interface LocationMapProps extends BaseComponentProps {
+  title?: string
+  location: Location
+  height?: string
+  showMarker?: boolean
+  showInfo?: boolean
+}
 
-export const LocationMap: React.FC<LocationMapProps> = ({
-  address,
-  coordinates,
-  zoom = 15,
-  variant = 'embedded',
-  showDirections = true,
-  apiKey,
+export function LocationMap({ 
+  title,
+  location,
+  height = '400px',
+  showMarker = true,
+  showInfo = true,
   className = '',
-  'data-testid': testId = 'location-map',
-  locale = 'en',
-  direction = 'ltr',
-}) => {
-  const [mapError, setMapError] = useState<string | null>(null);
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  variant = 'interactive',
+  ...props 
+}: LocationMapProps) {
+  const containerStyle: React.CSSProperties = {
+    padding: '2rem',
+    backgroundColor: 'var(--location-bg, #ffffff)',
+    borderRadius: '0.5rem',
+    boxShadow: variant === 'interactive' ? '0 2px 8px rgba(0,0,0,0.1)' : 'none',
+    border: variant === 'minimal' ? '1px solid #eee' : 'none'
+  }
 
-  // Generate Google Maps URLs
-  const getGoogleMapsUrl = useCallback((type: 'embed' | 'directions' | 'view' = 'view') => {
-    const baseUrl = 'https://www.google.com/maps';
-    
-    if (coordinates) {
-      const { latitude, longitude } = coordinates;
-      const coordString = `${latitude},${longitude}`;
-      
-      switch (type) {
-        case 'embed':
-          return `${baseUrl}/embed/v1/place?key=${apiKey}&q=${coordString}&zoom=${zoom}&language=${locale}`;
-        case 'directions':
-          return `${baseUrl}/dir/?api=1&destination=${coordString}`;
-        case 'view':
-        default:
-          return `${baseUrl}/@${coordString},${zoom}z`;
-      }
+  const titleStyle: React.CSSProperties = {
+    fontSize: '1.5rem',
+    fontWeight: 'bold',
+    marginBottom: '1rem',
+    color: 'var(--location-title-color, #333)',
+    textAlign: 'center'
+  }
+
+  const mapStyle: React.CSSProperties = {
+    width: '100%',
+    height: height,
+    borderRadius: '0.5rem',
+    border: '1px solid #ddd',
+    marginBottom: showInfo ? '1rem' : '0'
+  }
+
+  const infoStyle: React.CSSProperties = {
+    backgroundColor: 'var(--location-info-bg, #f8f9fa)',
+    padding: '1rem',
+    borderRadius: '0.5rem',
+    marginTop: '1rem'
+  }
+
+  const addressStyle: React.CSSProperties = {
+    fontSize: '1.1rem',
+    color: 'var(--location-address-color, #333)',
+    marginBottom: '0.5rem',
+    fontWeight: 'bold'
+  }
+
+  const contactStyle: React.CSSProperties = {
+    fontSize: '1rem',
+    color: 'var(--location-contact-color, #666)',
+    marginBottom: '0.25rem'
+  }
+
+  const buttonStyle: React.CSSProperties = {
+    display: 'inline-block',
+    marginTop: '1rem',
+    padding: '0.5rem 1rem',
+    backgroundColor: 'var(--location-button-bg, #007bff)',
+    color: 'white',
+    textDecoration: 'none',
+    borderRadius: '0.25rem',
+    fontSize: '0.9rem',
+    fontWeight: 'bold',
+    transition: 'background-color 0.2s ease'
+  }
+
+  // Generate Google Maps embed URL
+  const getMapsEmbedUrl = () => {
+    if (location.coordinates) {
+      return `https://www.google.com/maps/embed/v1/place?key=DEMO_KEY&q=${location.coordinates.lat},${location.coordinates.lng}&zoom=15`
     } else {
-      const encodedAddress = encodeURIComponent(address);
-      
-      switch (type) {
-        case 'embed':
-          return `${baseUrl}/embed/v1/place?key=${apiKey}&q=${encodedAddress}&zoom=${zoom}&language=${locale}`;
-        case 'directions':
-          return `${baseUrl}/dir/?api=1&destination=${encodedAddress}`;
-        case 'view':
-        default:
-          return `${baseUrl}/search/${encodedAddress}`;
-      }
+      const query = encodeURIComponent(location.address)
+      return `https://www.google.com/maps/embed/v1/place?key=DEMO_KEY&q=${query}&zoom=15`
     }
-  }, [address, coordinates, zoom, apiKey, locale]);
+  }
 
-  // Handle directions click
-  const openDirections = useCallback(() => {
-    const directionsUrl = getGoogleMapsUrl('directions');
-    window.open(directionsUrl, '_blank', 'noopener,noreferrer');
-  }, [getGoogleMapsUrl]);
-
-  // Handle map modal
-  const openMapModal = useCallback(() => {
-    setIsModalOpen(true);
-  }, []);
-
-  const closeMapModal = useCallback(() => {
-    setIsModalOpen(false);
-  }, []);
-
-  // Handle iframe load error
-  const handleIframeError = useCallback(() => {
-    setMapError(locale === 'ar' ? 'تعذر تحميل الخريطة' : 'Failed to load map');
-  }, [locale]);
-
-  const mapClasses = [
-    'location-map',
-    `location-map--${variant}`,
-    `location-map--${direction}`,
-    mapError && 'location-map--error',
-    className,
-  ].filter(Boolean).join(' ');
-
-  // Static map fallback
-  const renderStaticMap = () => (
-    <div className="location-map__static">
-      <div className="location-map__static-content">
-        <div className="location-map__icon" aria-hidden="true">
-          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-            <circle cx="12" cy="10" r="3" />
-          </svg>
-        </div>
-        <div className="location-map__address">
-          <address>{address}</address>
-        </div>
-        <button
-          className="location-map__view-button"
-          onClick={() => window.open(getGoogleMapsUrl('view'), '_blank', 'noopener,noreferrer')}
-          type="button"
-        >
-          {locale === 'ar' ? 'عرض على الخريطة' : 'View on Map'}
-        </button>
-      </div>
-    </div>
-  );
-
-  // Embedded map
-  const renderEmbeddedMap = () => {
-    if (!apiKey) {
-      return renderStaticMap();
+  // Generate Google Maps link for directions
+  const getMapsDirectionsUrl = () => {
+    if (location.mapsUrl) {
+      return location.mapsUrl
     }
+    
+    const query = encodeURIComponent(location.address)
+    return `https://www.google.com/maps/search/?api=1&query=${query}`
+  }
 
+  if (!location) {
     return (
-      <div className="location-map__embedded">
-        <iframe
-          src={getGoogleMapsUrl('embed')}
-          className="location-map__iframe"
-          allowFullScreen
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-          title={locale === 'ar' ? `خريطة موقع ${address}` : `Map of ${address}`}
-          onError={handleIframeError}
-          data-testid="map-iframe"
-        />
-        
-        {mapError && (
-          <div className="location-map__error">
-            <p>{mapError}</p>
-            {renderStaticMap()}
-          </div>
-        )}
-      </div>
-    );
-  };
+      <section className={`location-map location-map-${variant} ${className}`} style={containerStyle} {...props}>
+        {title && <h3 style={titleStyle}>{title}</h3>}
+        <p style={{ textAlign: 'center', color: '#666', fontSize: '1.1rem' }}>
+          Location information will be available soon.
+        </p>
+      </section>
+    )
+  }
 
   return (
-    <>
+    <section 
+      className={`location-map location-map-${variant} ${className}`}
+      style={containerStyle}
+      {...props}
+    >
+      {title && <h3 style={titleStyle}>{title}</h3>}
+      
+      {/* Map Placeholder - In production, use Google Maps API */}
       <div 
-        className={mapClasses}
-        data-testid={testId}
-        dir={direction}
+        style={mapStyle}
+        title="Interactive map"
       >
-        {/* Map content based on variant */}
-        {variant === 'static' ? renderStaticMap() : renderEmbeddedMap()}
-        
-        {/* Map controls */}
-        {variant !== 'static' && !mapError && (
-          <div className="location-map__controls">
-            {showDirections && (
-              <button
-                className="location-map__directions-button"
-                onClick={openDirections}
-                type="button"
-                aria-label={locale === 'ar' ? 'الحصول على الاتجاهات' : 'Get directions'}
-                data-testid="directions-button"
-              >
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-                  <polygon points="3 11 22 2 13 21 11 13 3 11" />
-                </svg>
-                {locale === 'ar' ? 'الاتجاهات' : 'Directions'}
-              </button>
-            )}
-            
-            {variant === 'popup' && (
-              <button
-                className="location-map__fullscreen-button"
-                onClick={openMapModal}
-                type="button"
-                aria-label={locale === 'ar' ? 'عرض الخريطة بحجم كامل' : 'View full screen map'}
-                data-testid="fullscreen-button"
-              >
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-                  <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3" />
-                </svg>
-                {locale === 'ar' ? 'ملء الشاشة' : 'Full Screen'}
-              </button>
-            )}
-          </div>
-        )}
-
-        {/* Address information */}
-        <div className="location-map__info">
-          <address className="location-map__address">
-            {address}
-          </address>
-          
-          {coordinates && (
-            <div className="location-map__coordinates" aria-label={locale === 'ar' ? 'الإحداثيات' : 'Coordinates'}>
-              <small>
-                {coordinates.latitude.toFixed(6)}, {coordinates.longitude.toFixed(6)}
-              </small>
+        <div style={{
+          width: '100%',
+          height: '100%',
+          backgroundColor: '#f0f0f0',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          borderRadius: '0.5rem',
+          color: '#666',
+          fontSize: '1.1rem',
+          textAlign: 'center',
+          padding: '2rem'
+        }}>
+          <div>
+            <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>📍</div>
+            <div style={{ fontWeight: 'bold', marginBottom: '0.5rem' }}>
+              {location.address}
             </div>
-          )}
+            <div style={{ fontSize: '0.9rem' }}>
+              Interactive map will load here
+            </div>
+          </div>
         </div>
       </div>
-
-      {/* Full screen modal */}
-      {variant === 'popup' && isModalOpen && (
-        <div 
-          className="location-map__modal"
-          role="dialog"
-          aria-modal="true"
-          aria-label={locale === 'ar' ? 'خريطة بحجم كامل' : 'Full screen map'}
-          data-testid="map-modal"
-        >
-          <div className="location-map__modal-backdrop" onClick={closeMapModal} />
-          
-          <div className="location-map__modal-content">
-            <div className="location-map__modal-header">
-              <h3 className="location-map__modal-title">{address}</h3>
-              <button
-                className="location-map__modal-close"
-                onClick={closeMapModal}
-                aria-label={locale === 'ar' ? 'إغلاق الخريطة' : 'Close map'}
-                data-testid="modal-close"
-              >
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M18 6L6 18M6 6l12 12" />
-                </svg>
-              </button>
-            </div>
-            
-            <div className="location-map__modal-map">
-              {apiKey ? (
-                <iframe
-                  src={getGoogleMapsUrl('embed')}
-                  className="location-map__modal-iframe"
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title={locale === 'ar' ? `خريطة موقع ${address}` : `Map of ${address}`}
-                />
-              ) : (
-                renderStaticMap()
-              )}
-            </div>
-            
-            <div className="location-map__modal-footer">
-              {showDirections && (
-                <button
-                  className="location-map__modal-directions"
-                  onClick={openDirections}
-                  type="button"
-                >
-                  {locale === 'ar' ? 'الحصول على الاتجاهات' : 'Get Directions'}
-                </button>
-              )}
-            </div>
+      
+      {showInfo && (
+        <div style={infoStyle}>
+          <div style={addressStyle}>
+            📍 {location.address}
           </div>
+          
+          {location.phone && (
+            <div style={contactStyle}>
+              📞 <a href={`tel:${location.phone}`} style={{ color: 'inherit', textDecoration: 'none' }}>
+                {location.phone}
+              </a>
+            </div>
+          )}
+          
+          {location.hours && (
+            <div style={contactStyle}>
+              🕒 {location.hours}
+            </div>
+          )}
+          
+          <a
+            href={getMapsDirectionsUrl()}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={buttonStyle}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.backgroundColor = 'var(--location-button-hover-bg, #0056b3)'
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.backgroundColor = 'var(--location-button-bg, #007bff)'
+            }}
+          >
+            Get Directions
+          </a>
         </div>
       )}
-
-      {/* JSON-LD structured data */}
-      <script 
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Place",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": address,
-            },
-            ...(coordinates && {
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": coordinates.latitude,
-                "longitude": coordinates.longitude,
-              }
-            }),
-            "hasMap": getGoogleMapsUrl('view'),
-          })
-        }}
-      />
-    </>
-  );
-};
+    </section>
+  )
+}

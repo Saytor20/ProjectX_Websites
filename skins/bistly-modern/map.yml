@@ -1,41 +1,143 @@
-# Bistly Modern Skin Component Mapping
-# This file maps restaurant data to component properties using JSONPath expressions
+# Bistly Modern Skin Mapping
+# Warm, cozy bistro atmosphere with traditional elements and modern touches
 
-navbar:
-  brand: "$.restaurant.name"
-  logo: "$.restaurant.logo"
-  social_links: "$.restaurant.social_media"
+meta:
+  name: "Bistly Modern"
+  description: "Warm bistro template with cozy atmosphere and traditional elements"
+  version: "2.0.0"
+  author: "Design Team"
 
-hero:
-  title: "$.restaurant.name"
-  subtitle: "$.restaurant.description"
-  images: "$.restaurant.gallery[0:3]"
-  cta_text: "View Menu"
+page:
+  layout:
+    # Navigation Bar
+    - as: Navbar
+      variant: bistro
+      props:
+        brand:
+          name: "$.business.name"
+          logo: "$.business.logo ?? null"
+        navigation:
+          - label: "Home"
+            href: "#home"
+          - label: "Menu" 
+            href: "#menu"
+            when: "$.menu.sections[*]"
+          - label: "Gallery"
+            href: "#gallery" 
+            when: "$.gallery.images[*]"
+          - label: "Contact"
+            href: "#contact"
+        social: "$.business.social"
+        locale: "$.metadata.locale"
+        direction: "$.metadata.direction"
 
-menu-list:
-  title: "Our Menu"
-  subtitle: "Authentic flavors crafted with the finest ingredients"
-  categories: "$.restaurant.menu.categories"
+    # Hero Section
+    - as: Hero
+      variant: bistro-warm
+      props:
+        title: "$.business.name"
+        subtitle: "$.business.tagline ?? 'Authentic flavors, warm atmosphere'"
+        description: "$.business.description | truncate(140)"
+        ctaButton:
+          text: "View Menu"
+          href: "#menu"
+          when: "$.menu.sections[*]"
+        image: "$.gallery.hero ?? $.gallery.images[0].url"
+        backgroundType: "warm-gradient"
 
-gallery:
-  title: "Gallery"
-  images: "$.restaurant.gallery"
+    # Menu Section
+    - as: Section
+      props:
+        id: "menu"
+        className: "bistro-menu-section"
+      when: "$.menu.sections[*]"
+      children:
+        - as: MenuList
+          variant: bistro-classic
+          props:
+            title: "Our Menu"
+            subtitle: "Authentic flavors crafted with the finest ingredients"
+            sections: "$.menu.sections"
+            currency: "$.menu.currency ?? 'SAR'"
+            showImages: true
+            showDescriptions: true
+            locale: "$.metadata.locale"
 
-hours:
-  title: "Opening Hours"
-  schedule: "$.restaurant.hours"
+    # Gallery Section  
+    - as: Section
+      props:
+        id: "gallery"
+        className: "bistro-gallery-section"
+      when: "$.gallery.images[*]"
+      children:
+        - as: Gallery
+          variant: warm-grid
+          props:
+            title: "Gallery"
+            subtitle: "A glimpse into our cozy bistro atmosphere"
+            images: "$.gallery.images | first(12)"
+            showLightbox: true
+            aspectRatio: "square"
 
-location-map:
-  title: "Find Us"
-  locations: "$.restaurant.location"
+    # Hours Section
+    - as: Section
+      props:
+        id: "hours"
+        className: "bistro-hours-section" 
+      when: "$.locations[0].hours"
+      children:
+        - as: Hours
+          variant: bistro-card
+          props:
+            title: "Opening Hours"
+            subtitle: "Visit us during these cozy hours"
+            hours: "$.locations[0].hours"
+            timezone: "$.locations[0].timezone ?? 'Asia/Riyadh'"
+            showStatus: true
+            locale: "$.metadata.locale"
 
-cta:
-  title: "Ready to Experience Excellence?"
-  description: "Join us for an unforgettable dining experience"
-  button_text: "Make Reservation"
+    # Contact Section
+    - as: Section
+      props:
+        id: "contact"
+        className: "bistro-contact-section"
+      children:
+        # Location Map
+        - as: LocationMap
+          variant: bistro-warm
+          when: "$.locations[0]"
+          props:
+            title: "Find Our Bistro"
+            location: "$.locations[0]"
+            height: "400px"
+            showMarker: true
+            showInfo: true
+            
+        # Contact CTA
+        - as: CTA
+          variant: bistro-invite
+          props:
+            title: "Ready to Experience Excellence?"
+            description: "Join us for an unforgettable dining experience in our warm, welcoming bistro"
+            primaryButton:
+              text: "Make Reservation"
+              href: "tel:$.locations[0].phone"
+              when: "$.locations[0].phone"
+            secondaryButton:
+              text: "Get Directions"
+              href: "$.locations[0].mapsUrl"
+              target: "_blank"
+              when: "$.locations[0].mapsUrl"
 
-footer:
-  brand: "$.restaurant.name"
-  description: "$.restaurant.description"
-  hours: "$.restaurant.hours"
-  contact: "$.restaurant.contact"
+    # Footer
+    - as: Footer
+      variant: bistro
+      props:
+        business: "$.business"
+        locations: "$.locations"
+        social: "$.business.social"
+        showNewsletter: false
+        showSocial: true
+        copyrightText: "All rights reserved."
+        locale: "$.metadata.locale"
+        direction: "$.metadata.direction"

@@ -1,6 +1,12 @@
 # Foodera Modern Skin Mapping
 # 
-# Maps restaurant data to the Foodera template components following the original design structure
+# Modern food-focused template with clean design and emphasis on menu presentation
+
+meta:
+  name: "Foodera Modern"
+  description: "Modern food-focused template with clean design and vibrant colors"
+  version: "2.0.0"
+  author: "Design Team"
 
 page:
   layout:
@@ -9,198 +15,216 @@ page:
       variant: foodera
       props:
         brand:
-          name: "$.restaurant_info.name"
-          logo: "/images/logo.png"
+          name: "$.business.name"
+          logo: "$.business.logo ?? null"
         navigation:
           - label: "Home"
             href: "#home"
           - label: "About Us"
             href: "#about"
           - label: "Explore Foods"
-            href: "#explore"
-            when: "$.menu_categories"
-          - label: "Reviews"
-            href: "#reviews"
-          - label: "FAQ"
-            href: "#faq"
-        phone: "1800 789 123"
-        locale: "en"
-        direction: "ltr"
+            href: "#menu"
+            when: "$.menu.sections[*]"
+          - label: "Gallery"
+            href: "#gallery"
+            when: "$.gallery.images[*]"
+          - label: "Contact"
+            href: "#contact"
+        social: "$.business.social"
+        locale: "$.metadata.locale"
+        direction: "$.metadata.direction"
 
     # Hero Section - Main banner with call-to-action
     - as: Hero
-      variant: foodera
+      variant: foodera-impact
       props:
         title: "Good food choices are good investments."
-        subtitle: "$.restaurant_info.name ? 'Discover authentic ' + $.restaurant_info.type_of_food + ' cuisine at ' + $.restaurant_info.name + ' in ' + $.restaurant_info.region + '.' : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'"
-        primaryCta:
+        subtitle: "$.business.description ?? 'Discover authentic cuisine crafted with passion and the finest ingredients.'"
+        description: "Experience exceptional flavors in every bite"
+        ctaButton:
           text: "Order Now"
-          href: "#explore"
-          icon: "fa-shopping-basket"
-        secondaryCta:
+          href: "#menu"
+          when: "$.menu.sections[*]"
+        secondaryButton:
           text: "Learn More"
           href: "#about"
-          icon: "ilmosys-arrow-right"
-        backgroundImage: "/images/bg/3.jpg"
+        image: "$.gallery.hero ?? $.gallery.images[0].url"
+        backgroundType: "foodera-gradient"
 
-    # Stats Section - Counter section with restaurant statistics
+    # Stats Section - Restaurant highlights using RichText
     - as: Section
       props:
         id: "stats"
-        className: "bg-primary"
+        className: "foodera-stats-section"
       children:
-        - as: Stats
-          variant: foodera
+        - as: RichText
+          variant: stats-showcase
           props:
-            stats:
-              - icon: "icon-piggy"
-                value: "$.restaurant_info.review_count ?? 1287"
-                label: "Happy Customers"
-              - icon: "icon-photo" 
-                value: "$.menu_categories | length * 20 ?? 5786"
-                label: "Menu Items"
-              - icon: "icon-rocket"
-                value: "$.restaurant_info.rating * 100 ?? 1440" 
-                label: "Quality Score"
-              - icon: "icon-world"
-                value: 7110
-                label: "Deliveries"
+            title: "Why Choose Us"
+            content: |
+              Experience the difference with our commitment to quality and service
+            features:
+              - title: "Happy Customers"
+                value: "1200+"
+                icon: "users"
+                description: "Satisfied diners every month"
+              - title: "Menu Items"
+                value: "50+"
+                icon: "menu"
+                description: "Carefully crafted dishes"
+              - title: "Quality Score"
+                value: "4.8/5"
+                icon: "star"
+                description: "Average customer rating"
+              - title: "Years Experience"
+                value: "10+"
+                icon: "award"
+                description: "Serving the community"
+            layout: "stats-grid"
 
     # About Section - Two content blocks with images
     - as: Section
       props:
         id: "about"
-        className: "about-section"
+        className: "foodera-about-section"
       children:
         - as: RichText
           variant: foodera-about
           props:
-            blocks:
-              - title: "We pride ourselves on making real $.restaurant_info.type_of_food food from the best ingredients."
-                description: "At $.restaurant_info.name, we bring you authentic flavors and traditional recipes passed down through generations. Every dish is prepared with care and the finest ingredients."
-                image: "/images/features/1.png"
-                imagePosition: "left"
-                ctaText: "Learn More"
-                ctaHref: "#explore"
-              - title: "We make everything by hand with the best possible ingredients."
-                description: "Located in $.restaurant_info.region, $.restaurant_info.name serves traditional $.restaurant_info.type_of_food cuisine that celebrates rich flavors and authentic cooking methods."
-                bullets:
-                  - "Fresh ingredients sourced daily"
-                  - "Traditional cooking methods" 
-                  - "Authentic flavors and recipes"
-                image: "/images/features/2.png"
-                imagePosition: "right"
-                ctaText: "Learn More"
-                ctaHref: "#explore"
-
-    # Video CTA Section
-    - as: CTA
-      variant: foodera-video
-      props:
-        title: "When a man's stomach is full it makes no difference whether he is rich or poor."
-        subtitle: "Experience the warmth and hospitality of $.restaurant_info.name where every meal tells a story."
-        videoUrl: "https://www.youtube.com/watch?v=bZx8rPd-PKQ"
-        buttonText: "Watch Our Story"
+            title: "Our Story"
+            content: |
+              We pride ourselves on making authentic food from the finest ingredients.
+              
+              At **$.business.name**, we bring you traditional flavors and recipes passed down through generations. Every dish is prepared with care and the finest ingredients, creating an unforgettable dining experience.
+            features:
+              - title: "Fresh Ingredients"
+                description: "Sourced daily from local suppliers"
+                icon: "leaf"
+              - title: "Traditional Methods"
+                description: "Time-honored cooking techniques"
+                icon: "clock"
+              - title: "Authentic Flavors"
+                description: "Recipes passed down through generations"
+                icon: "heart"
+            layout: "feature-blocks"
 
     # Menu Section - Showcase featured foods
     - as: Section
       props:
-        id: "explore"
-        className: "elements-content"
-      when: "$.menu_categories"
+        id: "menu"
+        className: "foodera-menu-section"
+      when: "$.menu.sections[*]"
       children:
         - as: MenuList
           variant: foodera-cards
           props:
             title: "Explore Our Foods"
-            description: "Discover our carefully curated selection of delicious dishes, each prepared with the finest ingredients and traditional cooking methods."
-            items: "$.menu_categories.Bestsellers ?? $.menu_categories[Object.keys($.menu_categories)[0]] | first(3)"
-            showModal: true
-            currency: "$.menu_categories[Object.keys($.menu_categories)[0]][0].currency ?? 'SAR'"
+            subtitle: "Discover our carefully curated selection of delicious dishes"
+            sections: "$.menu.sections"
+            currency: "$.menu.currency ?? 'SAR'"
+            showImages: true
+            showDescriptions: true
+            locale: "$.metadata.locale"
 
-    # Testimonials Section
+    # Gallery Section
+    - as: Section
+      props:
+        id: "gallery"
+        className: "foodera-gallery-section"
+      when: "$.gallery.images[*]"
+      children:
+        - as: Gallery
+          variant: foodera-grid
+          props:
+            title: "Food Gallery"
+            subtitle: "A visual journey through our culinary creations"
+            images: "$.gallery.images | first(12)"
+            showLightbox: true
+            aspectRatio: "landscape"
+
+    # Customer Reviews Section - Using RichText instead of Testimonials
     - as: Section
       props:
         id: "reviews" 
-        className: "testimonials-color"
+        className: "foodera-reviews-section"
       children:
-        - as: Testimonials
-          variant: foodera-slider
+        - as: RichText
+          variant: testimonials-quotes
           props:
-            title: "Testimonials"
+            title: "What Our Customers Say"
+            content: |
+              Don't just take our word for it - hear from our satisfied customers
             testimonials:
-              - avatar: "/images/testimonials/1.jpg"
-                quote: "Amazing $.restaurant_info.type_of_food food! The quality and taste at $.restaurant_info.name is outstanding."
+              - quote: "Amazing food! The quality and taste is outstanding."
                 author: "Ahmed Al-Saudi"
-                title: "Food Enthusiast"
-              - avatar: "/images/testimonials/2.jpg"
-                quote: "Best restaurant in $.restaurant_info.region. Authentic flavors and excellent service every time."
+                rating: 5
+              - quote: "Best restaurant in the area. Authentic flavors every time."
                 author: "Sara Mohammed"  
-                title: "Local Resident"
-              - avatar: "/images/testimonials/1.jpg"
-                quote: "Traditional recipes with modern presentation. Highly recommend this place!"
+                rating: 5
+              - quote: "Traditional recipes with modern presentation. Highly recommended!"
                 author: "Omar Hassan"
-                title: "Regular Customer"
+                rating: 5
+            layout: "testimonial-cards"
 
-    # FAQ Section
+    # Hours Section
     - as: Section
       props:
-        id: "faq"
-        className: "faq-section"
+        id: "hours"
+        className: "foodera-hours-section" 
+      when: "$.locations[0].hours"
       children:
-        - as: FAQ
-          variant: foodera
+        - as: Hours
+          variant: foodera-modern
           props:
-            title: "Frequently Asked Questions"
-            faqs:
-              - question: "Is $.restaurant_info.name food really prepared fresh each day?"
-                answer: "Yes, we prepare all our dishes fresh daily using traditional methods and the finest ingredients available in the region."
-              - question: "Do you offer vegetarian options?"
-                answer: "We have a variety of vegetarian dishes that cater to different dietary preferences while maintaining authentic flavors."
-              - question: "Can I order online for delivery?"
-                answer: "Yes, you can order through our partners or visit us directly at our location in $.restaurant_info.region."
-              - question: "What are your operating hours?"
-                answer: "We are open daily from 10:00 AM to 11:00 PM. Please call ahead for special occasions or large groups."
+            title: "Visit Us"
+            subtitle: "We're open and ready to serve you"
+            hours: "$.locations[0].hours"
+            timezone: "$.locations[0].timezone ?? 'Asia/Riyadh'"
+            showStatus: true
+            locale: "$.metadata.locale"
 
-    # Parallax CTA Section
-    - as: CTA
-      variant: foodera-parallax
+    # Contact & Location Section
+    - as: Section
       props:
-        title: "Fresh food made daily by chefs with passion."
-        buttonText: "Learn More"
-        buttonHref: "#about"
-        backgroundImage: "/images/parallax/1.jpg"
-
-    # Newsletter Subscribe Section
-    - as: CTA
-      variant: foodera-subscribe
-      props:
-        title: "Subscribe to $.restaurant_info.name newsletter and get 25% Off"
-        subtitle: "Limited time offer for this month. No credit card required."
-        discount: "25% Off"
-        placeholder: "Email Address here"
-        buttonText: "Subscribe"
+        id: "contact"
+        className: "foodera-contact-section"
+      children:
+        # Location Map
+        - as: LocationMap
+          variant: foodera-modern
+          when: "$.locations[0]"
+          props:
+            title: "Find Us"
+            location: "$.locations[0]"
+            height: "400px"
+            showMarker: true
+            showInfo: true
+            
+        # Final CTA
+        - as: CTA
+          variant: foodera-final
+          props:
+            title: "Ready to Experience Great Food?"
+            description: "Visit us today and discover why we're the preferred choice for authentic cuisine"
+            primaryButton:
+              text: "Order Now"
+              href: "#menu"
+              when: "$.menu.sections[*]"
+            secondaryButton:
+              text: "Get Directions"
+              href: "$.locations[0].mapsUrl"
+              target: "_blank"
+              when: "$.locations[0].mapsUrl"
 
     # Footer
     - as: Footer
-      variant: foodera
+      variant: foodera-modern
       props:
-        links:
-          - text: "Register"
-            href: "#"
-          - text: "Forum" 
-            href: "#"
-          - text: "Affiliate"
-            href: "#"
-          - text: "FAQ"
-            href: "#faq"
-        social:
-          - platform: "facebook"
-            url: "#"
-          - platform: "twitter"
-            url: "#"
-          - platform: "youtube"
-            url: "#"
-          - platform: "instagram"
-            url: "#"
-        copyrightText: "© 2024. Foodera. All rights reserved."
+        business: "$.business"
+        locations: "$.locations"
+        social: "$.business.social"
+        showNewsletter: true
+        showSocial: true
+        copyrightText: "All rights reserved."
+        locale: "$.metadata.locale"
+        direction: "$.metadata.direction"

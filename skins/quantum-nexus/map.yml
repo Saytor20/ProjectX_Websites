@@ -1,234 +1,149 @@
-# Quantum Nexus Revolutionary Template Mapping
-# Component mapping for the revolutionary orbital navigation and hexagonal layout system
+# Quantum Nexus Modern Template Mapping
+# Futuristic, modern restaurant template with clean design and tech-inspired aesthetics
 
 meta:
   name: "Quantum Nexus"
-  description: "Revolutionary restaurant template with orbital navigation, hexagonal layouts, and quantum-inspired design"
-  version: "1.0.0"
-  author: "Quantum Design Labs"
+  description: "Futuristic restaurant template with modern design and tech-inspired elements"
+  version: "2.0.0"
+  author: "Design Team"
 
-layout:
-  structure: "quantum-orbital"
-  navigation: "orbital-system"
-  grid: "hexagonal"
-  animations: "quantum-morphing"
+page:
+  layout:
+    # Modern Navigation Bar
+    - as: Navbar
+      variant: quantum-modern
+      props:
+        brand:
+          name: "$.business.name"
+          logo: "$.business.logo ?? null"
+        navigation:
+          - label: "Home"
+            href: "#home"
+          - label: "Menu"
+            href: "#menu"
+            when: "$.menu.sections[*]"
+          - label: "Gallery"
+            href: "#gallery"
+            when: "$.gallery.images[*]"
+          - label: "Hours"
+            href: "#hours"
+            when: "$.locations[0].hours"
+          - label: "Contact"
+            href: "#contact"
+        social: "$.business.social"
+        locale: "$.metadata.locale"
+        direction: "$.metadata.direction"
 
-sections:
-  - id: "navbar"
-    component: "Navbar"
-    variant: "orbital"
-    layout: "floating-center"
-    props:
-      style: "orbital-navigation"
-      position: "center-fixed"
-      animation: "orbital-rotation"
-    content:
-      logo:
-        style: "quantum-center"
-        size: "80x80"
-        position: "orbital-center"
-      navigation:
-        style: "orbital-items"
-        items:
-          - { text: "Menu", href: "#menu", orbital_position: "0deg" }
-          - { text: "Gallery", href: "#gallery", orbital_position: "90deg" }
-          - { text: "Hours", href: "#hours", orbital_position: "180deg" }
-          - { text: "Contact", href: "#contact", orbital_position: "270deg" }
+    # Futuristic Hero Section
+    - as: Hero
+      variant: quantum-tech
+      props:
+        title: "$.business.name"
+        subtitle: "$.business.tagline ?? 'The Future of Dining'"
+        description: "$.business.description ?? 'Experience cutting-edge cuisine with innovative flavors and modern presentation.'"
+        ctaButton:
+          text: "Explore Menu"
+          href: "#menu"
+          when: "$.menu.sections[*]"
+        secondaryButton:
+          text: "Experience Now"
+          href: "#contact"
+        image: "$.gallery.hero ?? $.gallery.images[0].url"
+        backgroundType: "quantum-gradient"
 
-  - id: "hero"
-    component: "Hero"
-    variant: "quantum-floating"
-    layout: "center-stage"
-    props:
-      style: "revolutionary-hero"
-      animation: "floating-morph"
-      background: "quantum-gradient"
-    content:
-      title:
-        style: "quantum-title"
-        animation: "float"
-        gradient: "primary-to-accent"
-      subtitle:
-        style: "serif-elegant"
-        color: "text-secondary"
-      stats:
-        style: "morphing-stats"
-        layout: "floating-grid"
-        items:
-          - { label: "Rating", value: "4.2", animation: "morph", delay: "0s" }
-          - { label: "Reviews", value: "27", animation: "morph", delay: "2s" }
-          - { label: "Categories", value: "4", animation: "morph", delay: "4s" }
+    # Future Menu Section
+    - as: Section
+      props:
+        id: "menu"
+        className: "quantum-menu-section"
+      when: "$.menu.sections[*]"
+      children:
+        - as: MenuList
+          variant: quantum-grid
+          props:
+            title: "Digital Menu"
+            subtitle: "Innovative dishes crafted with precision and creativity"
+            sections: "$.menu.sections"
+            currency: "$.menu.currency ?? 'SAR'"
+            showImages: true
+            showDescriptions: true
+            locale: "$.metadata.locale"
 
-  - id: "menu"
-    component: "MenuList"
-    variant: "hexagonal-grid"
-    layout: "category-based"
-    props:
-      style: "quantum-menu"
-      animation: "hexagon-spin"
-      interaction: "hover-morph"
-    content:
-      title:
-        style: "quantum-display"
-        text: "Quantum Menu"
-        animation: "title-glow"
-      categories:
-        style: "hexagonal-cards"
-        layout: "responsive-grid"
-        card_style: "glassmorphic"
-        hover_effect: "quantum-lift"
-      items:
-        style: "quantum-items"
-        layout: "gradient-cards"
-        image_style: "hexagon-morph"
-        price_style: "quantum-badge"
-        animation: "slide-reveal"
+    # Tech Gallery Section
+    - as: Section
+      props:
+        id: "gallery"
+        className: "quantum-gallery-section"
+      when: "$.gallery.images[*]"
+      children:
+        - as: Gallery
+          variant: quantum-modern
+          props:
+            title: "Visual Experience"
+            subtitle: "A digital showcase of our culinary innovations"
+            images: "$.gallery.images | first(12)"
+            showLightbox: true
+            aspectRatio: "square"
 
-  - id: "gallery"
-    component: "Gallery"
-    variant: "floating-hexagons"
-    layout: "masonry-float"
-    props:
-      style: "quantum-gallery"
-      animation: "floating-items"
-      interaction: "3d-hover"
-    content:
-      title:
-        style: "quantum-display"
-        text: "Visual Experience"
-        color: "accent"
-      items:
-        style: "floating-hexagons"
-        layout: "responsive-masonry"
-        hover_effect: "quantum-zoom"
-        animation: "staggered-float"
+    # Digital Hours Section
+    - as: Section
+      props:
+        id: "hours"
+        className: "quantum-hours-section"
+      when: "$.locations[0].hours"
+      children:
+        - as: Hours
+          variant: quantum-display
+          props:
+            title: "Operating Hours"
+            subtitle: "When innovation never sleeps"
+            hours: "$.locations[0].hours"
+            timezone: "$.locations[0].timezone ?? 'Asia/Riyadh'"
+            showStatus: true
+            locale: "$.metadata.locale"
 
-  - id: "hours"
-    component: "Hours"
-    variant: "quantum-schedule"
-    layout: "glassmorphic-grid"
-    props:
-      style: "quantum-hours"
-      background: "glass-surface"
-      border: "quantum-glow"
-    content:
-      title:
-        style: "quantum-display"
-        text: "Operating Hours"
-        color: "accent"
-      schedule:
-        style: "quantum-grid"
-        item_style: "glass-cards"
-        hover_effect: "slide-right"
+    # Contact Section
+    - as: Section
+      props:
+        id: "contact"
+        className: "quantum-contact-section"
+      children:
+        # Location Map
+        - as: LocationMap
+          variant: quantum-tech
+          when: "$.locations[0]"
+          props:
+            title: "Find Our Location"
+            location: "$.locations[0]"
+            height: "400px"
+            showMarker: true
+            showInfo: true
+            
+        # Future CTA
+        - as: CTA
+          variant: quantum-experience
+          props:
+            title: "Experience the Future of Dining"
+            description: "Step into tomorrow with innovative cuisine and cutting-edge dining experiences"
+            primaryButton:
+              text: "Reserve Your Table"
+              href: "tel:$.locations[0].phone"
+              when: "$.locations[0].phone"
+            secondaryButton:
+              text: "Get Directions"
+              href: "$.locations[0].mapsUrl"
+              target: "_blank"
+              when: "$.locations[0].mapsUrl"
 
-  - id: "location"
-    component: "LocationMap"
-    variant: "quantum-location"
-    layout: "center-focus"
-    props:
-      style: "quantum-location"
-      background: "glass-surface"
-      border: "quantum-glow"
-    content:
-      title:
-        style: "quantum-display"
-        text: "Find Us"
-        color: "accent"
-      address:
-        style: "quantum-text"
-        layout: "center-aligned"
-
-  - id: "cta"
-    component: "CTA"
-    variant: "quantum-action"
-    layout: "center-stage"
-    props:
-      style: "quantum-cta"
-      background: "primary-gradient"
-      animation: "hexagon-spin"
-    content:
-      title:
-        style: "quantum-inverse"
-        text: "Experience Quantum Dining"
-        animation: "title-pulse"
-      button:
-        style: "quantum-button"
-        text: "Order Now"
-        animation: "hover-lift"
-
-  - id: "footer"
-    component: "Footer"
-    variant: "quantum-foundation"
-    layout: "tri-section"
-    props:
-      style: "quantum-footer"
-      background: "secondary-gradient"
-      border_top: "quantum-line"
-    content:
-      sections:
-        - title: "Connect"
-          style: "glass-section"
-          type: "contact"
-        - title: "Navigate"
-          style: "glass-section"
-          type: "navigation"
-        - title: "Follow"
-          style: "glass-section"
-          type: "social"
-
-# Design System Mapping
-design_tokens:
-  colors:
-    primary: "#00D4FF"
-    secondary: "#1A0B2E"
-    accent: "#FF6B9D"
-    background: "#0F0519"
-    surface: "#1C0D2A"
-    text: "#FFFFFF"
-    quantum_1: "#FF00FF"
-    quantum_2: "#00FFFF"
-    quantum_3: "#FFFF00"
-    quantum_4: "#FF8000"
-
-  typography:
-    display: "Orbitron"
-    sans: "Space Grotesk"
-    serif: "Playfair Display"
-    mono: "JetBrains Mono"
-
-  animations:
-    orbital: "20s linear infinite"
-    float: "6s ease-in-out infinite"
-    morph: "8s ease-in-out infinite"
-    quantum_shift: "12s linear infinite"
-    hexagon_spin: "15s linear infinite"
-
-  effects:
-    glassmorphism: true
-    quantum_glow: true
-    morphing_shapes: true
-    orbital_navigation: true
-    floating_elements: true
-
-# Responsive Breakpoints
-responsive:
-  mobile: "768px"
-  tablet: "1024px"
-  desktop: "1280px"
-  wide: "1536px"
-
-# Performance Settings
-performance:
-  css_budget: "50KB"
-  js_budget: "20KB"
-  image_optimization: true
-  animation_optimization: true
-  reduced_motion_support: true
-
-# Accessibility Features
-accessibility:
-  focus_indicators: true
-  reduced_motion: true
-  high_contrast_mode: false
-  screen_reader_optimized: true
-  keyboard_navigation: true
+    # Modern Footer
+    - as: Footer
+      variant: quantum-minimal
+      props:
+        business: "$.business"
+        locations: "$.locations"
+        social: "$.business.social"
+        showNewsletter: false
+        showSocial: true
+        copyrightText: "The future of dining. All rights reserved."
+        locale: "$.metadata.locale"
+        direction: "$.metadata.direction"
