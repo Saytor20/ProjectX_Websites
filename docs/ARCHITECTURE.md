@@ -1,6 +1,7 @@
 # System Architecture - Restaurant Website Generator
 *Created: August 19, 2025, 02:05 AM*
 *Last Updated: December 29, 2024*
+*Migration: Template Package System - Phase 0 Complete*
 
 ## System Overview
 **Production-Ready Restaurant Website Generator** built with Next.js 15, TypeScript, and React. Features a sophisticated template system, advanced visual editor, and automated deployment pipeline for creating professional restaurant websites.
@@ -24,12 +25,12 @@
 
 ### **Template Engine Architecture**
 ```
-Restaurant JSON Data + Skin Selection → Component Renderer → CSS Scoped Output → Generated Website
+Restaurant JSON Data + Template Package → React Components → CSS Modules → Generated Website
 ```
 
 ### **Data Processing Pipeline**
 ```
-/restaurant_data/*.json → Data Normalizer → Component Props → Template Renderer → Styled Website
+data/restaurants/*.json → Zod Validation → Template Package → React SSR → Styled Website
 ```
 
 ---
@@ -84,17 +85,17 @@ The system automatically transforms raw restaurant JSON into a normalized struct
 
 ---
 
-## 🎨 **Template System: "Skins" Architecture**
+## 🎨 **Template Package System**
 
-### **Template Structure (Skins)**
-Each template is stored in `/skins/[template-name]/` with these files:
+### **Template Structure**
+Each template is a self-contained package in `/templates/[template-name]/`:
 
 ```
-skins/bistly-modern/
-├── skin.css           # Raw CSS styles (unscoped)
-├── tokens.json        # Design system tokens  
-├── map.yml           # Component mapping configuration
-└── template.json     # Template metadata
+templates/bistly/
+├── Template.tsx       # Main React component
+├── template.module.css # CSS Modules (auto-scoped)
+├── manifest.json      # Template metadata & slots
+└── README.md          # Template documentation
 ```
 
 ### **Design Tokens System**
@@ -117,45 +118,37 @@ skins/bistly-modern/
 }
 ```
 
-### **Component Mapping (YAML)**
-Templates use either React components or raw HTML:
-```yaml
-layout:
-  - as: RawHTML
-    props:
-      id: header
-      html: |
-        <header class="header-area">
-          <div class="container">
-            <!-- Complete HTML structure -->
-          </div>
-        </header>
-        
-  - as: Hero
-    props:
-      title: "$.restaurant_info.name"
-      description: "$.restaurant_info.description"
+### **Template Manifest**
+Templates declare their slots and dependencies:
+```json
+{
+  "id": "bistly",
+  "name": "Bistly Modern",
+  "slots": ["navbar", "hero", "menu", "footer"],
+  "preview": "/preview/bistly.png",
+  "version": "1.0.0"
+}
 ```
 
 ---
 
-## ⚙️ **CSS Scoping & Processing Engine**
+## ⚙️ **Template Isolation & Styling**
 
-### **Automated CSS Scoping** (`src/lib/css-scoper.ts`)
-- **Purpose**: Prevents template CSS conflicts between different skins
-- **Method**: Automatically prefixes all selectors with `[data-skin="template-id"]`
-- **Processing**: Handles @media queries, keyframes, and complex selectors
+### **CSS Modules** (Built-in Next.js)
+- **Purpose**: Automatic style isolation per template
+- **Method**: CSS Modules generate unique class names automatically
+- **Processing**: Next.js handles scoping at build time
 - **Validation**: Enforces CSS size limits (≤50KB per template)
 
-### **Example CSS Transformation**
+### **Example CSS Module**
 ```css
-/* Input (skin.css) */
+/* template.module.css */
 .navbar { background: #fff; }
 @media (max-width: 768px) { .navbar { display: none; } }
 
-/* Output (scoped CSS) */
-[data-skin="bistly-modern"] .navbar { background: #fff; }
-@media (max-width: 768px) { [data-skin="bistly-modern"] .navbar { display: none; } }
+/* Output (auto-scoped) */
+.Bistly_navbar__3xK9z { background: #fff; }
+@media (max-width: 768px) { .Bistly_navbar__3xK9z { display: none; } }
 ```
 
 ---
@@ -235,20 +228,21 @@ Modern 6-box tool system for intuitive website editing:
 
 ### **Step-by-Step Template Development**
 ```bash
-# 1. Create template directory
-mkdir skins/new-template/
+# 1. Scaffold new template
+npm run scaffold:template bistly
 
-# 2. Add core files
-touch skins/new-template/skin.css        # CSS styles
-touch skins/new-template/tokens.json     # Design tokens  
-touch skins/new-template/map.yml         # Component mapping
-touch skins/new-template/template.json   # Metadata
+# 2. Generated structure
+templates/bistly/
+├── Template.tsx          # React component
+├── template.module.css   # CSS Modules
+├── manifest.json         # Metadata
+└── README.md            # Documentation
 
 # 3. Start development server
 npm run dev
 
 # 4. Test template
-curl http://localhost:3000/api/skins/new-template/css
+curl http://localhost:3000/api/templates
 ```
 
 ### **Template Development Standards**
@@ -259,7 +253,7 @@ curl http://localhost:3000/api/skins/new-template/css
 - **Data Integration**: All restaurant data fields must be mapped
 
 ### **Quality Assurance Checklist**
-- [ ] CSS scoping validation (no global styles)
+- [ ] CSS Modules validation (automatic scoping)
 - [ ] Performance budget compliance  
 - [ ] Cross-template isolation testing
 - [ ] Mobile responsive verification
@@ -271,15 +265,14 @@ curl http://localhost:3000/api/skins/new-template/css
 ## 🚀 **API Endpoints & System Integration**
 
 ### **Template API Routes**
-- `GET /api/skins` - List all available templates with metadata
-- `GET /api/skins/[skinId]/css` - Serve scoped CSS for specific template
-- `GET /api/skins/[skinId]/mapping` - Get component mapping configuration  
-- `GET /api/skins/[skinId]/tokens` - Retrieve design system tokens
+- `GET /api/templates` - List all available Template Packages
+- `GET /api/templates/[id]/manifest` - Get template metadata
+- `POST /api/templates/[id]/render` - Server-side render with data
 
 ### **Restaurant Data API**  
 - `GET /api/restaurants` - List available restaurant data files
-- `POST /api/restaurants` - Load specific restaurant data
-- `GET /api/preview/[restaurantId]` - Generate restaurant website preview
+- `GET /api/restaurants/[id]` - Load specific restaurant data (validated)
+- `POST /api/generate` - Generate website with template + data
 
 ### **Editor Integration API**
 - `POST /api/editor/save` - Save visual editor changes
@@ -294,39 +287,48 @@ curl http://localhost:3000/api/skins/new-template/css
 Websites_nextjs/
 ├── src/                           # Core application source
 │   ├── app/                       # Next.js 15 App Router
-│   │   ├── layout.tsx             # Root layout with editor integration
+│   │   ├── layout.tsx             # Root layout
 │   │   ├── page.tsx               # Main generator interface
-│   │   ├── globals.css            # Global styles (consolidated)
-│   │   ├── figma-ui.css           # Modern interface styles
+│   │   ├── globals.css            # Global styles
 │   │   ├── restaurant/[slug]/     # Dynamic restaurant pages
 │   │   └── api/                   # REST API endpoints
+│   │       ├── restaurants/route.ts    # Restaurant data API
+│   │       └── templates/route.ts      # Template registry API
 │   ├── components/kit/            # Fixed component library (10 components)
-│   ├── lib/                       # Core system libraries
-│   │   ├── css-scoper.ts          # CSS scoping engine
-│   │   ├── component-renderer.tsx # Component mapping engine
-│   │   ├── mapping-dsl.ts         # Template configuration processor
-│   │   ├── data-normalizer.ts     # Restaurant data processor
-│   │   └── html-sanitizer.ts      # Security validation
-│   ├── dev/                       # Development tools
-│   │   └── editor/                # Visual editor components
-│   │       ├── MoveableEditor.tsx # Main editor implementation
-│   │       ├── ElementInspector.tsx # Property panel
-│   │       └── style-applier.ts   # CSS patch system
-│   └── schema/                    # Data validation
-├── skins/                         # Template sources (8 templates)
-│   ├── bistly-modern/             # Example template structure
-│   ├── cafert-modern/
-│   ├── foodera-modern/
-│   ├── conbiz-premium/ 
-│   ├── mehu-fresh/
-│   ├── quantum-nexus/
-│   ├── simple-modern/
-│   └── shawarma-king/
-├── restaurant_data/               # Restaurant JSON files
-│   ├── abu_al_khair_63191.json   # 88 menu items
-│   └── coffee_address_153199.json # 60 menu items
+│   ├── lib/                       # Core utilities
+│   │   ├── schema.ts              # Zod Restaurant schema
+│   │   ├── tokens.ts              # CSS variable defaults
+│   │   └── image.ts               # Image URL utilities
+│   └── editor/                    # Patch Panel editor
+│       ├── PatchPanel.tsx         # Main editor component
+│       ├── Outline.tsx            # Element outliner
+│       ├── registry.ts            # Template registry
+│       └── useEditableText.ts     # Text editing hook
+├── templates/                     # Template Packages (self-contained)
+│   ├── bistly/
+│   │   ├── Template.tsx
+│   │   ├── template.module.css
+│   │   ├── manifest.json
+│   │   └── README.md
+│   ├── shawarma/
+│   ├── simple/
+│   └── (others...)
+├── data/
+│   └── restaurants/               # Restaurant JSON files
+│       ├── abu_al_khair_63191.json     # Standardized data
+│       └── coffee_address_153199.json
+├── tools/                         # Build & migration tools
+│   ├── scaffold-template.ts      # Template scaffolder
+│   ├── ingest-envato.ts          # Envato converter
+│   └── validate-template.ts      # Template validator
 ├── docs/                          # System documentation
-└── public/dev/                    # Development assets
+│   └── ARCHITECTURE.md            # This document
+├── public/                        # Static assets
+│   └── preview/                   # Template previews
+├── package.json
+├── tsconfig.json
+├── next.config.ts                 # Next.js configuration
+└── README.md
 ```
 
 ---
@@ -347,14 +349,13 @@ npm run type-check       # TypeScript compilation check
 npm run dev
 
 # 2. Create new template
-mkdir skins/my-template/
-# Add skin.css, tokens.json, map.yml files
+npm run scaffold:template my-template
 
 # 3. Test template
-curl http://localhost:3000/api/skins/my-template/css
+curl http://localhost:3000/api/templates
 
 # 4. Validate and deploy
-npm run validate         # System validation
+npm run validate:template my-template
 npm run build           # Production build
 ```
 
@@ -421,30 +422,30 @@ The system has reached full operational status with comprehensive features, robu
 
 ## Key Systems
 
-### 🎯 **CSS Scoping Engine** (`src/lib/css-scoper.ts`)
-- **Purpose**: Prevents template CSS conflicts
-- **Method**: Prefixes all selectors with `[data-skin="template-id"]`
-- **Features**: Handles @media queries, keyframes, complex selectors
+### 🎯 **Template Package System**
+- **Purpose**: Self-contained, typed template components
+- **Method**: Each template is a React component with CSS Modules
+- **Features**: Manifest-based configuration, slot system
 - **Performance**: Validates CSS size limits (≤50KB)
 
-### 🖼️ **Component Renderer** (`src/lib/component-renderer.tsx`)
-- **Dynamic Rendering**: Maps YAML configuration to React components
-- **Data Binding**: JSONPath expressions resolve restaurant data
-- **Conditional Rendering**: `when` conditions control component visibility
-- **Type Safety**: Runtime component validation
+### 🖼️ **Component Kit** (`src/components/kit/`)
+- **10 Core Components**: Navbar, Hero, MenuList, Gallery, etc.
+- **Data Binding**: Props directly from validated Restaurant data
+- **Type Safety**: Full TypeScript coverage
+- **Flexibility**: Templates compose components as needed
 
-### ✏️ **Visual Editor** (`src/dev/EnhancedEditorComponent.tsx`)
-- **TypeScript**: Transpiled by Next.js bundler (no raw JS files)
-- **Features**: Click-to-select, drag-to-move, property editing
+### ✏️ **Patch Panel Editor** (`src/editor/PatchPanel.tsx`)
+- **TypeScript**: Simple property editor (no Moveable.js)
+- **Features**: Text editing, color changes, CSS variables
 - **Keyboard**: Alt+E to toggle, Escape to close
 - **Scope**: Development-only with graceful degradation
 
 ## API Endpoints
 
 ### **Template System**
-- `GET /api/skins` - List available templates
-- `GET /api/skins/[skinId]/css` - Get scoped CSS for template
-- `GET /api/skins/[skinId]/mapping` - Get component mapping configuration
+- `GET /api/templates` - List available templates
+- `GET /api/templates/[id]/manifest` - Get template metadata
+- `POST /api/templates/[id]/render` - Server-side render with data
 
 ### **Data & Generation**
 - `GET /api/restaurants` - List available restaurant data
@@ -455,27 +456,34 @@ The system has reached full operational status with comprehensive features, robu
 ```
 src/
 ├── app/                    # Next.js App Router
-│   ├── layout.tsx         # Root layout + dev editor
+│   ├── layout.tsx         # Root layout
 │   ├── page.tsx           # Main generator interface
 │   ├── restaurant/[slug]/ # Dynamic restaurant pages
 │   └── api/               # REST API endpoints
+│       ├── restaurants/route.ts
+│       └── templates/route.ts
 ├── components/kit/        # 10 core components
 ├── lib/                   # Core utilities
-│   ├── css-scoper.ts     # Centralized CSS scoping
-│   ├── component-renderer.tsx # Component mapping engine
-│   └── mapping-dsl.ts    # Template configuration processor
-└── dev/                   # Development tools
-    └── EnhancedEditorComponent.tsx # Visual editor
+│   ├── schema.ts         # Zod Restaurant schema
+│   ├── tokens.ts         # CSS variable defaults
+│   └── image.ts          # Image utilities
+└── editor/                # Patch Panel editor
+    ├── PatchPanel.tsx
+    └── registry.ts
 
-skins/                     # Template sources
-├── cafert-modern/         # Example template
-│   ├── skin.css          # Unscoped source CSS
-│   ├── tokens.json       # Design system tokens
-│   └── map.yml           # Component mapping
+templates/                 # Template Packages
+├── bistly/
+│   ├── Template.tsx      # React component
+│   ├── template.module.css
+│   └── manifest.json
 └── [other-templates]/
 
-restaurant_data/           # Restaurant JSON files
-public/dev/               # Static dev assets (CSS only)
+data/restaurants/          # Restaurant JSON files
+public/preview/           # Template preview images
+tools/                     # Build tools
+├── validate-template.ts  # Template validator
+├── scaffold-template.ts  # Template scaffolder
+└── ingest-envato.ts     # HTML converter
 ```
 
 ## Development Workflow
@@ -489,11 +497,11 @@ npm run dev          # Start Next.js server
 - All components type-checked in real-time
 
 ### **Template Creation**
-1. Create `/skins/[template-id]/` directory
-2. Add `skin.css` (unscoped CSS)
-3. Create `map.yml` with component configuration
-4. Add `tokens.json` for design system
-5. Test with `/api/skins/[template-id]/css`
+1. Run `npm run scaffold:template [name]`
+2. Edit `templates/[name]/Template.tsx` component
+3. Style with `template.module.css` (CSS Modules)
+4. Configure `manifest.json` with slots
+5. Test with `/api/templates`
 
 ### **Component Development**
 - Never break the stable props API
@@ -505,7 +513,7 @@ npm run dev          # Start Next.js server
 
 ### **Automated Enforcement**
 - **CSS Budget**: ≤50KB per template (build fails if exceeded)
-- **Scoping Validation**: All CSS properly scoped, no leakage
+- **Module Validation**: CSS Modules auto-scope, no leakage
 - **Component Safety**: Type checking prevents runtime errors
 - **Build Validation**: Comprehensive testing before deployment
 
@@ -517,14 +525,14 @@ npm run dev          # Start Next.js server
 ## Troubleshooting
 
 ### **Template Not Loading**
-1. Check `/api/skins/[template-id]/css` responds
-2. Verify `skin.css` exists in `/skins/[template-id]/`
-3. Check browser console for CSS syntax errors
+1. Check `/api/templates` includes your template
+2. Verify `Template.tsx` exports default component
+3. Check browser console for module errors
 
 ### **Component Errors**
-1. Verify component mapping in `map.yml`
-2. Check data paths match normalized structure
-3. Ensure all referenced components exist in registry
+1. Verify component imports in Template.tsx
+2. Check data props match Restaurant schema
+3. Ensure all kit components exist in `src/components/kit/`
 
 ### **Visual Editor Issues**
 1. Confirm development mode (`npm run dev`)
