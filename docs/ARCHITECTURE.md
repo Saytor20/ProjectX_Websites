@@ -197,30 +197,16 @@ Components receive data through JSONPath expressions:
 
 ## ✏️ **Visual Design Editor System**
 
-### **Simple Design Tools Interface**
-Modern 6-box tool system for intuitive website editing:
+### **Minimal Editor (Current)**
+The legacy Moveable-based editor has been removed. The system now uses a safe, block-level editor:
 
-1. **👆 Select Tool** - Click any element to select with 8-point resize handles
-2. **🎨 Colors** - Color picker popup for text and background colors
-3. **📐 Shapes** - Add rectangles, circles, triangles with proper layering
-4. **🖼️ Pictures** - Import images via file upload or URL
-5. **🔗 Links** - Click text to add/edit hyperlinks  
-6. **📝 Text** - Edit text content inline
+- **Outline**: `src/editor/Outline.tsx` builds a tree from `[data-block]` nodes.
+- **Patch Panel**: `src/editor/PatchPanel.tsx` provides text/image/variant/spacing controls.
+- **Registry**: `src/editor/registry.ts` registers blocks and editable fields.
+- **Text Editing**: `src/editor/useEditableText.ts` enables contenteditable with debouncing.
+- **Toggle**: Alt+E toggles the editor shell in development.
 
-### **Advanced Editor Implementation**
-**Primary Editor**: `src/dev/editor/MoveableEditor.tsx`
-- **Technology**: React + TypeScript with Moveable.js library
-- **Features**: Drag-and-drop, resize handles, property inspector
-- **Real-time**: Live CSS editing with color pickers and sliders
-- **Keyboard Shortcuts**: Alt+E to activate, Escape to close
-
-### **Editor Capabilities**
-- **Element Selection**: Click-to-select with visual highlighting
-- **Multi-select**: Shift+click for multiple element selection
-- **Drag & Drop**: Alt+drag to reposition elements
-- **Resize**: 8-point handles for precise element sizing
-- **Property Panel**: Live CSS editing (colors, fonts, spacing)
-- **History System**: Undo/redo with change tracking
+This approach ensures predictable edits and clear client/server boundaries.
 
 ---
 

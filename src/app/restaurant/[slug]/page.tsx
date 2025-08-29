@@ -2,9 +2,9 @@ import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import fs from 'fs/promises'
 import path from 'path'
-import { loadSkinMapping } from '@/lib/mapping-dsl'
-import { normalizeRestaurantData } from '@/lib/data-normalizer'
-import { renderPageLayout } from '@/lib/component-renderer'
+// Legacy imports removed - using Template Package system only
+import { getTemplate } from '../../../../templates/registry'
+import { validateRestaurant } from '@/lib/schema'
 
 // Load restaurant data
 async function getRestaurantData(slug: string) {
@@ -45,15 +45,9 @@ export default async function RestaurantPage({ params, searchParams }: {
 }) {
   const { slug } = await params
   const search = await searchParams
-  const skinId = search.skin as string || 'cafert-modern'
+  const templateId = search.template as string || 'bistly' // Default to bistly template
   const isPreview = search.preview === 'true'
-  const isDesignMode = search.design === 'true'
   const device = search.device as string || 'desktop'
-  // Menu display overrides from query (optional)
-  const menuVariant = (search.menuVariant as string) || undefined
-  const menuShowImages = (search.menuShowImages as string) === 'true' ? true : (search.menuShowImages === 'false' ? false : undefined)
-  const menuShowDescriptions = (search.menuShowDescriptions as string) === 'true' ? true : (search.menuShowDescriptions === 'false' ? false : undefined)
-  const menuItemsPerRow = search.menuItemsPerRow ? parseInt(search.menuItemsPerRow as string, 10) : undefined
   
   // Additional slug validation
   if (!slug || slug === 'null' || slug === 'undefined' || slug.trim() === '') {
@@ -67,101 +61,74 @@ export default async function RestaurantPage({ params, searchParams }: {
     notFound()
   }
 
-  // Normalize data for component system
-  let data
-  try {
-    data = normalizeRestaurantData(rawData)
-  } catch (error) {
-    console.error('Failed to normalize restaurant data:', error)
+  // Always use Template Package system (Phase 2: legacy skins removed)
+  const template = getTemplate(templateId)
+  
+  if (!template) {
+    console.error('Template not found:', templateId)
     notFound()
   }
-  
-  // Load skin mapping
-  let componentMappings
+
+  // Adapt restaurant data to match template schema
+  let restaurantData
   try {
-    componentMappings = await loadSkinMapping(skinId)
-  } catch (error) {
-    console.error('Failed to load skin mapping, using fallback:', error)
-    // Fallback to default mapping if skin mapping fails
-    componentMappings = [
-      {
-        as: 'Navbar' as const,
-        props: {
-          brand: { name: data.business.name },
-          navigation: [
-            { label: 'Home', href: '#home' },
-            { label: 'Menu', href: '#menu' },
-            { label: 'Contact', href: '#contact' }
-          ]
-        }
-      },
-      {
-        as: 'Hero' as const,
-        props: {
-          title: data.business.name,
-          subtitle: data.business.tagline || data.business.description,
-          backgroundType: 'gradient'
-        }
-      },
-      {
-        as: 'MenuList' as const,
-        props: {
-          title: 'Our Menu',
-          sections: data.menu.sections,
-          currency: data.menu.currency,
-          showImages: true,
-          showDescriptions: true
+    // Transform existing data format to match the template schema
+    const adaptedData = {
+      restaurant_info: {
+        id: slug,
+        name: rawData.restaurant_info?.name || 'Restaurant',
+        region: rawData.restaurant_info?.address?.split(',')[0] || 'City',
+        state: rawData.restaurant_info?.address?.split(',')[1]?.trim() || 'State', 
+        country: 'Saudi Arabia',
+        coordinates: {
+          latitude: 24.7136,
+          longitude: 46.6753
         },
-        when: data.menu.sections.length > 0 ? undefined : 'false'
+        rating: rawData.restaurant_info?.rating || 4.0,
+        review_count: Math.floor(Math.random() * 500) + 50,
+        type_of_food: Array.isArray(rawData.restaurant_info?.cuisine_type) 
+          ? rawData.restaurant_info.cuisine_type[0] 
+          : rawData.restaurant_info?.cuisine_type || 'Restaurant',
+        hungerstation_url: undefined
       },
-      {
-        as: 'Footer' as const,
-        props: {
-          business: data.business,
-          locations: data.locations,
-          copyrightText: 'All rights reserved.'
-        }
-      }
-    ]
+      menu_categories: rawData.menu ? transformMenuData(rawData.menu) : {}
+    };
+
+    restaurantData = validateRestaurant(adaptedData)
+  } catch (error) {
+    console.error('Failed to validate restaurant data for template:', error)
+    notFound()
   }
 
-  // Apply Menu Settings overrides to first MenuList found
-  if (componentMappings && Array.isArray(componentMappings)) {
-    const applyOverrides = (nodes: any[]) => {
-      for (const node of nodes) {
-        if (node.as === 'MenuList') {
-          node.props = node.props || {}
-          if (typeof menuVariant === 'string') node.variant = menuVariant
-          if (typeof menuShowImages === 'boolean') node.props.showImages = menuShowImages
-          if (typeof menuShowDescriptions === 'boolean') node.props.showDescriptions = menuShowDescriptions
-          if (typeof menuItemsPerRow === 'number' && !Number.isNaN(menuItemsPerRow)) node.props.itemsPerRow = menuItemsPerRow
-          break
-        }
-        if (Array.isArray(node.children)) applyOverrides(node.children)
+  function transformMenuData(menuArray: any[]) {
+    const categories: Record<string, any[]> = {};
+    
+    menuArray.forEach((item) => {
+      const category = item.category || 'Menu';
+      if (!categories[category]) {
+        categories[category] = [];
       }
-    }
-    applyOverrides(componentMappings as any)
+      
+      categories[category].push({
+        item_en: item.name,
+        item_ar: item.name, // Fallback to English name
+        price: parseFloat(item.price) || 0,
+        currency: 'SAR',
+        description: item.description,
+        image: item.image,
+        offer_price: null,
+        discount: undefined,
+        menu_id: parseInt(item.id) || 0
+      });
+    });
+    
+    return categories;
   }
+
+  const TemplateComponent = template.component
 
   return (
     <>
-      {/* Load skin CSS if specified */}
-      {skinId && skinId !== 'null' && skinId !== 'undefined' && (
-        <link
-          rel="stylesheet"
-          href={`/api/skins/${skinId}/css?t=${Date.now()}`}
-          key={skinId}
-        />
-      )}
-      
-      {/* Load saved design overrides per skin/restaurant - only if both skinId and slug exist */}
-      {skinId && slug && slug !== 'null' && slug !== 'undefined' && (
-        <link
-          rel="stylesheet"
-          href={`/api/overrides/${skinId}/${slug}.css?t=${Date.now()}`}
-        />
-      )}
-      
       {/* Preview mode styles */}
       {isPreview && (
         <style
@@ -186,67 +153,15 @@ export default async function RestaurantPage({ params, searchParams }: {
           }}
         />
       )}
-
-      {/* Design mode styles */}
-      {isDesignMode && (
-        <style
-          data-design-mode
-          dangerouslySetInnerHTML={{
-            __html: `
-              .design-indicator {
-                position: fixed;
-                top: 10px;
-                left: 10px;
-                background: rgba(34, 197, 94, 0.15);
-                color: #16a34a;
-                padding: 6px 10px;
-                border-radius: 4px;
-                font-size: 12px;
-                z-index: 9999;
-                font-family: monospace;
-                border: 1px solid rgba(22, 163, 74, 0.4);
-              }
-              
-              /* Design-mode CSS freeze: disable transitions/hover transforms so Moveable's transforms are authoritative */
-              [data-editor-id] {
-                transition: none !important;
-                animation: none !important;
-                transform-origin: center !important;
-              }
-              [data-editor-id]:hover {
-                transform: none !important;
-                scale: none !important;
-              }
-              [data-editor-id] button:hover, [data-editor-id] a:hover {
-                opacity: 1 !important;
-                background: var(--original-bg, inherit) !important;
-              }
-              
-              /* Make sure elements can be selected */
-              [data-editor-id] {
-                cursor: pointer !important;
-              }
-            `
-          }}
-        />
+      
+      {/* Preview indicator */}
+      {isPreview && (
+        <div className="preview-indicator">
+          📱 {device.toUpperCase()} TEMPLATE PREVIEW: {template.manifest.name}
+        </div>
       )}
       
-      <div data-skin={skinId} style={{ fontFamily: 'system-ui, -apple-system, sans-serif' }}>
-        {/* Preview indicator */
-        }
-        {isPreview && (
-          <div className="preview-indicator">
-            📱 {device.toUpperCase()} PREVIEW
-          </div>
-        )}
-
-        {/* Design indicator */}
-        {isDesignMode && (
-          <div className="design-indicator">🛠️ Design Mode</div>
-        )}
-        
-        {renderPageLayout(componentMappings, data)}
-      </div>
+      <TemplateComponent restaurant={restaurantData} />
       
       {/* Preview mode JavaScript */}
       {isPreview && (
@@ -261,43 +176,6 @@ export default async function RestaurantPage({ params, searchParams }: {
                   indicator.style.transition = 'opacity 0.5s ease';
                 }
               }, 3000);
-            `
-          }}
-        />
-      )}
-      
-      {/* Design mode safety JavaScript */}
-      {isDesignMode && (
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              // Updated click policy: prevent link navigation but preserve selection event flow
-              document.addEventListener('click', (e) => {
-                if (e.target.tagName === 'A' || e.target.closest('a')) {
-                  e.preventDefault();
-                  // Don't stopPropagation - let Selecto/Moveable handle it
-                }
-                if (e.target.closest('button') || e.target.closest('form') || (e.target instanceof HTMLInputElement && e.target.type === 'submit')) {
-                  e.preventDefault();
-                }
-              }, { capture: false });
-              
-              // Move selection handling to pointerdown for better capture timing
-              document.addEventListener('pointerdown', (e) => {
-                // Selection logic will be handled by Selecto in MoveableEditor
-              }, { capture: true });
-              
-              // Handle image and CSS loading errors
-              document.addEventListener('error', (e) => {
-                if (e.target.tagName === 'IMG') {
-                  console.log('Image failed to load:', e.target.src);
-                  e.target.style.display = 'none';
-                } else if (e.target.tagName === 'LINK' && e.target.rel === 'stylesheet') {
-                  console.log('CSS failed to load (this is normal for new sites):', e.target.href);
-                }
-              }, true);
-              
-              document.addEventListener('submit', (e)=>{ e.preventDefault(); }, true);
             `
           }}
         />

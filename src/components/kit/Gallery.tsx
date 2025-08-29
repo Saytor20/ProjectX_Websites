@@ -203,7 +203,7 @@ export function Gallery({
       </section>
 
       {/* Lightbox */}
-      {showLightbox && lightboxIndex !== null && (
+      {showLightbox && lightboxIndex !== null && images[lightboxIndex] && (
         <div 
           style={lightboxStyle}
           onClick={closeLightbox}
@@ -242,13 +242,13 @@ export function Gallery({
           )}
           
           <img
-            src={images[lightboxIndex].url}
-            alt={images[lightboxIndex].alt || `Gallery image ${lightboxIndex + 1}`}
+            src={images[lightboxIndex]!.url}
+            alt={images[lightboxIndex]!.alt || `Gallery image ${lightboxIndex + 1}`}
             style={lightboxImageStyle}
             onClick={(e) => e.stopPropagation()}
           />
           
-          {images[lightboxIndex].caption && (
+          {images[lightboxIndex]!.caption && (
             <div style={{
               position: 'absolute',
               bottom: '2rem',
@@ -259,7 +259,7 @@ export function Gallery({
               textAlign: 'center',
               maxWidth: '80%'
             }}>
-              {images[lightboxIndex].caption}
+              {images[lightboxIndex]!.caption}
             </div>
           )}
         </div>

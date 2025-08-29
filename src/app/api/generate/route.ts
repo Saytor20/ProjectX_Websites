@@ -1,20 +1,21 @@
 import { NextRequest, NextResponse } from 'next/server';
 import path from 'path';
 import fs from 'fs/promises';
+import { getTemplate } from '../../../../templates/registry';
 
 export async function POST(request: NextRequest) {
   try {
-    const { skinId, restaurantId, restaurantFile, displayConfig } = await request.json();
+    const { templateId, restaurantId, restaurantFile, displayConfig } = await request.json();
     
-    if (!skinId || !restaurantId || !restaurantFile) {
+    if (!templateId || !restaurantId || !restaurantFile) {
       return NextResponse.json(
-        { error: 'Missing required parameters: skinId, restaurantId, restaurantFile' },
+        { error: 'Missing required parameters: templateId, restaurantId, restaurantFile' },
         { status: 400 }
       );
     }
 
     // Validate restaurant file exists
-    const restaurantPath = path.join(process.cwd(), 'data/restaurants', restaurantFile);
+    const restaurantPath = path.join(process.cwd(), 'restaurant_data', restaurantFile);
     try {
       await fs.access(restaurantPath);
     } catch {
@@ -24,13 +25,11 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Validate skin exists
-    const skinPath = path.join(process.cwd(), 'skins', skinId);
-    try {
-      await fs.access(skinPath);
-    } catch {
+    // Validate template exists
+    const tpl = getTemplate(String(templateId));
+    if (!tpl) {
       return NextResponse.json(
-        { error: `Skin not found: ${skinId}` },
+        { error: `Template not found: ${templateId}` },
         { status: 404 }
       );
     }
@@ -43,7 +42,7 @@ export async function POST(request: NextRequest) {
     // The actual static generation will be implemented later
     const stats = {
       restaurantName,
-      skinId,
+      templateId,
       generatedAt: new Date().toISOString(),
       previewMode: true,
       message: 'Preview generated successfully - static site generation coming soon',
@@ -56,11 +55,11 @@ export async function POST(request: NextRequest) {
       success: true,
       message: `Preview generated successfully for ${restaurantName}`,
       data: stats,
-      skinId,
+      templateId,
       restaurantId,
       restaurantName,
-      type: 'skin'
-      // No external previewUrl for skin templates - they show inline preview
+      type: 'template',
+      previewUrl: `/restaurant/${restaurantId}?template=${encodeURIComponent(String(templateId))}&preview=true`
     });
 
   } catch (error) {

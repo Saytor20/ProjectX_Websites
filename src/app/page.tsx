@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react'
 import './figma-ui.css'
-import MoveableEditor, { MoveableEditorHandle } from '../dev/editor/MoveableEditor'
+// Minimal editor system is active via EditorProvider (Alt+E)
 
 interface RestaurantOption {
   id: string
@@ -10,7 +10,7 @@ interface RestaurantOption {
   file: string
 }
 
-interface SkinOption {
+interface TemplateOption {
   id: string
   name: string
   version: string
@@ -30,27 +30,28 @@ export default function Home() {
   const [selectedColor, setSelectedColor] = useState('#000000')
 
   // Core app states
-  const [selectedSkin, setSelectedSkin] = useState<string>('') 
+  const [selectedTemplate, setSelectedTemplate] = useState<string>('') 
   const [selectedRestaurant, setSelectedRestaurant] = useState<string>('')
   const [isGenerating, setIsGenerating] = useState<boolean | string>(false)
   const [error, setError] = useState<string>('')
   const [demoGenerated, setDemoGenerated] = useState(false)
-  const [skinLoaded, setSkinLoaded] = useState(false)
+  const [templateLoaded, setTemplateLoaded] = useState(false)
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
-  const [availableSkins, setAvailableSkins] = useState<SkinOption[]>([])
-  const [loadingSkins, setLoadingSkins] = useState(true)
+  const [availableTemplates, setAvailableTemplates] = useState<TemplateOption[]>([])
+  const [loadingTemplates, setLoadingTemplates] = useState(true)
   const [availableRestaurants, setAvailableRestaurants] = useState<RestaurantOption[]>([])
   const [loadingRestaurants, setLoadingRestaurants] = useState(true)
   const [restaurantData, setRestaurantData] = useState<any>(null)
-  const editorRef = useRef<MoveableEditorHandle>(null)
-  const [canUndo, setCanUndo] = useState(false)
-  const [canRedo, setCanRedo] = useState(false)
+  // Editor functionality moved to EditorShell component (Alt+E to open)
+  // Editor refs removed
+  // const [canUndo, setCanUndo] = useState(false)
+  // const [canRedo, setCanRedo] = useState(false)
   
   // Simplified - only one template type
-  const [templateType] = useState<'skin'>('skin')
+  const [templateType] = useState<'template'>('template')
   
   // Enhanced UX states
-  const [skinPreviews, setSkinPreviews] = useState<Record<string, string>>({})
+  const [templatePreviews, setTemplatePreviews] = useState<Record<string, string>>({})
   
   // Pagination states
   const [currentPage, setCurrentPage] = useState<Record<string, number>>({})
@@ -100,63 +101,25 @@ export default function Home() {
     }
   ]
 
-  // Load skin CSS dynamically
-  const loadSkinCSS = (skinId: string) => {
-    // Only run on client side
-    if (typeof window === 'undefined') return
+  // Phase 2: Legacy skin CSS loading removed - using templates only
 
-    try {
-      // Remove ALL existing skin CSS (not just the one with id)
-      const existingLinks = document.querySelectorAll('link[href*="/api/skins/"]')
-      existingLinks.forEach(link => link.remove())
-
-      if (skinId) {
-        // Add cache-busting timestamp to force reload
-        const timestamp = Date.now()
-        
-        // Create new link element for skin CSS
-        const link = document.createElement('link')
-        link.id = 'skin-css'
-        link.rel = 'stylesheet'
-        link.type = 'text/css'
-        link.href = `/api/skins/${skinId}/css?t=${timestamp}`
-        link.onload = () => {
-          console.log(`✓ Loaded skin CSS: ${skinId}`)
-          setSkinLoaded(true)
-        }
-        link.onerror = () => {
-          console.warn(`Failed to load skin CSS: ${skinId}`)
-          setSkinLoaded(false)
-        }
-        document.head.appendChild(link)
-      }
-    } catch (error) {
-      console.error('Error loading skin CSS:', error)
-      setSkinLoaded(false)
-    }
-  }
-
-  // Load skin CSS when selectedSkin changes
+  // Phase 2: CSS loading effect removed - templates handle their own styles
   useEffect(() => {
-    if (selectedSkin) {
-      setSkinLoaded(false)
-      loadSkinCSS(selectedSkin)
+    if (selectedTemplate) {
+      setTemplateLoaded(true) // Always ready for templates
     } else {
-      setSkinLoaded(false)
-      // Remove any existing skin CSS
-      const existingLinks = document.querySelectorAll('link[href*="/api/skins/"]')
-      existingLinks.forEach(link => link.remove())
+      setTemplateLoaded(false)
     }
-  }, [selectedSkin])
+  }, [selectedTemplate])
 
   // Force iframe reload when skin changes (simplified)
   useEffect(() => {
-    if (demoGenerated && selectedSkin && safeRestaurant) {
+    if (demoGenerated && selectedTemplate && safeRestaurant) {
       const timer = setTimeout(() => {
         const iframe = document.querySelector('iframe[title="Website Preview"]') as HTMLIFrameElement
         if (iframe) {
           const baseSrc = `/restaurant/${safeRestaurant}`
-          iframe.src = `${baseSrc}?preview=true&skin=${selectedSkin}&t=${Date.now()}`
+          iframe.src = `${baseSrc}?preview=true&template=${selectedTemplate}&t=${Date.now()}`
           console.log(`🔄 Updated iframe src: ${iframe.src}`)
         }
       }, 500) // Small delay to ensure skin CSS is loaded
@@ -166,28 +129,29 @@ export default function Home() {
     
     // Return undefined for cases where the condition is not met
     return undefined
-  }, [selectedSkin, demoGenerated, safeRestaurant])
+  }, [selectedTemplate, demoGenerated, safeRestaurant])
 
-  // Load available skins on component mount
+  // Load available templates on component mount
   useEffect(() => {
     const loadSkins = async () => {
       try {
-        setLoadingSkins(true)
-        const response = await fetch('/api/skins')
+        setLoadingTemplates(true)
+        const response = await fetch('/api/templates')
         const data = await response.json()
         
-        if (data.success && data.skins) {
-          setAvailableSkins(data.skins)
-          console.log(`🎨 Loaded ${data.skins.length} skins:`, data.skins.map(s => s.name))
+        if (data.success && (data.templates || data.data)) {
+          const list = data.templates || data.data
+          setAvailableTemplates(list)
+          console.log(`🎨 Loaded ${list.length} templates:`, list.map((s: any) => s.name))
         } else {
-          console.error('Failed to load skins:', data.error)
+          console.error('Failed to load templates:', data.error)
           setError('Failed to load available templates')
         }
       } catch (error) {
-        console.error('Error fetching skins:', error)
+        console.error('Error fetching templates:', error)
         setError('Error loading templates')
       } finally {
-        setLoadingSkins(false)
+        setLoadingTemplates(false)
       }
     }
 
@@ -204,7 +168,7 @@ export default function Home() {
         
         if (data.success && data.restaurants) {
           setAvailableRestaurants(data.restaurants)
-          console.log(`🍽️ Loaded ${data.restaurants.length} restaurants:`, data.restaurants.map(r => r.name))
+          console.log(`🍽️ Loaded ${data.restaurants.length} restaurants:`, data.restaurants.map((r: any) => r.name))
         } else {
           console.error('Failed to load restaurants:', data.error)
           setError('Failed to load available restaurants')
@@ -266,11 +230,11 @@ export default function Home() {
   // Debug logging for state changes
   useEffect(() => {
     console.log('🔍 State update:', {
-      selectedSkin: `"${selectedSkin}"`,
+      selectedTemplate: `"${selectedTemplate}"`,
       selectedRestaurant: `"${selectedRestaurant}"`,
-      buttonDisabled: !selectedSkin || !selectedRestaurant
+      buttonDisabled: !selectedTemplate || !selectedRestaurant
     });
-  }, [selectedSkin, selectedRestaurant]);
+  }, [selectedTemplate, selectedRestaurant]);
 
   // Auto-rotate hero images
   useEffect(() => {
@@ -289,7 +253,7 @@ export default function Home() {
   // Removed keyboard shortcuts - simplified editor approach
 
   const generateSite = async () => {
-    if (!selectedSkin || !selectedRestaurant) {
+    if (!selectedTemplate || !selectedRestaurant) {
       setError('Please select both a skin and restaurant')
       return
     }
@@ -306,7 +270,7 @@ export default function Home() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          skinId: selectedSkin,
+          templateId: selectedTemplate,
           restaurantId: selectedRestaurant,
           restaurantFile: selectedRestaurantData?.file,
           displayConfig: menuDisplay,
@@ -430,31 +394,31 @@ export default function Home() {
                     <div className="section-header">
                       <span className="section-icon">🎨</span>
                       <span className="section-title">Templates</span>
-                      {loadingSkins && <span className="loading-indicator">⌛</span>}
+                      {loadingTemplates && <span className="loading-indicator">⌛</span>}
                     </div>
                     <div className="settings-group">
                       <div className="setting-row">
                         <select
-                          value={selectedSkin}
+                          value={selectedTemplate}
                           onChange={(e) => {
                             console.log('🎨 Template selected:', e.target.value);
-                            setSelectedSkin(e.target.value);
+                            setSelectedTemplate(e.target.value);
                           }}
-                          disabled={loadingSkins}
+                          disabled={loadingTemplates}
                           className="setting-select"
                           style={{width: '100%', padding: '12px', fontSize: '13px'}}
                         >
-                          <option value="">{loadingSkins ? 'Loading templates...' : 'Choose a template...'}</option>
-                          {availableSkins.map(skin => (
-                            <option key={skin.id} value={skin.id}>
-                              {skin.name} v{skin.version}
+                          <option value="">{loadingTemplates ? 'Loading templates...' : 'Choose a template...'}</option>
+                          {availableTemplates.map(tpl => (
+                            <option key={tpl.id} value={tpl.id}>
+                              {tpl.name} v{tpl.version}
                             </option>
                           ))}
                         </select>
-                        {selectedSkin && (
+                        {selectedTemplate && (
                           <div style={{marginTop: '8px', fontSize: '11px', color: 'var(--figma-text-muted)'}}>
-                            {availableSkins.find(s => s.id === selectedSkin)?.description}
-                            {skinLoaded ? ' ✓ Loaded' : ' Loading...'}
+                            {availableTemplates.find(s => s.id === selectedTemplate)?.description}
+                            {templateLoaded ? ' ✓ Loaded' : ' Loading...'}
                           </div>
                         )}
                       </div>
@@ -587,8 +551,12 @@ export default function Home() {
                 {/* Separator */}
                 <div className="toolbar-separator"></div>
                 
-                {/* History Buttons */}
+                {/* History Buttons - Now handled by EditorShell (Alt+E) */}
                 <div className="history-group">
+                  <div className="editor-info">
+                    Press <kbd>Alt+E</kbd> to open the new editor
+                  </div>
+                  {/* 
                   <button 
                     onClick={() => editorRef.current?.undo()}
                     disabled={!canUndo}
@@ -612,6 +580,7 @@ export default function Home() {
                   >
                     💾 Save
                   </button>
+                  */}
                 </div>
                 
                 {/* Color Palette - shows when color tool is active */}
@@ -643,9 +612,10 @@ export default function Home() {
                           style={{ backgroundColor: color }}
                           onClick={() => {
                             setSelectedColor(color);
-                            if (editorRef.current) {
-                              (editorRef.current as any).applyColor?.(color, colorMode);
-                            }
+                            // Color application now handled by EditorShell
+                            // if (editorRef.current) {
+                            //   (editorRef.current as any).applyColor?.(color, colorMode);
+                            // }
                           }}
                           title={color}
                         />
@@ -659,13 +629,13 @@ export default function Home() {
               <button 
                 onClick={() => {
                   console.log('🚀 Generate button clicked!', {
-                    selectedSkin,
+                    selectedTemplate,
                     selectedRestaurant,
-                    disabled: !selectedSkin || !selectedRestaurant || isGenerating
+                    disabled: !selectedTemplate || !selectedRestaurant || isGenerating
                   });
                   generateSite();
                 }}
-                disabled={!selectedSkin || !selectedRestaurant || !!isGenerating}
+                disabled={!selectedTemplate || !selectedRestaurant || !!isGenerating}
                 className="generate-btn"
               >
                 <span className="btn-icon">🚀</span>
@@ -695,7 +665,7 @@ export default function Home() {
                     }}>
                       <iframe
                         src={safeRestaurant
-                          ? `/restaurant/${safeRestaurant}?preview=true&skin=${selectedSkin}&menuVariant=${encodeURIComponent(menuDisplay.variant)}&menuShowImages=${menuDisplay.showImages}&menuShowDescriptions=${menuDisplay.showDescriptions}&menuItemsPerRow=${menuDisplay.itemsPerRow}`
+                          ? `/restaurant/${safeRestaurant}?preview=true&template=${selectedTemplate}&menuVariant=${encodeURIComponent(menuDisplay.variant)}&menuShowImages=${menuDisplay.showImages}&menuShowDescriptions=${menuDisplay.showDescriptions}&menuItemsPerRow=${menuDisplay.itemsPerRow}`
                           : 'about:blank'}
                         style={{
                           width: '100%',
@@ -715,7 +685,7 @@ export default function Home() {
                       Select a template and restaurant data to generate your website preview
                     </div>
                     <div style={{ marginTop: '20px', display: 'flex', gap: '16px', justifyContent: 'center', fontSize: '12px', color: 'var(--figma-text-muted)' }}>
-                      <span>🎨 {availableSkins.length} templates</span>
+                      <span>🎨 {availableTemplates.length} templates</span>
                       <span>🍽️ {availableRestaurants.length} restaurants</span>
                       <span>📱 Local data only</span>
                     </div>
@@ -740,7 +710,7 @@ export default function Home() {
                 }}>
                   <iframe
                     src={safeRestaurant
-                      ? `/restaurant/${safeRestaurant}?skin=${selectedSkin}&menuVariant=${encodeURIComponent(menuDisplay.variant)}&menuShowImages=${menuDisplay.showImages}&menuShowDescriptions=${menuDisplay.showDescriptions}&menuItemsPerRow=${menuDisplay.itemsPerRow}&design=true`
+                      ? `/restaurant/${safeRestaurant}?template=${selectedTemplate}&menuVariant=${encodeURIComponent(menuDisplay.variant)}&menuShowImages=${menuDisplay.showImages}&menuShowDescriptions=${menuDisplay.showDescriptions}&menuItemsPerRow=${menuDisplay.itemsPerRow}&design=true`
                       : 'about:blank'}
                     style={{
                       width: '100%',
@@ -752,20 +722,7 @@ export default function Home() {
                     id="design-iframe"
                   />
                   
-                  {/* Moveable Editor Overlay */}
-                  <MoveableEditor
-                    ref={editorRef}
-                    iframeId="design-iframe"
-                    skinId={selectedSkin}
-                    restaurantId={selectedRestaurant}
-                    activeTool={activeTool}
-                    colorMode={colorMode}
-                    selectedColor={selectedColor}
-                    onHistoryChange={(undo, redo) => {
-                      setCanUndo(undo)
-                      setCanRedo(redo)
-                    }}
-                  />
+                  {/* EditorShell is toggled globally (Alt+E) */}
                 </div>
               </div>
             )}
@@ -782,7 +739,7 @@ export default function Home() {
                   <button 
                     className="action-btn primary"
                     onClick={() => {
-                      if (safeRestaurant) window.open(`/restaurant/${safeRestaurant}?skin=${selectedSkin}&preview=true&device=desktop`, '_blank')
+                      if (safeRestaurant) window.open(`/restaurant/${safeRestaurant}?template=${selectedTemplate}&preview=true&device=desktop`, '_blank')
                     }}
                   >
                     <span className="btn-icon">🖥️</span>
@@ -791,7 +748,7 @@ export default function Home() {
                   <button 
                     className="action-btn primary"
                     onClick={() => {
-                      if (safeRestaurant) window.open(`/restaurant/${safeRestaurant}?skin=${selectedSkin}&preview=true&device=tablet`, '_blank')
+                      if (safeRestaurant) window.open(`/restaurant/${safeRestaurant}?template=${selectedTemplate}&preview=true&device=tablet`, '_blank')
                     }}
                   >
                     <span className="btn-icon">📱</span>
@@ -800,7 +757,7 @@ export default function Home() {
                   <button 
                     className="action-btn primary"
                     onClick={() => {
-                      if (safeRestaurant) window.open(`/restaurant/${safeRestaurant}?skin=${selectedSkin}&preview=true&device=mobile`, '_blank')
+                      if (safeRestaurant) window.open(`/restaurant/${safeRestaurant}?template=${selectedTemplate}&preview=true&device=mobile`, '_blank')
                     }}
                   >
                     <span className="btn-icon">📲</span>
@@ -924,7 +881,7 @@ export default function Home() {
                       <button 
                         className="action-btn-full"
                         onClick={() => {
-                          if (safeRestaurant) window.open(`/api/preview/${safeRestaurant}?skin=${selectedSkin}`, '_blank')
+                          if (safeRestaurant) window.open(`/api/preview/${safeRestaurant}?template=${selectedTemplate}`, '_blank')
                         }}
                       >
                         🔗 Open in New Window
@@ -944,7 +901,7 @@ export default function Home() {
                   <div className="status-compact">
                     <div className="status-item">
                       <span className="status-label">Template:</span>
-                      <span className="status-value">{availableSkins.find(s => s.id === selectedSkin)?.name}</span>
+                      <span className="status-value">{availableTemplates.find(s => s.id === selectedTemplate)?.name}</span>
                     </div>
                     <div className="status-item">
                       <span className="status-label">Restaurant:</span>

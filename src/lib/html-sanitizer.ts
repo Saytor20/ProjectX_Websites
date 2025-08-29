@@ -86,7 +86,9 @@ function filterAttributes(
   let match
   
   while ((match = attrRegex.exec(attributeString)) !== null) {
-    const [, attrName, attrValue] = match
+    const attrName = match[1]
+    const attrValue = match[2]
+    if (!attrName || attrValue === undefined) continue
     
     // Check if attribute is allowed
     const isAllowed = allowedForTag.some(pattern => {

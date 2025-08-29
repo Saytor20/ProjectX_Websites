@@ -137,15 +137,15 @@ export function Footer({
         {locations.length > 0 && variant !== 'minimal' && (
           <div style={sectionStyle}>
             <h3 style={sectionTitleStyle}>Contact</h3>
-            {locations[0].address && (
+            {locations[0]?.address && (
               <div style={{ color: 'var(--footer-text, #bdc3c7)' }}>
-                <div style={{ marginBottom: '0.5rem' }}>📍 {locations[0].address}</div>
+                <div style={{ marginBottom: '0.5rem' }}>📍 {locations[0]?.address}</div>
               </div>
             )}
-            {locations[0].phone && (
+            {locations[0]?.phone && (
               <div style={{ color: 'var(--footer-text, #bdc3c7)' }}>
                 📞 <a 
-                  href={`tel:${locations[0].phone}`} 
+                  href={`tel:${locations[0]?.phone ?? ''}`} 
                   style={linkStyle}
                   onMouseEnter={(e) => {
                     e.currentTarget.style.color = 'var(--footer-link-hover, #ffffff)'
@@ -154,13 +154,13 @@ export function Footer({
                     e.currentTarget.style.color = 'var(--footer-link, #bdc3c7)'
                   }}
                 >
-                  {locations[0].phone}
+                  {locations[0]?.phone}
                 </a>
               </div>
             )}
-            {locations[0].hours && (
+            {locations[0]?.hours && (
               <div style={{ color: 'var(--footer-text, #bdc3c7)' }}>
-                🕒 {locations[0].hours}
+                🕒 {locations[0]?.hours}
               </div>
             )}
           </div>

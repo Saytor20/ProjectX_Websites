@@ -1,0 +1,27 @@
+{
+  "id": "simple-modern",
+  "name": "Simple Modern",
+  "description": "Clean and minimal restaurant template with light/dark theme variants. Features responsive design, comprehensive menu display with Arabic support, interactive gallery, and professional layout perfect for modern restaurants.",
+  "category": "modern",
+  "features": [
+    "Light/Dark Theme Variants",
+    "Mobile Responsive Design",
+    "Arabic Menu Support",
+    "Interactive Gallery Grid",
+    "Professional Typography",
+    "Gradient Backgrounds",
+    "Sticky Navigation"
+  ],
+  "slots": [
+    "navbar",
+    "hero", 
+    "menu",
+    "gallery",
+    "hours",
+    "cta",
+    "footer"
+  ],
+  "version": "1.0.0",
+  "author": "Simple Modern Template System",
+  "tags": ["modern", "clean", "minimal", "responsive", "professional"]
+}

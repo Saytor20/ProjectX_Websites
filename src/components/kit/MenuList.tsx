@@ -105,8 +105,8 @@ export function MenuList({
     margin: 0
   }
 
-  const formatPrice = (price: string | number) => {
-    if (!price) return 'Price on request'
+  const formatPrice = (price: string | number | undefined) => {
+    if (price === undefined || price === null || (typeof price === 'string' && price.trim() === '')) return 'Price on request'
     return `${price} ${currency}`
   }
 

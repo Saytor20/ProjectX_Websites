@@ -242,6 +242,10 @@ function main() {
   }
 
   const templateId = args[0];
+  if (!templateId) {
+    console.error('Error: Template ID is required');
+    process.exit(1);
+  }
   const validator = new TemplateValidator(templateId);
   const isValid = validator.validate();
 
