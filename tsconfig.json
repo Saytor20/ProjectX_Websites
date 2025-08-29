@@ -32,17 +32,15 @@
   },
   "include": [
     "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts",
-    "src/**/*"
+    "src/**/*.ts",
+    "src/**/*.tsx", 
+    "templates/**/*.ts",
+    "templates/**/*.tsx",
+    "tools/**/*.ts",
+    ".next/types/**/*.ts"
   ],
   "exclude": [
-    "node_modules", 
-    "dist", 
-    "archived_temp",
-    "generator/temp_build/**/*",
-    "generated_sites/**/*",
-    "foodera-site/**/*"
+    "node_modules",
+    "dist"
   ]
 }

@@ -1,5 +1,4 @@
 import React from 'react'
-import { sanitizeHTML } from '@/lib/html-sanitizer'
 
 export interface RawHTMLProps {
   id: string
@@ -30,29 +29,8 @@ export function RawHTML({
     )
   }
   
-  // Sanitize the HTML content
-  const sanitizedHTML = sanitizeHTML(content, {
-    removeScripts: true,
-    allowedTags: [
-      // Basic structure
-      'div', 'span', 'section', 'article', 'header', 'footer', 'main', 'nav',
-      // Typography
-      'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'br', 'hr',
-      'strong', 'em', 'i', 'b', 'u', 'small', 'mark',
-      // Lists
-      'ul', 'ol', 'li', 'dl', 'dt', 'dd',
-      // Media
-      'img', 'figure', 'figcaption',
-      // Links
-      'a',
-      // Tables
-      'table', 'thead', 'tbody', 'tr', 'td', 'th',
-      // Forms (for restaurant booking/contact)
-      'form', 'input', 'button', 'textarea', 'select', 'option',
-      // Quotes and code
-      'blockquote', 'cite', 'q', 'code', 'pre'
-    ]
-  })
+  // Basic HTML content - template packages handle their own security
+  const sanitizedHTML = content
   
   return (
     <div 
