@@ -18,6 +18,7 @@ export interface HeroProps extends BaseComponentProps {
     label: string
     value: string
   }>
+  editorId?: string
 }
 
 export function Hero({ 
@@ -34,8 +35,11 @@ export function Hero({
   stats = [],
   className = '',
   variant = 'default',
+  editorId = '',
   ...props 
 }: HeroProps) {
+  // Deterministic ID stamping function for child elements
+  const stampId = (suffix: string) => editorId ? `${editorId}:${suffix}` : suffix;
   const getBackgroundStyle = (): React.CSSProperties => {
     switch (backgroundType) {
       case 'gradient':
@@ -181,24 +185,25 @@ export function Hero({
         </video>
       )}
 
-      <div style={contentStyle}>
-        <h1 style={titleStyle}>{title}</h1>
+      <div style={contentStyle} data-editor-id={stampId('content')}>
+        <h1 style={titleStyle} data-editor-id={stampId('title')}>{title}</h1>
         
         {subtitle && (
-          <h2 style={subtitleStyle}>{subtitle}</h2>
+          <h2 style={subtitleStyle} data-editor-id={stampId('subtitle')}>{subtitle}</h2>
         )}
         
         {description && (
-          <p style={descriptionStyle}>{description}</p>
+          <p style={descriptionStyle} data-editor-id={stampId('description')}>{description}</p>
         )}
         
         {(ctaButton || secondaryButton) && (
-          <div style={buttonContainerStyle}>
+          <div style={buttonContainerStyle} data-editor-id={stampId('buttons')}>
             {ctaButton && (
               <a
                 href={ctaButton.href}
                 target={ctaButton.target}
                 style={primaryButtonStyle}
+                data-editor-id={stampId('button-primary')}
                 onMouseEnter={(e) => {
                   e.currentTarget.style.transform = 'translateY(-2px)'
                   e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.2)'
@@ -217,6 +222,7 @@ export function Hero({
                 href={secondaryButton.href}
                 target={secondaryButton.target}
                 style={secondaryButtonStyle}
+                data-editor-id={stampId('button-secondary')}
                 onMouseEnter={(e) => {
                   e.currentTarget.style.backgroundColor = backgroundType === 'solid' ? 'var(--hero-text-color, #333)' : 'white'
                   e.currentTarget.style.color = backgroundType === 'solid' ? 'white' : 'var(--hero-gradient, #667eea)'

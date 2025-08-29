@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import fs from 'fs/promises'
 import path from 'path'
+import { loadSkinMapping } from '@/lib/mapping-dsl'
 
 export async function GET(
   request: NextRequest,
@@ -16,25 +17,12 @@ export async function GET(
       )
     }
     
-    const skinDirectory = path.join(process.cwd(), 'skins', skinId)
-    const mapPath = path.join(skinDirectory, 'map.yml')
+    // Use the existing loadSkinMapping function to parse and return JSON
+    const mappings = await loadSkinMapping(skinId)
     
-    // Check if mapping file exists
-    const mapExists = await fs.access(mapPath).then(() => true).catch(() => false)
-    if (!mapExists) {
-      return NextResponse.json(
-        { error: `Mapping file not found for skin: ${skinId}` },
-        { status: 404 }
-      )
-    }
-    
-    // Read the mapping file
-    const mapContent = await fs.readFile(mapPath, 'utf8')
-    
-    return new NextResponse(mapContent, {
+    return NextResponse.json(mappings, {
       status: 200,
       headers: {
-        'Content-Type': 'text/yaml',
         'Cache-Control': 'public, max-age=3600' // Cache for 1 hour
       }
     })

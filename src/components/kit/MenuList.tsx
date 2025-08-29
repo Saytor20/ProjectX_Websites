@@ -10,6 +10,8 @@ export interface MenuListProps extends BaseComponentProps {
   showImages?: boolean
   showDescriptions?: boolean
   locale?: string
+  itemsPerRow?: number
+  editorId?: string
 }
 
 export function MenuList({ 
@@ -21,8 +23,12 @@ export function MenuList({
   locale = 'en',
   className = '',
   variant = 'accordion',
+  itemsPerRow = 3,
+  editorId = '',
   ...props 
 }: MenuListProps) {
+  // Deterministic ID stamping function for child elements
+  const stampId = (suffix: string) => editorId ? `${editorId}:${suffix}` : suffix;
   const [activeSection, setActiveSection] = useState<number | null>(0)
 
   const menuStyle: React.CSSProperties = {
@@ -54,7 +60,7 @@ export function MenuList({
     display: 'grid',
     gridTemplateColumns: variant === 'simple-list' 
       ? '1fr' 
-      : 'repeat(auto-fill, minmax(300px, 1fr))',
+      : `repeat(${Math.max(1, Math.min(6, itemsPerRow))}, minmax(0, 1fr))`,
     gap: '1.5rem',
     marginBottom: '3rem'
   }
@@ -104,10 +110,11 @@ export function MenuList({
     return `${price} ${currency}`
   }
 
-  const renderMenuItem = (item: MenuItem, index: number) => (
+  const renderMenuItem = (item: MenuItem, index: number, sectionIndex: number) => (
     <div
       key={index}
       style={itemStyle}
+      data-editor-id={stampId(`item-${sectionIndex}-${index}`)}
       onMouseEnter={(e) => {
         if (variant !== 'simple-list') {
           e.currentTarget.style.transform = 'translateY(-2px)'
@@ -121,10 +128,11 @@ export function MenuList({
         }
       }}
     >
-      {showImages && item.image && (
+      {showImages && item.image && item.image.trim() && item.image !== 'null' && item.image !== 'undefined' && (
         <img
           src={item.image}
           alt={item.name}
+          data-editor-id={stampId(`item-${sectionIndex}-${index}-image`)}
           style={{
             width: '100%',
             height: '200px',
@@ -135,13 +143,13 @@ export function MenuList({
         />
       )}
       
-      <div style={itemHeaderStyle}>
-        <h4 style={itemNameStyle}>{item.name}</h4>
-        <span style={itemPriceStyle}>{formatPrice(item.price)}</span>
+      <div style={itemHeaderStyle} data-editor-id={stampId(`item-${sectionIndex}-${index}-header`)}>
+        <h4 style={itemNameStyle} data-editor-id={stampId(`item-${sectionIndex}-${index}-name`)}>{item.name}</h4>
+        <span style={itemPriceStyle} data-editor-id={stampId(`item-${sectionIndex}-${index}-price`)}>{formatPrice(item.price)}</span>
       </div>
       
       {showDescriptions && item.description && (
-        <p style={itemDescriptionStyle}>{item.description}</p>
+        <p style={itemDescriptionStyle} data-editor-id={stampId(`item-${sectionIndex}-${index}-description`)}>{item.description}</p>
       )}
     </div>
   )
@@ -150,9 +158,10 @@ export function MenuList({
     const isActive = variant !== 'accordion' || activeSection === index
     
     return (
-      <div key={index} style={{ marginBottom: '3rem' }}>
+      <div key={index} style={{ marginBottom: '3rem' }} data-editor-id={stampId(`section-${index}`)}>
         <h3
           style={sectionHeaderStyle}
+          data-editor-id={stampId(`section-${index}-name`)}
           onClick={() => {
             if (variant === 'accordion') {
               setActiveSection(activeSection === index ? null : index)
@@ -189,8 +198,8 @@ export function MenuList({
         )}
         
         {isActive && (
-          <div style={itemsGridStyle}>
-            {section.items.map((item, itemIndex) => renderMenuItem(item, itemIndex))}
+          <div style={itemsGridStyle} data-editor-id={stampId(`section-${index}-items`)}>
+            {section.items.map((item, itemIndex) => renderMenuItem(item, itemIndex, index))}
           </div>
         )}
       </div>
@@ -214,9 +223,11 @@ export function MenuList({
       style={menuStyle}
       {...props}
     >
-      {title && <h2 style={titleStyle}>{title}</h2>}
+      {title && <h2 style={titleStyle} data-editor-id={stampId('title')}>{title}</h2>}
       
-      {sections.map((section, index) => renderSection(section, index))}
+      <div data-editor-id={stampId('sections')}>
+        {sections.map((section, index) => renderSection(section, index))}
+      </div>
     </section>
   )
 }

@@ -1112,3 +1112,134 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Editor Toolbar */
+.editor-toolbar {
+  position: fixed;
+  top: 70px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  z-index: 100;
+  background: var(--figma-surface);
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid var(--figma-border);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.editor-toolbar .tool-group,
+.editor-toolbar .history-group {
+  display: flex;
+  gap: 4px;
+}
+
+.editor-toolbar .toolbar-separator {
+  width: 1px;
+  height: 24px;
+  background: var(--figma-border);
+  margin: 0 4px;
+}
+
+.editor-toolbar .toolbar-btn {
+  padding: 6px 12px;
+  background: transparent;
+  color: var(--figma-text);
+  border: 1px solid transparent;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.editor-toolbar .toolbar-btn.tool {
+  min-width: 60px;
+}
+
+.editor-toolbar .toolbar-btn:hover:not(:disabled) {
+  background: var(--figma-surface-light);
+  border-color: var(--figma-border);
+}
+
+.editor-toolbar .toolbar-btn.active {
+  background: var(--figma-tool-active);
+  color: white;
+  border-color: var(--figma-tool-active);
+}
+
+.editor-toolbar .toolbar-btn.active:hover {
+  background: var(--figma-tool-hover);
+  border-color: var(--figma-tool-hover);
+}
+
+.editor-toolbar .toolbar-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.editor-toolbar .toolbar-btn.primary {
+  background: var(--figma-primary);
+  color: white;
+  border-color: var(--figma-primary);
+}
+
+.editor-toolbar .toolbar-btn.primary:hover {
+  background: var(--figma-primary-hover);
+  border-color: var(--figma-primary-hover);
+}
+
+/* Color Palette */
+.color-palette-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 8px;
+}
+
+.color-mode-toggle {
+  display: flex;
+  gap: 4px;
+  background: var(--figma-surface-light);
+  padding: 2px;
+  border-radius: 6px;
+}
+
+.color-mode-toggle .mode-btn {
+  padding: 4px 8px;
+  background: transparent;
+  color: var(--figma-text-muted);
+  border: none;
+  border-radius: 4px;
+  font-size: 11px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.color-mode-toggle .mode-btn.active {
+  background: var(--figma-surface);
+  color: var(--figma-text);
+}
+
+.color-grid {
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  background: var(--figma-surface-light);
+  border-radius: 6px;
+}
+
+.color-swatch {
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--figma-border);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.color-swatch:hover {
+  transform: scale(1.2);
+  border-color: var(--figma-accent);
+}

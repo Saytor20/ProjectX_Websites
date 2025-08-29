@@ -9,6 +9,8 @@ import { CTA } from '@/components/kit/CTA'
 import { Footer } from '@/components/kit/Footer'
 import { RichText } from '@/components/kit/RichText'
 import { Section } from '@/components/kit/Section'
+import { RawHTML } from '@/components/kit/RawHTML'
+// Removed Inspectable import - no longer using Shadow DOM editor
 
 // Component registry for dynamic rendering
 const componentRegistry = {
@@ -21,7 +23,8 @@ const componentRegistry = {
   CTA,
   Footer,
   RichText,
-  Section
+  Section,
+  RawHTML
 }
 
 export interface ComponentMapping {
@@ -120,6 +123,57 @@ function evaluateCondition(condition: string | undefined, data: RestaurantData):
   return value !== null && value !== undefined && value !== ''
 }
 
+// Apply pipe operations to resolved values
+function applyPipes(value: any, pipeStr: string): any {
+  const pipes = pipeStr.split('|').map(p => p.trim()).filter(p => p)
+  
+  let result = value
+  for (const pipe of pipes) {
+    const match = pipe.match(/^(\w+)(?:\(([^)]*)\))?$/)
+    if (!match) continue
+    
+    const [, operation, params] = match
+    const paramList = params ? params.split(',').map(p => p.trim()) : []
+    
+    if (Array.isArray(result)) {
+      switch (operation) {
+        case 'first':
+          const firstN = paramList[0] ? parseInt(paramList[0]) : 1
+          result = result.slice(0, firstN)
+          break
+        case 'truncate':
+          const truncateN = paramList[0] ? parseInt(paramList[0]) : result.length
+          result = result.slice(0, truncateN)
+          break
+        case 'join':
+          const separator = paramList[0]?.replace(/['"]/g, '') || ''
+          result = result.join(separator)
+          break
+      }
+    }
+  }
+  
+  return result
+}
+
+// Process string interpolation ${$.path} syntax
+function processInterpolation(template: string, data: RestaurantData): string {
+  return template.replace(/\$\{(\$\.[^}]+)\}/g, (match, path) => {
+    const resolved = resolvePath(data, path)
+    return resolved !== null && resolved !== undefined ? String(resolved) : ''
+  })
+}
+
+// Filter array items by 'when' condition
+function filterByWhen(items: any[]): any[] {
+  return items.filter(item => {
+    if (typeof item === 'object' && item !== null && 'when' in item) {
+      return item.when !== false && item.when !== null && item.when !== undefined
+    }
+    return true
+  })
+}
+
 // Process mapping props to resolve data paths
 function processProps(props: Record<string, any>, data: RestaurantData): Record<string, any> {
   const processed: Record<string, any> = {}
@@ -138,33 +192,101 @@ function processProps(props: Record<string, any>, data: RestaurantData): Record<
     }
     
     if (typeof value === 'string' && value.startsWith('$.')) {
-      // Handle default values with ??
-      if (value.includes(' ?? ')) {
-        const [path, defaultValue] = value.split(' ?? ')
-        const resolved = resolvePath(data, path.trim())
-        processed[key] = resolved !== null && resolved !== undefined ? resolved : defaultValue.replace(/"/g, '')
+      let resolvedValue: any = null
+      
+      // Handle default values with ?? (both spaced and non-spaced)
+      if (value.includes('??')) {
+        const [pathPart, defaultPart] = value.split('??').map(s => s.trim())
+        
+        // Check for pipes in the path part
+        if (pathPart.includes('|')) {
+          const [path, pipeStr] = pathPart.split('|').map(s => s.trim())
+          const resolved = resolvePath(data, path)
+          resolvedValue = resolved !== null && resolved !== undefined ? 
+            applyPipes(resolved, pipeStr) : 
+            defaultPart.replace(/^['"]|['"]$/g, '') // Strip quotes from default
+        } else {
+          const resolved = resolvePath(data, pathPart)
+          resolvedValue = resolved !== null && resolved !== undefined ? 
+            resolved : 
+            defaultPart.replace(/^['"]|['"]$/g, '') // Strip quotes from default
+        }
+      } else if (value.includes('|')) {
+        // Handle pipes without defaults
+        const [path, pipeStr] = value.split('|').map(s => s.trim())
+        const resolved = resolvePath(data, path)
+        resolvedValue = resolved !== null && resolved !== undefined ? 
+          applyPipes(resolved, pipeStr) : 
+          null
       } else {
-        processed[key] = resolvePath(data, value)
+        // Simple path resolution
+        resolvedValue = resolvePath(data, value)
       }
+      
+      // Apply array filtering if result is array
+      if (Array.isArray(resolvedValue)) {
+        resolvedValue = filterByWhen(resolvedValue)
+      }
+      
+      processed[key] = resolvedValue
+    } else if (typeof value === 'string' && value.includes('${$.')) {
+      // Handle string interpolation
+      processed[key] = processInterpolation(value, data)
     } else if (Array.isArray(value)) {
-      processed[key] = value.map(item => {
+      const processedArray = value.map(item => {
         if (typeof item === 'object' && item !== null) {
           return processProps(item, data)
         }
         return item
       })
+      // Apply when filtering to processed array
+      processed[key] = filterByWhen(processedArray)
     } else if (typeof value === 'object' && value !== null) {
       processed[key] = processProps(value, data)
     } else {
       processed[key] = value
+    }
+
+    // Sanitize invalid or unresolved hrefs to safe anchors
+    if (key === 'href') {
+      const v = processed[key]
+      if (
+        v === null || v === undefined ||
+        (typeof v === 'string' && (
+          v.trim() === '' ||
+          v === 'null' || v === 'undefined' ||
+          /\/restaurant\/(null|undefined)(\b|\/|\?|#|$)/.test(v)
+        ))
+      ) {
+        processed[key] = '#'
+      }
+    }
+  }
+  
+  // Apply property aliasing
+  const aliases = {
+    alignment: 'textAlign',
+    background: 'backgroundColor',
+    colour: 'color'
+  }
+  
+  for (const [alias, realProp] of Object.entries(aliases)) {
+    if (alias in processed) {
+      processed[realProp] = processed[alias]
+      delete processed[alias]
     }
   }
   
   return processed
 }
 
-// Render a single component mapping
-export function renderComponent(mapping: ComponentMapping, data: RestaurantData, key?: string): React.ReactNode {
+// Render a single component mapping with hierarchical paths
+export function renderComponent(
+  mapping: ComponentMapping, 
+  data: RestaurantData, 
+  path: string = '0',
+  key?: string
+): React.ReactNode {
   // Check condition
   if (!evaluateCondition(mapping.when, data)) {
     return null
@@ -176,7 +298,7 @@ export function renderComponent(mapping: ComponentMapping, data: RestaurantData,
     return null
   }
   
-  // Process props
+  // Process props and sanitize hrefs in design mode
   const processedProps = processProps(mapping.props, data)
   
   // Add variant if specified
@@ -184,22 +306,34 @@ export function renderComponent(mapping: ComponentMapping, data: RestaurantData,
     processedProps.variant = mapping.variant
   }
   
+  // Add deterministic editor ID stamping function
+  processedProps.editorId = path
+  
   // Render children if any
   let children = null
   if (mapping.children && mapping.children.length > 0) {
-    children = mapping.children.map((child, index) => 
-      renderComponent(child, data, `${key}-child-${index}`)
-    ).filter(Boolean)
+    children = mapping.children.map((child, childIndex) => {
+      const childPath = `${path}:child-${childIndex}`
+      return renderComponent(child, data, childPath, `child-${childIndex}`)
+    }).filter(Boolean)
   }
   
-  // Use any to bypass TypeScript strict typing for dynamic components
-  return React.createElement(Component as any, { key, ...processedProps }, children)
+  // Filter out editorId from DOM props and create component element with deterministic nested data-editor-ids
+  const { editorId: _, ...domProps } = processedProps;
+  const element = React.createElement(Component as any, { 
+    key, 
+    ...domProps,
+    'data-editor-id': path 
+  }, children)
+  
+  // Direct return - no longer wrapping with Inspectable
+  return element
 }
 
 // Render complete page layout
 export function renderPageLayout(mappings: ComponentMapping[], data: RestaurantData): React.ReactNode {
   return mappings.map((mapping, index) => 
-    renderComponent(mapping, data, `component-${index}`)
+    renderComponent(mapping, data, String(index), `component-${index}`)
   ).filter(Boolean)
 }
 

@@ -73,17 +73,18 @@ export function normalizeRestaurantData(rawData: any): RestaurantData {
     menuSections = menuData.sections
   }
   
-  return {
+  // Build initial result structure
+  const result = {
     business: {
       name: restaurantInfo.name || 'Restaurant',
       tagline: restaurantInfo.tagline || restaurantInfo.description,
       description: restaurantInfo.description || '',
       logo: restaurantInfo.logo,
-      social: restaurantInfo.social || {}
+      social: restaurantInfo.social || rawData.social || {}
     },
     menu: {
       sections: menuSections,
-      currency: menuData.currency || 'SAR'
+      currency: menuData.currency || rawData.currency || 'SAR'
     },
     gallery: {
       hero: rawData.gallery?.hero,
@@ -101,6 +102,45 @@ export function normalizeRestaurantData(rawData: any): RestaurantData {
       direction: rawData.metadata?.direction || 'ltr'
     }
   }
+  
+  // Bridge 1: Gallery images fallback - extract from menu items if gallery is empty
+  if ((!result.gallery.images || result.gallery.images.length === 0) && menuSections.length > 0) {
+    const menuImages: Array<{ url: string; alt: string }> = []
+    for (const section of menuSections) {
+      for (const item of section.items || []) {
+        if (item.image && menuImages.length < 12) {
+          menuImages.push({ url: item.image, alt: item.name || 'Menu item' })
+        }
+      }
+    }
+    if (menuImages.length > 0) {
+      result.gallery.images = menuImages
+    }
+  }
+  
+  // Bridge 2: Hours normalization - ensure proper format and default
+  if (result.locations[0]) {
+    const location = result.locations[0] as any
+    if (!location.hours) {
+      location.hours = '9:00 AM - 10:00 PM'
+    } else if (typeof location.hours === 'string') {
+      // Keep string format as-is (e.g., "9:00 AM - 11:00 PM")
+      location.hours = location.hours
+    }
+    
+    // Bridge 3: Add coordinates if available
+    const coordinates = restaurantInfo.coordinates || rawData.coordinates
+    if (coordinates) {
+      location.coordinates = coordinates
+    }
+  }
+  
+  // Bridge 4: Preserve social media from multiple sources
+  if (restaurantInfo.social_media && Object.keys(restaurantInfo.social_media).length > 0) {
+    result.business.social = { ...result.business.social, ...restaurantInfo.social_media }
+  }
+  
+  return result
 }
 
 // Convert quantum-style mapping to component mapping

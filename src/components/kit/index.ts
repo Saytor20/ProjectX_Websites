@@ -31,6 +31,9 @@ export type { RichTextProps } from './RichText'
 export { Section } from './Section'
 export type { SectionProps } from './Section'
 
+export { RawHTML } from './RawHTML'
+export type { RawHTMLProps } from './RawHTML'
+
 // Export shared types
 export type {
   BaseComponentProps,

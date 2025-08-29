@@ -12,6 +12,7 @@ export interface NavbarProps extends BaseComponentProps {
   social?: Record<string, string>
   locale?: string
   direction?: 'ltr' | 'rtl'
+  editorId?: string
 }
 
 export function Navbar({ 
@@ -20,8 +21,11 @@ export function Navbar({
   social = {}, 
   className = '',
   variant = 'modern',
+  editorId = '',
   ...props 
 }: NavbarProps) {
+  // Deterministic ID stamping function for child elements
+  const stampId = (suffix: string) => editorId ? `${editorId}:${suffix}` : suffix;
   const navStyle: React.CSSProperties = {
     position: 'sticky',
     top: 0,
@@ -69,25 +73,27 @@ export function Navbar({
       {...props}
     >
       {/* Brand */}
-      <a href="/" style={brandStyle}>
-        {brand.logo && (
+      <a href="/" style={brandStyle} data-editor-id={stampId('brand')}>
+        {brand.logo && brand.logo.trim() && brand.logo !== 'null' && brand.logo !== 'undefined' && (
           <img 
             src={brand.logo} 
             alt={brand.name}
             style={{ width: '40px', height: '40px', objectFit: 'contain' }}
+            data-editor-id={stampId('logo')}
           />
         )}
-        <span>{brand.name}</span>
+        <span data-editor-id={stampId('brand-name')}>{brand.name}</span>
       </a>
 
       {/* Navigation */}
-      <ul style={navListStyle}>
+      <ul style={navListStyle} data-editor-id={stampId('nav-menu')}>
         {navigation.map((item, index) => (
-          <li key={index}>
+          <li key={index} data-editor-id={stampId(`nav-item-${index}`)}>
             <a 
               href={item.href}
               target={item.target}
               style={navLinkStyle}
+              data-editor-id={stampId(`nav-link-${index}`)}
               onMouseEnter={(e) => {
                 e.currentTarget.style.color = 'var(--navbar-link-hover-color, #333)'
               }}
@@ -103,7 +109,7 @@ export function Navbar({
 
       {/* Social Links */}
       {Object.keys(social).length > 0 && (
-        <div style={{ display: 'flex', gap: '1rem' }}>
+        <div style={{ display: 'flex', gap: '1rem' }} data-editor-id={stampId('social')}>
           {Object.entries(social).map(([platform, url]) => (
             <a
               key={platform}
@@ -112,6 +118,7 @@ export function Navbar({
               rel="noopener noreferrer"
               style={navLinkStyle}
               title={platform}
+              data-editor-id={stampId(`social-${platform}`)}
             >
               {platform === 'facebook' && '📘'}
               {platform === 'instagram' && '📷'}

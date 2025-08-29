@@ -1,35 +1,9 @@
 {
-  "id": "bistly-modern",
-  "name": "Bistly Modern",
+  "name": "bistly-modern",
+  "title": "Bistly Modern Restaurant",
+  "description": "Converted from Bistly HTML template",
+  "author": "Template Converter",
   "version": "1.0.0",
-  "description": "Authentic Bistly restaurant design with elegant golden accents and dark sophisticated styling",
-  "author": "Restaurant Generator System",
-  "tags": ["premium", "authentic", "bistly", "modern", "restaurant", "elegant"],
-  "category": "premium",
-  "preview": "preview.jpg",
-  "colors": {
-    "primary": "#D0965C",
-    "secondary": "#2D4443",
-    "accent": "#FF9F1A"
-  },
-  "typography": {
-    "headings": "Marcellus",
-    "body": "Roboto"
-  },
-  "features": [
-    "Elegant golden accents",
-    "Dark sophisticated styling",
-    "Premium typography combination",
-    "Authentic bistro design",
-    "Elegant card shadows",
-    "Modern restaurant aesthetic"
-  ],
-  "suitable_for": [
-    "Bistro restaurants",
-    "Modern dining establishments",
-    "Sophisticated cafes",
-    "Contemporary cuisine venues"
-  ],
-  "created": "2025-08-12T00:00:00Z",
-  "updated": "2025-08-17T15:56:00Z"
+  "type": "restaurant",
+  "converted": "2025-08-28T19:23:23.145Z"
 }

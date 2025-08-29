@@ -2,12 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react'
 import './figma-ui.css'
-import SimpleTools from '../components/design/SimpleTools'
-import SelectTool from '../components/design/SelectTool'
-import SimpleShapes from '../components/design/SimpleShapes'
-import SimplePictures from '../components/design/SimplePictures'
-import SimpleLinks from '../components/design/SimpleLinks'
-import ShapeRenderer from '../components/design/ShapeRenderer'
+import MoveableEditor, { MoveableEditorHandle } from '../dev/editor/MoveableEditor'
 
 interface RestaurantOption {
   id: string
@@ -29,13 +24,10 @@ export default function Home() {
   const [activeTab, setActiveTab] = useState('templates')
   
   // Design mode states
-  const [selectedTool, setSelectedTool] = useState<string>('select')
-  const [selectedElement, setSelectedElement] = useState<HTMLElement | null>(null)
-  const [designHistory, setDesignHistory] = useState<any[]>([])
   const [isDesignMode, setIsDesignMode] = useState(false)
-  const [selectedShape, setSelectedShape] = useState<string>('')
-  const [shapes, setShapes] = useState<any[]>([])
-  const [selectedShapeObject, setSelectedShapeObject] = useState<any>(null)
+  const [activeTool, setActiveTool] = useState<'select' | 'text' | 'color' | 'image' | 'link' | 'shape'>('select')
+  const [colorMode, setColorMode] = useState<'box' | 'font'>('box')
+  const [selectedColor, setSelectedColor] = useState('#000000')
 
   // Core app states
   const [selectedSkin, setSelectedSkin] = useState<string>('') 
@@ -50,21 +42,24 @@ export default function Home() {
   const [availableRestaurants, setAvailableRestaurants] = useState<RestaurantOption[]>([])
   const [loadingRestaurants, setLoadingRestaurants] = useState(true)
   const [restaurantData, setRestaurantData] = useState<any>(null)
+  const editorRef = useRef<MoveableEditorHandle>(null)
+  const [canUndo, setCanUndo] = useState(false)
+  const [canRedo, setCanRedo] = useState(false)
   
   // Simplified - only one template type
   const [templateType] = useState<'skin'>('skin')
   
   // Enhanced UX states
-  const [isVisualEditorActive, setIsVisualEditorActive] = useState(false)
-  const [selectedBackground, setSelectedBackground] = useState('default')
-  const [uploadedImages, setUploadedImages] = useState<Record<string, string>>({})
-  const [editableElements, setEditableElements] = useState<string[]>([])
   const [skinPreviews, setSkinPreviews] = useState<Record<string, string>>({})
-  const fileInputRef = useRef<HTMLInputElement>(null)
   
   // Pagination states
   const [currentPage, setCurrentPage] = useState<Record<string, number>>({})
   const [selectedCategory, setSelectedCategory] = useState<string>('all')
+
+  // Helper function to validate slug values
+  const isValidSlug = (v: any): v is string =>
+    typeof v === 'string' && v.trim() !== '' && v !== 'null' && v !== 'undefined';
+  const safeRestaurant = isValidSlug(selectedRestaurant) ? selectedRestaurant : null;
 
   // Menu display controls (foundation for schema-driven display)
   const [menuDisplay, setMenuDisplay] = useState({
@@ -81,6 +76,9 @@ export default function Home() {
       imageShape: 'boxed' as 'boxed' | 'rounded' | 'circle'
     }
   })
+
+  // Render preview content for shadow DOM
+  // Removed renderPreviewContent - using iframe approach
 
   // Hero carousel images
   const heroImages = [
@@ -153,11 +151,11 @@ export default function Home() {
 
   // Force iframe reload when skin changes (simplified)
   useEffect(() => {
-    if (demoGenerated && selectedSkin && selectedRestaurant) {
+    if (demoGenerated && selectedSkin && safeRestaurant) {
       const timer = setTimeout(() => {
         const iframe = document.querySelector('iframe[title="Website Preview"]') as HTMLIFrameElement
         if (iframe) {
-          const baseSrc = `/restaurant/${selectedRestaurant}`
+          const baseSrc = `/restaurant/${safeRestaurant}`
           iframe.src = `${baseSrc}?preview=true&skin=${selectedSkin}&t=${Date.now()}`
           console.log(`🔄 Updated iframe src: ${iframe.src}`)
         }
@@ -168,7 +166,7 @@ export default function Home() {
     
     // Return undefined for cases where the condition is not met
     return undefined
-  }, [selectedSkin, demoGenerated, selectedRestaurant])
+  }, [selectedSkin, demoGenerated, safeRestaurant])
 
   // Load available skins on component mount
   useEffect(() => {
@@ -225,7 +223,7 @@ export default function Home() {
   // Load restaurant data when selection changes
   useEffect(() => {
     const loadRestaurantData = async () => {
-      if (!selectedRestaurant) {
+      if (!isValidSlug(selectedRestaurant)) {
         setRestaurantData(null)
         return
       }
@@ -257,6 +255,8 @@ export default function Home() {
     loadRestaurantData()
   }, [selectedRestaurant, availableRestaurants])
 
+  // Removed loadMappings - using iframe approach, no need for shadow DOM mappings
+
   // Reset selected category when restaurant changes
   useEffect(() => {
     setSelectedCategory('all')
@@ -286,95 +286,7 @@ export default function Home() {
     return undefined
   }, [demoGenerated, heroImages.length])
 
-  // Keyboard shortcuts for design tools
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (activeTab !== 'design' || !demoGenerated) return
-
-      // Prevent shortcuts when typing in inputs
-      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) {
-        return
-      }
-
-      switch (e.key.toLowerCase()) {
-        case 'v':
-          if (!e.ctrlKey && !e.metaKey) {
-            e.preventDefault()
-            handleToolSelect('select')
-          }
-          break
-        case 'r':
-          if (!e.ctrlKey && !e.metaKey) {
-            e.preventDefault()
-            handleToolSelect('shapes')
-          }
-          break
-        case 't':
-          if (!e.ctrlKey && !e.metaKey) {
-            e.preventDefault()
-            handleToolSelect('text')
-          }
-          break
-        case 'i':
-          if (!e.ctrlKey && !e.metaKey) {
-            e.preventDefault()
-            handleToolSelect('images')
-          }
-          break
-        case 'l':
-          if (!e.ctrlKey && !e.metaKey) {
-            e.preventDefault()
-            handleToolSelect('links')
-          }
-          break
-        case 'g':
-          if (!e.ctrlKey && !e.metaKey) {
-            e.preventDefault()
-            handleToolSelect('layout')
-          }
-          break
-        case 'escape':
-          e.preventDefault()
-          handleToolSelect('select')
-          setSelectedShapeObject(null)
-          setSelectedElement(null)
-          break
-        case 'delete':
-        case 'backspace':
-          if (selectedShapeObject) {
-            e.preventDefault()
-            setShapes(prevShapes => prevShapes.filter(shape => shape.id !== selectedShapeObject.id))
-            setSelectedShapeObject(null)
-          }
-          break
-      }
-
-      // Shape type shortcuts when shapes tool is active
-      if (selectedTool === 'shapes') {
-        switch (e.key) {
-          case '1':
-            e.preventDefault()
-            setSelectedShape('rectangle')
-            break
-          case '2':
-            e.preventDefault()
-            setSelectedShape('circle')
-            break
-          case '3':
-            e.preventDefault()
-            setSelectedShape('line')
-            break
-          case '4':
-            e.preventDefault()
-            setSelectedShape('triangle')
-            break
-        }
-      }
-    }
-
-    window.addEventListener('keydown', handleKeyDown)
-    return () => window.removeEventListener('keydown', handleKeyDown)
-  }, [activeTab, demoGenerated, selectedTool, selectedShapeObject])
+  // Removed keyboard shortcuts - simplified editor approach
 
   const generateSite = async () => {
     if (!selectedSkin || !selectedRestaurant) {
@@ -425,76 +337,9 @@ export default function Home() {
     }
   }
 
-  // Auto-save functionality
-  useEffect(() => {
-    if (shapes.length > 0 || selectedTool !== 'select') {
-      const saveData = {
-        shapes,
-        selectedTool,
-        selectedShape,
-        timestamp: Date.now(),
-        restaurantId: selectedRestaurant,
-        skinId: selectedSkin
-      }
-      
-      // Auto-save to localStorage
-      localStorage.setItem('design-autosave', JSON.stringify(saveData))
-      console.log('🔄 Auto-saved design changes')
-    }
-  }, [shapes, selectedTool, selectedShape, selectedRestaurant, selectedSkin])
+  // Removed auto-save functionality - simplified editor approach
 
-  // Load saved design data on mount
-  useEffect(() => {
-    if (demoGenerated && selectedRestaurant && selectedSkin) {
-      try {
-        const saved = localStorage.getItem('design-autosave')
-        if (saved) {
-          const saveData = JSON.parse(saved)
-          if (saveData.restaurantId === selectedRestaurant && saveData.skinId === selectedSkin) {
-            setShapes(saveData.shapes || [])
-            console.log('📂 Loaded saved design data')
-          }
-        }
-      } catch (error) {
-        console.warn('Failed to load saved design data:', error)
-      }
-    }
-  }, [demoGenerated, selectedRestaurant, selectedSkin])
-
-  // Tool management functions
-  const handleShapeCreate = (shape: any) => {
-    setShapes(prevShapes => [...prevShapes, shape])
-    console.log('Shape created:', shape)
-  }
-
-  const handleShapeSelect = (shape: any) => {
-    setSelectedShapeObject(shape)
-    console.log('Shape selected:', shape)
-  }
-
-  const handleImageAdd = (image: any) => {
-    console.log('Image added:', image)
-    // TODO: Add image to canvas
-  }
-
-  const handleLinkCreate = (link: any) => {
-    console.log('Link created:', link)
-    // TODO: Handle link creation
-  }
-
-  // Tool selection handler
-  const handleToolSelect = (tool: string) => {
-    setSelectedTool(tool)
-    if (tool === 'shapes') {
-      setSelectedShape('rectangle') // Default to rectangle
-    } else {
-      setSelectedShape('')
-    }
-    
-    // Clear selections when switching tools
-    setSelectedElement(null)
-    setSelectedShapeObject(null)
-  }
+  // Simplified editor - no complex handlers needed
 
   // Removed standalone site generation - simplified to single template system
 
@@ -534,11 +379,25 @@ export default function Home() {
           </div>
         </div>
         <div className="header-right">
+          <button
+            className="action-btn secondary"
+            onClick={() => window.location.reload()}
+            disabled={!demoGenerated}
+          >
+            <span className="btn-icon">🔄</span>
+            Reset
+          </button>
           <button className="action-btn primary">
             <span className="btn-icon">🚀</span>
             Export
           </button>
-          <button className="action-btn secondary">
+          <button
+            className="action-btn secondary"
+            onClick={() => {
+              console.log('Save functionality will be implemented in SimpleEditor')
+            }}
+            disabled={!demoGenerated}
+          >
             <span className="btn-icon">💾</span>
             Save
           </button>
@@ -636,10 +495,25 @@ export default function Home() {
 
               {/* Design Tab Content */}
               {activeTab === 'design' && (
-                <SimpleTools 
-                  onToolSelect={handleToolSelect}
-                  selectedTool={selectedTool}
-                />
+                <div className="panel-section">
+                  <div className="section-header">
+                    <span className="section-icon">🛠️</span>
+                    <span className="section-title">Design Mode</span>
+                  </div>
+                  <div className="section-content">
+                    <p style={{fontSize: '12px', color: 'var(--figma-text-secondary)', lineHeight: '1.5'}}>
+                      Use the tools at the bottom of the screen to edit your website:
+                    </p>
+                    <ul style={{fontSize: '12px', color: 'var(--figma-text-secondary)', lineHeight: '1.8', paddingLeft: '20px', marginTop: '8px'}}>
+                      <li>👆 Select - Click elements to select</li>
+                      <li>📝 Text - Click text to edit</li>
+                      <li>🎨 Color - Change colors</li>
+                      <li>🖼️ Image - Replace images</li>
+                      <li>🔗 Link - Edit link URLs</li>
+                      <li>📐 Shape - Add shapes</li>
+                    </ul>
+                  </div>
+                </div>
               )}
               
               {/* Error Display */}
@@ -662,6 +536,125 @@ export default function Home() {
               <span className="zoom-level">100%</span>
               <button className="canvas-btn" title="Zoom In">+</button>
             </div>
+            {activeTab === 'design' && demoGenerated && (
+              <div className="editor-toolbar">
+                {/* Tool Buttons */}
+                <div className="tool-group">
+                  <button
+                    onClick={() => setActiveTool('select')}
+                    className={`toolbar-btn tool ${activeTool === 'select' ? 'active' : ''}`}
+                    title="Select Tool"
+                  >
+                    👆 Select
+                  </button>
+                  <button
+                    onClick={() => setActiveTool('text')}
+                    className={`toolbar-btn tool ${activeTool === 'text' ? 'active' : ''}`}
+                    title="Text Tool"
+                  >
+                    📝 Text
+                  </button>
+                  <button
+                    onClick={() => setActiveTool('color')}
+                    className={`toolbar-btn tool ${activeTool === 'color' ? 'active' : ''}`}
+                    title="Color Tool"
+                  >
+                    🎨 Color
+                  </button>
+                  <button
+                    onClick={() => setActiveTool('image')}
+                    className={`toolbar-btn tool ${activeTool === 'image' ? 'active' : ''}`}
+                    title="Image Tool"
+                  >
+                    🖼️ Image
+                  </button>
+                  <button
+                    onClick={() => setActiveTool('link')}
+                    className={`toolbar-btn tool ${activeTool === 'link' ? 'active' : ''}`}
+                    title="Link Tool"
+                  >
+                    🔗 Link
+                  </button>
+                  <button
+                    onClick={() => setActiveTool('shape')}
+                    className={`toolbar-btn tool ${activeTool === 'shape' ? 'active' : ''}`}
+                    title="Shape Tool"
+                  >
+                    📐 Shape
+                  </button>
+                </div>
+                
+                {/* Separator */}
+                <div className="toolbar-separator"></div>
+                
+                {/* History Buttons */}
+                <div className="history-group">
+                  <button 
+                    onClick={() => editorRef.current?.undo()}
+                    disabled={!canUndo}
+                    className="toolbar-btn"
+                    title="Undo"
+                  >
+                    ↶ Undo
+                  </button>
+                  <button 
+                    onClick={() => editorRef.current?.redo()}
+                    disabled={!canRedo}
+                    className="toolbar-btn"
+                    title="Redo"
+                  >
+                    ↷ Redo
+                  </button>
+                  <button 
+                    onClick={() => editorRef.current?.save()}
+                    className="toolbar-btn primary"
+                    title="Save Changes"
+                  >
+                    💾 Save
+                  </button>
+                </div>
+                
+                {/* Color Palette - shows when color tool is active */}
+                {activeTool === 'color' && (
+                  <div className="color-palette-container">
+                    <div className="color-mode-toggle">
+                      <button
+                        onClick={() => setColorMode('box')}
+                        className={`mode-btn ${colorMode === 'box' ? 'active' : ''}`}
+                      >
+                        Box
+                      </button>
+                      <button
+                        onClick={() => setColorMode('font')}
+                        className={`mode-btn ${colorMode === 'font' ? 'active' : ''}`}
+                      >
+                        Font
+                      </button>
+                    </div>
+                    <div className="color-grid">
+                      {[
+                        '#000000', '#FFFFFF', '#FF0000', '#00FF00', '#0000FF',
+                        '#FFFF00', '#FF00FF', '#00FFFF', '#808080', '#FFA500',
+                        '#800080', '#FFC0CB', '#A52A2A', '#008000', '#000080'
+                      ].map(color => (
+                        <button
+                          key={color}
+                          className="color-swatch"
+                          style={{ backgroundColor: color }}
+                          onClick={() => {
+                            setSelectedColor(color);
+                            if (editorRef.current) {
+                              (editorRef.current as any).applyColor?.(color, colorMode);
+                            }
+                          }}
+                          title={color}
+                        />
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
             <div className="canvas-actions">
               <button 
                 onClick={() => {
@@ -701,7 +694,9 @@ export default function Home() {
                       flex: 1
                     }}>
                       <iframe
-                        src={`/restaurant/${selectedRestaurant}?preview=true&skin=${selectedSkin}`}
+                        src={safeRestaurant
+                          ? `/restaurant/${safeRestaurant}?preview=true&skin=${selectedSkin}&menuVariant=${encodeURIComponent(menuDisplay.variant)}&menuShowImages=${menuDisplay.showImages}&menuShowDescriptions=${menuDisplay.showDescriptions}&menuItemsPerRow=${menuDisplay.itemsPerRow}`
+                          : 'about:blank'}
                         style={{
                           width: '100%',
                           height: '100%',
@@ -744,74 +739,33 @@ export default function Home() {
                   flex: 1
                 }}>
                   <iframe
-                    src={`/restaurant/${selectedRestaurant}?skin=${selectedSkin}`}
+                    src={safeRestaurant
+                      ? `/restaurant/${safeRestaurant}?skin=${selectedSkin}&menuVariant=${encodeURIComponent(menuDisplay.variant)}&menuShowImages=${menuDisplay.showImages}&menuShowDescriptions=${menuDisplay.showDescriptions}&menuItemsPerRow=${menuDisplay.itemsPerRow}&design=true`
+                      : 'about:blank'}
                     style={{
                       width: '100%',
                       height: '100%',
                       border: 'none',
-                      backgroundColor: 'white',
-                      pointerEvents: selectedTool === 'select' || selectedTool === 'links' || selectedTool === 'text' ? 'auto' : 'none'
+                      backgroundColor: 'white'
                     }}
                     title="Design Mode"
                     id="design-iframe"
-                    sandbox="allow-same-origin allow-scripts"
                   />
-                  {/* Design overlays and controls will be added here */}
-                  <div className="design-overlay" style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    right: 0,
-                    bottom: 0,
-                    pointerEvents: selectedTool === 'shapes' ? 'auto' : 'none',
-                    zIndex: 10
-                  }}>
-                    {/* Grid overlay */}
-                    <div className="grid-overlay" style={{
-                      position: 'absolute',
-                      top: 0,
-                      left: 0,
-                      right: 0,
-                      bottom: 0,
-                      backgroundImage: 'linear-gradient(rgba(0,0,0,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(0,0,0,0.1) 1px, transparent 1px)',
-                      backgroundSize: '20px 20px',
-                      opacity: selectedTool === 'layout' ? 0.3 : 0
-                    }}></div>
-                    
-                    {/* Simple Tool Overlays */}
-                    <SelectTool
-                      isActive={selectedTool === 'select'}
-                      onElementSelect={(element) => {
-                        setSelectedElement(element)
-                        console.log('Element selected:', element)
-                      }}
-                    />
-                    
-                    <SimpleShapes
-                      isActive={selectedTool === 'shapes'}
-                      onShapeCreate={handleShapeCreate}
-                    />
-                    
-                    <SimplePictures
-                      isActive={selectedTool === 'pictures'}
-                      onImageAdd={handleImageAdd}
-                    />
-                    
-                    <SimpleLinks
-                      isActive={selectedTool === 'links'}
-                      onLinkCreate={handleLinkCreate}
-                    />
-                    
-                    {/* Render all shapes */}
-                    <ShapeRenderer
-                      shapes={shapes}
-                      onShapeClick={(shape) => {
-                        setSelectedShapeObject(shape)
-                        setSelectedTool('select')
-                      }}
-                      selectedShapeId={selectedShapeObject?.id}
-                    />
-                  </div>
+                  
+                  {/* Moveable Editor Overlay */}
+                  <MoveableEditor
+                    ref={editorRef}
+                    iframeId="design-iframe"
+                    skinId={selectedSkin}
+                    restaurantId={selectedRestaurant}
+                    activeTool={activeTool}
+                    colorMode={colorMode}
+                    selectedColor={selectedColor}
+                    onHistoryChange={(undo, redo) => {
+                      setCanUndo(undo)
+                      setCanRedo(redo)
+                    }}
+                  />
                 </div>
               </div>
             )}
@@ -828,7 +782,7 @@ export default function Home() {
                   <button 
                     className="action-btn primary"
                     onClick={() => {
-                      window.open(`/restaurant/${selectedRestaurant}?skin=${selectedSkin}&preview=true&device=desktop`, '_blank')
+                      if (safeRestaurant) window.open(`/restaurant/${safeRestaurant}?skin=${selectedSkin}&preview=true&device=desktop`, '_blank')
                     }}
                   >
                     <span className="btn-icon">🖥️</span>
@@ -837,7 +791,7 @@ export default function Home() {
                   <button 
                     className="action-btn primary"
                     onClick={() => {
-                      window.open(`/restaurant/${selectedRestaurant}?skin=${selectedSkin}&preview=true&device=tablet`, '_blank')
+                      if (safeRestaurant) window.open(`/restaurant/${safeRestaurant}?skin=${selectedSkin}&preview=true&device=tablet`, '_blank')
                     }}
                   >
                     <span className="btn-icon">📱</span>
@@ -846,7 +800,7 @@ export default function Home() {
                   <button 
                     className="action-btn primary"
                     onClick={() => {
-                      window.open(`/restaurant/${selectedRestaurant}?skin=${selectedSkin}&preview=true&device=mobile`, '_blank')
+                      if (safeRestaurant) window.open(`/restaurant/${safeRestaurant}?skin=${selectedSkin}&preview=true&device=mobile`, '_blank')
                     }}
                   >
                     <span className="btn-icon">📲</span>
@@ -943,9 +897,8 @@ export default function Home() {
                     <span className="section-title">Info</span>
                   </div>
                   <div style={{padding: '16px', fontSize: '12px', color: 'var(--figma-text-muted)', textAlign: 'center'}}>
-                    <p>Use the tools on the left to edit your website.</p>
+                    <p>Use the tools at the bottom to edit your website.</p>
                     <p>Changes are saved automatically.</p>
-                    {selectedTool && <p>Active tool: <strong>{selectedTool}</strong></p>}
                   </div>
                 </div>
               )}
@@ -971,7 +924,7 @@ export default function Home() {
                       <button 
                         className="action-btn-full"
                         onClick={() => {
-                          window.open(`/api/preview/${selectedRestaurant}?skin=${selectedSkin}`, '_blank')
+                          if (safeRestaurant) window.open(`/api/preview/${safeRestaurant}?skin=${selectedSkin}`, '_blank')
                         }}
                       >
                         🔗 Open in New Window
@@ -1007,4 +960,3 @@ export default function Home() {
     </div>
   )
 }
-
