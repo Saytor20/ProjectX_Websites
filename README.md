@@ -1,6 +1,6 @@
-# Restaurant Website Generator
+# Restaurant Website Generator - Template Package System
 
-A modern, production-ready restaurant website generator built with Next.js 15, TypeScript, and React. Features a robust template system, visual design tools, and comprehensive component architecture for creating professional restaurant websites.
+A modern, production-ready restaurant website generator built with Next.js 15, TypeScript, and React. Features a robust Template Package system, visual block editor, and comprehensive component architecture for creating professional restaurant websites.
 
 ## 🚀 Quick Start
 
@@ -22,37 +22,43 @@ Open [http://localhost:3000](http://localhost:3000) to see the application.
 
 ## ✨ Key Features
 
-### 🎨 Template System
-- **7 Working Templates**: Professional designs ready for production
-  - Cafert Modern - Premium cafe template
-  - Simple Modern - Clean, minimalist design
-  - Bistly Modern - Bistro aesthetic
-  - Foodera Modern - Modern food theme
-  - Conbiz Premium - Professional business style
-  - Mehu Fresh - Fresh, contemporary theme
-  - Quantum Nexus - Futuristic design
+### 🎨 Template Package System
+- **11 Working Templates**: Professional designs ready for production
+  - Bistly - Elegant bistro aesthetic
+  - Simple Modern - Clean, minimalist design  
+  - Royate - Royal themed template
+  - Foodera & Foodera-v2 - Modern food themes
+  - Mehu - Fresh modern theme
+  - Shara - Contemporary design
+  - Tasty - Delicious food focus
+  - Callix - Professional calling template
+  - Cafe & Coill - Additional themed templates
 
-### 🛠️ Visual Design Tools
-Simple, intuitive design tools for easy customization:
-- **👆 Select Tool** - Click any element to select and resize
-- **🎨 Colors** - Color picker for element styling
-- **📐 Shapes** - Add geometric shapes with layering
-- **🖼️ Pictures** - Upload or link images
-- **🔗 Links** - Add/edit hyperlinks
-- **📝 Text** - Inline text editing
+### 🛠️ Block-Level Visual Editor
+Modern block editor with safe, predictable editing:
+- **Block Outline** - Navigate template structure with click-to-select
+- **Patch Panel** - Dynamic controls for text, images, variants, and spacing
+- **Inline Text Editing** - Contenteditable with debounced updates
+- **Image Swapping** - Click to replace images with proper validation
+- **Variant Toggles** - Switch between design variants (light/dark themes)
+- **Spacing Controls** - Adjust margins and padding with steps
+- **Keyboard Shortcuts** - Alt+E to toggle, proper undo/redo support
 
-### 🏗️ Component Architecture
-10 core restaurant components:
+### 🏗️ Template Package Architecture
+7 standardized slots for consistent layouts:
 1. **Navbar** - Navigation with logo and menu
-2. **Hero** - Hero section with carousel
-3. **MenuList** - Restaurant menu display
+2. **Hero** - Hero banner with CTA buttons  
+3. **Menu** - Restaurant menu with categories
 4. **Gallery** - Photo gallery grid
-5. **Hours** - Operating hours
-6. **LocationMap** - Location and map
-7. **CTA** - Call-to-action sections
-8. **Footer** - Contact and links
-9. **RichText** - Rich content blocks
-10. **Section** - Generic containers
+5. **Hours** - Operating hours and contact
+6. **CTA** - Call-to-action sections
+7. **Footer** - Contact info and links
+
+Each template is a self-contained package with:
+- `Template.tsx` - React component with data-block attributes
+- `template.module.css` - Scoped CSS modules
+- `manifest.json` - Template metadata and configuration
+- Editor field registration for visual customization
 
 ## 🔧 Development
 
@@ -64,11 +70,14 @@ Simple, intuitive design tools for easy customization:
 ### Available Scripts
 
 ```bash
-npm run dev           # Start development server
-npm run build         # Build for production
-npm run start         # Start production server
-npm run lint          # Run ESLint
-npm run dev:clean     # Clean cache and restart
+npm run dev                    # Start development server
+npm run build                  # Build for production  
+npm run start                  # Start production server
+npm run lint                   # Run ESLint
+npm run type-check             # TypeScript compilation check
+npm run validate-template      # Validate template structure
+npx tsx tools/scaffold-template.ts  # Create new template
+npx tsx tools/ingest-envato.ts       # Convert HTML templates
 ```
 
 ### Project Structure
@@ -76,14 +85,26 @@ npm run dev:clean     # Clean cache and restart
 ```
 Websites_nextjs/
 ├── src/
-│   ├── app/              # Next.js App Router
-│   ├── components/kit/   # Component library
-│   ├── lib/              # Core utilities
-│   └── dev/              # Development tools
-├── templates/            # Template registry
-├── public/               # Static assets
-├── restaurant_data/      # Sample data
-└── docs/                 # Documentation
+│   ├── app/              # Next.js 15 App Router
+│   │   ├── api/          # API routes (restaurants, templates)
+│   │   ├── restaurant/[slug]/  # Dynamic restaurant pages
+│   │   └── layout.tsx    # Root layout with editor integration
+│   ├── components/kit/   # 10 core restaurant components
+│   ├── editor/           # Block editor system
+│   │   ├── registry.ts   # Field registration system
+│   │   ├── Outline.tsx   # Block tree navigation
+│   │   └── PatchPanel.tsx # Dynamic editing controls
+│   └── lib/              # Core utilities (schema, tokens, image)
+├── templates/            # Template Package registry
+│   ├── bistly/           # Individual template packages
+│   ├── simple-modern/    # Each with Template.tsx + CSS + manifest
+│   └── registry.ts       # Template discovery system
+├── tools/                # Development tools
+│   ├── scaffold-template.ts  # Template generator
+│   ├── ingest-envato.ts      # HTML converter
+│   └── validate-template.ts  # Validation tool
+├── restaurant_data/      # Restaurant JSON data (Zod schema)
+└── docs/                 # Architecture documentation
 ```
 
 ## 🎯 Usage
