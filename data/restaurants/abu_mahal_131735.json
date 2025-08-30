@@ -1,0 +1,242 @@
+{
+  "restaurant_info": {
+    "id": "131735",
+    "name": "Abu Mahal",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.25247969334479,
+      "longitude": 42.59789688895495
+    },
+    "rating": 4.3,
+    "review_count": 113,
+    "type_of_food": "Arabic,American,Burgers",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/131735"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Chicken Kebab Sandwich",
+        "item_ar": "Chicken Kebab Sandwich",
+        "price": 12.5,
+        "currency": "SAR",
+        "description": "Bread, slice of cheese, lettuce, potatoes, abu mahal sauce, and chicken kebab skewer",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/93bdd16014a8c1d68fed9c6ba5be916e.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54094934
+      },
+      {
+        "item_en": "Meat Kebab Sandwich",
+        "item_ar": "Meat Kebab Sandwich",
+        "price": 12.5,
+        "currency": "SAR",
+        "description": "Bread, slice of cheese, lettuce, potatoes, abu mahal sauce, and maet kebab skewer",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/08625a4a374f2768c77187a3dc682692.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54094933
+      },
+      {
+        "item_en": "Chicken Awsal Sandwich",
+        "item_ar": "Chicken Awsal Sandwich",
+        "price": 12.5,
+        "currency": "SAR",
+        "description": "Bread, slice of cheese, lettuce, potatoes, abu mahal sauce, and chicken awsal skewer",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131735/PRODUCT/54094935/83975420-4c6c-4c3c-b5bf-c2acc7d73644.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54094935
+      },
+      {
+        "item_en": "Chicken Burger",
+        "item_ar": "Chicken Burger",
+        "price": 18.75,
+        "currency": "SAR",
+        "description": "Chicken burger slice, slice of cheese, slices of tomato, lettuce, lulu, pickled cucumber",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/b6b39f3fb57069319b842a46c68e12ab.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54094929
+      }
+    ],
+    "Sandwiches": [
+      {
+        "item_en": "Hashi Kebab Sandwich",
+        "item_ar": "Hashi Kebab Sandwich",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Bread, slice of cheese, potatoes, lettuce, abu mahal sauce, and hashi kebab skewer",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131601/PRODUCT/54094932/f0821ace-9669-4283-bc52-3421c0fa632d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54094932
+      },
+      {
+        "item_en": "Meat Kebab Sandwich",
+        "item_ar": "Meat Kebab Sandwich",
+        "price": 12.5,
+        "currency": "SAR",
+        "description": "Bread, slice of cheese, lettuce, potatoes, abu mahal sauce, and maet kebab skewer",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/08625a4a374f2768c77187a3dc682692.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54094933
+      },
+      {
+        "item_en": "Chicken Kebab Sandwich",
+        "item_ar": "Chicken Kebab Sandwich",
+        "price": 12.5,
+        "currency": "SAR",
+        "description": "Bread, slice of cheese, lettuce, potatoes, abu mahal sauce, and chicken kebab skewer",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/93bdd16014a8c1d68fed9c6ba5be916e.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54094934
+      },
+      {
+        "item_en": "Chicken Awsal Sandwich",
+        "item_ar": "Chicken Awsal Sandwich",
+        "price": 12.5,
+        "currency": "SAR",
+        "description": "Bread, slice of cheese, lettuce, potatoes, abu mahal sauce, and chicken awsal skewer",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131735/PRODUCT/54094935/83975420-4c6c-4c3c-b5bf-c2acc7d73644.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54094935
+      },
+      {
+        "item_en": "Spicy Chicken Awsal Sandwich",
+        "item_ar": "Spicy Chicken Awsal Sandwich",
+        "price": 12.5,
+        "currency": "SAR",
+        "description": "Bread, slice of cheese, lettuce, potatoes, abu mahal sauce, and spicy chicken awsal skewer",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131735/PRODUCT/54094936/299499aa-bc5e-4ce4-af2c-b86aa172f770.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54094936
+      }
+    ],
+    "Burger": [
+      {
+        "item_en": "Chicken Burger",
+        "item_ar": "Chicken Burger",
+        "price": 18.75,
+        "currency": "SAR",
+        "description": "Chicken burger slice, slice of cheese, slices of tomato, lettuce, lulu, pickled cucumber",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/b6b39f3fb57069319b842a46c68e12ab.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54094929
+      },
+      {
+        "item_en": "Hashi Burger",
+        "item_ar": "Hashi Burger",
+        "price": 23.75,
+        "currency": "SAR",
+        "description": "Hashi burger slice, slice of cheese, tomato, onion, lulu lettuce, abu mahal sauce, pickled cucumber",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131601/PRODUCT/54094930/435539a5-f45d-46ee-820e-b5a0483389d2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54094930
+      },
+      {
+        "item_en": "Beef Burger",
+        "item_ar": "Beef Burger",
+        "price": 21.25,
+        "currency": "SAR",
+        "description": "Beef burger slice, slice of cheese, tomato, onion, lulu lettuce, abu mahal sauce, pickled cucumber",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131735/PRODUCT/54094931/a9e4eefe-b2ee-4cb0-a033-6997f123828a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54094931
+      }
+    ],
+    "Burger Meals": [
+      {
+        "item_en": "Beef Burger Meal",
+        "item_ar": "Beef Burger Meal",
+        "price": 28,
+        "currency": "SAR",
+        "description": "Drink meal with a slice beef burger, cheese slice, tomato, onion, lollo lettuce, abu mahal sauce and pickled cucumber.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/2fd10e4f7997ff3462bb384bc40ba39d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54094937
+      },
+      {
+        "item_en": "Chicken Burger Meal",
+        "item_ar": "Chicken Burger Meal",
+        "price": 27.5,
+        "currency": "SAR",
+        "description": "Drink meal with a slice of chicken burger, a slice of sliced cheese, tomatoes, lollo lettuce, and pickled cucumber.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/2fd10e4f7997ff3462bb384bc40ba39d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54094938
+      },
+      {
+        "item_en": "Hashi Burger Meal",
+        "item_ar": "Hashi Burger Meal",
+        "price": 29,
+        "currency": "SAR",
+        "description": "A drink meal with bread, a slice of cheese, potatoes, lettuce, abu mahal sauce, and a skewer of hashi kebab.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/2fd10e4f7997ff3462bb384bc40ba39d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54094939
+      }
+    ],
+    "Side Dishes": [
+      {
+        "item_en": "French Fries",
+        "item_ar": "French Fries",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Regular fried potatoes with spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/ba05d5c3a947732f7f2e0f566b08d4a7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54094941
+      }
+    ],
+    "Beverages": [
+      {
+        "item_en": "Pepsi",
+        "item_ar": "Pepsi",
+        "price": 3,
+        "currency": "SAR",
+        "description": "A soft drink with a unique and refreshing flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/0da1ab74b3ef08c38d173d07c78792a2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54094942
+      },
+      {
+        "item_en": "Water",
+        "item_ar": "Water",
+        "price": 1,
+        "currency": "SAR",
+        "description": "Mineral drinking water",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/9f8322b15e021598f900fac34f896019.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54094943
+      },
+      {
+        "item_en": "Al Rabie Orange Juice",
+        "item_ar": "Al Rabie Orange Juice",
+        "price": 2.75,
+        "currency": "SAR",
+        "description": "Orange drink free of preservatives and artificial colours",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d1534ee2a04927794380173d222dc01d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54094944
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.036Z",
+  "source": "Hungerstation"
+}

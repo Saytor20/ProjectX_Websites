@@ -1,0 +1,10 @@
+{
+  "id": "bistly",
+  "name": "Bistly Modern",
+  "description": "Classic Italian restaurant theme with elegant design and warm colors",
+  "slots": ["navbar", "hero", "menu", "gallery", "hours", "cta", "footer"],
+  "version": "0.1.0",
+  "author": "Template Migration",
+  "tags": ["restaurant", "italian", "elegant", "modern"],
+  "preview": "/preview/bistly.png"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "royate",
+  "name": "Royate Restaurant",
+  "description": "Elegant restaurant template with hero video, menu showcase, and booking system",
+  "slots": [
+    "navbar",
+    "hero",
+    "menu",
+    "gallery",
+    "hours",
+    "cta",
+    "footer"
+  ],
+  "version": "1.0.0",
+  "author": "Envato Ingestion Tool",
+  "tags": [
+    "restaurant",
+    "elegant",
+    "video",
+    "menu",
+    "booking"
+  ]
+}

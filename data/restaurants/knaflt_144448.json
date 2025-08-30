@@ -1,0 +1,308 @@
+{
+  "restaurant_info": {
+    "id": "144448",
+    "name": "Knaflt",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2513815,
+      "longitude": 42.5983622
+    },
+    "rating": 4.4,
+    "review_count": 48,
+    "type_of_food": "Desserts,Coffee",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/144448"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "The Crunchy Chocolate Share Box • Gather & Crunch – Chocolate Edition",
+        "item_ar": "The Crunchy Chocolate Share Box • Gather & Crunch – Chocolate Edition",
+        "price": 88,
+        "currency": "SAR",
+        "description": "Soft chocolate cake soaked in rich chocolate from every angle topped with a light chocolate crunch that completes the flavor loaded with chocolate from the first bite makes you reach for the next",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/144448/PRODUCT/8c45055d-4f22-4d0c-b26a-3b87a80b1aa9.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70224442
+      },
+      {
+        "item_en": "Round Kunafah With Mixed Cream And Cheese - Large",
+        "item_ar": "Round Kunafah With Mixed Cream And Cheese - Large",
+        "price": 51,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63796653
+      },
+      {
+        "item_en": "Round Kunafah With Cream - Large",
+        "item_ar": "Round Kunafah With Cream - Large",
+        "price": 51,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63796647
+      },
+      {
+        "item_en": "Kunaflet - Large",
+        "item_ar": "Kunaflet - Large",
+        "price": 40,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63796655
+      }
+    ],
+    "Kunafah Round": [
+      {
+        "item_en": "Round Kunafah With Cream - Small",
+        "item_ar": "Round Kunafah With Cream - Small",
+        "price": 27,
+        "currency": "SAR",
+        "description": "Round kunafah filled with cream",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/9bd9a401723891f1e9d3b7e44c67a62b.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63796645
+      },
+      {
+        "item_en": "Round Kunafah With Cheese - Small",
+        "item_ar": "Round Kunafah With Cheese - Small",
+        "price": 27,
+        "currency": "SAR",
+        "description": "Round kunafah filled with cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/b2fdc7f5ba60ea7bbf862a4304fd9c67.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63796648
+      },
+      {
+        "item_en": "Round Kunafah With Mixed Cream And Cheese - Small",
+        "item_ar": "Round Kunafah With Mixed Cream And Cheese - Small",
+        "price": 27,
+        "currency": "SAR",
+        "description": "Round kunafah filled with cream and cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/b2fdc7f5ba60ea7bbf862a4304fd9c67.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63796651
+      },
+      {
+        "item_en": "Round Kunafah With Cream - Medium",
+        "item_ar": "Round Kunafah With Cream - Medium",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Round kunafah filled with cream",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/9bd9a401723891f1e9d3b7e44c67a62b.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63796646
+      },
+      {
+        "item_en": "Round Kunafah With Cheese - Medium",
+        "item_ar": "Round Kunafah With Cheese - Medium",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Round kunafah filled with cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/b2fdc7f5ba60ea7bbf862a4304fd9c67.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63796649
+      },
+      {
+        "item_en": "Round Kunafah With Mixed Cream And Cheese - Medium",
+        "item_ar": "Round Kunafah With Mixed Cream And Cheese - Medium",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Round kunafah filled with cream and cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/b2fdc7f5ba60ea7bbf862a4304fd9c67.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63796652
+      },
+      {
+        "item_en": "Round Kunafah With Cream - Large",
+        "item_ar": "Round Kunafah With Cream - Large",
+        "price": 51,
+        "currency": "SAR",
+        "description": "Round kunafah filled with cream",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/9bd9a401723891f1e9d3b7e44c67a62b.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63796647
+      },
+      {
+        "item_en": "Round Kunafah With Cheese - Large",
+        "item_ar": "Round Kunafah With Cheese - Large",
+        "price": 51,
+        "currency": "SAR",
+        "description": "Round kunafah filled with cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/b2fdc7f5ba60ea7bbf862a4304fd9c67.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63796650
+      },
+      {
+        "item_en": "Round Kunafah With Mixed Cream And Cheese - Large",
+        "item_ar": "Round Kunafah With Mixed Cream And Cheese - Large",
+        "price": 51,
+        "currency": "SAR",
+        "description": "Round kunafah filled with cream and cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/b2fdc7f5ba60ea7bbf862a4304fd9c67.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63796653
+      }
+    ],
+    "Kunafah Rectangle": [
+      {
+        "item_en": "Kunafah Rectangle",
+        "item_ar": "Kunafah Rectangle",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Rectangular kunafah piece with syrup",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/c097e88cc625e25464a20ecbfe158285.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63796656
+      },
+      {
+        "item_en": "Kunafah Istanbul",
+        "item_ar": "Kunafah Istanbul",
+        "price": 47,
+        "currency": "SAR",
+        "description": "Kunafah istanbul",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/92453836d147bd7f53e99dc09812c2b4.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63796658
+      },
+      {
+        "item_en": "Kunaflet - Small",
+        "item_ar": "Kunaflet - Small",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Rectangular kunafah piece with sauces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/10304f524108fd6ddc8fc0dc6d23cd1b.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63796654
+      },
+      {
+        "item_en": "Kunaflet - Large",
+        "item_ar": "Kunaflet - Large",
+        "price": 40,
+        "currency": "SAR",
+        "description": "Rectangular kunafah piece with sauces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/10304f524108fd6ddc8fc0dc6d23cd1b.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63796655
+      }
+    ],
+    "Coffee": [
+      {
+        "item_en": "Hot V60",
+        "item_ar": "Hot V60",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Specialty drip coffee",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/33551f4bb64442ecb53d307970970d33.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63796665
+      },
+      {
+        "item_en": "Cold V60",
+        "item_ar": "Cold V60",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Specialty drip coffee with ice cubes",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/2e66a3819d00c0930811c40defe73b96.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63796666
+      },
+      {
+        "item_en": "Hot Today's Coffee",
+        "item_ar": "Hot Today's Coffee",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Hot coffee of the day from the finest coffee beans",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/efa5b00d3d30e52f3dcd16c2a75dbe49.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63796667
+      },
+      {
+        "item_en": "Cold Today's Coffee",
+        "item_ar": "Cold Today's Coffee",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Iced coffee of the day from the finest coffee beans",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/2e66a3819d00c0930811c40defe73b96.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63796668
+      }
+    ],
+    "New": [
+      {
+        "item_en": "Chocolate Kunafah",
+        "item_ar": "Chocolate Kunafah",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Chocolate filled with kunafah and pistachio",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/b5c483fe68c16483e0cd4c483caed5ef.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63796671
+      },
+      {
+        "item_en": "The Crunchy Chocolate Share Box • Gather & Crunch – Chocolate Edition",
+        "item_ar": "The Crunchy Chocolate Share Box • Gather & Crunch – Chocolate Edition",
+        "price": 88,
+        "currency": "SAR",
+        "description": "Soft chocolate cake soaked in rich chocolate from every angle topped with a light chocolate crunch that completes the flavor loaded with chocolate from the first bite makes you reach for the next",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/144448/PRODUCT/8c45055d-4f22-4d0c-b26a-3b87a80b1aa9.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70224442
+      },
+      {
+        "item_en": "Crunchy Chocolate",
+        "item_ar": "Crunchy Chocolate",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Crunchy chocolate a soft chocolate cake soaked in rich chocolate from every side topped with a light chocolate crunch that adds the perfect touch packed with chocolate from the very first bite… keeps you going for more",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/144448/PRODUCT/ee237383-5718-4aba-859a-6bbfd5156c89.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70224858
+      }
+    ],
+    "Boxes": [
+      {
+        "item_en": "Today's Coffee Box",
+        "item_ar": "Today's Coffee Box",
+        "price": 54,
+        "currency": "SAR",
+        "description": "Hot coffee of the day box, serves 6 people",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/0647189065a182d95918d61ddf126f03.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63796675
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.037Z",
+  "source": "Hungerstation"
+}

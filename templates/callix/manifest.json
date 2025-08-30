@@ -1,0 +1,26 @@
+{
+  "id": "callix",
+  "name": "Callix Modern",
+  "description": "Modern restaurant template with vibrant orange design, clean typography, and professional layout inspired by digital agency aesthetics",
+  "slots": [
+    "navbar",
+    "hero", 
+    "about",
+    "menu",
+    "gallery",
+    "hours",
+    "contact",
+    "footer"
+  ],
+  "version": "1.0.0",
+  "author": "Restaurant Template System",
+  "tags": [
+    "restaurant",
+    "modern",
+    "orange",
+    "professional",
+    "clean",
+    "menu",
+    "gallery"
+  ]
+}

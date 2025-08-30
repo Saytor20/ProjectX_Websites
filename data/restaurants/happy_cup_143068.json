@@ -1,0 +1,262 @@
+{
+  "restaurant_info": {
+    "id": "143068",
+    "name": "Happy Cup",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2413933,
+      "longitude": 42.6092417
+    },
+    "rating": 4.5,
+    "review_count": 123,
+    "type_of_food": "Indian",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/143068"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Tikka Masala",
+        "item_ar": "Tikka Masala",
+        "price": 24.5,
+        "currency": "SAR",
+        "description": "A mixture of chicken and indian spices, strong in taste and pungent in aroma",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/2a457c6bc8b999e58336be83bf7102f6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62967066
+      },
+      {
+        "item_en": "Rice Karahay",
+        "item_ar": "Rice Karahay",
+        "price": 24.5,
+        "currency": "SAR",
+        "description": "Cooked in karahi sauce with excellent chicken, tomatoes and delicious spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/c3b64fcfc3f2a721a7f269c05cd04ca8.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62967068
+      },
+      {
+        "item_en": "Koshari",
+        "item_ar": "Koshari",
+        "price": 24.5,
+        "currency": "SAR",
+        "description": "Koshari dish with rice, macaroni and onions with lentils and special egyptian sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/cde359cb7c2f999d264054de7d78cbbb.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62967071
+      },
+      {
+        "item_en": "Yogurt Salad",
+        "item_ar": "Yogurt Salad",
+        "price": 7,
+        "currency": "SAR",
+        "description": "A salad from another world",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/2ef7c69beb3485e1bff2f264213b97e7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62967099
+      }
+    ],
+    "Salads": [
+      {
+        "item_en": "Yogurt Salad",
+        "item_ar": "Yogurt Salad",
+        "price": 7,
+        "currency": "SAR",
+        "description": "A salad from another world",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/2ef7c69beb3485e1bff2f264213b97e7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62967099
+      }
+    ],
+    "Main Dishes": [
+      {
+        "item_en": "Tikka Masala",
+        "item_ar": "Tikka Masala",
+        "price": 24.5,
+        "currency": "SAR",
+        "description": "A mixture of chicken and indian spices, strong in taste and pungent in aroma",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/2a457c6bc8b999e58336be83bf7102f6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62967066
+      },
+      {
+        "item_en": "Rice Karahay",
+        "item_ar": "Rice Karahay",
+        "price": 24.5,
+        "currency": "SAR",
+        "description": "Cooked in karahi sauce with excellent chicken, tomatoes and delicious spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/c3b64fcfc3f2a721a7f269c05cd04ca8.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62967068
+      },
+      {
+        "item_en": "Rice Canton",
+        "item_ar": "Rice Canton",
+        "price": 24.5,
+        "currency": "SAR",
+        "description": "Fried chicken with vegetables and soy sauce, sweet and sour taste together",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/b8b7e809143cc68606e113da904881e0.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62967070
+      },
+      {
+        "item_en": "Koshari",
+        "item_ar": "Koshari",
+        "price": 24.5,
+        "currency": "SAR",
+        "description": "Koshari dish with rice, macaroni and onions with lentils and special egyptian sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/cde359cb7c2f999d264054de7d78cbbb.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62967071
+      },
+      {
+        "item_en": "Tikka Pasta",
+        "item_ar": "Tikka Pasta",
+        "price": 24.5,
+        "currency": "SAR",
+        "description": "Pasta with chicken and tikka sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/70c05242aae4295ab7f21f7925c3fab3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62967075
+      },
+      {
+        "item_en": "Karahi Pasta",
+        "item_ar": "Karahi Pasta",
+        "price": 24.5,
+        "currency": "SAR",
+        "description": "Pasta with chicken and karahi sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/000018fcc275d0b536be9011f230ffa9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62967076
+      },
+      {
+        "item_en": "Rice Chicken Bowl",
+        "item_ar": "Rice Chicken Bowl",
+        "price": 24.5,
+        "currency": "SAR",
+        "description": "With the distinctive chicken ball dish in happy cup, grilled marinated chicken balls",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/1014f403c4e6508ae8a7737579373b87.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62967080
+      }
+    ],
+    "Sandwiches": [
+      {
+        "item_en": "Karahi Sandwiches",
+        "item_ar": "Karahi Sandwiches",
+        "price": 14.5,
+        "currency": "SAR",
+        "description": "Saj bread with chicken pieces, karahi sauce and potatoes",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/8e90754ffde25f937cb7ba47228dd190.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62967083
+      },
+      {
+        "item_en": "Tikka Sandwich",
+        "item_ar": "Tikka Sandwich",
+        "price": 14.5,
+        "currency": "SAR",
+        "description": "Saj bread with chicken pieces, tikka sauce and potatoes",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/b7fd625b4249390e2094a895f62912b5.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62967085
+      }
+    ],
+    "Beverages": [
+      {
+        "item_en": "Kinza Cola",
+        "item_ar": "Kinza Cola",
+        "price": 2.5,
+        "currency": "SAR",
+        "description": "The classic refreshing flavor for cola lovers.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/347aaeea86383584d72a82d8f970b047.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62967089
+      },
+      {
+        "item_en": "Kinza Cola Diet",
+        "item_ar": "Kinza Cola Diet",
+        "price": 2.5,
+        "currency": "SAR",
+        "description": "A uniquely flavoured and refreshing soft drink, sugar free.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/efc2b38ce42507677572f3fbe69ae5d4.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62967091
+      },
+      {
+        "item_en": "Kinza Lemon",
+        "item_ar": "Kinza Lemon",
+        "price": 2.5,
+        "currency": "SAR",
+        "description": "A uniquely flavoured and refreshing soft drink with a touch of lemon.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/0dc79a87d14ce33d16256c0aa66a5413.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62967092
+      },
+      {
+        "item_en": "Kinza Lemon Diet",
+        "item_ar": "Kinza Lemon Diet",
+        "price": 2.5,
+        "currency": "SAR",
+        "description": "The distinctive lemon flavor, sugar-free.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/3f3913d7b6fa25f988706d712ccbd47c.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62967094
+      },
+      {
+        "item_en": "Kinza Orange",
+        "item_ar": "Kinza Orange",
+        "price": 2.5,
+        "currency": "SAR",
+        "description": "A uniquely flavoured and refreshing soft drink with an orange flavour.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d4573a2b2c20e46aa8a8af8fe8ad55ed.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62967096
+      },
+      {
+        "item_en": "Kinza Citrus",
+        "item_ar": "Kinza Citrus",
+        "price": 2.5,
+        "currency": "SAR",
+        "description": "A uniquely flavoured and refreshing soft drink with a citrus flavour.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/94b8d2ea29c09b56db92137c3a6960aa.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62967098
+      },
+      {
+        "item_en": "Village Milk",
+        "item_ar": "Village Milk",
+        "price": 4.75,
+        "currency": "SAR",
+        "description": "A refreshing and beneficial fresh laban drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/78a49286d91c7e14a1384e613d7f68df?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63735507
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.029Z",
+  "source": "Hungerstation"
+}

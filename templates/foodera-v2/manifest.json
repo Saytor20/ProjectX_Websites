@@ -1,0 +1,22 @@
+{
+  "id": "foodera-v2",
+  "name": "Foodera V2 Modern Template",
+  "description": "Clean modern template with horizontal menu layout, gradient hero, and professional styling",
+  "slots": [
+    "navbar",
+    "hero",
+    "menu",
+    "about",
+    "contact"
+  ],
+  "version": "1.0.0",
+  "author": "Template Migration Tool",
+  "tags": [
+    "restaurant",
+    "modern",
+    "horizontal-menu",
+    "gradient",
+    "clean",
+    "professional"
+  ]
+}

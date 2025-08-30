@@ -1,0 +1,600 @@
+{
+  "restaurant_info": {
+    "id": "148068",
+    "name": "Bozen",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2397586,
+      "longitude": 42.604145
+    },
+    "rating": 4.2,
+    "review_count": 9,
+    "type_of_food": "Desserts,Beverages,Coffee,Breakfast",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/148068"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Alibo Botched",
+        "item_ar": "Alibo Botched",
+        "price": 37,
+        "currency": "SAR",
+        "description": "Poached eggs with a special sauce, a blend of labneh, yogurt, herbs, butter, smoked paprika, and sourdough bread sprinkled with red pepper.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d8da105276688fb6922d7da722acc965.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585440
+      },
+      {
+        "item_en": "Mushroom Omelette",
+        "item_ar": "Mushroom Omelette",
+        "price": 37,
+        "currency": "SAR",
+        "description": "Omelette with mushroom cream and crispy potatoes, sprinkled with chives and parmesan.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/2b7e44064662fcf2a0d8797cf4fda46d.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585443
+      },
+      {
+        "item_en": "Tuna Balls",
+        "item_ar": "Tuna Balls",
+        "price": 32,
+        "currency": "SAR",
+        "description": "A delicious tuna mix with a special dressing, corn, and american lettuce.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/66585449?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585449
+      },
+      {
+        "item_en": "Hash Brown",
+        "item_ar": "Hash Brown",
+        "price": 21,
+        "currency": "SAR",
+        "description": "4 pieces of fried hash browns served with ketchup.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/34248c46545dd51074f107bb65b82cf7.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585451
+      }
+    ],
+    "Breakfast": [
+      {
+        "item_en": "Alibo Botched",
+        "item_ar": "Alibo Botched",
+        "price": 37,
+        "currency": "SAR",
+        "description": "Poached eggs with a special sauce, a blend of labneh, yogurt, herbs, butter, smoked paprika, and sourdough bread sprinkled with red pepper.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d8da105276688fb6922d7da722acc965.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585440
+      },
+      {
+        "item_en": "Halloumi With Honey",
+        "item_ar": "Halloumi With Honey",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Grilled halloumi cheese slices with honey served with labneh, arugula, and parmesan cheese.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/3385e4f196e919cbc9b757fd6a2d9a5b.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585441
+      },
+      {
+        "item_en": "Eggplant With Hummus",
+        "item_ar": "Eggplant With Hummus",
+        "price": 39,
+        "currency": "SAR",
+        "description": "A layer of hummus and caramelized eggplant slices, garnished with crunchy beetroot, pomegranate seeds, and sesame seeds.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/8e86ff6f50ab49492f74c1ed072df1d0.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585442
+      },
+      {
+        "item_en": "Mushroom Omelette",
+        "item_ar": "Mushroom Omelette",
+        "price": 37,
+        "currency": "SAR",
+        "description": "Omelette with mushroom cream and crispy potatoes, sprinkled with chives and parmesan.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/2b7e44064662fcf2a0d8797cf4fda46d.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585443
+      },
+      {
+        "item_en": "Grilled Halloumi",
+        "item_ar": "Grilled Halloumi",
+        "price": 37,
+        "currency": "SAR",
+        "description": "Halloumi cheese with cherry tomatoes and spicy olive slices, grilled with olive oil, thyme leaves, and special seasonings.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/b4a36f281c0e603195d58390490cfd7d.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585444
+      },
+      {
+        "item_en": "Scramble Egg",
+        "item_ar": "Scramble Egg",
+        "price": 34,
+        "currency": "SAR",
+        "description": "Scrambled eggs with sauce and parmesan cheese, served with german bread and hash browns.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/1c829a0666e188451b93b123f50376b2.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585445
+      },
+      {
+        "item_en": "Foul Bozen",
+        "item_ar": "Foul Bozen",
+        "price": 37,
+        "currency": "SAR",
+        "description": "Fava beans served with special bread, olive oil, and special seasonings.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/1a33e5696f8b121c2be5c6a1c4984ffb.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585446
+      },
+      {
+        "item_en": "Egg Rolls",
+        "item_ar": "Egg Rolls",
+        "price": 37,
+        "currency": "SAR",
+        "description": "Stuffed tortilla rolls: scrambled eggs with turkey pieces and english cheddar, toasted. topped with honey-caramelized bacon, spicy smoked paprika, and natural coriander.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/861a14990644eca5d7e851a35056e35d.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585448
+      },
+      {
+        "item_en": "Tuna Balls",
+        "item_ar": "Tuna Balls",
+        "price": 32,
+        "currency": "SAR",
+        "description": "A delicious tuna mix with a special dressing, corn, and american lettuce.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/66585449?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585449
+      },
+      {
+        "item_en": "Classic French Toast",
+        "item_ar": "Classic French Toast",
+        "price": 32,
+        "currency": "SAR",
+        "description": "French toast pieces with a melted caramel dressing.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/c6596d9536e8416612dbb53a6e567b5c.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585450
+      },
+      {
+        "item_en": "Hash Brown",
+        "item_ar": "Hash Brown",
+        "price": 21,
+        "currency": "SAR",
+        "description": "4 pieces of fried hash browns served with ketchup.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/34248c46545dd51074f107bb65b82cf7.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585451
+      }
+    ],
+    "Desserts": [
+      {
+        "item_en": "Chocolate Cake",
+        "item_ar": "Chocolate Cake",
+        "price": 34,
+        "currency": "SAR",
+        "description": "Sponge cake topped with belgian chocolate",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/6e1cf5032cdc26551d12b7bc2b0aaa96.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585452
+      },
+      {
+        "item_en": "Baklawa Cheesecake",
+        "item_ar": "Baklawa Cheesecake",
+        "price": 38,
+        "currency": "SAR",
+        "description": "Cream cheese mixed with pistachios on a baklawa twist",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/c48e7302997740f25b9ac775010cf438.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585453
+      },
+      {
+        "item_en": "San Sebastian",
+        "item_ar": "San Sebastian",
+        "price": 32,
+        "currency": "SAR",
+        "description": "A combination of cream cheese, natural vanilla, and belgian chocolate",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/ff2d0afc05d49ac0bf308d8a276dd11c.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585454
+      },
+      {
+        "item_en": "Tiramisu",
+        "item_ar": "Tiramisu",
+        "price": 32,
+        "currency": "SAR",
+        "description": "A combination of mousse and mascarpone cheese with cake layers covered in chocolate powder",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/98c99faec4c98f440c4e8569abd93ea6.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585455
+      },
+      {
+        "item_en": "Pistachio Chocolate",
+        "item_ar": "Pistachio Chocolate",
+        "price": 38,
+        "currency": "SAR",
+        "description": "Layers of cake with toasted kunafa mixed with pistachios, topped with belgian chocolate",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/613dd97d0bb9bac1bb4b0faa13eccc64.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585457
+      },
+      {
+        "item_en": "Classic French Toast",
+        "item_ar": "Classic French Toast",
+        "price": 36,
+        "currency": "SAR",
+        "description": "French toast with caramel sauce and feuille flakes",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/c6596d9536e8416612dbb53a6e567b5c.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585459
+      },
+      {
+        "item_en": "Crème Brûlée French",
+        "item_ar": "Crème Brûlée French",
+        "price": 36,
+        "currency": "SAR",
+        "description": "French toast with a layer of crème brûlée",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/464448cae4c145c867d0dd497c7956e1.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585460
+      },
+      {
+        "item_en": "Chocolate Pudding",
+        "item_ar": "Chocolate Pudding",
+        "price": 27,
+        "currency": "SAR",
+        "description": "Layers of cake with cream and topped with belgian chocolate",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/5fd768ac6c145403edd3b467228b1cb5.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585461
+      },
+      {
+        "item_en": "Raffaello Dessert",
+        "item_ar": "Raffaello Dessert",
+        "price": 32,
+        "currency": "SAR",
+        "description": "A layer of red velvet with a raffaello mixture and coconut",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/963675373e367c5d91eed0fc6811d6d5.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585464
+      },
+      {
+        "item_en": "Coco Mango",
+        "item_ar": "Coco Mango",
+        "price": 37,
+        "currency": "SAR",
+        "description": "Delicious coco mango with a fruity taste",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/8762a09590cb56439240f587debf693e?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71961594
+      },
+      {
+        "item_en": "Coco Mango",
+        "item_ar": "Coco Mango",
+        "price": 37,
+        "currency": "SAR",
+        "description": "Delicious coco mango with a fruity taste",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/d9aa616d8d336f0ac274e31aad6a9fe3?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71961764
+      }
+    ],
+    "Hot Beverages": [
+      {
+        "item_en": "Americano",
+        "item_ar": "Americano",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Espresso shots diluted with hot water",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/b3c1947f1b3b41a0b424b33974626c7a.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585466
+      },
+      {
+        "item_en": "Cappuccino",
+        "item_ar": "Cappuccino",
+        "price": 17,
+        "currency": "SAR",
+        "description": "A combination of coffee shots with steamed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d47d3965b720b67bf3726a449c0d2778.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585467
+      },
+      {
+        "item_en": "Flat White",
+        "item_ar": "Flat White",
+        "price": 17,
+        "currency": "SAR",
+        "description": "A combination of coffee shots with steamed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d47d3965b720b67bf3726a449c0d2778.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585468
+      },
+      {
+        "item_en": "Cortado",
+        "item_ar": "Cortado",
+        "price": 16,
+        "currency": "SAR",
+        "description": "A combination of coffee shots with steamed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/aa74612c122b9a9ec6e6fea07d29c25a.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585469
+      },
+      {
+        "item_en": "Latte",
+        "item_ar": "Latte",
+        "price": 18,
+        "currency": "SAR",
+        "description": "A combination of coffee shots with steamed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/abd9606be7b9b33763f5e42fe58bfa98.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585470
+      },
+      {
+        "item_en": "Spanish Latte",
+        "item_ar": "Spanish Latte",
+        "price": 19,
+        "currency": "SAR",
+        "description": "A combination of coffee shots with steamed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/abd9606be7b9b33763f5e42fe58bfa98.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585471
+      },
+      {
+        "item_en": "Hot Chocolate",
+        "item_ar": "Hot Chocolate",
+        "price": 19,
+        "currency": "SAR",
+        "description": "A combination of coffee shots with steamed milk and white chocolate",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/e090236573c10232535145f6627d4920.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585472
+      },
+      {
+        "item_en": "Caramel Latte",
+        "item_ar": "Caramel Latte",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Double shots of coffee made from the finest coffee beans mixed with steamed milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/abd9606be7b9b33763f5e42fe58bfa98.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585476
+      }
+    ],
+    "Drip Coffee": [
+      {
+        "item_en": "Japamise",
+        "item_ar": "Japamise",
+        "price": 21,
+        "currency": "SAR",
+        "description": "A cup of filtered coffee made from the finest coffee beans, japanese style",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/8e0ea114b540a40cc9a889c3ed6d5fd4.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585479
+      },
+      {
+        "item_en": "V60 - Iced",
+        "item_ar": "V60 - Iced",
+        "price": 21,
+        "currency": "SAR",
+        "description": "A cup of filtered coffee made from the finest coffee beans",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/b3c1947f1b3b41a0b424b33974626c7a.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585477
+      },
+      {
+        "item_en": "V60 - Hot",
+        "item_ar": "V60 - Hot",
+        "price": 21,
+        "currency": "SAR",
+        "description": "A cup of filtered coffee made from the finest coffee beans",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/b3c1947f1b3b41a0b424b33974626c7a.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585478
+      }
+    ],
+    "Cold Beverages": [
+      {
+        "item_en": "Iced Americano",
+        "item_ar": "Iced Americano",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Cold-brewed coffee pots",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/8e0ea114b540a40cc9a889c3ed6d5fd4.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585480
+      },
+      {
+        "item_en": "Iced Latte",
+        "item_ar": "Iced Latte",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Coffee blend with iced milk",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/8f6384cb48f68dfa46602eae1a49b96d.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585481
+      },
+      {
+        "item_en": "Iced Caramel Latte",
+        "item_ar": "Iced Caramel Latte",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Coffee blend with iced milk and caramel",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/8cea815469e6356c7a1bb5f437ffe375.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585482
+      },
+      {
+        "item_en": "Iced Spanish Latte",
+        "item_ar": "Iced Spanish Latte",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Coffee shots with iced milk and white chocolate",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/8f6384cb48f68dfa46602eae1a49b96d.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585483
+      },
+      {
+        "item_en": "Iced Hibiscus",
+        "item_ar": "Iced Hibiscus",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Hibiscus leaf extract with lemon, mint, and our own twist",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/6e16802b0795ebe0974322bc9234a3fc.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585484
+      },
+      {
+        "item_en": "Iced Tea Peach",
+        "item_ar": "Iced Tea Peach",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Iced tea essence with lemon, mint, and our own twist",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/81804a1b107e8e8033e9631bc6fe5644.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585485
+      },
+      {
+        "item_en": "Iced Matcha",
+        "item_ar": "Iced Matcha",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Iced milk blend with matcha extract",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/1543402ce524bef84c6bca1d6abfe119.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585486
+      },
+      {
+        "item_en": "Iced Caramel Macchiato",
+        "item_ar": "Iced Caramel Macchiato",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Coffee shots with iced milk and caramel",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/8cea815469e6356c7a1bb5f437ffe375.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585487
+      }
+    ],
+    "Mojitos": [
+      {
+        "item_en": "Freeze Mojito",
+        "item_ar": "Freeze Mojito",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Sparkling water blend with lemon, mint, and red berries",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/8c89aea90495b299c43bbed35aefab1f.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585488
+      },
+      {
+        "item_en": "Oceana Mojito",
+        "item_ar": "Oceana Mojito",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Sparkling water blend with lemon, mint, and our own twist",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/66f809ac6745686882f861db8c656fab.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585489
+      },
+      {
+        "item_en": "Blackberry Mojito",
+        "item_ar": "Blackberry Mojito",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Sparkling water blend with lemon, mint, and blackberries",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/26512a7f2fb16c14bb49190960335cb0.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585490
+      }
+    ],
+    "Tea": [
+      {
+        "item_en": "Dripped Tea",
+        "item_ar": "Dripped Tea",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Traditional distilled red tea",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/e986c35b4e5790546c9bafc2d4acdf12.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585491
+      },
+      {
+        "item_en": "Tea Cup",
+        "item_ar": "Tea Cup",
+        "price": 6,
+        "currency": "SAR",
+        "description": "A cup of hot red tea",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/bcf9cd983b1c08845159fbb5a56480ba.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585492
+      }
+    ],
+    "Juice": [
+      {
+        "item_en": "Orange Juice",
+        "item_ar": "Orange Juice",
+        "price": 21,
+        "currency": "SAR",
+        "description": "A cup of natural orange juice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/5bb13b0b8c155dbd0bd3df72eb764dcb.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66585493
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.038Z",
+  "source": "Hungerstation"
+}

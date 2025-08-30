@@ -1,0 +1,512 @@
+{
+  "restaurant_info": {
+    "id": "152451",
+    "name": "Sandwich",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.24013648797084,
+      "longitude": 42.60362395581969
+    },
+    "rating": 5,
+    "review_count": 3,
+    "type_of_food": "Sandwich",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/152451"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Jumbo Meat Sandwich",
+        "item_ar": "Jumbo Meat Sandwich",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Local lamb meat + cheese + onions + special sandwich sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7660083?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660083
+      },
+      {
+        "item_en": "Fire Crispy Chicken Burger",
+        "item_ar": "Fire Crispy Chicken Burger",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Chicken + cabbage salad + special sandwich sauce + special fire",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/62877/PRODUCT/7660084/06414401-6a07-4e70-8d2d-202fdd132080.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660084
+      },
+      {
+        "item_en": "Fries Fingers",
+        "item_ar": "Fries Fingers",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Crispy french fries",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7660101?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660101
+      }
+    ],
+    "Burger": [
+      {
+        "item_en": "Crispy Chicken Burger",
+        "item_ar": "Crispy Chicken Burger",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Chicken + cabbage salad + special sandwich sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7660085?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660085
+      },
+      {
+        "item_en": "Fire Crispy Chicken Burger",
+        "item_ar": "Fire Crispy Chicken Burger",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Chicken + cabbage salad + special sandwich sauce + special fire",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/62877/PRODUCT/7660084/06414401-6a07-4e70-8d2d-202fdd132080.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660084
+      },
+      {
+        "item_en": "Double Beef Burger",
+        "item_ar": "Double Beef Burger",
+        "price": 31,
+        "currency": "SAR",
+        "description": "Fresh local lamb + slice of cheese + tomatoes + lettuce + special sandwich sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7660081?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660081
+      },
+      {
+        "item_en": "Halloumi",
+        "item_ar": "Halloumi",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Halloumi cheese + pesto sauce + grilled tomatoes + lettuce + olives + mint",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7660090?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660090
+      }
+    ],
+    "Sandwich": [
+      {
+        "item_en": "W Roll Eggs Sandwich",
+        "item_ar": "W Roll Eggs Sandwich",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Eggs + cheese + lettuce + tomatoes",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7660091?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660091
+      },
+      {
+        "item_en": "Chicken  Orange Sandwich",
+        "item_ar": "Chicken  Orange Sandwich",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Chicken + mix cheese + special sandwich sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7660087?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660087
+      },
+      {
+        "item_en": "W Chicken Shish Sandwich",
+        "item_ar": "W Chicken Shish Sandwich",
+        "price": 18,
+        "currency": "SAR",
+        "description": "W chicken shish",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7660086?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660086
+      },
+      {
+        "item_en": "Jumbo Meat Sandwich",
+        "item_ar": "Jumbo Meat Sandwich",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Local lamb meat + cheese + onions + special sandwich sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7660083?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660083
+      },
+      {
+        "item_en": "Hot Dog Sandwich",
+        "item_ar": "Hot Dog Sandwich",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Special sandwich style hot dog with sandwich sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7660088?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660088
+      },
+      {
+        "item_en": "Club Sandwich",
+        "item_ar": "Club Sandwich",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Turkey turkey - mortadella meat - eggs - cheese - lettuce - tomatoes - sandwich sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7660089?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660089
+      }
+    ],
+    "Meals": [
+      {
+        "item_en": "Crispy Chicken Meal",
+        "item_ar": "Crispy Chicken Meal",
+        "price": 35,
+        "currency": "SAR",
+        "description": "Crispy chicken + fries + pepsi",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7660092?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660092
+      },
+      {
+        "item_en": "Orange Chicken Meal",
+        "item_ar": "Orange Chicken Meal",
+        "price": 27,
+        "currency": "SAR",
+        "description": "Orange chicken + fries + pepsi",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7660094?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660094
+      },
+      {
+        "item_en": "Kids Meal Chicken Nuggets",
+        "item_ar": "Kids Meal Chicken Nuggets",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Burger, potatoes and juice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7660098?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660098
+      },
+      {
+        "item_en": "Kids Meal Single Burger",
+        "item_ar": "Kids Meal Single Burger",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Delicious beef burger with sauce served with french fries and juice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7660099?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660099
+      }
+    ],
+    "Breakfast": [
+      {
+        "item_en": "Break Sheep Meat",
+        "item_ar": "Break Sheep Meat",
+        "price": 27,
+        "currency": "SAR",
+        "description": "Fruit salad, eggs, beans, minced lamb, hash brown, vegetables, pickles, bread.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/82569/PRODUCT/7660096/c7a53972-f3e1-4f44-81a9-edee66481645.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660096
+      },
+      {
+        "item_en": "Break Chicken",
+        "item_ar": "Break Chicken",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Cheese eggs + chicken + bean + vegetables + parrot salad + hash browns + pickles + bread",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7660097?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660097
+      },
+      {
+        "item_en": "Break Hot Dog",
+        "item_ar": "Break Hot Dog",
+        "price": 23,
+        "currency": "SAR",
+        "description": "A plate of fried sausages, fresh vegetables and fried eggs.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7660095?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660095
+      }
+    ],
+    "Crispy Fries": [
+      {
+        "item_en": "W Fries",
+        "item_ar": "W Fries",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Crispy fried potatoes with special sauce",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/62877/PRODUCT/7660100/fb11ede1-887b-49fa-a09f-d2cfd057e7f5.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660100
+      },
+      {
+        "item_en": "Wedges",
+        "item_ar": "Wedges",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Baked potatoes seasoned with olive oil, black pepper, salt and paprika.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7660102?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660102
+      },
+      {
+        "item_en": "Crinkle",
+        "item_ar": "Crinkle",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Crispy french fries prepared in our way with a delicious taste",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7660103?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660103
+      },
+      {
+        "item_en": "Fries Fingers",
+        "item_ar": "Fries Fingers",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Crispy french fries",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7660101?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660101
+      }
+    ],
+    "Side Orders": [
+      {
+        "item_en": "Onion Rings",
+        "item_ar": "Onion Rings",
+        "price": 17,
+        "currency": "SAR",
+        "description": "Crispy fried onion rings",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7660107?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660107
+      },
+      {
+        "item_en": "Mozzarella Sticks",
+        "item_ar": "Mozzarella Sticks",
+        "price": 17,
+        "currency": "SAR",
+        "description": "Fried cheese fingers.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7660106?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660106
+      },
+      {
+        "item_en": "Jalapeno Cheese",
+        "item_ar": "Jalapeno Cheese",
+        "price": 17,
+        "currency": "SAR",
+        "description": "Cheese with jalapeno, dipped in breadcrumbs, salt, eggs, served fried",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7660105?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660105
+      },
+      {
+        "item_en": "Cabbage Salad",
+        "item_ar": "Cabbage Salad",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Salad made from fresh vegetables and cabbage",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/82569/PRODUCT/7660104/9046cb00-7d5f-4b76-bade-6c9bfe81b980.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660104
+      }
+    ],
+    "Sauces": [
+      {
+        "item_en": "Cheese Sause",
+        "item_ar": "Cheese Sause",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Cheese sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/403e720f1c1f7d60e48867613a3015ef.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660108
+      },
+      {
+        "item_en": "Sweet Sauce",
+        "item_ar": "Sweet Sauce",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Delicious sauce prepared in our special way",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/62877/PRODUCT/7660109/607e731f-9920-45dd-b616-3edc7b6a285b.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660109
+      },
+      {
+        "item_en": "Fire Sauce",
+        "item_ar": "Fire Sauce",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Sauce made in our own way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-15046217?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660110
+      },
+      {
+        "item_en": "Bbq Sauce",
+        "item_ar": "Bbq Sauce",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Classic barbecue flavored sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7660111?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660111
+      },
+      {
+        "item_en": "W Sauce",
+        "item_ar": "W Sauce",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Sauce prepared in our way with a delicious taste",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/62877/PRODUCT/7660112/dcafdd93-1dbe-4cf4-beee-8d49c52cb890.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660112
+      },
+      {
+        "item_en": "Chicken Sauce",
+        "item_ar": "Chicken Sauce",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Special chicken sauce in our own way",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/62877/PRODUCT/7660113/67e035d9-97cb-4391-8823-2dd252c47dc9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660113
+      }
+    ],
+    "Drinks": [
+      {
+        "item_en": "Pepsi Glass Bottle",
+        "item_ar": "Pepsi Glass Bottle",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Refreshing carbonated soft drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-5738809?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 8091301
+      },
+      {
+        "item_en": "Diet Pepsi",
+        "item_ar": "Diet Pepsi",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Zero-calorie carbonated soft drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/e0ce777ef60bd14c8f4eacdeddb8e291?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660114
+      },
+      {
+        "item_en": "Mirinda",
+        "item_ar": "Mirinda",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Mirinda soft drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-8091269?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 8091269
+      },
+      {
+        "item_en": "7 Up",
+        "item_ar": "7 Up",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Soft drink that has the crisp and iconic lemon-lime flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-15958563?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 8091513
+      },
+      {
+        "item_en": "Dew",
+        "item_ar": "Dew",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Refreshing soft drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-8091512?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 8091512
+      },
+      {
+        "item_en": "Orange  Juice",
+        "item_ar": "Orange  Juice",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Cold and refreshing juice with fresh orange fruit",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7660394?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660394
+      },
+      {
+        "item_en": "Cocktail Juice",
+        "item_ar": "Cocktail Juice",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Mixed fruit juice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/8111826?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 8111826
+      },
+      {
+        "item_en": "Beet Juice",
+        "item_ar": "Beet Juice",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Refreshing juice with natural beets",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/8111827?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 8111827
+      },
+      {
+        "item_en": "Water",
+        "item_ar": "Water",
+        "price": 1.5,
+        "currency": "SAR",
+        "description": "Bottled mineral water",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/7660118?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 7660118
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.030Z",
+  "source": "Hungerstation"
+}

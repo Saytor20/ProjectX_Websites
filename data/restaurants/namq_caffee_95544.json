@@ -1,0 +1,901 @@
+{
+  "restaurant_info": {
+    "id": "95544",
+    "name": "Namq Caffee",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2403161,
+      "longitude": 42.68314609999999
+    },
+    "rating": 4.2,
+    "review_count": 1100,
+    "type_of_food": "Desserts,Bakery,Beverages,Coffee",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/95544"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Today Coffee With Namq Cake",
+        "item_ar": "Today Coffee With Namq Cake",
+        "price": 43,
+        "currency": "SAR",
+        "description": "Today coffee and namq cake",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/98230c83be769687eac8212a7f3c501c.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61098880
+      },
+      {
+        "item_en": "Namq Cake",
+        "item_ar": "Namq Cake",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Enjoy a namq cake, dipped in chocolate sauce, filled with white chocolate sauce, and served with delicious ice cream.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/5aeca160da121a119c6ecb8e9f66277a.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668629
+      },
+      {
+        "item_en": "Today Coffee And Chocolate Cake",
+        "item_ar": "Today Coffee And Chocolate Cake",
+        "price": 43,
+        "currency": "SAR",
+        "description": "Chocolate cake with hot coffee of the day",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/44249f03979e5c701ab85d1f317a4445.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61098881
+      },
+      {
+        "item_en": "Dulcey Cake",
+        "item_ar": "Dulcey Cake",
+        "price": 27,
+        "currency": "SAR",
+        "description": "Layered balanced flavors starting with refreshing coffee, a blend of special cream and caramel, topped with a thin layer of cocoa powder, a delicious experience in a namq style.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/4599f02b20fec728ed7febcc2b6512b7.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 60826114
+      }
+    ],
+    "Offers": [
+      {
+        "item_en": "Today Coffee With Namq Cake",
+        "item_ar": "Today Coffee With Namq Cake",
+        "price": 43,
+        "currency": "SAR",
+        "description": "Today coffee and namq cake",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/98230c83be769687eac8212a7f3c501c.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61098880
+      },
+      {
+        "item_en": "Today Coffee And Chocolate Cake",
+        "item_ar": "Today Coffee And Chocolate Cake",
+        "price": 43,
+        "currency": "SAR",
+        "description": "Chocolate cake with hot coffee of the day",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/44249f03979e5c701ab85d1f317a4445.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61098881
+      },
+      {
+        "item_en": "Today Coffee And Your Choice Dessert",
+        "item_ar": "Today Coffee And Your Choice Dessert",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Today coffee and your choice dessert",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/3bebed8ac20e47f983eb64abb85e8d3e.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 69739631
+      }
+    ],
+    "Namq Gathering": [
+      {
+        "item_en": "Saudi Container",
+        "item_ar": "Saudi Container",
+        "price": 42,
+        "currency": "SAR",
+        "description": "Enjoy the authentic saudi coffee experience with the coffee box and 6 paper cups, giving you a touch of authenticity and comfort in every sip",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/7f1e286a158cc03dfaf4ecf85f1dd12f.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668613
+      },
+      {
+        "item_en": "Coffee Day Container",
+        "item_ar": "Coffee Day Container",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Today's coffee box for your happy gatherings comes with 6 paper cups",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/d7270cd4a5bd203533ead8c35405a77e.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668612
+      },
+      {
+        "item_en": "Salted Caramel Brownies Box",
+        "item_ar": "Salted Caramel Brownies Box",
+        "price": 64,
+        "currency": "SAR",
+        "description": "Enjoy the \"salted caramel brownies box,\" where rich brownie flavor meets a hint of salted caramel for a delicious and distinctive experience.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/15128467734d6b6ae679c2497e0305b7.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668611
+      },
+      {
+        "item_en": "Caramel Bites Box",
+        "item_ar": "Caramel Bites Box",
+        "price": 62,
+        "currency": "SAR",
+        "description": "Suitable for your joyful gatherings, the caramel bites box comes with 18 pieces of premium caramel dipped in smooth chocolate.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/af655082aa0b281ffb678234f72eaf35.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668619
+      },
+      {
+        "item_en": "Coffee Day + Brownies Box",
+        "item_ar": "Coffee Day + Brownies Box",
+        "price": 95,
+        "currency": "SAR",
+        "description": "Savor the perfect blend of premium coffee and delicious brownies with the \"today's coffee pouch + brownies box\" for a delightful and indulgent experience.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/bfa265de6ad2ad5b53ae4e8ebf81c37c.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668610
+      },
+      {
+        "item_en": "Coffee Day Container + Caramel Bites Box",
+        "item_ar": "Coffee Day Container + Caramel Bites Box",
+        "price": 95,
+        "currency": "SAR",
+        "description": "18 pieces of soft caramel bites coated in chocolate sauce, comes with 1 liter of today's coffee and 6 empty cups, a suitable choice for your happy gatherings.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/6db722e09c1dd86219f2bfeaff17fc2e.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668618
+      },
+      {
+        "item_en": "Arabic Coffee + Brownies Box",
+        "item_ar": "Arabic Coffee + Brownies Box",
+        "price": 95,
+        "currency": "SAR",
+        "description": "Savor the perfect blend of premium coffee and delicious brownies with the \"arabic coffee pouch + brownies box\" for a delightful and indulgent experience",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/bfa265de6ad2ad5b53ae4e8ebf81c37c.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 60472827
+      },
+      {
+        "item_en": "Arabic Coffee + Caramel Box",
+        "item_ar": "Arabic Coffee + Caramel Box",
+        "price": 95,
+        "currency": "SAR",
+        "description": "18 pieces of soft caramel bites coated in chocolate sauce, comes with 1 liter of arabic coffee and 6 empty cups, a suitable choice for your happy gatherings.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/6db722e09c1dd86219f2bfeaff17fc2e.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 60472828
+      },
+      {
+        "item_en": "Winter Gatherings",
+        "item_ar": "Winter Gatherings",
+        "price": 118,
+        "currency": "SAR",
+        "description": "Caramel bites box 1 + 1 salted caramel brownies box",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/fbcbed529f1dbaf7942138fa65d5c269.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61159638
+      },
+      {
+        "item_en": "Dulcey Box + Coffee Day Container",
+        "item_ar": "Dulcey Box + Coffee Day Container",
+        "price": 143,
+        "currency": "SAR",
+        "description": "Coffee day container 1 l dulcey cake family box 6 to 8",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/baefadd6dd7c6c451920eacc828887f1.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66190369
+      },
+      {
+        "item_en": "Dulcey Cake Family Box",
+        "item_ar": "Dulcey Cake Family Box",
+        "price": 125,
+        "currency": "SAR",
+        "description": "Layered balanced flavors starting with refreshing coffee, a blend of special cream and caramel, topped with a thin layer of cocoa powder, a delicious experience in a namq style.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/4cf363b6d01fe03675d9bdb38d37630e.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66190361
+      },
+      {
+        "item_en": "Coffee Day Container + Tiramisu Box",
+        "item_ar": "Coffee Day Container + Tiramisu Box",
+        "price": 149,
+        "currency": "SAR",
+        "description": "Coffee day container 1l with tiramisu cake family box 6 to 8",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/baefadd6dd7c6c451920eacc828887f1.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66190363
+      },
+      {
+        "item_en": "Saudi Container + Tiramisu Box",
+        "item_ar": "Saudi Container + Tiramisu Box",
+        "price": 149,
+        "currency": "SAR",
+        "description": "Saudi coffee container 1l with tiramisu cake family box 6 to 8",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/baefadd6dd7c6c451920eacc828887f1.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66190365
+      },
+      {
+        "item_en": "Dulcey Box + Saudi Coffee Container",
+        "item_ar": "Dulcey Box + Saudi Coffee Container",
+        "price": 143,
+        "currency": "SAR",
+        "description": "Saudi coffee container 1 l with dulcey cake family box 6 to 7",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/baefadd6dd7c6c451920eacc828887f1.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66190367
+      },
+      {
+        "item_en": "Choco Crispy Gathering",
+        "item_ar": "Choco Crispy Gathering",
+        "price": 179,
+        "currency": "SAR",
+        "description": "The \"choco crispy\" dessert, also known as \"hala al-hibah,\" is a type of quick and popular treat. it is a combination of crunchiness and sweetness with a rich chocolate flavor. this dessert is characterized by its simple ingredients and easy preparation method, making it an ideal choice for family gatherings and occasions",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/f71f97391fe4dd66f04c96dfdb49ef29.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 66429465
+      }
+    ],
+    "Sweets": [
+      {
+        "item_en": "San Sebastian.",
+        "item_ar": "San Sebastian.",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Enjoy san sebastian cheesecake, featuring a delicate crust and a smooth cheese filling, coming together to deliver a delicious and unique experience. discover the delightful basque dessert sensation in every moment of tasting. allergens :eggs milk wheat",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/498edf12f7b4d35383e85bf60eedc94b.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668622
+      },
+      {
+        "item_en": "Salted Caramel Brownies",
+        "item_ar": "Salted Caramel Brownies",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Dive into two pieces of soft chocolate brownie, immersed in salty caramel sauce, delivering a perfect dessert experience.allergens :eggs milk soya wheat nuts",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/ce73b5e732f0b167e35fc929305af024.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668623
+      },
+      {
+        "item_en": "Tiramisu",
+        "item_ar": "Tiramisu",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Blending the simplicity of coffee-soaked biscuit with the smoothness of panna cotta cream, adorned with a light touch of cocoa. a delightful experience with an elegant touch.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/49237fb8bfd772d60cfce5e890a62375.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668624
+      },
+      {
+        "item_en": "Honey Cake",
+        "item_ar": "Honey Cake",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Enjoy a delicious experience with honey cake, where the warm flavor of honey blends with the delectable softness of the cake.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/b6a87a386aa8b079113c9973f3f18496.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668627
+      },
+      {
+        "item_en": "Dulcey Cake",
+        "item_ar": "Dulcey Cake",
+        "price": 27,
+        "currency": "SAR",
+        "description": "Layered balanced flavors starting with refreshing coffee, a blend of special cream and caramel, topped with a thin layer of cocoa powder, a delicious experience in a namq style.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/4599f02b20fec728ed7febcc2b6512b7.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 60826114
+      },
+      {
+        "item_en": "Brownie With Ice Cream",
+        "item_ar": "Brownie With Ice Cream",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Rich chocolate brownie paired with smooth vanilla ice cream for an extra layer of delight.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/ff64f4e88511363a3be226d047568d98.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668628
+      },
+      {
+        "item_en": "Namq Cake",
+        "item_ar": "Namq Cake",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Enjoy a namq cake, dipped in chocolate sauce, filled with white chocolate sauce, and served with delicious ice cream.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/5aeca160da121a119c6ecb8e9f66277a.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668629
+      },
+      {
+        "item_en": "Salted Caramel Cookies",
+        "item_ar": "Salted Caramel Cookies",
+        "price": 28,
+        "currency": "SAR",
+        "description": "Indulge in a delightful combo, chocolate-dipped cookies with scrumptious ice cream. a perfect blend of crunch and sweetness.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/a161253ddd7361cc5a241e0834910faf.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668630
+      },
+      {
+        "item_en": "Chocolate Cake",
+        "item_ar": "Chocolate Cake",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Enjoy a delicious chocolate cake submerged in two chocolate sauce, offering a perfect and delightful experience with a wonderful balance of sweetness and smoothness.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/1e948fce3978212466de81b28b7760b6.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668632
+      }
+    ],
+    "Bites": [
+      {
+        "item_en": "Babka Chocolate",
+        "item_ar": "Babka Chocolate",
+        "price": 13,
+        "currency": "SAR",
+        "description": "A delicious experience distinguished by the rich flavor of chocolate and the luxurious texture of babka. an ideal sweetness for chocolate lovers.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/4a9021e5d054a8dd4c9381646cc6e436.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668635
+      },
+      {
+        "item_en": "Caramelized Pecan",
+        "item_ar": "Caramelized Pecan",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Pecan caramel a delightful experience that combines the flavor of pecans with rich caramel, dipped in delicious chocolate to create an irresistible sweet treat.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/55f869f2938812c4d9e3666a11e6bf13.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668636
+      },
+      {
+        "item_en": "Caramel Bites",
+        "item_ar": "Caramel Bites",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Caramel bites delicious moments with a biscuit base and a rich caramel touch, all enrobed in delectable chocolate for a delightful sweet experience.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/855551af0717a7604eed4c199e7fade7.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668638
+      },
+      {
+        "item_en": "Marble Cake",
+        "item_ar": "Marble Cake",
+        "price": 11,
+        "currency": "SAR",
+        "description": "The delicious marble flavor flowing from the delicate cake, for a simple and tasty sweet experience.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/606292f7608ae6835ee2f29ec7b32e88.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668642
+      },
+      {
+        "item_en": "Chocolate Thyme",
+        "item_ar": "Chocolate Thyme",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Blending the richness of chocolate with the aromatic flavor of thyme, it offers a distinctive and delightful experience suitable for all tastes.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/884f2ac88d80ac572c4d29b42e12d6ad.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668643
+      },
+      {
+        "item_en": "Lemon Cake",
+        "item_ar": "Lemon Cake",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Delightful lemon flavor flowing from the delicate cake, for a simple and delicious sweet experience.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/989322b23e3b8964edea8f90e1387ebd.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668644
+      }
+    ],
+    "Hot Coffee": [
+      {
+        "item_en": "V60",
+        "item_ar": "V60",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Enjoy preparing your specialty coffee with finesse using the v60 this custom filter comes with a unique conical design that perfectly highlights the flavor of the beans",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/d1ae60d3548d58687ae70a7292367552.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668645
+      },
+      {
+        "item_en": "Coffee Day 12 Oz",
+        "item_ar": "Coffee Day 12 Oz",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Today's 12-ounce coffee refreshes you with its perfect size and rich flavor to get you energized for your day",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/d1ae60d3548d58687ae70a7292367552.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668648
+      },
+      {
+        "item_en": "Coffee Day",
+        "item_ar": "Coffee Day",
+        "price": 13,
+        "currency": "SAR",
+        "description": "A boost to start your day with energy and vitality",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/d1ae60d3548d58687ae70a7292367552.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668649
+      },
+      {
+        "item_en": "Tea",
+        "item_ar": "Tea",
+        "price": 8,
+        "currency": "SAR",
+        "description": "The rich flavor of tea blends with the soothing effect, making this beverage a perfect choice for enjoying quiet and relaxing moments",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/ddaa996d0cee485d7d20158b7ec532ea.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668650
+      },
+      {
+        "item_en": "Hot Spanish Latte",
+        "item_ar": "Hot Spanish Latte",
+        "price": 17,
+        "currency": "SAR",
+        "description": "Allergens: milk. \"a wonderful blend of strong espresso and milk, creating a warm and delightful experience.\"",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/60de83b85f72bce300dacfd7c564d8ea.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668652
+      },
+      {
+        "item_en": "Americano",
+        "item_ar": "Americano",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Espresso blended with hot water for a balanced coffee flavor.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/dbf24c26ce87d5eacf39f144eb959077.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668653
+      },
+      {
+        "item_en": "Cortado",
+        "item_ar": "Cortado",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Allergens: milk. espresso with a splash of milk, a balanced and delicious coffee experience.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/60de83b85f72bce300dacfd7c564d8ea.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668654
+      },
+      {
+        "item_en": "Flat White",
+        "item_ar": "Flat White",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Allergens: milk. a delightful blend of strong espresso with hot milk, offering a smooth and richly flavored experience.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/ea23e2826ce9c44b94735a16c684a00e.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668655
+      },
+      {
+        "item_en": "Cappuccino",
+        "item_ar": "Cappuccino",
+        "price": 17,
+        "currency": "SAR",
+        "description": "Allergens: milk. \"rich espresso blended with frothy milk.\"",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/fa211595dc8a9b72cf2fba8e8d39bb91.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668656
+      },
+      {
+        "item_en": "Latte",
+        "item_ar": "Latte",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Allergens: milk. enjoy the perfect experience with a hot latte the flavor of premium coffee blends with whipped milk to create the unique latte beverage",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/f60429b038462f73c6fb8b3e25409074.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668657
+      },
+      {
+        "item_en": "Espresso",
+        "item_ar": "Espresso",
+        "price": 11,
+        "currency": "SAR",
+        "description": "An intensely concentrated experience, achieving a perfect balance in every sip.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/3033634d88f518b0c035317cab85d3b3.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668658
+      },
+      {
+        "item_en": "Saudi Coffee Cup",
+        "item_ar": "Saudi Coffee Cup",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Enjoy the pleasure of authentic coffee with a saudi coffee cup, an unparalleled experience in flavor and distinction",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/a568db7147379693cda93adff3e57e7d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 61065451
+      }
+    ],
+    "Ice Coffee": [
+      {
+        "item_en": "Iced V60",
+        "item_ar": "Iced V60",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Enjoy preparing your specialty cold brew coffee with finesse using the v60 this custom filter comes with a unique conical design that perfectly highlights the flavor of the beans",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/a6702bb86bc49c9fcaeebc0cc22a1efb.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668659
+      },
+      {
+        "item_en": "Coffee Day 12 Oz Iced",
+        "item_ar": "Coffee Day 12 Oz Iced",
+        "price": 18,
+        "currency": "SAR",
+        "description": "A boost to start your day with energy and vitality",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/1659236b2b866fda6dda9757bdceb201.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62072745
+      },
+      {
+        "item_en": "Ice Cortado",
+        "item_ar": "Ice Cortado",
+        "price": 16,
+        "currency": "SAR",
+        "description": "A cool and invigorating combination of strong espresso and cold milk, creating a delightful iced coffee experience.\"",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/3eba3f81c8deee3f01607b6cfc06a119.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668660
+      },
+      {
+        "item_en": "Ice Flat White",
+        "item_ar": "Ice Flat White",
+        "price": 17,
+        "currency": "SAR",
+        "description": "A cool and refreshing blend of strong espresso and cold milk, offering a smooth and flavorful iced coffee experience.\"",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/a31ad34d7932ddb9170094681a84d481.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668661
+      },
+      {
+        "item_en": "Cold Brew",
+        "item_ar": "Cold Brew",
+        "price": 22,
+        "currency": "SAR",
+        "description": "\"smooth and refreshing coffee, brewed cold to deliver a full and bold flavor profile, an ideal experience for a cool and refreshing iced coffee.\"",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/c37b4bd1e348cd3aaa754c5138981fa0.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668663
+      },
+      {
+        "item_en": "Iced Americano",
+        "item_ar": "Iced Americano",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Cool and refreshing coffee that blends espresso with cold water, delivering a light and delightful iced coffee experience.\"",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/a6702bb86bc49c9fcaeebc0cc22a1efb.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668664
+      },
+      {
+        "item_en": "Iced Spanish Latte",
+        "item_ar": "Iced Spanish Latte",
+        "price": 22,
+        "currency": "SAR",
+        "description": "A cool and flavorful blend of strong espresso and cold milk, creating a refreshing iced coffee experience with a touch of spanish flair.\"",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/f0100b573f0348d0b27eed3893f57d05.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668665
+      },
+      {
+        "item_en": "Iced Latte",
+        "item_ar": "Iced Latte",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Refreshing blend of espresso and cold milk, offering a wonderful balance of creamy flavor in an iced coffee.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/50ef1ddc38d9ef709adbb5640935aeea.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668666
+      }
+    ],
+    "Cold Drinks": [
+      {
+        "item_en": "Ice Matcha Signature",
+        "item_ar": "Ice Matcha Signature",
+        "price": 23,
+        "currency": "SAR",
+        "description": "An exquisite fusion of smooth matcha green tea and iced milk creates a harmonious and refreshing flavor experience.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/11ffa62d9ae1b0e8af526e17e8d58fe3.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668673
+      },
+      {
+        "item_en": "Ice Matcha Latte",
+        "item_ar": "Ice Matcha Latte",
+        "price": 22,
+        "currency": "SAR",
+        "description": "A distinctive fusion of potent matcha tea and the silkiness of milk, harmonizing to craft an iced latte that captivates with its balanced and refreshing flavor.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/2dcf4872cf1034461049348ef135223c.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668674
+      },
+      {
+        "item_en": "Ice Tea Peach",
+        "item_ar": "Ice Tea Peach",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Namq ice tea, a refreshing journey in every sip, blending the coolness of tea with the delight of refreshment.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/58607440af3655f9da37d0c110a57e63.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 55345488
+      },
+      {
+        "item_en": "Ice Tea",
+        "item_ar": "Ice Tea",
+        "price": 23,
+        "currency": "SAR",
+        "description": "A refreshing sensation, an invigorating journey in every sip, blending the coolness of tea with the pleasure of rejuvenation.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/52de97c75f6fc0e8313e249af85a7bb3.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668668
+      },
+      {
+        "item_en": "Nova Water 330 Ml",
+        "item_ar": "Nova Water 330 Ml",
+        "price": 2,
+        "currency": "SAR",
+        "description": "Nova is not just water, but a precious gift from deep within the arabian deserts; from the heart of the unspoiled and tranquil saudi wilderness.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/9efc72a606a0cda1b40a61120c1e1a8e.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668672
+      },
+      {
+        "item_en": "Red Sands Mojito",
+        "item_ar": "Red Sands Mojito",
+        "price": 23,
+        "currency": "SAR",
+        "description": "A refreshing blend combining lemon juice and fresh fruit flavors with a touch of mint, providing you with an unmatched, refreshing, and enjoyable experience.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/2f361c350851bed446246924290d8d2d.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70194105
+      },
+      {
+        "item_en": "Sparkling Passion Mojito",
+        "item_ar": "Sparkling Passion Mojito",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Fresh tropical fruit juice blends with a hint of mint and a refreshing lemon juice flavor.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/bb7270e48951ea20d692a704df44ee23.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70194106
+      },
+      {
+        "item_en": "Mix Berries Mojito",
+        "item_ar": "Mix Berries Mojito",
+        "price": 23,
+        "currency": "SAR",
+        "description": "A refreshing beverage that combines fresh fruit flavors and lemon juice, with a light touch of mint.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/d6e0a82e25d3ae0c24897df650a46415.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70194107
+      }
+    ],
+    "Bakery": [
+      {
+        "item_en": "Nutella Well",
+        "item_ar": "Nutella Well",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Allergens: milk, soya, wheat, nuts, eggs. a delicious experience combining the renowned flavor of nutella with the flaky texture of croissant, perfect for chocolate and pastry enthusiasts.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/b106b0fc1fab7b710b81bb5b0078e02f.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668675
+      },
+      {
+        "item_en": "Chocolate Croissant",
+        "item_ar": "Chocolate Croissant",
+        "price": 21,
+        "currency": "SAR",
+        "description": "Allergens: milk, soya, wheat, eggs. a delicious french delicacy that combines layers of crispy pastry with the delightful flavor of chocolate",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/fb0d379cc5b5f918162d1acca915d7ea.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668676
+      },
+      {
+        "item_en": "Cheesecake Croissant",
+        "item_ar": "Cheesecake Croissant",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Allergens: eggs, milk, wheat. a delicious blend of flaky croissant and rich cheesecake flavor, a delicious option , perfect for pastry enthusiasts.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/52b56cb6cc802aaaddf360cf274368b6.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668677
+      },
+      {
+        "item_en": "Pecan Croissant",
+        "item_ar": "Pecan Croissant",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Allergens: eggs, milk, nuts, wheat. the wonderful flakiness of the croissant meets the rich flavor of pecans and the delicious filling. a fantastic experience for nut and sweets enthusiasts.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/3616c19baf1f2e7eb32a315ad87de20f.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668678
+      },
+      {
+        "item_en": "Cheese Croissant And Dried Mint",
+        "item_ar": "Cheese Croissant And Dried Mint",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Allergens: eggs, milk, wheat. enjoy the deliciousness of a cheese and dried mint croissant—a tasty experience that blends the flavors of cheese and mint.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/9898e8804c23eeea80f72629e596ce6b.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668682
+      },
+      {
+        "item_en": "Butter Croissant",
+        "item_ar": "Butter Croissant",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Allergens: milk, wheat, eggs. butter croissant, layers of flaky, laminated dough filled with fresh butter for a delightful and light experience.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/ad5b7a183932ffe0ff28cc54a2da5b2f.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668680
+      }
+    ],
+    "Sandwich": [
+      {
+        "item_en": "Halloumi Sandwich",
+        "item_ar": "Halloumi Sandwich",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Allergens: eggs, milk, mustard, sesame, wheat. an exciting sensory experience that combines the unique taste of halloumi cheese with a touch of creativity in our special blend",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/49338ba3464cead79deccab3f5c03679.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668685
+      },
+      {
+        "item_en": "Pesto Chicken Sandwich",
+        "item_ar": "Pesto Chicken Sandwich",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Allergens: eggs, milk, wheat. indulge in a distinctive experience with the chicken pesto sandwich, featuring perfectly grilled chicken pieces stuffed with fresh pesto sauce and rich flavors.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/dbd9bb863c1190e746d3d3edf372ed44.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668686
+      },
+      {
+        "item_en": "Egg Croissant",
+        "item_ar": "Egg Croissant",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Allergens: eggs, wheat, milk. enjoy a delicious and satisfying experience with the egg croissant sandwich, where the soft and flaky croissant flavor meets the freshness of the egg.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/4f141eae1a277896e372f15ca03eedaf.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 48668688
+      }
+    ],
+    "Crops": [
+      {
+        "item_en": "Breehant Granola",
+        "item_ar": "Breehant Granola",
+        "price": 59,
+        "currency": "SAR",
+        "description": "Enjoy the perfect blend of rich flavors and fresh nuts in every grain. this granola contains high-quality natural ingredients, including whole oats and roasted nuts, including hazelnuts and pecans.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/ef5e8ee71523269d572bc6cf0b501a6c.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56513283
+      },
+      {
+        "item_en": "Saudi Coffee 500g",
+        "item_ar": "Saudi Coffee 500g",
+        "price": 51,
+        "currency": "SAR",
+        "description": "Saudi coffee with shaqraa roasted beans 500g",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/3d2c46eb2cf5728741acc1f028be391b.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 60472829
+      },
+      {
+        "item_en": "Rosa Morena Crop Namq",
+        "item_ar": "Rosa Morena Crop Namq",
+        "price": 54,
+        "currency": "SAR",
+        "description": "Rosa morena crop 250g brazil",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/ba9f340b7b1e4c4856e5addc35c226ad.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70194109
+      },
+      {
+        "item_en": "West Arsi Crop Namq",
+        "item_ar": "West Arsi Crop Namq",
+        "price": 69,
+        "currency": "SAR",
+        "description": "West arsi crop 250 g ethiobia",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-Nam/78db6263c5b333c6582f686064499e3c.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70194111
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.034Z",
+  "source": "Hungerstation"
+}

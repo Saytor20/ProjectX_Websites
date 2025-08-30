@@ -1,0 +1,74 @@
+{
+  "id": "coill",
+  "name": "Coill Modern",
+  "description": "Clean modern restaurant template with hero slider, portfolio gallery, and service sections",
+  "slots": [
+    "navbar",
+    "hero",
+    "services",
+    "menu",
+    "gallery",
+    "features",
+    "cta",
+    "footer"
+  ],
+  "category": "modern",
+  "preview": "/templates/coill/preview.jpg",
+  "author": "Restaurant Generator",
+  "version": "1.0.0",
+  "tags": ["modern", "clean", "minimalist", "slider", "portfolio"],
+  "features": ["Hero slider", "Portfolio gallery", "Service sections", "Statistics counter", "Newsletter form"],
+  "sections": [
+    {
+      "id": "navbar",
+      "name": "Navigation Bar",
+      "description": "Fixed navigation with brand logo and menu links"
+    },
+    {
+      "id": "hero",
+      "name": "Hero Section",
+      "description": "Full-screen hero slider with call-to-action"
+    },
+    {
+      "id": "services",
+      "name": "Services Section",
+      "description": "Restaurant services and features showcase"
+    },
+    {
+      "id": "menu",
+      "name": "Menu Section",
+      "description": "Featured menu items in grid layout"
+    },
+    {
+      "id": "gallery",
+      "name": "Gallery Section",
+      "description": "Food gallery with hover effects"
+    },
+    {
+      "id": "features",
+      "name": "Features Section",
+      "description": "Restaurant features and highlights"
+    },
+    {
+      "id": "cta",
+      "name": "Call to Action",
+      "description": "Reservation call-to-action section"
+    },
+    {
+      "id": "footer",
+      "name": "Footer",
+      "description": "Contact information and social links"
+    }
+  ],
+  "colorScheme": {
+    "primary": "#ff7761",
+    "secondary": "#222222",
+    "accent": "#cdaa7c",
+    "text": "#999999",
+    "background": "#ffffff"
+  },
+  "fonts": {
+    "heading": "Poppins",
+    "body": "Merriweather"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mehu",
+  "name": "Mehu Fresh",
+  "description": "Clean, fresh template inspired by Mehu: hero with kicker/title, product grid cards, benefit section, testimonial, and contact band in a green theme.",
+  "slots": ["navbar", "hero", "product", "why-us", "testimonial", "contact", "footer"],
+  "version": "1.0.0",
+  "author": "Restaurant Generator",
+  "tags": ["fresh", "green", "grid", "cards"],
+  "preview": "/templates/mehu/preview.jpg"
+}
+

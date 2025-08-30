@@ -1,0 +1,486 @@
+{
+  "restaurant_info": {
+    "id": "47401",
+    "name": "Butares",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.220145,
+      "longitude": 42.5290454
+    },
+    "rating": 4.4,
+    "review_count": 30,
+    "type_of_food": "Fast Food,American,Beverages",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/47401"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Crispy Burger Meal",
+        "item_ar": "Crispy Burger Meal",
+        "price": 26,
+        "currency": "SAR",
+        "description": "The delicious sandwich prepared in our way with crispy french fries and a refreshing drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-10926494?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 10926494
+      },
+      {
+        "item_en": "Grilled Super Butares - Dynamite Chicken",
+        "item_ar": "Grilled Super Butares - Dynamite Chicken",
+        "price": 24,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739530
+      },
+      {
+        "item_en": "Grilled Super Butares - Chicken",
+        "item_ar": "Grilled Super Butares - Chicken",
+        "price": 22,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739533
+      },
+      {
+        "item_en": "Grilled Super Butares - Vegetables With Corn",
+        "item_ar": "Grilled Super Butares - Vegetables With Corn",
+        "price": 20,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739534
+      }
+    ],
+    "Our New 😍👌": [
+      {
+        "item_en": "Crispy Burger Sandwich",
+        "item_ar": "Crispy Burger Sandwich",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Delicious fried burger with delicious toppings",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-10926493?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 10926493
+      },
+      {
+        "item_en": "Crispy Burger Meal",
+        "item_ar": "Crispy Burger Meal",
+        "price": 26,
+        "currency": "SAR",
+        "description": "The delicious sandwich prepared in our way with crispy french fries and a refreshing drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-10926494?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 10926494
+      }
+    ],
+    "Appetizers": [
+      {
+        "item_en": "Fries  - Without Cheese",
+        "item_ar": "Fries  - Without Cheese",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Crispy french fries",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-327333?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739485
+      },
+      {
+        "item_en": "Fries  - With Cheese",
+        "item_ar": "Fries  - With Cheese",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Crispy french fries",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-327333?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739486
+      }
+    ],
+    "Main Course": [
+      {
+        "item_en": "Grilled And Mashed Pizza Butares - Cheeses Margherita",
+        "item_ar": "Grilled And Mashed Pizza Butares - Cheeses Margherita",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Capsicum, olives, pizza sauce, mozzarella",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-327334?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739488
+      },
+      {
+        "item_en": "Fried Texas Butares - Cheese Without Mozzarella",
+        "item_ar": "Fried Texas Butares - Cheese Without Mozzarella",
+        "price": 15,
+        "currency": "SAR",
+        "description": "French cheese, mozzarella",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/1054440?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739501
+      },
+      {
+        "item_en": "Fried Butares Wedges  - Creamy",
+        "item_ar": "Fried Butares Wedges  - Creamy",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Creamy sauce, mozzarella, coriander",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-327340?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739521
+      },
+      {
+        "item_en": "Fried Butares Wedges  - Chicken",
+        "item_ar": "Fried Butares Wedges  - Chicken",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Creamy sauce, mozzarella, coriander",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-327340?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739522
+      },
+      {
+        "item_en": "Fried Butares Wedges  - Meat",
+        "item_ar": "Fried Butares Wedges  - Meat",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Creamy sauce, mozzarella, coriander",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-327340?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739523
+      },
+      {
+        "item_en": "Fried Butares Wedges  - Cream With Mushroom",
+        "item_ar": "Fried Butares Wedges  - Cream With Mushroom",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Creamy sauce, mozzarella, coriander",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-327340?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739524
+      },
+      {
+        "item_en": "Grilled Super Butares - Russian",
+        "item_ar": "Grilled Super Butares - Russian",
+        "price": 19,
+        "currency": "SAR",
+        "description": "Capsicum, olives",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-327341?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739535
+      },
+      {
+        "item_en": "Fried Crispy Butares - Without Cheese",
+        "item_ar": "Fried Crispy Butares - Without Cheese",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Crispy tortilla stuffed with seasoned chicken, fresh vegetables and hot sauce.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-327342?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739539
+      },
+      {
+        "item_en": "Fried Crispy Butares - With Cheese",
+        "item_ar": "Fried Crispy Butares - With Cheese",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Crispy tortilla stuffed with seasoned chicken, fresh vegetables and hot sauce.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-327342?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739540
+      },
+      {
+        "item_en": "Grilled And Mashed Pizza Butares - Vegetables With Corn",
+        "item_ar": "Grilled And Mashed Pizza Butares - Vegetables With Corn",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Capsicum, olives, pizza sauce, mozzarella",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-327334?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739487
+      },
+      {
+        "item_en": "Fried Texas Butares - Chicken",
+        "item_ar": "Fried Texas Butares - Chicken",
+        "price": 20,
+        "currency": "SAR",
+        "description": "French cheese, mozzarella",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/1054440?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739502
+      },
+      {
+        "item_en": "Grilled Super Butares - Vegetables With Corn",
+        "item_ar": "Grilled Super Butares - Vegetables With Corn",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Capsicum, olives",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-327341?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739534
+      },
+      {
+        "item_en": "Grilled And Mashed Pizza Butares - Chicken",
+        "item_ar": "Grilled And Mashed Pizza Butares - Chicken",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Capsicum, olives, pizza sauce, mozzarella",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-327334?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739495
+      },
+      {
+        "item_en": "Fried Texas Butares - Meat",
+        "item_ar": "Fried Texas Butares - Meat",
+        "price": 20,
+        "currency": "SAR",
+        "description": "French cheese, mozzarella",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/1054440?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739503
+      },
+      {
+        "item_en": "Grilled Super Butares - Chicken",
+        "item_ar": "Grilled Super Butares - Chicken",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Capsicum, olives",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-327341?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739533
+      },
+      {
+        "item_en": "Grilled And Mashed Pizza Butares - Meat",
+        "item_ar": "Grilled And Mashed Pizza Butares - Meat",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Capsicum, olives, pizza sauce, mozzarella",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-327334?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739496
+      },
+      {
+        "item_en": "Fried Texas Butares - Shrimp",
+        "item_ar": "Fried Texas Butares - Shrimp",
+        "price": 31,
+        "currency": "SAR",
+        "description": "French cheese, mozzarella",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/1054440?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739506
+      },
+      {
+        "item_en": "Grilled Super Butares - Meat",
+        "item_ar": "Grilled Super Butares - Meat",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Capsicum, olives",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-327341?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739532
+      },
+      {
+        "item_en": "Grilled And Mashed Pizza Butares - Shrimp",
+        "item_ar": "Grilled And Mashed Pizza Butares - Shrimp",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Capsicum, olives, pizza sauce, mozzarella",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-327334?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739497
+      },
+      {
+        "item_en": "Fried Texas Butares - Dynamite Chicken Without Mozzarella",
+        "item_ar": "Fried Texas Butares - Dynamite Chicken Without Mozzarella",
+        "price": 25,
+        "currency": "SAR",
+        "description": "French cheese, mozzarella",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/1054440?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739505
+      },
+      {
+        "item_en": "Grilled Super Butares - Shrimp",
+        "item_ar": "Grilled Super Butares - Shrimp",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Capsicum, olives",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-327341?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739531
+      },
+      {
+        "item_en": "Grilled And Mashed Pizza Butares - Dynamite Chicken",
+        "item_ar": "Grilled And Mashed Pizza Butares - Dynamite Chicken",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Capsicum, olives, pizza sauce, mozzarella",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-327334?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739498
+      },
+      {
+        "item_en": "Fried Texas Butares - Dynamite Shrimp Without Mozzarella",
+        "item_ar": "Fried Texas Butares - Dynamite Shrimp Without Mozzarella",
+        "price": 34,
+        "currency": "SAR",
+        "description": "French cheese, mozzarella",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/1054440?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739504
+      },
+      {
+        "item_en": "Grilled Super Butares - Dynamite Chicken",
+        "item_ar": "Grilled Super Butares - Dynamite Chicken",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Capsicum, olives",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-327341?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739530
+      },
+      {
+        "item_en": "Grilled And Mashed Pizza Butares - Dynamite Shrimp",
+        "item_ar": "Grilled And Mashed Pizza Butares - Dynamite Shrimp",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Capsicum, olives, pizza sauce, mozzarella",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-327334?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739499
+      },
+      {
+        "item_en": "Fried Chips Butares",
+        "item_ar": "Fried Chips Butares",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Coriander, tomato, ranch sauce, cheddar cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-2739525?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739525
+      },
+      {
+        "item_en": "Grilled Super Butares - Dynamite Shrimp",
+        "item_ar": "Grilled Super Butares - Dynamite Shrimp",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Capsicum, olives",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-327341?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739529
+      },
+      {
+        "item_en": "Fried Twisted Butares",
+        "item_ar": "Fried Twisted Butares",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Snailed potatoes served in a delicious way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-2739547?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739547
+      },
+      {
+        "item_en": "Make It Yourself",
+        "item_ar": "Make It Yourself",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Make it your way with full customization from base to toppings",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739573
+      }
+    ],
+    "Kid Meal": [
+      {
+        "item_en": "Magical Meal",
+        "item_ar": "Magical Meal",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Chicken nuggets, fries, juice, toy",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-2739562?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739562
+      }
+    ],
+    "Drink With Flavors": [
+      {
+        "item_en": "Code Red",
+        "item_ar": "Code Red",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Code red with refreshing flavours",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-2739564?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739564
+      }
+    ],
+    "Beverages": [
+      {
+        "item_en": "Juice",
+        "item_ar": "Juice",
+        "price": 2,
+        "currency": "SAR",
+        "description": "Refreshing and cold juice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-2739567?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739567
+      },
+      {
+        "item_en": "Mineral Water",
+        "item_ar": "Mineral Water",
+        "price": 1,
+        "currency": "SAR",
+        "description": "Natural, refreshing, and healthy water.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-2739566?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2739566
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.043Z",
+  "source": "Hungerstation"
+}

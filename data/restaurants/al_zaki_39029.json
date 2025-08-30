@@ -1,0 +1,1037 @@
+{
+  "restaurant_info": {
+    "id": "39029",
+    "name": "Al Zaki",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.224953,
+      "longitude": 42.55991
+    },
+    "rating": 4.2,
+    "review_count": 1376,
+    "type_of_food": "Sandwich,Fast Food",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/39029"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Arabic Jumbo",
+        "item_ar": "Arabic Jumbo",
+        "price": 23,
+        "currency": "SAR",
+        "description": "12 shawarma with arabic bread with sauce and potatoes",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/2268281?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268281
+      },
+      {
+        "item_en": "Proust Normal",
+        "item_ar": "Proust Normal",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Four pieces of fresh chicken with sauce and zaki special mixture with ketchup, garlic and bread",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/2270382?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2270382
+      },
+      {
+        "item_en": "Proust Spicy",
+        "item_ar": "Proust Spicy",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Four pieces of fresh chicken with sauce and zaki special mixture with ketchup, garlic and bread",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/2270381?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2270381
+      },
+      {
+        "item_en": "Chicken Musahab",
+        "item_ar": "Chicken Musahab",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Seven pieces pulled fresh chicken with sauce and zaki special mixture with ketchup garlic and bread",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/2270383?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2270383
+      }
+    ],
+    "Prost": [
+      {
+        "item_en": "Proust Spicy",
+        "item_ar": "Proust Spicy",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Four pieces of fresh chicken with sauce and zaki special mixture with ketchup, garlic and bread",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/2270381?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2270381
+      },
+      {
+        "item_en": "Proust Normal",
+        "item_ar": "Proust Normal",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Four pieces of fresh chicken with sauce and zaki special mixture with ketchup, garlic and bread",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/2270382?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2270382
+      },
+      {
+        "item_en": "Chicken Musahab",
+        "item_ar": "Chicken Musahab",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Seven pieces pulled fresh chicken with sauce and zaki special mixture with ketchup garlic and bread",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/2270383?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2270383
+      },
+      {
+        "item_en": "Chicken Musahab Spicy",
+        "item_ar": "Chicken Musahab Spicy",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Seven pieces pulled fresh chicken with sauce and zaki special mixture with ketchup garlic and bread",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/2270384?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2270384
+      },
+      {
+        "item_en": "Musahab Fish Spicy",
+        "item_ar": "Musahab Fish Spicy",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Seven pieces pulled fresh fish with sauce and zaki special mixture with ketchup garlic and bread",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/39029/PRODUCT/2270385/b5257525-42f5-49f1-a824-81f4b039e9a5.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2270385
+      },
+      {
+        "item_en": "Musahab Fish Normal",
+        "item_ar": "Musahab Fish Normal",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Seven pieces pulled fresh fish with sauce and zaki special mixture with ketchup garlic and bread",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/41867/PRODUCT/2270386/969469f9-170f-4500-ae67-84abd6329923.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2270386
+      }
+    ],
+    "Special Offers": [
+      {
+        "item_en": "Offer Burger",
+        "item_ar": "Offer Burger",
+        "price": 56.25,
+        "currency": "SAR",
+        "description": "Two burger and two sause give two pices musahab free",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/3e4753ff54770a362078b95967e6be90?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59384807
+      }
+    ],
+    "Shawarma": [
+      {
+        "item_en": "Shawarma Shami",
+        "item_ar": "Shawarma Shami",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Sandwich with shami bread, pickles and potatoes",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/39026/PRODUCT/2268282/5d178e9c-a9b2-4980-a325-4fe8fc7eec33.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268282
+      },
+      {
+        "item_en": "Arabic Jumbo",
+        "item_ar": "Arabic Jumbo",
+        "price": 23,
+        "currency": "SAR",
+        "description": "12 shawarma with arabic bread with sauce and potatoes",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/2268281?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268281
+      },
+      {
+        "item_en": "Small Shawarma",
+        "item_ar": "Small Shawarma",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Saj bread sandwich with chicken, sauce and potatoes",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/39026/PRODUCT/2268283/bb609d80-c16b-49d6-ae74-334fa44e9681.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268283
+      },
+      {
+        "item_en": "Small Cheese Shawarma",
+        "item_ar": "Small Cheese Shawarma",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Saj bread sandwich with chicken, sauce, potatoes and cheese",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/39026/PRODUCT/2268284/486b8463-79b2-4a44-8dd7-ee16052636a7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268284
+      },
+      {
+        "item_en": "Large Cheese Shawarma",
+        "item_ar": "Large Cheese Shawarma",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Saj bread sandwich with chicken, sauce, potatoes and cheese",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/39026/PRODUCT/2268286/febf2113-a851-4e09-9a28-7868681ed40f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268286
+      },
+      {
+        "item_en": "Large Shawarma",
+        "item_ar": "Large Shawarma",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Saj bread sandwich with chicken, sauce and potatoes",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/39026/PRODUCT/2268285/ceec5f55-1caf-496f-b9ae-647c9981398d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268285
+      },
+      {
+        "item_en": "Dynamite",
+        "item_ar": "Dynamite",
+        "price": 22,
+        "currency": "SAR",
+        "description": "8 pieces of dynamite shawarma\nwith crispy ftafit and potatoes\nwith special dynamite sauce",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/39036/PRODUCT/9347931/1a766926-0fe7-42c0-b550-0bf1311c11fa.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9347931
+      },
+      {
+        "item_en": "Sarukh Burning Cheese",
+        "item_ar": "Sarukh Burning Cheese",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Saj bread sandwich with chicken, sauce, potatoes and cheese",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/39026/PRODUCT/2268288/13c0195d-0e50-4b33-a503-3950f9da44a6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268288
+      },
+      {
+        "item_en": "Shawarma Dish",
+        "item_ar": "Shawarma Dish",
+        "price": 28,
+        "currency": "SAR",
+        "description": "Arabic shawarma dish with chicken slices and sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/2268289?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268289
+      },
+      {
+        "item_en": "Dish Shawarma Hummus",
+        "item_ar": "Dish Shawarma Hummus",
+        "price": 20.5,
+        "currency": "SAR",
+        "description": "Arabic shawarma dish with chicken slices and chickpeas",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/39029/PRODUCT/2268290/3370a352-8438-40db-9905-0d7dabcb82fb.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268290
+      }
+    ],
+    "Pizza": [
+      {
+        "item_en": "Offer Pizza",
+        "item_ar": "Offer Pizza",
+        "price": 60,
+        "currency": "SAR",
+        "description": "Two pizza medium give one free",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/3661f07b33c32d80f35bbc67520fe476?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 59384806
+      },
+      {
+        "item_en": "Pizza Margert Medium",
+        "item_ar": "Pizza Margert Medium",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Delicious pizza margert",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/f4f7270a718272920c6d0785a5a20f92?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 72396795
+      },
+      {
+        "item_en": "Small Vegetable Pizza",
+        "item_ar": "Small Vegetable Pizza",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Vegetables pizza",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/62514047?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62514047
+      },
+      {
+        "item_en": "Small Pepperoni Pizza",
+        "item_ar": "Small Pepperoni Pizza",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Pizza with peproni",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/62514048?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62514048
+      },
+      {
+        "item_en": "Small Ranch Pizza",
+        "item_ar": "Small Ranch Pizza",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Delicious ranch pizza with chicken",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/62514049?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62514049
+      },
+      {
+        "item_en": "Small Bbq Pizza",
+        "item_ar": "Small Bbq Pizza",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Pizza with barbecue sauce",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/39029/PRODUCT/62810901/ae4ee4ad-61b3-4ae9-9125-c9b00721423e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62810901
+      },
+      {
+        "item_en": "Medium Bbq Pizza",
+        "item_ar": "Medium Bbq Pizza",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Pizza with barbecue sauce",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/39029/PRODUCT/62810989/d3717f33-7755-4edb-88e7-d8bdc4baf116.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62810989
+      },
+      {
+        "item_en": "Medium Pepperoni Pizza",
+        "item_ar": "Medium Pepperoni Pizza",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Pizza with cheese and pepperoni steak",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/62810990?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62810990
+      },
+      {
+        "item_en": "Medium Vegetable Pizza",
+        "item_ar": "Medium Vegetable Pizza",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Fresh vegetables and olives pizza",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/62810995?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62810995
+      },
+      {
+        "item_en": "Medium Ranch Pizza",
+        "item_ar": "Medium Ranch Pizza",
+        "price": 30,
+        "currency": "SAR",
+        "description": "Delicious ranch pizza with chicken",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/62810997?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62810997
+      }
+    ],
+    "Distinctive Fatair": [
+      {
+        "item_en": "Falafel Pie",
+        "item_ar": "Falafel Pie",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Pie stuffed with falafel pieces",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2270346/6b850b4f-673e-49e7-917e-f0bb24eaf22d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2270346
+      },
+      {
+        "item_en": "Falafel Pie Bar",
+        "item_ar": "Falafel Pie Bar",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Wild pie stuffed with falafel",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/39029/PRODUCT/2270347/eafc49dc-4b65-45d2-8495-05b6ccb7cdf5.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2270347
+      },
+      {
+        "item_en": "Cheese Egg Pie",
+        "item_ar": "Cheese Egg Pie",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Egg and cheese pie",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2270350/32fe90f3-86a5-4f4a-9a4d-2abe40f25e76.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2270350
+      },
+      {
+        "item_en": "Cheese Egg Pie Bar",
+        "item_ar": "Cheese Egg Pie Bar",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Wild pie stuffed with eggs and cheese",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/2270351?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2270351
+      },
+      {
+        "item_en": "Falafel Egg Pie",
+        "item_ar": "Falafel Egg Pie",
+        "price": 12,
+        "currency": "SAR",
+        "description": "2 half pie with eggs and half in falafel",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/2270354?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2270354
+      },
+      {
+        "item_en": "Falafel Egg Pie Bar",
+        "item_ar": "Falafel Egg Pie Bar",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Wild pie half half in eggs and half in falafel",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/2270355?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2270355
+      },
+      {
+        "item_en": "Tuna Pie",
+        "item_ar": "Tuna Pie",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Tuna pie and delicacies",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/2270356?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2270356
+      },
+      {
+        "item_en": "Tuna Pie Bar",
+        "item_ar": "Tuna Pie Bar",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Wild pie stuffed with tuna and delicious tachens",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2270357/4cac038d-c34f-49c5-97b1-b15334e8487f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2270357
+      },
+      {
+        "item_en": "Chicken Pie",
+        "item_ar": "Chicken Pie",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Pie stuffed with pieces of chicken",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/2270362?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2270362
+      },
+      {
+        "item_en": "Chicken Pie Bar",
+        "item_ar": "Chicken Pie Bar",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Wild pie stuffed with fresh chicken",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2270363/42d0f235-7b48-4b4d-87e6-778fe23cccf1.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2270363
+      },
+      {
+        "item_en": "Shawarma Pie",
+        "item_ar": "Shawarma Pie",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Marinated shawarma pieces stuffed into a pie",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/5968890/4fe90397-a2e1-4d01-84bb-aa0c5854ff44.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 5968890
+      },
+      {
+        "item_en": "Shawarma Pie Bor",
+        "item_ar": "Shawarma Pie Bor",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Shawerma pai",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/5968892?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 5968892
+      }
+    ],
+    "Crispy": [
+      {
+        "item_en": "Crispy Fish Sandwich",
+        "item_ar": "Crispy Fish Sandwich",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Fish slices fried with oil with potatoes, ketchup and garlic",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268338/59aca09f-c2a2-43db-bef6-33958fa80669.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268338
+      },
+      {
+        "item_en": "Crispy Fried Spicy Fish Sandwich",
+        "item_ar": "Crispy Fried Spicy Fish Sandwich",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Fish slices fried with oil with potatoes, ketchup and garlic",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268339/8fc96e34-aaae-48f4-a374-a9e7a30bc639.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268339
+      },
+      {
+        "item_en": "Crispy Chicken Hot Sandwich",
+        "item_ar": "Crispy Chicken Hot Sandwich",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Chicken slices fried with oil with potatoes, ketchup and garlic",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268340/af1b3716-85df-4b5c-8c08-8caaa0cb513a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268340
+      },
+      {
+        "item_en": "Crispy Chicken Meal",
+        "item_ar": "Crispy Chicken Meal",
+        "price": 17,
+        "currency": "SAR",
+        "description": "Chicken slices fried with oil with potatoes, ketchup, garlic, potatoes and pepsi",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268341/7e58a25a-856a-43b3-90ed-f39c0091963f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268341
+      },
+      {
+        "item_en": "Crispy Chicken",
+        "item_ar": "Crispy Chicken",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Chicken slices fried with oil with potatoes ketchup garlic",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/39029/PRODUCT/37176276/42ba49bb-1a1d-461e-8200-93f7f08e5ad2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 37176276
+      }
+    ],
+    "Tortilla": [
+      {
+        "item_en": "Tortilla Fish Meal",
+        "item_ar": "Tortilla Fish Meal",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Tortilla bread sandwich stuffed with fresh fish fillet and spicy sauce mix with potatoes and pepsi",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/2268303?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268303
+      },
+      {
+        "item_en": "Tortilla Fish",
+        "item_ar": "Tortilla Fish",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Tortilla sandwich stuffed with fresh fish fillet and spicy sauce mixture",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268304/7c84bdb3-4713-4676-861b-a5ad1f03ad83.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268304
+      },
+      {
+        "item_en": "Tortilla Crosby",
+        "item_ar": "Tortilla Crosby",
+        "price": 14.5,
+        "currency": "SAR",
+        "description": "Tortilla bread sandwich stuffed with crispy pieces and delicious spicy sauce mixture",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268308/90007a18-e582-4f20-9de5-4458fda39f0d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268308
+      },
+      {
+        "item_en": "Tortilla Crispy Meal",
+        "item_ar": "Tortilla Crispy Meal",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Tortilla bread sandwich stuffed with crispy and spicy sauce mix with potatoes and pepsi",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268307/5461e421-1bbd-4631-920a-7068e2e940c9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268307
+      }
+    ],
+    "Appetizers": [
+      {
+        "item_en": "Potato",
+        "item_ar": "Potato",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Crispy potatoes",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/2268312?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268312
+      },
+      {
+        "item_en": "Garlic",
+        "item_ar": "Garlic",
+        "price": 2,
+        "currency": "SAR",
+        "description": "Garlic sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-2268315?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268315
+      },
+      {
+        "item_en": "Cabbage Salad",
+        "item_ar": "Cabbage Salad",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Salad made from fresh vegetables and cabbage",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268320/4824cf25-ff09-4038-ac08-874434a390e9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268320
+      },
+      {
+        "item_en": "Prost Sauce",
+        "item_ar": "Prost Sauce",
+        "price": 2,
+        "currency": "SAR",
+        "description": "Our special sauce to add a delicious flavor to your meal",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/39029/PRODUCT/2268322/25594f32-4306-4d9e-be81-0f986761c949.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268322
+      },
+      {
+        "item_en": "Spicy Sauce",
+        "item_ar": "Spicy Sauce",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Our special style chili sauce to add a delicious flavor to your meal",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/41865/PRODUCT/2268323/ca7cecb5-fe38-4543-bd63-8119676433b7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268323
+      },
+      {
+        "item_en": "Ketchup",
+        "item_ar": "Ketchup",
+        "price": 2,
+        "currency": "SAR",
+        "description": "Delicious tomato sauce",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268324/f23cac2e-6c49-4b47-8571-50435aeef04e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268324
+      },
+      {
+        "item_en": "Green Salad",
+        "item_ar": "Green Salad",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Delecious green salad",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/3231897d4fdfd0bea7d6d0d87a558974?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63730265
+      }
+    ],
+    "Ramadan Offers": [
+      {
+        "item_en": "Golden Box",
+        "item_ar": "Golden Box",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Arabic shawarma with potatoes and regular or spicy broasted",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/8d5a3146646ecf0fef5718069407eb9a?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 65665156
+      }
+    ],
+    "Chicken Burger": [
+      {
+        "item_en": "Crispy Burger",
+        "item_ar": "Crispy Burger",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Fried chicken burger with delicious potato bread, tomatoes, american lettuce and sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/2268342?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268342
+      },
+      {
+        "item_en": "Burger Crispy Meal",
+        "item_ar": "Burger Crispy Meal",
+        "price": 22,
+        "currency": "SAR",
+        "description": "Fried chicken burger with delicious potato bread, tomatoes, american lettuce and sauce with potatoes and pepsi",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/2268343?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268343
+      }
+    ],
+    "Soft Drinks": [
+      {
+        "item_en": "Al Rabie",
+        "item_ar": "Al Rabie",
+        "price": 2.5,
+        "currency": "SAR",
+        "description": "Rabie juice: refreshing orange juice.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-2268345?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268345
+      },
+      {
+        "item_en": "Soda Drink",
+        "item_ar": "Soda Drink",
+        "price": 2.5,
+        "currency": "SAR",
+        "description": "Carbonated beverage mixed with 7 up for a unique flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/6331720?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 6331720
+      },
+      {
+        "item_en": "Water 500 Ml",
+        "item_ar": "Water 500 Ml",
+        "price": 1,
+        "currency": "SAR",
+        "description": "Aquafina is pure drinking water, natural mineral water and low sodium.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/9347937?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9347937
+      },
+      {
+        "item_en": "Pepsi Diet",
+        "item_ar": "Pepsi Diet",
+        "price": 2.5,
+        "currency": "SAR",
+        "description": "Soft drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/38019817?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 38019817
+      },
+      {
+        "item_en": "Seven Up Diet",
+        "item_ar": "Seven Up Diet",
+        "price": 2.5,
+        "currency": "SAR",
+        "description": "Soft drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/fd7c878c92e195c174770257c47cab25?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 38080536
+      },
+      {
+        "item_en": "Miranda Citrus",
+        "item_ar": "Miranda Citrus",
+        "price": 2.5,
+        "currency": "SAR",
+        "description": "Soft drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/3c409fa75408e8d153153a53f82bcd92?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 38081015
+      },
+      {
+        "item_en": "Dew",
+        "item_ar": "Dew",
+        "price": 2.5,
+        "currency": "SAR",
+        "description": "Soft drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/139fbad10d79329cbcb7dea270ab734b?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 38081983
+      }
+    ],
+    "Fatair": [
+      {
+        "item_en": "Labneh Pie.",
+        "item_ar": "Labneh Pie.",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Baked pie with fresh and delicious labneh filling",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268251/8c9df215-c72b-4836-bfa1-61e5bb694d66.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268251
+      },
+      {
+        "item_en": "Chicken Pie Bar",
+        "item_ar": "Chicken Pie Bar",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Wild pie stuffed with fresh chicken",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/63073/PRODUCT/2268277/c61f967f-f0c8-4e7c-a97a-b0209f11a310.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268277
+      },
+      {
+        "item_en": "Falafel Egg Pie .",
+        "item_ar": "Falafel Egg Pie .",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Wild pie half half in eggs and half in falafel",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268269/13f2c0c1-1e26-45b1-9e07-9939821ec6a4.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268269
+      },
+      {
+        "item_en": "Milk Milk Pie",
+        "item_ar": "Milk Milk Pie",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Wild pie stuffed with labneh and honey",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268258/47e31a28-11ca-4c9d-90ec-8e85c6c953f3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268258
+      },
+      {
+        "item_en": "Cheese Egg Pie .",
+        "item_ar": "Cheese Egg Pie .",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Wild pie stuffed with eggs and cheese",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268265/3028c064-ad78-4fe8-9867-61a239546875.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268265
+      },
+      {
+        "item_en": "Thyme Brick Pie",
+        "item_ar": "Thyme Brick Pie",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Pie stuffed with thyme and labneh",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268252/25741dbc-8738-453c-b1f3-10d92646314a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268252
+      },
+      {
+        "item_en": "Thyme Pie",
+        "item_ar": "Thyme Pie",
+        "price": 10,
+        "currency": "SAR",
+        "description": "The wild pie stuffed with thyme",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268247/7c310d28-8631-4f0b-a373-7db0c5447dd9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268247
+      },
+      {
+        "item_en": "Wild Liquid Cheese Pie",
+        "item_ar": "Wild Liquid Cheese Pie",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Wild pie stuffed with liquid cheese",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268241/a33bf63f-1152-484d-9052-dcf268df60f3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268241
+      },
+      {
+        "item_en": "Cheese Egg Pie",
+        "item_ar": "Cheese Egg Pie",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Egg and cheese pie",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268264/9bcf0b48-7e0f-400d-914f-27790ed10ceb.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268264
+      },
+      {
+        "item_en": "Falafel Egg Pie",
+        "item_ar": "Falafel Egg Pie",
+        "price": 12,
+        "currency": "SAR",
+        "description": "2 half pie with eggs and half in falafel",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268268/18ceb17a-d8d7-4788-b832-7e4a2cbd62cf.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268268
+      },
+      {
+        "item_en": "Thyme Pie.",
+        "item_ar": "Thyme Pie.",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Thyme-stuffed pie",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268246/c1137611-68a6-4149-8c4d-dd00a9df5928.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268246
+      },
+      {
+        "item_en": "Honey Brick Pie",
+        "item_ar": "Honey Brick Pie",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Pie stuffed with fresh labneh with honey",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268253/a2f3c201-4fe0-4838-8254-64b2887ae3ae.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268253
+      },
+      {
+        "item_en": "Honey Brick Pie .",
+        "item_ar": "Honey Brick Pie .",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Pie stuffed with labneh and honey",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268257/f24975a2-6293-4269-b7a6-c727ad4b4aea.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268257
+      },
+      {
+        "item_en": "Liquid Cheese Pie",
+        "item_ar": "Liquid Cheese Pie",
+        "price": 10,
+        "currency": "SAR",
+        "description": "A pie stuffed with liquid cheese",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268240/5af77d71-2d88-419b-951f-c4ebe1a47522.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268240
+      },
+      {
+        "item_en": "Tuna Pie .",
+        "item_ar": "Tuna Pie .",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Wild pie stuffed with tuna and delicious tachens",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268271/e87779a4-f9cd-4a6e-97f5-02d35a79a5b3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268271
+      },
+      {
+        "item_en": "Falafel Pie",
+        "item_ar": "Falafel Pie",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Pie stuffed with falafel pieces",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268260/c7e6aaee-30c6-463b-b820-009b49790fd9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268260
+      },
+      {
+        "item_en": "Falafel Pie Bar",
+        "item_ar": "Falafel Pie Bar",
+        "price": 12,
+        "currency": "SAR",
+        "description": "Wild pie stuffed with falafel",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268261/a61d003a-b018-4649-90bd-2e0e55ef21a6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268261
+      },
+      {
+        "item_en": "Chicken Pie",
+        "item_ar": "Chicken Pie",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Pie stuffed with pieces of chicken",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268276/381f0eef-ae3f-4be4-885f-ede19743534a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268276
+      },
+      {
+        "item_en": "Brick Pie .",
+        "item_ar": "Brick Pie .",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Wild pie with labneh",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268254/86c71813-ffe1-4093-b32f-ee6601132586.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268254
+      },
+      {
+        "item_en": "Pie For Thyme Milk Bar",
+        "item_ar": "Pie For Thyme Milk Bar",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Wild pie stuffed with labneh and thyme",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268259/daf2c57c-2306-4f93-9c28-760cf29444c4.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268259
+      },
+      {
+        "item_en": "Tuna Pie",
+        "item_ar": "Tuna Pie",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Tuna pie and delicacies",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/131436/PRODUCT/2268270/57f29ef6-5def-4f60-b2ec-157f401b9ef4.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 2268270
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.042Z",
+  "source": "Hungerstation"
+}

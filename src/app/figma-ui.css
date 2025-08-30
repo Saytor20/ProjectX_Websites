@@ -1,0 +1,1245 @@
+/* Modern Figma-like Interface Styles */
+
+:root {
+  --figma-bg: #0d1117;
+  --figma-surface: #161b22;
+  --figma-surface-light: #21262d;
+  --figma-border: #30363d;
+  --figma-text: #f0f6fc;
+  --figma-text-muted: #8b949e;
+  --figma-primary: #238636;
+  --figma-primary-hover: #2ea043;
+  --figma-accent: #1f6feb;
+  --figma-accent-hover: #388bfd;
+  --figma-warning: #d29922;
+  --figma-error: #f85149;
+  --figma-sidebar-width: 280px;
+  --figma-header-height: 56px;
+  --figma-tool-active: #0969da;
+  --figma-tool-hover: #1f6feb;
+}
+
+/* Reset and Base */
+.figma-workspace {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+  background: var(--figma-bg);
+  color: var(--figma-text);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Top Header */
+.figma-header {
+  height: var(--figma-header-height);
+  background: var(--figma-surface);
+  border-bottom: 1px solid var(--figma-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  z-index: 1000;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-icon {
+  font-size: 24px;
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.app-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--figma-text);
+  margin: 0;
+}
+
+.workspace-tabs {
+  display: flex;
+  gap: 4px;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border: none;
+  background: transparent;
+  color: var(--figma-text-muted);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.tab:hover {
+  background: var(--figma-surface-light);
+  color: var(--figma-text);
+}
+
+.tab.active {
+  background: var(--figma-accent);
+  color: white;
+}
+
+.tab-icon {
+  font-size: 14px;
+}
+
+.header-right {
+  display: flex;
+  gap: 8px;
+}
+
+.action-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border: 1px solid var(--figma-border);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.action-btn.primary {
+  background: var(--figma-primary);
+  color: white;
+  border-color: var(--figma-primary);
+}
+
+.action-btn.primary:hover {
+  background: var(--figma-primary-hover);
+  border-color: var(--figma-primary-hover);
+}
+
+.action-btn.secondary {
+  background: var(--figma-surface-light);
+  color: var(--figma-text);
+}
+
+.action-btn.secondary:hover {
+  background: var(--figma-border);
+}
+
+.btn-icon {
+  font-size: 14px;
+}
+
+/* Workspace Content */
+.figma-workspace-content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* Sidebars */
+.figma-sidebar {
+  background: var(--figma-surface);
+  border-right: 1px solid var(--figma-border);
+  display: flex;
+  flex-direction: column;
+  transition: width 0.3s ease;
+}
+
+.figma-sidebar.left {
+  width: var(--figma-sidebar-width);
+  border-right: 1px solid var(--figma-border);
+}
+
+.figma-sidebar.left.closed {
+  width: 48px;
+}
+
+.figma-sidebar.right {
+  width: var(--figma-sidebar-width);
+  border-left: 1px solid var(--figma-border);
+  border-right: none;
+}
+
+.figma-sidebar.right.closed {
+  width: 48px;
+}
+
+.sidebar-header {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--figma-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 44px;
+}
+
+.sidebar-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--figma-text);
+  margin: 0;
+}
+
+.sidebar-toggle {
+  background: none;
+  border: none;
+  color: var(--figma-text-muted);
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  font-size: 12px;
+  transition: all 0.2s ease;
+}
+
+.sidebar-toggle:hover {
+  background: var(--figma-surface-light);
+  color: var(--figma-text);
+}
+
+.sidebar-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 8px;
+}
+
+/* Panel Sections */
+.panel-section {
+  margin-bottom: 16px;
+  background: var(--figma-surface-light);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  background: var(--figma-surface);
+  border-bottom: 1px solid var(--figma-border);
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.section-header:hover {
+  background: var(--figma-surface-light);
+}
+
+.section-icon {
+  font-size: 16px;
+}
+
+.section-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--figma-text);
+}
+
+.loading-indicator {
+  margin-left: auto;
+  font-size: 12px;
+  color: var(--figma-text-muted);
+}
+
+/* Toggle Groups */
+.toggle-group {
+  padding: 12px 16px;
+  display: flex;
+  gap: 4px;
+}
+
+.toggle-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border: 1px solid var(--figma-border);
+  background: var(--figma-surface);
+  color: var(--figma-text-muted);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.toggle-btn:hover {
+  background: var(--figma-surface-light);
+  color: var(--figma-text);
+}
+
+.toggle-btn.active {
+  background: var(--figma-accent);
+  color: white;
+  border-color: var(--figma-accent);
+}
+
+/* Template Grid */
+.template-grid {
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.template-card {
+  background: var(--figma-surface);
+  border: 1px solid var(--figma-border);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  overflow: hidden;
+}
+
+.template-card:hover {
+  border-color: var(--figma-accent);
+  transform: translateY(-1px);
+}
+
+.template-card.selected {
+  border-color: var(--figma-accent);
+  background: var(--figma-surface-light);
+}
+
+.template-card.loading {
+  pointer-events: none;
+}
+
+.card-preview {
+  height: 80px;
+  background: var(--figma-surface-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.preview-gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  opacity: 0.8;
+}
+
+.preview-icon {
+  font-size: 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.card-info {
+  padding: 12px;
+}
+
+.card-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--figma-text);
+  margin-bottom: 4px;
+}
+
+.card-desc {
+  font-size: 11px;
+  color: var(--figma-text-muted);
+  line-height: 1.4;
+  margin-bottom: 6px;
+}
+
+.card-version {
+  font-size: 10px;
+  color: var(--figma-text-muted);
+  background: var(--figma-surface-light);
+  padding: 2px 6px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.status-badge {
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-top: 4px;
+  display: inline-block;
+}
+
+.status-badge.active {
+  background: var(--figma-primary);
+  color: white;
+}
+
+/* Loading States */
+.loading-cards, .loading-items {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+}
+
+.loading-bar {
+  height: 12px;
+  background: var(--figma-surface-light);
+  border-radius: 4px;
+  animation: loading-pulse 1.5s ease-in-out infinite;
+}
+
+.loading-bar.short {
+  width: 60%;
+}
+
+@keyframes loading-pulse {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
+/* Restaurant List */
+.restaurant-list {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.restaurant-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background: var(--figma-surface);
+  border: 1px solid var(--figma-border);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.restaurant-item:hover {
+  background: var(--figma-surface-light);
+  border-color: var(--figma-accent);
+}
+
+.restaurant-item.selected {
+  background: var(--figma-surface-light);
+  border-color: var(--figma-accent);
+}
+
+.restaurant-item.loading {
+  pointer-events: none;
+}
+
+.item-avatar {
+  width: 32px;
+  height: 32px;
+  background: var(--figma-surface-light);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.item-info {
+  flex: 1;
+}
+
+.item-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--figma-text);
+  margin-bottom: 2px;
+}
+
+.item-type {
+  font-size: 11px;
+  color: var(--figma-text-muted);
+}
+
+.selection-indicator {
+  color: var(--figma-accent);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Main Canvas */
+.figma-canvas {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: var(--figma-bg);
+  overflow: hidden;
+}
+
+.canvas-header {
+  height: 48px;
+  background: var(--figma-surface);
+  border-bottom: 1px solid var(--figma-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.canvas-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.canvas-btn {
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--figma-border);
+  background: var(--figma-surface-light);
+  color: var(--figma-text);
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.canvas-btn:hover {
+  background: var(--figma-border);
+}
+
+.zoom-level {
+  font-size: 12px;
+  color: var(--figma-text-muted);
+  min-width: 40px;
+  text-align: center;
+}
+
+.canvas-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.generate-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: var(--figma-primary);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.generate-btn:hover:not(:disabled) {
+  background: var(--figma-primary-hover);
+  transform: translateY(-1px);
+}
+
+.generate-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.canvas-content {
+  flex: 1;
+  overflow: auto;
+  padding: 0;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+/* Preview Frame */
+.preview-frame {
+  background: white;
+  border-radius: 0;
+  box-shadow: none;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+}
+
+.preview-header {
+  background: var(--figma-surface);
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--figma-border);
+}
+
+.preview-tabs {
+  display: flex;
+  gap: 4px;
+}
+
+.preview-tab {
+  padding: 6px 12px;
+  background: transparent;
+  border: 1px solid var(--figma-border);
+  color: var(--figma-text-muted);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.preview-tab:hover {
+  background: var(--figma-surface-light);
+  color: var(--figma-text);
+}
+
+.preview-tab.active {
+  background: var(--figma-accent);
+  color: white;
+  border-color: var(--figma-accent);
+}
+
+.edit-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: var(--figma-accent);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.edit-btn:hover {
+  background: var(--figma-accent-hover);
+}
+
+/* Stats Grid */
+.stats-grid {
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.stat-item {
+  padding: 12px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.stat-item.blue { background: rgba(31, 111, 235, 0.1); border: 1px solid rgba(31, 111, 235, 0.2); }
+.stat-item.green { background: rgba(35, 134, 54, 0.1); border: 1px solid rgba(35, 134, 54, 0.2); }
+.stat-item.purple { background: rgba(130, 80, 223, 0.1); border: 1px solid rgba(130, 80, 223, 0.2); }
+.stat-item.orange { background: rgba(210, 153, 34, 0.1); border: 1px solid rgba(210, 153, 34, 0.2); }
+
+.stat-label {
+  font-size: 10px;
+  color: var(--figma-text-muted);
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.stat-value {
+  font-size: 12px;
+  color: var(--figma-text);
+  font-weight: 600;
+}
+
+/* Settings */
+.settings-group {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.setting-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.setting-label {
+  font-size: 11px;
+  color: var(--figma-text);
+  font-weight: 500;
+}
+
+.setting-select {
+  padding: 6px 8px;
+  background: var(--figma-surface);
+  border: 1px solid var(--figma-border);
+  color: var(--figma-text);
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.setting-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.setting-toggle input[type="checkbox"] {
+  display: none;
+}
+
+.toggle-slider {
+  width: 32px;
+  height: 18px;
+  background: var(--figma-border);
+  border-radius: 9px;
+  position: relative;
+  transition: background 0.2s ease;
+}
+
+.toggle-slider::before {
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: white;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.2s ease;
+}
+
+.setting-toggle input[type="checkbox"]:checked + .toggle-slider {
+  background: var(--figma-accent);
+}
+
+.setting-toggle input[type="checkbox"]:checked + .toggle-slider::before {
+  transform: translateX(14px);
+}
+
+.toggle-label {
+  font-size: 12px;
+  color: var(--figma-text);
+  font-weight: 500;
+}
+
+/* Empty States */
+.empty-state {
+  text-align: center;
+  padding: 40px;
+  color: var(--figma-text-muted);
+}
+
+.empty-state-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+  opacity: 0.5;
+}
+
+.empty-state-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--figma-text);
+  margin-bottom: 8px;
+}
+
+.empty-state-desc {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Design Tools */
+.design-tools-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  padding: 16px;
+}
+
+.design-tool {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 8px;
+  background: var(--figma-surface);
+  border: 1px solid var(--figma-border);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 12px;
+  color: var(--figma-text-muted);
+}
+
+.design-tool:hover {
+  background: var(--figma-surface-light);
+  border-color: var(--figma-tool-hover);
+  color: var(--figma-text);
+}
+
+.design-tool.active {
+  background: var(--figma-tool-active);
+  border-color: var(--figma-tool-active);
+  color: white;
+}
+
+.tool-icon {
+  font-size: 18px;
+}
+
+.tool-name {
+  font-weight: 500;
+  font-size: 10px;
+}
+
+/* Tool Options */
+.tool-options {
+  padding: 16px;
+}
+
+.shapes-options, .text-options {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.shape-btn, .text-btn {
+  width: 36px;
+  height: 36px;
+  background: var(--figma-surface);
+  border: 1px solid var(--figma-border);
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  transition: all 0.2s ease;
+}
+
+.shape-btn:hover, .text-btn:hover {
+  background: var(--figma-surface-light);
+  border-color: var(--figma-accent);
+}
+
+.shape-btn.active, .text-btn.active {
+  background: var(--figma-tool-active);
+  border-color: var(--figma-tool-active);
+  color: white;
+}
+
+/* Element Properties */
+.element-properties {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.property-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+
+.property-row label {
+  color: var(--figma-text-muted);
+  font-weight: 500;
+}
+
+.property-row input[type="color"] {
+  width: 32px;
+  height: 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.property-row input[type="range"] {
+  width: 80px;
+}
+
+/* Action Buttons */
+.action-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  padding: 16px;
+}
+
+.action-btn-small {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 6px 8px;
+  background: var(--figma-surface);
+  border: 1px solid var(--figma-border);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 10px;
+  color: var(--figma-text-muted);
+  transition: all 0.2s ease;
+}
+
+.action-btn-small:hover {
+  background: var(--figma-surface-light);
+  color: var(--figma-text);
+}
+
+.action-btn-full {
+  width: 100%;
+  padding: 8px 12px;
+  background: var(--figma-accent);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.action-btn-full:hover {
+  background: var(--figma-accent-hover);
+}
+
+/* Layers */
+.layers-list {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.layer-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  color: var(--figma-text-muted);
+  transition: all 0.2s ease;
+}
+
+.layer-item:hover {
+  background: var(--figma-surface-light);
+  color: var(--figma-text);
+}
+
+.layer-item.active {
+  background: var(--figma-accent);
+  color: white;
+}
+
+.layer-icon {
+  font-size: 14px;
+}
+
+.layer-name {
+  font-weight: 500;
+}
+
+/* Status Compact */
+.status-compact {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.status-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+}
+
+.status-label {
+  color: var(--figma-text-muted);
+  font-weight: 500;
+}
+
+.status-value {
+  color: var(--figma-text);
+  font-weight: 600;
+  text-align: right;
+  max-width: 60%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Preview Controls */
+.preview-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.preview-btn {
+  width: 32px;
+  height: 32px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.preview-btn:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+/* Design Frame Enhancements */
+.design-frame {
+  position: relative;
+  background: white;
+  border-radius: 0;
+  box-shadow: none;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+}
+
+.design-overlay {
+  pointer-events: none;
+  z-index: 10;
+}
+
+.grid-overlay {
+  transition: opacity 0.3s ease;
+}
+
+/* Keyboard Shortcuts */
+.shortcuts-list {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.shortcut-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  padding: 4px 0;
+}
+
+.shortcut-key {
+  background: var(--figma-surface-light);
+  color: var(--figma-text);
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: monospace;
+  font-weight: 600;
+  min-width: 24px;
+  text-align: center;
+  border: 1px solid var(--figma-border);
+}
+
+.shortcut-desc {
+  color: var(--figma-text-muted);
+  font-weight: 500;
+}
+
+/* Tab Disabled State */
+.tab:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.tab:disabled:hover {
+  background: transparent;
+  color: var(--figma-text-muted);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  :root {
+    --figma-sidebar-width: 240px;
+  }
+  
+  .figma-sidebar.closed {
+    width: 0;
+    border: none;
+  }
+  
+  .workspace-tabs {
+    display: none;
+  }
+  
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .design-tools-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .action-buttons {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Editor Toolbar */
+.editor-toolbar {
+  position: fixed;
+  top: 70px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  z-index: 100;
+  background: var(--figma-surface);
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid var(--figma-border);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.editor-toolbar .tool-group,
+.editor-toolbar .history-group {
+  display: flex;
+  gap: 4px;
+}
+
+.editor-toolbar .toolbar-separator {
+  width: 1px;
+  height: 24px;
+  background: var(--figma-border);
+  margin: 0 4px;
+}
+
+.editor-toolbar .toolbar-btn {
+  padding: 6px 12px;
+  background: transparent;
+  color: var(--figma-text);
+  border: 1px solid transparent;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.editor-toolbar .toolbar-btn.tool {
+  min-width: 60px;
+}
+
+.editor-toolbar .toolbar-btn:hover:not(:disabled) {
+  background: var(--figma-surface-light);
+  border-color: var(--figma-border);
+}
+
+.editor-toolbar .toolbar-btn.active {
+  background: var(--figma-tool-active);
+  color: white;
+  border-color: var(--figma-tool-active);
+}
+
+.editor-toolbar .toolbar-btn.active:hover {
+  background: var(--figma-tool-hover);
+  border-color: var(--figma-tool-hover);
+}
+
+.editor-toolbar .toolbar-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.editor-toolbar .toolbar-btn.primary {
+  background: var(--figma-primary);
+  color: white;
+  border-color: var(--figma-primary);
+}
+
+.editor-toolbar .toolbar-btn.primary:hover {
+  background: var(--figma-primary-hover);
+  border-color: var(--figma-primary-hover);
+}
+
+/* Color Palette */
+.color-palette-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 8px;
+}
+
+.color-mode-toggle {
+  display: flex;
+  gap: 4px;
+  background: var(--figma-surface-light);
+  padding: 2px;
+  border-radius: 6px;
+}
+
+.color-mode-toggle .mode-btn {
+  padding: 4px 8px;
+  background: transparent;
+  color: var(--figma-text-muted);
+  border: none;
+  border-radius: 4px;
+  font-size: 11px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.color-mode-toggle .mode-btn.active {
+  background: var(--figma-surface);
+  color: var(--figma-text);
+}
+
+.color-grid {
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  background: var(--figma-surface-light);
+  border-radius: 6px;
+}
+
+.color-swatch {
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--figma-border);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.color-swatch:hover {
+  transform: scale(1.2);
+  border-color: var(--figma-accent);
+}

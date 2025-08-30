@@ -1,0 +1,27 @@
+{
+  "id": "foodera",
+  "name": "Foodera Modern",
+  "description": "Vibrant modern restaurant template with red/orange theme, special offers section, and animated decorative elements",
+  "category": "modern",
+  "preview": "/templates/foodera/preview.jpg",
+  "author": "Restaurant Generator",
+  "version": "1.0.0",
+  "tags": ["modern", "vibrant", "red", "offers", "animated"],
+  "slots": ["navbar", "hero", "offers", "menu", "gallery", "hours", "footer"],
+  "features": [
+    "Special offers section",
+    "Popular dishes grid",
+    "Animated decorations",
+    "Modern red/orange theme",
+    "Responsive design"
+  ],
+  "sections": [
+    { "id": "navbar", "name": "Navigation Bar" },
+    { "id": "hero", "name": "Hero Banner" },
+    { "id": "offers", "name": "Special Offers" },
+    { "id": "menu", "name": "Popular Dishes" },
+    { "id": "gallery", "name": "About Section" },
+    { "id": "hours", "name": "Contact Info" },
+    { "id": "footer", "name": "Footer" }
+  ]
+}

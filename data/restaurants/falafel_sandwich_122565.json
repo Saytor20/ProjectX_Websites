@@ -1,0 +1,227 @@
+{
+  "restaurant_info": {
+    "id": "122565",
+    "name": "Falafel sandwich",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2265095,
+      "longitude": 42.5869726
+    },
+    "rating": 3.8,
+    "review_count": 89,
+    "type_of_food": "Sandwich,Arabic,Falafel",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/122565"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Potato Dish",
+        "item_ar": "Potato Dish",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Crispy fried potato fingers",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d0b2288f04ff525e4eba800a81f3781a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44588559
+      },
+      {
+        "item_en": "Liver Sandwich",
+        "item_ar": "Liver Sandwich",
+        "price": 4,
+        "currency": "SAR",
+        "description": "A sandwich of special bread stuffed with slices of local liver cooked in our special way",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/122565/PRODUCT/44588543/a150ce00-b872-4136-a792-242f3b163972.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44588543
+      },
+      {
+        "item_en": "Egg Falafel Sandwich",
+        "item_ar": "Egg Falafel Sandwich",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Falafel, potatoes, eggplant, lettuce, tahini, eggs, pickles and ketchup",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/25d8424526196ac2ce9d4ebd4eb47e7c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44588552
+      },
+      {
+        "item_en": "Egg And Cheese Falafel Sandwich",
+        "item_ar": "Egg And Cheese Falafel Sandwich",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Falafel, potatoes, eggplant, lettuce, tahini, cheese, eggs, pickles and ketchup.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/32b45fbadf488faf1bcb635b8f2e1797.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44588553
+      }
+    ],
+    "Sandwiches": [
+      {
+        "item_en": "Liver Sandwich",
+        "item_ar": "Liver Sandwich",
+        "price": 4,
+        "currency": "SAR",
+        "description": "A sandwich of special bread stuffed with slices of local liver cooked in our special way",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/122565/PRODUCT/44588543/a150ce00-b872-4136-a792-242f3b163972.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44588543
+      },
+      {
+        "item_en": "Tuna Sandwich",
+        "item_ar": "Tuna Sandwich",
+        "price": 4,
+        "currency": "SAR",
+        "description": "A sandwich made of special bread stuffed with tuna cooked in our special way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/69588ca701411d67769b1e5c622dfb5d.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44588544
+      },
+      {
+        "item_en": "Two Cheese Sandwich",
+        "item_ar": "Two Cheese Sandwich",
+        "price": 3,
+        "currency": "SAR",
+        "description": "A sandwich of two types of cheese, cheddar cheese and  cream cheese",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/122565/PRODUCT/44588548/708904e6-773e-466c-83ff-a7204cf08ad0.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44588548
+      },
+      {
+        "item_en": "Cheese Jam Sandwich",
+        "item_ar": "Cheese Jam Sandwich",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Sandwich mix of cream cheese and jam",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/8bd1ed77aa52380a54ef306b6152a6d6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44588549
+      },
+      {
+        "item_en": "Regular Falafel Sandwich",
+        "item_ar": "Regular Falafel Sandwich",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Falafel, potatoes, eggplant, lettuce, tahini, pickles and ketchup",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/9e67352ad561aaeda17b1b089f5ef4b0.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44588550
+      },
+      {
+        "item_en": "Falafel Cheese Sandwich",
+        "item_ar": "Falafel Cheese Sandwich",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Falafel, potatoes, eggplant, lettuce, tahini, cheese, pickles and ketchup",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/99bc9f7b43bb05009713641c1af0623f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44588551
+      },
+      {
+        "item_en": "Egg Falafel Sandwich",
+        "item_ar": "Egg Falafel Sandwich",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Falafel, potatoes, eggplant, lettuce, tahini, eggs, pickles and ketchup",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/25d8424526196ac2ce9d4ebd4eb47e7c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44588552
+      },
+      {
+        "item_en": "Egg And Cheese Falafel Sandwich",
+        "item_ar": "Egg And Cheese Falafel Sandwich",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Falafel, potatoes, eggplant, lettuce, tahini, cheese, eggs, pickles and ketchup.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/32b45fbadf488faf1bcb635b8f2e1797.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44588553
+      },
+      {
+        "item_en": "Falafel Suba Sandwich",
+        "item_ar": "Falafel Suba Sandwich",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Falafel, potatoes, eggplant, lettuce, tahini, cheese, eggs, pickles and ketchup.",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44588554
+      }
+    ],
+    "Dishes": [
+      {
+        "item_en": "Liver Dish",
+        "item_ar": "Liver Dish",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Liver, green pepper and vegetable oil",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/122565/PRODUCT/44588556/f4a38d56-e4a0-4675-b8e9-e4d378f32b1d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44588556
+      },
+      {
+        "item_en": "Potato Dish",
+        "item_ar": "Potato Dish",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Crispy fried potato fingers",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d0b2288f04ff525e4eba800a81f3781a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44588559
+      },
+      {
+        "item_en": "Mixed Falafel Dish",
+        "item_ar": "Mixed Falafel Dish",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Falafel, eggs, cheese, potatoes, eggplant, pickles, tahini, chili and bread.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/122565/PRODUCT/44588560/bad23cf9-c864-4c8b-8698-87d0fc6dd656.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44588560
+      }
+    ],
+    "Beverages": [
+      {
+        "item_en": "Kenza Cola",
+        "item_ar": "Kenza Cola",
+        "price": 3,
+        "currency": "SAR",
+        "description": "A soft drink with a unique and refreshing flavor with cola flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/44588568?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44588568
+      },
+      {
+        "item_en": "Waters",
+        "item_ar": "Waters",
+        "price": 1,
+        "currency": "SAR",
+        "description": "Refreshing healthy water",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/b8728ee9d9a3acf6f9bf1c8f3ecad518.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 44588571
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.035Z",
+  "source": "Hungerstation"
+}

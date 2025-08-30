@@ -1,0 +1,1215 @@
+{
+  "restaurant_info": {
+    "id": "125771",
+    "name": "Ennabi Grill",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2516875,
+      "longitude": 42.5978125
+    },
+    "rating": 4.1,
+    "review_count": 247,
+    "type_of_food": "Grill,Arabic,Lebanese,Salads",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/125771"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Choose And Mix 4 Dishes",
+        "item_ar": "Choose And Mix 4 Dishes",
+        "price": 159,
+        "currency": "SAR",
+        "description": "Four grill dishes of your choice with a plate of mixed appetizers, (the same product cannot be repeated within the offer)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/1af7f3a21c2f0e97314325165191b445.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708508
+      },
+      {
+        "item_en": "Quattro Plus Meal Mix Grill # 2",
+        "item_ar": "Quattro Plus Meal Mix Grill # 2",
+        "price": 139,
+        "currency": "SAR",
+        "description": "12 pcs meat kebab + 12 pcs chicken kebab +8 pcs meat cubes +8 pcs shish tawook +rice + hummos + 4 pcs aryes + rice sauce and (3549 calories) bread",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/58165f7de329670dd9b03dfa95f470a7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51707840
+      },
+      {
+        "item_en": "Quattro Plus Meal Mix Chicken",
+        "item_ar": "Quattro Plus Meal Mix Chicken",
+        "price": 139,
+        "currency": "SAR",
+        "description": "20 pcs chicken kebab + 20 pcs shish tawook +rice + hummos + 4 (4040 calories) pcs aryes + rice sauce and bread",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/624e9f5d8031808ad8fd28b0446989c9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51707864
+      },
+      {
+        "item_en": "Trio Meal Mix Grill # 2",
+        "item_ar": "Trio Meal Mix Grill # 2",
+        "price": 99,
+        "currency": "SAR",
+        "description": "8pcs meat kebab + 8 pcs chicken kebab + 4 pcs meat cubes + 4 pcs shish tawook + rice + hummos + 4pcs aryes + rice sauce and (3774 calories) bread",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/adf028fe194cd373facd7443458690b7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708003
+      }
+    ],
+    "Top Deals": [
+      {
+        "item_en": "Waleemah Offer",
+        "item_ar": "Waleemah Offer",
+        "price": 399,
+        "currency": "SAR",
+        "description": "Waleemah offer 200 mix grill pieces (80 pcs meat kebab + 60 pcs meat cubes+ 60 pcs shish tawook + 5 large hommos+ 5 large garlic +20 pcs.bread )",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/f146b47aa10bfbbb46a57373765667f1.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 63185088
+      },
+      {
+        "item_en": "Choose And Mix 8 Dishes",
+        "item_ar": "Choose And Mix 8 Dishes",
+        "price": 259,
+        "currency": "SAR",
+        "description": "Eight grilled dishes of your choice with a plate of mixed appetizers, (the same product cannot be repeated within the offer)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/8c8d2a5802c62f81228e5d0560fe7c31.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708489
+      },
+      {
+        "item_en": "Choose And Mix 4 Dishes",
+        "item_ar": "Choose And Mix 4 Dishes",
+        "price": 159,
+        "currency": "SAR",
+        "description": "Four grill dishes of your choice with a plate of mixed appetizers, (the same product cannot be repeated within the offer)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/1af7f3a21c2f0e97314325165191b445.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708508
+      }
+    ],
+    "Solo Light Meals": [
+      {
+        "item_en": "Solo Light Meal Meat Kebab",
+        "item_ar": "Solo Light Meal Meat Kebab",
+        "price": 29,
+        "currency": "SAR",
+        "description": "(737 calories) 8 pcs meat kebab + rice + garlic sauce + rice sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/2f9f6800695064207ccb18bf1e11d73b.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51707451
+      },
+      {
+        "item_en": "Solo Light Meal Meat Awsal",
+        "item_ar": "Solo Light Meal Meat Awsal",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Pcs 8 ennabi meat cubes (685 calories)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/2adf01d0cf76684493a7c31f2edd0777.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51707576
+      },
+      {
+        "item_en": "Solo Light Meal Mix Kebab",
+        "item_ar": "Solo Light Meal Mix Kebab",
+        "price": 30,
+        "currency": "SAR",
+        "description": "4 pcs chicken kebab+4 pcs meat kebab rice + garlic sauce + rice sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/71aa887e888adb873acd14940c0f6aa0.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 54655618
+      },
+      {
+        "item_en": "Solo Light Meal Mix",
+        "item_ar": "Solo Light Meal Mix",
+        "price": 34,
+        "currency": "SAR",
+        "description": "Mix 4 pcs meat cubes + 4 pcs shish tawook +rice + garlic sauce + (690 calories) rice sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/193d8fd62143d3a30d3314a52aabed56.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51707474
+      },
+      {
+        "item_en": "Solo Light Meal Chicken Kebab",
+        "item_ar": "Solo Light Meal Chicken Kebab",
+        "price": 29,
+        "currency": "SAR",
+        "description": "(735 calories) 8 pcs chicken kebab rice + garlic sauce + rice sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/a7fc662c13634fe72f07f0e880ec801c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51707420
+      },
+      {
+        "item_en": "Solo Light Meal Shish Tawook",
+        "item_ar": "Solo Light Meal Shish Tawook",
+        "price": 33,
+        "currency": "SAR",
+        "description": "(695 calories) 8 pcs shish tawook +rice + garlic sauce + rice sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/335a9fdd9789887c5db61fa23b6ed3fc.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51707503
+      },
+      {
+        "item_en": "Solo Light Meal Tandoori",
+        "item_ar": "Solo Light Meal Tandoori",
+        "price": 33,
+        "currency": "SAR",
+        "description": "Pcs 8 tandoori +rice + rita sauce + rice sauce (795 calories)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/f2d1c1e204c64905032382d7c91a737c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51707546
+      }
+    ],
+    "Solo Filling Meals": [
+      {
+        "item_en": "Solo Filling Meal Meat Kebab",
+        "item_ar": "Solo Filling Meal Meat Kebab",
+        "price": 39,
+        "currency": "SAR",
+        "description": "(878 calories) 12 pcs meat kebab + rice + garlic sauce + rice sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/4c5cc0670bed4cfca854eb91179911ce.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51707634
+      },
+      {
+        "item_en": "Solo Filling Meal Meat Awsal",
+        "item_ar": "Solo Filling Meal Meat Awsal",
+        "price": 42,
+        "currency": "SAR",
+        "description": "(800 calories) 12 pcs ennabi meat cubes",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/902a1ff80e50b4ba34ad2669a23d21dd.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51707770
+      },
+      {
+        "item_en": "Solo Filling Meal Mix",
+        "item_ar": "Solo Filling Meal Mix",
+        "price": 43,
+        "currency": "SAR",
+        "description": "Mix 4 pcs meat cubes + 4 pcs meat kebab +4 pcs tawook + rice (830 calories) + garlic sauce + rice sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/e941770ade3c7b4de73aa851172b9a11.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51707664
+      },
+      {
+        "item_en": "Solo Filling Meal Chicken Kebab",
+        "item_ar": "Solo Filling Meal Chicken Kebab",
+        "price": 39,
+        "currency": "SAR",
+        "description": "(875 calories) 12 pcs chicken kebab rice + garlic sauce + rice sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/cbaee00a85ac99390c0fe87a323479d0.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51707605
+      },
+      {
+        "item_en": "Solo Filling Meal Shish Tawook",
+        "item_ar": "Solo Filling Meal Shish Tawook",
+        "price": 42,
+        "currency": "SAR",
+        "description": "12 pcs shish tawook +rice + garlic sauce + rice sauce (815 calories)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/dfe46c61c6f7e4ead18da0eae977f019.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51707698
+      },
+      {
+        "item_en": "Solo Filling Meal Tandoori",
+        "item_ar": "Solo Filling Meal Tandoori",
+        "price": 42,
+        "currency": "SAR",
+        "description": "(971 calories) 12 pcs tandoori +rice + rita sauce + rice sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/c3d3d8fdd5a89edb4090c8c3702bd67f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51707734
+      }
+    ],
+    "Sharing Meals": [
+      {
+        "item_en": "Trio Meal Mix Grill # 1 Kebab",
+        "item_ar": "Trio Meal Mix Grill # 1 Kebab",
+        "price": 89,
+        "currency": "SAR",
+        "description": "12 pcs meat kebab + 12 pcs chicken kebab +rice + hummos + 4 pcs (2538 calories) aryes + rice sauce and bread",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/788c979b514648700177931b1b22ab74.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51707954
+      },
+      {
+        "item_en": "Trio Meal Mix Grill # 2",
+        "item_ar": "Trio Meal Mix Grill # 2",
+        "price": 99,
+        "currency": "SAR",
+        "description": "8pcs meat kebab + 8 pcs chicken kebab + 4 pcs meat cubes + 4 pcs shish tawook + rice + hummos + 4pcs aryes + rice sauce and (3774 calories) bread",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/adf028fe194cd373facd7443458690b7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708003
+      },
+      {
+        "item_en": "Trio Meal Mix Meat",
+        "item_ar": "Trio Meal Mix Meat",
+        "price": 99,
+        "currency": "SAR",
+        "description": "12 pcs meat kebab + 12 pcs meat cubes + rice + hummos + 4 pcs (2463 calories) aryes + rice sauce and bread",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/e689a8f26e2045422847efe28e13431e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708073
+      },
+      {
+        "item_en": "Trio Meal Mix Chicken",
+        "item_ar": "Trio Meal Mix Chicken",
+        "price": 99,
+        "currency": "SAR",
+        "description": "12pcs chicken kebab + 12 pcs shish tawook +rice + hummos + (2295 calories) 4pcs aryes + rice sauce and bread",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/7673458cef37d061a2fdd3c6a65d2eb6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708038
+      },
+      {
+        "item_en": "Trio Meal Mix Meat Cubes & Shish Tawook",
+        "item_ar": "Trio Meal Mix Meat Cubes & Shish Tawook",
+        "price": 109,
+        "currency": "SAR",
+        "description": "12 pcs meat cubes + 12 pcs shish tawook + rice + hummos + 4 (2400 calories) pcs aryes + rice sauce and bread",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/f0923955080f3bdd03e49335b91d706c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708112
+      },
+      {
+        "item_en": "Quattro Plus Meal Mix Grill # 1 Kebab",
+        "item_ar": "Quattro Plus Meal Mix Grill # 1 Kebab",
+        "price": 129,
+        "currency": "SAR",
+        "description": "20 pcs meat kebab + 20 pcs chicken kebab +rice + hummos + 4 pcs (4041 calories) aryes + rice sauce and bread",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/59af48fbfbeaea62cafdb0c78d326f2e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51707802
+      },
+      {
+        "item_en": "Quattro Plus Meal Mix Grill # 2",
+        "item_ar": "Quattro Plus Meal Mix Grill # 2",
+        "price": 139,
+        "currency": "SAR",
+        "description": "12 pcs meat kebab + 12 pcs chicken kebab +8 pcs meat cubes +8 pcs shish tawook +rice + hummos + 4 pcs aryes + rice sauce and (3549 calories) bread",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/58165f7de329670dd9b03dfa95f470a7.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51707840
+      },
+      {
+        "item_en": "Quattro Plus Meal Mix Meat",
+        "item_ar": "Quattro Plus Meal Mix Meat",
+        "price": 139,
+        "currency": "SAR",
+        "description": "20 pcs meat kebab + 20 pcs meat cubes +rice + hummos + 4 pcs (3900 calories) aryes + rice sauce and bread",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/12a9f27d7c0d6c494b335c682c355e81.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51707897
+      },
+      {
+        "item_en": "Quattro Plus Meal Mix Chicken",
+        "item_ar": "Quattro Plus Meal Mix Chicken",
+        "price": 139,
+        "currency": "SAR",
+        "description": "20 pcs chicken kebab + 20 pcs shish tawook +rice + hummos + 4 (4040 calories) pcs aryes + rice sauce and bread",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/624e9f5d8031808ad8fd28b0446989c9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51707864
+      },
+      {
+        "item_en": "Quattro Plus Meal Mix Meat Cubes & Shish Tawook",
+        "item_ar": "Quattro Plus Meal Mix Meat Cubes & Shish Tawook",
+        "price": 149,
+        "currency": "SAR",
+        "description": "20 pcs meat cubes + 20 pcs shish twaook +rice + hummos + 4 pcs (3810 calories) aryes + rice sauce and bread",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/0b05d9ae4fd04b13fe43c2971f422ae9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51707930
+      },
+      {
+        "item_en": "Triple Mix Offer",
+        "item_ar": "Triple Mix Offer",
+        "price": 109,
+        "currency": "SAR",
+        "description": "Triple: confused between chicken and meat? we have collected for you three of the most delicious ennabi grill dishes in a wonderful three-mix offer (eggplant kebab - shish tawook - halabi kebab) and we present them to you with french fries to complete the deliciousness (2528 calories)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/6df50faa4720601b209376f7b96db34a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64674564
+      },
+      {
+        "item_en": "Triple Meat Offer",
+        "item_ar": "Triple Meat Offer",
+        "price": 109,
+        "currency": "SAR",
+        "description": "Three of the meat dishes with the distinctive annabi seasoning that you loved (halabi kebab - iraqi kebab - eggplant kebab) with unique and different flavors, and to complete the meal? we serve it with delicious french fries (2600 calories)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/93f857449d63d685d643e53729705469.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64674565
+      },
+      {
+        "item_en": "Triple Chicken Offer",
+        "item_ar": "Triple Chicken Offer",
+        "price": 109,
+        "currency": "SAR",
+        "description": "For chicken lovers, we offer three of the most delicious ennabi grill dishes, including juicy chicken grills (tandoori - shish tawook - chicken kebab), which we offer to you with french fries to complete the meal (2518 calories)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/1662bf79cd913508681278a6dd595bdc.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64674566
+      }
+    ],
+    "Azymatek": [
+      {
+        "item_en": "Azymatek Mix",
+        "item_ar": "Azymatek Mix",
+        "price": 99,
+        "currency": "SAR",
+        "description": "12 pcs shish tawook + 12 pcs meat cubes+16 pcs meat kebab with bread (2469 calories)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/3973cb9df24b4f63bba082b4d145787f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708234
+      },
+      {
+        "item_en": "Azymatek Meat Kebab",
+        "item_ar": "Azymatek Meat Kebab",
+        "price": 99,
+        "currency": "SAR",
+        "description": "(1662 calories) 40 pcs meat kebab with bread",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/0c257146f32fa9406e60ecb28b313543.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708219
+      },
+      {
+        "item_en": "Azymatek Meat Cubes",
+        "item_ar": "Azymatek Meat Cubes",
+        "price": 99,
+        "currency": "SAR",
+        "description": "(1654 calories) 40 pcs meat cubes with bread",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/3a02b7806cf2010719a796d03faa891e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708292
+      },
+      {
+        "item_en": "Azymatek Chicken Kebab",
+        "item_ar": "Azymatek Chicken Kebab",
+        "price": 99,
+        "currency": "SAR",
+        "description": "(3315 calories) 40 pcs chicken kebab with bread",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/1524f1247ccac327bd8fd09fd8a35706.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708179
+      },
+      {
+        "item_en": "Azymatek Shish Tawook",
+        "item_ar": "Azymatek Shish Tawook",
+        "price": 99,
+        "currency": "SAR",
+        "description": "(1452 calories) 40 pcs shish tawook with bread",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/cca3082a40c37e9994f22b768844dae2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708249
+      },
+      {
+        "item_en": "Azymatek Tandoori",
+        "item_ar": "Azymatek Tandoori",
+        "price": 99,
+        "currency": "SAR",
+        "description": "(2264 calories) 40 pcs tandoori with bread",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/aded3655f26fe05e3b63e701e73da3c4.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708266
+      },
+      {
+        "item_en": "Azymatek Aryes",
+        "item_ar": "Azymatek Aryes",
+        "price": 69,
+        "currency": "SAR",
+        "description": "(3013 calories) 24 pcs aryes",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/3a20aea2e4ba37eeacb05d555afc2cc8.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708148
+      }
+    ],
+    "New Saudi Menu": [
+      {
+        "item_en": "Hasawi Kabab",
+        "item_ar": "Hasawi Kabab",
+        "price": 44,
+        "currency": "SAR",
+        "description": "With al-hasawi seasoning and spices and the acidity of the loumi with the sweetness of the al-hasawi pomegranate 1004 calories",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/b502c61181b939d8c398a04d73f68eb3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708526
+      },
+      {
+        "item_en": "Hijazi Kabab",
+        "item_ar": "Hijazi Kabab",
+        "price": 44,
+        "currency": "SAR",
+        "description": "With seasoning, hijazi spices, mint flavor, special tahini, and hijazi red tart, 1470 calories",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/306f9b0864a0b26f3b587622da0e17a2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708555
+      },
+      {
+        "item_en": "Najdi Kabab",
+        "item_ar": "Najdi Kabab",
+        "price": 44,
+        "currency": "SAR",
+        "description": "With seasoning, najd spices, hot pepper flavor and the famous onion hamsa 1169 calories",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/18d60b6df0c266b8ba1c6f5e07ca5a39.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708540
+      }
+    ],
+    "Grill": [
+      {
+        "item_en": "Mix Grill Plate",
+        "item_ar": "Mix Grill Plate",
+        "price": 49,
+        "currency": "SAR",
+        "description": "Four skewers of meat awsal, kebab halabi, shish tawook and chicken kebab. 967 calories",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/073bfa191449505da772382cc8d640cb.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708566
+      },
+      {
+        "item_en": "Halabi Kebab Plate",
+        "item_ar": "Halabi Kebab Plate",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Seasoned meat with the famous aleppo recipe 820 calories",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/0a2c0e531dd661818ea2d969bdd624a4.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708672
+      },
+      {
+        "item_en": "Iraqi Kebab Plate",
+        "item_ar": "Iraqi Kebab Plate",
+        "price": 43,
+        "currency": "SAR",
+        "description": "Kebab with the famous iraqi recipe with sumac. 879 calories",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/39133444a2ed2e40f29a3dd02396f997.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708646
+      },
+      {
+        "item_en": "Eggplant Kebab Plate",
+        "item_ar": "Eggplant Kebab Plate",
+        "price": 44,
+        "currency": "SAR",
+        "description": "Meat with eggplant pieces doused with yogurt mixture. 901 calories",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/0d816a487fada119477f4030653b336c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708627
+      },
+      {
+        "item_en": "Meat Cubes Plate",
+        "item_ar": "Meat Cubes Plate",
+        "price": 46,
+        "currency": "SAR",
+        "description": "The best carefully selected cuts of meat. 751 calories",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/292185fb6455da365d21bc754fbf8e32.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708708
+      },
+      {
+        "item_en": "Ennabi Meat Cubes Plate",
+        "item_ar": "Ennabi Meat Cubes Plate",
+        "price": 46,
+        "currency": "SAR",
+        "description": "Awsal meat is tender and drenched with pomegranate molasses. 901 calories",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/8d7ab885ff1928a991c52b838b2a22f2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708691
+      },
+      {
+        "item_en": "Chicken Kebab Plate",
+        "item_ar": "Chicken Kebab Plate",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Minced chicken with carrots seasoned with special spices. 879 calories",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/b6e94c1afc558edfd5a63990a2e2ed3c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51715467
+      },
+      {
+        "item_en": "Mosahhab Half Chicken",
+        "item_ar": "Mosahhab Half Chicken",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Half a boneless chicken grilled on charcoal. 820 calories",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/f5eb52d9a347486a6dd503fbf5c0545a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708753
+      },
+      {
+        "item_en": "Boneless With Rice",
+        "item_ar": "Boneless With Rice",
+        "price": 42,
+        "currency": "SAR",
+        "description": "Boneless with rice with daqoos and onions on sumac and lemon (1850 calories)",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/7f0e8307f5372d848477a1607b129870.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708589
+      },
+      {
+        "item_en": "Shish Tawook Plate",
+        "item_ar": "Shish Tawook Plate",
+        "price": 43,
+        "currency": "SAR",
+        "description": "The finest types of marinated chicken breast pieces. 807 calories",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/59ebc47ceeb33f70270af3af7a2fb8fa.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708732
+      },
+      {
+        "item_en": "Tandoori Plate",
+        "item_ar": "Tandoori Plate",
+        "price": 43,
+        "currency": "SAR",
+        "description": "Chicken breast pieces with hot tandoori seasoning, served with raita sauce. 832 calories",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/93c9cceff017a94163355a2d3c97b05e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708605
+      }
+    ],
+    "Side Items": [
+      {
+        "item_en": "Bread",
+        "item_ar": "Bread",
+        "price": 1,
+        "currency": "SAR",
+        "description": "(132 calories) two pieces of bread",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/737848dafb29abe2c635597cdd43c3a4.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708898
+      },
+      {
+        "item_en": "French Fries",
+        "item_ar": "French Fries",
+        "price": 9,
+        "currency": "SAR",
+        "description": "(311 calories) french fries",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/dfa4ddbc7dc6a550d9c60db341e55c1f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708875
+      },
+      {
+        "item_en": "Rice Med",
+        "item_ar": "Rice Med",
+        "price": 11,
+        "currency": "SAR",
+        "description": "(387 calories) rice med",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/6330e6b48e2a92e00cbaa04729a65dd4.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708861
+      },
+      {
+        "item_en": "Rice Lrg",
+        "item_ar": "Rice Lrg",
+        "price": 13,
+        "currency": "SAR",
+        "description": "(580 calories) rice lrg",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/7c50e56481567efab664003770173537.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708838
+      },
+      {
+        "item_en": "Rice For Sharing",
+        "item_ar": "Rice For Sharing",
+        "price": 26,
+        "currency": "SAR",
+        "description": "(1572 calories) rice for sharing",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/bd8f3b4a756289265a309ed9690e4cd3.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708825
+      }
+    ],
+    "Hot Appetizers": [
+      {
+        "item_en": "Keba 4 Pcs",
+        "item_ar": "Keba 4 Pcs",
+        "price": 12,
+        "currency": "SAR",
+        "description": "(760 calories) keba 4 pcs",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/1102e5da25dc06c6f7056b651a30f357.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708996
+      },
+      {
+        "item_en": "Sambousa 4 Pcs",
+        "item_ar": "Sambousa 4 Pcs",
+        "price": 12,
+        "currency": "SAR",
+        "description": "(560 calories) sambousa 4 pcs",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/e8b68b5b0341da05d44180a56a2d87f2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709018
+      },
+      {
+        "item_en": "Mix Of Keba + Sambousa 4 Pcs",
+        "item_ar": "Mix Of Keba + Sambousa 4 Pcs",
+        "price": 12,
+        "currency": "SAR",
+        "description": "(662 calories) mix of keba + sambousa 4 pcs",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/53e16b321987a7f172efd3684db83202.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709035
+      },
+      {
+        "item_en": "Aryes 4 Pcs",
+        "item_ar": "Aryes 4 Pcs",
+        "price": 16,
+        "currency": "SAR",
+        "description": "(295 calories) aryes 4 pcs",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/105db61fd3c4c48c7d29112d474adb54.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708974
+      },
+      {
+        "item_en": "Keba 20 Pcs",
+        "item_ar": "Keba 20 Pcs",
+        "price": 40,
+        "currency": "SAR",
+        "description": "(2820 calories) keba 20 pcs",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/f69877c26adb570024ca84e431e19861.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708914
+      },
+      {
+        "item_en": "Sambousa 20 Pcs",
+        "item_ar": "Sambousa 20 Pcs",
+        "price": 40,
+        "currency": "SAR",
+        "description": "(2800 calories) sambousa 20 pcs",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/2f0f7d5e1e22136bd4dc87aa2850dbe9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708935
+      },
+      {
+        "item_en": "Keba + Sambousa Mix 20 Pcs",
+        "item_ar": "Keba + Sambousa Mix 20 Pcs",
+        "price": 40,
+        "currency": "SAR",
+        "description": "(3810 calories) keba + sambousa mix 20 pcs",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/773614c8d5bafe3ca70bbc68bf0cf03a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51708956
+      },
+      {
+        "item_en": "Arayes8 Pieces",
+        "item_ar": "Arayes8 Pieces",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Thammam pieces of bread stuffed with meat and grilled on charcoal. 1967 calories",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/4aa59e7db029705924a1156794c88cf8.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62946931
+      }
+    ],
+    "Cold Appetizers": [
+      {
+        "item_en": "Mix Cold Appetizers Med",
+        "item_ar": "Mix Cold Appetizers Med",
+        "price": 21,
+        "currency": "SAR",
+        "description": "(350 calories) mix cold appetizers med",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/fbc1775db53612a5fc5b69dc7e725ca8.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709075
+      },
+      {
+        "item_en": "Mix Cold Appetizers Lrg",
+        "item_ar": "Mix Cold Appetizers Lrg",
+        "price": 30,
+        "currency": "SAR",
+        "description": "(622 calories) mix cold appetizers lrg",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/544e0832548393fd9c217317f6ad3eeb.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709054
+      },
+      {
+        "item_en": "Hommos Med",
+        "item_ar": "Hommos Med",
+        "price": 11,
+        "currency": "SAR",
+        "description": "(257 calories) hommos med",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/e1ec89c64469e58595b283e04d135456.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709194
+      },
+      {
+        "item_en": "Hommos Lrg",
+        "item_ar": "Hommos Lrg",
+        "price": 17,
+        "currency": "SAR",
+        "description": "(489 calories) hommos lrg",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/dc11437b3583911358b6a139b1afb718.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709173
+      },
+      {
+        "item_en": "Chimichurri Hummus Med",
+        "item_ar": "Chimichurri Hummus Med",
+        "price": 11,
+        "currency": "SAR",
+        "description": "(234 calories) chimichurri hummus med",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/1d775e211f4b9ab16374cdb88ed81cad.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709152
+      },
+      {
+        "item_en": "Chimichurri Hummus Lrg",
+        "item_ar": "Chimichurri Hummus Lrg",
+        "price": 17,
+        "currency": "SAR",
+        "description": "(304 calories) chimichurri hummus lrg",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/3753066ef558ea1e432d661b899f13ad.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709135
+      },
+      {
+        "item_en": "Mutabal Med",
+        "item_ar": "Mutabal Med",
+        "price": 11,
+        "currency": "SAR",
+        "description": "(257 calories) mutabal med",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/62ecda0ecc33e03d1f071bbb457d3057.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709303
+      },
+      {
+        "item_en": "Mutabal Lrg",
+        "item_ar": "Mutabal Lrg",
+        "price": 17,
+        "currency": "SAR",
+        "description": "(449 calories) mutabal lrg",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/12f064cfe4ec6792127ff889c242e76e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709263
+      },
+      {
+        "item_en": "Baba Ghanoush Med",
+        "item_ar": "Baba Ghanoush Med",
+        "price": 11,
+        "currency": "SAR",
+        "description": "(216 calories) baba ghanoush med",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/15294ff8fb58e6e50626cbb31718077f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709238
+      },
+      {
+        "item_en": "Baba Ghanoush Lrg",
+        "item_ar": "Baba Ghanoush Lrg",
+        "price": 17,
+        "currency": "SAR",
+        "description": "(376 calories) baba ghanoush lrg",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/c760115d118cc1bce48b5980e460c517.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709217
+      },
+      {
+        "item_en": "Labna W Garlic Med",
+        "item_ar": "Labna W Garlic Med",
+        "price": 12,
+        "currency": "SAR",
+        "description": "(260 calories) labna w garlic med",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/36ba34f9311c458474e9cf68de6d27d6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709116
+      },
+      {
+        "item_en": "Labna W Garlic Lrg.",
+        "item_ar": "Labna W Garlic Lrg.",
+        "price": 19,
+        "currency": "SAR",
+        "description": "(454 calories) labna w garlic lrg.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/a12c2a4339651792db3671ecab49fb63.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709099
+      },
+      {
+        "item_en": "Garlic Sauce Med",
+        "item_ar": "Garlic Sauce Med",
+        "price": 8,
+        "currency": "SAR",
+        "description": "(148 calories) garlic sauce med",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/d61b05988f30462c3f05ed49427fb62f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62946939
+      },
+      {
+        "item_en": "Garlic Sauce Lrg",
+        "item_ar": "Garlic Sauce Lrg",
+        "price": 10,
+        "currency": "SAR",
+        "description": "(282 calories) garlic sauce lrg",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/9281888cf52c6fedc0c247080ff274ba.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 62946941
+      }
+    ],
+    "Salads": [
+      {
+        "item_en": "Green Salad Med",
+        "item_ar": "Green Salad Med",
+        "price": 13,
+        "currency": "SAR",
+        "description": "(38 calories) green salad med",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/16be42e31d992402e7c2e038615d0045.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709418
+      },
+      {
+        "item_en": "Green Salad Lrg",
+        "item_ar": "Green Salad Lrg",
+        "price": 19,
+        "currency": "SAR",
+        "description": "(140 calories) green salad lrg",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/2f6e329ce33ad95ec6273c66b446fcf4.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709401
+      },
+      {
+        "item_en": "Fattouch Med",
+        "item_ar": "Fattouch Med",
+        "price": 13,
+        "currency": "SAR",
+        "description": "(136 calories) fattouch med",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/605a5da5d5839614222ad8681bc2b2dd.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709351
+      },
+      {
+        "item_en": "Fattouch Lrg",
+        "item_ar": "Fattouch Lrg",
+        "price": 19,
+        "currency": "SAR",
+        "description": "(251 calories) fattouch lrg",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/a1df1194fb4ce5bd8e7ee09326597d50.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709327
+      },
+      {
+        "item_en": "Taboula Med",
+        "item_ar": "Taboula Med",
+        "price": 13,
+        "currency": "SAR",
+        "description": "(169 calories)taboula med",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/765cb5b118f92380dd442d1bf4fb5324.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709384
+      },
+      {
+        "item_en": "Taboula Lrg",
+        "item_ar": "Taboula Lrg",
+        "price": 19,
+        "currency": "SAR",
+        "description": "(254 calories) taboula lrg",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/7c53f0c178c3b6be23ab258827af0690.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709366
+      }
+    ],
+    "Sauces": [
+      {
+        "item_en": "Tahini Sauce",
+        "item_ar": "Tahini Sauce",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Tahini sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/72ca7962da1a9bfc82d1896d25123790.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709604
+      },
+      {
+        "item_en": "Yogurt Sauce",
+        "item_ar": "Yogurt Sauce",
+        "price": 3,
+        "currency": "SAR",
+        "description": "(60 calories) yogurt sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/1cb620cb8f8b9205bcd1084bb49869cf.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709621
+      },
+      {
+        "item_en": "Rice Sauce",
+        "item_ar": "Rice Sauce",
+        "price": 3,
+        "currency": "SAR",
+        "description": "(8 calories) rice sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/98fdf8886314a173526c99c816b96300.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709583
+      },
+      {
+        "item_en": "Raita Sauce",
+        "item_ar": "Raita Sauce",
+        "price": 4,
+        "currency": "SAR",
+        "description": "(138 calories) raita sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/c0957374f75a95f4b5e41cfe009e81bf.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709562
+      },
+      {
+        "item_en": "Pomergranta Molasses",
+        "item_ar": "Pomergranta Molasses",
+        "price": 3,
+        "currency": "SAR",
+        "description": "(66 calories) pomergranta molasses",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/4b2a4a4564eb89c72f6b4ecc1977180c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709542
+      },
+      {
+        "item_en": "Garlic Sauce Small",
+        "item_ar": "Garlic Sauce Small",
+        "price": 3,
+        "currency": "SAR",
+        "description": "(52 calories) garlic sauce small",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/c0957374f75a95f4b5e41cfe009e81bf.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709484
+      },
+      {
+        "item_en": "Lumi Garlic",
+        "item_ar": "Lumi Garlic",
+        "price": 3,
+        "currency": "SAR",
+        "description": "(48 calories) lumi garlic",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/6950f2e39da05b3ad33a5d66924467ac.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709521
+      },
+      {
+        "item_en": "Chimichurri Hummus Garlic",
+        "item_ar": "Chimichurri Hummus Garlic",
+        "price": 3,
+        "currency": "SAR",
+        "description": "(56 calories) chimichurri hummus garlic",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/00532b5a5e6721ee2b42bbacf9c7bc62.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709499
+      }
+    ],
+    "Drinks": [
+      {
+        "item_en": "Orange Juice",
+        "item_ar": "Orange Juice",
+        "price": 13,
+        "currency": "SAR",
+        "description": "(145 calories) natural orange juice 330 m",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/337ca9ad06ca0869c22c61db2028b39f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 51709639
+      },
+      {
+        "item_en": "Arwa Water",
+        "item_ar": "Arwa Water",
+        "price": 2,
+        "currency": "SAR",
+        "description": "500 ml arwa water",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/869e656430e9c4992ac5bc258b37b91f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57249130
+      },
+      {
+        "item_en": "Coke Cola",
+        "item_ar": "Coke Cola",
+        "price": 5,
+        "currency": "SAR",
+        "description": "320 coke cola",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/892920d32212d91f4f14c2ea0f67bb0d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57248930
+      },
+      {
+        "item_en": "Coke Cola Light",
+        "item_ar": "Coke Cola Light",
+        "price": 5,
+        "currency": "SAR",
+        "description": "320 ml coke cola light",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/f8cff0989232f228f6e83923dce75ead.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57248934
+      },
+      {
+        "item_en": "Coke Cola Zero",
+        "item_ar": "Coke Cola Zero",
+        "price": 5,
+        "currency": "SAR",
+        "description": "320 ml coke cola zero",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/8201960764ee57ebbdc463bf89942108.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57248942
+      },
+      {
+        "item_en": "Fanta Citrus",
+        "item_ar": "Fanta Citrus",
+        "price": 5,
+        "currency": "SAR",
+        "description": "320 ml fanta citrus",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/b7ae32c9de24f643e9dadba12d42ebe2.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57248955
+      },
+      {
+        "item_en": "Fanta Orange",
+        "item_ar": "Fanta Orange",
+        "price": 5,
+        "currency": "SAR",
+        "description": "320 ml fanta orange",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/f73d260cb9dfe2c9b53e70c15c3b9c61.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57248970
+      },
+      {
+        "item_en": "Sprite",
+        "item_ar": "Sprite",
+        "price": 5,
+        "currency": "SAR",
+        "description": "320 ml sprite",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/830805568782193ec3e543e0ecf4c30c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57249005
+      },
+      {
+        "item_en": "Sprite Zero",
+        "item_ar": "Sprite Zero",
+        "price": 5,
+        "currency": "SAR",
+        "description": "320 ml sprite zero",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/c5020a040bad9ead4e6e906b53eb6b74.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57249024
+      },
+      {
+        "item_en": "Coke Cola Litre",
+        "item_ar": "Coke Cola Litre",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Cola litre",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/119718b2b6408ecff01a71418915b510.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57249044
+      },
+      {
+        "item_en": "Sprite Litre",
+        "item_ar": "Sprite Litre",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Sprite litre",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-ENG/bc348c7afe90ecf5b9710cf1d221afc5.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 57249114
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.026Z",
+  "source": "Hungerstation"
+}

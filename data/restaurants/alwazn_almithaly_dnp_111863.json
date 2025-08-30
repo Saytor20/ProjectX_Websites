@@ -1,0 +1,34 @@
+{
+  "restaurant_info": {
+    "id": "111863",
+    "name": "Alwazn Almithaly (DNP)",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2678125,
+      "longitude": 42.5903281
+    },
+    "rating": 5,
+    "review_count": 2,
+    "type_of_food": "Health & Wellness",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/111863"
+  },
+  "menu_categories": {
+    "Quickmarketmenugroup": [
+      {
+        "item_en": "Menu Item",
+        "item_ar": "Menu Item",
+        "price": 0,
+        "currency": "SAR",
+        "description": "",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1570199?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 34235127
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.034Z",
+  "source": "Hungerstation"
+}

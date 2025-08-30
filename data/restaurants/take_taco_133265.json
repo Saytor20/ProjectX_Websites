@@ -1,0 +1,205 @@
+{
+  "restaurant_info": {
+    "id": "133265",
+    "name": "Take Taco",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2096159,
+      "longitude": 42.4940792
+    },
+    "rating": 4.4,
+    "review_count": 46,
+    "type_of_food": "Mexican",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/133265"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Shrimp Taco",
+        "item_ar": "Shrimp Taco",
+        "price": 42,
+        "currency": "SAR",
+        "description": "Shrimp rich in mexican flavors, mixed with melted cheese and wrapped in totilla bread and traditional mexican sauce.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/c19c10407c07896be7d018b019aa59b6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56145692
+      },
+      {
+        "item_en": "Birria Taco",
+        "item_ar": "Birria Taco",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Melted smoked birria beef tacos! rich with mexican flavors, mixed with melted cheese and wrapped in tortilla bread and traditional mexican sauce.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/fa42e33018ffbc18c5d8cbdf4b2d12b5.JPG?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56145690
+      },
+      {
+        "item_en": "Poiio Taco",
+        "item_ar": "Poiio Taco",
+        "price": 38,
+        "currency": "SAR",
+        "description": "Slowly grilled chicken infused with mexican flavors, mixed with melted cheese and wrapped in a crispy tortilla and chipotle sauce.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/ab556e6fbf796f92dd13228e9ebc8219.JPG?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56145691
+      },
+      {
+        "item_en": "Take Taco Nachos",
+        "item_ar": "Take Taco Nachos",
+        "price": 24,
+        "currency": "SAR",
+        "description": "It is a mexican dish consisting of deep fried tortilla chips covered with melted cheese sauce and mexican spices accompanied by a traditional tomato salad ranch dressing jalapenos and guacamole",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/133265/PRODUCT/77d088a8-3837-4ba6-91f5-1bde8a5be785.JPG?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71740331
+      }
+    ],
+    "Main Dishes": [
+      {
+        "item_en": "Birria Taco",
+        "item_ar": "Birria Taco",
+        "price": 39,
+        "currency": "SAR",
+        "description": "Melted smoked birria beef tacos! rich with mexican flavors, mixed with melted cheese and wrapped in tortilla bread and traditional mexican sauce.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/fa42e33018ffbc18c5d8cbdf4b2d12b5.JPG?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56145690
+      },
+      {
+        "item_en": "Poiio Taco",
+        "item_ar": "Poiio Taco",
+        "price": 38,
+        "currency": "SAR",
+        "description": "Slowly grilled chicken infused with mexican flavors, mixed with melted cheese and wrapped in a crispy tortilla and chipotle sauce.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/ab556e6fbf796f92dd13228e9ebc8219.JPG?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56145691
+      },
+      {
+        "item_en": "Shrimp Taco",
+        "item_ar": "Shrimp Taco",
+        "price": 42,
+        "currency": "SAR",
+        "description": "Shrimp rich in mexican flavors, mixed with melted cheese and wrapped in totilla bread and traditional mexican sauce.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/c19c10407c07896be7d018b019aa59b6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56145692
+      }
+    ],
+    "Appetizers": [
+      {
+        "item_en": "Nachos",
+        "item_ar": "Nachos",
+        "price": 20,
+        "currency": "SAR",
+        "description": "It is a mexican dish consisting of fried corn flakes topped with melted cheese sauce and mexican spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/0f75e016d05e5f519ebedf2a86dacc8e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56145693
+      },
+      {
+        "item_en": "Mexican Saiad",
+        "item_ar": "Mexican Saiad",
+        "price": 20,
+        "currency": "SAR",
+        "description": "A perfect side meal for anything with cilantro lime chutney",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/18665113358c4c56a8a2f546b2df8a31.JPG?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56145694
+      },
+      {
+        "item_en": "Take Taco Nachos",
+        "item_ar": "Take Taco Nachos",
+        "price": 24,
+        "currency": "SAR",
+        "description": "It is a mexican dish consisting of deep fried tortilla chips covered with melted cheese sauce and mexican spices accompanied by a traditional tomato salad ranch dressing jalapenos and guacamole",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/133265/PRODUCT/77d088a8-3837-4ba6-91f5-1bde8a5be785.JPG?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71740331
+      },
+      {
+        "item_en": "Guacamole And Nachos",
+        "item_ar": "Guacamole And Nachos",
+        "price": 14,
+        "currency": "SAR",
+        "description": "Guacamole accompanied by nacho chips seasoned with mexican flavor",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/133265/PRODUCT/affef126-874a-4a92-ac1e-3022b778f82e.JPG?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71741693
+      }
+    ],
+    "Beverages": [
+      {
+        "item_en": "Diet Pepsi",
+        "item_ar": "Diet Pepsi",
+        "price": 4,
+        "currency": "SAR",
+        "description": "A soft drink with a unique and refreshing flavour, free of sugar and calories",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/e0ce777ef60bd14c8f4eacdeddb8e291?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56145695
+      },
+      {
+        "item_en": "Pepsi",
+        "item_ar": "Pepsi",
+        "price": 4,
+        "currency": "SAR",
+        "description": "A can of soft drink with a unique and refreshing flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/d7f796aaa64af667a211646e6d55fb3e.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56145696
+      },
+      {
+        "item_en": "7 Up",
+        "item_ar": "7 Up",
+        "price": 4,
+        "currency": "SAR",
+        "description": "7up drink with delicious lemon flavor",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/89444f43d1e59c902eaad34844afcfab.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56145697
+      },
+      {
+        "item_en": "Mountain Dew",
+        "item_ar": "Mountain Dew",
+        "price": 4,
+        "currency": "SAR",
+        "description": "A soft drink with a unique and refreshing flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/2a534022bdae39202efed34f936d70e2.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56145698
+      },
+      {
+        "item_en": "Water",
+        "item_ar": "Water",
+        "price": 1,
+        "currency": "SAR",
+        "description": "Pure and refreshing fresh drinking water",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/8dbcd691b6a793e1615a111aece6fb31.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 56145699
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.036Z",
+  "source": "Hungerstation"
+}

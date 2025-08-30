@@ -1,0 +1,348 @@
+{
+  "restaurant_info": {
+    "id": "31342",
+    "name": "Sambousah Baladi",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.230157,
+      "longitude": 42.597224
+    },
+    "rating": 3.8,
+    "review_count": 130,
+    "type_of_food": "Desserts,Arabic",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/31342"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Masoub Malaki",
+        "item_ar": "Masoub Malaki",
+        "price": 12,
+        "currency": "SAR",
+        "description": "A traditional dish made from ground bread with ghee",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923479?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923479
+      },
+      {
+        "item_en": "Salty Mutabak With Meat And Vegetables",
+        "item_ar": "Salty Mutabak With Meat And Vegetables",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Mutabbak stuffed with a delicious blend of oriental flavors in a golden, crispy pastry.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923481?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923481
+      },
+      {
+        "item_en": "Chicken Mutabbaq",
+        "item_ar": "Chicken Mutabbaq",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Dough sheets on the saj with chicken.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923484?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923484
+      },
+      {
+        "item_en": "Mutabaq Vegetables With Eggs",
+        "item_ar": "Mutabaq Vegetables With Eggs",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Dough sheets on a sheet pan with eggs and vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923482?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923482
+      }
+    ],
+    "Samosas": [
+      {
+        "item_en": "Meat Samosa",
+        "item_ar": "Meat Samosa",
+        "price": 1,
+        "currency": "SAR",
+        "description": "Crispy dough stuffed with meat",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923430?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923430
+      },
+      {
+        "item_en": "Chicken Samosa",
+        "item_ar": "Chicken Samosa",
+        "price": 1,
+        "currency": "SAR",
+        "description": "Sambosa stuffed with onions and chicken and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923432?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923432
+      },
+      {
+        "item_en": "Spicy Chicken Samosa",
+        "item_ar": "Spicy Chicken Samosa",
+        "price": 1,
+        "currency": "SAR",
+        "description": "Thin samosa dough stuffed",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923433?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923433
+      },
+      {
+        "item_en": "Vegetable Chicken Samosa",
+        "item_ar": "Vegetable Chicken Samosa",
+        "price": 1,
+        "currency": "SAR",
+        "description": "Pastry filled with chicken and vegetables for a satisfying meal",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923434?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923434
+      },
+      {
+        "item_en": "Samosa Cheese Liquid",
+        "item_ar": "Samosa Cheese Liquid",
+        "price": 1,
+        "currency": "SAR",
+        "description": "Thin samosa dough stuffed",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923437?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923437
+      },
+      {
+        "item_en": "Samosa White Cheese",
+        "item_ar": "Samosa White Cheese",
+        "price": 1,
+        "currency": "SAR",
+        "description": "Thin samosa dough stuffed",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923439?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923439
+      },
+      {
+        "item_en": "Samosa Cheddar",
+        "item_ar": "Samosa Cheddar",
+        "price": 1,
+        "currency": "SAR",
+        "description": "Thin samosa dough stuffed",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923448?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923448
+      },
+      {
+        "item_en": "Samosa Vegetables",
+        "item_ar": "Samosa Vegetables",
+        "price": 1,
+        "currency": "SAR",
+        "description": "Thin samosa dough stuffed",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923450?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923450
+      },
+      {
+        "item_en": "Potato Samosas",
+        "item_ar": "Potato Samosas",
+        "price": 1,
+        "currency": "SAR",
+        "description": "Fried samosa dough with delicious potato filling",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923459?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923459
+      }
+    ],
+    "Al Masoub": [
+      {
+        "item_en": "Masoub Malaki",
+        "item_ar": "Masoub Malaki",
+        "price": 12,
+        "currency": "SAR",
+        "description": "A traditional dish made from ground bread with ghee",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923479?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923479
+      },
+      {
+        "item_en": "Cream Masoub",
+        "item_ar": "Cream Masoub",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Banana and bread cut into small slices, with the addition of honey and cream",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/a6ae4594b5cc0436eea23c9a941db9dd.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923474
+      },
+      {
+        "item_en": "Cream Fatteh",
+        "item_ar": "Cream Fatteh",
+        "price": 12.5,
+        "currency": "SAR",
+        "description": "Bananas and unleavened bread, cut into small slices, with the addition of honey and cream",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923477?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923477
+      }
+    ],
+    "Mutbaq Section": [
+      {
+        "item_en": "Salty Mutabak With Meat And Vegetables",
+        "item_ar": "Salty Mutabak With Meat And Vegetables",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Mutabbak stuffed with a delicious blend of oriental flavors in a golden, crispy pastry.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923481?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923481
+      },
+      {
+        "item_en": "Mutabaq Vegetables With Eggs",
+        "item_ar": "Mutabaq Vegetables With Eggs",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Dough sheets on a sheet pan with eggs and vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923482?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923482
+      },
+      {
+        "item_en": "Applied With Vegetables, Cheese And Eggs",
+        "item_ar": "Applied With Vegetables, Cheese And Eggs",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Mutabbak stuffed with a delicious blend of oriental flavors in a golden, crispy pastry.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923483?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923483
+      },
+      {
+        "item_en": "Chicken Mutabbaq",
+        "item_ar": "Chicken Mutabbaq",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Dough sheets on the saj with chicken.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923484?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923484
+      },
+      {
+        "item_en": "Tuna Mutabak",
+        "item_ar": "Tuna Mutabak",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Our own way of making tuna stuffed dough",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923485?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923485
+      },
+      {
+        "item_en": "Tuna Mutabak With Cheese",
+        "item_ar": "Tuna Mutabak With Cheese",
+        "price": 7,
+        "currency": "SAR",
+        "description": "A delicious blend of fresh tuna and melted cheese in a crispy crust, offering a distinctive dining experience.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923486?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923486
+      },
+      {
+        "item_en": "Sweet Mutabbaq With Cheese",
+        "item_ar": "Sweet Mutabbaq With Cheese",
+        "price": 5,
+        "currency": "SAR",
+        "description": "A blend of sweet dough and soft cheese.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923489?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923489
+      },
+      {
+        "item_en": "Sweet Mutabaqb With Cream",
+        "item_ar": "Sweet Mutabaqb With Cream",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Mutabbak stuffed with a delicious blend of oriental flavors in a golden, crispy pastry.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923490?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923490
+      },
+      {
+        "item_en": "Sweet Mutabbaq Banana",
+        "item_ar": "Sweet Mutabbaq Banana",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Mutabbak stuffed with a delicious blend of oriental flavors in a golden, crispy pastry.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923499?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923499
+      },
+      {
+        "item_en": "Nutella Applet",
+        "item_ar": "Nutella Applet",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Dough sheets on a sheet pan with nutella added",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923500?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923500
+      },
+      {
+        "item_en": "Mutabak Cream With Honey",
+        "item_ar": "Mutabak Cream With Honey",
+        "price": 6,
+        "currency": "SAR",
+        "description": "\"dough sheets on a sheet pan with cream and honey",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923501?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923501
+      },
+      {
+        "item_en": "Liquid Cheese Mutabak",
+        "item_ar": "Liquid Cheese Mutabak",
+        "price": 6,
+        "currency": "SAR",
+        "description": "Our special stuffed mutabbaq dough",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923502?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923502
+      },
+      {
+        "item_en": "Mutabak Liquid Cheese With Honey",
+        "item_ar": "Mutabak Liquid Cheese With Honey",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Mutabbak stuffed with a delicious blend of oriental flavors in a golden, crispy pastry.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1923503?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 1923503
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.042Z",
+  "source": "Hungerstation"
+}

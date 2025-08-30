@@ -1,0 +1,328 @@
+{
+  "restaurant_info": {
+    "id": "11538",
+    "name": "Broast Al Medina",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.229584,
+      "longitude": 42.546503
+    },
+    "rating": 4,
+    "review_count": 358,
+    "type_of_food": "Fast Food,American",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/al-arin/11538"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Broast Chicken",
+        "item_ar": "Broast Chicken",
+        "price": 22,
+        "currency": "SAR",
+        "description": "4 pieces of fried chicken",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/52843982?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52843982
+      },
+      {
+        "item_en": "Pepsi",
+        "item_ar": "Pepsi",
+        "price": 5,
+        "currency": "SAR",
+        "description": "The soft drink with a unique and refreshing flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-5738809?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52865590
+      },
+      {
+        "item_en": "Chicken Stripes",
+        "item_ar": "Chicken Stripes",
+        "price": 22,
+        "currency": "SAR",
+        "description": "8 pieces of boneless fried chicken + potatoes + arabic bread +garlic sauce + tomato ketchup",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/52851359?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52851359
+      },
+      {
+        "item_en": "Fish",
+        "item_ar": "Fish",
+        "price": 25,
+        "currency": "SAR",
+        "description": "6pcs of broasted fish fillet +frenc fries+khubs+garlic sauce+tomato ketchup",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/52843986?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52843986
+      }
+    ],
+    "Main Foods": [
+      {
+        "item_en": "Broast Chicken",
+        "item_ar": "Broast Chicken",
+        "price": 22,
+        "currency": "SAR",
+        "description": "4 pieces of fried chicken",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/52843982?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52843982
+      },
+      {
+        "item_en": "Chicken Stripes",
+        "item_ar": "Chicken Stripes",
+        "price": 22,
+        "currency": "SAR",
+        "description": "8 pieces of boneless fried chicken + potatoes + arabic bread +garlic sauce + tomato ketchup",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/52851359?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52851359
+      },
+      {
+        "item_en": "Chicken Strips",
+        "item_ar": "Chicken Strips",
+        "price": 24,
+        "currency": "SAR",
+        "description": "4 pcs of chicken strips + french fries + khubs + garlic sauce + tomato ketchup",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/52847398?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52847398
+      },
+      {
+        "item_en": "Chicken Nuggets",
+        "item_ar": "Chicken Nuggets",
+        "price": 23,
+        "currency": "SAR",
+        "description": "8 pieces of chicken nugget fried + potatoes + arabic bread + garlic sauce + tomato ketchup",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/52851358?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52851358
+      },
+      {
+        "item_en": "Shrimp",
+        "item_ar": "Shrimp",
+        "price": 27,
+        "currency": "SAR",
+        "description": "8 pieces of fried shrimp",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/52851360?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52851360
+      },
+      {
+        "item_en": "Fish",
+        "item_ar": "Fish",
+        "price": 25,
+        "currency": "SAR",
+        "description": "6pcs of broasted fish fillet +frenc fries+khubs+garlic sauce+tomato ketchup",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/52843986?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52843986
+      },
+      {
+        "item_en": "Kids Meal Burger",
+        "item_ar": "Kids Meal Burger",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Chicken burger+french fries+alrabie juice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/52851361?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52851361
+      },
+      {
+        "item_en": "Kids Meal Nugget",
+        "item_ar": "Kids Meal Nugget",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Chicken nuggets + french fries + juice + toys",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/52851362?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52851362
+      }
+    ],
+    "Sandwiches": [
+      {
+        "item_en": "Stripes Sandwich",
+        "item_ar": "Stripes Sandwich",
+        "price": 16,
+        "currency": "SAR",
+        "description": "4 pieces of boneless fried chicken + potatoes + tortilla bread + lettuce + tomatoes + pickles + sauce + ketchup",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/52864537?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52864537
+      },
+      {
+        "item_en": "Arabic Almedina",
+        "item_ar": "Arabic Almedina",
+        "price": 11,
+        "currency": "SAR",
+        "description": "2 pieces of boneless fried chicken + potatoes +arabic bread + lettuce + tomatoes + pickles + sauce + ketchup",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/52864544?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52864544
+      },
+      {
+        "item_en": "Chicken Burger",
+        "item_ar": "Chicken Burger",
+        "price": 15,
+        "currency": "SAR",
+        "description": "Fried chicken burger + fries + burger bun + lettuce + tomatoes + pickles + sauce + ketchup",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/52851763?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52851763
+      },
+      {
+        "item_en": "Mini Chicken Burger",
+        "item_ar": "Mini Chicken Burger",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Fried chicken burger + fries + burger bun + lettuce + tomatoes + pickles + sauce + ketchup",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/52864550?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52864550
+      },
+      {
+        "item_en": "Chicken Tortilla",
+        "item_ar": "Chicken Tortilla",
+        "price": 17,
+        "currency": "SAR",
+        "description": "Fried chicken fillet + potatoes + tortilla bread + lettuce + tomatoes + pickles + sauce + ketchup",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/52864546?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52864546
+      }
+    ],
+    "Sides Order": [
+      {
+        "item_en": "French Fries - Small",
+        "item_ar": "French Fries - Small",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Frozen potatoes 140 g + ketchup 2 pieces fresh potatoes 180 g + ketchup 2 pieces fresh potatoes 320 g + ketchup 2 pieces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/162684f345423fb2f25704fb0b19d982?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52865532
+      },
+      {
+        "item_en": "Khubs - Arabic Khubs",
+        "item_ar": "Khubs - Arabic Khubs",
+        "price": 1,
+        "currency": "SAR",
+        "description": "Packet of arabic khubs / khubs burger",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/48bb6005d309b5ac5d477cade745acfd?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52865547
+      },
+      {
+        "item_en": "French Fries - Large",
+        "item_ar": "French Fries - Large",
+        "price": 13,
+        "currency": "SAR",
+        "description": "Fried potatoes+ ketchup 2 pieces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image/1123259?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52885854
+      },
+      {
+        "item_en": "Coleslaw Salad Large",
+        "item_ar": "Coleslaw Salad Large",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Cabbage and carrots in a light creamy sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/64117148?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64117148
+      },
+      {
+        "item_en": "Hummus",
+        "item_ar": "Hummus",
+        "price": 6,
+        "currency": "SAR",
+        "description": "A mixture of mashed chickpeas, olive oil, lemon juice and spices.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/64341441?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 64341441
+      },
+      {
+        "item_en": "Hot Sauce",
+        "item_ar": "Hot Sauce",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Hot sauce 100 ml",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/52865553?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52865553
+      },
+      {
+        "item_en": "Cocktail Sauce",
+        "item_ar": "Cocktail Sauce",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Cocktail sauce 100 ml",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/52865567?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52865567
+      },
+      {
+        "item_en": "Ketchup",
+        "item_ar": "Ketchup",
+        "price": 2,
+        "currency": "SAR",
+        "description": "Ketchup mini packet 4 pieces",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/52865579?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52865579
+      }
+    ],
+    "Beverages": [
+      {
+        "item_en": "Pepsi",
+        "item_ar": "Pepsi",
+        "price": 5,
+        "currency": "SAR",
+        "description": "The soft drink with a unique and refreshing flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-5738809?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52865590
+      },
+      {
+        "item_en": "Water",
+        "item_ar": "Water",
+        "price": 2,
+        "currency": "SAR",
+        "description": "Water 500 ml",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1046633?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 52865585
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.034Z",
+  "source": "Hungerstation"
+}

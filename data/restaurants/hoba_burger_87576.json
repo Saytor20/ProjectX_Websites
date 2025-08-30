@@ -1,0 +1,281 @@
+{
+  "restaurant_info": {
+    "id": "87576",
+    "name": "Hoba Burger",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2564852,
+      "longitude": 42.631362
+    },
+    "rating": 4.2,
+    "review_count": 429,
+    "type_of_food": "Fast Food,Grill,American,Beverages",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/87576"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Hoba Duo Offer Hungerstation .",
+        "item_ar": "Hoba Duo Offer Hungerstation .",
+        "price": 65,
+        "currency": "SAR",
+        "description": "Hoba double beef & hoba grilled chicken , 2 french fries , 2 soft drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HOBA/88ad556455addfda9ed5de31be07b97a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 68923131
+      },
+      {
+        "item_en": "Hoba Double Beef",
+        "item_ar": "Hoba Double Beef",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Two local meat slices , with melted cheddar cheese and crispy fried grill in toasted brioche bread and full of sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HOBA/0edfb012d4de0881defe3fdea7027b42.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 68380978
+      },
+      {
+        "item_en": "French Fries",
+        "item_ar": "French Fries",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Spicy french fries",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HOBA/7bcacd0a4d613514c879b3d198b78877.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 68381118
+      },
+      {
+        "item_en": "Hoba Crispy",
+        "item_ar": "Hoba Crispy",
+        "price": 19,
+        "currency": "SAR",
+        "description": "A piece of crispy chicken with cheese and deluxe crispy sauce.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HOBA/5cd442627c53f712b93c9b3509c800f9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 68380970
+      }
+    ],
+    "New": [
+      {
+        "item_en": "360 Mushroom",
+        "item_ar": "360 Mushroom",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Soft english muffin stacked with tender chicken, pepper jack cheese, grilled mushroom sauté, sweet caramelized onions, and fresh fiery jalapeños! all drenched in rich mushroom sauce with a buttery touch, salt, and black pepper.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HOBA/3932fc6ad168c0ba44568b5237d983d5.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 73438347
+      }
+    ],
+    "M42": [
+      {
+        "item_en": "Hoba Duo Offer Hungerstation .",
+        "item_ar": "Hoba Duo Offer Hungerstation .",
+        "price": 65,
+        "currency": "SAR",
+        "description": "Hoba double beef & hoba grilled chicken , 2 french fries , 2 soft drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HOBA/88ad556455addfda9ed5de31be07b97a.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 68923131
+      }
+    ],
+    "Saving Offers": [
+      {
+        "item_en": "Hoba Hungerstation Saving",
+        "item_ar": "Hoba Hungerstation Saving",
+        "price": 140,
+        "currency": "SAR",
+        "description": "4 hoba grilled chicken , 4 french fries , 4 hoba sauce , 4 soft drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HOBA/2c2ff03480b17e8aff354842460e5236.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 68380963
+      }
+    ],
+    "Crispy": [
+      {
+        "item_en": "Hoba Crispy",
+        "item_ar": "Hoba Crispy",
+        "price": 19,
+        "currency": "SAR",
+        "description": "A piece of crispy chicken with cheese and deluxe crispy sauce.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HOBA/5cd442627c53f712b93c9b3509c800f9.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 68380970
+      }
+    ],
+    "Burger": [
+      {
+        "item_en": "Hoba Double Beef",
+        "item_ar": "Hoba Double Beef",
+        "price": 20,
+        "currency": "SAR",
+        "description": "Two local meat slices , with melted cheddar cheese and crispy fried grill in toasted brioche bread and full of sauce",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HOBA/0edfb012d4de0881defe3fdea7027b42.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 68380978
+      },
+      {
+        "item_en": "Hoba Grilled Chicken (Developed)",
+        "item_ar": "Hoba Grilled Chicken (Developed)",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Marinated and grilled chicken breast topped with melted cheddar cheese and grilled crispy fried onions in a toasted brioche bun drizzled with sauce.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HOBA/ed93b3bb0d298a0b8b7081516cb8a3aa.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 68381025
+      }
+    ],
+    "Appetizers": [
+      {
+        "item_en": "Hoba Fries",
+        "item_ar": "Hoba Fries",
+        "price": 18,
+        "currency": "SAR",
+        "description": "A melted cheddar cheese on a layer of seasoned french fries and dipped in the awesome hoba sauce.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HOBA/aac5b90ac23279316b4138047c4855cf.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 68381081
+      },
+      {
+        "item_en": "French Fries",
+        "item_ar": "French Fries",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Spicy french fries",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HOBA/7bcacd0a4d613514c879b3d198b78877.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 68381118
+      }
+    ],
+    "Sauces": [
+      {
+        "item_en": "Hoba Sauce",
+        "item_ar": "Hoba Sauce",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Sauce as you like",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HOBA/97a920ae5243ef2ec4840c4d649f7b18.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 68381153
+      }
+    ],
+    "Beverages": [
+      {
+        "item_en": "Pepsi.",
+        "item_ar": "Pepsi.",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Pepsi soft drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HOBA/8afc6ddc3ea357824e47a3789ff169e4.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 68381200
+      },
+      {
+        "item_en": "Pepsi Diet.",
+        "item_ar": "Pepsi Diet.",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Pepsi diet",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HOBA/bc0280eee030bcc1eac56d6b1cbeb615.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 68381264
+      },
+      {
+        "item_en": "7up.",
+        "item_ar": "7up.",
+        "price": 5,
+        "currency": "SAR",
+        "description": "7up soft drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HOBA/c7faec4234e44d77eb4381d481f1a844.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 68381280
+      },
+      {
+        "item_en": "7up Diet.",
+        "item_ar": "7up Diet.",
+        "price": 5,
+        "currency": "SAR",
+        "description": "7up diet",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HOBA/9fcb1de016d223f6f7c525b9f32fe516.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 68381281
+      },
+      {
+        "item_en": "Mirinda Citrus.",
+        "item_ar": "Mirinda Citrus.",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Mirinda citrus",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HOBA/afbea304d8a17c48f86c7a2a15108039.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 68381282
+      },
+      {
+        "item_en": ".Mirinda Orange",
+        "item_ar": ".Mirinda Orange",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Mirinda orange soft drink.",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HOBA/3ce4ac49d2b7d29e03009a55c943aff5.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 68381283
+      },
+      {
+        "item_en": "Mountain Dew.",
+        "item_ar": "Mountain Dew.",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Mountain dew",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HOBA/6b051940e3e17fce2cb694fd1c75462e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 68381284
+      },
+      {
+        "item_en": "Rabie",
+        "item_ar": "Rabie",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Rabie drink",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HOBA/fbfd4ee9cf011199c11cba9f09594718.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 68381285
+      },
+      {
+        "item_en": "Water",
+        "item_ar": "Water",
+        "price": 1,
+        "currency": "SAR",
+        "description": "Water bottle",
+        "image": "https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/ME/chains/HS-HOBA/5069fd9d955da1f1406ee983e06b6914.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 68381286
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.033Z",
+  "source": "Hungerstation"
+}

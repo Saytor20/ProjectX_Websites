@@ -1,0 +1,43 @@
+/* Cafert PoC spacing and section segregation overrides (scoped import) */
+
+/* Base container breathing room */
+.container { padding-left: 24px; padding-right: 24px; }
+@media (min-width: 768px) { .container { padding-left: 32px; padding-right: 32px; } }
+@media (min-width: 1200px) { .container { padding-left: 40px; padding-right: 40px; } }
+
+/* Consistent vertical rhythm */
+.section { padding-top: 80px; padding-bottom: 80px; }
+@media (min-width: 1024px) { .section { padding-top: 120px; padding-bottom: 120px; } }
+
+/* Visual segregation between sections */
+.section { position: relative; }
+.section:not(:first-of-type) { border-top: 1px solid #eee; }
+
+/* Alternate background to separate blocks gently */
+.section:nth-of-type(even) { background: #fafafa; }
+
+/* Hero adjustments */
+.hero { padding-top: 160px; padding-bottom: 60px; }
+@media (min-width: 1024px) { .hero { padding-top: 180px; padding-bottom: 80px; } }
+.hero .section_header { margin-bottom: 40px; }
+
+/* Menu section spacing */
+.menu .section_header { margin-bottom: 40px; }
+.menu_nav { margin-bottom: 30px; gap: 20px 30px; }
+.menu_tabs-list { gap: 24px; }
+@media (min-width: 1024px) { .menu_tabs-list { gap: 30px; } }
+.menu_tabs-list_item { margin: 0; }
+
+/* Testimonials padding refinement */
+.testimonials .main { padding: 60px 40px; }
+@media (min-width: 768px) { .testimonials .main { padding: 80px 90px; } }
+
+/* Footer separation and breathing */
+.footer.section { border-top: 1px solid #eee; padding-top: 80px; padding-bottom: 80px; }
+
+/* Headings spacing */
+.section_header-title { margin-bottom: 12px; }
+.section_header-subtitle { margin-bottom: 10px; }
+.section_header-text { margin-top: 10px; }
+
+

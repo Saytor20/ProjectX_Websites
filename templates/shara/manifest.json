@@ -1,0 +1,29 @@
+{
+  "id": "shara",
+  "name": "Shara Restaurant Template",
+  "description": "Clean and modern template with elegant design, great padding and comprehensive sections for restaurant presentation",
+  "version": "1.0.0",
+  "category": "modern",
+  "author": "Template System",
+  "created": "2024-12-19",
+  "tags": ["modern", "clean", "elegant", "professional"],
+  "features": [
+    "Responsive design",
+    "Hero section with gradient background",
+    "Two-column menu layout with dotted price lines",
+    "Hours and location sections",
+    "Call-to-action section",
+    "Professional footer"
+  ],
+  "slots": ["navbar", "hero", "menu", "hours", "location", "cta", "footer"],
+  "colorScheme": {
+    "primary": "#C49E85",
+    "accent": "#cdaa7c",
+    "text": "#333",
+    "background": "#f8f8f8"
+  },
+  "fonts": {
+    "primary": "Raleway",
+    "accent": "Satisfy"
+  }
+}

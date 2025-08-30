@@ -1,0 +1,508 @@
+{
+  "restaurant_info": {
+    "id": "69262",
+    "name": "Alasturat Alhadith Restaurant",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.1824021,
+      "longitude": 42.6022714
+    },
+    "rating": 4.1,
+    "review_count": 37,
+    "type_of_food": "Arabic",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/69262"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Grill Chicken With Rice - Half",
+        "item_ar": "Grill Chicken With Rice - Half",
+        "price": 22.5,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9626951
+      },
+      {
+        "item_en": "Grill Chicken With Rice - Whole",
+        "item_ar": "Grill Chicken With Rice - Whole",
+        "price": 45,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9626952
+      },
+      {
+        "item_en": "Full Faham Rice Bshoar",
+        "item_ar": "Full Faham Rice Bshoar",
+        "price": 54,
+        "currency": "SAR",
+        "description": "Charcoal chicken served with soft shawar",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/69262/PRODUCT/27626569/bf7b3799-3f16-4716-9727-7c9cd78b148d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27626569
+      },
+      {
+        "item_en": "Faham Half Rice Bshoar",
+        "item_ar": "Faham Half Rice Bshoar",
+        "price": 27,
+        "currency": "SAR",
+        "description": "Half grilled chicken served with peshawar rice",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/69262/PRODUCT/27482090/ed6414e2-9d02-4731-854d-b485c03d8121.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27482090
+      }
+    ],
+    "Salads": [
+      {
+        "item_en": "Vegetables Salad",
+        "item_ar": "Vegetables Salad",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Salad prepared from fresh vegetables",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9626941?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9626941
+      },
+      {
+        "item_en": "Spicy Salad",
+        "item_ar": "Spicy Salad",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Spicy salad made with fresh vegetables",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/69262/PRODUCT/9626942/b964f954-0156-4f5d-8849-a762839cc81f.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9626942
+      },
+      {
+        "item_en": "Cucumber Salad With Laban",
+        "item_ar": "Cucumber Salad With Laban",
+        "price": 5,
+        "currency": "SAR",
+        "description": "Salad made from fresh vegetables and yogurt",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9626943?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9626943
+      },
+      {
+        "item_en": "Basal Magli",
+        "item_ar": "Basal Magli",
+        "price": 4,
+        "currency": "SAR",
+        "description": "Fried onion slices golden colour.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/69262/PRODUCT/27437261/cd933f6e-2b8b-41f0-a43e-55614824696b.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27437261
+      }
+    ],
+    "Broast": [
+      {
+        "item_en": "Regular Broast",
+        "item_ar": "Regular Broast",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Classic crispy regular broasted",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 73048205
+      },
+      {
+        "item_en": "Spicy Brost",
+        "item_ar": "Spicy Brost",
+        "price": 23,
+        "currency": "SAR",
+        "description": "Spicy broasted with intense heat",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 73048340
+      }
+    ],
+    "Chicken": [
+      {
+        "item_en": "Grill Chicken With Rice - Half",
+        "item_ar": "Grill Chicken With Rice - Half",
+        "price": 22.5,
+        "currency": "SAR",
+        "description": "Grilled chicken with delicious seasoning",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-546592?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9626951
+      },
+      {
+        "item_en": "Grill Chicken With Rice - Whole",
+        "item_ar": "Grill Chicken With Rice - Whole",
+        "price": 45,
+        "currency": "SAR",
+        "description": "Grilled chicken with delicious seasoning",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-546592?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9626952
+      },
+      {
+        "item_en": "Plain Grill Chicken - Half",
+        "item_ar": "Plain Grill Chicken - Half",
+        "price": 16,
+        "currency": "SAR",
+        "description": "Grilled chicken with delicious seasoning",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-546593?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9626953
+      },
+      {
+        "item_en": "Plain Grill Chicken - Whole",
+        "item_ar": "Plain Grill Chicken - Whole",
+        "price": 32,
+        "currency": "SAR",
+        "description": "Grilled chicken with delicious seasoning",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-546593?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9626954
+      },
+      {
+        "item_en": "Chicken On Coal With Rice - Half",
+        "item_ar": "Chicken On Coal With Rice - Half",
+        "price": 24,
+        "currency": "SAR",
+        "description": "Charcoal grilled chicken",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-546594?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9626955
+      },
+      {
+        "item_en": "Chicken On Coal With Rice - Whole",
+        "item_ar": "Chicken On Coal With Rice - Whole",
+        "price": 48,
+        "currency": "SAR",
+        "description": "Charcoal grilled chicken",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-546594?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9626956
+      },
+      {
+        "item_en": "Plain Chicken On Coal - Half",
+        "item_ar": "Plain Chicken On Coal - Half",
+        "price": 17,
+        "currency": "SAR",
+        "description": "Charcoal grilled chicken",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-546595?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9626957
+      },
+      {
+        "item_en": "Plain Chicken On Coal - Whole",
+        "item_ar": "Plain Chicken On Coal - Whole",
+        "price": 34,
+        "currency": "SAR",
+        "description": "Charcoal grilled chicken",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-546595?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9626958
+      },
+      {
+        "item_en": "Chicken Madghot With Rice - Half",
+        "item_ar": "Chicken Madghot With Rice - Half",
+        "price": 22.5,
+        "currency": "SAR",
+        "description": "Chicken prepared in a pressure cooker",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-546596?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9626959
+      },
+      {
+        "item_en": "Chicken Madghot With Rice - Whole",
+        "item_ar": "Chicken Madghot With Rice - Whole",
+        "price": 45,
+        "currency": "SAR",
+        "description": "Chicken prepared in a pressure cooker",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/product/hsimg-546596?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9626960
+      },
+      {
+        "item_en": "Faham Half Rice Bshoar",
+        "item_ar": "Faham Half Rice Bshoar",
+        "price": 27,
+        "currency": "SAR",
+        "description": "Half grilled chicken served with peshawar rice",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/69262/PRODUCT/27482090/ed6414e2-9d02-4731-854d-b485c03d8121.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27482090
+      },
+      {
+        "item_en": "Full Faham Rice Bshoar",
+        "item_ar": "Full Faham Rice Bshoar",
+        "price": 54,
+        "currency": "SAR",
+        "description": "Charcoal chicken served with soft shawar",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/69262/PRODUCT/27626569/bf7b3799-3f16-4716-9727-7c9cd78b148d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27626569
+      },
+      {
+        "item_en": "Rice Bshoar",
+        "item_ar": "Rice Bshoar",
+        "price": 9,
+        "currency": "SAR",
+        "description": "Traditional peshawar rice to suit every meal",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/b51e5a0e690f461b5edf255710c493dc.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27627150
+      },
+      {
+        "item_en": "Rice Bokhari",
+        "item_ar": "Rice Bokhari",
+        "price": 7,
+        "currency": "SAR",
+        "description": "Rice cooked with rich bukhari spices, aromatic flavor and delicious taste.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/69262/PRODUCT/27636929/73922322-28c7-4c8f-9299-cf99a904ca47.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27636929
+      },
+      {
+        "item_en": "Full Shawaya Rice Bshoar",
+        "item_ar": "Full Shawaya Rice Bshoar",
+        "price": 52,
+        "currency": "SAR",
+        "description": "Grilled chicken with basha rice, delicious.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/69262/PRODUCT/27909340/2370ffbe-b7ff-46c7-8701-444d9de9053e.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27909340
+      },
+      {
+        "item_en": "Half Shawaya Rice Bshoar",
+        "item_ar": "Half Shawaya Rice Bshoar",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Half grilled chicken with shawerma-style rice, flavorful.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/69262/PRODUCT/28161939/533708c3-fb45-4e7e-a74e-f7fe350ce188.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 28161939
+      }
+    ],
+    "Edam Dishes": [
+      {
+        "item_en": "Mix Oven",
+        "item_ar": "Mix Oven",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Group of mixed vegetables cooked in the oven",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/083c3a9ecbea1bbec8db82aa00218a96.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9626945
+      },
+      {
+        "item_en": "Molokhya",
+        "item_ar": "Molokhya",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Dish containing chopped mulukhiyah with spices.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9626947?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9626947
+      },
+      {
+        "item_en": "Mussaka",
+        "item_ar": "Mussaka",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Dish of eggplant with spiced meat and tomato sauce.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9626949?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9626949
+      },
+      {
+        "item_en": "Chicken Edam",
+        "item_ar": "Chicken Edam",
+        "price": 10,
+        "currency": "SAR",
+        "description": "Chicken pieces with delicious vegetables prepared in a special way",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-9626950?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 9626950
+      },
+      {
+        "item_en": "Mixed Vegetables",
+        "item_ar": "Mixed Vegetables",
+        "price": 8,
+        "currency": "SAR",
+        "description": "Mixed vegetables pieces rich in delicious spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/84d772f3813eb20582b680e017c07353.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 10667414
+      },
+      {
+        "item_en": "Half Shawaya Rice Bshoar",
+        "item_ar": "Half Shawaya Rice Bshoar",
+        "price": 26,
+        "currency": "SAR",
+        "description": "Half grilled chicken with special seasoning and peshawar rice",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/6c3eb0f002160bc83c746ccd3864a787.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 28012005
+      }
+    ],
+    "Sweets": [
+      {
+        "item_en": "Cream Konafa",
+        "item_ar": "Cream Konafa",
+        "price": 10,
+        "currency": "SAR",
+        "description": "A pastry dessert that is crispy on the outside and creamy on the inside",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/69262/PRODUCT/10614002/963359b9-94eb-4dbe-811c-1424fd72bfb8.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 10614002
+      },
+      {
+        "item_en": "Creme Caramel",
+        "item_ar": "Creme Caramel",
+        "price": 10,
+        "currency": "SAR",
+        "description": "A rich custard base of milk, eggs, sugar, and vanilla, topped with a layer of clear caramel sauce",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/2b316417a73023b698e44b96e8f37fce.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 10614003
+      }
+    ],
+    "Drinks": [
+      {
+        "item_en": "Water",
+        "item_ar": "Water",
+        "price": 1.5,
+        "currency": "SAR",
+        "description": "Bottled mineral water",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-1046633?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 10628857
+      },
+      {
+        "item_en": "Dew",
+        "item_ar": "Dew",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Refreshing soft drink",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-10333076?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27342818
+      },
+      {
+        "item_en": "Citrus Mirinda",
+        "item_ar": "Citrus Mirinda",
+        "price": 3,
+        "currency": "SAR",
+        "description": "Refreshing citrus soda with a tangy twist.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/393b80d54b31bf5dbd5180cb7dfa53f6.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27342820
+      },
+      {
+        "item_en": "7 Up",
+        "item_ar": "7 Up",
+        "price": 3,
+        "currency": "SAR",
+        "description": "320 ml 7up drink has a lemon flavor with delicious citrus flavours",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menus/menuitem/hsimg-15958563?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27342819
+      },
+      {
+        "item_en": "Pepsi",
+        "item_ar": "Pepsi",
+        "price": 3,
+        "currency": "SAR",
+        "description": "320 ml a popular soft drink with a refreshing cola flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/8d0a55cfddde967706c0adb222f0d2ea.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27343055
+      },
+      {
+        "item_en": "Pepsi",
+        "item_ar": "Pepsi",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Refreshing carbonated soft drink 2.25liter",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/8d0a55cfddde967706c0adb222f0d2ea.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27909342
+      },
+      {
+        "item_en": "Dew",
+        "item_ar": "Dew",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Refreshing carbonated soft drink",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/69262/PRODUCT/27909343/20d68917-8a4e-4453-815b-e52711add27d.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27909343
+      },
+      {
+        "item_en": "Seven Up",
+        "item_ar": "Seven Up",
+        "price": 11,
+        "currency": "SAR",
+        "description": "7 up drink contains delicious flavour",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/0470fce671551f85fa8e768edd89dba2.png?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27909344
+      },
+      {
+        "item_en": "Citrus",
+        "item_ar": "Citrus",
+        "price": 11,
+        "currency": "SAR",
+        "description": "Refreshing citrus soda with a tangy twist. 2.25liter",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/69262/PRODUCT/27909345/c810f401-b9d7-42f8-a470-3d6511b56bcc.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 27909345
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.033Z",
+  "source": "Hungerstation"
+}

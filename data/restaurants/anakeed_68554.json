@@ -1,0 +1,512 @@
+{
+  "restaurant_info": {
+    "id": "68554",
+    "name": "Anakeed",
+    "region": "Abha",
+    "state": "Abha",
+    "country": "Saudi Arabia",
+    "coordinates": {
+      "latitude": 18.2470297,
+      "longitude": 42.5995557
+    },
+    "rating": 4,
+    "review_count": 11,
+    "type_of_food": "Vegetarian",
+    "hungerstation_url": "https://hungerstation.com/sa-en/restaurants/abha/airport/68554"
+  },
+  "menu_categories": {
+    "Bestsellers 🔥": [
+      {
+        "item_en": "Grape Leaves Box - Medium",
+        "item_ar": "Grape Leaves Box - Medium",
+        "price": 37,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793895
+      },
+      {
+        "item_en": "Stuffed Vegetables Box - Medium",
+        "item_ar": "Stuffed Vegetables Box - Medium",
+        "price": 37,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793909
+      },
+      {
+        "item_en": "Grape Leaves Fatteh - Small",
+        "item_ar": "Grape Leaves Fatteh - Small",
+        "price": 18,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793906
+      },
+      {
+        "item_en": "Grape Leaves Box - Small",
+        "item_ar": "Grape Leaves Box - Small",
+        "price": 18,
+        "currency": "SAR",
+        "description": "",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793894
+      }
+    ],
+    "Cabbage And Grape Leaves": [
+      {
+        "item_en": "Box Crunch",
+        "item_ar": "Box Crunch",
+        "price": 32,
+        "currency": "SAR",
+        "description": "A box containing stuffed grape leaves with rice and spices, along with cabbage leaves stuffed with rice and spices.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/68556/PRODUCT/70793900/5e734a64-937b-439c-9cb7-15cccba16e60.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793900
+      },
+      {
+        "item_en": "Grape Leaves Box - Small",
+        "item_ar": "Grape Leaves Box - Small",
+        "price": 18,
+        "currency": "SAR",
+        "description": "A box containing stuffed grape leaves with rice and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/ae861c577c54f2f1092ffe25b1198c87.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793894
+      },
+      {
+        "item_en": "Cabbage Box - Small",
+        "item_ar": "Cabbage Box - Small",
+        "price": 18,
+        "currency": "SAR",
+        "description": "A box containing cabbage leaves stuffed with rice and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/458e23beeffeeca0c641fb5f0c4b32f8.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793897
+      },
+      {
+        "item_en": "Grape Leaves Box - Medium",
+        "item_ar": "Grape Leaves Box - Medium",
+        "price": 37,
+        "currency": "SAR",
+        "description": "A box containing stuffed grape leaves with rice and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/ae861c577c54f2f1092ffe25b1198c87.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793895
+      },
+      {
+        "item_en": "Cabbage Box - Medium",
+        "item_ar": "Cabbage Box - Medium",
+        "price": 37,
+        "currency": "SAR",
+        "description": "A box containing cabbage leaves stuffed with rice and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/458e23beeffeeca0c641fb5f0c4b32f8.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793898
+      },
+      {
+        "item_en": "Grape Leaves Box - Large",
+        "item_ar": "Grape Leaves Box - Large",
+        "price": 55,
+        "currency": "SAR",
+        "description": "A box containing stuffed grape leaves with rice and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/ae861c577c54f2f1092ffe25b1198c87.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793896
+      },
+      {
+        "item_en": "Cabbage Box - Large",
+        "item_ar": "Cabbage Box - Large",
+        "price": 55,
+        "currency": "SAR",
+        "description": "A box containing cabbage leaves stuffed with rice and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/458e23beeffeeca0c641fb5f0c4b32f8.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793899
+      }
+    ],
+    "Kibbeh": [
+      {
+        "item_en": "Chicken Kibbeh - Small",
+        "item_ar": "Chicken Kibbeh - Small",
+        "price": 25,
+        "currency": "SAR",
+        "description": "Bulgur balls stuffed with chicken and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/e2502141403d3f8eec781241d357fef7.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793901
+      },
+      {
+        "item_en": "Lamb Kibbeh - Small",
+        "item_ar": "Lamb Kibbeh - Small",
+        "price": 29,
+        "currency": "SAR",
+        "description": "Bulgur balls stuffed with meat and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/e2502141403d3f8eec781241d357fef7.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793903
+      },
+      {
+        "item_en": "Chicken Kibbeh - Large",
+        "item_ar": "Chicken Kibbeh - Large",
+        "price": 37,
+        "currency": "SAR",
+        "description": "Bulgur balls stuffed with chicken and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/e2502141403d3f8eec781241d357fef7.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793902
+      },
+      {
+        "item_en": "Lamb Kibbeh - Large",
+        "item_ar": "Lamb Kibbeh - Large",
+        "price": 40,
+        "currency": "SAR",
+        "description": "Bulgur balls stuffed with meat and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/e2502141403d3f8eec781241d357fef7.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793904
+      }
+    ],
+    "Khaliah Nahl": [
+      {
+        "item_en": "Khaliah Nahl",
+        "item_ar": "Khaliah Nahl",
+        "price": 35,
+        "currency": "SAR",
+        "description": "Small stuffed pies arranged side by side in a honeycomb shaped tray.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/c1d842825a3591a16239b8ed62096d78.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793905
+      }
+    ],
+    "Fatteh": [
+      {
+        "item_en": "Grape Leaves Fatteh - Small",
+        "item_ar": "Grape Leaves Fatteh - Small",
+        "price": 18,
+        "currency": "SAR",
+        "description": "Grape leaves stuffed with rice and spices with sauce and toasted bread",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/9953a0d5627ab0b7400be574be3f9e91.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793906
+      },
+      {
+        "item_en": "Grape Leaves Fatteh - Medium",
+        "item_ar": "Grape Leaves Fatteh - Medium",
+        "price": 37,
+        "currency": "SAR",
+        "description": "Grape leaves stuffed with rice and spices with sauce and toasted bread",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/9953a0d5627ab0b7400be574be3f9e91.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793907
+      }
+    ],
+    "Mahashi": [
+      {
+        "item_en": "Stuffed Vegetables Box - Small",
+        "item_ar": "Stuffed Vegetables Box - Small",
+        "price": 18,
+        "currency": "SAR",
+        "description": "A box containing vegetables stuffed with rice and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/9541c2914f5da1070f3ad15243ce95c4.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793908
+      },
+      {
+        "item_en": "Stuffed Vegetables Box - Medium",
+        "item_ar": "Stuffed Vegetables Box - Medium",
+        "price": 37,
+        "currency": "SAR",
+        "description": "A box containing vegetables stuffed with rice and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/9541c2914f5da1070f3ad15243ce95c4.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793909
+      },
+      {
+        "item_en": "Stuffed Vegetables Box - Large",
+        "item_ar": "Stuffed Vegetables Box - Large",
+        "price": 55,
+        "currency": "SAR",
+        "description": "A box containing vegetables stuffed with rice and spices",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/9541c2914f5da1070f3ad15243ce95c4.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793910
+      }
+    ],
+    "Samosas And Fried Musakhan": [
+      {
+        "item_en": "Chicken Sambosa - Small",
+        "item_ar": "Chicken Sambosa - Small",
+        "price": 18,
+        "currency": "SAR",
+        "description": "10 sambosas stuffed with chicken and cheese and musakhan.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/a51d54d120f89965ff4aa6fa1bb3a5d9.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793911
+      },
+      {
+        "item_en": "Cheese Sambosa - Small",
+        "item_ar": "Cheese Sambosa - Small",
+        "price": 18,
+        "currency": "SAR",
+        "description": "20 sambosas stuffed with chicken and cheese and musakhan.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/a51d54d120f89965ff4aa6fa1bb3a5d9.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793912
+      },
+      {
+        "item_en": "Musakhan - Small",
+        "item_ar": "Musakhan - Small",
+        "price": 18,
+        "currency": "SAR",
+        "description": "30 sambosas stuffed with chicken and cheese and musakhan.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/68556/PRODUCT/70793913/9fef7f13-d1e8-4533-a835-aa11db4e7b43.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793913
+      },
+      {
+        "item_en": "Cheese Sambosa - Large",
+        "item_ar": "Cheese Sambosa - Large",
+        "price": 55,
+        "currency": "SAR",
+        "description": "20 sambosas stuffed with chicken and cheese and musakhan.",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71731910
+      },
+      {
+        "item_en": "Cheese Sambosa - Medium",
+        "item_ar": "Cheese Sambosa - Medium",
+        "price": 37,
+        "currency": "SAR",
+        "description": "20 sambosas stuffed with chicken and cheese and musakhan.",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71731911
+      },
+      {
+        "item_en": "Chicken Sambosa - Medium",
+        "item_ar": "Chicken Sambosa - Medium",
+        "price": 37,
+        "currency": "SAR",
+        "description": "10 sambosas stuffed with chicken and cheese and musakhan.",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71731912
+      },
+      {
+        "item_en": "Chicken Sambosa - Large",
+        "item_ar": "Chicken Sambosa - Large",
+        "price": 55,
+        "currency": "SAR",
+        "description": "10 sambosas stuffed with chicken and cheese and musakhan.",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71731913
+      },
+      {
+        "item_en": "Musakhan - Medium",
+        "item_ar": "Musakhan - Medium",
+        "price": 37,
+        "currency": "SAR",
+        "description": "30 sambosas stuffed with chicken and cheese and musakhan.",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71731914
+      },
+      {
+        "item_en": "Musakhan - Large",
+        "item_ar": "Musakhan - Large",
+        "price": 55,
+        "currency": "SAR",
+        "description": "30 sambosas stuffed with chicken and cheese and musakhan.",
+        "image": "",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 71731915
+      }
+    ],
+    "Freezers": [
+      {
+        "item_en": "Chicken Kibbeh 50 Pieces",
+        "item_ar": "Chicken Kibbeh 50 Pieces",
+        "price": 92,
+        "currency": "SAR",
+        "description": "50 bulgur balls stuffed with chicken and spices.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/604fc61549e401ff3303008add97da31.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793921
+      },
+      {
+        "item_en": "Lamb Kibbeh 30 Pieces",
+        "item_ar": "Lamb Kibbeh 30 Pieces",
+        "price": 62,
+        "currency": "SAR",
+        "description": "30 bulgur balls stuffed with meat and spices.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/68556/PRODUCT/70793922/d3ce3030-5d9a-4246-83b4-0145e5f75803.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793922
+      },
+      {
+        "item_en": "Lamb Kibbeh 50 Pieces",
+        "item_ar": "Lamb Kibbeh 50 Pieces",
+        "price": 104,
+        "currency": "SAR",
+        "description": "50 bulgur balls stuffed with meat and spices.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/68556/PRODUCT/70793923/d8b08ab6-2181-4ccb-8a02-ceb4a641e927.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793923
+      },
+      {
+        "item_en": "Muskhan 30 Pieces",
+        "item_ar": "Muskhan 30 Pieces",
+        "price": 53,
+        "currency": "SAR",
+        "description": "30 breads stuffed with chicken pieces cooked with caramelized onions and olive oil and sumac.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/abb0c1040010455d7c2db69c4b8ffce7.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793918
+      },
+      {
+        "item_en": "Muskhan 50 Pieces",
+        "item_ar": "Muskhan 50 Pieces",
+        "price": 87,
+        "currency": "SAR",
+        "description": "50 breads stuffed with chicken pieces cooked with caramelized onions and olive oil and sumac.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/abb0c1040010455d7c2db69c4b8ffce7.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793919
+      },
+      {
+        "item_en": "Chicken Kibbeh30 Pieces",
+        "item_ar": "Chicken Kibbeh30 Pieces",
+        "price": 55,
+        "currency": "SAR",
+        "description": "30 bulgur balls stuffed with chicken and spices.",
+        "image": "https://images.deliveryhero.io/image/global-menu-service/HS_SA/vendor/68556/PRODUCT/70793920/a9c8d26a-3ccd-4eac-8be3-3c83c119928c.jpg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793920
+      },
+      {
+        "item_en": "Chicken Sambosa - 30 Pieces",
+        "item_ar": "Chicken Sambosa - 30 Pieces",
+        "price": 48,
+        "currency": "SAR",
+        "description": "A crispy pastry ball stuffed with a chicken mixture",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/9bef3ef9ceeaa584ace2eb88ca50e0c9.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793914
+      },
+      {
+        "item_en": "Cheese Sambosa - 30 Pieces",
+        "item_ar": "Cheese Sambosa - 30 Pieces",
+        "price": 48,
+        "currency": "SAR",
+        "description": "A crispy pastry ball stuffed with a cheese and spice mixture",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/dd797e35937e0cbe7542a80d8160ff8d.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793916
+      },
+      {
+        "item_en": "Chicken Sambosa - 50 Pieces",
+        "item_ar": "Chicken Sambosa - 50 Pieces",
+        "price": 81,
+        "currency": "SAR",
+        "description": "A crispy pastry ball stuffed with a chicken mixture",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/9bef3ef9ceeaa584ace2eb88ca50e0c9.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793915
+      },
+      {
+        "item_en": "Cheese Sambosa - 50 Pieces",
+        "item_ar": "Cheese Sambosa - 50 Pieces",
+        "price": 81,
+        "currency": "SAR",
+        "description": "A crispy pastry ball stuffed with a cheese and spice mixture",
+        "image": "https://images.deliveryhero.io/image/hungerstation/product/image_url_ref/dd797e35937e0cbe7542a80d8160ff8d.jpeg?width=1920",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793917
+      }
+    ],
+    "Friday Box": [
+      {
+        "item_en": "Family Box 50 Pieces",
+        "item_ar": "Family Box 50 Pieces",
+        "price": 104,
+        "currency": "SAR",
+        "description": "Family box containing 50 different types.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image/70793924?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793924
+      },
+      {
+        "item_en": "Unscheduled Box",
+        "item_ar": "Unscheduled Box",
+        "price": 98,
+        "currency": "SAR",
+        "description": "Box containing a variety of different types.",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/043152dc5c08c2c874e86bcdb1238e2c.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793925
+      },
+      {
+        "item_en": "Farhat Lqana Box",
+        "item_ar": "Farhat Lqana Box",
+        "price": 137,
+        "currency": "SAR",
+        "description": "Box containing a variety of different types",
+        "image": "https://images.deliveryhero.io/image/hungerstation/menuitem/image_url_ref/41dcfe749b25dbf3c689d58865329045.jpeg?width=222",
+        "offer_price": null,
+        "discount": "",
+        "menu_id": 70793926
+      }
+    ]
+  },
+  "generated_at": "2025-08-05T20:31:20.033Z",
+  "source": "Hungerstation"
+}
