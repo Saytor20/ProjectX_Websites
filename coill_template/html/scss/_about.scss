@@ -1,0 +1,37 @@
+
+/*------------------------------------------------- */
+/* =  About sections */
+/*------------------------------------------------- */
+
+section.about-us-section {
+	padding: 100px 0;
+	.about-content {
+		padding-top: 15px;
+		padding-right: 15px;
+		margin-bottom: 30px;
+	}
+	.about-images {
+		img {
+			width: 100%;
+			height: auto;
+			margin-bottom: 30px;
+		}
+	}
+}
+
+section.about-us-section2 {
+	.about-box {
+		overflow: hidden;
+		background: #f9f9f9;
+		border-top: 1px solid #eeeeee;
+		.about-post {
+			float: left;
+			width: 25%;
+			border-right: 1px solid #eeeeee;
+			padding: 100px;
+			p {
+				margin-bottom: 0;
+			}
+		}
+	}
+}

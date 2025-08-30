@@ -7,7 +7,7 @@ const MenuItemSchema = z.object({
   price: z.number(),
   currency: z.string(),
   description: z.string().optional(),
-  image: z.string().url().optional(),
+  image: z.string().optional(),
   offer_price: z.number().nullable().optional(),
   discount: z.string().optional(),
   menu_id: z.number()

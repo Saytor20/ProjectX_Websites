@@ -6,6 +6,22 @@ import BistlyTemplate from './bistly/Template';
 import bistlyManifest from './bistly/manifest.json';
 import SimpleModernTemplate from './simple-modern/Template';
 import simpleModernManifest from './simple-modern/manifest.json';
+import RoyateTemplate from './royate/Template';
+import royateManifest from './royate/manifest.json';
+import FooderaTemplate from './foodera/Template';
+import fooderaManifest from './foodera/manifest.json';
+import MehuTemplate from './mehu/Template';
+import mehuManifest from './mehu/manifest.json';
+import SharaTemplate from './shara/Template';
+import sharaManifest from './shara/manifest.json';
+import FooderaV2Template from './foodera-v2/Template';
+import fooderaV2Manifest from './foodera-v2/manifest.json';
+import TastyTemplate from './tasty/Template';
+import tastyManifest from './tasty/manifest.json';
+import CallixTemplate from './callix/Template';
+import callixManifest from './callix/manifest.json';
+import CoillTemplate from './coill/Template';
+import coillManifest from './coill/manifest.json';
 
 // Template component interface
 export interface TemplateComponent {
@@ -42,6 +58,46 @@ const templateRegistry: Record<string, TemplateRegistryEntry> = {
     id: 'simple-modern',
     component: SimpleModernTemplate,
     manifest: simpleModernManifest as TemplateManifest,
+  },
+  royate: {
+    id: 'royate',
+    component: RoyateTemplate,
+    manifest: royateManifest as TemplateManifest,
+  },
+  foodera: {
+    id: 'foodera',
+    component: FooderaTemplate,
+    manifest: fooderaManifest as TemplateManifest,
+  },
+  mehu: {
+    id: 'mehu',
+    component: MehuTemplate,
+    manifest: mehuManifest as TemplateManifest,
+  },
+  shara: {
+    id: 'shara',
+    component: SharaTemplate,
+    manifest: sharaManifest as TemplateManifest,
+  },
+  'foodera-v2': {
+    id: 'foodera-v2',
+    component: FooderaV2Template,
+    manifest: fooderaV2Manifest as TemplateManifest,
+  },
+  tasty: {
+    id: 'tasty',
+    component: TastyTemplate,
+    manifest: tastyManifest as TemplateManifest,
+  },
+  callix: {
+    id: 'callix',
+    component: CallixTemplate,
+    manifest: callixManifest as TemplateManifest,
+  },
+  coill: {
+    id: 'coill',
+    component: CoillTemplate,
+    manifest: coillManifest as TemplateManifest,
   },
 };
 

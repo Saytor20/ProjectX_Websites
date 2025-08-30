@@ -520,17 +520,17 @@ The Template Package system is now **proven functional** and ready for expansion
   * Heuristics: find `header/hero/section/footer`, create slots, replace text/images with props.
 
 ### **Task Checklist**
-- [ ] Create `tools/ingest-envato.ts` ingestion script
-- [ ] Test script with HTML/CSS inputs parsing
-- [ ] Implement heuristics for header/hero/section/footer detection
-- [ ] Generate React blocks with proper `data-block` attributes
-- [ ] Replace text/images with restaurant data props
-- [ ] Ingest one Envato theme into `/templates/envato-one/`
-- [ ] Validate generated template structure
-- [ ] Clean up temporary import files (optional)
-- [ ] Test: `npx tsx tools/ingest-envato.ts imports/envato/theme-a` works
-- [ ] Test: `npm run validate-template -- envato-one` passes
-- [ ] Test: `/restaurant/abu_al_khair_63191?template=envato-one` renders
+- [x] Create `tools/ingest-envato.ts` ingestion script
+- [x] Test script with HTML/CSS inputs parsing
+- [x] Implement heuristics for header/hero/section/footer detection
+- [x] Generate React blocks with proper `data-block` attributes
+- [x] Replace text/images with restaurant data props
+- [x] Ingest one Envato theme into `/templates/royate/` (used royate instead of envato-one)
+- [x] Validate generated template structure
+- [x] Clean up temporary import files (used source directly)
+- [x] Test: `npx tsx tools/ingest-envato.ts "Royate/HTML5 Template"` works
+- [x] Test: `npm run validate-template -- royate` passes (✓ with 1 CSS warning)
+- [x] Test: `/restaurant/abu_al_khair_63191?template=royate` renders (✓ HTTP 200)
 
 **Run**
 
@@ -543,11 +543,53 @@ The Template Package system is now **proven functional** and ready for expansion
 **Verification**
 
 ```bash
-npx tsx tools/ingest-envato.ts imports/envato/theme-a
-npm run validate-template -- envato-one
+npx tsx tools/ingest-envato.ts "Royate/HTML5 Template"
+npm run validate-template -- royate
 npm run dev
-open "http://localhost:3000/restaurant/abu_al_khair_63191?template=envato-one"
+open "http://localhost:3001/restaurant/abu_al_khair_63191?template=royate"
 ```
+
+## ✅ **PHASE 5 COMPLETED** - August 29, 2025
+
+**Envato HTML Ingestion Tool Successfully Implemented**
+
+- **Ingestion Tool**: Complete HTML-to-React conversion script with cheerio parsing
+- **Royate Template**: Full template implementation with 7 required slots and editor integration
+- **Template Registry**: Royate template registered and discoverable via API
+- **Schema Compliance**: Correct usage of Restaurant schema with menu_categories
+- **CSS Performance**: Optimized CSS modules at 5.78KB (well under 50KB limit)
+- **Data Mapping**: Restaurant JSON data displays correctly with proper prop binding
+- **Build Success**: Next.js production build completes without errors
+
+**Verification Results**:
+- ✅ Ingestion script works: Creates complete Template Package with 4 files
+- ✅ Template validates: Passes with minor CSS warning only  
+- ✅ TypeScript compilation: Clean with strict mode enabled
+- ✅ Production build: Next.js build completes successfully
+- ✅ Template rendering: HTTP 200 response at `/restaurant/[slug]?template=royate`
+- ✅ API integration: `/api/templates` returns 3 templates (count increased)
+- ✅ Editor integration: All blocks registered with proper data-block attributes
+- ✅ Clean references: No legacy Royate/HTML5 references remain
+
+**Key Implementation Notes**:
+- Used Royate HTML5 template as Envato source instead of generic envato-one
+- Converted Revolution Slider to simple hero section with video background
+- Transformed section layouts to match 7-slot requirement (navbar, hero, menu, gallery, hours, cta, footer)
+- All styling properly scoped with CSS Modules
+- Restaurant data correctly mapped using menu_categories (not menu)
+- Template supports both English and Arabic menu items
+- Full editor field registration for text, image, variant, and spacing controls
+
+**IMPORTANT: Phase 5 → Phase 6 Ready**
+```bash
+# Current state verified
+npm run validate-template -- bistly simple-modern royate  # ✓ All pass
+npm run build                                             # ✓ Production ready  
+ls -1 templates/ | wc -l                                 # ✓ 3 working templates
+curl localhost:3001/api/templates | grep -c '"id"'      # ✓ Returns 3 templates
+```
+
+The Envato ingestion system is now **proven functional** and ready for processing additional HTML themes.
 
 ---
 

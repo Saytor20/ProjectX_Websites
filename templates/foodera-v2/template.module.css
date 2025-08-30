@@ -1,0 +1,502 @@
+/* Foodera V2 Template - Authentic Design Based on Original Foodera */
+
+/* Authentic Foodera Fonts */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+
+/* Base Template - Authentic Foodera Colors */
+.template {
+  --theme: #43121d;      /* Authentic Foodera dark red */
+  --theme2: #a82d49;     /* Authentic Foodera red */
+  --golden: #cdaa7c;     /* Universal accent - ALWAYS add this! */
+  --text: #555;          /* Authentic text color */
+  --section-padding: 80px; /* Authentic Foodera spacing */
+  
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+  color: var(--text);
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  margin: 0;
+  padding: 0;
+}
+
+.template h1, .template h2, .template h3, .template h4, .template h5, .template h6 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  color: var(--theme);
+  margin: 0;
+  letter-spacing: 0.1px;
+}
+
+.template p {
+  font-size: 16px;
+  color: var(--text);
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+.template a {
+  color: var(--theme);
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+.template a:hover {
+  color: var(--theme2);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Navigation - Authentic Foodera Style */
+.navbar {
+  background: rgba(67, 18, 29, 0.95);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 15px 0;
+  backdrop-filter: blur(10px);
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 45px;
+  width: auto;
+}
+
+.navMenu {
+  display: flex;
+  gap: 35px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navMenu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  transition: color 0.4s ease;
+  letter-spacing: 0.5px;
+}
+
+.navMenu a:hover {
+  color: var(--theme2);
+}
+
+/* Hero Section - Authentic Foodera Style */
+.hero {
+  background: url('/foodera/bg/hero.jpg') no-repeat center;
+  background-size: cover;
+  padding: 270px 0 150px;
+  color: var(--theme);
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.1);
+  z-index: 1;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+  padding: 0 20px;
+}
+
+.heroTitle {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 0 25px;
+  line-height: 1.2;
+  letter-spacing: 0.1px;
+  color: var(--theme);
+}
+
+.heroSubtitle {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text);
+  margin-bottom: 30px;
+  line-height: 1.7;
+}
+
+.heroButtons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btnPrimary {
+  background: var(--theme2);
+  color: white;
+  padding: 12px 25px;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.4s ease;
+  border: none;
+  letter-spacing: 0.5px;
+}
+
+.btnPrimary:hover {
+  background: var(--theme);
+  color: white;
+  transform: translateY(-1px);
+}
+
+.btnSecondary {
+  background: transparent;
+  color: var(--theme);
+  padding: 12px 25px;
+  border: 2px solid var(--theme);
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.4s ease;
+  letter-spacing: 0.5px;
+}
+
+.btnSecondary:hover {
+  background: var(--theme);
+  color: white;
+}
+
+/* Stats Section - Authentic Foodera */
+.stats {
+  background: var(--theme2);
+  padding: 60px 0;
+  margin: 80px 0;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.statsInfo {
+  color: white;
+}
+
+.statsInfo i {
+  font-size: 48px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.statsInfo p {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 0 5px;
+  color: white;
+}
+
+.statsInfo h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+  letter-spacing: 0.1px;
+}
+
+/* Explore Foods Section - Authentic Card Layout */
+.menu {
+  padding: var(--section-padding) 0;
+  background: #fff;
+}
+
+.menuTitle {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 15px;
+  color: var(--theme);
+  letter-spacing: 0.1px;
+}
+
+.menuSubtitle {
+  text-align: center;
+  font-size: 16px;
+  color: var(--text);
+  line-height: 28px;
+  margin: 0 auto 60px;
+  max-width: 600px;
+  font-weight: 400;
+}
+
+.menuGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cardProduct {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: all 0.4s ease;
+  border: 1px solid #eee;
+}
+
+.cardProduct:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.imgWrap {
+  height: 260px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  background: #f8f9fa;
+}
+
+.imgWrap img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.4s ease;
+}
+
+.cardProduct:hover .imgWrap img {
+  transform: scale(1.05);
+}
+
+.infoWrap {
+  padding: 20px;
+}
+
+.infoWrap .title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--theme);
+  margin: 0 0 8px;
+  letter-spacing: 0.1px;
+}
+
+.infoWrap .desc {
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.6;
+  margin: 0 0 15px;
+}
+
+.priceWrap {
+  margin: 15px 0 5px;
+}
+
+.priceNew {
+  font-weight: 700;
+  color: var(--theme2);
+  font-size: 18px;
+}
+
+.priceOld {
+  color: #999;
+  margin-left: 8px;
+  font-size: 16px;
+  text-decoration: line-through;
+}
+
+.bottomWrap {
+  padding: 15px 20px;
+  border-top: 1px solid #eee;
+  text-align: right;
+}
+
+.btnOrder {
+  background: var(--theme2);
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  display: inline-block;
+}
+
+.btnOrder:hover {
+  background: var(--theme);
+  color: white;
+  transform: translateY(-1px);
+}
+
+/* About Section */
+.about {
+  padding: var(--section-padding) 0;
+  background: #f8f9fa;
+}
+
+.aboutInline {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.aboutInline h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--theme);
+  margin: 0 0 15px;
+  letter-spacing: 0.1px;
+}
+
+.aboutInline p {
+  font-size: 16px;
+  color: var(--text);
+  line-height: 28px;
+  max-width: 700px;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+/* Contact Section */
+.contact {
+  padding: var(--section-padding) 0;
+  background: white;
+}
+
+.contactTitle {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 50px;
+  color: var(--theme);
+  letter-spacing: 0.1px;
+}
+
+.contactInfo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contactItem h4 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--theme);
+  margin: 0 0 10px;
+  letter-spacing: 0.1px;
+}
+
+.contactItem p {
+  color: var(--text);
+  margin: 0 0 5px;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+/* Utility Classes */
+.space30 {
+  margin-bottom: 30px;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+/* Responsive Design - Authentic Foodera */
+@media (max-width: 768px) {
+  .navMenu {
+    display: none;
+  }
+  
+  .hero {
+    padding: 200px 0 100px;
+  }
+  
+  .heroTitle {
+    font-size: 38px;
+  }
+  
+  .heroButtons {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .menuGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .statsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .contactInfo {
+    grid-template-columns: 1fr;
+  }
+  
+  .container {
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroTitle {
+    font-size: 32px;
+  }
+  
+  .menuGrid {
+    padding: 0 10px;
+  }
+  
+  .statsGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .imgWrap {
+    height: 200px;
+  }
+}

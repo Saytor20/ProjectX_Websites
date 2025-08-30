@@ -1,0 +1,39 @@
+
+/*------------------------------------------------- */
+/* =  features sections */
+/*------------------------------------------------- */
+
+section.features-section {
+	padding: 100px 0 120px;
+	.features-box {
+		.feature-image {
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+		}
+		.feature-post {
+			position: relative;
+			img {
+				position: absolute;
+			}
+		}
+		.feature-post.offset-top-1 {
+			margin-top: 260px;
+			padding-right: 60px;
+			img {
+				top: 50px;
+				right: -60px;
+			}
+		}
+		.feature-post.offset-top-2 {
+			margin-top: 410px;
+			text-align: right;
+			padding-left: 60px;
+			img {
+				top: -91px;
+				left: 10px;
+			}
+		}
+	}
+}

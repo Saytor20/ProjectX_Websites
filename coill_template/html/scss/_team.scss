@@ -1,0 +1,121 @@
+
+/*------------------------------------------------- */
+/* =  Team Sections */
+/*------------------------------------------------- */
+
+section.team-section {
+	background: url('../upload/banners/ban1.jpg');
+	@extend .back-cover;
+	.team-box {
+		overflow: hidden;
+		.half-box-side {
+			padding: 130px 20px;
+			float: right;
+			width: 50%;
+			.inner-box {
+				padding: 130px 10px;
+				max-width: 480px;
+				margin: 0 auto;
+				border: 2px solid #fff;
+				text-align: center;
+				h1 {
+					color: #fff;
+					margin-bottom: 0;
+				}
+			}
+		}
+		.team-box-side {
+			float: left;
+			width: 50%;
+			overflow: hidden;
+			background: #f9f9f9;
+			.team-post {
+				width: 50%;
+				float: left;
+				position: relative;
+				img {
+					width: 100%;
+					height: auto;
+				}
+				.hover-team {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					background: rgba(255,255,255,0.9);
+					text-align: center;
+					opacity: 0;
+					@include transition(0.2s);
+					.inner-team {
+						z-index: 2;
+						position: absolute;
+						width: 100%;
+						top: 50%;
+						left: 0;
+						margin-top: -25px;
+						h3 {
+							margin-bottom: 0;
+						}
+						span {
+							display: inline-block;
+							@extend .paragraph;
+							font-style: italic;
+							margin-bottom: 5px;
+						}
+						ul.social-team {
+							@extend .reset-elem;
+							li {
+								display: inline-block;
+								margin: 0 3px;
+								a {
+									color: $fourth-color;
+									font-size: 15px;
+								}
+								a:hover {
+									color: $primary-color;
+								}
+							}
+						}
+					}
+				}
+				.hover-team:after {
+					content: '';
+					position: absolute;
+					top: 21px;
+					left: 21px;
+					bottom: 21px;
+					right: 21px;
+					border: 2px solid $primary-color;
+				}
+			}
+			.team-post:hover {
+				.hover-team {
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+
+section.team-section.second-style {
+	padding: 110px 0 100px;
+	background: #ffffff;
+	.team-box {
+		.team-box-side {
+			float: none;
+			width: 100%;
+			.team-post {
+				width: 25%;
+			}
+		}
+	}
+	.team-bann {
+		margin-top: 90px;
+		text-align: center;
+		p {
+			margin-bottom: 20px;
+		}
+	}
+}
+

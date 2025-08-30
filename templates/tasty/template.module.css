@@ -1,0 +1,668 @@
+/* TASTY - Italian Restaurant Template CSS */
+
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Kristi&family=Lato:wght@300;400;700&family=Lora:wght@400;700&display=swap');
+
+/* Local Fonts */
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/lato/Lato-Medium.woff2') format('woff2'),
+       url('/fonts/lato/Lato-Medium.woff') format('woff'),
+       url('/fonts/lato/Lato-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+}
+
+/* CSS Variables - TASTY Design System */
+.template {
+  /* TASTY Colors */
+  --primary: #a68b7c;     /* Warm tan */
+  --secondary: #353031;   /* Dark brown */
+  --text: #757575;        /* Medium gray */
+  --white: #ffffff;
+  --black: #000000;
+  
+  /* Golden Accent (Required) */
+  --golden: #cdaa7c;
+  
+  /* Typography */
+  --font-body: 'Lato', sans-serif;
+  --font-heading: 'Lora', serif;
+  --font-script: 'Kristi', cursive;
+  
+  /* Spacing */
+  --section-padding: 150px;  /* Professional standard */
+  --container-max-width: 1200px;
+  --border-radius: 4px;
+  
+  /* Animations */
+  --zoom-duration: 15s;
+}
+
+/* Base Styles */
+.template * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.template {
+  font-family: var(--font-body);
+  color: var(--text);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.template h1,
+.template h2,
+.template h3,
+.template h4,
+.template h5,
+.template h6 {
+  font-family: var(--font-heading);
+  color: var(--secondary);
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+.template h1 {
+  font-size: 3.5rem;
+  color: var(--white);
+}
+
+.template h2 {
+  font-size: 2.5rem;
+}
+
+.template h3 {
+  font-size: 2rem;
+}
+
+.template p {
+  margin-bottom: 1rem;
+  color: var(--text);
+}
+
+/* Container */
+.template .container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ZOOM ANIMATION - Signature TASTY effect */
+@keyframes zoom {
+  0% { 
+    transform: scale(1);
+  }
+  50% { 
+    transform: scale(1.1);
+  }
+  100% { 
+    transform: scale(1);
+  }
+}
+
+.zoom {
+  animation: zoom var(--zoom-duration) ease 0s infinite;
+  -webkit-animation: zoom var(--zoom-duration) ease 0s infinite;
+  -moz-animation: zoom var(--zoom-duration) ease 0s infinite;
+  -ms-animation: zoom var(--zoom-duration) ease 0s infinite;
+  -o-animation: zoom var(--zoom-duration) ease 0s infinite;
+}
+
+/* Header/Navigation */
+.template .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 1rem 0;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  border-bottom: 1px solid rgba(166, 139, 124, 0.1);
+}
+
+.template .header.transparent {
+  background: rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.template .headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.template .logo {
+  font-family: var(--font-script);
+  font-size: 2rem;
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.template .nav {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.template .navLink {
+  color: var(--secondary);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  text-transform: lowercase;
+  transition: color 0.3s ease;
+  padding: 0.5rem 0;
+  position: relative;
+}
+
+.template .navLink:hover,
+.template .navLink.active {
+  color: var(--primary);
+}
+
+.template .navLink::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--primary);
+  transition: width 0.3s ease;
+}
+
+.template .navLink:hover::after,
+.template .navLink.active::after {
+  width: 100%;
+}
+
+/* Hero Section */
+.template .hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: var(--secondary);
+}
+
+.template .heroBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.template .heroBackground img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.template .heroOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom, 
+    rgba(41, 41, 41, 0.5) 60%, 
+    rgba(41, 41, 41, 0) 100%
+  );
+  z-index: 2;
+}
+
+.template .heroContent {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  color: var(--white);
+  max-width: 800px;
+  padding: 0 2rem;
+}
+
+.template .heroTitle {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  font-family: var(--font-heading);
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+}
+
+.template .heroSubtitle {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-style: italic;
+}
+
+/* Sections */
+.template .section {
+  padding: var(--section-padding) 0;
+}
+
+.template .sectionTitle {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 2.5rem;
+  color: var(--secondary);
+  position: relative;
+}
+
+.template .sectionTitle::after {
+  content: '';
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 2px;
+  background: var(--primary);
+}
+
+/* About Section */
+.template .about {
+  background: var(--white);
+}
+
+.template .aboutContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.template .aboutText {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.template .aboutImage {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--border-radius);
+}
+
+.template .aboutImage img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.template .aboutImage:hover img {
+  transform: scale(1.05);
+}
+
+/* Menu Section - Horizontal Layout (Pattern B) */
+.template .menu {
+  background: #f8f8f8;
+}
+
+.template .menuGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin-top: 3rem;
+}
+
+.template .menuColumn {
+  /* Empty styles for menu columns */
+}
+
+.template .menuCategory {
+  margin-bottom: 3rem;
+}
+
+.template .categoryTitle {
+  font-size: 1.5rem;
+  color: var(--primary);
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: lowercase;
+  font-family: var(--font-script);
+}
+
+.template .menuItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  position: relative;
+}
+
+.template .menuItem::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: repeating-linear-gradient(
+    to right,
+    var(--primary) 0,
+    var(--primary) 4px,
+    transparent 4px,
+    transparent 8px
+  );
+  opacity: 0.3;
+}
+
+.template .menuItemImage {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.template .menuItemImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.template .menuItemContent {
+  flex: 1;
+}
+
+.template .menuItemName {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--secondary);
+  margin-bottom: 0.5rem;
+  font-family: var(--font-heading);
+}
+
+.template .menuItemDescription {
+  color: var(--text);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+.template .menuItemPrice {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+/* Gallery Section */
+.template .gallery {
+  background: var(--white);
+}
+
+.template .galleryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.template .galleryItem {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--border-radius);
+  aspect-ratio: 1;
+}
+
+.template .galleryItem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.template .galleryItem:hover img {
+  transform: scale(1.1);
+}
+
+.template .galleryOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(166, 139, 124, 0.8);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.template .galleryItem:hover .galleryOverlay {
+  opacity: 1;
+}
+
+/* Contact Section */
+.template .contact {
+  background: var(--secondary);
+  color: var(--white);
+}
+
+.template .contact .sectionTitle {
+  color: var(--white);
+}
+
+.template .contactContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin-top: 3rem;
+}
+
+.template .contactInfo h3 {
+  color: var(--primary);
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.template .contactInfo p {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 1rem;
+}
+
+.template .hoursGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.template .hoursRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Footer */
+.template .footer {
+  background: #2a2a2a;
+  color: var(--white);
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.template .footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.template .footerLogo {
+  font-family: var(--font-script);
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+
+.template .socialLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.template .socialLink {
+  color: var(--white);
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.template .socialLink:hover {
+  color: var(--primary);
+}
+
+/* Data Block Attributes for Editor */
+.template [data-block="hero"] {
+  position: relative;
+}
+
+.template [data-block="about"] {
+  position: relative;
+}
+
+.template [data-block="menu"] {
+  position: relative;
+}
+
+.template [data-block="gallery"] {
+  position: relative;
+}
+
+.template [data-block="contact"] {
+  position: relative;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+  .template .heroTitle {
+    font-size: 2.5rem;
+  }
+  
+  .template .heroSubtitle {
+    font-size: 1.1rem;
+  }
+  
+  .template .menuGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .template .aboutContent {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .template .contactContent {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .template .nav {
+    display: none;
+  }
+  
+  .template .galleryGrid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  .template .section {
+    padding: 80px 0;
+  }
+  
+  .template .container {
+    padding: 0 1rem;
+  }
+}
+
+/* Animations and Transitions */
+.template .fadeIn {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Special TASTY Elements */
+.template .dots {
+  display: inline-block;
+  width: 100px;
+  height: 2px;
+  background: repeating-linear-gradient(
+    to right,
+    var(--primary) 0,
+    var(--primary) 4px,
+    transparent 4px,
+    transparent 8px
+  );
+  margin: 0 1rem;
+  opacity: 0.6;
+}
+
+.template .scriptText {
+  font-family: var(--font-script);
+  color: var(--primary);
+  font-size: 1.2em;
+}
+
+/* Hover Effects */
+.template .hoverScale {
+  transition: transform 0.3s ease;
+}
+
+.template .hoverScale:hover {
+  transform: scale(1.05);
+}
+
+/* Button Styles */
+.template .btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background: var(--primary);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: var(--border-radius);
+  font-weight: 500;
+  text-transform: lowercase;
+  transition: all 0.3s ease;
+  border: 2px solid var(--primary);
+}
+
+.template .btn:hover {
+  background: transparent;
+  color: var(--primary);
+}
+
+.template .btnOutline {
+  background: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+
+.template .btnOutline:hover {
+  background: var(--primary);
+  color: var(--white);
+}

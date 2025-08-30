@@ -1,0 +1,552 @@
+/* Royate Template - Authentic Design Conversion */
+
+/* Font Faces */
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url("/fonts/raleway/Raleway-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Raleway-SemiBold";
+  src: url("/fonts/raleway/Raleway-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Raleway-Bold";
+  src: url("/fonts/raleway/Raleway-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Satisfy-Regular";
+  src: url("/fonts/satisfy/Satisfy-Regular.ttf");
+  font-weight: 400;
+}
+
+/* Base Template */
+.template {
+  font-family: "Raleway-Regular", sans-serif;
+  color: #666;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Navigation */
+.navbar {
+  background: #fff;
+  padding: 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbarDesktop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+.left {
+  flex: 0 0 auto;
+}
+
+.logo img {
+  height: 48px;
+  width: auto;
+}
+
+.navMenu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+}
+
+.navMenu a {
+  color: #333;
+  text-decoration: none;
+  font-family: "Raleway-SemiBold";
+  font-weight: 600;
+  padding: 10px 0;
+  transition: color 0.3s ease;
+}
+
+.navMenu a:hover {
+  color: #cdaa7c;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/royate/images/slideshow-1.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
+.heroContent {
+  z-index: 2;
+  position: relative;
+  max-width: 800px;
+}
+
+.heroTitle {
+  font-size: 72px;
+  font-weight: 400;
+  color: #cdaa7c;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  font-family: "Satisfy-Regular", cursive;
+}
+
+.heroSubtitle {
+  font-size: 20px;
+  color: #ccc;
+  margin-bottom: 40px;
+  font-family: "Raleway-Regular";
+}
+
+.heroButton {
+  display: inline-block;
+  background: transparent;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  border: 2px solid #cdaa7c;
+  border-radius: 25px;
+  font-weight: 600;
+  font-family: "Raleway-SemiBold";
+  transition: all 0.3s ease;
+}
+
+.heroButton:hover {
+  background: #cdaa7c;
+  color: #fff;
+}
+
+/* Welcome Section */
+.welcome {
+  padding: 150px 0 120px;
+  background: #f8f8f8;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.sectionHeader h2 {
+  font-size: 45px;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 10px;
+  font-family: "Satisfy-Regular", cursive;
+}
+
+.sectionHeader span {
+  color: #cdaa7c;
+  font-style: italic;
+  font-family: "Raleway-Regular";
+}
+
+.welcomeGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.welcomeItem {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.postThumb {
+  margin-bottom: 20px;
+}
+
+.postThumb img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.postBody h5 {
+  font-family: "Raleway-SemiBold";
+  font-weight: 600;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.postBody p {
+  color: #666;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+.readMore {
+  color: #cdaa7c;
+  text-decoration: none;
+  font-family: "Raleway-SemiBold";
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.readMore:hover {
+  color: #b8956a;
+}
+
+/* Menu Section */
+.menu {
+  padding: 150px 0 113px;
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('/royate/images/slideshow-1.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.menu .sectionHeader h2 {
+  color: white;
+}
+
+.menuTitle {
+  color: white !important;
+}
+
+.menuGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+  margin-top: 80px;
+}
+
+.ourMenuCol {
+  margin-bottom: 70px;
+}
+
+.ourMenuCol.left {
+  padding-right: 30px;
+}
+
+.ourMenuCol.right {
+  padding-left: 30px;
+}
+
+.heading {
+  margin-bottom: 36px;
+  padding-left: 5px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.heading h3 {
+  font-family: "Satisfy-Regular", cursive;
+  color: #e5e5e5;
+  font-weight: 400;
+  display: inline-block;
+  font-size: 35px;
+}
+
+.icon {
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.icon.mt12 {
+  margin-top: 12px;
+}
+
+.body {
+  padding-left: 5px;
+}
+
+.menuItem {
+  margin-bottom: 29px;
+}
+
+.menuItem:last-child {
+  margin-bottom: 0;
+}
+
+.menuItem h5 {
+  font-family: "Raleway-Regular";
+  margin-bottom: 9px;
+  color: #ccc;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.menuItem h5 a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.menuItem h5 a:hover {
+  color: #e5be8a;
+}
+
+.dots {
+  flex-grow: 1;
+  border-bottom: 1px dotted #ccc;
+  margin: 0 10px;
+  transform: translateY(-6px);
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.currencySymbol {
+  margin-right: 2px;
+}
+
+.menuItem ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 5px;
+}
+
+.menuItem ul li a {
+  color: #999;
+  text-decoration: none;
+  font-size: 13px;
+  position: relative;
+}
+
+.menuItem ul li a:after {
+  content: '/';
+  margin-left: 4px;
+  color: #999;
+}
+
+.menuItem ul li:last-child a:after {
+  display: none;
+}
+
+.menuItem ul li a:hover {
+  color: #cdaa7c;
+}
+
+/* Hours Section */
+.hours {
+  padding: 80px 0;
+  background: white;
+  text-align: center;
+}
+
+.hoursTitle {
+  color: #333 !important;
+  font-family: "Satisfy-Regular", cursive;
+}
+
+.hoursContent {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hoursContent p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #555;
+  font-family: "Raleway-Regular";
+}
+
+/* CTA Section */
+.cta {
+  padding: 80px 0;
+  background: #cdaa7c;
+  color: white;
+  text-align: center;
+}
+
+.ctaContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.ctaTitle {
+  font-size: 42px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-family: "Satisfy-Regular", cursive;
+}
+
+.ctaButton {
+  display: inline-block;
+  background: transparent;
+  color: white;
+  padding: 15px 40px;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 25px;
+  font-weight: 600;
+  margin-top: 30px;
+  transition: all 0.3s ease;
+  font-family: "Raleway-SemiBold";
+}
+
+.ctaButton:hover {
+  background: white;
+  color: #cdaa7c;
+}
+
+/* Footer */
+.footer {
+  background: #2c3e50;
+  color: #bdc3c7;
+}
+
+.ftTop {
+  padding: 60px 0;
+}
+
+.ftTopWrapper {
+  display: grid;
+  gap: 40px;
+}
+
+.ftLogo {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.ftLogo img {
+  height: 48px;
+}
+
+.ftContent {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.ftCol h6 {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-family: "Raleway-SemiBold";
+}
+
+.footerTitle {
+  color: white !important;
+}
+
+.formInner {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.formInner input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  background: white;
+  font-family: "Raleway-Regular";
+}
+
+.formInner button {
+  padding: 12px 20px;
+  background: #cdaa7c;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Raleway-SemiBold";
+}
+
+.formInner button:hover {
+  background: #b8956a;
+}
+
+.ftBot {
+  padding: 20px 0;
+  background: #1a252f;
+  text-align: center;
+  border-top: 1px solid #34495e;
+  font-family: "Raleway-Regular";
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 48px;
+  }
+  
+  .heroSubtitle {
+    font-size: 16px;
+  }
+  
+  .sectionHeader h2 {
+    font-size: 32px;
+  }
+  
+  .menuGrid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .ourMenuCol.left,
+  .ourMenuCol.right {
+    padding: 0;
+  }
+  
+  .welcomeGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .navMenu {
+    display: none;
+  }
+  
+  .welcome {
+    padding: 80px 0;
+  }
+  
+  .menu {
+    padding: 80px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroTitle {
+    font-size: 36px;
+  }
+  
+  .sectionHeader h2 {
+    font-size: 28px;
+  }
+  
+  .ctaTitle {
+    font-size: 32px;
+  }
+  
+  .heading h3 {
+    font-size: 28px;
+  }
+}

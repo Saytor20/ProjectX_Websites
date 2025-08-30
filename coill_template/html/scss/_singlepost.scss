@@ -1,0 +1,175 @@
+
+/*------------------------------------------------- */
+/* =  Single Post */
+/*------------------------------------------------- */
+
+section.blog-section.single-post {
+	.single-image {
+		margin-bottom: 26px;
+		img {
+			width: 100%;
+		}
+	}
+    .share-tag-box {
+        overflow: hidden;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #eeeeee;
+        margin-bottom: 50px;
+        ul {
+            @extend .reset-elem;
+            li {
+                display: inline-block;
+                margin-right: 1px;
+            }
+        }
+        div.share-box {
+        	float: left;
+        	margin-bottom: 30px;
+        }
+        div.tag-box {
+        	float: right;
+        	text-align: right;
+        	margin-bottom: 30px;
+        }
+        ul.share-list {
+            li {
+                display: inline-block;
+                margin:0 2px;
+                a {
+                    width: 40px;
+                    height: 40px;
+                    @include border-radius(50%);
+                    border: 2px solid $fourth-color;
+                    text-align: center;
+                    line-height: 36px;
+                    font-size: 14px;
+                    color: $fourth-color;
+                }
+                a:hover {
+                    border: 2px solid transparent;
+                    color: $second-color;
+                }
+            }
+        }
+        ul.tag-list {
+            li a {
+                color: $third-color;
+                font-size: 12px;
+                font-family: $font-alternative;
+                font-style: italic;
+            }
+            li a:hover {
+                color: $primary-color;
+            }
+        }
+    }
+}
+
+.comment-area-box {
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eeeeee;
+    > ul {
+        @extend .reset-elem;
+        padding-top: 10px;
+        li {
+            list-style: none;
+            .comment-box {
+                overflow: hidden;
+                margin-bottom: 55px;
+                img {
+                    max-width: 70px;
+                    float: left;
+                    @include border-radius(50%);
+                }
+                .comment-content {
+                    margin-left: 100px;
+                    h4 {
+                        color: $second-color;
+                        font-size: 14px;
+                        font-family: $font-default;
+                        font-weight: 600;
+                        margin: 0;
+                    }
+                    span, a {
+                        font-size: 12px;
+                        color: $third-color;
+                        font-family: $font-alternative;
+                        display: inline-block;
+                        font-style: italic;
+                        margin: 0 0 16px;
+                    }
+                    a {
+                        float: right;
+                        margin-top: -10px;
+                    }
+                    a:hover {
+                        color: $primary-color;
+                    }
+                    p {
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+        }
+    }
+    ul.depth {
+        .comment-box {
+            padding-left: 100px;
+        }
+    }
+}
+
+.contact-form-box {
+    > span {
+        display: block;
+        font-size: 12px;
+        color: $third-color;
+        font-family: $font-alternative;
+        display: inline-block;
+        font-style: italic;
+        margin: 0 0 25px;
+    }
+    #comment-form {
+        margin: 0;
+        input[type="text"],
+        textarea {
+            display: block;
+            width: 100%;
+            padding: 12px 20px;
+            background: #f7f7f7;
+            color: $third-color;
+            font-size: 12px;
+            font-family: $font-default;
+            outline: none;
+            border: 1px solid transparent;
+            margin: 0 0 30px;
+            @include transition(0.2s);
+        }
+        input[type="text"]:focus,
+        textarea:focus {
+            border: 1px solid $primary-color;
+            background: transparent;
+        }
+        textarea {
+            height: 130px;
+        }
+        input[type="submit"] {
+            color: $second-color;
+            font-size: 13px;
+            font-family: $font-default;
+            font-weight: 500;
+            padding: 13px 20px 10px;
+            text-transform: uppercase;
+            border: 2px solid $second-color;
+            background: transparent;
+            outline: none;
+            @include border-radius(25px);
+            @include transition(0.2s);
+        }
+        input[type="submit"]:hover {
+            background: $second-color;
+            color: #ffffff;
+        }
+    }
+}

@@ -62,3 +62,6 @@ next-env.d.ts
 *~
 .*.tmp
 _snapshots/
+
+# Large template files
+prebuilt_templates/

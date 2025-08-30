@@ -1,0 +1,51 @@
+
+/*------------------------------------------------- */
+/* =  single project  */
+/*------------------------------------------------- */
+
+section.single-project-section {
+	padding: 95px 0;
+	div.single-info {
+		margin-bottom: 30px;
+		p {
+			margin-bottom: 0;
+			span {
+				color: $second-color;
+			}
+		}
+	}
+	div.single-pro-content {
+		margin-bottom: 40px;
+	}
+	img {
+		width: 100%;
+		height: auto;
+		margin-bottom: 30px;
+	}
+    div.share-box {
+        text-align: center;
+        padding-top: 65px;
+        ul.share-list {
+            @extend .reset-elem;
+            li {
+                display: inline-block;
+                margin:0 2px;
+                a {
+                    width: 40px;
+                    height: 40px;
+                    @include border-radius(50%);
+                    border: 2px solid $fourth-color;
+                    text-align: center;
+                    line-height: 36px;
+                    font-size: 14px;
+                    color: $fourth-color;
+                }
+                a:hover {
+                    border: 2px solid $fourth-color;
+                    background: $fourth-color;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}

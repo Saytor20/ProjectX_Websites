@@ -1,0 +1,41 @@
+{
+  "id": "tasty",
+  "name": "Tasty Italian",
+  "description": "Elegant Italian restaurant template with zoom animations, warm tan color scheme, horizontal menu layout, and sophisticated typography",
+  "category": "elegant",
+  "preview": "/templates/tasty/preview.jpg",
+  "author": "Restaurant Generator",
+  "version": "1.0.0",
+  "tags": ["italian", "elegant", "zoom", "tan", "horizontal-menu", "sophisticated"],
+  "slots": ["header", "hero", "about", "menu", "gallery", "contact", "footer"],
+  "features": [
+    "Signature zoom animations (15s background scaling)",
+    "Horizontal menu layout with item images",
+    "Elegant Italian restaurant theme",
+    "Warm tan and dark brown color palette",
+    "Multiple typography fonts (Lato, Lora, Kristi)",
+    "Hero slider with auto-rotation",
+    "Professional section padding (150px)"
+  ],
+  "sections": [
+    { "id": "header", "name": "Header Navigation" },
+    { "id": "hero", "name": "Hero Slider with Zoom" },
+    { "id": "about", "name": "About Restaurant" },
+    { "id": "menu", "name": "Horizontal Menu Layout" },
+    { "id": "gallery", "name": "Photo Gallery" },
+    { "id": "contact", "name": "Contact & Hours" },
+    { "id": "footer", "name": "Footer" }
+  ],
+  "colorScheme": {
+    "primary": "#a68b7c",
+    "secondary": "#353031",
+    "text": "#757575",
+    "golden": "#cdaa7c",
+    "white": "#ffffff"
+  },
+  "fonts": {
+    "body": "Lato",
+    "heading": "Lora", 
+    "script": "Kristi"
+  }
+}

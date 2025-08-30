@@ -1,0 +1,68 @@
+
+
+/*------------------------------------------------- */
+/* =  Pricing Tables */
+/*------------------------------------------------- */
+
+section.pricing-tables-section {
+	padding: 90px;
+	.pricing-box {
+		.price-table {
+			text-align: center;
+			margin-bottom: 10px;
+			padding: 60px 20px;
+			position: relative;
+			@include transition(0.2s);
+			span {
+				display: inline-block;
+				color: $third-color;
+				font-size: 10px;
+				font-family: $font-default;
+				font-weight: 400;
+				text-transform: uppercase;
+				margin-bottom: 10px;
+			}
+			> span {
+				position: absolute;
+				top: 40px;
+				left: 0;
+				width: 100%;
+			}
+			h3 {
+				margin-bottom: 30px;
+			}
+			h1 {
+				color: $primary-color;
+				span {
+					display: block;
+					margin: 0;
+					letter-spacing: 0;
+					margin-top: -20px;
+				}
+			}
+			ul {
+				@extend .reset-elem;
+				margin-bottom: 35px;
+				li {
+					display: block;
+					@extend .paragraph;
+					margin-bottom: 0;
+					line-height: 30px;
+				}
+			}
+			a.button-one {
+			    color: $second-color;
+			    padding: 13px 30px;
+			    background: #f9f9f9;
+			}
+
+			a.button-one:hover {
+			    color: #fff;
+			    background: $primary-color;
+			}
+		}
+		.price-table:hover {
+			background: #f9f9f9;
+		}
+	}
+}

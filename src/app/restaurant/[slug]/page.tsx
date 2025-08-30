@@ -91,7 +91,7 @@ export default async function RestaurantPage({ params, searchParams }: {
           : rawData.restaurant_info?.cuisine_type || 'Restaurant',
         hungerstation_url: undefined
       },
-      menu_categories: rawData.menu ? transformMenuData(rawData.menu) : {}
+      menu_categories: rawData.menu_categories || {}
     };
 
     restaurantData = validateRestaurant(adaptedData)

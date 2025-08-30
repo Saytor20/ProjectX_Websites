@@ -1,10 +1,10 @@
 # Restaurant Website Generator - Modern TypeScript System  
-*Last Updated: December 19, 2024*
+*Last Updated: December 30, 2024*
 
 ## Overview
 Professional restaurant website generator built with Next.js 15, TypeScript, and modern React patterns. Features a robust component-based template system, working visual editor, and production-ready architecture.
 
-**Production Ready**: Fully functional system with 7 working templates, simplified design tools, consistent template rendering across all views, and comprehensive error handling. All critical issues resolved.
+**Production Ready**: Fully functional system with 9 working templates, simplified design tools, consistent template rendering across all views, and comprehensive error handling. All critical issues resolved.
 
 ## ✅ Simple Design Tools System  
 Simplified box-based design tools for easy website editing:
@@ -155,7 +155,7 @@ The Simple Editor provides basic functionality for editing website elements:
 ### Files
 - `public/dev/simple-editor.js`: Main editor implementation (~500 lines)
 - `public/dev/inspector.css`: Visual overlays and grid system
-- Templates stored in `/skins/` directory (will be renamed to `/templates/`)
+- Templates stored in `/templates/` directory with registry system
 
 ### Usage
 1. Start dev server: `npm run dev`
@@ -303,14 +303,17 @@ Websites_nextjs/
 │       └── skin-tokens.schema.json # Skin token validation
 ├── docs/                          # Documentation (CLEAN)
 │   └── ARCHITECTURE.md            # System architecture guide ✅ (Aug 19, 2025)
-├── skins/                         # Template source files (7 working templates)
-│   ├── cafert-modern/             # Premium Cafert template ✅
-│   ├── simple-modern/             # Reference template ✅
-│   ├── bistly-modern/             # Bistro aesthetic ✅
-│   ├── foodera-modern/            # Modern food theme ✅
-│   ├── conbiz-premium/            # Professional business ✅
-│   ├── mehu-fresh/                # Fresh modern theme ✅
-│   └── quantum-nexus/             # Futuristic design ✅
+├── templates/                     # Template source files (9 working templates)
+│   ├── bistly/                    # Bistro aesthetic template ✅
+│   ├── simple-modern/             # Clean minimalist template ✅
+│   ├── royate/                    # Royal themed template ✅
+│   ├── foodera/                   # Modern food theme ✅
+│   ├── mehu/                      # Fresh modern theme ✅
+│   ├── shara/                     # Contemporary design ✅
+│   ├── foodera-v2/                # Enhanced food theme ✅
+│   ├── tasty/                     # Delicious food focus ✅
+│   ├── callix/                    # Professional calling template ✅
+│   └── registry.ts                # Template registration system
 ├── public/                        # Static assets
 │   └── dev/                       # Development assets
 │       ├── inspector.css          # Visual inspector styles
@@ -381,12 +384,12 @@ interface ComponentProps {
 }
 ```
 
-## Skin System
+## Template System
 
 ### CSS Scoping Rules
-- All CSS selectors automatically prefixed with `[data-skin="skin-id"]`
-- No global styles allowed in skin files
-- PostCSS processes and validates all skin CSS
+- All CSS selectors automatically prefixed with template-specific classes
+- No global styles allowed in template files
+- Component-based isolation ensures no conflicts
 
 ### Design Token Structure
 ```json
@@ -407,15 +410,15 @@ interface ComponentProps {
 ## Performance Architecture
 
 ### Budget Enforcement
-- **CSS Budget**: ≤50KB per skin (enforced)
-- **JS Budget**: ≤15-20KB gzipped per skin (enforced) 
+- **CSS Budget**: ≤50KB per template (enforced)
+- **JS Budget**: ≤15-20KB gzipped per template (enforced) 
 - **Build Validation**: Fails if budgets exceeded
 - **Runtime Monitoring**: Performance tracking in development
 
-### Multi-Skin Leakage Prevention
-- **Automated Testing**: Side-by-side skin rendering
+### Multi-Template Isolation
+- **Automated Testing**: Side-by-side template rendering
 - **CSS Conflict Detection**: Unprefixed selector identification
-- **Isolation Validation**: Ensures no cross-skin contamination
+- **Isolation Validation**: Ensures no cross-template contamination
 
 ## ISR + Revalidation System
 
@@ -541,19 +544,26 @@ POST /api/revalidate { "type": "full" }
 
 ## Phase Roadmap
 
-### Phase 1: Local JSON Only ✅ COMPLETE
+### Phase 1: Template System ✅ COMPLETE
 - Component kit with 10 fixed components
-- Single premium skin (Cafert Modern)
+- 9 working templates with diverse styles
 - Local restaurant data processing
 - Performance budget enforcement
-- Multi-skin leakage testing
-- ISR + revalidation system
+- Template isolation and scoping
+- Modern template registry system
+
+### Phase 2: Current Development 🚧
+- Enhanced visual design tools
+- Template customization system
+- Advanced component mapping
+- Real-time preview improvements
 
 ### Future Phases (Planned)
-- **Phase 2**: Multi-skin expansion (5+ premium skins)
 - **Phase 3**: Logo upload and customization system
 - **Phase 4**: External data integration (APIs)
 - **Phase 5**: Advanced theming and branding options
+- **Phase 6**: Multi-language support
+- **Phase 7**: E-commerce integration
 
 ## Template Quality & Performance Standards
 
@@ -588,7 +598,8 @@ npm run validate:responsive  # Mobile responsive design testing
 
 ### 🎯 **Working Features Delivered**
 - **🖥️ Simple Design Tools**: 6-box tool system with Select, Colors, Shapes, Pictures, Links, Text
-- **🎨 7 Working Templates**: All templates tested and functional with real restaurant data
+- **🎨 9 Working Templates**: All templates tested and functional with real restaurant data
+  - Bistly, Simple Modern, Royate, Foodera, Mehu, Shara, Foodera-v2, Tasty, Callix
 - **📱 Consistent Rendering**: Design and Preview tabs show identical templates
 - **🔧 Zero JavaScript Errors**: All React/Next.js errors resolved
 - **⚡ Preview System**: Opens in new window/tab for full browser experience
@@ -606,11 +617,12 @@ npm run validate:responsive  # Mobile responsive design testing
 | Feature | Status | Implementation |
 |---------|--------|----------------|
 | Design Tools | ✅ Working | Simple 6-box interface with Select, Colors, Shapes, etc. |
-| Template System | ✅ Working | 7 templates, consistent rendering across all views |
+| Template System | ✅ Working | 9 templates, consistent rendering across all views |
 | Preview System | ✅ Working | Opens in new window/tab, no iframe issues |
 | Element Selection | ✅ Working | Click to select, 8-point resize handles |
 | Shape Management | ✅ Working | Proper layering with z-index |
 | Error Handling | ✅ Robust | All React/Next.js errors resolved |
+| Template Registry | ✅ Working | Centralized template management system |
 
 ### 🚀 **Ready for Development Focus**
 

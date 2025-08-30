@@ -1,0 +1,213 @@
+
+ 
+/*-------------------------------------------------- */
+/* 1. Isotope filtering */
+/*------------------------------------------------- */
+.isotope-item {
+    z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+
+.isotope, .isotope .isotope-item {
+    // change duration value to whatever you like
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+/*-----------------------------------------------------------------------------
+ *
+ *KENBURNER RESPONSIVE BASIC STYLES OF HTML DOCUMENT
+ *
+ *Screen Stylesheet
+ *
+ *version:    1.0
+ *date:       07/27/11
+ *author:     themepunch
+ *email:      support@themepunch.com
+ *website:    http://www.themepunch.com */
+/*----------------------------------------------------------------------------- */
+
+.boxedcontainer {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0px 30px;
+}
+
+/*********************************************
+ *    -   SETTINGS FOR BANNER CONTAINERS  -
+ ********************************************* */
+
+.tp-banner-container {
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+.tp-banner {
+    width: 100%;
+    position: relative;
+}
+
+.tp-banner-fullscreen-container {
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+/*------------------------------------------------- */
+/* =  General */
+/*------------------------------------------------- */
+
+p {
+    @extend .paragraph;
+}
+
+h1 {
+    @extend .heading1;
+}
+
+h2 {
+    @extend .heading2;
+}
+
+h3 {
+    @extend .heading3;
+}
+
+a {
+    @extend .anchor;
+}
+
+
+.title-section {
+    text-align: center;
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.title-section.white-style {
+    h1 {
+        color: #ffffff;
+    }
+}
+
+.title-section.white-style:before {
+    background: #ffffff;
+}
+
+#home-section {
+    overflow: hidden;
+    min-height: 700px;
+    background: #111111;
+    .tp-caption.Concept-Title {
+        font-family: $font-default;
+        letter-spacing: -2.5px;
+    }
+
+    .tp-caption.Concept-SubTitle {
+        font-family: $font-alternative;
+        font-style: normal !important;
+        font-weight: 400 !important;
+    }
+}
+
+a.button-one {
+    color: #fff;
+    font-size: 13px;
+    font-family: $font-default;
+    text-transform: uppercase;
+    padding: 13px 50px;
+    background: $primary-color;
+    font-weight: 500;
+
+    @include border-radius(25px);
+
+    text-decoration: none;
+}
+
+a.button-one:hover {
+    color: $second-color;
+    background: #ffffff;
+}
+
+.center-button {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #fff;
+    text-align: center;
+    a {
+        color: $second-color;
+        font-size: 13px;
+        font-family: $font-default;
+        font-weight: 500;
+        padding: 13px 20px 10px;
+        text-transform: uppercase;
+        border: 2px solid $second-color;
+        @include border-radius(25px);
+    }
+    a:hover {
+        background: $second-color;
+        color: #fff;
+    }
+}
+
+a.button-two {
+    color: $second-color;
+    font-size: 13px;
+    font-family: $font-default;
+    font-weight: 500;
+    padding: 13px 20px 10px;
+    text-transform: uppercase;
+    border: 2px solid $second-color;
+    @include border-radius(25px);
+}
+a.button-two:hover {
+    background: $second-color;
+    color: #fff;
+}
+
+section.page-banner-section {
+    padding: 200px 0 85px;
+    text-align: center;
+    @extend .back-cover;
+    h1 {
+        font-size: 72px;
+        color: #ffffff;
+        margin: 0;
+    }
+}
+
+section.page-banner-section.contact {
+    background: url('../upload/banners/ban2.jpg');
+}
+
+section.page-banner-section.portfolio {
+    background: url('../upload/banners/ban3.jpg');
+}
+section.page-banner-section.blog {
+    background: url('../upload/banners/ban4.jpg');
+}
+section.page-banner-section.services {
+    background: url('../upload/banners/ban5.jpg');
+}
+section.page-banner-section.about {
+    background: url('../upload/banners/ban6.jpg');
+}
+
